@@ -44,7 +44,7 @@ body{
     height: auto;
     width: 80%;
 }
-#curiosidade{
+#curiosidade, #licoes_a_aprender{
     width: 25%;
     position: relative;
     height: auto;
@@ -71,7 +71,7 @@ body{
     max-width:60%;
     font-size:15px;
 }
-#quem-sou-eu-titulo, #titulo-aprendizagem, #titulo-curiosidade{
+#quem-sou-eu-titulo, #titulo-aprendizagem, #titulo-curiosidade, #titulo-licoes-aprendidas, #titulo-licoes-a-aprender {
     text-align:center;
     background-color:#42b72a;
     padding:0 16px;
@@ -88,7 +88,7 @@ h1{
 h2{
     font-size:1,5em;
 }
-li{
+#menu-navegacao li {
     float:left;
     display:inline;
 }
@@ -96,6 +96,42 @@ li a{
     display:block;
     text-align:center;
     padding:5px 20px;
+}
+#licoes{
+    display: inline-block;
+    height: auto;
+    width: 80%;
+    border:1px dashed black;
+    padding:0px 10px;
+    background-color:#e9eeec;
+    margin-bottom:100px;
+}
+
+#licoes_a_aprender {
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#licoes_aprendidas{
+    float: left;
+    margin-top: 20px;
+}
+#licoes_aprendidas, #licoes_a_aprender{
+    text-align: left;
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing:0.04rem;
+}
+#div-licoes-aprendidas{
+    float: left;
+    width: 50%;
+    padding: 20px 10px;
+}
+
+#div-licoes-a-aprender{
+    float: right;
+    width: 40%;
+    padding: 20px 10px;
 }
 #menu-navegacao{
     justify-content:space-between;
@@ -140,9 +176,10 @@ li a{
     padding:10px;
     color:white;
 }
-#titulo-aprendizagem, #titulo-curiosidade{
+#titulo-aprendizagem, #titulo-curiosidade, #titulo-licoes-aprendidas, #titulo-licoes-a-aprender {
     margin:0;
 }
+
 ul{
     margin:0;
     padding:0;
