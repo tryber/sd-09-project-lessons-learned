@@ -111,6 +111,7 @@ li a{
     float: left;
     margin-left: 70px;
     margin-top: 20px;
+    width: 100%;
 }
 #licoes_aprendidas{
     float: left;
