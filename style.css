@@ -1,5 +1,5 @@
 
-#apresentacao {
+#apresentacao{
     position: relative;
     max-width: 70%;
     text-align: justify;
@@ -7,8 +7,7 @@
     margin-top: 40px;
     line-height: 20px;
 }
-
-#artigo-aprendizagem, #texto-curiosidade, #curiosidade {
+#artigo-aprendizagem, #texto-curiosidade, #curiosidade{
     margin: 10px;
     margin-top: 10px;
     padding: 10px;
@@ -17,24 +16,20 @@
     font-size: 18px;
     width: 60%;
 }
-
-#artigo-aprendizagem {
+#artigo-aprendizagem{
     display: inline-block;
 }
-
-#artigo-e-curiosidade { 
+#artigo-e-curiosidade{ 
     overflow: auto;
     width: 100%;
     margin-right: 10px;
 }
-
-body {
+body{
     background-color: rgb(253, 251, 251);
     font-size: 16px;
     font-family: inherit, sans-serif
 }
-
-#cabecalho {
+#cabecalho{
     position: fixed;
     z-index: 2;
     top: 0;
@@ -44,114 +39,98 @@ body {
     border-bottom: solid 1px grey;
     background-color: #3b5998;
 }
-
-#conteudo-principal {
+#conteudo-principal{
     height: auto;
     width: 80%;
 }
-
-#curiosidade {
+#curiosidade{
     width: 25%;
     position: relative;
     height: auto;
     float: right;
 }
-
-#quem-sou-eu {
-    position: relative;
-    margin-top: 180px;
-    z-index: 1;
-    clear: both;
-    max-width: 60%;
-    font-size: 15px;
+#quem-sou-eu{
+    position:relative;
+    margin-top:180px;
+    z-index:1;
+    clear:both;
+    max-width:60%;
+    font-size:15px;
 }
-
-#quem-sou-eu-titulo, #titulo-aprendizagem, #titulo-curiosidade {
-    text-align: center;
-    background-color: #42b72a;
-    padding: 0 16px;
-    line-height: 48px;
-    border: none;
-    border-radius: 6px;
-    margin-left: 20px;
-    width: fit-content;
-    color: white;
+#quem-sou-eu-titulo, #titulo-aprendizagem, #titulo-curiosidade{
+    text-align:center;
+    background-color:#42b72a;
+    padding:0 16px;
+    line-height:48px;
+    border:none;
+    border-radius:6px;
+    margin-left:20px;
+    width:fit-content;
+    color:white;
 }
-
-h1 {
-    font-size: 2em;
+h1{
+    font-size:2em;
 }
-
-h2 {
-    font-size: 1,5em;
+h2{
+    font-size:1,5em;
 }
-
-li {
-    float: left;
-    display: inline;
+li{
+    float:left;
+    display:inline;
 }
-    
-li a {
-    display: block;
-    text-align: center;
-    padding: 5px 20px;
+li a{
+    display:block;
+    text-align:center;
+    padding:5px 20px;
 }
-
-#menu-navegacao {
-    justify-content: space-between;
-    display: inline;
-    list-style-type: none;
-    overflow: hidden;
-    margin: 0 auto;
-    width: 960px;
-    line-height: 24px;
-    vertical-align: middle;
-    padding: 0px;
-    text-align: -webkit-match-parent;
-    font-weight: bold;
-    color: white;
+#menu-navegacao{
+    justify-content:space-between;
+    display:inline;
+    list-style-type:none;
+    overflow:hidden;
+    margin:0 auto;
+    width:960px;
+    line-height:24px;
+    vertical-align:middle;
+    padding:0px;
+    text-align:-webkit-match-parent;
+    font-weight:bold;
+    color:white;
 }
-
-#minha_foto {
-    padding: 10px;
-    float: left;
-    width: 150px;
-    border-radius: 50px;    
-    position: relative;
+#minha_foto{
+    padding:10px;
+    float:left;
+    width:150px;
+    border-radius:50px;    
+    position:relative;
 }
-
-#texto-aprendizagem {
-    border: 1px dashed black;
-    padding: 0px 10px;
-    position: relative;
-    float: left;
-    background-color: #e9eeec;
-    margin-bottom: 100px;
+#texto-aprendizagem{
+    border:1px dashed black;
+    padding:0px 10px;
+    position:relative;
+    float:left;
+    background-color:#e9eeec;
+    margin-bottom:100px;
 }
-
-#texto-curiosidade {
-    text-align: left;
-    border: 1px dashed black;
-    padding: 0px 10px;
-    position: relative;
-    background-color: #e9eeec;
-    margin-bottom: 100px;
-    overflow: auto;
-    
+#texto-curiosidade{
+    text-align:left;
+    border:1px dashed black;
+    padding:0px 10px;
+    position:relative;
+    background-color:#e9eeec;
+    margin-bottom:100px;
+    overflow:auto;
 }
-
-#titulo {
-    font-weight: 700;
-    letter-spacing: 0.09rem;
-    padding: 10px;
-    color: white;
+#titulo{
+    font-weight:700;
+    letter-spacing:0.09rem;
+    padding:10px;
+    color:white;
 }
-
-#titulo-aprendizagem, #titulo-curiosidade {
-    margin: 0;
+#titulo-aprendizagem, #titulo-curiosidade{
+    margin:0;
 }
-
 ul{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
