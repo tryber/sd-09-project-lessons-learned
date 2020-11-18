@@ -1,4 +1,13 @@
 
+#apresentacao {
+    position: relative;
+    max-width: 70%;
+    text-align: justify;
+    font-size: 1,5em;
+    margin-top: 40px;
+    line-height: 20px;
+}
+
 body {
     background-color: rgb(253, 251, 251);
     font-size: 16px;
@@ -15,8 +24,43 @@ body {
     background-color: #3b5998;
 }
 
-#titulo {
+#descricao {
+    position: relative;
+    margin-top: 150px;
+    clear: both;
+    max-width: 60%;
+}
+
+#descricao-titulo {
+    text-align: center;
+    background-color: #42b72a;
+    padding: 0 16px;
+    line-height: 48px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 50px;
+    width: fit-content;
+    color: white;
+}
+
+h1 {
     font-size: 2em;
+}
+
+h2 {
+    font-size: 1,5em;
+}
+
+#minha_foto {
+    padding: 10px;
+    float: left;
+    width: 150px;
+    border-radius: 50px;
+    float: left;
+    position: relative;
+}
+
+#titulo {
     font-weight: 700;
     letter-spacing: 0.09rem;
     padding: 10px;
