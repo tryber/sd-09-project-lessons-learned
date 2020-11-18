@@ -23,11 +23,12 @@
     overflow: auto;
     width: 100%;
     margin-right: 10px;
+    display: inline-block;
 }
 body{
     background-color: rgb(253, 251, 251);
     font-size: 16px;
-    font-family: inherit, sans-serif
+    font-family: inherit, sans-serif;
 }
 #cabecalho{
     position: fixed;
@@ -48,6 +49,19 @@ body{
     position: relative;
     height: auto;
     float: right;
+}
+#curriculo-trybe{
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    float: right;
+    margin-top: 10px;
+    width: 30%;
+    overflow: hidden;
+    text-align: right;
+    color: #1877f2;
+    font-size: 15px;
+    font-weight: 700;
 }
 #quem-sou-eu{
     position:relative;
@@ -101,7 +115,7 @@ li a{
     padding:10px;
     float:left;
     width:150px;
-    border-radius:50px;    
+    border-radius:50px;  
     position:relative;
 }
 #texto-aprendizagem{
@@ -119,7 +133,6 @@ li a{
     position:relative;
     background-color:#e9eeec;
     margin-bottom:100px;
-    overflow:auto;
 }
 #titulo{
     font-weight:700;
