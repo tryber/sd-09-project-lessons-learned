@@ -1,0 +1,24 @@
+
+body {
+    background-color: rgb(253, 251, 251);
+    font-size: 16px;
+    font-family: inherit, sans-serif
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px grey;
+    background-color: #3b5998;
+}
+
+#titulo {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.09rem;
+    padding: 10px;
+    color: white;
+}
