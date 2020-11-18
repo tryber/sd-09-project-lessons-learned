@@ -8,14 +8,24 @@
     line-height: 20px;
 }
 
-#artigo-aprendizagem {
+#artigo-aprendizagem, #texto-curiosidade, #curiosidade {
     margin: 10px;
     margin-top: 10px;
     padding: 10px;
     text-align: justify;
     line-height: 25px;
     font-size: 18px;
-    width: 70%;
+    width: 60%;
+}
+
+#artigo-aprendizagem {
+    display: inline-block;
+}
+
+#artigo-e-curiosidade { 
+    overflow: auto;
+    width: 100%;
+    margin-right: 10px;
 }
 
 body {
@@ -40,6 +50,13 @@ body {
     width: 80%;
 }
 
+#curiosidade {
+    width: 25%;
+    position: relative;
+    height: auto;
+    float: right;
+}
+
 #quem-sou-eu {
     position: relative;
     margin-top: 180px;
@@ -49,7 +66,7 @@ body {
     font-size: 15px;
 }
 
-#quem-sou-eu-titulo, #titulo-aprendizagem {
+#quem-sou-eu-titulo, #titulo-aprendizagem, #titulo-curiosidade {
     text-align: center;
     background-color: #42b72a;
     padding: 0 16px;
@@ -106,8 +123,21 @@ li a {
 #texto-aprendizagem {
     border: 1px dashed black;
     padding: 0px 10px;
+    position: relative;
     float: left;
+    background-color: #e9eeec;
+    margin-bottom: 100px;
+}
 
+#texto-curiosidade {
+    text-align: left;
+    border: 1px dashed black;
+    padding: 0px 10px;
+    position: relative;
+    background-color: #e9eeec;
+    margin-bottom: 100px;
+    overflow: auto;
+    
 }
 
 #titulo {
@@ -117,7 +147,7 @@ li a {
     color: white;
 }
 
-#titulo-aprendizagem {
+#titulo-aprendizagem, #titulo-curiosidade {
     margin: 0;
 }
 
