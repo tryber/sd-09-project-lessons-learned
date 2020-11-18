@@ -180,6 +180,17 @@ li a{
     margin:0;
 }
 
+#rodape{
+    color: #605e5e;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid grey;
+    
+}
+
 ul{
     margin:0;
     padding:0;
