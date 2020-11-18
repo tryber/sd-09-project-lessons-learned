@@ -16,6 +16,7 @@ body {
 
 #cabecalho {
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
@@ -24,21 +25,22 @@ body {
     background-color: #3b5998;
 }
 
-#descricao {
+#quem-sou-eu {
     position: relative;
-    margin-top: 150px;
+    margin-top: 180px;
+    z-index: 1;
     clear: both;
     max-width: 60%;
 }
 
-#descricao-titulo {
+#quem-sou-eu-titulo {
     text-align: center;
     background-color: #42b72a;
     padding: 0 16px;
     line-height: 48px;
     border: none;
     border-radius: 6px;
-    margin-left: 50px;
+    margin-left: 20px;
     width: fit-content;
     color: white;
 }
@@ -51,12 +53,37 @@ h2 {
     font-size: 1,5em;
 }
 
+li {
+    float: left;
+    display: inline;
+}
+    
+li a {
+    display: block;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+#menu-navegacao {
+    justify-content: space-between;
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 960px;
+    line-height: 24px;
+    vertical-align: middle;
+    padding: 0px;
+    text-align: -webkit-match-parent;
+    font-weight: bold;
+    color: white;
+}
+
 #minha_foto {
     padding: 10px;
     float: left;
     width: 150px;
-    border-radius: 50px;
-    float: left;
+    border-radius: 50px;    
     position: relative;
 }
 
@@ -65,4 +92,9 @@ h2 {
     letter-spacing: 0.09rem;
     padding: 10px;
     color: white;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
