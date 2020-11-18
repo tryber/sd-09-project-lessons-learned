@@ -8,6 +8,16 @@
     line-height: 20px;
 }
 
+#artigo-aprendizagem {
+    margin: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    width: 70%;
+}
+
 body {
     background-color: rgb(253, 251, 251);
     font-size: 16px;
@@ -25,15 +35,21 @@ body {
     background-color: #3b5998;
 }
 
+#conteudo-principal {
+    height: auto;
+    width: 80%;
+}
+
 #quem-sou-eu {
     position: relative;
     margin-top: 180px;
     z-index: 1;
     clear: both;
     max-width: 60%;
+    font-size: 15px;
 }
 
-#quem-sou-eu-titulo {
+#quem-sou-eu-titulo, #titulo-aprendizagem {
     text-align: center;
     background-color: #42b72a;
     padding: 0 16px;
@@ -87,11 +103,22 @@ li a {
     position: relative;
 }
 
+#texto-aprendizagem {
+    border: 1px dashed black;
+    padding: 0px 10px;
+    float: left;
+
+}
+
 #titulo {
     font-weight: 700;
     letter-spacing: 0.09rem;
     padding: 10px;
     color: white;
+}
+
+#titulo-aprendizagem {
+    margin: 0;
 }
 
 ul{
