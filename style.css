@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header #cabecalho {
+  position: fixed;
+  margin-top: 0px;
+  background-color: purple;
+}
+
+header #titulo {
+}
