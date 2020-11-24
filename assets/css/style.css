@@ -1,18 +1,18 @@
 /* Minimal CSS Reset */
-body,ol,ul,header {
+body, ol, ul, header {
   margin: 0;
   padding: 0;
   font-weight: 400;
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
   color: whitesmoke;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
-  background-color: rgb(15,155,142);
+  background-color: rgb(15, 155, 142);
   position: fixed;
   text-align: center;
   top: 0;
@@ -25,21 +25,22 @@ body {
 }
 
 #links a {
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   padding: 0 20px;
   text-decoration: none;
 }
+
 #links a:hover {
   text-decoration: underline;
 }
 
 main {
-  background-color: rgb(3,113,156);
+  background-color: rgb(3, 113, 156);
   padding: 100px;
 }
 
-ul li,ol li {
+ul li, ol li {
   line-height: 28px;
 }
 
@@ -51,13 +52,13 @@ ul li,ol li {
   float: right;
 }
 
-table,th {
-  border: 1px dotted rgb(52,56,55);
+table, th {
+  border: 1px dotted rgb(52, 56, 55);
   width: 500px;
 }
 
 #rodape {
-  background-color: rgb(52,56,55);
+  background-color: rgb(52, 56, 55);
   padding: 10px 0;
   text-align: center;
 }
