@@ -19,17 +19,18 @@ body {
 main {
     position: absolute;
     background-color: black;
-    width: 70%;
+    width: 60%;
     height: 50%;
     top: 10%;
     left: 1%;
+    padding: 3%;
+    margin: 1px;
+    border: dotted green;
 }
 
 #minha_foto {
     position: relative;
     float: left;
-    left: 2%;
-    top: 4%;
     height: 300px;
-    border: 7px ridge silver;
+    border: 10px ridge silver;
 }
