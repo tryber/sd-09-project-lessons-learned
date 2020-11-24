@@ -17,26 +17,50 @@ body {
   line-height: 1.5;
   font-size: 28px;
   padding-left: 30px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #cabecalho h1 {
   color: rgb(40 , 230 , 195);
+  text-align: center;
 }
 
 #cabecalho ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 10px;
 }
 
 #cabecalho a {
   text-decoration: none;
-  color: white;
+  color: rgb(255 , 255 , 255);
   list-style: none;
+  text-align: center;
+  font-size: 26px;
 }
 
 main {
-  margin-top: 150px;
+  width: 100%;
+  margin-top: 130px;
+  padding: 50px;
 }
 
-#minha_foto {
-  margin: 0;
+#rodape {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(7 , 30 , 61);
+  padding: 10px;
+  text-align: center;
+}
+
+#rodape a {  
+  text-decoration: none;
+  color: white;
 }
