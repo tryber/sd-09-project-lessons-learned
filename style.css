@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 body{
     background-color: rgb(253, 251, 251);
 }
@@ -9,15 +12,33 @@ body{
     background-color: seagreen;
     color: seashell;
     text-align: center;
+    padding: 25px;
 }
 
 #minha_foto{
     width: 200px;
+    margin-top: 100px;
+    border-style: double;
 }
 
 #linkedin{
     display: block;
+    margin-left: 65px;
 }
+
+#side-list{
+    background-color:lightgray;
+    width: 20%;
+    margin: 0 25px 20px 0;
+    padding: 15px;
+    display: inline-block;
+}
+
+#learned-learning{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
 #licoes_aprendidas{
     display: inline-block;
 }
