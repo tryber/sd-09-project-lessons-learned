@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #cabecalho {
@@ -14,7 +15,6 @@ img {
   margin-top: 100px;
 }
 
-#learned_lessons, #lessons_to_learn{
+#learned_lessons , #lessons_to_learn {
   display: inline-block;
 }
-
