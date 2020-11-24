@@ -1,21 +1,26 @@
 body {
   background-color: rgb(253, 251, 251);
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
+
 #cabecalho {
-  border-bottom: 1px solid #017048;
+  border-bottom: 1px solid;
+  border-color: #017048;
   position: fixed;
   text-align: center;
   text-transform: uppercase;
+  top: 0px;
   width: 100%;
 }
+
 #titulo {
-    color: #00A367;
-    font-size: 1.4em;
-    line-height: 0.2em;
+  color: #00a367;
+  font-size: 1.4em;
+  line-height: 0.2em;
 }
+
 .sub-titulo {
-    font-size: 1em;
-    font-weight: 300;
+  font-size: 1em;
+  font-weight: 300;
 }
