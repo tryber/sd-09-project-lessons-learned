@@ -6,10 +6,14 @@ a:hover {
   background: rgb(74 , 78 , 105);
   color: rgb(132 , 169 , 140);
 }
+article p{
+  text-indent: 1.5em;
+  padding: 10px;
+}
 
 aside {
   box-shadow: 5px 5px 15px rgb(57 , 156 , 107);
-  padding: 10px 10px;
+  padding: 10px;
   width: 30%;
   float: right;
   border-left: 1px solid rgb(57 , 156 , 107);
@@ -25,13 +29,13 @@ body {
 
 #breve {
   font-size: 1.2em;
-  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, 
-  Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande,
+    Lucida Sans Unicode, Geneva, Verdana, sans-serif;
 }
 
 footer {
   color: black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier New, Courier, monospace;
   font-size: 0.8em;
   text-align: right;
   float: right;
@@ -42,7 +46,7 @@ header {
   background: rgb(132 , 169 , 140);
   font-size: 18px;
   height: auto;
-  position: absolute;
+  position: fixed;
   text-align: center;
   width: 100%;
   top: 0;
@@ -59,8 +63,8 @@ h2 {
 h2:before {
   display: block;
   content: ' ';
-  margin-top: -55px;
-  height: 55px;
+  margin-top: -115px;
+  height: 115px;
   visibility: hidden;
   pointer-events: none;
 }
@@ -72,7 +76,7 @@ a:before {
   height: 95px;
   visibility: hidden;
   pointer-events: none;
-  }
+}
 
 .lado-esquerdo {
   float: left;
@@ -80,8 +84,8 @@ a:before {
 }
 
 .lado-direito {
-  float: right;
-  width: 80%;
+  float: left;
+  width: 60%;
 }
 #minha_foto {
   border-radius: 150px;
