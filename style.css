@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(253, 251, 251);
-  color: rgb(2, 5, 100);
+  background-color: rgb(253 , 251 , 251);
+  color: rgb(2 , 5 , 100);
   font-size: 13px;
   padding: 3px;
   font-family: sans-serif;
@@ -13,13 +13,14 @@ body {
   width: 100%;
   float: center;
   text-align: center;
-  background-color: white; 
+  background-color: white;
+
   color: black;
 }
 
 #minha_foto {
   display: block;
-  margin-top: 160px; 
+  margin-top: 160px;
 }
 
 .lista1 {
@@ -47,7 +48,7 @@ body {
   position: relative;
   float: left;
   width: 49%;
-  border: 3px solid rgb(2, 250, 0);
+  border: 3px solid rgb(2 , 250 , 0);
   text-align: left;
 }
 
@@ -56,7 +57,7 @@ body {
   float: right;
   width: 49%;
   right: 0;
-  border: 3px solid rgb(2, 250, 0);
+  border: 3px solid rgb(2 , 250 , 0);
   text-align: right;
   margin-bottom: 50px;
 }
