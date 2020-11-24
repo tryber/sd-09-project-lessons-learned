@@ -1,6 +1,5 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  overflow: visible;
   font-family: Work Sans, sans-serif;
 }
 
@@ -13,7 +12,6 @@ header {
   text-align: center;
   background-color: teal;
   width: 100%;
-  overflow: visible;
 }
 
 footer {
@@ -28,10 +26,25 @@ footer {
   height: 50px;
 }
 
+#sidebar {
+  float: left;
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 0;
+}
+
+p.side-article {
+  font-size: smaller;
+  text-align: center;
+  text-emphasis-style: auto;
+}
+
 #minha_foto {
-  width: 200px;
+  width: 90%;
   position: relative;
-  top: 100px;
+  top: 10px;
   border-radius: 50%;
 }
 
@@ -42,9 +55,17 @@ main {
 
 p {
   text-align: justify;
-  width: 80%;
+  width: 70%;
 }
 
 a {
   text-decoration: none;
+}
+
+#wrap {
+  float: right;
+  max-width: 70%;
+  padding-right: 22px;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
