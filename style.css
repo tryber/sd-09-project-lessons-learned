@@ -36,8 +36,8 @@ body {
 
 img {
   width: 200px;
-  margin-top: 150px;
-  margin-left: 40%;
+  margin-left: 80px;
+  margin-top: 160px;
   border: 2px solid black;
 }
 
@@ -45,4 +45,44 @@ table {
   clear: both;
   margin-right: auto;
   margin-left: auto;
+}
+
+#listas {
+    padding: 10px;
+    margin: 20px;
+}
+
+article {
+    text-align: center;
+    background-color: rgb(222, 243, 213);
+    padding: 20px;
+    border-radius: 30px;
+}
+article p {
+    text-align: left;
+}
+
+aside {
+    text-align: center;
+    background-color: rgb(222, 243, 213);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+article p {
+    text-align: left;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 40%;
+    margin: 4%;
+}
+
+.lado-direito {
+    float: right;
+    width: 40%;
+    margin: 4%;
 }
