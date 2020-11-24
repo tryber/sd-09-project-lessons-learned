@@ -3,11 +3,11 @@ body {
 }
 
 #cabecalho {
-  border: 1px solid red;   
-  background-color: rgb(255, 106, 106); 
+  border: 1px solid red;
+  background-color: rgb(255 , 106 , 106);
   width: 100%;
   position: fixed;
-  top: 0;  
+  top: 0;
 }
 
 img {
