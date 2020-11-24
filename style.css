@@ -6,7 +6,7 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(59, 59, 59);
+  color: rgb(59 , 59 , 59);
 }
 
 #cabecalho {
@@ -14,7 +14,7 @@ body {
   top: 0;
   width: 100%;
   padding: 16px;
-  background-color: rgb(22, 160, 133);
+  background-color: rgb(22 , 160 , 133);
   margin: 0 auto;
   text-align: center;
 }
@@ -35,9 +35,9 @@ header nav {
 }
 
 header nav a {
-  color: rgb(59, 59, 59);
+  color: rgb(59 , 59 , 59);
   text-decoration: none;
-  font-size: 18px;  
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -79,21 +79,20 @@ nav a:last-child {
 }
 
 #learning-article .lado-direito {
-  background-color:  rgb(226, 226, 226);
+  background-color: rgb(226 , 226 , 226);
 }
-
 
 #licoes table {
   margin: 0 auto;
   padding: 16px;
 }
 
-#licoes table tr th, #licoes table tr td ul, #licoes table tr td ol {
+#licoes table th, #licoes table ul, #licoes table ol {
   padding: 4px 32px;
 }
 
 footer {
-  background-color: rgb(22, 160, 133);
+  background-color: rgb(22 , 160 , 133);
   padding: 16px;
   text-align: center;
   font-size: 12px;
