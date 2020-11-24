@@ -4,20 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <header id="cabecalho">
-      <h1 id="titulo"></h1>
+      <img class="trybe_logo" src="./images/trybe-logo_black.png" alt="" />
+      <h1 id="titulo">Project Lessons</h1>
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#licoes_aprendidas">Lições</a></li>
+        <ul class="navegation">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="#licoes_aprendidas">Lições</a></li>
+          <li class="nav-item"><a href="#rodape">Contato</a></li>
+
         </ul>
       </nav>
     </header>
 
     <img id="minha_foto" src="./images/minha_foto.jpeg" alt="" />
+    <div id="container">
     <article class="lado-esquerdo">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
@@ -81,7 +90,7 @@
         dolorem.
       </p>
     </aside>
-
+  </div>
     <section id="listas">
       <ol id="licoes_aprendidas">
         <li>Unix</li>
@@ -112,11 +121,11 @@
   </body>
 
   <footer id="rodape">
-    <ul>
-      <li>
+    <ul class="navegation-foot">
+      <li class="nav-item-foot">
         <a href="https://github.com/monteirohsm" target="_blank">GitHub</a>
       </li>
-      <li>
+      <li class="nav-item-foot">
         <a href="https://www.linkedin.com/in/monteiroshm" target="_blank"
           >Linkedin</a
         >

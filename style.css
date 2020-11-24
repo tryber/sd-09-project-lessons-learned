@@ -5,10 +5,55 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+.trybe_logo {
+  width: 200px;
+  position: relative;
+  top: 39px;
+  left: 40px;
+}
+
+#titulo {
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+  right: 40px;
+  font-size: 40px;
+  text-align: right;
+}
+
+.navegation {
+  text-align: center;
+  position: relative;
+  right: 25px;
+  bottom: 40px;
+}
+
+.nav-item {
+  display: inline-block;
+  list-style: none;
+  font-size: 23px;
+  letter-spacing: 2px;
+  margin: 5px;
+  border-bottom: 1px solid black;
+}
+
+.nav-item:hover {
+  background-color: black;
+  transition: 0.4s;
+}
+
+.nav-item a:hover {
+  transition: 0.4s;
+  color: white;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
 
 #cabecalho {
   width: 100%;
-  background-color: green;
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
 }
 
 #minha_foto {
@@ -18,10 +63,54 @@ body {
   border-radius: 50%;
   border: 2px solid green;
   box-shadow: 1px 0.8px 1px black;
-  margin-top: 60px;
+  margin-top: 150px;
+  margin-bottom: 10px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
 }
+
+#container{
+}
+
+.lado-esquerdo{
+}
+
+.lado-direito{
+}
+
+#listas{
+}
+
+#rodape {
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+.navegation-foot{
+    text-align: center;
+    position: relative;
+}
+
+.nav-item-foot {
+    display: inline-block;
+    list-style: none;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin: 5px;
+  }
+  
+  .nav-item-foot a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-item-foot:first-child{
+      border-right: 1px solid white;
+      width: 120px;
+  }
+  
+  .nav-item-foot a:hover {
+    color: greenyellow;
+  }
