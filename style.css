@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 2em;
 }
 
 #cabecalho {
@@ -11,6 +14,19 @@ body {
   text-align: center;
 }
 
+#lado-direito {
+    float: right;
+    width: 30%;
+}
+
+#lado-esquerdo {
+    float: left;
+    width: 70%;
+}
+
+
 #minha_foto {
   width: 150px;
+  margin-left: 50%;
+  margin-top: 100px;
 }
