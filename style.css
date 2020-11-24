@@ -2,6 +2,14 @@ body {
     background-color:rgb(253 , 251 , 251);
 }
 #cabecalho {
+    background-color: #6A6D4A;
+    color: black;
+    border-bottom: black;
+    padding: 22px;
     position: fixed;
     top: 0px;
+    width: 100%;
+}
+#minha_foto {
+    
 }
