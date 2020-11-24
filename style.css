@@ -1,8 +1,36 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
     position: fixed;
-    top: 0px;
+    top: 0;
+    background-color: green;
+    height: 200px;
+    width: 100%;
+
+}
+
+.horizontal-nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.horizontal-nav-bar li {
+    float: left;
+}
+
+.horizontal-nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal-nav-bar li a:hover {
+    background-color: black;
 }
