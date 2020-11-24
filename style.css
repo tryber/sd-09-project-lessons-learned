@@ -3,22 +3,35 @@ body {
   font-size: 120%;
 }
 
+.lado-direito {
+    float: right;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
+#aprendizados {
+    width: 40%;
+}
+
 #artigo {
   line-height: 1.5em;
+  width: 60%;
 }
 
 #cabecalho {
   font-family: monospace;
+  padding: 1em;
   position: fixed;
   top: 0;
-  padding: 1em;
 }
 
 #minha_foto {
-  width: 200px;
   border: 0.2em solid black;
   border-radius: 50%;
   margin: 0.5em;
+  width: 200px;
 }
 
 #titulo {
