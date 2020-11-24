@@ -1,8 +1,35 @@
+header{
+background-color: #0fa36b;
+margin-bottom: 10px;
+}
+header h1{
+margin-top: 0px;
+font-family: Montserrat;
+text-align: center;
+padding-bottom: 5px;
+border-bottom: 10px double #0aab53;
+}
+nav a{
+list-style-type: none;
+display: inline-block;
+margin: 0px 15px 10px 15px;
+padding: 2px 2px;
+border: 2px solid #088c7b;
+}
 body{
 background-color: rgb(253, 251, 251)
 }
-header{
-top: 0px;
-background-color: #0fa36b;
+img{
+border-radius: 40px;
+border: 2px solid #088c7b;
+width: 150px;
+float: inherit;
 }
-
+article{
+float: left;
+width: 60%;
+}
+aside{
+float: right;
+width: 30%;
+}
