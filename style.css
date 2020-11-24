@@ -1,3 +1,9 @@
 body {
     background-color: (253, 251, 251);
 }
+#cabecalho {
+    position: fixed;
+    top: o;
+    background-color: green;
+    
+}
