@@ -3,13 +3,23 @@
 }
 
 #cabecalho {
-  background-color: forestgreen;
-  top: unset;
+  width: 100%;
+  position: fixed;
+  background-color: grey;
+  top: 0;
+  text-align: center;
 }
+
 #titulo {
   text-align: center;
 }
 
 body {
   background-color: rgb(253 , 251 , 251);
+}
+
+#minha_foto {
+  padding-top: 30px;
+  width: 300px;
+  height: 300px;
 }
