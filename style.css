@@ -4,12 +4,12 @@ padding: 0;
 }
 
 body {
-background-color: rgb(253, 251, 251);
+background-color: rgb(253 , 251 , 251);
 font-family: Montserrat, sans-serif;
 }
 
 .container {
-background-color: rgb(253, 251, 251);
+background-color: rgb(253 , 251 , 251);
 width: 81%;
 margin-right: auto;
 margin-left: auto;
@@ -26,7 +26,7 @@ border-radius: 2px;
 nav {
 width: 100%;
 height: auto;
-background-color: rgb(34, 47, 62);
+background-color: rgb(34 , 47 , 62);
 z-index: 1;
 position: fixed;
 overflow: hidden;
@@ -102,9 +102,18 @@ flex-wrap: wrap;
 
 /* ---------------------------- */
 
+.principalArticle {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
 .lado-direito {
 flex: 15%;
 padding: 20px;
+margin-top: 5.5%;
+font-size: 12px;
+line-height: 15px;
 }
 
 .lado-direito p {
@@ -120,7 +129,7 @@ justify-content: space-around;
 }
 
 .lado-esquerdo {
-width: 65%;
+width: 75%;
 padding: 20px;
 }
 
@@ -131,7 +140,7 @@ width: 30%;
 .lessonsLearned {
 color: white;
 display: block;
-background-color: rgb(232, 65, 24);
+background-color: rgb(232 , 65 , 24);
 padding: 6px;
 transition: 0.6s;
 filter: grayscale(100%);
@@ -139,27 +148,27 @@ cursor: pointer;
 }
 
 .lessonsLearned:nth-child(2) {
-background-color: rgb(29, 209, 161);
+background-color: rgb(29 , 209 , 161);
 }
 
 .lessonsLearned:nth-child(3) {
-background-color: rgb(116, 185, 255);
+background-color: rgb(116 , 185 , 255);
 }
 
 .lessonsLearned:nth-child(4) {
-background-color: rgb(76, 209, 55);
+background-color: rgb(76 , 209 , 55);
 }
 
 .lessonsLearned:nth-child(5) {
-background-color: rgb(225, 112, 85);
+background-color: rgb(225 , 112 , 85);
 }
 
 .lessonsLearned:nth-child(6) {
-background-color: rgb(9, 132, 227);
+background-color: rgb(9 , 132 , 227);
 }
 
 .lessonsLearned:last-child {
-background-color: rgb(108, 92, 231);
+background-color: rgb(108 , 92 , 231);
 }
 
 .trybeLessons {
@@ -188,13 +197,13 @@ margin-left: auto;
 margin-right: auto;
 width: 90%;
 border-collapse: collapse;
-background-color: rgb(34, 47, 62);
+background-color: rgb(34 , 47 , 62);
 cursor: crosshair;
 
 }
 
 table.table tr:nth-child(even) {
-background-color: rgb(44, 62, 80);
+background-color: rgb(44 , 62 , 80);
 }
 
 table.table th,
@@ -206,7 +215,7 @@ font-size: 15px;
 
 table.table-1 th {
 text-align: left;
-color: rgb(236, 240, 241);
+color: rgb(236 , 240 , 241);
 }
 
 tr {
@@ -217,7 +226,7 @@ cursor: pointer;
 #rodape {
 padding: 20px 0 20px 20px;
 text-align: center;
-color: rgba(34, 47, 62, 0.411);
+color: rgba(34 , 47 , 62 , 0.411);
 }
 
 .footerIcons {
@@ -227,7 +236,7 @@ transition: 0.2s;
 /* animations */
 
 .icons {
-color: rgba(0, 0, 0, 0.39);
+color: rgba(0 , 0 , 0 , 0.39);
 font-size: 30px;
 transition: 0.5s;
 padding: 20px 20px;
@@ -255,7 +264,7 @@ filter: blur(0);
 
 
 table.table tr.table-effect:hover {
-background-color: rgb(64, 92, 119);
+background-color: rgb(64 , 92 , 119);
 transform: scale(1.05, 1.05);
 }
 
@@ -265,15 +274,15 @@ color: wheat;
 
 .icons:hover {
 transform: scale(1.2, 1.2);
-color: rgb(44, 62, 80);
+color: rgb(44 , 62 , 80);
 }
 
 .footerIcons:hover {
-color: rgb(65, 33, 33);
+color: rgb(65 , 33 , 33);
 }
 
 .footerIcons:nth-child(2):hover {
-color: rgb(235, 47, 6);
+color: rgb(235 , 47 , 6);
 }
 
 /* Responsive */
@@ -293,7 +302,9 @@ color: rgb(235, 47, 6);
 
   @media (max-width: 800px) {
     aside p {
-        width: 75%;;
+        width: 75%;
+        font-size: 15px;
+        line-height: 29px;
     }
 }
 
