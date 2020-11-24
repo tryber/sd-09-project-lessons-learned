@@ -1,9 +1,13 @@
     <style>
     body{
-    background-color: rgb(253, 251, 251);
+        background-color: rgb(253, 251, 251);
+        font-size: 13px;
+        color: rgb(2,3,100);
+        padding: 3px;
+        font-family: sans-serif;
     }
-    #cabecalho
-        {position: fixed;
+    #cabecalho{
+        position: fixed;
         top: 0px;
         width: 100%;
 		float: center;
@@ -53,4 +57,14 @@
             top: 240px;
             right: 0px;
         }
+        #navegacao ul li {
+            margin: 0; padding: 0px;
+            text-align: left;
+            list-style-type: none;
+            }
+            #navegacao a{
+                color:black;
+            text-decoration: none;
+            display: block;
+            }
     </style>
