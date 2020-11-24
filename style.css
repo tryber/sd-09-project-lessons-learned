@@ -8,3 +8,21 @@ body {
     padding-bottom:20px;
     margin-bottom: 15px;
 }
+
+header {
+    background-color: #03a303;
+    border-radius: 0 15px 17px 15px;
+    padding-top: 15px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+header h1 {
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+header h2 {
+    padding-left: 20px;
+    color: aliceblue;
+}
