@@ -11,6 +11,11 @@ body {
 }
 
 #titulo {
-  color: white;
+  color: rgb(253 , 251 , 251);
   text-align: center;
+}
+
+#minha_foto {
+  position: absolute;
+  top: 150px;
 }
