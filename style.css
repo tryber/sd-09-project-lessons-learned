@@ -2,7 +2,9 @@ body {
     background-color: rgb(253,251,251);
 }
 main {
-    margin-top: 225px;
+    margin-top: 240px;
+    font-family: Work Sans, sans-serif;
+    border-color: green;
 }
 #cabecalho {
     position:fixed;
@@ -11,12 +13,13 @@ main {
     background-color: rgb(100, 173, 28);
 }
 #titulo {
-    float: right;
     color:white;
-    font-family: sans-serif;
+    font-family: Work Sans, sans-serif;
     font-size: 28px;
+    margin-right:10px;
 }
 .navigation li{
+    font-family: Work Sans, sans-serif;
     display:inline;
     float:right;
     margin:5px;
@@ -26,14 +29,39 @@ main {
     border-radius: 100px;
     margin-left: 10px;
     margin-top: 10px;
-    width:25%;
+    max-width:15%;
+    float: left;
+    padding: 10px;
+}
+#artigo{
+    padding:10px;
+    background-color: rgb(214, 240, 176);
 }
 #licoes_aprendidas {
-
+    display:inline-block;
+    align-items: flex-start;
 }
 #licoes_a_aprender {
-
+    margin-left:5px;
 }
 #okay {
-    width: 25%;
+    max-width: 5%;
+    display:block;
+    float:left;
+}
+#exemplo {
+    display:inline;
+}
+h3 {
+    color: rgb(81, 104, 46);
+}
+p {
+    color: rgb(81, 104, 46);
+}
+#rodape {
+    bottom:0px;
+    background-color: rgb(214, 240, 176);
+    width:100%;
+    color:white;
+    margin-top:50px;
 }
