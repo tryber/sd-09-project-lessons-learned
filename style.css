@@ -1,13 +1,13 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
   padding-top: 40px;
   font-family: 'Josefin Sans', sans-serif;
 }
-h1{
-  margin-left: 40px ; 
+h1 {
+  margin-left: 42px ; 
 }
 
-#cabecalho{
+#cabecalho {
   display: block;
   position: fixed;
   top: 0px;
@@ -23,8 +23,11 @@ h1{
   margin-left: 5px;
   text-align: center;
 }
+#titulo {
 
-#minha_foto{
+}
+
+#minha_foto {
   width: 200px;
   border-radius: 50%;
   position: relative;
@@ -34,8 +37,16 @@ h1{
   margin-right: auto;
   margin-bottom: 120px;
 }
-#licoes{
+#licoes {
   position: relative;
   top: 400px;
   margin: auto;
+}
+
+#licoes_aprendidas {
+  line-height: 25px;
+}
+
+#licoes_a_aprender {
+  line-height: 25px;
 }
