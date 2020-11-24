@@ -42,12 +42,16 @@ a:hover {
 }
 #artigo {
     padding: 10px;
-    width: 50%;
-    float: left;
     margin-bottom: 50px;
 }
-section {
+.lado-esquerdo {
+    width: 50%;
+    float: left;
+}
+.lado-direito {
     margin-left:50%;
+}
+section {
     padding:10px;
     block-size: inherit;
 }
