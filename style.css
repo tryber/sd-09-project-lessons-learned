@@ -58,7 +58,25 @@ body{
 
 #paragrafos{
     background-color: yellow;
+}   
+
+#lists div{
+    display: inline-block;
+    width: 35%;
+    padding: 2%;
+    margin: 3%;
+    color: #353b48;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#lists h2{
+    margin-bottom: 15px;
+    color: #2f3640;
+}
+#lists{
+    background-color: #dcdde1;
+}
+
 *{
     margin: 0px;
 }
