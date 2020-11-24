@@ -1,48 +1,51 @@
 body {
-    background-color: rgb(253 , 251 , 251);
-    margin: 30 px;
+  background-color: rgb(253 , 251 , 251);
+  margin: 30 px;
 }
 
 #cabecalho {
-    margin-top: 0;
+  margin: 0;
+  position: fixed
+  width: 100%;
+  background-color: cornflowerblue;
 }
 
 #licoes_a_aprender {
-    margin-left: 20 px;
-    background-color: blue;
+  margin-left: 20 px;
+  background-color: blue;
 }
 
 #licoes_aprendidas {
-    margin-left: 20 px;
-    background-color: green;
+  margin-left: 20 px;
+  background-color: green;
 }
 
 #minha_foto {
-    width: 15%;
-    border-radius: 5%;
+  width: 15%;
+  border-radius: 5%;
 }
 
 #rodape {
-    text-align: center;
-    font-style: italic;
-    color: seagreen;
+  text-align: center;
+  font-style: italic;
+  color: seagreen;
 }
 
 #titulo {
-    text-align: center;
-    font-size: 50px;
-    font-family: sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
 }
 
 .lado-esq{
-    width: 40%;
-    background-color: red;
-    display: inline-block;
+  width: 40%;
+  background-color: red;
+  display: inline-block;
 }
 
 .lado-dir{
-    width: 40%;
-    text-align: justify;
-    background-color: brown;
-    display: inline-block;
+  width: 40%;
+  text-align: justify;
+  background-color: brown;
+  display: inline-block;
 }
