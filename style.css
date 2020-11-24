@@ -1,7 +1,8 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
   font-size: 20px;
+  font: 500;
   line-height: 2em;
 }
 
@@ -15,13 +16,13 @@ body {
 }
 
 #lado-direito {
-    float: right;
-    width: 30%;
+  float: right;
+  width: 30%;
 }
 
 #lado-esquerdo {
-    float: left;
-    width: 70%;
+  float: left;
+  width: 70%;
 }
 
 
