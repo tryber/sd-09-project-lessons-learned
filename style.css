@@ -13,6 +13,13 @@ section {
   margin: 1em 10px;
 }
 
+span {
+  font-family: monospace;
+  font-size: 1.3em;
+  color: crimson;
+  letter-spacing: 1px;
+}
+
 #cabecalho {
   background-color: seagreen;
   position: fixed;
@@ -23,13 +30,13 @@ section {
   display: inline-block;
   margin: 1em 0.5em;
   padding: 12px 12px 0;
-  background: linear-gradient(to right, blue, purple);
+  background: linear-gradient(to right , blue , purple);
   border-radius: 1em;
 }
 
 #minha_foto {
   border: none 12px;
-  border-radius: 1em;    
+  border-radius: 1em;
 }
 
 #titulo {
