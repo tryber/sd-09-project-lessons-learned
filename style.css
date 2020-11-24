@@ -13,12 +13,13 @@ body {
   width: 100%;
   float: center;
   text-align: center;
-  background-color:white; 
-  color: black;}
+  background-color: white; 
+  color: black;
+}
 
 #minha_foto {
   display: block;
-  margin-top:160px; 
+  margin-top: 160px; 
 }
 
 .lista1 {
@@ -67,8 +68,8 @@ body {
 }
 
 #navegacao ul li {
-  margin: 0; padding: 0;
-
+  margin: 0;
+  padding: 0;
   text-align: left;
   list-style-type: none;
 }
