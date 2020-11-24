@@ -20,7 +20,27 @@ h1 {
   color: red;
 }
 
+#prin {
+    width: 100%;
+    background-color: red;
+}
+
 #minha_foto {
   width: 10%;
   border-radius: 50%;
+}
+
+#lado-esquerdo {
+  position: absolute;
+  float: left;
+  width: 40%;
+  background-color: blue;
+}
+
+#lado-direito {
+  float: right;
+  right: 0;
+  position: absolute;
+  width: 30%;
+  background-color: green;
 }
