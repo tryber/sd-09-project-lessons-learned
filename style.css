@@ -26,14 +26,14 @@ body {
   text-align: right;
 }
 
-#menu ol li{
+#menu {
   display: inline-block;
   text-align: right;
   text-decoration: none;
 }
 
 #minha_foto {
-  border: 1px solid #000;
+  border: 1px solid #000000;
   border-radius: 50%;
   position: absolute;
   top: 5;
