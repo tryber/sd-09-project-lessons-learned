@@ -1,10 +1,29 @@
 #cabecalho {
         margin-top: 0;
-        position: fixed;
+}
+
+#licoes_a_aprender{
+    margin-left: 20px;
+}
+#licoes_aprendidas{
+    margin-left: 20px;
 }
 
 #minha_foto {
-        width: 10%;
+        width: 15%;
+        border-radius: 5%;
+    }
+
+#rodape{
+        text-align: center;
+        font-style: italic;
+        color: seagreen;
+
+    }
+#titulo{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
 }
 
 body {
