@@ -2,12 +2,12 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    background-color:green;
+    background-color: green;
     position: fixed;
     top: 0px;
-    width: 100%; 
+    width:100%; 
 }
 #cabecalho #titulo {
     text-align: center;
-    color:  black;
+    color: white;
 }
