@@ -17,5 +17,21 @@ body {
 
 #minha_foto {
   position: absolute;
-  top: 150px;
+  top: 110px;
+  float: left;
+}
+
+#licoes_aprendidas {
+  display: inline;
+}
+
+#licoes_a_aprender {
+  display: inline;
+}
+
+#rodape {
+  background-color: rgb(15 , 163 , 107);
+  color: rgb(253 , 251 , 251);
+  text-align: center;
+  width: 100%;
 }
