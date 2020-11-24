@@ -1,8 +1,7 @@
-    <style>
     body{
-        background-color: rgb(253, 251, 251);
+       background-color: rgb(253,251,251);
+       color: rgb(2,5,100);
         font-size: 13px;
-        color: rgb(2,3,100);
         padding: 3px;
         font-family: sans-serif;
     }
@@ -67,4 +66,3 @@
             text-decoration: none;
             display: block;
             }
-    </style>
