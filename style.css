@@ -75,4 +75,6 @@ h2, h3{
 
 #rodape{
     margin-top: 10%;
+    background: rgb(172,172,172);
+    background: linear-gradient(180deg, rgba(172,172,172,1) 0%, rgba(230,230,230,1) 100%);
 }
