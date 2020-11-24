@@ -2,22 +2,42 @@ body {
   background-color: rgb(253 ,251, 251);
   margin-left: 3%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
 }
 
 #cabecalho {
   position: fixed;
-  background-color: aqua;
+  top: 0;
 }
 
 #minha_foto {
-  width: 300px;
-  border: 3px solid aqua;
-  border-radius: 40%;
+  width: 250px;
+  border: 3px solid black;
+  border-radius: 50%;
   margin-top: 8%;
-  padding: 2px;
 }
 
 .list {
-  display: inline-block;
   border: 2px solid aqua;
+}
+
+#rodape {
+  background-color: aqua;
+  margin-bottom: -100%;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  float: left;
+}
+
+#licoes_a_aprender {
+  float: left;
+}
+
+#section {
+  clear: both;
+}
+article {
+  clear: both;
 }
