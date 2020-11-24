@@ -1,16 +1,39 @@
 body {
     background-color: rgb(253,251,251);
 }
+main {
+    margin-top: 225px;
+}
 #cabecalho {
     position:fixed;
     top:0px;
+    width:100%;
+    background-color: rgb(100, 173, 28);
+}
+#titulo {
+    float: right;
+    color:white;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.navigation li{
+    display:inline;
+    float:right;
+    margin:5px;
+    background-color: rgb(201, 243, 159);
 }
 #minha_foto {
     border-radius: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width:25%;
 }
 #licoes_aprendidas {
 
 }
 #licoes_a_aprender {
-    
+
+}
+#okay {
+    width: 25%;
 }
