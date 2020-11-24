@@ -9,6 +9,7 @@ body {
     }
 
 #cabecalho {
+    position: fixed;
     margin-top: 0px;
     text-align: center;
     text-emphasis: bold;
