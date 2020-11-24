@@ -1,19 +1,24 @@
 body {
-  background-color: rgb(253, 251, 251);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(253 , 251 , 251);
+  font-family: Montserrat, sans-serif;
   color: rgb(5, 5, 5);
   font-size: 16px;
   line-height: 30px;
 }
 
 #cabecalho {
-  background-color: rgb(37, 128, 0);
+  background-color: rgb(55 , 163 , 107);
   color: white;
-  padding: 25px;
+  padding: 10px;
   position: fixed;
   text-align: center;
   top: 0px;
   width: 100%;
+  font-weight: 600;
+}
+h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -22,7 +27,9 @@ nav {
 
 nav li {
   text-decoration: none;
-  list-style: none;
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
 }
 
 #perfil {
@@ -32,6 +39,8 @@ nav li {
 table {
     display: inline-block;
     margin-left: 40%;
+    vertical-align: top;
+    margin-top: 200px;
 }
 
 td {
@@ -43,8 +52,14 @@ main {
   display: inline;
 }
 
+#perfil {
+    text-align: center;
+}
+
 img {
   margin-top: 200px;
+  border-radius: 200px;
+  margin-left: 30px;
 }
 
 h2 {
@@ -64,6 +79,7 @@ h2 a {
 
 section {
   display: inline-block;
+  margin-right: 200px;
 }
 
 #learn {
@@ -77,17 +93,19 @@ section {
   border: 1px solid black;
   width: 601px;
   margin-right: 25px;
+  padding: 10px;
 }
 
 aside {
   border: 1px solid black;
   display: inline-block;
-  width: 200px;
+  width: 280px;
+  padding: 10px;
 }
 
 footer {
   text-align: center;
-  background-color: rgb(37, 128, 0);
+  background-color: rgb(55 , 163 , 107);
   margin-top: 35px;
   padding: 35px;
 }
