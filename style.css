@@ -1,4 +1,5 @@
 body{
+    /* https://fonts.google.com/   |  url das fontes.*/
     background-color: rgb(253, 251, 251);
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
@@ -104,4 +105,12 @@ body{
 
 #rodape{
     clear: both;
+    text-align: center;
+    background-color: #FCA311;
+    height: 50px;
+}
+
+.links_logos{
+    object-fit: cover;
+    padding: 10px;
 }
