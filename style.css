@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+    text-emphasis: bold;
+    font-size: 1em;
+    }
+
+body {
+    background-color: rgb(253, 251, 251);
+    font-size: 20px;
+     }
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    }
