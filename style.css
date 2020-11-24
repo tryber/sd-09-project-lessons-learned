@@ -21,8 +21,8 @@ h1 {
 }
 
 #prin {
-    width: 100%;
-    background-color: red;
+  width: 100%;
+  background-color: red;
 }
 
 #minha_foto {
@@ -30,17 +30,18 @@ h1 {
   border-radius: 50%;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   position: absolute;
   float: left;
   width: 40%;
   background-color: blue;
 }
 
-#lado-direito {
+.lado-direito {
   float: right;
   right: 0;
-  position: absolute;
+  position: relative;
   width: 30%;
   background-color: green;
+  clear: both;
 }
