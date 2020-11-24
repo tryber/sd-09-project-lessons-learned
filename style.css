@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 /* Possuir cor de fundo: rgb(253, 251, 251) */
@@ -8,14 +9,42 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+footer {
+  background-color: #444444;
+  color: #E2E2E2;
+  text-align: center;
+}
+
 /* O elemento com o id cabecalho deve ser fixo no topo da página
 com a propriedade top tendo 0px. */
 
 #cabecalho {
-  position: fixed;
+  padding: 2rem;
+  color: #E2E2E2;
+  text-align: center;
+  background-color: #444444;
   top: 0;
 }
 
 #minha_foto {
   width: 200px;
+}
+
+.artigo
+{
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lado-esquerdo
+{
+  padding: 3rem;
+  width: 30%;
+}
+
+.lado-direito
+{
+  padding: 3rem;
+  width: 30%;
+  float: right;
 }
