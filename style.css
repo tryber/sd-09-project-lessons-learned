@@ -23,4 +23,10 @@ body {
   text-align: center;
 }
 
+#minha_foto {
+    width: 300px;
+    position: absolute;
+    top: 100px;
+}
+
 /* Inherit styles */
