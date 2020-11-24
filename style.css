@@ -7,7 +7,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgb(83, 80, 80);
+  background-color: rgb(83 , 80 , 80);
 }
 
 #titulo {
@@ -38,4 +38,3 @@ body {
   font-family: sans-serif;
   margin-left: 80px;
 }
-
