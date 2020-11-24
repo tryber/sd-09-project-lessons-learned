@@ -1,0 +1,10 @@
+#cabecalho{
+    margin-top: 0px;
+    position: fixed;
+}
+#minha_foto{
+    width: 20%;
+}
+body{
+    background-color: rgb(253, 251, 251);
+}
