@@ -1,5 +1,9 @@
 /* Tag styles */
 
+* {
+    margin: 0;
+}
+
 body {
     background-color: rgb(253, 251, 251);
 }
@@ -10,6 +14,16 @@ body {
 
 /* ID styles */
 
+#cabecalho {
+    background-color: rgb(97, 145, 236);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+}
 
+#titulo {
+    text-align: center;
+}
 
 /* Inherit styles */
