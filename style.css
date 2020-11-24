@@ -6,7 +6,7 @@ body {
 #cabecalho {
         position: fixed;
         width: 2800px; 
-        height: 200px;
+        height: 100px;
         top: 0;
         background-color: aquamarine;
 }
@@ -18,16 +18,13 @@ body {
         width: 30%;
 }
 
-#listas{
-        float:right;
+#minha_foto {
+     border-radius: 50%;   
+     padding: top;
+     position: block;
+     margin-top: 220px;
 }
-
-#minha_foto{
-        image-size: 200px;
-        border-radius: 100px;
-        padding: top;
-        position: block;
-}
+     
 aside{
         border: dotted;
         margin: 20px 30px;  
