@@ -3,8 +3,35 @@ body{
 }
 
 #cabecalho{
-    background-color: red;
+    background-color:#2f3640;
+    color: #f5f6fa;
     position: fixed;
     top: 0px;
     width: 100%;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#cabecalho li{
+    display: inline-block;
+    margin: 20px 20px 20px 20px
+}
+
+#cabecalho h1{
+    text-align: center;
+}
+
+#cabecalho a{
+    color: #f5f6fa;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#cabecalho a:hover{
+    background-color: #fbc531;
+    color: #2f3640;
+}
+
+*{
+    margin: 0px;
 }
