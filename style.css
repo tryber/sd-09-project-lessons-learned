@@ -4,7 +4,10 @@
 }
 
 body {
+  max-width: 1366px;
+  max-height: 768px;
   background-color: rgb(253 , 251 , 251);
+  font-family: Bitter, serif;
   padding-bottom: 20px;
   margin-bottom: 15px;
 }
@@ -20,8 +23,6 @@ p {
 }
 
 #cabecalho {
-  max-width: 1366px;
-  max-height: 768px;
   border-radius: 0 15px 17px;
   background-color: rgb(3 , 163 , 3);
   padding-top: 15px;
@@ -41,10 +42,41 @@ p {
   color: aliceblue;
 }
 
+nav ul {
+  background-color: yellow;
+  border-radius: 15px 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #03a303;
+  font-weight: 500;
+}
+
+nav li:hover {
+  transition: 0.5s;
+  transform: scale(1.25, 1.25);
+  background-color: darkblue;
+  border-radius: 5px 15px;
+}
+
+nav li a:hover {
+  transition: 0.5s;
+  transform: scale(1.25, 1.25);
+  color: orange;
+}
+
 #minha_foto {
   width: 300px;
   border-radius: 10px 50px;
-  margin: 2%;
+  margin: 15% 2% 2%;
 }
 
 #licoes_aprendidas {
