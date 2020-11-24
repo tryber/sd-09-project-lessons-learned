@@ -9,7 +9,6 @@ body {
         height: 200px;
         top: 0;
         background-color: aquamarine;
-        border: dotted;
 }
 
 .center{
@@ -23,8 +22,11 @@ body {
         float:right;
 }
 
-#minhafoto{
-        size: 200px;
+#minha_foto{
+        image-size: 200px;
+        border-radius: 100px;
+        padding: top;
+        position: block;
 }
 aside{
         border: dotted;
@@ -36,4 +38,8 @@ h1{
         font-size: xx-large;
         font-weight: 800;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+footer{
+        border: dotted;
 }
