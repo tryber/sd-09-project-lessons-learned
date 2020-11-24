@@ -11,8 +11,10 @@ body{
 #cabecalho{
   display: flex; /* Mesmo sendo um pouco avançado, tive que ultilizar display flex para tornar seus filhos flexiveis para controlar seus posicionamentos com mais eficiência*/
   flex-direction: row; /* Direção das tag filhos em linha */
-  position: fixed; /* fixando o container noponto em que está na pagina independente se houver rolagem */
   width: 100%;
+  position: relative;
+  top: 0;
+  position: fixed; /* fixando o container noponto em que está na pagina independente se houver rolagem */
   z-index: 1;/* deixando o container na maior camada para sobrepôr as outras*/
   padding: 20px; /* Espaçamento interno de 20px*/
   background-color: #0fa5a5;
@@ -40,4 +42,8 @@ nav a{ /*selecionando as tags "a" do container "nav"*/
   border: 1px solid rgb(253, 251, 251); /*adicionando borda em todos os lados */
   border-radius: 30px; /*encurvando a borda em 30px*/
   padding: 10px; /*espaçamento interno do texto até a borda*/
+}
+
+main{
+  margin-top: 90px;
 }
