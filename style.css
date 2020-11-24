@@ -1,8 +1,14 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-size: 120%;
+}
+
+#artigo {
+    line-height: 1.5em;
 }
 
 #cabecalho {
+  font-family: monospace;
   position: fixed;
   top: 0;
   padding: 1em;
@@ -10,7 +16,11 @@ body {
 
 #minha_foto {
   width: 200px;
-  border: .2em solid #000;
+  border: 0.2em solid black;
   border-radius: 50%;
   margin: 0.5em;
+}
+
+#titulo {
+    color: royalblue;
 }
