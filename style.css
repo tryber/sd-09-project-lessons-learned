@@ -14,11 +14,11 @@ body {
 }
 
 #cabecalho h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-weight: 400;
   font-size: 3em;
   margin: 0;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -27,22 +27,22 @@ nav {
 }
 
 nav li {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   display: inline;
 }
 
 nav a {
   padding: 5px 20px;
   margin: 10px;
-  background-color: #fff;
+  background-color: #ffffff;
   color: rgb(15 , 163 , 107);
   text-decoration: none;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
 }
 
 nav a:hover {
   background-color: rgb(15 , 163 , 107);
-  color: #fff;
+  color: #ffffff;
 }
 
 main {
