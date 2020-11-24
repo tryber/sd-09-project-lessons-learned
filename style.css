@@ -17,6 +17,14 @@ h2, h3 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
 p, li {
     font-size: 20px;
     line-height: 30px;
@@ -63,4 +71,9 @@ img {
     border-radius: 50%;
     padding: 10px;
     background-color: #ffd781;
+}
+
+footer {
+    background-color: #334f54;
+    color: rgb(253 , 251 , 251);
 }
