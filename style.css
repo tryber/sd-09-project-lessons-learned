@@ -17,8 +17,7 @@ body {
 }
 
 #apresentacao {
-  position: relative;
-  top: 100px;
+  margin-top: 100px;
 }
 
 #minha_foto {
@@ -27,12 +26,16 @@ body {
 }
 
 #licoes {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 h1 {
   font-family: Josefin Sans, sans-serif;
   color: rgb(39 , 42 , 45);
+}
+
+h3 {
+  font-size: larger;
 }
 
 #rodape {
