@@ -1,8 +1,43 @@
+/* CSS - algumas propriedades mais avançadas foram comentadas */
+
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0;  /* Tirando a margem padrão de todas as tags */
+  padding: 0; /* Tirando o padding padrão de todas as tags */
+}
+body{
+  background-color: rgb(253, 251, 251);
 }
 
-body{
-  background-color: hsl(180, 32%, 80%);
+#cabecalho{
+  display: flex; /* Mesmo sendo um pouco avançado, tive que ultilizar display flex para tornar seus filhos flexiveis para controlar seus posicionamentos com mais eficiência*/
+  flex-direction: row; /* Direção das tag filhos em linha */
+  position: fixed; /* fixando o container noponto em que está na pagina independente se houver rolagem */
+  width: 100%;
+  z-index: 1;/* deixando o container na maior camada para sobrepôr as outras*/
+  padding: 20px; /* Espaçamento interno de 20px*/
+  background-color: #0fa5a5;
+  border-bottom: 1px solid black; /* borda inferior solida preta de 1px */
+}
+
+#titulo{
+  font-family: 'Roboto Slab', serif; /* colocando font roboto do google fonts */
+  color: rgb(253, 251, 251);
+}
+
+nav{
+  display: flex; /* Tonando o container flex deixando seus filhos flexicíveis para mudanças*/
+  flex: 1; /*deixa o container ocupar todo o espaço possivel do container pai*/
+  justify-content: flex-end; /* Alinha o conteúdo do container para o final em relação a largura*/
+  align-items: center; /* Alinha todos os itens do container ao centro em relaçao a altura*/
+  margin-right: 50px; /*Espaçamento externo em relação a borda do container pai*/
+}
+
+nav a{ /*selecionando as tags "a" do container "nav"*/
+  text-decoration: none; /* tirando as estilizações padrões da tag*/
+  margin-left: 30px;
+  font-size: 20px;
+  color: rgb(253, 251, 251);
+  border: 1px solid rgb(253, 251, 251); /*adicionando borda em todos os lados */
+  border-radius: 30px; /*encurvando a borda em 30px*/
+  padding: 10px; /*espaçamento interno do texto até a borda*/
 }
