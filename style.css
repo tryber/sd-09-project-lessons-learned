@@ -41,28 +41,8 @@ img {
   border: 2px solid black;
 }
 
-aside {
-  float: right;
-  width: 40%;
-}
-
-article {
-  float: left;
-  width: 40%;
-}
-
 table {
   clear: both;
   margin-right: auto;
   margin-left: auto;
-}
-
-#aprender {
-  float: left;
-  width: 40%;
-}
-
-#aprendidas {
-  float: right;
-  width: 40%;
 }
