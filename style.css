@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-  background-color: rgb(68 , 68 , 68);
+  background-color: rgb(99, 99, 99);
   color: rgb(226 , 226 , 226);
   text-align: center;
   padding: 150px;
@@ -24,6 +24,24 @@ com a propriedade top tendo 0px. */
   text-align: center;
   background-color: rgb(68 , 68 , 68);
   top: 0;
+}
+
+#menu {
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(56, 56, 56);
+  top: 0;
+}
+
+#menu li a {
+  display: inline;
+  padding: 2rem;
+  color: rgb(226 , 226 , 226);
+}
+
+#menu li a:hover {
+  color: rgb(56, 56, 56);
+  background-color: rgb(226 , 226 , 226);
 }
 
 #minha_foto {
@@ -65,6 +83,11 @@ com a propriedade top tendo 0px. */
   padding: 1rem;
   color: rgb(226 , 226 , 226);
   background-color: rgb(68 , 68 , 68);
+}
+
+.btn a:hover {
+  background-color: rgb(226 , 226 , 226);
+  color: rgb(68 , 68 , 68);
 }
 
 .artigo {
