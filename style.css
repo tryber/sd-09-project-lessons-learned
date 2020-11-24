@@ -2,6 +2,7 @@ body {
   background-color: rgb(253 ,251 ,251);
   font-family: Roboto;
   color: darkblue;
+  font-size: large;
 }
 
 #cabecalho {
@@ -11,6 +12,10 @@ body {
   color: white;
   width: 100%;
   text-align: center;
+}
+
+#minha_foto {
+  width: 30%;
 }
 
 table, th, td {
