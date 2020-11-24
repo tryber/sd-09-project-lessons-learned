@@ -1,10 +1,16 @@
 body {
   background-color: rgb(253 ,251 ,251);
+  font-family: Roboto;
+  color: darkblue;
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
 }
 
 table, th, td {
@@ -15,4 +21,23 @@ table, th, td {
 
 td {
   text-align: center;
+}
+
+.nav-links li{
+  display: inline;
+  margin: 25px;
+}
+
+.nav-links {
+  text-align: center;
+  padding-top: 80px;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  line-height: 30px;
+}
+
+#social {
+  color: darkblue;
+  text-decoration: none;
 }
