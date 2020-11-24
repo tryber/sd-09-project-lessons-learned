@@ -10,7 +10,7 @@ body {
 }
 
 #cabecalho {
-  background-color: #0fa36b;
+  background-color: rgb(15,163,107);
   position: fixed;
   top: 0px;
   width: 100%;
@@ -19,12 +19,14 @@ body {
 }
 
 #cabecalho h1 {
-  color: #ffffff;
+  color: rgb(255 , 255 , 255);
   margin: 32px 0;
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
   line-height: 24px;
+  margin-top: 16px;
+  margin-left: 16px;
 }
 
 #cabecalho nav ul li {
@@ -35,11 +37,11 @@ body {
 #minha_foto {
   width: 200px;
   height: 200px;
-  border: 6px solid #fff;
+  border: 6px solid rgb(255 , 255 , 255);
   border-radius: 50%;
   position: fixed;
-  top: 22px;
-  left: 22px
+  top: 32px;
+  left: 62px
 }
 
 #aside {
@@ -47,10 +49,13 @@ body {
   margin-left: 32px;
   float: left;
   width: 30%;
-  border: 1px solid #0fa36b;
-  padding: 16px;
   text-align: justify;
   font-size: 18px;
+}
+#aside section {
+  border: 1px solid rgb(15,163,107);
+  padding: 16px;
+  margin-top: 16px
 }
 
 #main {
@@ -61,7 +66,7 @@ body {
 }
 
 #artigo_aprendizado {
-  border: 1px solid #0fa36b;
+  border: 1px solid rgb(15,163,107);
   font-size: 18px;
   text-align: justify;
   padding: 16px;
@@ -81,7 +86,7 @@ body {
   width: 100%;
   position: fixed;
   bottom: 0px;
-  background-color: #0fa36b;
+  background-color: rgb(15,163,107);
   text-align: center;
   color: rgb(255 , 255 , 255);
   padding: 8px;
@@ -90,7 +95,7 @@ body {
 
 #lista_amigos {
   clear: both;
-  border: 1px solid #0fa36b;
+  border: 1px solid rgb(15,163,107);
   padding: 16px;
   text-align: center;
 }
@@ -101,10 +106,19 @@ table {
   text-align: center;
 }
 
+td {
+  padding: 8px;
+  border-top: 1px solid rgb(15,163,107);
+}
+
+h2 {
+  color: rgb(15,163,107);
+}
+
 a {
   text-decoration: none;
   color: rgb(238, 235, 232);
-  border: 1px solid #fff;
+  border: 1px solid rgb(255 , 255 , 255);
   padding: 8px;
   margin: 0 4px;
 }
