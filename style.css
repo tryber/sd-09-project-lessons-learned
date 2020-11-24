@@ -1,13 +1,21 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
+
 /* Possuir cor de fundo: rgb(253, 251, 251) */
-body{
-  background-color: rgb(253,251,251);
+body {
+  background-color: rgb(253, 251, 251 );
 }
-/* O elemento com o id cabecalho deve ser fixo no topo da página, com a propriedade top tendo 0px. */
-#cabecalho{
+
+/* O elemento com o id cabecalho deve ser fixo no topo da página
+com a propriedade top tendo 0px. */
+#cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
+}
+
+#minha_foto
+{
+  width: 200px;
 }
