@@ -6,6 +6,7 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: Arial, Helvetica, sans-serif;
+  color: color: rgb(59, 59, 59);
 }
 
 #cabecalho {
@@ -13,9 +14,13 @@ body {
   top: 0;
   width: 100%;
   padding: 16px;
-  background-color: blueviolet;
+  background-color: rgb(22, 160, 133);
   margin: 0 auto;
   text-align: center;
+}
+
+#cabecalho h1 {
+  color: rgb(253 , 251 , 251);
 }
 
 main {
@@ -30,7 +35,7 @@ header nav {
 }
 
 header nav a {
-  color: black;
+  color: rgb(59, 59, 59);
   text-decoration: none;
   font-size: 18px;  
   font-weight: 700;
@@ -88,8 +93,13 @@ nav a:last-child {
 }
 
 footer {
+  background-color: rgb(22, 160, 133);
   padding: 16px;
   text-align: center;
   font-size: 12px;
-  color: black;
+  color: white;
+}
+
+footer a {
+  color: white;
 }
