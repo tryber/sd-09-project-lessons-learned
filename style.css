@@ -2,8 +2,8 @@ body {
 	background-color: rgb(253 , 251 , 251);
 }
 
-.cabeçalho {
+#cabeçalho {
 	position: fixed;
 	top: 0px;
-	right: 0px;
+	left: 0px;
 }
