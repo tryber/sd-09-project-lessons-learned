@@ -6,6 +6,7 @@
 body {
     background-color: rgb( 253 , 251 , 251 );
     font-family: 'Comic Neue', cursive;
+    font-weight: 500;
 }
 
 #cabecalho {
@@ -68,5 +69,55 @@ body {
 
 .center-photo-name {
     width: auto;
+}
+
+.lists {
+    width: auto;
     text-align: center;
+}
+
+#licoes_aprendidas {
+    margin: 30px;
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+}
+
+#licoes_a_aprender {
+    margin: 30px;
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+}
+
+.article-box {
+    padding: 30px;
+    text-align: center;
+    width: auto;
+    height: 200px;
+}
+
+#article1 {
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#article2 {
+    border: 3px solid black;
+    width: 20%;
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+#rodape {
+    padding: 50px;
+    text-align: center;
+    background-color: green;
+    border-top: 2px solid black;
+    font-size: medium;
 }
