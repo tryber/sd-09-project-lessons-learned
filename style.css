@@ -61,8 +61,7 @@ body {
   width: 200px;
   margin: 0 auto;
   border-radius: 50%;
-  border: 2px solid green;
-  box-shadow: 1px 0.8px 1px black;
+  border: 2px solid rgb(11, 167, 32);
   margin-top: 150px;
   margin-bottom: 10px;
 }
@@ -73,6 +72,7 @@ body {
 }
 
 #container{
+    
 }
 
 .lado-esquerdo{
