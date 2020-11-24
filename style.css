@@ -3,14 +3,27 @@ body {
 }
 
 #cabecalho {
+  background-color: darkturquoise;
   position: fixed;
   top: 0;
+  width: 100%;
 }
 
 #minha_foto {
+  margin: 100px auto 0;
   width: 200px;
 }
 
 #lists ol , ul {
   display: inline-block;
+}
+
+#artigo_central {
+  display: inline-block;
+  width: 50%;
+}
+
+#artigo_lateral {
+  display: inline-block;
+  width: 30%;
 }
