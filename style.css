@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: rgb(253 , 251 , 251);
   font-size: 19px;
@@ -28,6 +32,8 @@ footer, nav {
 li a {
   text-decoration: none;
   color: white;
+  padding: 17px;
+  line-height: 50px;
 }
 
 nav {
@@ -35,13 +41,17 @@ nav {
   position: fixed;
   top: 90px;
   width: 100%;
+  height: 50px;
   z-index: 11;
+}
+
+nav a:hover {
+  background-color: #a9a9a9;
 }
 
 nav ul li {
   display: inline-block;
   margin-left: 30px;
-  height: 20px;
   font-size: 17px;
 }
 
