@@ -20,10 +20,10 @@ main {
     position: absolute;
     background-color: black;
     width: 60%;
-    height: 50%;
+    height: 47%;
     top: 10%;
     left: 1%;
-    padding: 3%;
+    padding: 2%;
     margin: 1px;
     border: dotted green;
 }
@@ -33,4 +33,18 @@ main {
     float: left;
     height: 300px;
     border: 10px ridge silver;
+}
+
+#aprendidas {
+    position: absolute;
+    background-color: green;
+    width: 40%;
+    height: 30%;
+    bottom: 5%;
+    left: 1%;
+    text-align: center;
+}
+
+#licoes_aprendidas {
+    columns: 2;
 }
