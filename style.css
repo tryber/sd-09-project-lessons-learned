@@ -1,11 +1,10 @@
 /* Tag styles */
-
 * {
-    margin: 0;
+  margin: 0px;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253 ,251 ,251);
 }
 
 /* Class styles */
@@ -13,17 +12,16 @@ body {
 
 
 /* ID styles */
-
 #cabecalho {
-    background-color: rgb(97, 145, 236);
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    height: 100px;
+  background-color: rgb(97 , 145 , 236);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100px;
 }
 
 #titulo {
-    text-align: center;
+  text-align: center;
 }
 
 /* Inherit styles */
