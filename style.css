@@ -1,8 +1,67 @@
 body{
-    background-color:(253,251,251);
+    background-color: rgb(253, 251, 251);
     font-family: 'Merriweather', Georgia, serif;
 }
 
-header{
+#cabecalho{
     position: fixed;
+    background-color: rgb(222, 184, 135);
+    width: 100%;
+    text-align: center;
+}
+.colchete{
+    color:red;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: LightGoldenRodYellow;
+    border-radius: 15px;
+    display: inline;
+}
+nav{
+    text-align: center;
+    font-size: large;
+    
+}
+.menusuperior{
+    display: inline;
+    margin: 50px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 5px dotted red;
+}
+#minha_foto{
+    border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    height: 350px;
+    border-top: 500px;
+}
+
+.menusuperior{
+    display:inline;
+}
+#esquerda{
+    float:right;
+}
+#direita{
+    float:left;
+}
+footer{
+    background-color: rgb(222, 184, 135);
+    width: 100%;
+    text-align: center;
+    color:white;
+    position: relative;
+}
+li a{
+    color: white;
+    font-size: x-large;
 }

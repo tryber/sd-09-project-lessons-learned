@@ -2,24 +2,30 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lessons Learned</title>
 </head>
 <body>
     <header>
         <div id="cabecalho">
+            <h1 class="colchete">{</h1>
         <h1 id="titulo">Lessons Learned</h1>
+        <h1 class="colchete">}</h1>
         <nav>
             <ul>
-                <li>Meu aprendizado</li>
-                <li>Lições Aprendidas</li>
-                <li>Quero aprender</li>
+                <li class="menusuperior"><a href=#meuaprendizado>Meu aprendizado</a></li>
+                <li class="menusuperior"><a href=#licoesaprendidas>Lições Aprendidas</a></li>
+                <li class="menusuperior"><a href=#queroaprender>Quero aprender</a></li>
             </ul>
         </nav>
         </div>
     </header>
-    <img src="minhafoto.jpg" alt= "foto de perfil">
-   <a href="https://github.com/fcbresende">Minha Página github</a>
+    <img id="minha_foto" src="minhafoto.jpg" alt= "foto de perfil">
+
+   <a target="_blank" href="https://github.com/fcbresende">Minha Página github</a>
     <article>
         <h2> Meu Aprendizado</h2>
         <p>nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue </p>
@@ -28,7 +34,8 @@
         <h3>A entrevista</h3>
         <p>nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium </p>
     </aside>
-    <section>
+    <section id="esquerda">
+        <h2>Lições Aprendidas</h2>
     <ol id="licoes_aprendidas">
         <li>lorem</li>
         <li>ipsum</li>
@@ -42,7 +49,8 @@
         <li></li>
     </ol>
     </section>
-    <section>
+    <section id="direita">
+        <h2>Lições à aprender</h2>
     <ul id="licoes_a_aprender">
         <li></li>
         <li></li>
