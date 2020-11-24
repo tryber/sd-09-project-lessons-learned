@@ -227,7 +227,7 @@ transition: 0.2s;
 /* animations */
 
 .icons {
-color: rgba(0 ,0 ,0 ,0.39);
+color: rgba(0, 0, 0, 0.39);
 font-size: 30px;
 transition: 0.5s;
 padding: 20px 20px;
@@ -246,7 +246,7 @@ filter: grayscale(0%);
 nav li:nth-child(2):hover,
 nav li:nth-child(3):hover,
 nav li:nth-child(4):hover {
-transform: scale(1.2 ,1.2);
+transform: scale(1.2, 1.2);
 }
 
 img:hover {
@@ -256,7 +256,7 @@ filter: blur(0);
 
 table.table tr.table-effect:hover {
 background-color: #405c77fa;
-transform: scale(1.05 ,1.05);
+transform: scale(1.05, 1.05);
 }
 
 table.table tr.table-effect:hover td {
@@ -264,12 +264,12 @@ color: wheat;
 }
 
 .icons:hover {
-transform: scale(1.2 ,1.2);
+transform: scale(1.2, 1.2);
 color: #2c3e50;
 }
 
 .footerIcons:hover {
-color: rgb(65 ,33 ,33);
+color: rgb(65, 33, 33);
 }
 
 .footerIcons:nth-child(2):hover {
@@ -278,32 +278,32 @@ color: #eb2f06;
 
 /* Responsive */
 
-@media (max-width :800px) {
+@media (max-width: 800px) {
     .wrapper-content {
         flex-direction: column;
     }
   }
 
-  @media (max-width :800px) {
+  @media (max-width: 800px) {
     .main {
         flex-direction: column;
             margin: 0 0 0 80px;
     }
   }
 
-  @media (max-width :800px) {
+  @media (max-width: 800px) {
     aside p {
         width: 75%;;
     }
 }
 
-  @media (max-width :800px) {
+  @media (max-width: 800px) {
     header {
         margin-top: 150px;
     }
 }
 
-  @media (max-width :800px) {
+  @media (max-width: 800px) {
     .list-title {
         text-align: center;
     }
