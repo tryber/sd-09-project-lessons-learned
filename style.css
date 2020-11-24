@@ -1,8 +1,8 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
     background-color:#2f3640;
     color: #f5f6fa;
     position: fixed;
@@ -12,55 +12,55 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
-#cabecalho li{
+#cabecalho li {
     display: inline-block;
-    margin: 20px 20px 20px 20px
+    margin: 20px;
 }
 
-#cabecalho h1{
+#cabecalho h1 {
     text-align: center;
 }
 
-#cabecalho a{
+#cabecalho a {
     color: #f5f6fa;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-#cabecalho a:hover{
+#cabecalho a:hover {
     background-color: #fbc531;
     color: #2f3640;
 }
 
-#minha_foto{
-    margin: 130px 100px 30px 100px;
+#minha_foto {
+    margin: 130px 100px 30px;
     width: 250px;
     border-radius: 60%;
 }
 
-#sobre_mim{
+#sobre_mim {
     text-align: justify;
     width: 40%;
-    margin: 30px 30px 30px 30px;
+    margin: 30px;
     padding: 30px;
     display: inline-block;
     vertical-align: middle;
 }
 
-#aprendizado{
+#aprendizado {
     text-align: justify;
     width: 30%;
-    margin: 30px 30px 30px 30px;
+    margin: 30px;
     padding: 30px;
     display: inline-block;
     vertical-align: middle;
 }
 
-#paragrafos{
+#paragrafos {
     font-size: 20px;
-}   
+}
 
-#lists div{
+#lists div {
     display: inline-block;
     width: 35%;
     padding: 2%;
@@ -69,18 +69,19 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#lists h2{
+#lists h2 {
     margin-bottom: 15px;
     color: #2f3640;
 }
-#lists{
+
+#lists {
     background-color: #dcdde1;
 }
 
-.trybe{
+.trybe {
     color: #218c74;
 }
 
-*{
+* {
     margin: 0px;
 }
