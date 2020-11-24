@@ -1,11 +1,13 @@
 body {
   background-color: rgb(253 , 251 , 251);
 }
+
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
 }
+
 #titulo {
   position: absolute;
-  z-index: 1; 
+  z-index: 1;
 }
