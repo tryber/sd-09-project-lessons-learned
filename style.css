@@ -10,16 +10,13 @@ body {
 nav {
   width: 100%;
   height: 125px;
-}
-
-#cabecalho {
   position: fixed;
   top: 0;
   background-color: rgb(66 , 66 , 66);
 }
 
-#titulo h1 {
-  font-family: 'Oxanium', cursive;
+#titulo {
+  font-family: Oxanium, cursive;
   text-align: center;
   text-transform: uppercase;
   color: rgb(46 , 254 , 247);
@@ -39,7 +36,7 @@ ul {
 #nav-btn li a {
   text-decoration: none;
   color: rgb(1 , 223 , 215);
-  font-family: 'Oxanium', cursive;
+  font-family: Oxanium, cursive;
 }
 
 #nav-btn li a:hover {
