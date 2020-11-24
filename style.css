@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   list-style: none;
@@ -12,7 +12,7 @@ body {
 
 #cabecalho {
   border-bottom: 1px solid;
-  border-color: #017048;
+  border-color: rgb( 1 , 112 , 72 );
   padding-top: 1%;
   position: fixed;
   text-align: center;
@@ -22,7 +22,7 @@ body {
 }
 
 #titulo {
-  color: #00a367;
+  color: rgb( 0 , 163, 103 );
   font-size: 1.4em;
   line-height: 0.2em;
 }
