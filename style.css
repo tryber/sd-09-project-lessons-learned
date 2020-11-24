@@ -13,6 +13,13 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-size: larger;
+    color: royalblue;
+    line-height: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #corpo {
     position: relative;
     top: 150px;
