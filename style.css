@@ -1,11 +1,12 @@
 body {
-  background-color: rgb(253, 251, 251); 
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
-  background-color: rgb(15, 163, 107);
+  background-color: rgb(15 , 163 , 107);
   width: 1366px;
-  height: 100px;
+  height: 90px;
+  display: block;
   position: absolute;
   top: 0px;
   left: 0px;
