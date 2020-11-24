@@ -54,13 +54,26 @@ main {
   line-height: 20.5px;
 }
 
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+}
+
+
 #passagem_aprendizado {
-  margin-top: 20px;
   line-height: 20.5px;
+  margin-top: 20px;
+  
+}
+
+.lado-direito {
+  float: right;
+  width: 50%;
 }
 
 /* footer */
 #rodape {
-  margin-top: 20px;
   color: blue;
+  margin-top: 20px;
+  clear: both;
 }
