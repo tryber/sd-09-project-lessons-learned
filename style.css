@@ -10,8 +10,8 @@ body {
 }
 
 footer {
-  background-color: #444;
-  color: #e2e2e2;
+  background-color: rgb(68 , 68 , 68);
+  color: rgb(226 , 226 , 226);
   text-align: center;
   padding: 150px;
 }
@@ -21,9 +21,9 @@ com a propriedade top tendo 0px. */
 
 #cabecalho {
   padding: 2rem;
-  color: #e2e2e2;
+  color: rgb(226 , 226 , 226);
   text-align: center;
-  background-color: #444;
+  background-color: rgb(68 , 68 , 68);
   top: 0;
 }
 
@@ -31,23 +31,40 @@ com a propriedade top tendo 0px. */
   width: 200px;
 }
 
+#tabela {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tabela td, th {
+  border: 1px solid rgb(100 , 100 , 100);
+  text-align: center;
+  padding: 1rem;
+}
+
+#tabela tr:nth-child(even) {
+  background-color: rgb(165, 165, 165);
+}
+
 .artigo {
   text-align: justify;
-  color: #444;
-  font-family: sans-serif;
+  color: rgb(68 , 68 , 68);
+  font-family: Verdana, sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
 }
 
 .lado-esquerdo {
-  border: 1px solid #444;
+  border: 1px solid rgb(68 , 68 , 68);
   padding: 3rem;
   margin: 3rem;
   width: 30%;
 }
 
 .lado-direito {
-  border: 1px solid #444;
+  border: 1px solid rgb(68 , 68 , 68);
   padding: 3rem;
   margin: 3rem;
   width: 30%;
