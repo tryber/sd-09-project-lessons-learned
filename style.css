@@ -1,80 +1,80 @@
-        
-        body {
-        background-color: rgb(253,251,251);
-        color: rgb(2,5,100);
-        font-size: 13px;
-        padding: 3px;
-        font-family: sans-serif;
-        line-height: 20px;
-        }
+body {
+  background-color: rgb(253, 251, 251);
+  color: rgb(2, 5, 100);
+  font-size: 13px;
+  padding: 3px;
+  font-family: sans-serif;
+  line-height: 20px;
+}
 
-        #cabecalho {
-        position: fixed;
-        top: 0px;
-        width: 100%;
-        float: center;
-        text-align: center;
-        background-color:white;
-        color: black}
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float: center;
+  text-align: center;
+  background-color:white; 
+  color: black;}
 
-        #minha_foto{
-        display: block;
-        margin-top:160px;
-        }
+#minha_foto {
+  display: block;
+  margin-top:160px; 
+}
 
-        .lista1{
-        position: relative;
-        float: left;
-        width: 49%;
-        display: inline-block;
-        }
+.lista1 {
+  position: relative;
+  float: left;
+  width: 49%;
+  display: inline-block;
+}
 
-        .lista2{
-        position: relative;
-        float: right;
-        right: 0px;
-        width: 49%;
-        display: inline-block;
-        }
+.lista2 {
+  position: relative;
+  float: right;
+  right: 0;
+  width: 49%;
+  display: inline-block;
+}
 
-        #rodape{
-        color: black;
-        font-size: 11px;
-        font-style: italic;
-        }
+#rodape {
+  color: black;
+  font-size: 11px;
+  font-style: italic;
+}
 
-        .lado-esquerdo{
-        position: relative;
-        float: left;
-        width: 49%;
-        border: 3px solid rgb(2,250,0);
-        text-align: left;
-        }
+.lado-esquerdo {
+  position: relative;
+  float: left;
+  width: 49%;
+  border: 3px solid rgb(2, 250, 0);
+  text-align: left;
+}
 
-        .lado-direito{
-        position: relative;
-        float: right;
-        width: 49%;
-        right: 0px;
-        border: 3px solid rgb(2,250,0);
-        text-align: right;
-        margin-bottom: 50px;
-        }
+.lado-direito {
+  position: relative;
+  float: right;
+  width: 49%;
+  right: 0;
+  border: 3px solid rgb(2, 250, 0);
+  text-align: right;
+  margin-bottom: 50px;
+}
 
-        #tabela{
-        position: absolute;
-        top: 240px;
-        right: 0px;
-        }
+#tabela {
+  position: absolute;
+  top: 240px;
+  right: 0;
+}
 
-        #navegacao ul li {
-        margin: 0; padding: 0px;
-        text-align: left;
-        list-style-type: none;
-        }
+#navegacao ul li {
+  margin: 0; padding: 0;
 
-        #navegacao a{
-        color: black;
-        text-decoration: none;
-        display: block;
-        }
+  text-align: left;
+  list-style-type: none;
+}
+
+#navegacao a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
