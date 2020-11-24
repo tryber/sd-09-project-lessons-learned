@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(253 ,251 ,251);
-  font-family: Roboto;
+  background-color: rgb(253 , 251 , 251);
+  font-family: Roboto, sans-serif;
   color: darkblue;
   font-size: large;
   margin: 0;
@@ -9,7 +9,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   background-color: black;
   color: white;
   width: 100%;
@@ -19,7 +19,7 @@ body {
   width: 30%;
 }
 
-table, th, td {
+table , th , td {
   border: 2px solid black;
   border-collapse: collapse;
   padding: 10px;
@@ -29,7 +29,7 @@ table {
   margin: 0 auto;
 }
 
-.nav-links li{
+.nav-links li {
   display: inline;
   margin: 25px;
 }
@@ -38,13 +38,13 @@ table {
   padding-top: 80px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   line-height: 30px;
   display: inline-block;
   margin: 20px;
 }
 
-#social a{
+#social a {
   color: darkblue;
   text-decoration: none;
 }
@@ -53,7 +53,7 @@ table {
   float: left;
   width: 50%;
   border: 1px solid gray;
-  margin: 10px 10px;
+  margin: 10px;
   padding: 10px;
 }
 
@@ -62,7 +62,7 @@ table {
   width: 40%;
   border: 1px solid gray;
   padding: 10px;
-  margin: 30px 10px 0 0; 
+  margin: 30px 10px 0 0;
 }
 
 #rodape {
@@ -70,6 +70,3 @@ table {
   background-color: black;
   color: white;
 }
-
-
-
