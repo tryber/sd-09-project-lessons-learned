@@ -56,20 +56,20 @@ nav li {
 
 nav li a {
   text-decoration: none;
-  color: #03a303;
+  color: rgb(3 , 163 , 3);
   font-weight: 500;
 }
 
 nav li:hover {
   transition: 0.5s;
-  transform: scale(1.25, 1.25);
+  transform: scale(1.25 , 1.25);
   background-color: darkblue;
   border-radius: 5px 15px;
 }
 
 nav li a:hover {
   transition: 0.5s;
-  transform: scale(1.25, 1.25);
+  transform: scale(1.25 , 1.25);
   color: orange;
 }
 
@@ -119,7 +119,7 @@ nav li a:hover {
   width: 29%;
   margin-right: 11%;
   margin-top: 2%;
-  padding: 60px;
+  padding: 65px;
   border-radius: 35px;
 }
 
