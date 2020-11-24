@@ -14,11 +14,11 @@ body {
 }
 
 #cabecalho h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: Pacifico, cursive;
   font-weight: 400;
   font-size: 3em;
   margin: 0;
-  color: #fff;
+  color: white;
   text-align: center;
 }
 
@@ -27,26 +27,27 @@ nav {
 }
 
 nav li {
-  font-family: 'Indie Flower', cursive;
+  font-family: Indie Flower, cursive;
   display: inline;
 }
 
 nav a {
   padding: 5px 20px;
   margin: 10px;
-  background-color: #fff;
+  background-color: white;
   color: rgb(15 , 163 , 107);
   text-decoration: none;
-  border: 2px solid #fff;
+  border: 2px solid white;
 }
 
 nav a:hover {
   background-color: rgb(15 , 163 , 107);
-  color: #fff;
+  color: white;
 }
 
 main {
-  margin: 150px 50px 50px 50px;
+  margin: 50px;
+  margin-top: 150px;
 }
 
 img {
@@ -62,30 +63,30 @@ p {
   line-height: 1.5;
 }
 
-main ul, main ol {
+main ul , main ol {
   display: inline-block;
   width: 30%;
 }
 
-article, aside {
+article , aside {
   display: inline-block;
   width: 49%;
 }
 
 aside {
-    float: right;
+  float: right;
 }
 
-table, td {
-    border: 1px solid rgb(15 , 163 , 107);
+table , td {
+  border: 1px solid rgb(15 , 163 , 107);
 }
 
-table, tr {
-    width: 100%;
+table , tr {
+  width: 100%;
 }
 
 th {
-    background-color: rgb(15 , 163 , 107);
-    padding: 10px;
-    color: #fff;
+  background-color: rgb(15 , 163 , 107);
+  padding: 10px;
+  color: white;
 }
