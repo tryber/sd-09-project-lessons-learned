@@ -7,7 +7,7 @@
 body {
   background-color: rgb( 253 , 251 , 251 );
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 #cabecalho {
@@ -22,7 +22,7 @@ body {
 }
 
 #titulo {
-  color: rgb( 0 , 163, 103 );
+  color: rgb( 0 , 163 , 103 );
   font-size: 1.4em;
   line-height: 0.2em;
 }
@@ -30,4 +30,14 @@ body {
 .sub-titulo {
   font-size: 1em;
   font-weight: 300;
+}
+
+#conteudo-principal {
+    display: flex;
+    align-items: center;
+    padding: 15%;
+}
+
+#conteudo-principal .secao-texto img {
+    height: 200px;
 }
