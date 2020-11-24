@@ -2,9 +2,10 @@ body {
     background-color: rgb(253,251,251);
 }
 main {
-    margin-top: 240px;
     font-family: Work Sans, sans-serif;
     border-color: green;
+    margin-top: 18%;
+    color: rgb(81, 104, 46);
 }
 #cabecalho {
     position:fixed;
@@ -20,9 +21,15 @@ main {
 }
 .navigation li{
     font-family: Work Sans, sans-serif;
-    display:inline;
-    float:right;
-    margin:5px;
+    display:inline;    
+}
+a:hover{
+    background-color: aquamarine;  
+}
+.navigation {
+    margin-bottom:0;
+    float:left;
+    width: 100%;
     background-color: rgb(201, 243, 159);
 }
 #minha_foto {
@@ -35,14 +42,22 @@ main {
 }
 #artigo{
     padding:10px;
-    background-color: rgb(214, 240, 176);
+    width:50%;
+    float:left;
+    margin-bottom:50px;
+}
+#section {
+    margin-left:50%;
+    padding:10px;
+    block-size: inherit;
 }
 #licoes_aprendidas {
-    display:inline-block;
-    align-items: flex-start;
+    width:50%;
+    float:left;
 }
 #licoes_a_aprender {
-    margin-left:5px;
+    margin-left:50%;
+    padding:20px;
 }
 #okay {
     max-width: 5%;
@@ -57,11 +72,11 @@ h3 {
 }
 p {
     color: rgb(81, 104, 46);
+    font-size: 16px;
 }
 #rodape {
     bottom:0px;
     background-color: rgb(214, 240, 176);
     width:100%;
-    color:white;
-    margin-top:50px;
+    position: fixed;
 }
