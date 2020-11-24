@@ -1,7 +1,13 @@
-body {
-    background-color: rgb(253, 251, 251);
+* {
+    margin: 0px;
 }
 
 #cabecalho {
+    text-align: center;
+    background-color: forestgreen;
     top: 0cm;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
 }
