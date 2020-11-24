@@ -4,9 +4,51 @@
 
  #cabecalho {
   top: 0;
-  position: fixed;
+  
+}
+
+#titulo {
+    text-align: center;
+}
+#nav {
+    
+    float:right;
+    width:20%;
+    margin:5px;
+    border: 5px solid rgb(109, 114, 114);
 }
 
  #minha_foto {
   width: 300px;
+  float: left;
 }
+
+h2 {
+    margin-top: 28%;
+}
+h3{
+    font-size:x-large ;
+}
+
+
+#info {
+    padding: 20px;
+    text-align: center;
+
+}
+#lista1{
+    float: left ;
+    margin-top:25% 
+}
+
+#lista2{
+    float: right;   
+    margin-top:30% ;
+    margin-right: 15%;
+}
+
+#transicao {
+    margin-top:60% ;
+    
+}
+
