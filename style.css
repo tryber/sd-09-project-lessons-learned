@@ -2,9 +2,14 @@ body {
   background-color: rgb(253, 251, 251);
   padding-top: 10px;
   font-family: 'Josefin Sans', sans-serif;
+  color: #272324;
 }
 h1 {
   margin-left: 42px ; 
+}
+
+h2 {
+  color: #6ab689;
 }
 
 #cabecalho {
@@ -48,10 +53,12 @@ h1 {
 #licoes_aprendidas {
   float: left;
   line-height: 25px;
+  font-weight: 500;
 }
 
 #licoes_a_aprender {
   line-height: 25px;
+  font-weight: 500;
 }
 
 #licoesNovas {
@@ -62,4 +69,5 @@ article {
   border: dashed;
   text-align: left;
   clear: both;
+  padding-right:50%;
 }
