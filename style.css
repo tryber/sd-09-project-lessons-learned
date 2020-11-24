@@ -1,6 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(5, 5, 5);
+  font-size: 16px;
+  line-height: 30px;
 }
 
 #cabecalho {
@@ -58,8 +61,8 @@ section {
 .lado-esquerdo {
   display: inline-block;
   border: 1px solid black;
-  width: 600px;
-  margin-right: 30px;
+  width: 601px;
+  margin-right: 25px;
 }
 
 aside {
