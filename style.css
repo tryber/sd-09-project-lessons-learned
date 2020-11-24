@@ -39,11 +39,11 @@ body {
 
 a:link {
   color: rgb(35 , 37 , 32);
-  }
-  
+}
+
 a:visited {
   color: rgb(35 , 37 , 32);
-  }
+}
 
 #aprendizados {
   margin-left: 15px;
@@ -74,10 +74,10 @@ h3 {
 }
 
 .lado-direito {
-  display:inline-block;
+  display: inline-block;
 }
 
 #artigo {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
+  margin-left: 15px;
+  margin-right: 15px;
+}
