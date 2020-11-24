@@ -1,12 +1,14 @@
 body {
-    background-color: rgb(253, 251, 251);
+        background-color: rgb(253 ,251 ,251);
 }
+
 #cabecalho {
-    background-color: seagreen;
-    position: fixed;
-    top: 0px;
+        background-color: seagreen;
+        position: fixed;
+        top: 0;
 }
+
 #titulo {
-    font-family: monospace;
-    font-style: italic;
+        font-family: monospace;
+        font-style: italic;
 }
