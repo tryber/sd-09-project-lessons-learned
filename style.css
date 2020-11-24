@@ -12,3 +12,8 @@ body {
   position: fixed;
   top: 0%;
 }
+
+#minha_foto {
+    width: 10%;
+    border-radius: 50%;
+}
