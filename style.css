@@ -1,17 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: blueviolet;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  margin-top: 80px;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;  
+  font-weight: 700;
+}
+
+nav a:last-child {
+  margin-left: 16px;
 }
 
 #minha_foto {
-  width: 100px;
+  display: inline-block;
+  width: 200px;
   border-radius: 50%;
+  padding: 16px;
+}
+
+#minhas_infos a {
+  display: block;
+  color: black;
 }
 
 #minhas_infos {
   margin: 0 auto;
+  text-align: center;
+}
+
+#learning-article {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#learning-article article , #learning-article aside {
+  display: inline-block;
+  text-align: justify;
+  margin-top: 0;
+  width: 40%;
+  padding: 16px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+#licoes table {
+  margin: 0 auto;
+  padding: 16px;
+}
+
+#licoes table tr th, #licoes table tr td ul, #licoes table tr td ol {
+  padding: 4px 32px;
+}
+
+footer {
+  margin-top: 32px;
+  padding: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: black;
 }
