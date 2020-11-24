@@ -46,8 +46,6 @@ nav a{ /*selecionando as tags "a" do container "nav"*/
   padding: 10px; /*espaçamento interno do texto até a borda*/
 }
 
-
-
 #page_content{
   padding: 25px;
   margin-top: 90px;
@@ -125,5 +123,10 @@ section{
 #licoes_a_aprender{
   text-align: center;
   margin-left: 70px;
+}
+
+footer{
+  margin-top: 30px;
+  text-align: center;
 }
 
