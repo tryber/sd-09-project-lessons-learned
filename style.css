@@ -1,16 +1,23 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+}
+
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb( 253 , 251 , 251 );
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #cabecalho {
   border-bottom: 1px solid;
   border-color: #017048;
+  padding-top: 1%;
   position: fixed;
   text-align: center;
   text-transform: uppercase;
-  top: 0px;
+  top: 0;
   width: 100%;
 }
 
