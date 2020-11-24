@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -10,9 +10,11 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #3f96ec;
-  width:100%;
+  background-color: rgb(24, 84, 153);
+  width: 100%;
   text-align: center;
+  color: white;
+  border-bottom: ;
 }
 
 #minha_foto {
