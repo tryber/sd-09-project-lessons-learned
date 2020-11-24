@@ -3,16 +3,45 @@ body {
 }
 #cabecalho {
     position: fixed;
+    width: 100%;
     top: 0px;
+    background-color: rgb(25, 29, 43);
 }
 #titulo {
     text-align: center;
     margin-top: 30px;
     margin-left: 100px;
+    color: blueviolet;
 }
 #minha_foto {
     max-width: 200px;
     border-radius: 200px;
     padding: 30px;
     margin-top: 100px;
+}
+#rodape {
+    text-align: center;
+    background-color: rgb(25, 29, 43);
+}
+.title-footer{
+    color: blueviolet;
+    margin-left: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+#links-footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+a:hover {
+    color: blueviolet;
+    text-decoration: blueviolet;
 }
