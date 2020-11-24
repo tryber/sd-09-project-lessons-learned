@@ -4,10 +4,15 @@ main a {
   font-size: 1.5em;
   background-color: seagreen;
   margin: 0%;
+  color: black;
 }
-
+ul a{
+  text-decoration: none;
+  color: black;
+}
 body {
   font-family: 'Noto Sans JP', sans-serif;
+  color: black;
   background-color: rgb(253 , 251 , 251);
   height: 768px;
   width: 1366px;
@@ -17,8 +22,12 @@ header h1 {
   margin-top: 0%;
 }
 
+#navegacao {
+  position: absolute;
+  top: 0%;
+}
+
 nav ul li {
-  background-color: sienna;
   display: inline;
   padding: 0px 25px;
 }
@@ -36,7 +45,6 @@ article{
 #titulo {
   text-align: center;
   background-color: seagreen;
-  width: 100%;
 }
 
 #licoes {
