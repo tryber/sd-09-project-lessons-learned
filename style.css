@@ -1,16 +1,22 @@
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
   padding: 10px;
   top: 0;
 }
- #cabecalho {
-  background-color: rgb(37,128,0);
+  #cabecalho {
+  background-color: rgb(37, 128, 0);
   color: white;
-  
   text-align: center;
-  top: o;
+  top: 0px;
   width: 100%;
 }
-* {
-    margin: 0;
+main {
+    display: inline;
 }
+section{
+    display: inline-block;
+}
+* {
+  margin: 0px;
+}
+
