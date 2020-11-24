@@ -33,19 +33,19 @@ h1 {
   top: 0px;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   float: left;
   max-width: 65%;
   padding: 10px;
   border: 3px solid black;
 }
 
-#lado-direito {
+.lado-direito {
   float: right;
   max-width: 30%;
   padding: 10px;
   border: 3px solid black;
-} 
+}
 
 .artigo {
   padding: 10px 30px;
