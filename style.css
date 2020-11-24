@@ -1,0 +1,50 @@
+a{
+    text-decoration:none;
+    font-size:18px;
+}
+
+a:hover{
+    background:#4a4e69;
+    color:#84a98c;
+}
+
+body{
+    padding:120px 0 0 0px;
+    background-color: rgb(253 ,251 ,251);
+    color:#4a4e69;
+    margin:0;
+}
+
+header h1{
+    line-height:10px;
+}
+
+header{
+    background:#84a98c;
+    font-size:18px;
+    height:auto;
+    position:fixed;
+    text-align:center;
+    width:100%;
+    top:0;
+}
+
+#minha_foto{
+    border-radius:150px;
+    max-width:150px;
+    float: left;
+}
+
+.navbar
+{
+    font-family:monospace;
+    font-size:16px;
+    padding-top:10px;
+}
+
+.navbar li{
+    float:left;
+    list-style-type:none;
+    display:block;
+    padding:0px 14px;
+}
