@@ -8,6 +8,45 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(15 , 163 , 107);
+}
+
+#cabecalho h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 3em;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav li {
+  font-family: 'Indie Flower', cursive;
+  display: inline;
+}
+
+nav a {
+  padding: 5px 20px;
+  margin: 10px;
+  background-color: #fff;
+  color: rgb(15 , 163 , 107);
+  text-decoration: none;
+  border: 2px solid #fff;
+}
+
+nav a:hover {
+  background-color: rgb(15 , 163 , 107);
+  color: #fff;
+}
+
+main {
+  margin-top: 150px;
 }
 
 img {
