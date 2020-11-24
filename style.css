@@ -5,11 +5,20 @@
 
 body {
     background-color: rgb(253 , 251 , 251);
+    margin: 0 auto;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
-    left: 0;
+    width: 100%;
+    background-color: #334f54;
 }
+
+main {
+    margin: 60px 30px 10px;
+    padding: 30px;
+}
+
+
 
