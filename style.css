@@ -17,10 +17,10 @@ body{
     margin: 20px;
     color: #FFFFFF;
     border: 1px solid #FCA311;
-    padding: 20px;
-    position: relative;
-    height: 32em;
+    padding: 50px;
     overflow: auto;
+    padding-right: 150px;
+    padding-bottom: 100px;
 }
 
 .listas{
@@ -89,7 +89,6 @@ body{
     color: #FFFFFF;
     border: 1px solid #FCA311;
     padding: 30px;
-    object-position: center;
     text-align: center;
     overflow: auto;
 }
