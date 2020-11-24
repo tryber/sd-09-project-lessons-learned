@@ -5,5 +5,16 @@ body {
     position: fixed;
     top: 0px;
     font-family: 'Indie Flower', cursive;
-    font-size: large;    
+    font-size: 30px;
+}
+#minha_foto {
+    border-radius: 50px;
+    position: absolute;
+    left: 700px;
+}
+#headNav{
+    float: right;
+    position: relative;
+    bottom: 80px;
+    left: 400px;   
 }
