@@ -1,7 +1,7 @@
-body {
-  background-color: rgb(253,251,251);
+#cabecalho {
+  top: 0px;
 }
 
-#cabecalho {
-  top: opx;
+body {
+  background-color: rgb(253, 251, 251);
 }
