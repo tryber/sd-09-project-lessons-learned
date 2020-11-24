@@ -9,14 +9,20 @@ body {
     text-align: center;
     font-family: sans-serif;
     }
-
 #navBar {
+    background-color: rgb(57, 240, 57);
+    text-align: center;
+    }
+
+#nav {
     display: inline-block;
+    margin-right: 50px;
+    margin-left: 40px;
 }    
 
 #cabecalho {
     position: fixed;
-    margin-top: 0px;
+    top: 0px;
     text-align: center;
     text-emphasis: bold;
     font-size: 1em;
