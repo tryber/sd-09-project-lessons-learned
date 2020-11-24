@@ -7,20 +7,35 @@ body{
 #cabecalho{
     position: fixed;
     top: 0px;
+    height: 6em;
     background-color: #FCA311;
     width: 100%;
     z-index: 2;
 }
 
 #perfil{
-    background-color: #14213D;
-    margin: 20px;
-    color: #FFFFFF;
-    border: 1px solid #FCA311;
-    padding: 50px;
     overflow: auto;
     padding-right: 150px;
     padding-bottom: 100px;
+}
+
+.fundos_secoes{
+    background-color: #14213D;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+.exceto_secoes{
+    margin: 15px;
+    border: 1px solid #FCA311;
+}
+
+#artigo{
+    text-align: center;
+    overflow: auto;
+    float: left;
+    width: 55%;
+    height: 300px;
 }
 
 .listas{
@@ -38,9 +53,7 @@ body{
 }
 
 #navegacao{
-    top: 5em;
-    position: relative;
-    z-index: 1;
+    background-color: #14213D;
 }
 
 #titulo{
@@ -83,16 +96,12 @@ body{
     overflow: auto;
 }
 
-#artigo{
-    background-color: #14213D;
-    margin: 20px;
-    color: #FFFFFF;
-    border: 1px solid #FCA311;
-    padding: 30px;
-    text-align: center;
-    overflow: auto;
+#aside_breve_passagem{
+    float: right;
+    width: 22%;
+    height: 300px;
 }
 
 #rodape{
-
+    clear: both;
 }
