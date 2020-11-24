@@ -1,7 +1,18 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #cabecalho {
   position: fixed;
+}
+
+#apresentacao {
+    position: relative;
+    top: 100px;
+}
+
+#minha_foto {
+    height: 300px;
+    border-radius: 15px 50px;
 }
