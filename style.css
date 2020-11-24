@@ -6,7 +6,6 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: Nunito, sans-serif;
   max-width: 1366px;
 }
 
@@ -21,6 +20,7 @@ body {
 }
 
 #titulo {
+  font-family: Nunito, sans-serif;
   font-size: 36px;
   padding-right: 50px;
   text-align: right;
@@ -33,7 +33,7 @@ body {
 }
 
 #minha_foto {
-  border: 1px solid #000000;
+  border: 1px solid black;
   border-radius: 50%;
   position: absolute;
   top: 5;
@@ -42,5 +42,6 @@ body {
 
 /* main */
 main {
+  font-family: Nunito, sans-serif;
   margin-top: 150px;
 }
