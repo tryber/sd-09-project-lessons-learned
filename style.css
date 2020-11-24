@@ -1,13 +1,8 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
   position: fixed;
-  background-color: cadetblue;
-  width: 100%;
-}
-
-#minha_foto {
-  margin-top: 100px;
+  top: 0px;
 }
