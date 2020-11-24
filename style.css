@@ -5,4 +5,5 @@ body {
 header {
     position: fixed;
     top: 0px;
+    margin: 2px;
 }
