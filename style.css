@@ -1,22 +1,22 @@
 body {
-    background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
+  position: fixed;
+  top: 0px;
 }
 
 #minha_foto {
-    margin-top: 5.25%;
-    width: 30%
+  margin-top: 5.25%;
+  width: 30%;
 }
 
 #linkedin {
-    width: 90px;
+  width: 90px;
 }
 
 #instagram {
-    width: 50px;
-    margin-left:6px ;
+  width: 50px;
+  margin-left: 6px;
 }
