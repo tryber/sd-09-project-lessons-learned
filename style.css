@@ -1,14 +1,14 @@
- * {
+  *{
     margin: unset;
 
 }
 
- #cabecalho {
+  #cabecalho{
     text-align: center;
     background-color: forestgreen;
     top: unset;
 }
 
- body {
+  body{
     background-color: rgb(253 , 251 , 251);
 }
