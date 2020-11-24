@@ -87,6 +87,9 @@ aside {
 
 footer {
   text-align: center;
+  background-color: rgb(37, 128, 0);
+  margin-top: 35px;
+  padding: 35px;
 }
 
 * {
