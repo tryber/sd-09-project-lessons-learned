@@ -45,8 +45,18 @@ table {
 }
 
 #social a {
-  color: darkblue;
+  color: white;
   text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 20px 0;
+}
+
+#social {
+  background-color: black;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 15px;  
 }
 
 .lado-esquerdo {
