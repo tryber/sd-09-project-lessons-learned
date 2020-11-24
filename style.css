@@ -3,15 +3,21 @@
     padding: 0;
 }
 
-h2, h3 {
-    margin: 10px auto;
-}
-
 body {
     background-color: rgb(253 , 251 , 251);
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
     text-align: center;
+    color: rgba(0 , 0 , 0 , 0.9);
+}
+
+h2, h3 {
+    margin: 10px auto;
+    color: #44a9a7;
+}
+
+p, li {
+    font-size: 20px;
 }
 
 #cabecalho {
@@ -24,7 +30,7 @@ body {
     padding: 10px;
 }
 
-.nav-links, .conteudo {
+.nav-links, .lista-conteudo {
     display: inline-block;
     margin-right: 40px;
 }
@@ -34,9 +40,25 @@ main {
     padding: 20px;
 }
 
-.conteudo, #artigo-aprendizado, #passagem-aprendizado{
+.lista-conteudo {
     margin: 10px auto;
     padding: 10px;
     max-width: 70%;
-    
+}
+
+#licoes_aprendidas {
+    margin-right: 50px;
+}
+
+#artigo-aprendizado, #passagem-aprendizado{
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 70%;    
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ffd781;
 }
