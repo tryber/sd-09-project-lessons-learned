@@ -14,10 +14,12 @@ body {
 h2, h3 {
     margin: 10px auto;
     color: #44a9a7;
+    font-weight: bold;
 }
 
 p, li {
     font-size: 20px;
+    line-height: 30px;
 }
 
 #cabecalho {
