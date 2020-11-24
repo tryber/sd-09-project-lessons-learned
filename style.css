@@ -5,6 +5,31 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  right: 0;
   width: 100%;
   background-color: gray;
+  height: 9%;
+  text-align: left;
+}
+
+#titulo {
+    margin: 1%;
+}
+
+main {
+    position: absolute;
+    background-color: black;
+    width: 70%;
+    height: 50%;
+    top: 10%;
+    left: 1%;
+}
+
+#minha_foto {
+    position: relative;
+    float: left;
+    left: 2%;
+    top: 4%;
+    height: 300px;
+    border: 7px ridge silver;
 }
