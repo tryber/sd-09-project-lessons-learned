@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', 'sans-serif';
   font-size: 20px;
   line-height: 30px;
   color: #272a2d;
@@ -8,12 +8,12 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
-  background-color: #555B6E;
+  top: 0;
+  background-color: #555b6e;
 }
 
 #titulo {
-  color: #FAF9F9;
+  color: #fAf9f9;
 }
 
 #apresentacao {
@@ -31,10 +31,10 @@ body {
 }
 
 h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', 'sans-serif';
   color: #272a2d;
 }
 
 #rodape {
-    font-size: 13px;
+  font-size: 13px;
 }
