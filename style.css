@@ -16,8 +16,7 @@ body {
   background-color: rgb(7 , 30 , 61);
   line-height: 1.5;
   font-size: 28px;
-  padding-left: 30px;
-  
+  padding-left: 30px;  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,7 +59,7 @@ main {
   text-align: center;
 }
 
-#rodape a {  
+#rodape a {
   text-decoration: none;
-  color: white;
+  color: rgb(255 , 255 , 255);
 }
