@@ -11,7 +11,7 @@ body {
 
 /* header */
 #cabecalho {
-  background-color: #008000;
+  background-color: rgb(0 , 128 , 0);
   height: 100px;
   position: fixed;
   top: 0;
@@ -36,7 +36,7 @@ body {
 }
 
 #minha_foto {
-  border: 1px solid #000000;
+  border: 1px solid rgb(0 , 0 , 0);
   border-radius: 50%;
   position: absolute;
   top: 5;
@@ -62,5 +62,5 @@ main {
 /* footer */
 #rodape {
   margin-top: 20px;
-  color: #0000ff;
+  color: rgb(0 , 0 , 255);
 }
