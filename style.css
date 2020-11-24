@@ -10,6 +10,7 @@ body {
 
 /* O elemento com o id cabecalho deve ser fixo no topo da página
 com a propriedade top tendo 0px. */
+
 #cabecalho {
   position: fixed;
   top: 0;
