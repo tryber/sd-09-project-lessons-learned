@@ -1,12 +1,12 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-.cabecalho {
+#cabecalho {
     background-color: seagreen;
     position: fixed;
     top: 0px;
 }
-.titulo {
+#titulo {
     font-family: monospace;
     font-style: italic;
 }
