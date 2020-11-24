@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
-  font-family: "Roboto", sans-serif;
+  background-color: rgb(253 , 251 , 251);
+  font-family: 'Roboto', sans-serif;
 }
 
 #cabecalho {
@@ -18,7 +18,7 @@ body {
 
 #cabecalho h1 {
   color: orange;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 #cabecalho nav {
@@ -41,8 +41,8 @@ div {
   justify-content: space-between;
 }
 
-#licoes_aprendidas,
-#licoes_a_aprender,
+#licoes_aprendidas, 
+#licoes_a_aprender, 
 #modulos_concluidos {
   margin-right: 80px;
 }
@@ -73,14 +73,14 @@ div {
   display: flex;
 }
 
-#artigo_aside article {
+.lado-esquerdo {
   border: 1px dashed black;
   margin-right: 30px;
   font-size: medium;
   line-height: 1.3;
 }
 
-#artigo_aside aside {
+.lado-direito {
   border: 1px dashed black;
   margin-right: 30px;
   font-size: medium;
