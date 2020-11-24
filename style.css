@@ -13,6 +13,7 @@ h1 {
 }
 
 .aprendidas {
+  background-color: rgb(255, 155, 255);
   display: block;
   float: left;
   width: 40%;
@@ -20,6 +21,7 @@ h1 {
 }
 
 .aprender {
+  background-color: rgb(144, 255, 255);
   display: block;
   float: right;
   width: 50%;
@@ -32,17 +34,18 @@ h1 {
 }
 
 #aticle-content {
-  display: flex;
   float: left;
   max-width: 65%;
   padding: 10px;
+  border: 3px solid black;
 }
 
 #aside-content {
-  display: flex;
   float: right;
   max-width: 30%;
   padding: 10px;
+  border: 3px solid black;
+
 } 
 
 .artigo{
