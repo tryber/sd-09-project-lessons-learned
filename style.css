@@ -1,21 +1,23 @@
 body {
-  background-color: rgb(253, 251, 251);
-  padding: 10px;
-  top: 0;
+  background-color: rgb(253 ,251 ,251);
 }
-  #cabecalho {
+
+#cabecalho {
   background-color: rgb(37, 128, 0);
   color: white;
   text-align: center;
   top: 0px;
   width: 100%;
 }
+
 main {
-    display: inline;
+  display: inline;
 }
-section{
-    display: inline-block;
+
+section {
+  display: inline-block;
 }
+
 * {
   margin: 0px;
 }
