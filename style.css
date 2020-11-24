@@ -6,13 +6,16 @@ body {
 #cabecalho {
   border: 1px solid red;
   background-color: rgb(255 , 106 , 106);
+  height: 100px;
+  text-align: center;
   width: 100%;
   position: fixed;
   top: 0;
 }
 
 img {
-  margin-top: 100px;
+  border-radius: 20%;
+  margin-top: 150px;
 }
 
 #learned_lessons , #lessons_to_learn {
