@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253 , 251 , 251);
   padding-bottom: 20px;
   margin-bottom: 15px;
 }
@@ -13,12 +13,12 @@ body {
   max-width: 1366px;
   max-height: 768px;
   border-radius: 0 15px 17px;
-  background-color: rgb(3,163,3);
+  background-color: rgb(3 , 163 , 3);
   padding-top: 15px;
   margin-bottom: 25px;
-  margin-top: 0;
   width: 100%;
   position: fixed;
+  top: 0px;
 }
 
 #cabecalho h1 {
