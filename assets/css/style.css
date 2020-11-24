@@ -7,12 +7,12 @@ body,ol,ul,header {
 
 body {
   background-color: rgb(253,251,251);
-  color: #fff;
-  font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
-  background-color: #0F9B8E;
+  background-color: #0f9b8e;
   position: fixed;
   text-align: center;
   top: 0;
@@ -25,7 +25,7 @@ body {
 }
 
 #links a {
-  color: #FFF;
+  color: whitesmoke;
   font-size: 1.2rem;
   padding: 0 20px;
   text-decoration: none;
@@ -35,7 +35,7 @@ body {
 }
 
 main {
-  background-color: #03719C;
+  background-color: #03719c;
   padding: 100px;
 }
 
