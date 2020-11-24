@@ -25,6 +25,20 @@ nav li {
   list-style: none;
 }
 
+#perfil {
+  display: inline-block;
+}
+
+table {
+    display: inline-block;
+    margin-left: 40%;
+}
+
+td {
+    width: 150px;
+    text-align: left;
+}
+
 main {
   display: inline;
 }
