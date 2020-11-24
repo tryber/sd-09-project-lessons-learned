@@ -13,6 +13,7 @@ footer {
   background-color: #444;
   color: #e2e2e2;
   text-align: center;
+  padding: 150px;
 }
 
 /* O elemento com o id cabecalho deve ser fixo no topo da página
@@ -30,23 +31,25 @@ com a propriedade top tendo 0px. */
   width: 200px;
 }
 
-.artigo 
-{
+.artigo {
   text-align: justify;
+  color: #444;
   font-family: sans-serif;
-  font-size: medium;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 
-.lado-esquerdo 
-{
+.lado-esquerdo {
+  border: 1px solid #444;
   padding: 3rem;
+  margin: 3rem;
   width: 30%;
 }
 
-.lado-direito 
-{
+.lado-direito {
+  border: 1px solid #444;
   padding: 3rem;
+  margin: 3rem;
   width: 30%;
   float: right;
 }
