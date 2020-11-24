@@ -1,6 +1,6 @@
 /* Tag styles */
 * {
-  margin: 0px;
+  margin: 0;
 }
 
 body {
@@ -14,7 +14,6 @@ body {
 /* ID styles */
 #cabecalho {
   background-color: rgb(9 , 145 , 236);
-  display: block;
   position: fixed;
   width: 100%;
   height: 100px;
@@ -40,7 +39,6 @@ body {
 #rodape {
   background-color: rgb(9 , 145 , 236);
   display: block;
-  position: fixed;
   width: 100%;
   height: 100px;
 }
