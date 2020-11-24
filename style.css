@@ -1,35 +1,35 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0;
+  background-color:rgb(253 ,251 ,251);
+  margin: 0;
 }
 
 #titulo { 
-    margin: 0;
-    padding: 10px;
-    color: white;
+  margin: 0;
+  padding: 10px;
+  color: white;
 }
 
 #cabecalho {
-    display: fixed;
-    top: 0;
-    background-color: green;
-    color: white;
-    padding-bottom: 10px;
+  display: fixed;
+  top: 0;
+  background-color: green;
+  color: white;
+  padding-bottom: 10px;
 }
 
 #cabecalho > h1 {
-    text-align: center;
+  text-align: center;
 }
 
 #cabecalho nav ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #minha_foto {
-    width: 300px;
-    padding: 10px;
+  width: 300px;
+  padding: 10px;
 }
 
 #licoes_aprendidas {
-    float: left;
+  float: left;
 }
