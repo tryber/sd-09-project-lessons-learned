@@ -1,7 +1,22 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap');
+
+*,
+*::before,
+*::after {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-family: "Share Tech Mono", monospace;
+  font-size: 12px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 header {
   top: 0px;
+  background-color: rgb(19, 19, 19;
 }
