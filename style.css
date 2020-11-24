@@ -26,7 +26,7 @@ border-radius: 2px;
 nav {
 width: 100%;
 height: auto;
-background-color: #222f3e;
+background-color: rgb(34, 47, 62);
 z-index: 1;
 position: fixed;
 overflow: hidden;
@@ -131,7 +131,7 @@ width: 30%;
 .lessonsLearned {
 color: white;
 display: block;
-background-color: #e84118;
+background-color: rgb(232, 65, 24);
 padding: 6px;
 transition: 0.6s;
 filter: grayscale(100%);
@@ -139,27 +139,27 @@ cursor: pointer;
 }
 
 .lessonsLearned:nth-child(2) {
-background-color: #1dd1a1;
+background-color: rgb(29, 209, 161);
 }
 
 .lessonsLearned:nth-child(3) {
-background-color: #74b9ff;
+background-color: rgb(116, 185, 255);
 }
 
 .lessonsLearned:nth-child(4) {
-background-color: #4cd137;
+background-color: rgb(76, 209, 55);
 }
 
 .lessonsLearned:nth-child(5) {
-background-color: #e17055;
+background-color: rgb(225, 112, 85);
 }
 
 .lessonsLearned:nth-child(6) {
-background-color: #0984e3;
+background-color: rgb(9, 132, 227);
 }
 
 .lessonsLearned:last-child {
-background-color: #6c5ce7;
+background-color: rgb(108, 92, 231);
 }
 
 .trybeLessons {
@@ -188,13 +188,13 @@ margin-left: auto;
 margin-right: auto;
 width: 90%;
 border-collapse: collapse;
-background-color: #222f3e;
+background-color: rgb(34, 47, 62);
 cursor: crosshair;
 
 }
 
 table.table tr:nth-child(even) {
-background-color: #2c3e50;
+background-color: rgb(44, 62, 80);
 }
 
 table.table th,
@@ -206,7 +206,7 @@ font-size: 15px;
 
 table.table-1 th {
 text-align: left;
-color: #ecf0f1;
+color: rgb(236, 240, 241);
 }
 
 tr {
@@ -217,7 +217,7 @@ cursor: pointer;
 #rodape {
 padding: 20px 0 20px 20px;
 text-align: center;
-color: #222f3e52;
+color: rgba(34, 47, 62, 0.411);
 }
 
 .footerIcons {
@@ -255,7 +255,7 @@ filter: blur(0);
 
 
 table.table tr.table-effect:hover {
-background-color: #405c77fa;
+background-color: rgb(64, 92, 119);
 transform: scale(1.05, 1.05);
 }
 
@@ -265,7 +265,7 @@ color: wheat;
 
 .icons:hover {
 transform: scale(1.2, 1.2);
-color: #2c3e50;
+color: rgb(44, 62, 80);
 }
 
 .footerIcons:hover {
@@ -273,7 +273,7 @@ color: rgb(65, 33, 33);
 }
 
 .footerIcons:nth-child(2):hover {
-color: #eb2f06;
+color: rgb(235, 47, 6);
 }
 
 /* Responsive */
