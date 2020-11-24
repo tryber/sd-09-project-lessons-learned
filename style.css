@@ -1,9 +1,12 @@
 body {
-  background-color: rgb(253 ,251 ,251);
+        background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
-    top: 0;
+        top: 0;
 }
+
 #minha_foto {
     width: 300px;
 }
+
