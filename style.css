@@ -91,6 +91,13 @@ body {
     color: #218c74;
 }
 
+footer table{
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 80%;
+    font-weight: normal;
+}
+
 * {
     margin: 0px;
 }
