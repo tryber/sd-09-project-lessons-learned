@@ -1,32 +1,36 @@
-/* 
-#048243 - foggiest jungle green
-#32BF84 - recluse greenish teal
-#CAFFFB - merging light light blue
+/* paleta de cores
+#048243 rgb(4, 130, 67) - foggiest jungle green
+#32BF84 rgb(50, 191, 132)- recluse greenish teal
+#CAFFFB rgb(202, 255, 251)- merging light light blue
 */
 
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253 ,251 , 251);
 }
 
 #cabecalho {
-    background-color: #048243;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    padding: 20px;
-    text-align: center;
+  background-color: rgb(4 ,130 , 67);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  text-align: center;
 }
 
 #conteudo-principal {
-    margin-top: 80px;
-    padding: 10px;
+  margin-top: 80px;
+  padding: 10px;
 }
 
 #minha_foto {
-    width: 160px;
+  width: 160px;
+}
+
+#licoes_aprendidas { 
+  margin-left: 20px;
 }
