@@ -18,10 +18,10 @@ body {
   margin-bottom: 25px;
   width: 100%;
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
-#cabecalho h1 {
+#titulo{
   padding-left: 20px;
   color: aliceblue;
 }
