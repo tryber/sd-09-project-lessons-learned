@@ -1,11 +1,11 @@
 body {
-  background-color: rgb(253 ,251 ,251);
+  background-color: rgb(253,251,251);
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
-  background-color: green;
+  top: 0;
+  background-color: rgb(33,107,33);
   width: 100%;
   z-index: 1;
 }
