@@ -5,4 +5,33 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;
+  left: 0px;
+  text-align: center;
+  background-color: green;
+  width: 100%;
+}
+
+#cabecalho ul {
+    display: inline-block;
+    list-style: none;
+    background-color: greenyellow;
+    width: 100%;
+    margin-bottom: 0;
+    height: 30px;
+    line-height: 30px;
+}
+
+#cabecalho li {
+    display: inline;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#cabecalho a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 200px;
+    margin-top: 150px;
 }
