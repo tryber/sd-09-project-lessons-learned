@@ -33,8 +33,8 @@ body{
 }
 
 #minha_foto{
-    margin: 150px 100px 100px 100px;
-    width: 350px;
+    margin: 130px 100px 30px 100px;
+    width: 250px;
     border-radius: 60%;
 }
 
@@ -57,7 +57,7 @@ body{
 }
 
 #paragrafos{
-    background-color: yellow;
+    font-size: 20px;
 }   
 
 #lists div{
@@ -75,6 +75,10 @@ body{
 }
 #lists{
     background-color: #dcdde1;
+}
+
+.trybe{
+    color: #218c74;
 }
 
 *{
