@@ -18,7 +18,7 @@ h1 {
   font-size: 20px;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   margin-left: 300px;
   border: solid;
   border-color: blue;
@@ -28,7 +28,7 @@ h1 {
   line-height: 25px;
 }
 
-.lado_direito {
+.lado-direito {
   margin-right: 300px;
   border: solid;
   border-color: blue;
