@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(253 ,251 ,251);
+  font-family: fantasy , sans-serif;
+  background-color: rgb(253 , 251 , 251);
   height: 768px;
   width: 1366px;
 }
