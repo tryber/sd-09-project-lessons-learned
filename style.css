@@ -1,53 +1,54 @@
 body {
-    background-color: rgb(253, 251, 251);
+background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    background-color: #546d80;
-    padding: 30px;
-    z-index: 1;
-    width: 100%;
-    text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(81, 99, 131);
+  padding: 30px;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
 }
 
 h1 {
-    font-size: larger;
-    color: wheat;
-    line-height: 5px;
-    font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  color: wheat;
+  line-height: 5px;
+  font-family: Courier New, Courier, monospace;
 }
 
 #corpo {
-    position: relative;
-    top: 150px;
+  position: relative;
+  top: 150px;
 }
 
 #minha_foto {
-    width: 273px;
-    border: 5px;
+  width: 273px;
+  border: 5px;
 }
 
-ol, ul {
-    margin: 10px;
+ol,
+ul {
+  margin: 10px;
 }
 
 li a {
-    color: plum;
+  color: plum;
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 500px;
+  float: left;
+  width: 500px;
 }
 
 .lado-direito {
-    float: right;
-    width: 500px;
+  float: right;
+  width: 500px;
 }
 
 footer {
-    display: block;
-    clear: both;
+  display: block;
+  clear: both;
 }
