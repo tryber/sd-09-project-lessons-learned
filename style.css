@@ -1,18 +1,23 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 ,251, 251);
+  margin-left: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
   position: fixed;
-  background-color: rgb(253, 251, 251)
+  background-color: aqua;
 }
+
 #minha_foto {
   width: 300px;
   border: 3px solid aqua;
-  border-radius: 25%;
-  margin-top: 5%;
+  border-radius: 40%;
+  margin-top: 8%;
+  padding: 2px;
 }
 
 .list {
   display: inline-block;
+  border: 2px solid aqua;
 }
