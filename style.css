@@ -4,9 +4,10 @@
 }
 
 #minha_foto {
-        width: 20%;
+        width: 10%;
 }
 
 body {
         background-color: rgb(253 , 251 , 251);
+        margin: 30px;
 }
