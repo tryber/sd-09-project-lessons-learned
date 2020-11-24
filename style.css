@@ -55,7 +55,7 @@ body{
     border-radius: 100%;
     background-color: #FCA311;
     padding: 2px;
-    top: 2em;
+    top: 1em;
     left: 40%;
     position: relative;
 }
@@ -63,23 +63,35 @@ body{
 
 #licoes_aprendidas{
     border-top: 1px solid #FCA311;
-    top: 5em;
-    position: relative;
-    float: left;
     left: 40px;
+    position: relative;
+    top: 2em;
 }
 
 #licoes_a_aprender{
     border-top: 1px solid #FCA311;
-    top: 5em;
+    left: 40px;
     position: relative;
-    float: right;
-    right: 40px;
+    top: 4em;
 }
 
+.cartao_apresentacao{
+    background-color: #E5E5E5;
+    color: #14213D;
+    display: inline-block;
+    width: 500px;
+    overflow: auto;
+}
 
 #artigo{
-    clear: both;
+    background-color: #14213D;
+    margin: 20px;
+    color: #FFFFFF;
+    border: 1px solid #FCA311;
+    padding: 30px;
+    object-position: center;
+    text-align: center;
+    overflow: auto;
 }
 
 #rodape{
