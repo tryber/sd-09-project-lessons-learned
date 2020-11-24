@@ -8,27 +8,27 @@ main {
     color: rgb(81, 104, 46);
 }
 #cabecalho {
-    position:fixed;
-    top:0px;
-    width:100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: rgb(100, 173, 28);
 }
 #titulo {
-    color:white;
+    color: white;
     font-family: Work Sans, sans-serif;
     font-size: 28px;
-    margin-right:10px;
+    margin-right: 10px;
 }
-.navigation li{
+.navigation li {
     font-family: Work Sans, sans-serif;
-    display:inline;    
+    display: inline;
 }
-a:hover{
-    background-color: aquamarine;  
+a:hover {
+    background-color: aquamarine;
 }
 .navigation {
-    margin-bottom:0;
-    float:left;
+    margin-bottom: 0;
+    float: left;
     width: 100%;
     background-color: rgb(201, 243, 159);
 }
@@ -40,20 +40,20 @@ a:hover{
     float: left;
     padding: 10px;
 }
-#artigo{
-    padding:10px;
-    width:50%;
-    float:left;
-    margin-bottom:50px;
+#artigo {
+    padding: 10px;
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
 }
-#section {
+section {
     margin-left:50%;
     padding:10px;
     block-size: inherit;
 }
 #licoes_aprendidas {
-    width:50%;
-    float:left;
+    width: 50%;
+    float: left;
 }
 #licoes_a_aprender {
     margin-left:50%;
@@ -61,11 +61,11 @@ a:hover{
 }
 #okay {
     max-width: 5%;
-    display:block;
-    float:left;
+    display: block;
+    float: left;
 }
 #exemplo {
-    display:inline;
+    display: inline;
 }
 h3 {
     color: rgb(81, 104, 46);
@@ -75,8 +75,8 @@ p {
     font-size: 16px;
 }
 #rodape {
-    bottom:0px;
+    bottom: 0;
     background-color: rgb(214, 240, 176);
-    width:100%;
+    width: 100%;
     position: fixed;
 }
