@@ -2,7 +2,42 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
-#cabecalho {
+/*#cabecalho {
   position: fixed;
+  text-align: center;
   top: 0;
+  z-index: 0;
+}*/
+
+/*#content {
+  display: inline-block;
+  margin: 20px;
+}*/
+
+#titulo {
+  background-color: royalblue;
+  width: 100%;
+  position: fixed;
+  display: inline;
+  padding: 20px;
+  margin: 0px;
+}
+
+img {
+  /*padding: 0px 50px 0;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 30px;
+  float: left;
+  z-index: 1;*/
+  width: 200px;
+}
+
+* {
+  margin: 0;
+}
+
+#rodape {
+  bottom: 0;
+  clear: both;
 }
