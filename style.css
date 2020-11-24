@@ -44,14 +44,27 @@ body {
 
 #aside {
   margin-top: 250px;
+  margin-left: 32px;
   float: left;
   width: 30%;
+  border: 1px solid #0fa36b;
+  padding: 16px;
+  text-align: justify;
+  font-size: 18px;
 }
 
 #main {
   margin-top: 200px;
+  margin-right: 32px;
   float: right;
   width: 60%;
+}
+
+#artigo_aprendizado {
+  border: 1px solid #0fa36b;
+  font-size: 18px;
+  text-align: justify;
+  padding: 16px;
 }
 
 .lado-esquerdo {
@@ -77,6 +90,15 @@ body {
 
 #lista_amigos {
   clear: both;
+  border: 1px solid #0fa36b;
+  padding: 16px;
+  text-align: center;
+}
+
+table {
+  margin-top: 16px;
+  width: 100%;
+  text-align: center;
 }
 
 a {
