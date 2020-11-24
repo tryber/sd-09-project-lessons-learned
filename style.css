@@ -11,3 +11,12 @@ body {
     margin-top: 5.25%;
     width: 30%
 }
+
+#linkedin {
+    width: 90px;
+}
+
+#instagram {
+    width: 50px;
+    margin-left:6px ;
+}
