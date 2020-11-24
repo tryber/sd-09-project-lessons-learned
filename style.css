@@ -2,3 +2,9 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+
+/*                                                   --- HEADER ---                                                    */
+header{
+    position: fixed;
+    top: 0px;
+}
