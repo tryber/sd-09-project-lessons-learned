@@ -14,7 +14,7 @@ body {
     text-align: center;
     }
 
-#nav {
+.navi {
     display: inline-block;
     margin-right: 50px;
     margin-left: 40px;
