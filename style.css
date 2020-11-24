@@ -18,7 +18,7 @@ body {
   font-weight: 400;
   font-size: 3em;
   margin: 0;
-  color: white;
+  color: rgb(253 , 251 , 251);
   text-align: center;
 }
 
@@ -34,15 +34,15 @@ nav li {
 nav a {
   padding: 5px 20px;
   margin: 10px;
-  background-color: white;
+  background-color: rgb(253 , 251 , 251);
   color: rgb(15 , 163 , 107);
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid rgb(253 , 251 , 251);
 }
 
 nav a:hover {
   background-color: rgb(15 , 163 , 107);
-  color: white;
+  color: rgb(253 , 251 , 251);
 }
 
 main {
@@ -63,30 +63,42 @@ p {
   line-height: 1.5;
 }
 
-main ul , main ol {
+main ul , main ol , table {
   display: inline-block;
-  width: 30%;
+  width: 15%;
 }
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  width: 49%;
+  width: 75%;
 }
 
 .lado-direito {
   float: right;
+  width: 25%;
 }
 
 table , td {
   border: 1px solid rgb(15 , 163 , 107);
 }
 
-table , tr {
-  width: 100%;
+table {
+    width: 40%;
+}
+
+td {
+  width: 50%;
 }
 
 th {
   background-color: rgb(15 , 163 , 107);
   padding: 10px;
-  color: white;
+  color: rgb(253 , 251 , 251);
+}
+
+footer {
+  background-color: rgb(15 , 163 , 107);
+  padding: 10px;
+  text-align: center;
+  color: rgb(253 , 251 , 251);
 }
