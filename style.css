@@ -1,8 +1,28 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: Verdana;
+  margin: 0;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+}
+
+#fun-fact {
+    color: navy;
+}
+
+#rodape {
+    border-top: 5px solid rgb(204 , 197 , 185);
+    height: 100%;
+    background-color: rgb(64 , 61 , 57);
+    padding: 10px;
+    color: rgb(204 , 197 , 185);
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.highlight-word {
+    color: rgb(235 , 94 , 40);
 }
