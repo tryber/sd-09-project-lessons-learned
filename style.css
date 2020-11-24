@@ -35,10 +35,10 @@ body {
 }
 
 #rodape{
-    position: fixed;
-    text-align: center;
-    bottom: 40px;
-    right: 0;
-    width: 100%;
-    border-top: 2px solid black;
+  position: fixed;
+  text-align: center;
+  bottom: 40px;
+  right: 0;
+  width: 100%;
+  border-top: 2px solid black;
 }
