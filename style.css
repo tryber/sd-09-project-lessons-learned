@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 #cabecalho {
@@ -41,9 +41,7 @@ div {
   justify-content: space-between;
 }
 
-#licoes_aprendidas, 
-#licoes_a_aprender, 
-#modulos_concluidos {
+#licoes_aprendidas, #licoes_a_aprender, #modulos_concluidos {
   margin-right: 80px;
 }
 
