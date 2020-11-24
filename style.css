@@ -16,12 +16,17 @@ h2, h3{
     text-align: center;
 }
 
+.icone{
+    width: 75px;
+}
+
 #cabecalho{
     margin: auto;
     padding: 50px 490px;
     background: rgb(172,172,172);
     background: linear-gradient(180deg, rgba(172,172,172,1) 0%, rgba(230,230,230,1) 100%);
     position: fixed;
+    top: 0px;
 }
 
 #menu li{
@@ -49,7 +54,7 @@ h2, h3{
     font-size:14px;
     line-height: 13px;
     font-weight: bolder;
-    margin-top: 40px;
+    margin-top: 300px;
 }
 
 #licoes_aprendidas{
@@ -82,4 +87,15 @@ h2, h3{
     background: rgb(172,172,172);
     background: linear-gradient(180deg, rgba(172,172,172,1) 0%, rgba(230,230,230,1) 100%);
     padding: 5px;
+}
+
+#github-icone{
+    float: left;
+    margin-left: 400px;
+    padding: 40px;
+}
+#linkedin-icone{
+    float: right;
+    margin-right: 400px;
+    padding: 40px;
 }
