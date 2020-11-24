@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
@@ -16,5 +16,5 @@ body {
 }
 
 #minha_foto {
-    width: 150px;
+  width: 150px;
 }
