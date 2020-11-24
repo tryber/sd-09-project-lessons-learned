@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0;
+}
+
+#titulo {margin: 0;padding:10px;color:white}
+
+#cabecalho {
+    display: fixed;
+    top: 0;
+    background-color: green;
+    color:white;
+    padding-bottom: 10px ;
+}
+
+#cabecalho > h1 {
+    text-align: center;
+}
+#cabecalho nav ul li {
+    list-style-type: none;
+}
+
+#minha_foto {
+    width: 300px;
+    padding: 10px;
+}
