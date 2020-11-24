@@ -13,3 +13,8 @@ body {
 img {
   margin-top: 100px;
 }
+
+#learned_lessons, #lessons_to_learn{
+  display: inline-block;
+}
+
