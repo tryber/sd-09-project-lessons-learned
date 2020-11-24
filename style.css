@@ -51,8 +51,7 @@ table {
 
 .lado-esquerdo {
   float: left;
-  width: 55%;
-  text-align: justify;
+  width: 50%;
   border: 1px solid gray;
   margin: 10px 10px;
   padding: 10px;
@@ -60,10 +59,10 @@ table {
 
 .lado-direito {
   float: right;
-  width: 35%;
-  text-align: justify;
+  width: 40%;
   border: 1px solid gray;
   padding: 10px;
+  margin: 30px 10px 0 0; 
 }
 
 #rodape {
