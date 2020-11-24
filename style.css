@@ -35,7 +35,7 @@ footer {
   padding: 0;
 }
 
-p.side-article {
+.side-article {
   font-size: smaller;
   text-align: center;
   text-emphasis-style: auto;
