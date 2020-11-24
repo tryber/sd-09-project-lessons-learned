@@ -5,17 +5,28 @@ body{
     position: fixed;
     top: 0px;
 }
-#titulo h1{
+#titulo {
 }
 #minha_foto{
-
 }
 #licoes_aprendidas{
+
+}
+#licoes_aprendidas ol li{
 
 }
 #licoes_a_aprender{
 
 }
+#licoes_a_aprender ul li{
+
+}
 #rodape{
+
+}
+.lado-esquerdo{
+
+}
+.lado-direito{
     
 }
