@@ -11,6 +11,15 @@ body {
   width: 100%;
 }
 
+nav {
+    text-align: left;
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+}
+
 main {
   display: inline;
 }
