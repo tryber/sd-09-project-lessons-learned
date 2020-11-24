@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+header {
+    position: fixed;
+    top: 0;
+    color: white;
+    font-family: 'Work Sans';
+    font-weight: 800;
+    text-align: center;
+    background-color: teal;
+    width: 100%;
+   
+}
