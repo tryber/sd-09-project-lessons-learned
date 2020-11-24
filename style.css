@@ -54,3 +54,7 @@ nav a{ /*selecionando as tags "a" do container "nav"*/
 main{
   width: 80%;
 }
+
+aside{
+  flex: 1;
+}
