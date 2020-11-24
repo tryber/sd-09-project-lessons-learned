@@ -5,9 +5,11 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: rgb(3 , 64 , 120);
+  font-family: Copse , sans-serif;
 }
 
 #minha_foto {
-  width: 600px;
-  height: 600px;
+  width: 300px;
+
 }
