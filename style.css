@@ -12,6 +12,17 @@ body{
     z-index: 2;
 }
 
+#perfil{
+    background-color: #14213D;
+    margin: 20px;
+    color: #FFFFFF;
+    border: 1px solid #FCA311;
+    padding: 20px;
+    position: relative;
+    height: 32em;
+    overflow: auto;
+}
+
 .listas{
     text-decoration: none;
     list-style: none;
@@ -23,7 +34,7 @@ body{
 
 #conteudo{
     position: relative;
-    top: 5em;
+    top: 4.5em;
 }
 
 #navegacao{
@@ -39,14 +50,36 @@ body{
 
 #minha_foto{
     height: 200px;
+    object-fit: cover;
+    width: 200px;
+    border-radius: 100%;
+    background-color: #FCA311;
+    padding: 2px;
+    top: 2em;
+    left: 40%;
+    position: relative;
 }
 
-#licoes_aprendidas{
 
+#licoes_aprendidas{
+    border-top: 1px solid #FCA311;
+    top: 5em;
+    position: relative;
+    float: left;
+    left: 40px;
 }
 
 #licoes_a_aprender{
+    border-top: 1px solid #FCA311;
+    top: 5em;
+    position: relative;
+    float: right;
+    right: 40px;
+}
 
+
+#artigo{
+    clear: both;
 }
 
 #rodape{
