@@ -57,9 +57,9 @@ transition: 0.7s;
 padding: 27px;
 }
 
-nav li:nth-child(2):hover,
-nav li:nth-child(3):hover,
-nav li:nth-child(4):hover {
+#cabecalho li:nth-child(2):hover,
+#cabecalho li:nth-child(3):hover,
+#cabecalho li:nth-child(4):hover {
 transform: scale(1.2 , 1.2);
 }
 
