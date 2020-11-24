@@ -9,6 +9,10 @@ main {
   min-width: 500px;
 }
 
+section {
+  margin: 1em 10px;
+}
+
 #cabecalho {
   background-color: seagreen;
   position: fixed;
@@ -17,6 +21,7 @@ main {
 
 #gradient-border {
   display: inline-block;
+  margin: 1em 0.5em;
   padding: 12px 12px 0;
   background: linear-gradient(to right, blue, purple);
   border-radius: 1em;
