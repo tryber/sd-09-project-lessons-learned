@@ -13,8 +13,37 @@ h1 {
   color: blue;
 }
 
-.paragrafo_text{
-    line-height: 30px;
-    font-size: 20px;
+.paragrafo_text {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.lado_esquerdo {
+  margin-left: 300px;
+  border: solid;
+  border-color: blue;
+  width: 500px;
+  float: left;
+  padding: 10px;
+  line-height: 25px;
+}
+
+.lado_direito {
+  margin-right: 300px;
+  border: solid;
+  border-color: blue;
+  width: 280px;
+  float: right;  
+  padding: 10px;
+  line-height: 25px;
+}
+
+#rodape {
+  margin-top: 300px;
+  text-align: center;
+}
+
+#minha_foto {
+  margin-top: 150px;
 }
  
