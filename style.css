@@ -1,3 +1,7 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
@@ -25,11 +29,7 @@ body {
   list-style-type: none;
 }
 
-#minha_foto {
+#minha_foto, #licoes_aprendidas, #licoes_a_aprender {
   width: 300px;
-  padding: 10px;
-}
-
-#licoes_aprendidas {
   float: left;
 }
