@@ -29,8 +29,23 @@ com a propriedade top tendo 0px. */
 #menu {
   padding: 2rem;
   text-align: center;
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(56 , 56 , 56);
   top: 0;
+}
+
+#menu li {
+  display: inline;
+}
+
+.btn a {
+  padding: 1rem;
+  color: rgb(226 , 226 , 226);
+  background-color: rgb(68 , 68 , 68);
+}
+
+.btn a:hover {
+  background-color: rgb(226 , 226 , 226);
+  color: rgb(68 , 68 , 68);
 }
 
 #menu li a {
@@ -40,7 +55,7 @@ com a propriedade top tendo 0px. */
 }
 
 #menu li a:hover {
-  color: rgb(56, 56, 56);
+  color: rgb(56 , 56 , 56);
   background-color: rgb(226 , 226 , 226);
 }
 
@@ -79,23 +94,12 @@ com a propriedade top tendo 0px. */
   text-align: center;
 }
 
-.btn a {
-  padding: 1rem;
-  color: rgb(226 , 226 , 226);
-  background-color: rgb(68 , 68 , 68);
-}
-
-.btn a:hover {
-  background-color: rgb(226 , 226 , 226);
-  color: rgb(68 , 68 , 68);
-}
-
 .artigo {
   text-align: justify;
   color: rgb(68 , 68 , 68);
   font-family: Verdana, sans-serif;
   font-size: 16px;
-  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 .lado-esquerdo {
