@@ -10,4 +10,14 @@
         text-align: center;
         background-color:white;
         color: black}
+        #minha_foto{
+            display: block;
+            margin-top:160px;
+        }
+        .lista1{
+            position: relative;
+            float: left;
+            width: 49%;
+        display: inline-block;
+        }
     </style>
