@@ -1,14 +1,14 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(253 ,251 ,251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0%;
+  position: fixed;
+  top: 0%;
 }
