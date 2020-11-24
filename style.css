@@ -1,3 +1,10 @@
-body {
+body{
     background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
