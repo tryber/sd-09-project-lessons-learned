@@ -8,14 +8,20 @@ body {
 }
 
 nav {
-  width: 100%;
-  height: 125px;
   position: fixed;
   top: 0;
+  width: 100%;
+  height: 125px;
   background-color: rgb(66 , 66 , 66);
 }
 
+header {
+  position: fixed;
+  top: 0;
+}
+
 #titulo {
+  display: inline;
   font-family: Oxanium, cursive;
   text-align: center;
   text-transform: uppercase;
@@ -23,9 +29,12 @@ nav {
   margin-top: 25px;
 }
 
+
 ul {
-  margin-top: 15px;
   text-align: center;
+  display: inline;
+  margin-left: 520px;
+  border: 1px solid red;
 }
 
 #nav-btn li {
@@ -41,4 +50,26 @@ ul {
 
 #nav-btn li a:hover {
   color: rgb(46 , 254 , 247);
+}
+
+#hero-card {
+  position: relative;
+  width: 375px;
+  height: 385px;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: rgba(66, 66, 66);
+  box-shadow: 20px 15px 10px rgb(56, 56, 56);
+}
+
+#minha_foto {
+  position: absolute;
+  left: 110px;
+  bottom: 310px;
+  width: 150px;
+  border: 4px solid rgb(1 , 223 , 215);
+  border-radius: 100px;
+  z-index: 1000;
 }
