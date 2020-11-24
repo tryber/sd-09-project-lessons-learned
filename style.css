@@ -39,4 +39,13 @@
         border: 3px solid rgb(2,250,0);
         text-align: left;
         }
+        .lado-direito{
+            position: relative;
+            float: right;
+            width: 49%;
+            right: 0px;
+        border: 3px solid rgb(2,250,0);
+        text-align: right;
+        margin-bottom: 50px;
+        }
     </style>
