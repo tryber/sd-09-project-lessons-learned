@@ -1,7 +1,14 @@
+* {
+  margin: 0px;
+}
 body {
   background-color: rgb(253, 251, 251);
 }
 #cabecallho {
   position: fixed;
   top: 0px;
+}
+header {
+  background-color: #048243;
+  padding: 10px;
 }
