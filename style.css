@@ -1,6 +1,9 @@
 body { 
   background-color: rgb(253,251,251); 
 }
+.titulos{
+  color: #1fe097 ;
+}
 #cabecalho { 
   position: fixed;
   text-align: center;
@@ -15,4 +18,12 @@ body {
 }
 #minha_foto {
   border-radius: 50%;
+}
+.lista {
+    display: flex;
+    margin-left: 300px;
+    
+}
+#licoes_aprendidas{
+    width: 50%;
 }
