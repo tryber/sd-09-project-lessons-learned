@@ -8,7 +8,7 @@ body,ol,ul,header {
 body {
   background-color: rgb(253,251,251);
   color: #fff;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
 }
 
 #cabecalho {
@@ -33,18 +33,27 @@ body {
 #links a:hover {
   text-decoration: underline;
 }
+
 main {
   background-color: #03719C;
   padding: 100px;
 }
-#lists {
-  padding-right: 100px;
+
+ul li,ol li {
+  line-height: 28px;
 }
-#licoes_aprendidas{
+
+.lado-esquerdo {
   float: left;
 }
-#licoes_a_aprender {
+
+.lado-direito {
   float: right;
+}
+
+table,th {
+  border: 1px dotted #343837;
+  width: 500px;
 }
 
 #rodape {
