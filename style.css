@@ -9,13 +9,39 @@ body {
 
 nav {
   width: 100%;
-  height: 100px;
-  border: 1px solid red;
+  height: 125px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: rgb(66 , 66 , 66);
-  border: 1px solid red;
+}
+
+#titulo h1 {
+  font-family: 'Oxanium', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(46, 254, 247);
+  margin-top: 25px;
+}
+
+ul {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#nav-btn li {
+  display: inline;
+  margin: 15px;
+}
+
+#nav-btn li a {
+  text-decoration: none;
+  color: rgb(1, 223, 215);
+  font-family: 'Oxanium', cursive;
+}
+
+#nav-btn li a:hover {
+  color: rgb(46, 254, 247);
 }
