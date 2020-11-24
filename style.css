@@ -1,23 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=MuseoModerno&display=swap');
-
 body {
-  background-color: gb(253 , 251 , 251);
-  font-family: 'Lato', sans-serif;
-  font-family: 'MuseoModerno', cursive;
-}
+  background-color: gb(253, 251, 251);
 
-#cabecalho {
-    background-color: #21618c;
-    color: white;
-    top: 0px;
-    bottom: 50px;
-    padding: 50px 0;
-    padding-right: 0px;
-    padding-bottom: 50px;
-    padding-left: 0px;
 }
-#titulo{
-    text-align: center;
-}
-
