@@ -20,4 +20,11 @@
             width: 49%;
         display: inline-block;
         }
+        .lista2{
+            position: relative;
+            float: right;
+            right: 0px;
+            width: 49%;
+        display: inline-block;
+        }
     </style>
