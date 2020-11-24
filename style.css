@@ -2,7 +2,6 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-
 #cabecalho {
     position: fixed;
     top: 0px;
@@ -15,7 +14,7 @@ body {
 
 h1 {
     font-size: larger;
-    color: royalblue;
+    color: wheat;
     line-height: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -32,4 +31,23 @@ h1 {
 
 ol, ul {
     margin: 10px;
+}
+
+li a {
+    color: plum;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 500px;
+}
+
+.lado-direito {
+    float: right;
+    width: 500px;
+}
+
+footer {
+    display: block;
+    clear: both;
 }
