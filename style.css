@@ -27,4 +27,9 @@
             width: 49%;
         display: inline-block;
         }
+        #rodape{
+            color:black;
+            font-size: 11px;
+            font-style: italic;
+        }
     </style>
