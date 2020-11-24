@@ -9,6 +9,10 @@ body {
   margin-bottom: 15px;
 }
 
+h1, h2, h3 {
+  margin: 15px 0;
+}
+
 #cabecalho {
   max-width: 1366px;
   max-height: 768px;
@@ -43,7 +47,46 @@ body {
   margin: 25px;
 }
 
+#licoes_a_aprender {
+  float: right;
+  width: 45%;
+  margin: 29px;
+  
+}
+
 #licoes_aprendidas li {
   padding: 7px;
   margin: 0 15px;
+}
+
+#licoes_a_aprender li {
+  padding: 7px;
+  margin: 0 20px;
+}
+
+#rodape {
+  clear: both;
+  background-color: #0ad303;
+  float: left;
+  padding: 15px;
+  margin: 5% 0 3% 5%;
+  border-radius: 10px;
+}
+
+#rodape a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 700;
+}
+
+#rodape:hover {
+  transition: 0.5s;
+  transform: scale(1.5, 1.5);
+  background-color: darkblue;
+}
+
+#rodape a:hover {
+  transition: 0.5s;
+  transform: scale(1.5, 1.5);
+  color: orange;
 }
