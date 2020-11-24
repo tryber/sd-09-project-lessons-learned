@@ -1,19 +1,38 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 30px;
+  font-family: Georgia, serif;
+  width: 70%;
+}
+
+footer, nav {
+  border-top: 1px gray solid;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   height: 70px;
-  background-color: grey;
+  background-color: #d3d3d3;
+  font-size: 18px;
   padding: 20px;
   margin: 0 auto;
   width: 100%;
   text-align: center;
+  border-bottom: 1px gray solid;;
 }
 
 #minha_foto {
   position: relative;
   top: 120px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: #d3d3d3;
+  padding: 10px;
+
 }
