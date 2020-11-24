@@ -9,7 +9,9 @@ body {
     position: fixed;
     top: 0px;
     width: 100%;
+    z-index: 1;
 }
 #minha_foto {
-    
+    z-index: 2;
+    margin-top: 150px;
 }
