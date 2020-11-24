@@ -43,8 +43,7 @@ body {
     width: 40%;
     margin: 30px;
     padding: 30px;
-    display: inline-block;
-    vertical-align: middle;
+
 }
 
 #aprendizado {
@@ -52,6 +51,15 @@ body {
     width: 30%;
     margin: 30px;
     padding: 30px;
+
+}
+
+.lado_direito {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.lado_esquerdo {
     display: inline-block;
     vertical-align: middle;
 }
