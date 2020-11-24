@@ -5,7 +5,14 @@ body {
     position: fixed;
     top: 0px;
 }
+#titulo {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
 #minha_foto {
     max-width: 200px;
     border-radius: 200px;
+    padding: 30px;
+    margin-top: 100px;
 }
