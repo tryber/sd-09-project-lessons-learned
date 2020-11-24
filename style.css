@@ -11,7 +11,7 @@ body {
 
 #cabecalho {
     position: fixed;
-    top: 0;
+    top: 0px;
     background-color: green;
     height: 150px;
     width: 100%;
@@ -119,5 +119,5 @@ body {
     text-align: center;
     background-color: green;
     border-top: 2px solid black;
-    font-size: medium;
+    font-size: 15px;
 }
