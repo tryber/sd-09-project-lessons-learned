@@ -1,8 +1,19 @@
 body{
-   background-color: rgb(253, 251, 251)
+   background-color: rgb(253, 251, 251);
+   margin:0;
+   font-family: Montserrat;
 }
 #cabecalho{
     position: fixed;
-    top:0px;
+    top:0;
     background-color: blue;
+    width: 1366px;
+    height: 120px;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D16AQFAIGGCs46Usw/profile-displaybackgroundimage-shrink_200_800/0/1605055783411?e=1611792000&v=beta&t=Vtgn2BCmhr7V0vk_KCPN7bX96fdJja9F8GJg4V9OzrU);
+    background-position: center;
+    color: white;
+    
+}
+#cabecalho h1{
+    margin: 60px 0 auto 30px;
 }
