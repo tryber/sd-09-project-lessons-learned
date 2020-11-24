@@ -1,39 +1,38 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251)
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
+  background-color: green;
+  width: 100%;
+  z-index: 1
 }
 
 #minha_foto {
-  width: 45%;
+  width: 27%;
+  padding-top: 8%
 }
 
 #licoes_aprendidas {
   position: relative;
-  top: 280px;
+  top: 30px
 }
 
 #licoes_a_aprender {
   position: relative;
-  top: 80px;
   left: 250px;
+  bottom: 168px
 }
 
 #link {
   position: relative;
-  top: 100px;
 }
 
 article {
   position: relative;
-  top: 100px;
-  padding-right: 50%;
+  bottom: 120px;
+  padding-right: 50%
 }
 
-aside {
-  float: right;
-  padding-left: 80%;
-}
