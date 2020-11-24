@@ -9,8 +9,14 @@ body {
   margin-bottom: 15px;
 }
 
-h1, h2, h3 {
+h1 , h2 , h3 {
   margin: 15px 0;
+}
+
+p {
+  text-indent: 1.5em;
+  margin: 15px;
+  padding: 15px;
 }
 
 #cabecalho {
@@ -51,7 +57,6 @@ h1, h2, h3 {
   float: right;
   width: 45%;
   margin: 29px;
-  
 }
 
 #licoes_aprendidas li {
@@ -64,9 +69,25 @@ h1, h2, h3 {
   margin: 0 20px;
 }
 
+#meu_aprendizado {
+  float: left;
+  clear: both;
+  width: 35%;
+  margin: 25px 60px;
+  padding: 41px;
+  text-align: justify;
+  background-color: pink;
+  border-radius: 35px;
+}
+
+#meu_aprendizado:hover {
+  transition: 0.5s;
+  transform: scale(1.2, 1.2);
+}
+
 #rodape {
   clear: both;
-  background-color: #0ad303;
+  background-color: rgb(3 , 163 , 3);
   float: left;
   padding: 15px;
   margin: 5% 0 3% 5%;
@@ -81,12 +102,12 @@ h1, h2, h3 {
 
 #rodape:hover {
   transition: 0.5s;
-  transform: scale(1.5, 1.5);
+  transform: scale(1.5 , 1.5);
   background-color: darkblue;
 }
 
 #rodape a:hover {
   transition: 0.5s;
-  transform: scale(1.5, 1.5);
+  transform: scale(1.5 , 1.5);
   color: orange;
 }
