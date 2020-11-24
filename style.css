@@ -10,7 +10,7 @@ body {
   height: 100%;
 }
 
-a{
+a {
   color: black;
   text-decoration: none;
 }
@@ -18,36 +18,43 @@ a{
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #FDDC5C;
-  border: #665FD1 2px solid;
+  background-color: #fddc5c;
+  border: #665fd1 2px solid;
   width: 100%;
   height: 10%;
-  color: #665FD1;
+  color: #665fd1;
   text-align: center;
 }
-#corpoDaPag{
+#corpoDaPag {
   height: 80%;
 }
 
-.listas{
+.listas {
   display: inline-block;
   margin-left: 200px;
   margin-bottom: 60px;
 }
 
-#rodape{
-  background-color: #FDDC5C;
-  color: #665FD1;
+#minha_foto {
+  margin-left: 50px;
+  margin-top: 7%;
+  display: inline-block;
+  border: 3px #665fd1 solid;
+}
+
+#rodape {
+  background-color: #fddc5c;
+  color: #665fd1;
   text-align: center;
   height: 10%;
   margin-top: 5%;
 }
 
-#rodape > h4{
+#rodape > h4 {
   margin-top: 20px;
   display: inline-block;
 }
 
-.texto > p{
+.texto > p {
   margin: 0px 20px;
 }
