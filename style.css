@@ -3,10 +3,15 @@
     padding: 0;
 }
 
+h2, h3 {
+    margin: 10px auto;
+}
+
 body {
     background-color: rgb(253 , 251 , 251);
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 #cabecalho {
@@ -16,17 +21,22 @@ body {
     background-color: #334f54;
     color: rgb(253 , 251 , 251);
     text-align: center;
+    padding: 10px;
 }
 
-.nav-links {
+.nav-links, .conteudo {
     display: inline-block;
     margin-right: 40px;
 }
 
 main {
-    margin: 60px 30px 10px;
-    padding: 30px;
+    margin: 70px 30px 10px;
+    padding: 20px;
 }
 
-
-
+.conteudo, #artigo-aprendizado, #passagem-aprendizado{
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 70%;
+    
+}
