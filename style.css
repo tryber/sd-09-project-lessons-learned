@@ -24,7 +24,7 @@ h1 {
   text-align: center;
 }
 #titulo {
-
+  font-weight: 300;
 }
 
 #minha_foto {
@@ -38,6 +38,7 @@ h1 {
   margin-bottom: 120px;
 }
 #licoes {
+  background-color: gray;
   position: relative;
   top: 400px;
   margin: auto;
@@ -49,4 +50,11 @@ h1 {
 
 #licoes_a_aprender {
   line-height: 25px;
+}
+
+#licoesNovas{
+  position: relative;
+  float: left;
+  bottom: 283px;
+  left: 150px;
 }
