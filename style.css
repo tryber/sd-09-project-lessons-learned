@@ -6,7 +6,15 @@ body {
     top: 0px;
     background-color: green; 
 }
-#aprender{
+.aprender{
     text-align: justify;
     
+}
+aside{
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
 }
