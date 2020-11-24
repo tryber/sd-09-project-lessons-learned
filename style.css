@@ -2,11 +2,32 @@ body {
   background-color: rgb(253, 251, 251);
 }
 #cabecalho {
+  border: 2px solid black;
+  background-color: rgb(74, 156, 74);
   position: fixed;
   top: 0px;
 }
+#titulo {
+  color: whitesmoke;
+  font-family: fantasy;
+  font-weight: 800;
+  margin-left: 20px;
+}
+#links-navegacao {
+  display: block;
+  margin-top: 100px;
+  font-size: 22px;
+}
 #minha_foto {
-width: 250px;
-height: 300px;
-border-radius: ;
+  margin-top: 150px;
+  border-style: 2px ridge gold;
+  width: 250px;
+  height: 300px;
+  border-radius: 20%;
+}
+#licoes_aprendidas {
+}
+#licoes_a_aprender {
+}
+#rodape {
 }
