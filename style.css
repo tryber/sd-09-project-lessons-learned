@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 /* Class styles */
@@ -13,7 +13,8 @@ body {
 
 /* ID styles */
 #cabecalho {
-  background-color: rgb(9,145,236);
+  background-color: rgb(9 , 145 , 236);
+  display: block;
   position: fixed;
   width: 100%;
   height: 100px;
@@ -29,6 +30,10 @@ body {
 }
 
 #licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
 
 }
 
