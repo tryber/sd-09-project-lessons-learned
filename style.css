@@ -1,12 +1,10 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  margin: 30 px;
 }
 
 #cabecalho {
   margin: 0;
-  position: fixed
-  width: 100%;
+  position: fixed;
   background-color: cornflowerblue;
 }
 
