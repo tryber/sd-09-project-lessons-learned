@@ -68,12 +68,12 @@ main ul , main ol {
   width: 30%;
 }
 
-article , aside {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
   width: 49%;
 }
 
-aside {
+.lado-direito {
   float: right;
 }
 
