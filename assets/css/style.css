@@ -1,13 +1,25 @@
-/*Minimal CSS Reset*/
-body, ol, ul {
+/* Minimal CSS Reset */
+body,ol,ul,header {
   margin: 0;
   padding: 0;
-  font-weight: normal;
+  font-weight: 400;
 }
-/**/
+
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253,251,251);
 }
+
 #cabecalho {
+  background-color: #7F724D;
+  text-align: center;
   top: 0;
+}
+
+figure {
+  width: 25vw;
+}
+
+#minha_foto {
+  border-radius: 25%;
+  max-width: 250px
 }
