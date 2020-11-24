@@ -54,12 +54,12 @@ body {
 
 }
 
-.lado_direito {
+.lado-direito {
     display: inline-block;
     vertical-align: middle;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
     display: inline-block;
     vertical-align: middle;
 }
