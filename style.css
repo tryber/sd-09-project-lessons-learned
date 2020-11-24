@@ -1,58 +1,95 @@
-a {
-    text-decoration: none;
-    font-size: 18px;
+a{
+  text-decoration: none;
 }
 
 a:hover {
-    background: rgb(74 , 78 , 105);
-    color: rgb(132 , 169 , 140);
+  background: rgb(74 , 78 , 105);
+  color: rgb(132 , 169 , 140);
+}
+
+aside{
+  box-shadow: 5px 5px 15px rgb(57, 156, 107);
+  padding: 10px 10px;
+  width: 30%;
+  float: right;
+  border-left: 1px solid rgb(57, 156, 107);
+  border-top: 1px solid rgb(57, 156, 107);
 }
 
 body {
-    padding: 120px 0 0 ;
-    background-color: rgb(253 , 251 , 251);
-    color: rgb(74 , 78 , 105);
-    margin: 0;
+  padding: 120px 0 0 ;
+  background-color: rgb(253 , 251 , 251);
+  color: rgb(74 , 78 , 105);
+  margin: 0;
+}
+#breve{
+    font-size:1.2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer {
+  color:rgb(0 , 0 , 0);
+  font-family:'Courier New', Courier, monospace;
+  font-size:.8em;
+  text-align:right;
+  float:right;
+  width:100%;
 }
 
 header {
-    background: rgb(132 , 169 , 140);
-    font-size: 18px;
-    height: auto;
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    top: 0;
+  background: rgb(132 , 169 , 140);
+  font-size: 18px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0;
 }
 
 header h1 {
-    line-height: 10px;
+  line-height: 10px;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
-h2::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -110px; 
-  height: 110px; 
-  visibility: hidden; 
+h2::before {
+  display: block;
+  content: " ";
+  margin-top: -55px;
+  height: 55px;
+  visibility: hidden;
   pointer-events: none;
 }
 
+a::before {
+  display: block;
+  content: " ";
+  margin-top: -95px;
+  height: 95px;
+  visibility: hidden;
+  pointer-events: none;
+  }
+
+.lado-esquerdo {
+  float:left;
+  width: 20%;
+}
+
+.lado-direito {
+  float:right;
+  width:80%;
+}
 #minha_foto {
-    border-radius: 150px;
-    margin:auto;
-    display:block;
-    max-width:50%;
+  border-radius: 150px;
+  margin:auto;
+  display:block;
+  max-width:50%;
 }
 
 .navbar {
-    font-family: monospace;
-    font-size: 16px;
-    padding-top: 10px;
+  font-size: 18px;
+  padding-top: 10px;
 }
 
 .navbar li {
@@ -61,9 +98,3 @@ h2::before {
   display: block;
   padding: 0 14px;
 }
-
-.left-sidebar {
-float:left;
-width: 30%;
-}
-
