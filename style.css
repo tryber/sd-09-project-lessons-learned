@@ -4,5 +4,13 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0 px;
+  top: 0px;
+  width: 100%;
+  background-color: cadetblue;
+  color: aliceblue;
+  text-align: center;
+}
+
+#minha_foto {
+  width: 150px;
 }
