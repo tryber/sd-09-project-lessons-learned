@@ -2,10 +2,29 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+main {
+  margin-left: 20px;
+  margin-top: 115px;
+  width: 60%;
+  min-width: 500px;
+}
+
 #cabecalho {
   background-color: seagreen;
   position: fixed;
   top: 0;
+}
+
+#gradient-border {
+  display: inline-block;
+  padding: 12px 12px 0;
+  background: linear-gradient(to right, blue, purple);
+  border-radius: 1em;
+}
+
+#minha_foto {
+  border: none 12px;
+  border-radius: 1em;    
 }
 
 #titulo {
