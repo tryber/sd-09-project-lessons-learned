@@ -13,14 +13,14 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #071e3d;
+  background-color: rgb(7 , 30 , 61);
   line-height: 1.5;
   font-size: 28px;
   padding-left: 30px;
 }
 
-#cabecalho h1{
-  color: #21e6c1;
+#cabecalho h1 {
+  color: rgb(40 , 230 , 195);
 }
 
 #cabecalho ul {
