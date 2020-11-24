@@ -1,3 +1,50 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
+}
+
+#cabecalho {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: pink;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#cabecalho h1 {
+  color: black;
+}
+
+#container_img {
+  background-color: lightblue;
+}
+
+#minha_foto {
+  display: block;
+  padding-top: 20px;
+  margin: 120px auto 0 auto;
+}
+
+#container_licoes {
+  background-color: lightblue;
+  padding: 100px 100px 0 100px;
+}
+
+#container_licoes_aprendidas {
+  display: inline-block;
+}
+
+#container_licoes_a_aprender {
+  float: right;
+}
+
+#rodape {
+  background-color: lightgreen;
+  height: 100px;
+}
+
+#rodape_info {
+  font-weight: 800;
+  padding: 30px;
+  text-align: center;
 }
