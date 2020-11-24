@@ -2,6 +2,10 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
+.clear{
+    clear: both;
+}
+
 #cabecalho{
     position: fixed;
     top: 0px;
@@ -9,4 +13,14 @@ body{
 
 img{
     width: 200px;
+}
+
+article{
+    float: left;
+    max-width: 60%;
+}
+
+section aside{
+    float: right;
+    max-width: 35%;
 }
