@@ -1,12 +1,18 @@
 body{
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251); 
+    font-family: sans-serif;
 }
 
 #cabecalho{
-    top: 0px;
     position: fixed;
+    border: groove gray; 
+    margin: auto;
+    padding: 50px 490px;
+    background: rgb(172,172,172);
+    background: linear-gradient(180deg, rgba(172,172,172,1) 0%, rgba(230,230,230,1) 100%);
+
 }
 
 #minha_foto{
-    width: 300px;
+    width: 300px; 
 }
