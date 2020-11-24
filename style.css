@@ -15,3 +15,9 @@ body {
     position: relative;
     top: 350px;
 }
+
+#licoes_a_aprender {
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
