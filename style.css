@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253 , 251 , 251);
   overflow: visible;
+  font-family: Work Sans, sans-serif;
 }
 
 header {
@@ -15,9 +16,9 @@ header {
   overflow: visible;
 }
 
-footer{
+footer {
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   left: 0;
   padding-left: 20px;
   color: black;
@@ -37,4 +38,13 @@ footer{
 main {
   position: relative;
   margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
 }
