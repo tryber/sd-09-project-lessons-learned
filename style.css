@@ -2,6 +2,15 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+button li {
+  list-style: none;
+}
+
+nav ul button {
+  display: inline-block;
+  padding: 1em 60px;
+}
+
 main {
   margin-left: 20px;
   margin-top: 115px;
@@ -23,19 +32,13 @@ span {
 #cabecalho {
   background-color: seagreen;
   position: fixed;
+  text-align: center;
   top: 0;
-}
-
-#gradient-border {
-  display: inline-block;
-  margin: 1em 0.5em;
-  padding: 12px 12px 0;
-  background: linear-gradient(to right , blue , purple);
-  border-radius: 1em;
+  width: 100%;
 }
 
 #minha_foto {
-  border: none 12px;
+  border: solid 10px rgb(183, 240, 183);
   border-radius: 1em;
 }
 
