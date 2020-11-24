@@ -8,15 +8,13 @@ body {
 }
 
 #licoes_a_aprender {
-    margin-top: 20 px;
-    display: inline-block;
-    width: 40%;
+    margin-left: 20 px;
+    background-color: blue;
 }
 
 #licoes_aprendidas {
     margin-left: 20 px;
-    display: inline-block;
-    width: 40%;
+    background-color: green;
 }
 
 #minha_foto {
@@ -36,6 +34,15 @@ body {
     font-family: sans-serif;
 }
 
-.lessons-now-and-then{
+.lado-esq{
+    width: 40%;
+    background-color: red;
+    display: inline-block;
+}
+
+.lado-dir{
+    width: 40%;
+    text-align: justify;
+    background-color: brown;
     display: inline-block;
 }
