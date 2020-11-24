@@ -5,12 +5,27 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
 }
 
 /* Class styles */
 
+.lessons {
+    width: 70%;
+    margin: auto;
+}
 
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+    float: right;
+}
+
+.sem-float {
+    clear: both;
+}
 
 /* ID styles */
 #cabecalho {
@@ -18,7 +33,7 @@ body {
   position: fixed;
   width: 100%;
   height: 100px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
 }
 
 #titulo {
@@ -43,7 +58,8 @@ body {
   display: block;
   width: 100%;
   height: 100px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
+  clear: both;
 }
 
 /* Inherit styles */
