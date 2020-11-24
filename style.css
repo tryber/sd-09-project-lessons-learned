@@ -5,9 +5,12 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  background-color: cornflowerblue;
 }
 
 #titulo {
-  position: absolute;
-  z-index: 1;
+  position: relative;
+  text-align: center;
 }
