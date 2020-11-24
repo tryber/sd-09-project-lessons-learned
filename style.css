@@ -3,4 +3,8 @@ body {
 }
 #cabecalho {
     position:fixed;
+    top:0px;
+}
+#minha-foto {
+    border-radius: 100px;
 }
