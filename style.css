@@ -4,15 +4,15 @@ body {
 }
 
 .lado-direito {
-    float: right;
+  float: right;
 }
 
 .lado-esquerdo {
-    float: left;
+  float: left;
 }
 
 #aprendizados {
-    width: 40%;
+  width: 40%;
 }
 
 #artigo {
