@@ -20,9 +20,6 @@ position: sticky;
 border-radius: 2px;
 }
 
-/* Navbar */
-
-
 nav {
 width: 100%;
 height: auto;
@@ -65,7 +62,7 @@ nav li:nth-child(3):hover,
 nav li:nth-child(4):hover {
 transform: scale(1.2 , 1.2);
 }
-/* Header */
+
 header {
 display: flex;
 justify-content: flex-start;
@@ -102,9 +99,6 @@ justify-content: right;
 flex-wrap: wrap;
 }
 
-
-/* ---------------------------- */
-
 .principalArticle {
     display: flex;
     flex-direction: column;
@@ -123,7 +117,7 @@ line-height: 15px;
 width: 80%;
 }
 
-.main {
+main {
 flex: 65%;
 margin-top: 1%;
 text-align: justify;
@@ -141,32 +135,32 @@ width: 30%;
 }
 
 .lessonsLearned {
-color: white;
-display: block;
-background-color: rgb(232 , 65 , 24);
-padding: 6px;
-transition: 0.6s;
-filter: grayscale(100%);
-cursor: pointer;
+    color: white;
+        display: block;
+            background-color: rgb(232 , 65 , 24);
+            padding: 6px;
+            transition: 0.6s;
+            filter: grayscale(100%);
+            cursor: pointer;
 }
 
-.lessonsLearned:nth-child(2) {
+.lessonsLearned:nth-child( 2 ) {
 background-color: rgb(29 , 209 , 161);
 }
 
-.lessonsLearned:nth-child(3) {
+.lessonsLearned:nth-child( 3 ) {
 background-color: rgb(116 , 185 , 255);
 }
 
-.lessonsLearned:nth-child(4) {
+.lessonsLearned:nth-child( 4 ) {
 background-color: rgb(76 , 209 , 55);
 }
 
-.lessonsLearned:nth-child(5) {
+.lessonsLearned:nth-child( 5 ) {
 background-color: rgb(225 , 112 , 85);
 }
 
-.lessonsLearned:nth-child(6) {
+.lessonsLearned:nth-child( 6 ) {
 background-color: rgb(9 , 132 , 227);
 }
 
@@ -175,10 +169,10 @@ background-color: rgb(108 , 92 , 231);
 }
 
 .trybeLessons {
-display: flex;
-justify-content: center;
-margin-top: 2%;
-margin-left: 3%;
+    display: flex;
+        justify-content: center;
+            margin-top: 2%;
+            margin-left: 3%;
 }
 
 .list-title {
@@ -196,8 +190,8 @@ padding-bottom: 5px;
 }
 
 tr {
-    transition: 0.8s;
-    cursor: pointer;
+transition: 0.8s;
+cursor: pointer;
     }    
 
 table.table {
@@ -235,12 +229,12 @@ color: rgba(34 , 47 , 62 , 0.411);
 .footerIcons {
 transition: 0.2s;
 }
-/* animations */
+
 .icons {
-color: rgba(0 , 0 , 0 , 0.39);
-font-size: 30px;
-transition: 0.5s;
-padding: 20px 20px;
+    color: rgba(0 , 0 , 0 , 0.39);
+        font-size: 30px;
+            transition: 0.5s;
+            padding: 20px 20px;
 }
 
 .lessons .lessonsLearned:hover {
@@ -278,8 +272,6 @@ color: rgb(65 , 33 , 33);
 .footerIcons:nth-child(2):hover {
 color: rgb(235 , 47 , 6);
 }
-
-/* Responsive */
 
 @media ( max-width : 800px ) {
     .wrapper-content {
