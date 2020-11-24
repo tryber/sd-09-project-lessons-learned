@@ -9,14 +9,14 @@ body {
 }
 #minha_foto {
     border-radius: 10px;
-    float: left;
-    width: 100px;  
+    float: left;    
 }
 #headNav{
-    float: right;
-    position: relative;
-    bottom: 80px;
-    left: 400px;   
+    float: right;    
+    position: absolute;   
+    width: 100%;
+    bottom: 120px;
+    margin-left: 100px;
 }
 #main {
     margin-top: 150px;
