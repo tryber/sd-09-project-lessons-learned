@@ -10,3 +10,7 @@ body {
 #minha_foto {
   width: 200px;
 }
+
+#lists ol , ul {
+  display: inline-block;
+}
