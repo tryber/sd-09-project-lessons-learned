@@ -7,7 +7,12 @@ body {
 .rodape {
     margin-top: 40px;
     text-align: center;
+    font-family: sans-serif;
     }
+
+#navBar {
+    display: inline-block;
+}    
 
 #cabecalho {
     position: fixed;
@@ -15,6 +20,7 @@ body {
     text-align: center;
     text-emphasis: bold;
     font-size: 1em;
+    font-family: sans-serif;
        }
 #titulo {
     font-display: center;
@@ -36,3 +42,4 @@ body {
 ol,ul {
     display: inline-block;
 }
+
