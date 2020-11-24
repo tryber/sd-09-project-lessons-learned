@@ -9,3 +9,8 @@ body {
   position: fixed;
   top: 0;
 }
+
+img {
+  max-width: 50%;
+  height: auto;
+}
