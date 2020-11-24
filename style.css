@@ -22,7 +22,7 @@ h2, h3{
 
 #cabecalho{
     margin: auto;
-    padding: 50px 490px;
+    padding: 30px 490px;
     background: rgb(172,172,172);
     background: linear-gradient(180deg, rgba(172,172,172,1) 0%, rgba(230,230,230,1) 100%);
     position: fixed;
