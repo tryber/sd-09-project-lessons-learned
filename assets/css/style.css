@@ -2,6 +2,7 @@
 body , ol , ul , header {
   margin: 0;
   padding: 0;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -17,6 +18,10 @@ body {
   text-align: center;
   top: 0;
   width: 100vw;
+}
+
+figure {
+  text-align: center;
 }
 
 #minha_foto {
@@ -41,7 +46,7 @@ main {
 }
 
 article {
-  font-size: 18px;
+  font-size: 1.4rem;
 }
 
 ul li , ol li {
@@ -57,11 +62,12 @@ ul li , ol li {
   padding-left: 50px;
 }
 
-table , th {
-  border: 1px dotted rgb(52 , 56 , 55);
+table {
+  border: 1px; 
+  border-style: dotted;
   color: rgb(253 , 251 , 251);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 28px;
   margin: auto;
   padding: 2px 5px;
