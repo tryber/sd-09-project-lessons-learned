@@ -1,12 +1,45 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
 }
 
-header #cabecalho {
+#cabecalho {
   position: fixed;
-  margin-top: 0px;
+  top: 0px;
   background-color: purple;
 }
 
-header #titulo {
+#titulo {
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.links {
+  list-style-type: none;
+  font-size: 24px;
+  display: inline;
+  padding: 15px;
+  text-decoration-color: bisque;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+#foto_alexandre {
+  color: white;
+  border: wheat solid 5px;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+#depoimento {
+  display: inline-block;
+  float: left;
+}
+#imagem {
+}
+#bem {
+  font-size: 24px;
 }
