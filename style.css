@@ -12,6 +12,15 @@ body {
   position: fixed;
   top: 0;
 }
+#cabecalho p{
+  color: white;
+  margin: -20px;
+}
+
+#titulo {
+  margin: 30px auto;
+  color: white;
+}
 
 img {
   border-radius: 20%;
@@ -20,4 +29,6 @@ img {
 
 #learned_lessons , #lessons_to_learn {
   display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
 }
