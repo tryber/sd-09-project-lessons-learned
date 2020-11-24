@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./css/styleProject_1.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+      <title>Proyecto </title>
+   </head>
+   <body>
+      <nav id="cabecalho">
+         <ul>
+            <li id="titulo">
+               <a href="#">
+                  <h1>Proyecto #BeTrybe</h1>
+               </a>
+            </li>
+            <li><a href="#"><span class="fas fa-home navIcons"></span>Home</a></li>
+            <li><a href="#"><span class="fas fa-user navIcons"></span>Profile</a></li>
+            <li><a href="#" onclick="myFunction();"><span class="fas fa-paper-plane navIcons"></span>Contact</a></li>
+         </ul>
+      </nav>
+      <div class="container">
+         <header>
+            <img src="./img/pic_1.png" id="minha_foto" alt="Profile Picture from the user page, click here to access to the perfil" class="profilePic">
+            <section class="personalDetails">
+               <h2>Jose Daniel Arreaza</h2>
+               <p>Tenho 27 anos, sou um estudante de desenvolvimento web na <strong>Trybe</strong></p>
+               <div class="socialMedia">
+                  <a href="https://www.instagram.com/jdaniel_ap/" target="_blank"><span class="fab fa-instagram icons"></span></a>
+                  <a href="https://www.linkedin.com/in/esoja/" target="_blank"><span class="fab fa-linkedin icons"></span></a>
+                  <a href="https://github.com/jdaniel-ap" target="_blank"><span class="fab fa-github-square icons"></span></a>
+                  <a href="https://www.facebook.com/jdanielarreaza" target="_blank"><span class="fab fa-facebook-square icons"></span></a>
+                  <a href="https://twitter.com/Jdaniel_ap" target="_blank"><span class="fab fa-twitter-square icons"></span></a>
+               </div>
+            </section>
+         </header>
+         <hr>
+         <main class="main">
+            <section class="wrapper-content">
+               <article class="diarieTrybe lado-esquerdo">
+                  <h3><span class="fas fa-book contentIcons"></span>Trybe Course</h3>
+                  <br>
+                  Passaram-se duas semanas desde que inicie mi camino aqui, na <strong>Trybe</strong>. Un trecho lleno de enseçanzas fructiferas y bastantes satisfactorios en terminos de aprendizaje. Não sabia que poderia ficar tanto tempo grudado no computador estudando conteúdos que não conhecia havia meses. Os instrutores e equipe envolvida são excelentes e nos deixam bem confortáveis com o processo todo de aprendizagem, apesar de ser assustador as vezes, a quantidade de informações que precisamos aprender em um curto espaço de tempo. No final, consegui ficar totalmente focado no material oferecido. E satisfeito com o que aprendi. Estou ansioso para o que está vindo e esperando por nós. #BeTrybe #VQV
+               </article>
+               <aside class="aside lado-direito">
+                  <h3><span class="fas fa-shapes contentIcons"></span>Actual content</h3>
+                  <br>
+                  <p> Até agora, estamos aprendendo as estruturas básicas dos sistemas e ferramentas que abrirão muitas portas para nós neste vasto mundo de desenvolvimento: Shell Script, HTML, CSS, Git e GitHub. E acima de tudo isso, prática. </p>
+                  <br>
+                  <br>
+               </aside>
+            </section>
+         </main>
+         <section>
+            <h3 class="list-title"><span class="fab fa-leanpub contentIcons"></span>Liçoes</h3>
+            <br>
+            <article class="lists">
+               <ol id="licoes_aprendidas">
+                  <h4 class="listTitle">Liçoes aprendidas</h4>
+                  <li>Unix</li>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Semanthic HTML</li>
+                  <li>Empatia</li>
+                  <li>Colaboração</li>
+               </ol>
+               <ul id="licoes_a_aprender">
+                  <h4 class="listTitle">Liçoes a aprender</h4>
+                  <li>JavaScript</li>
+                  <li>DOM</li>
+                  <li>Forms</li>
+                  <li>React</li>
+                  <li>Node</li>
+                  <li>SQL</li>
+                  <li>Python</li>
+                  <li>BeTrybe</li>
+               </ul>
+            </article>
+            <article class="trybeLessons">
+               <div class="lessons">
+                  <h4>Liçoes para reforçar e aprender</h4>
+                  <br>
+                  <span class="lessonsLearned">SoftSkills</span>
+                  <span class="lessonsLearned">GitHub</span>
+                  <span class="lessonsLearned">Git</span>
+                  <span class="lessonsLearned">Shell Scripts</span>
+                  <span class="lessonsLearned">CSS Display</span>
+                  <span class="lessonsLearned">Semanthic HTML</span>
+               </div>
+               <div class="lessons rightlessons ">
+                  <h4>Outras Liçoes a aprender</h4>
+                  <br>
+                  <span class="lessonsLearned">FlexBox</span>
+                  <span class="lessonsLearned">Grid</span>
+                  <span class="lessonsLearned">Animations</span>
+                  <span class="lessonsLearned">Responsive</span>
+                  <span class="lessonsLearned">Angular</span>
+                  <span class="lessonsLearned">mySQL</span>
+               </div>
+            </article>
+         </section>
+   </body>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+</html>
