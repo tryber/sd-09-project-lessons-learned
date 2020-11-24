@@ -5,3 +5,23 @@ body {
 #cabecalho {
   margin-top: 0px;
 }
+header {
+  background-color: #048243;
+  padding: 10px;
+}
+#titulo {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+#minha_foto {
+  height: 200px;
+  border-radius: 20px;
+}
+#licoes_aprendidas {
+  display: inline-block;
+}
+#licoes_a_aprender {
+  display: inline-block;
+}
