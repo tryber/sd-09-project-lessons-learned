@@ -4,12 +4,10 @@ body {
 
 #cabecalho {
   background-color: rgb(15 , 163 , 107);
-  width: 1366px;
+  width: 100%;
   height: 90px;
-  display: block;
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  position: fixed;
+  top: 0;
 }
 
 #titulo {
