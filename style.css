@@ -25,4 +25,5 @@ body {
 
 .highlight-word {
   color: rgb(235 , 94 , 40);
+  font-weight: 800;
 }
