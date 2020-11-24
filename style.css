@@ -7,15 +7,40 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: Nunito, sans-serif;
+  max-width: 1366px;
 }
 
+/* header */
+
 #cabecalho {
+  background-color: green;
+  height: 100px;
   position: fixed;
   top: 0;
-  height: 100px;
   width: 100%;
 }
 
+#titulo {
+  font-size: 36px;
+  padding-right: 50px;
+  text-align: right;
+}
+
+#menu ol li{
+  display: inline-block;
+  text-align: right;
+  text-decoration: none;
+}
+
 #minha_foto {
-  width: 150px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 5;
+  width: 90px;
+}
+
+/* main */
+main {
+  margin-top: 150px;
 }
