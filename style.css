@@ -14,7 +14,7 @@ width: 81%;
 margin-right: auto;
 margin-left: auto;
 margin-top: 20px;
-color: #222f3e;
+color: rgb(34 , 47 , 62);
 line-height: 29px;
 position: sticky;
 border-radius: 2px;
@@ -54,14 +54,13 @@ padding: 20px 15px;
 transition: 0.7s;
 }
 
-#cabecalho li:nth-child(2),
-#cabecalho li:nth-child(3),
+#cabecalho li:nth-child(2) ,
+#cabecalho li:nth-child(3) ,
 #cabecalho li:nth-child(4) {
 padding: 27px;
 }
 
 /* Header */
-
 
 header {
 display: flex;
@@ -209,7 +208,7 @@ background-color: rgb(44 , 62 , 80);
 table.table th,
 table.table td {
 padding: 8px;
-color: #ddd;
+color: rgb(221 , 221 , 221);
 font-size: 15px;
 }
 
@@ -255,17 +254,16 @@ filter: grayscale(0%);
 nav li:nth-child(2):hover,
 nav li:nth-child(3):hover,
 nav li:nth-child(4):hover {
-transform: scale(1.2, 1.2);
+transform: scale(1.2 , 1.2);
 }
 
 img:hover {
 filter: blur(0);
 }
 
-
 table.table tr.table-effect:hover {
 background-color: rgb(64 , 92 , 119);
-transform: scale(1.05, 1.05);
+transform: scale(1.05 , 1.05);
 }
 
 table.table tr.table-effect:hover td {
@@ -273,7 +271,7 @@ color: wheat;
 }
 
 .icons:hover {
-transform: scale(1.2, 1.2);
+transform: scale(1.2 , 1.2);
 color: rgb(44 , 62 , 80);
 }
 
@@ -287,20 +285,20 @@ color: rgb(235 , 47 , 6);
 
 /* Responsive */
 
-@media (max-width: 800px) {
+@media (max-width : 800px) {
     .wrapper-content {
         flex-direction: column;
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width : 800px) {
     .main {
         flex-direction: column;
             margin: 0 0 0 80px;
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width : 800px) {
     aside p {
         width: 75%;
         font-size: 15px;
@@ -308,13 +306,13 @@ color: rgb(235 , 47 , 6);
     }
 }
 
-  @media (max-width: 800px) {
+  @media (max-width : 800px) {
     header {
         margin-top: 150px;
     }
 }
 
-  @media (max-width: 800px) {
+  @media (max-width : 800px) {
     .list-title {
         text-align: center;
     }
