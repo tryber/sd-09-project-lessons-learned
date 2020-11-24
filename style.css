@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-  background-color: rgb(99, 99, 99);
+  background-color: rgb(99 , 99 , 99);
   color: rgb(226 , 226 , 226);
   text-align: center;
   padding: 150px;
@@ -23,14 +23,18 @@ com a propriedade top tendo 0px. */
   color: rgb(226 , 226 , 226);
   text-align: center;
   background-color: rgb(68 , 68 , 68);
+  position: fixed;
+  width: 100%;
   top: 0;
 }
 
 #menu {
   padding: 2rem;
+  margin-top: 100px;
+  position: fixed;
+  width: 100%;
   text-align: center;
   background-color: rgb(56 , 56 , 56);
-  top: 0;
 }
 
 #menu li {
@@ -60,8 +64,12 @@ com a propriedade top tendo 0px. */
 }
 
 #minha_foto {
-  margin-top: 100px;
+  margin-top: 300px;
   width: 200px;
+}
+
+#listas ul, ol {
+  display: inline-block;
 }
 
 #licoes_aprendidas {
