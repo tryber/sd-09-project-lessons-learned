@@ -1,15 +1,20 @@
 body{
     background-color: rgb(253, 251, 251);
+    margin: 0px;
 }
 #cabecalho{
     position: fixed;
     top: 0px;
+    border: outset;
+    margin: auto;
+    background-color: aqua;
 }
 #titulo{
 
 }
 #minha_foto{
-
+width: 200px;
+clear: both;
 }
 #licoes_aprendidas{
 
@@ -18,5 +23,5 @@ body{
 
 }
 #rodape{
-    
+
 }
