@@ -26,9 +26,19 @@ body {
 
 .lista {
   display: flex;
-  margin-left: 300px;
+  
 }
 
 #lista_licoes_aprendidas {
   width: 50%;
+  margin-left: 200px;
+}
+
+#rodape{
+    position: fixed;
+    text-align: center;
+    bottom: 40px;
+    right: 0;
+    width: 100%;
+    border-top: 2px solid black;
 }
