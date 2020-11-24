@@ -19,7 +19,7 @@ nav {
 }
 
 #titulo h1 {
-  font-family: "Oxanium", cursive;
+  font-family: 'Oxanium', cursive;
   text-align: center;
   text-transform: uppercase;
   color: rgb(46 , 254 , 247);
@@ -39,7 +39,7 @@ ul {
 #nav-btn li a {
   text-decoration: none;
   color: rgb(1 , 223 , 215);
-  font-family: "Oxanium", cursive;
+  font-family: 'Oxanium', cursive;
 }
 
 #nav-btn li a:hover {
