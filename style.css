@@ -14,3 +14,12 @@ body {
   position: relative;
   text-align: center;
 }
+
+#minha_foto {
+  float: left;
+  margin-top:120px;
+  margin-left: 40px;
+  border: ridge rgb(54, 83, 210) 8px;
+  width: 280px;
+  height: 350px; 
+}
