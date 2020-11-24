@@ -6,11 +6,18 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: monospace;
+  line-height: 20px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0%;
+}
+
+h1 {
+  font-size: 35px;
+  color: red;
 }
 
 #minha_foto {
