@@ -59,7 +59,12 @@ ul li , ol li {
 
 table , th {
   border: 1px dotted rgb(52 , 56 , 55);
+  color: rgb(253 , 251 , 251);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  line-height: 28px;
   margin: auto;
+  padding: 2px 5px;
   width: 500px;
 }
 
