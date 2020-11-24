@@ -38,10 +38,17 @@ nav a{ /*selecionando as tags "a" do container "nav"*/
   text-decoration: none; /* tirando as estilizações padrões da tag*/
   margin-left: 30px;
   font-size: 20px;
-  color: rgb(253, 251, 251);
+  color:  rgb(253, 251, 251);
+  background-color:#0fa5a5;
   border: 1px solid rgb(253, 251, 251); /*adicionando borda em todos os lados */
   border-radius: 30px; /*encurvando a borda em 30px*/
   padding: 10px; /*espaçamento interno do texto até a borda*/
+  transition: 0.5s;
+}
+
+nav a:hover{
+  background-color: rgb(253, 251, 251);
+  color: #0fa5a5;
 }
 
 #page_content{
@@ -53,6 +60,25 @@ nav a{ /*selecionando as tags "a" do container "nav"*/
 
 main{
   width: 80%;
+  margin-right: 30px;
+}
+
+.sub_title{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #0fa5a5;
+}
+
+#main_content{
+display: flex;
+flex-direction: row;
+}
+
+article p{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 20px;
 }
 
 aside{
