@@ -32,3 +32,7 @@ body {
 #licoes_a_aprender {
 
 }
+
+ol,ul {
+    display: inline-block;
+}
