@@ -3,3 +3,9 @@ body {
 
 
 }
+
+#cabeçalho {
+  position:fixed;
+  top: 0px;  
+
+}
