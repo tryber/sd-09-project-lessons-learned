@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253 , 251 , 251);
     font-family: sans-serif;
+    font-size: large;
 }
 #cabecalho {
     position: fixed;
@@ -9,7 +10,7 @@ body {
 
 table {
     padding: 10px;
-    border: 10px;
+    border: 1px;
     border-style: dashed;
     margin: 10px;
 }
