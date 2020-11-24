@@ -12,8 +12,8 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-    background-color: green;
-    height: 150px;
+    background-color: #1fe097;
+    height: 120px;
     width: 100%;
     text-align: center;
 }
@@ -23,7 +23,7 @@ body {
     left: 0;
     width: 100%;
     height: 50px;
-    top: 150px;
+    top: 120px;
 }
 
 .horizontal-nav-bar ul {
@@ -97,7 +97,7 @@ body {
     height: 200px;
 }
 
-#article1 {
+.lado-esquerdo {
     width: 60%;
     display: inline-block;
     text-align: center;
@@ -105,7 +105,7 @@ body {
     
 }
 
-#article2 {
+.lado-direito {
     border: 3px solid black;
     width: 20%;
     display: inline-block;
@@ -117,7 +117,14 @@ body {
 #rodape {
     padding: 50px;
     text-align: center;
-    background-color: green;
-    border-top: 2px solid black;
+    background-color: #1fe097;
+    border-top: 1px solid black;
     font-size: 15px;
+    line-height: 25px;
+}
+
+#table-info, tr, th {
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px 10px;
 }
