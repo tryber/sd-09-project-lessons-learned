@@ -1,32 +1,41 @@
 body{
-    background-color:rgb(253, 251, 251);
-    padding-top: 100px;
+  background-color: rgb(253, 251, 251);
+  padding-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 h1{
-    
+  margin-left: 40px ; 
 }
 
 #cabecalho{
-    display: block;
-    position:fixed;
-    top:0px;
-    background-color:#272324;
-    padding-right:100%;
-    color:#83B799;
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: #272324;
+  color: #83B799;
+  z-index: 1;
+}
+#menu ul li {
+  display: inline-block;
+  margin-left: 5px;
+  text-align: center;
 }
 
 #minha_foto{
-    width:200px;
-    border-radius:50%;
-    position:relative;
-    top:100px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:120px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
 }
 #licoes{
-    position:relative;
-    top:400px;
-    margin:auto;
+  position: relative;
+  top: 400px;
+  margin: auto;
 }
