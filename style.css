@@ -3,9 +3,11 @@
 }
 
 #cabecalho {
-  text-align: center;
   background-color: forestgreen;
   top: unset;
+}
+#titulo {
+  text-align: center;
 }
 
 body {
