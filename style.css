@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #cabecalho {
@@ -8,11 +8,11 @@ body {
 }
 
 #apresentacao {
-    position: relative;
-    top: 100px;
+  position: relative;
+  top: 100px;
 }
 
 #minha_foto {
-    height: 300px;
-    border-radius: 15px 50px;
+  height: 300px;
+  border-radius: 15px 50px;
 }
