@@ -20,7 +20,13 @@ body {
 }
 #main {
     margin-top: 150px;
+    margin-right: 550px;
 }
 #sectionLearn {
     display: inline-block;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
