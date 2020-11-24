@@ -27,7 +27,16 @@ com a propriedade top tendo 0px. */
 }
 
 #minha_foto {
+  margin-top: 100px;
   width: 200px;
+}
+
+#licoes_aprendidas {
+  padding: 2rem;
+}
+
+#licoes_a_aprender {
+  padding: 2rem;
 }
 
 #tabela {
@@ -45,6 +54,17 @@ com a propriedade top tendo 0px. */
 
 #tabela tr:nth-child( even ) {
   background-color: rgb(165 , 165 , 165);
+}
+
+.btn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn a {
+  padding: 1rem;
+  color: rgb(226 , 226 , 226);
+  background-color: rgb(68 , 68 , 68);
 }
 
 .artigo {
