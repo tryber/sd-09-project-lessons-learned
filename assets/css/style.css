@@ -1,0 +1,13 @@
+/*Minimal CSS Reset*/
+body, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+/**/
+body {
+  background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+  top: 0;
+}
