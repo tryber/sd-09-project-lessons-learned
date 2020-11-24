@@ -10,9 +10,8 @@ body {
 }
 
 /* header */
-
 #cabecalho {
-  background-color: green;
+  background-color: #008000;
   height: 100px;
   position: fixed;
   top: 0;
@@ -27,13 +26,17 @@ body {
 }
 
 #menu {
-  display: inline-block;
-  text-align: right;
+    text-align: right;
+}
+
+#menu li {
+  display: inline;
+  margin-left: 25px;
   text-decoration: none;
 }
 
 #minha_foto {
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 50%;
   position: absolute;
   top: 5;
@@ -44,4 +47,20 @@ body {
 main {
   font-family: Nunito, sans-serif;
   margin-top: 150px;
+}
+
+#meu_aprendizado {
+  margin-top: 20px;
+  line-height: 20.5px;
+}
+
+#passagem_aprendizado {
+  margin-top: 20px;
+  line-height: 20.5px;
+}
+
+/* footer */
+#rodape {
+  margin-top: 20px;
+  color: #0000ff;
 }
