@@ -1,0 +1,22 @@
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  evaluator_job:
+    runs-on: ubuntu-18.04
+    name: Evaluator job
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cypress evaluator step
+        id: cypress
+        uses: betrybe/cypress-evaluator-action@v2
+        with:
+          repository-test-name: 'betrybe/sd-0x-project-lessons-learned-tests'
+          repository-test-branch: 'master'
+      - name: Store evaluation step
+        uses: betrybe/store-evaluation-action@v2
+        with:
+          evaluation-data: ${{ steps.cypress.outputs.result }}
+          environment: staging
+          pr-number: ${{ steps.cypress.outputs.pr-number }}

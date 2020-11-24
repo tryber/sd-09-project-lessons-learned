@@ -1,0 +1,64 @@
+{
+  "requirements": [
+    { 
+      "description": "O corpo da página deve possuir uma cor de fundo específica",
+      "bonus": false
+    },
+    { 
+      "description": "Seu site deve possuir uma barra superior com um título",
+      "bonus": false
+    },
+    { 
+      "description": "A página deve possuir uma foto sua",
+      "bonus": false
+    },
+    { 
+      "description": "A página deve possuir uma lista de lições aprendidas",
+      "bonus": false
+    },
+    { 
+      "description": "A página deve possuir uma lista de lições que ainda deseja aprender",
+      "bonus": false
+    },
+    { 
+      "description": "A página deve possuir um rodapé",
+      "bonus": false
+    },
+    { 
+      "description": "A página deve possuir pelo menos um link externo",
+      "bonus": false
+    },
+    { 
+      "description": "Crie um artigo sobre seu aprendizado",
+      "bonus": false
+    },
+    { 
+      "description": "Crie uma seção que conta uma passagem sobre seu aprendizado",
+      "bonus": false
+    },
+    { 
+      "description": "Torne o seu site mais acessível e melhore seu ranqueamento em mecanismos de busca na Web aplicando os elementos HTML de acordo com o sentido e propósito de cada um deles",
+      "bonus": false
+    },
+    { 
+      "description": "Seu site deve passar sem problemas na verificação de semântica do site achecker",
+      "bonus": false
+    },
+    { 
+      "description": "Adicione uma tabela à página",
+      "bonus": true
+    },
+    { 
+      "description": "Brinque com o Box model!",
+      "bonus": true
+    },
+    { 
+      "description": "Altere atributos relacionados as fontes",
+      "bonus": true
+    },
+    { 
+      "description": "Faça com que seu artigo e seção sobre aprendizados fiquem um ao lado do outro",
+      "bonus": true
+    }
+  ]
+}
