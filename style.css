@@ -6,3 +6,10 @@ body {
     position: fixed;
     top:0px;
 }
+
+table {
+    padding: 10px;
+    border: 10px;
+    border-style: dashed;
+    margin: 10px;
+}
