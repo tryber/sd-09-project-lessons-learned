@@ -70,12 +70,12 @@ main ul , main ol , table {
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  width: 75%;
+  width: 74%;
 }
 
 .lado-direito {
   float: right;
-  width: 25%;
+  width: 24%;
 }
 
 table , td {
@@ -83,7 +83,7 @@ table , td {
 }
 
 table {
-    width: 40%;
+  width: 40%;
 }
 
 td {
