@@ -1,19 +1,19 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253,251,251);
 }
 #cabecalho {
     position: fixed;
     top: 0px;
-    font-family: 'Indie Flower', cursive;
+    font-family: "Indie Flower", cursive;
     font-size: 30px;
 }
 #minha_foto {
     border-radius: 10px;
-    float: left;    
+    float: left;
 }
-#headNav{
-    float: right;    
-    position: absolute;   
+#headNav {
+    float: right;
+    position: absolute;
     width: 100%;
     bottom: 120px;
     margin-left: 100px;
@@ -28,5 +28,5 @@ body {
 footer {
     background-color: black;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
