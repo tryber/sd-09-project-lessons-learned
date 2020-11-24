@@ -16,4 +16,11 @@ body {
 
 #minha_foto {
   width: 350px;
+  border-radius: 50px;
+}
+
+.skills {
+  display: inline-block;
+  color: royalblue;
+  font-weight: bold;
 }
