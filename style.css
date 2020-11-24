@@ -4,13 +4,18 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
+}
+
+main {
+  margin: 100px;
+  padding: 0 100px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(24, 84, 153);
+  background-color: rgb(24 , 84 , 153);
   width: 100%;
   text-align: center;
   color: white;
