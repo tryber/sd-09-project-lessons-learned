@@ -80,9 +80,25 @@ p {
   border-radius: 35px;
 }
 
+#passagem_de_aprendizado {
+  background-color: papayawhip;
+  text-align: justify;
+  float: right;
+  width: 29%;
+  margin-right: 11%;
+  margin-top: 2%;
+  padding: 60px;
+  border-radius: 35px;
+}
+
 #meu_aprendizado:hover {
   transition: 0.5s;
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2 , 1.2);
+}
+
+#passagem_de_aprendizado:hover {
+  transition: 0.5s;
+  transform: scale(1.2 , 1.2);
 }
 
 #rodape {
