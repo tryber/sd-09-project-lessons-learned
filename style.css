@@ -2,22 +2,29 @@ body {
     background-color: rgb(253, 251, 251);
 }
 main {
-    margin: 0 10% 5% 10%;
+   margin: 0 10% 5% 10%;
 }
 #cabecalho {
     position: fixed;
     width: 100%;
-    top: 0px;
+    height: 120px;
+    max-height: 200px;
     background-color: rgb(25, 29, 43);
 }
 #titulo {
     text-align: center;
-    margin-top: 30px;
-    margin-left: 100px;
+    margin-left: auto;
+    color: blueviolet;
+    font-family: 'Texturina', serif;
+    font-size: 30px;
+}
+header h3 {
+    text-align: center;
     color: blueviolet;
 }
 #foto{
     text-align: center;
+    margin-top: 30px;
 }
 #minha_foto {
     max-width: 200px;
@@ -50,7 +57,8 @@ main {
 }
 
 .container-text {
-    width: 100%;
+    width: 70%;
+    display: inline-block;
     text-align: center;
     margin-top: 50px;
 }
