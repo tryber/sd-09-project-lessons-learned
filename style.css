@@ -68,7 +68,7 @@ com a propriedade top tendo 0px. */
   width: 200px;
 }
 
-#listas ul, ol {
+#listas ul , ol {
   display: inline-block;
 }
 
