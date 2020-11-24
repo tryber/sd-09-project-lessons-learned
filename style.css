@@ -15,6 +15,19 @@ body {
     text-align: center;
     color: white;
     margin-top: 1em;
+    font-family: monospace;
+    font-size: 30px;
+}
+#navegador {
+    margin-top: 5px;
+    text-align: center;
+}
+#navegador li{
+    display: inline;
+}
+#navegador li a{
+    text-decoration: none;
+    margin-right: 10px;
 }
 .fotos {
     margin-top: 101px;
@@ -31,14 +44,13 @@ body {
 #listas{
     text-align: center;
     display: inline-block;
+    margin-top: 15px;
 }
 #licoes_aprendidas {
-
-    border: 3px solid green;
     float: left;
+    margin-right: 6em;
 }
 #licoes_a_aprender {
-    border: 3px solid green;
     float: right;
 }
 #section_article {
@@ -46,21 +58,24 @@ body {
     margin-bottom: 62px;
     border-top: solid gray;
     border-bottom: solid gray;
-    display: inline-block;
     text-align: center;
     width: 100%;
 }
-#artigo {
-    background-color: greenyellow;
-    border: 3px dashed green;
+#section_article h2{
+    margin-bottom: 20px;
 }
-#barra_lateral {
+.lado-esquerdo {
+    background-color: greenyellow;
+    border: 3px dashed green;
+    width: 45%;
+    display: inline-block;
+    margin-right: 3em;
+}
+.lado-direito {
     border: 3px dashed green;
     background-color: greenyellow;
-    width: 300px;
-    margin: 0px;
-    padding: 0px;
-    display: block;   
+    width: 45%;
+    display: inline-block;
 }
 footer {
     display: block;
