@@ -1,3 +1,14 @@
-body{
- background-color: gb(253, 251, 251);
+body {
+  background-color: gb(253 , 251 , 251);
 }
+
+#cabecalho {
+    background-color: yellow;
+    color: red;
+    top: 0px;
+    bottom: 50px;
+}
+#titulo{
+    text-align: center;
+}
+
