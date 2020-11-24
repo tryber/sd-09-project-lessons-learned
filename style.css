@@ -1,10 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253, 251, 251);
+  font-family: "Roboto", sans-serif;
 }
 
 #cabecalho {
@@ -15,48 +16,51 @@ body {
   width: 100%;
 }
 
-#cabecalho h1{
+#cabecalho h1 {
   color: orange;
+  font-weight: bold;
 }
 
-#cabecalho nav{
+#cabecalho nav {
   position: relative;
   left: 100px;
 }
 
-#cabecalho nav a{
+#cabecalho nav a {
   margin-right: 20px;
 }
 
-#contatos{
+#contatos {
   margin-top: 5px;
   margin-left: 40px;
 }
 
-div{
- display: flex;
- align-items: center;
- justify-content: space-between;
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#licoes_aprendidas, #licoes_a_aprender, #modulos_concluidos{
+#licoes_aprendidas,
+#licoes_a_aprender,
+#modulos_concluidos {
   margin-right: 80px;
 }
 
-#lista_e_tabelas{
+#lista_e_tabelas {
   align-items: center;
   display: flex;
   justify-content: center;
   margin: 200px 0 0 10px;
 }
 
-#minha_foto{
+#minha_foto {
   margin-top: 140px;
   margin-left: 40px;
   width: 300px;
 }
 
-#rodape{
+#rodape {
   background-color: black;
   color: white;
   width: 100%;
@@ -64,23 +68,25 @@ div{
   bottom: 0;
 }
 
-#artigo_aside{
- margin: 50px 30px 0 40px;
- display: flex;
+#artigo_aside {
+  margin: 50px 30px 0 40px;
+  display: flex;
 }
 
 #artigo_aside article {
   border: 1px dashed black;
   margin-right: 30px;
+  font-size: medium;
+  line-height: 1.3;
 }
 
 #artigo_aside aside {
   border: 1px dashed black;
   margin-right: 30px;
+  font-size: medium;
+  line-height: 1.3;
 }
 
-
-#rodape p{
+#rodape p {
   margin: 10px 0 0 40px;
 }
-
