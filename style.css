@@ -1,10 +1,40 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 #cabecalho{
     position: fixed;
     top: 0px;
+    background-color: #FCA311;
+    width: 100%;
+    z-index: 2;
+}
+
+.listas{
+    text-decoration: none;
+    list-style: none;
+}
+
+.listas li{
+    display: inline-block;
+}
+
+#conteudo{
+    position: relative;
+    top: 5em;
+}
+
+#navegacao{
+    top: 5em;
+    position: relative;
+    z-index: 1;
+}
+
+#titulo{
+    text-align: start;
+    margin-left: 3em;
 }
 
 #minha_foto{
@@ -20,5 +50,5 @@ body{
 }
 
 #rodape{
-    
+
 }
