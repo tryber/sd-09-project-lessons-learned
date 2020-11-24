@@ -7,19 +7,35 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: cornflowerblue;
+  background-color: rgb(83, 80, 80);
 }
 
 #titulo {
   position: relative;
   text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+}
+
+#trybe_logo {
+  width: 150px;
+  height: 40px;
 }
 
 #minha_foto {
-  float: left;
-  margin-top: 120px;
-  margin-left: 40px;
-  border: ridge rgb(54 , 83 , 210) 8px;
-  width: 280px;
+  padding-top: 150px;
+  padding-left: 80px;
+  width: 300px;
   height: 350px;
+  float: left;
 }
+
+#licoes_aprendidas , #licoes_a_aprender {
+  display: inline-block;
+  padding-top: 150px;
+  font-size: 26px;
+  font-family: sans-serif;
+  margin-left: 80px;
+}
+
