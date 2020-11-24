@@ -40,6 +40,10 @@ main {
   padding: 100px;
 }
 
+article {
+  font-size: 18px;
+}
+
 ul li , ol li {
   line-height: 28px;
 }
@@ -50,10 +54,12 @@ ul li , ol li {
 
 .lado-direito {
   float: right;
+  padding-left: 50px;
 }
 
 table , th {
   border: 1px dotted rgb(52 , 56 , 55);
+  margin: auto;
   width: 500px;
 }
 
