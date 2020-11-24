@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: rgb(253, 251, 251);
 }
@@ -7,12 +12,19 @@ body{
 }
 
 #cabecalho{
+    text-align: center;
     position: fixed;
     top: 0px;
+    background-color: green;
+    width: 100%;
 }
 
+#navigation{
+    text-align: left;
+}
 img{
     width: 200px;
+    margin-top: 50px;
 }
 
 article{
@@ -24,3 +36,15 @@ section aside{
     float: right;
     max-width: 35%;
 }
+
+
+
+#lista-aprendidas{
+    float: left;
+}
+
+#lista-a-aprender{
+    float: left;
+    
+}
+
