@@ -5,7 +5,7 @@ body {
 }
 
 #cabecalho {
-  position: fixed;
+  /*position: fixed;*/
   top: 0px;
   background-color: purple;
 }
@@ -31,15 +31,17 @@ body {
   border: wheat solid 5px;
   border-radius: 5px;
   padding: 5px;
-  overflow: hidden;
 }
 
-#depoimento {
-  display: inline-block;
-  float: left;
-}
-#imagem {
-}
 #bem {
   font-size: 24px;
+}
+
+#rodape {
+  background-color: darkgray;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  width: auto;
+  height: 45px;
 }
