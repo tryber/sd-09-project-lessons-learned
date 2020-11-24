@@ -6,3 +6,15 @@ body {
   position: fixed;
   top: 0px;
 }
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  color: blue;
+}
+
+.paragrafo_text{
+    line-height: 30px;
+    font-size: 20px;
+}
+ 
