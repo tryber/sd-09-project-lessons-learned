@@ -1,8 +1,31 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 30px;
+  padding: 10px;
+}
+
+h1 {
+  color: rgb(37, 37, 37);
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
+}
+
+#aticle-content{
+  background-color: rgb(156 , 156 , 253);
+  display: flex;
+  float: left;
+  max-width: 60%;
+}
+
+#aside-content {
+  background-color: rgb(255 , 138 , 161);
+  display: flex;
+  float: right;
+  max-width: 40%;
 }
