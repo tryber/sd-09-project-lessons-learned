@@ -1,10 +1,11 @@
 body {
-  background-color: rgb(253 ,251 ,251);
+  background-color: rgb(253,251,251);
 }
 
 #cabecalho {
-  background-color: rgb(37, 128, 0);
+  background-color: rgb(37,128,0);
   color: white;
+  position: fixed;
   text-align: center;
   top: 0px;
   width: 100%;
@@ -12,12 +13,20 @@ body {
 
 main {
   display: inline;
+  
+}
+
+img {
+  margin-top: 100px;
 }
 
 section {
   display: inline-block;
 }
 
+footer {
+  text-align: center;
+}
 * {
   margin: 0px;
 }
