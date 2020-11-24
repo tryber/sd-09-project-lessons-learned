@@ -6,6 +6,8 @@ body {
   background-color: rgb(74, 156, 74);
   position: fixed;
   top: 0px;
+  text-align: center;
+  font-size: 18px;
 }
 #titulo {
   color: whitesmoke;
@@ -26,8 +28,12 @@ body {
   border-radius: 20%;
 }
 #licoes_aprendidas {
+  float: left;
 }
 #licoes_a_aprender {
+  margin-left: 100px;
+  float: right;
 }
 #rodape {
+  color: black;
 }
