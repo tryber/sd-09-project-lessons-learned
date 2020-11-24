@@ -18,12 +18,18 @@ body {
   text-align: center;
 }
 
-nav {
-  margin-top: 80px;
-  text-align: center;
+main {
+  margin: auto;
+  margin-top: 100px;
+  width: 80%;
 }
 
-nav a {
+header nav {
+  text-align: center;
+  margin-top: 16px;
+}
+
+header nav a {
   color: black;
   text-decoration: none;
   font-size: 18px;  
@@ -52,12 +58,12 @@ nav a:last-child {
 }
 
 #learning-article {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
 }
 
-#learning-article article , #learning-article aside {
+#learning-article .lado-esquerdo , #learning-article .lado-direito {
   display: inline-block;
   text-align: justify;
   margin-top: 0;
@@ -66,6 +72,11 @@ nav a:last-child {
   line-height: 24px;
   vertical-align: middle;
 }
+
+#learning-article .lado-direito {
+  background-color:  rgb(226, 226, 226);
+}
+
 
 #licoes table {
   margin: 0 auto;
@@ -77,7 +88,6 @@ nav a:last-child {
 }
 
 footer {
-  margin-top: 32px;
   padding: 16px;
   text-align: center;
   font-size: 12px;
