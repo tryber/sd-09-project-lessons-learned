@@ -15,6 +15,18 @@ header {
   overflow: visible;
 }
 
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  padding-left: 20px;
+  color: black;
+  font-family: Work Sans, sans-serif;
+  background-color: teal;
+  width: 100%;
+  height: 50px;
+}
+
 #minha_foto {
   width: 200px;
   position: relative;
@@ -23,6 +35,6 @@ header {
 }
 
 main {
-  position: relative; 
-  margin: 0px auto;
+  position: relative;
+  margin: 0 auto;
 }
