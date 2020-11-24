@@ -21,7 +21,7 @@ body {
   top: 0;
 }
 
-#titulo{
+#titulo {
   padding-left: 20px;
   color: aliceblue;
 }
@@ -29,4 +29,21 @@ body {
 #cabecalho h2 {
   padding-left: 20px;
   color: aliceblue;
+}
+
+#minha_foto {
+  width: 300px;
+  border-radius: 10px 50px;
+  margin: 2%;
+}
+
+#licoes_aprendidas {
+  float: left;
+  width: 25%;
+  margin: 25px;
+}
+
+#licoes_aprendidas li {
+  padding: 7px;
+  margin: 0 15px;
 }
