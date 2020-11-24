@@ -2,4 +2,12 @@
     body{
     background-color: rgb(253, 251, 251);
     }
+    #cabecalho
+        {position: fixed;
+        top: 0px;
+        width: 100%;
+		float: center;
+        text-align: center;
+        background-color:white;
+        color: black}
     </style>
