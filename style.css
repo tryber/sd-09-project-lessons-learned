@@ -14,11 +14,11 @@ body {
 }
 
 #cabecalho h1 {
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   font-weight: 400;
   font-size: 3em;
   margin: 0;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -27,29 +27,65 @@ nav {
 }
 
 nav li {
-  font-family: "Indie Flower", cursive;
+  font-family: 'Indie Flower', cursive;
   display: inline;
 }
 
 nav a {
   padding: 5px 20px;
   margin: 10px;
-  background-color: #ffffff;
+  background-color: #fff;
   color: rgb(15 , 163 , 107);
   text-decoration: none;
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
 }
 
 nav a:hover {
   background-color: rgb(15 , 163 , 107);
-  color: #ffffff;
+  color: #fff;
 }
 
 main {
-  margin-top: 150px;
+  margin: 150px 50px 50px 50px;
 }
 
 img {
-  max-width: 50%;
+  max-width: 13%;
   height: auto;
+  margin-left: 50px;
+  margin-right: 20px;
+  border-radius: 100%;
+  border: 2px solid rgb(15 , 163 , 107);
+}
+
+p {
+  line-height: 1.5;
+}
+
+main ul, main ol {
+  display: inline-block;
+  width: 30%;
+}
+
+article, aside {
+  display: inline-block;
+  width: 49%;
+}
+
+aside {
+    float: right;
+}
+
+table, td {
+    border: 1px solid rgb(15 , 163 , 107);
+}
+
+table, tr {
+    width: 100%;
+}
+
+th {
+    background-color: rgb(15 , 163 , 107);
+    padding: 10px;
+    color: #fff;
 }
