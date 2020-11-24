@@ -11,7 +11,7 @@ body {
 
 /* header */
 #cabecalho {
-  background-color: green
+  background-color: green;
   height: 100px;
   position: fixed;
   top: 0;
