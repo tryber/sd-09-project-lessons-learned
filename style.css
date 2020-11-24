@@ -13,26 +13,27 @@ body {
 }
 
 #cabecalho ul {
-    display: inline-block;
-    list-style: none;
-    background-color: greenyellow;
-    width: 100%;
-    margin-bottom: 0;
-    height: 30px;
-    line-height: 30px;
+  display: inline-block;
+  list-style: none;
+  background-color: greenyellow;
+  width: 100%;
+  margin-bottom: 0;
+  height: 30px;
+  line-height: 30px;
 }
 
 #cabecalho li {
-    display: inline;
-    margin-left: 20px;
-    font-weight: bold;
+  display: inline;
+  margin-left: 20px;
+  font-weight: 700;
 }
+
 #cabecalho a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 img {
-    width: 200px;
-    margin-top: 150px;
+  width: 200px;
+  margin-top: 150px;
 }
