@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', sans-serif;
 }
 
 #cabecalho {
@@ -21,4 +21,3 @@ nav a {
   text-decoration: none;
   color: white;
 }
-
