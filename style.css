@@ -21,3 +21,12 @@ body {
     padding: 20px;
     text-align: center;
 }
+
+#conteudo-principal {
+    margin-top: 80px;
+    padding: 10px;
+}
+
+#minha_foto {
+    width: 160px;
+}
