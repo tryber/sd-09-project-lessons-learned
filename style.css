@@ -32,6 +32,12 @@ body{
     color: #2f3640;
 }
 
+#minha_foto{
+    margin: 150px 100px 100px 100px;
+    width: 350px;
+    border-radius: 60%;
+}
+
 *{
     margin: 0px;
 }
