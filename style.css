@@ -1,3 +1,6 @@
+* {
+    margin: 0px;
+}
 body {
     background-color: rgb(253, 251, 251);
 }
@@ -5,9 +8,31 @@ body {
     background-color: green;
     position: fixed;
     top: 0px;
-    width:100%; 
+    width:100%;
+    height: 100px;
 }
-#cabecalho #titulo {
+#cabecalho #titulo { 
     text-align: center;
     color: white;
+    margin-top: 1em;
+}
+.fotos {
+    margin-top: 101px;
+}
+#minha_foto {
+    width: 300px;
+    float: center;
+}
+#listas{
+    margin-bottom: 80px;
+}
+
+footer {
+    background-color: green;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+    padding-left: 20px;
 }
