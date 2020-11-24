@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 20px;
   line-height: 2em;
+  padding: 10px;
 }
 
 #cabecalho {
@@ -24,9 +25,14 @@ body {
   width: 70%;
 }
 
-
 #minha_foto {
   width: 150px;
+  padding-top: 200px;
   margin-left: 50%;
-  margin-top: 100px;
+}
+
+table {
+    width: 100%;
+    margin: 10px 10px 20px 30px;
+    background-color: burlywood;
 }
