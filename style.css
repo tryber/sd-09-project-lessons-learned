@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 /* Possuir cor de fundo: rgb(253, 251, 251) */
@@ -38,14 +37,14 @@ com a propriedade top tendo 0px. */
   margin-right: auto;
 }
 
-#tabela td, th {
+#tabela td , th {
   border: 1px solid rgb(100 , 100 , 100);
   text-align: center;
   padding: 1rem;
 }
 
-#tabela tr:nth-child(even) {
-  background-color: rgb(165, 165, 165);
+#tabela tr:nth-child( even ) {
+  background-color: rgb(165 , 165 , 165);
 }
 
 .artigo {
