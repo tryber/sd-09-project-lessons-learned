@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', 'Courier', serif;
   font-size: 40px;
   color: blue;
 }
@@ -33,7 +33,7 @@ h1 {
   border: solid;
   border-color: blue;
   width: 280px;
-  float: right;  
+  float: right;
   padding: 10px;
   line-height: 25px;
 }
@@ -46,4 +46,3 @@ h1 {
 #minha_foto {
   margin-top: 150px;
 }
- 
