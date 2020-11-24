@@ -1,14 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: rgb(253 , 251 , 251);
+    background-color: rgb( 253 , 251 , 251 );
+    font-family: 'Comic Neue', cursive;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
     background-color: green;
-    height: 200px;
+    height: 150px;
     width: 100%;
+    text-align: center;
+}
 
+.horizontal-nav-bar {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    top: 150px;
 }
 
 .horizontal-nav-bar ul {
@@ -16,7 +30,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb( 51 , 51 , 51 );
 }
 
 .horizontal-nav-bar li {
@@ -33,4 +47,26 @@ body {
 
 .horizontal-nav-bar li a:hover {
     background-color: black;
+}
+
+#minha_foto {
+    width: 250px;
+    height: 300px;
+}
+
+.main-container {
+    margin-top: 200px;
+}
+
+.photo-name {
+    text-align: center;
+    width: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 30px 10px;
+}
+
+.center-photo-name {
+    width: auto;
+    text-align: center;
 }
