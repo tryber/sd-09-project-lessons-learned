@@ -5,4 +5,15 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    background-color: #546d80;
+    padding: 30px;
+}
+
+#corpo {
+    position: relative;
+    top: 150px;
+}
+
+#minha_foto {
+    width: 273px;
 }
