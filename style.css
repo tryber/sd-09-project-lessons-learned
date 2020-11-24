@@ -44,6 +44,13 @@ nav a{ /*selecionando as tags "a" do container "nav"*/
   padding: 10px; /*espaçamento interno do texto até a borda*/
 }
 
-main{
+#page_content{
+  padding: 25px;
   margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+main{
+  width: 80%;
 }
