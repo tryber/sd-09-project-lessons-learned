@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(253, 251, 21);
+    height: 768px;
+    width: 1366px;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0px;
+}
