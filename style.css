@@ -48,41 +48,42 @@ table {
 }
 
 #listas {
-    padding: 10px;
-    margin: 20px;
+  padding: 10px;
+  margin: 20px;
 }
 
 article {
-    text-align: center;
-    background-color: rgb(222, 243, 213);
-    padding: 20px;
-    border-radius: 30px;
+  text-align: center;
+  background-color: rgb(222, 243, 213);
+  padding: 20px;
+  border-radius: 30px;
 }
+
 article p {
-    text-align: left;
+  text-align: left;
 }
 
 aside {
-    text-align: center;
-    background-color: rgb(222, 243, 213);
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    border-radius: 30px;
+  text-align: center;
+  background-color: rgb(222, 243, 213);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 30px;
 }
 
 article p {
-    text-align: left;
+  text-align: left;
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 40%;
-    margin: 4%;
+  float: left;
+  width: 40%;
+  margin: 4%;
 }
 
 .lado-direito {
-    float: right;
-    width: 40%;
-    margin: 4%;
+  float: right;
+  width: 40%;
+  margin: 4%;
 }
