@@ -11,6 +11,7 @@ main {
     position: fixed;
     top: 0;
     width: 100%;
+    background-image: url("bgheader.png");
     background-color: rgb(100, 173, 28);
 }
 #titulo {
