@@ -39,7 +39,7 @@ font-size: 19px;
 }
 
 .contentIcons {
-padding: 0px 5px;
+padding: 0 5px;
 font-size: 15px;
 }
 
@@ -103,8 +103,7 @@ flex-wrap: wrap;
 /* ---------------------------- */
 
 .wrapper-content {
-display: flex;
-justify-content: space-around;
+
 }
 
 .lado-direito {
@@ -120,6 +119,8 @@ width: 80%;
 flex: 65%;
 margin-top: 1%;
 text-align: justify;
+display: flex;
+justify-content: space-around;  
 }
 
 
@@ -127,8 +128,6 @@ text-align: justify;
 width: 65%;
 padding: 20px;
 }
-
-
 
 .lessons {
 width: 30%;
@@ -200,20 +199,19 @@ cursor: crosshair;
 }
 
 table.table tr:nth-child(even) { 
-background-color: #2c3e50; 
+background-color: #2c3e50;
 }
 
-table.table th, 
+table.table th,
 table.table td { 
 padding: 8px;
 color: #ddd;
 font-size: 15px;
 }
 
-table.table-1 th { 
-text-align: left; 
+table.table-1 th {
+text-align: left;
 color: #ecf0f1;
-
 }
 
 tr {
@@ -222,7 +220,7 @@ cursor: pointer;
 }
 
 #rodape {
-padding: 20px 0px 20px 20px;
+padding: 20px 0 20px 20px;
 text-align: center;
 color: #222f3e52;
 }
@@ -234,7 +232,7 @@ transition: 0.2s;
 /* animations */
 
 .icons {
-color: rgba(0, 0, 0, 0.39);
+color: rgba(0 ,0 ,0 ,0.39);
 font-size: 30px;
 transition: 0.5s;
 padding: 20px 20px;
@@ -253,31 +251,30 @@ filter: grayscale(0%);
 nav li:nth-child(2):hover,
 nav li:nth-child(3):hover,
 nav li:nth-child(4):hover {
-transform: scale(1.2, 1.2);
+transform: scale(1.2 ,1.2);
 }
 
 img:hover {
-filter: blur(0px);
+filter: blur(0);
 }
 
 
 table.table tr.table-effect:hover { 
 background-color: #405c77fa; 
-transform: scale(1.05,1.05);
+transform: scale(1.05 ,1.05);
 }
 
 table.table tr.table-effect:hover td { 
 color: wheat;
 }
 
-
 .icons:hover {
-transform: scale(1.2, 1.2);
+transform: scale(1.2 ,1.2);
 color: #2c3e50;
 }
 
 .footerIcons:hover {
-color: rgb(65, 33, 33);
+color: rgb(65 ,33 ,33);
 }
 
 .footerIcons:nth-child(2):hover {
@@ -286,32 +283,32 @@ color: #eb2f06;
 
 /* Responsive */
 
-@media (max-width: 800px) {
+@media (max-width :800px) {
 .wrapper-content {
   flex-direction: column;
 }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width :800px) {
 .main {
   flex-direction: column;
-  margin: 0px 0px 0px 80px;
+  margin: 0 0 0 80px;
 }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width :800px) {
 aside p {
 width: 75%;;
 }
  }
 
-  @media (max-width: 800px) {
+  @media (max-width :800px) {
 header {
 margin-top: 150px;
 }
  }
 
-  @media (max-width: 800px) {
+  @media (max-width :800px) {
 .list-title {
 text-align: center;
 }
