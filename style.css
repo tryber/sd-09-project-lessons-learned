@@ -13,7 +13,6 @@ body {
 
 main {
   display: inline;
-  
 }
 
 img {
@@ -27,7 +26,7 @@ section {
 footer {
   text-align: center;
 }
+
 * {
   margin: 0px;
 }
-
