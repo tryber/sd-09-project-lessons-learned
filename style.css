@@ -20,4 +20,9 @@ body {
 
 #minha_foto {
     width: 273px;
+    border: 5px;
+}
+
+ol, ul {
+    margin: 10px;
 }
