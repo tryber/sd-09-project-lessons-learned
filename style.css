@@ -1,50 +1,64 @@
-a{
-    text-decoration:none;
-    font-size:18px;
+a {
+  text-decoration:none;
+  font-size:18px;
 }
 
-a:hover{
-    background:#4a4e69;
-    color:#84a98c;
+a:hover {
+  background: rgb(74 , 78 , 105);
+  color:rgb(132, 169, 140);
 }
 
-body{
-    padding:120px 0 0 0px;
-    background-color: rgb(253 ,251 ,251);
-    color:#4a4e69;
-    margin:0;
+body {
+  padding: 120px 0 0 0;
+  background-color: rgb(253 , 251 , 251);
+  color: rgb(74 , 78 , 105);
+  margin: 0;
 }
 
-header h1{
-    line-height:10px;
+
+header {
+  background: rgb(132 , 169 , 140);
+  font-size: 18px;
+  height: auto;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 0;
 }
 
-header{
-    background:#84a98c;
-    font-size:18px;
-    height:auto;
-    position:fixed;
-    text-align:center;
-    width:100%;
-    top:0;
+header h1 {
+ line-height:10px;
 }
 
-#minha_foto{
-    border-radius:150px;
-    max-width:150px;
-    float: left;
+h2 {
+  text-align:center;
 }
 
-.navbar
-{
-    font-family:monospace;
-    font-size:16px;
-    padding-top:10px;
+#minha_foto {
+  border-radius: 150px;
+  max-width: 15%;
+  float: left;
+  
 }
 
-.navbar li{
-    float:left;
-    list-style-type:none;
-    display:block;
-    padding:0px 14px;
+.navbar {
+  font-family: monospace;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.navbar li {
+  float: left;
+  list-style-type: none;
+  display: block;
+  padding: 0 14px;
+}
+
+.listas {
+  display:flex;
+  width:80%;
+}
+
+.listas div {
+  width:50%;
 }
