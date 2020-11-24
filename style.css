@@ -10,16 +10,16 @@ body {
 }
 
 #cabecalho {
-  background-color: rgb(15,163,107);
+  background-color: rgb(15 , 163 , 107);
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
   text-align: center;
   padding: 18px;
 }
 
 #cabecalho h1 {
-  color: rgb(255 , 255 , 255);
+  color: white;
   margin: 32px 0;
 }
 
@@ -37,11 +37,11 @@ body {
 #minha_foto {
   width: 200px;
   height: 200px;
-  border: 6px solid rgb(255 , 255 , 255);
+  border: 6px solid white;
   border-radius: 50%;
   position: fixed;
   top: 32px;
-  left: 62px
+  left: 62px;
 }
 
 #aside {
@@ -54,9 +54,9 @@ body {
 }
 
 #aside section {
-  border: 1px solid rgb(15,163,107);
+  border: 1px solid rgb(15 , 163 , 107);
   padding: 16px;
-  margin-top: 16px
+  margin-top: 16px;
 }
 
 #main {
@@ -67,7 +67,7 @@ body {
 }
 
 #artigo_aprendizado {
-  border: 1px solid rgb(15,163,107);
+  border: 1px solid rgb(15 , 163 , 107);
   font-size: 18px;
   text-align: justify;
   padding: 16px;
@@ -86,17 +86,17 @@ body {
 #rodape {
   width: 100%;
   position: fixed;
-  bottom: 0px;
-  background-color: rgb(15,163,107);
+  bottom: 0;
+  background-color: rgb(15 , 163 , 107);
   text-align: center;
-  color: rgb(255 , 255 , 255);
+  color: white;
   padding: 8px;
-  font-size: 24px
+  font-size: 24px;
 }
 
 #lista_amigos {
   clear: both;
-  border: 1px solid rgb(15,163,107);
+  border: 1px solid rgb(15 , 163 , 107);
   padding: 16px;
   text-align: center;
 }
@@ -109,17 +109,17 @@ table {
 
 td {
   padding: 8px;
-  border-top: 1px solid rgb(15,163,107);
+  border-top: 1px solid rgb(15 , 163 , 107);
 }
 
 h2 {
-  color: rgb(15,163,107);
+  color: rgb(15 , 163 , 107);
 }
 
 a {
   text-decoration: none;
-  color: rgb(238, 235, 232);
-  border: 1px solid rgb(255 , 255 , 255);
+  color: rgb(238 , 235 , 232);
+  border: 1px solid white;
   padding: 8px;
   margin: 0 4px;
 }
