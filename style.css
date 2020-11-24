@@ -18,16 +18,52 @@ body {
 }
 .fotos {
     margin-top: 101px;
+    text-align: center;
 }
 #minha_foto {
     width: 300px;
-    float: center;
+    border-radius: 5%;
+}
+#section_list {
+    display: block;
+    text-align: center;
 }
 #listas{
-    margin-bottom: 80px;
+    text-align: center;
+    display: inline-block;
 }
+#licoes_aprendidas {
 
+    border: 3px solid green;
+    float: left;
+}
+#licoes_a_aprender {
+    border: 3px solid green;
+    float: right;
+}
+#section_article {
+    margin-top: 10px;
+    margin-bottom: 62px;
+    border-top: solid gray;
+    border-bottom: solid gray;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+#artigo {
+    background-color: greenyellow;
+    border: 3px dashed green;
+}
+#barra_lateral {
+    border: 3px dashed green;
+    background-color: greenyellow;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    display: block;   
+}
 footer {
+    display: block;
     background-color: green;
     position: fixed;
     bottom: 0px;
