@@ -32,4 +32,11 @@
             font-size: 11px;
             font-style: italic;
         }
+        .lado-esquerdo{
+            position: relative;
+            float: left;
+            width: 49%;
+        border: 3px solid rgb(2,250,0);
+        text-align: left;
+        }
     </style>
