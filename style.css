@@ -1,11 +1,19 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #272a2d;
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
+  background-color: #555B6E;
+}
+
+#titulo {
+  color: #FAF9F9;
 }
 
 #apresentacao {
@@ -14,6 +22,19 @@ body {
 }
 
 #minha_foto {
-  height: 300px;
+  height: 280px;
   border-radius: 15px 50px;
+}
+
+#licoes {
+  margin-top: 150px;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #272a2d;
+}
+
+#rodape {
+    font-size: 13px;
 }
