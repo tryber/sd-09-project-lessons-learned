@@ -4,9 +4,28 @@ body{
 
 #cabecalho{
     position: fixed;
+    width: 100%;
     top: 0px;
+    background-color: seagreen;
+    color: seashell;
+    text-align: center;
 }
 
 #minha_foto{
     width: 200px;
+}
+
+#linkedin{
+    display: block;
+}
+#licoes_aprendidas{
+    display: inline-block;
+}
+
+#licoes_a_aprender{
+    display: inline-block;
+}
+
+#rodape{
+    background-color: red;
 }
