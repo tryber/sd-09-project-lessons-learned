@@ -26,3 +26,7 @@ li{
     border-radius: 5px;
     width: 300px;
 }
+
+#licoes_a_aprender li{
+    background-color: cornflowerblue ;   
+}
