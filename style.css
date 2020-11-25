@@ -5,6 +5,7 @@ body {
 }
 
 img {
+  border-radius: 10%;
   margin-left: 2%;
   width: 200px;
 }
@@ -15,9 +16,9 @@ table , th , td {
 
 nav ul {
   text-align: center;
-  font-size:40px;
+  font-size: 40px;
   padding-left: 0;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 nav ul a {
@@ -30,16 +31,22 @@ nav ul a {
 }
 
 #aside {
+  background-color: #E9DCC9;
   display: inline-block;
-  margin-right: 30%;
-  float: right;
+  border: solid 1px;
+  padding: 10px;
+  width: 10%;
+  float: left;
 }
 
 #article {
+  background-color: #B5C2CC;
   display: inline-block;
   border: solid 1px;
-  margin-right: 40%;
-  float: left;
+  margin-left: 38px;
+  padding: 10px;
+  width: 32%;
+  
 }
 
 #cabecalho {
@@ -53,7 +60,7 @@ nav ul a {
 }
 
 #content {
-  padding: 80px 40px 20px;
+  padding: 200px 40px 20px;
   margin: 0 20px;
 }
 
@@ -66,23 +73,36 @@ nav ul a {
   clear: both;
 }
 
+#tabela {
+  display: inline-block;
+  margin: 38px;
+}
+
 #titulo {
   text-align: center;
 }
 
 .lado-esquerdo {
+  background-color: #C8C8C8;
   display: inline-block;
+  margin-bottom: 20px;
+  border: solid 1px;
+  padding: 20px;
   width: 40%;
   float: left;
 }
 
 .lado-direito {
+  background-color: #6D6E80;
   display: inline-block;
+  margin-bottom: 20px;
+  border: solid 1px;
+  padding: 20px;
   width: 40%;
   float: right;
 }
 
 .imagem {
-  padding: 70px 50px 0;
+  padding: 150px 50px 0;
   float: left;
 }
