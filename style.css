@@ -50,10 +50,6 @@ body {
   float: left;
 }
 
-#tabela {
-  border: 3px;
-}
-
 #licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   padding-top: 150px;
@@ -64,16 +60,20 @@ body {
   line-height: 35px;
 }
 
-#aprendizado {
+#aprendizado , .lado-esquerdo {
   font-family: sans-serif;
+  position: relative;
+  display: inline-flex;
   font-size: 18px;
   letter-spacing: 0.5;
   line-height: 25px;
   font-style: normal;
 }
 
-#passagem {
+#passagem , .lado-direito {
   font-family: sans-serif;
+  position: relative;
+  display: inline-flex;
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 25px;
