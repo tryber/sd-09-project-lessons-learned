@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Courier New", Courier, monospace;
+  font-family: Georgia, Courier, monospace;
 }
 
 aside {
@@ -10,13 +10,13 @@ aside {
   float: right;
 }
 
-table, th, td {
+table, th, td{
   border: 1px solid black;
   margin: 10px 30px 30px;
   border-collapse: collapse;
 }
 
-th, td {
+th, td{
   padding: 10px;
   height: 30px;
 }
