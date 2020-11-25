@@ -1,18 +1,23 @@
 
-article, aside {
+article {
   width: 30%;
 }
 
 body {
   color: black;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: Noto Sans JP, sans-serif;
+  font-size: 11px;
   background-color: rgb(253 , 251 , 251);
-  letter-spacing: 1px;
+  letter-spacing: 0;
+  margin: 0;
+  width: 1366px;
+  height: 768px;
 }
 
 h1, h2 {
   margin-top: 0;
-  letter-spacing: 2px;
+  letter-spacing: 0;
+  height: 40px;
 }
 
 footer p {
@@ -20,36 +25,37 @@ footer p {
   margin: 0;
 }
 
-main a {
-  color: rgb(31, 31, 31);
-  display: block;
-  font-size: 1.5em;
-  margin: 0;
-  text-decoration: none;
+main {
+  width: 1326px;
+  height: 768px;
 }
 
-nav ul li {
-  display: inline;
-  padding: 0 10px;
+main a {
+  color: black;
+  display: block;
+  font-size: 1.3em;
+  margin: 0;
+  text-decoration: none;
+  
 }
 
 table {
   display: inline-block;
 }
 
-th, td {
+th , 
+td {
   padding: 0 15px;
-  border: 1px solid #666;
-  background-color: rgb(206 , 189 , 221); 
+  border: 1px solid darkgray;
+  background-color: whitesmoke;
 }
 
-tr{
+tr {
   display: inline;
 }
 
-ul a {
-  color: rgb(31 , 31 , 31);
-  text-decoration: none;
+ul{
+  margin: 0;
 }
 
 #cabecalho {
@@ -59,22 +65,27 @@ ul a {
   top: 0;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , 
+#licoes_a_aprender {
   margin: 2% 25%;
   text-align: justify;
 }
 
 #minha_foto {
-  box-shadow: 2px 4px 8px 2px rgba(0 , 0 , 0 , 0.2);
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
   margin-top: 15px;
-  width: 250px;
+  width: 220px;
 }
 
 #navegacao {
-  left: 15%;
+  left: 12%;
   position: absolute;
   top: 0;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  height: 40px;
 }
 
 #rodape {
@@ -85,9 +96,12 @@ ul a {
 
 #titulo {
   background-color: rgb(33 , 148 , 33);
-  box-shadow: 0 0 10px 0 rgba(0 , 0 , 0 , 0.5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   text-align: center;
   width: 100%;
+  max-width: 1366px;
+  margin: 0;
+  height: 40px;
 }
 
 .art-title {
@@ -96,16 +110,17 @@ ul a {
 }
 
 .imgbox {
-  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
-  margin: 55px auto 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 40px auto 0;
   padding: 0 55px;
   width: 60%;
   text-align: center;
   transition: 0.3s;
 }
 
-.lado-direito, .lado-esquerdo {
-  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
+.lado-direito-int , 
+.lado-esquerdo {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: inline-block;
   margin: 5px;
   padding: 5px 25px;
@@ -115,7 +130,7 @@ ul a {
 }
 
 .licoes {
-  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: inline-block;
   margin: 0 5px;
   padding: 5px 25px;
@@ -130,13 +145,38 @@ ul a {
   padding-top: 12px;
 }
 
+.navlist {
+  display: inline;
+}
+
+.navitem {
+  color: rgb(31 , 31 , 31);
+  text-decoration: none;
+  display: inline;
+  padding: 0px 10px;
+  margin: 0;
+}
+
 .tabelajs {
   display: block;
   margin: 5px;
   text-align: center;
 }
 
-.imgbox:hover, .lado-direito:hover, .lado-esquerdo:hover, .licoes:hover {
+.imgbox:hover , 
+.lado-direito:hover , 
+.lado-esquerdo:hover , 
+.licoes:hover {
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3);
-  background-color: rgba(23, 114, 29, 0.1)
+  background-color: rgba(23, 114, 29, 0.1);
+}
+
+.lado-direito {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 25px;
+  text-align: justify;
+  transition: 0.3s;
+  width: 30%;
 }
