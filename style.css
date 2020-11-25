@@ -37,41 +37,56 @@ body {
   float: left;
 }
 
+#artigo_aprendizado {
+  width: 70%;
+  float: left;
+  margin: 10px 0 50px 20px;
+}
+
 #rodape {
-  display: block;
   background-color: seagreen;
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 2em;
+  height: 1em;
 }
 
 #rodape h6 {
   margin-left: 3%;
-  position: fixed;
-  bottom: 0;
-  background-color: royalblue;
+  /* position: fixed; */
+  bottom: 10px;
+  background-color: rgb(132, 175, 132);
 }
 
 nav {
   display: inline-block;
   background-color: seagreen;
-  height: 30px;
-  border-radius: 15px 15px 0 0;
+  height: 65px;
+  border-radius: 35px 35px 0 0;
+  margin: 0 5px;
 }
 
 #img_face {
   width: 25px;
+  margin: 0 25px 0 0;
 }
 
 #img_linkedin {
   width: 60px;
+  margin: 0 25px 0 0;
 }
 
 #img_github {
   width: 50px;
+  margin: 0 25px 0 0;
+}
+
+#img_tkd {
+  width: 400px;
+  display: block;
 }
 
 nav ul li {
   display: inline-block;
+  padding: 5px 10px;
 }
