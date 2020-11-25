@@ -9,6 +9,36 @@ body {
   line-height: normal;
 }
 
+#section-table {
+  float: right;
+  margin-right: 30%;
+  margin-top: 5%;
+  top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid green;
+  font-size: 20px;
+  margin-left: 20px;
+  top: 0;
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: left;
+  color: gray;
+}
+
+#caption-table {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
+
 #navigation {
   padding: 0 30px;
 }
