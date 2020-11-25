@@ -23,7 +23,7 @@ img{
 border-radius: 40px;
 border: 2px solid #088c7b;
 width: 150px;
-float: inherit;
+margin-right: 100%;
 }
 article{
 float: left;
@@ -31,5 +31,16 @@ width: 60%;
 }
 aside{
 float: right;
-width: 30%;
+width: 40%;
 }
+section{
+border: 10px 20px 10px 20px;
+width: 100%;
+}
+ul section{
+display: inline-block;
+}
+ol section{
+display: inline-block;
+}
+    
