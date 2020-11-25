@@ -1,5 +1,6 @@
 body {
-  background-color: rgb( 253, 251, 251 );
+  background-color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 aside {
@@ -9,24 +10,48 @@ aside {
   float: right;
 }
 
+table, th, td {
+  border: 1px solid black;
+  margin: 10px 30px 30px 30px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  height: 30px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  background-color: rgb( 117, 240, 163 );
+  background-color: rgb(117, 240, 163);
   display: block;
   text-align: center;
 }
 
 #lista-materias {
   display: inline-block;
-  position: relative;
+  margin-bottom: 15px;
+  background-color: darkgray;
+  text-align: center;
 }
 
-.foto-perfil {
+#licoes_aprendidas,
+#licoes_a_aprender {
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+}
+
+#aprendizado {
+  font-size: 20px;
+}
+
+.minha_foto {
   margin-top: 100px;
   width: 200px;
-  display: block;
+  display: inline-block;
   border-radius: 40%;
 }
