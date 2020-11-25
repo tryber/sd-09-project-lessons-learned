@@ -15,27 +15,40 @@ body{
     padding: 25px;
 }
 
+#tresemum{
+    width: auto;
+    margin: 30px auto 0 auto;
+}
+
+#foto-link{
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: ridge;
+}
+
 #minha_foto{
     width: 200px;
-    margin-top: 100px;
-    border-style: double;
 }
 
 #linkedin{
-    display: block;
     margin-left: 65px;
+    text-decoration: none;
+    display: block;
 }
 
-#side-list{
+#section-list{
     background-color:lightgray;
-    width: 20%;
-    margin: 0 25px 20px 0;
+    width: 18%;
+    margin-top: 5%;
+    margin-left: 5%;
     padding: 15px;
     display: inline-block;
+    border: ridge;
+    border-radius: 5px;    
 }
 
 #learned-learning{
-    margin-bottom: 5px;
     text-align: center;
 }
 
@@ -47,6 +60,30 @@ body{
     display: inline-block;
 }
 
+#aside{
+    display: inline-block;
+    width: 33%;
+    margin-left: 100px;
+    text-align: justify;
+}
+
+#aside p{
+    margin-top: 10px;
+}
+
+#article{
+    width: 33%;
+    margin: 15px auto 0 auto;
+    background-color: rosybrown;
+    text-align: justify;
+}
+
 #rodape{
     background-color: red;
+    margin-top: 15px;
+}
+
+#rodape p{
+    margin-left: 15px;
+    text-align: center;
 }
