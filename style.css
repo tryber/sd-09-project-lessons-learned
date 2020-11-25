@@ -4,6 +4,11 @@ a {
   text-shadow: cyan 1px 0 1px;
 }
 
+.referencias a {
+  color: black;
+  text-decoration: none;
+}
+
 li a:hover {
   background: rgb(74 , 78 , 105);
   color: rgb(132 , 169 , 140);
