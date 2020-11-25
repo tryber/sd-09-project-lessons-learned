@@ -39,12 +39,14 @@ body {
 
 #conteudo-principal .secao {
   position: relative;
+  float: left;
 }
 
 #conteudo-principal .secao img {
   height: 200px;
   position: absolute;
   top: 55px;
+  left: 0;
 }
 
 #conteudo-principal .secao .lado-direito, 
@@ -56,10 +58,11 @@ body {
   height: 300px;
 }
 
-#conteudo-principal .secao .sobre_aprendizado {
+#conteudo-principal .secao .lado-esquerdo {
   margin-left: 180px;
-  width: 588px;
-  padding: 19px;
+  width: 550px;
+  padding: 20px;
+  float: left;
 }
 
 #conteudo-principal .secao .arame-base {
@@ -67,7 +70,8 @@ body {
   height: 5px;
   position: absolute;
   width: 30px;
-  right: 295px;
+  right: 237px;
+  top: 200px;
 }
 
 #conteudo-principal .arame-base:after, 
@@ -97,13 +101,15 @@ body {
   bottom: 70px;
 }
 
-#conteudo-principal .secao .sobre_aprendizado .text-artigo {
+#conteudo-principal .secao .lado-esquerdo .text-artigo {
   margin-left: 10px;
 }
 
 #conteudo-principal .secao .lado-direito {
-  padding: 18px;
   width: 250px;
+  padding: 26px;
+  float: right;
+  margin-left: 3px;
 }
 
 .titulo-article {
@@ -111,7 +117,7 @@ body {
   line-height: 30px;
 }
 
-.sobre_aprendizado .text-artigo,
-.passagem_trybe .text-artigo {
+#conteudo-principal .lado-esquerdo.text-artigo, 
+#conteudo-principal .lado-direito .text-artigo {
   text-align: justify;
 }
