@@ -9,46 +9,41 @@
   <script src="https://kit.fontawesome.com/e718b707b4.js" crossorigin="anonymous"></script>
   <script src='main.js'></script>
 </head>
+
 <body>
   <header id="cabecalho">
-
-    <a href="index.html">
-      <img src="/images/logo.png" alt="Leonardo Majevski Desenvolvedor Front-End" />
-    </a>
-
     <h1 id="titulo">Lessons Learned</h1>
+
+    <nav id="menu">
+      <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="sobre">Sobre</a></li>
+        <li><a href="contato">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <figure>
-      <img id="minha_foto" src="/images/leo-pic.png" alt="Foto de Leonardo Majevski">
-      <figcaption class="profile-pic">Leonardo Majevski</figcaption>
-    </figure>
+    <section id="aluno_trybe">
 
-    <section>
-      <h3>#beTrybe!</h3>
-      <p>
-        Leo é aluno da <a href="https://betrybe.com" target="_blank">Trybe</a>. Faça como ele e não perca tempo, estude na melhor escola de programação da galáxia!
-      </p>
+      <figure>
+        <img id="foto_aluno" src="/images/leo-pic.png" alt="Foto de Leonardo Majevski">
+        <figcaption>Leonardo Majevski</figcaption>
+      </figure>
+
+      <aside>
+        <h3>#beTrybe!</h3>
+        <p>Leo é aluno da <a href="https://betrybe.com" target="_blank">Trybe</a>. Faça como ele e não perca tempo, estude na melhor escola de programação da galáxia!</p>
+      </aside>
+      <br>
+      <hr>
+      <hr>
+
     </section>
     
-    <article>
-      <h3>O aprendizado na Trybe</h3>
-      <p>
-        Poder aprender a programar com a Trybe é sem sombra de dúvidas a melhor opção que um estudante pode ter. Tenho certeza que o comprometimento da Trybe ao fornecer as melhores práticas de ensino direcionadas para o mercado de trabalho é um dos fatores que mais vão influenciar no meu sucesso como aluno e posteriormente como um desenvolvedor.
-      </p>
-    </article>
-
-    <aside>
-      <h3>O estudante de programação hoje</h3>
-      <p>
-        Sou estudante de Análise e Desenvolvimento de Sistemas em uma faculdade tradicional e vejo como o ensino brasileiro está defasado e precisando de direcionamento pro mercado de trabalho assim como a Trybe faz.
-      </p>
-    </aside>
-
-    <section>
-      <h2>Licões aprendidas</h2>
+    <section id="licoes">
       <ol id="licoes_aprendidas">
+        <h2>Licões aprendidas</h2>
         <li>Zoom</li>
         <li>Slack</li>
         <li>Unix, Bash e Shell Script</li>
@@ -61,8 +56,8 @@
         <li>HTML Semantico</li>
       </ol>
 
-      <h2>Lições a aprender</h2>
       <ul id="licoes_a_aprender">
+        <h2>Lições a aprender</h2>
         <li>JavaScript</li>
         <li>React</li>
         <li>Node</li>
@@ -71,13 +66,47 @@
         <li>Sockets</li>
         <li>Python</li>
         <li>Metodologias Ágeis</li>
-        <li>Inteligência emocional e Liderança</li>
-        <li></li>
+        <li>Inteligência emocional</li>
+        <li>Liderança</li>
       </ul>
     </section>
+    <hr>
+
+    <article id="trybe_aprendizado">
+      <h3>O aprendizado na Trybe</h3>
+      <p>
+        Poder aprender a programar com a Trybe é sem sombra de dúvidas a melhor opção que um estudante pode ter. Tenho certeza que o comprometimento da Trybe ao fornecer as melhores práticas de ensino direcionadas para o mercado de trabalho é um dos fatores que mais vão influenciar no meu sucesso como aluno e posteriormente como um desenvolvedor.
+      </p>
+    </article>
+    <hr>
+
+    <aside id="estudante_hoje">
+      <h3>O estudante de programação hoje</h3>
+      <p>
+        Sou estudante de Análise e Desenvolvimento de Sistemas em uma faculdade tradicional e vejo como o ensino brasileiro está defasado e precisando de direcionamento pro mercado de trabalho assim como a Trybe faz.
+      </p>
+    </aside>
+
+    <table>
+      <tr>
+        <th>Fundamentos do Desenvolvimento Web</th>
+        <th>Desenvolvimento Front-end</th>
+        <th>Desenvolvimento Back-end</th>
+        <th>Ciência da Computação</th>
+        <th>Soft Skills</th>
+      </tr>
+      <tr>
+        <td>O objetivo deste primeiro módulo é construir os fundamentos necessários para o início no mundo Desenvolvimento Web.</td>
+        <td>Aqui você vai aprender as técnicas e ferramentas mais atuais para desenvolver um código de front-end que seja rápido, bonito e testável.</td>
+        <td>Neste módulo, você vai aprender como desenvolver um código de back-end robusto, limpo, escalável e seguro, dominando o uso de bancos de dados, a construção de APIs com testes automatizados.</td>
+        <td>Aqui, você aprenderá os principais conceitos da Ciência da Computação que são aplicados no dia a dia do desenvolvomento de software e como transformar a teoria em prática, analisando algoritmos e escolhendo as melhores estruturas de dados para resolver os problemas!</td>
+        <td>Para que você consiga as melhores oportunidades, você deve também desenvolver habilidades de comunicação, postura, convivência social, etc. Vamos te guiar nas melhores práticas e assim você vai se dar muito melhor na vida real!</td>
+      </tr>
+    </table>
+
 
     <footer id="rodape">
-      <p><i class="fas fa-code"></i> com 💜 por Leonardo Majevski &copy; 2020</p>
+      <p><i class="fas fa-code"></i> por Leonardo Majevski &copy; 2020</p>
     </footer>
   </main>
 </body>

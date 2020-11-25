@@ -1,22 +1,169 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap');
 
-*,
-*::before,
-*::after {
-  background-color: rgb(253, 251, 251);
+* {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
 
 html{
   font-family: "Share Tech Mono", monospace;
   font-size: 12px;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
 }
 
+body {
+  background-color: rgb(253, 251, 251);
+  max-width: 1366px;
+}
+
+/* CABEÇALHO */
 header {
   top: 0px;
-  background-color: rgb(19, 19, 19;
+  background-color: #333;
+  color: aliceblue;
+}
+
+header h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1366px;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: inline-flex;
+}
+
+#menu li {
+    
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: #111;
+}
+
+/* CONTEÚDO PRICIPAL */
+#aluno_trybe {
+  position: relative;  
+}
+
+#aluno_trybe aside {
+  position: absolute;
+  top: 150px;
+  right: 160px;
+}
+
+#aluno_trybe h3 {
+  margin: 50px 0 10px 40px;
+  font-size: 3rem;
+}
+
+#aluno_trybe p {
+  width: 600px;
+  margin: 10px 0 10px 40px;
+  font-size: 1.7rem;
+}
+
+#foto_aluno {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 140px 0 0 200px;
+  position: relative;
+  border: 5px solid #333;
+}
+
+figcaption {
+  margin-left: 250px;
+}
+
+
+#licoes {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+#licoes h2 {
+  margin-bottom: 15px;
+}
+
+#licoes_aprendidas {
+  float: left;
+  position: relative;
+  margin: 50px;
+}
+
+#licoes_a_aprender {
+  float: right;
+  position: relative;
+  left: 50px;
+  margin: 50px;
+}
+
+#trybe_aprendizado {
+  position: absolute;
+  top: 420px;
+  left: 900px;
+  width: 35%;
+  font-size: 1.3rem;
+}
+
+#estudante_hoje {
+  position: absolute;
+  top: 570px;
+  left: 900px;
+  width: 35%;
+  font-size: 1.3rem;
+}
+
+table {
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border: 2px solid #333;
+  text-align: center;
+}
+
+table th{
+  border: 2px solid #333;
+}
+
+table td {
+  border: 2px solid #333;
+}
+
+/* Rodapé */
+#rodape {
+  margin: auto;
+  padding: 2.5rem;
+  color: #8a8a8a;
+  background-color: #333;
+  text-align: center;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
