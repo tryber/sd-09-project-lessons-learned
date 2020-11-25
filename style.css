@@ -19,22 +19,20 @@ h1 {
 }
 
 .lado-esquerdo {
-  margin-left: 200px;
+  margin-left: 300px;
   border: solid;
   border-color: blue;
   width: 500px;
-  height: auto;
   float: left;
   padding: 10px;
   line-height: 25px;
 }
 
 .lado-direito {
-  margin-right: 200px;
+  margin-right: 300px;
   border: solid;
   border-color: blue;
-  width: 500px;
-  height: auto;
+  width: 280px;
   float: right;
   padding: 10px;
   line-height: 25px;
