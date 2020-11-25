@@ -10,28 +10,23 @@ body {
   padding: 40px;
 }
 
-#cabecalho {
-  position: fixed;
-  width: 100%;
+#titulo {
+  width: 50;
   top: 0;
-  text-align: center;
-  padding: 20px;
-
+  position: block;
 }
 
-#titulo {
+#cabecalho {
   background-color: teal;
-  text-align: center;
+  text-align: left;
   padding: 40px;
 }
 
 #minha_foto {
   border-radius: 35%;
-  width: 300px;
+  width: 200px;
   position: relative;
-  display: block;
-  margin-bottom: 100px;
-  top: 80%;
-
+  display: inline;
+  margin-left: 10px;
 
 }
