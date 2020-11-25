@@ -17,6 +17,7 @@ body {
   font-size: 40px;
   font-family: sans-serif;
   color: white;
+  letter-spacing: 1.6px;
 }
 
 #trybe_logo {
@@ -37,6 +38,7 @@ body {
   padding-left: 600px;
   padding-top: 15px;
   margin-top: 3px;
+  letter-spacing: 1px;
 }
 
 #minha_foto {
@@ -54,16 +56,19 @@ body {
   font-size: 26px;
   font-family: sans-serif;
   margin-left: 80px;
+  letter-spacing: 0.8px;
 }
 
 #aprendizado {
   font-family: sans-serif;
   font-size: 18px;
+  letter-spacing: 0.5;
 }
 
 #passagem {
   font-family: sans-serif;
   font-size: 18px;
+  letter-spacing: 0.5px;
 }
 
 #rodape a {
@@ -81,4 +86,5 @@ body {
   color: white;
   padding: 15px;
   text-align: center;
+  letter-spacing: 0.5px;
 }
