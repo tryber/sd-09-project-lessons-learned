@@ -39,16 +39,16 @@ table a {
   color: inherit;
 }
 
-table a:hover {
-  text-decoration: none;
-}
-
 a:hover {
   color: rgb(15 , 163 , 107);
   text-decoration: underline;
 }
 
 a:visited {
+  text-decoration: none;
+}
+
+table a:hover {
   text-decoration: none;
 }
 
