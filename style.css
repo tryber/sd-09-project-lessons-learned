@@ -22,15 +22,16 @@ body {
 }
 
 #titulo {
-  width: 50;
-  top: 0;
+  width: 10;
   position: block;
+  text-align: center;
 }
 
 #cabecalho {
   background-color: teal;
   text-align: left;
   padding: 40px;
+  top: 0;
 }
 
 #minha_foto {
