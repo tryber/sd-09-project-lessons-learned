@@ -21,6 +21,10 @@ body {
 
 #minha_foto {
   margin-top: 7%;
+  border: red;
+  border-radius: 4%;
+  border-width: 500%;
+  margin-bottom: 6%;
 }
 
 #rodape {
