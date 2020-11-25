@@ -6,15 +6,15 @@
 body {
     background-color: rgb(253 , 251 , 251);
     margin: 0 auto;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     text-align: center;
     color: rgba(0 , 0 , 0 , 0.85);
 }
 
-h2, h3 {
+h2 , h3 {
     margin: 10px auto;
     color: #334f54;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 h2 {
@@ -25,7 +25,7 @@ h3 {
     font-size: 24px;
 }
 
-p, li, th, td {
+p , li , th , td {
     font-size: 20px;
     line-height: 30px;
 }
@@ -45,7 +45,7 @@ li {
     padding: 10px;
 }
 
-#titulo, #nav-bar {
+#titulo , #nav-bar {
     display: inline-block;
 }
 
@@ -53,7 +53,7 @@ li {
     margin-right: 500px;
 }
 
-.nav-links, .lista-conteudo {
+.nav-links , .lista-conteudo {
     display: inline-block;
     margin-right: 40px;
 }
@@ -73,10 +73,10 @@ main {
     margin-right: 50px;
 }
 
-#artigo-aprendizado, #passagem-aprendizado{
+#artigo-aprendizado , #passagem-aprendizado {
     margin: 10px auto;
     padding: 10px;
-    max-width: 70%;    
+    max-width: 70%;
 }
 
 img {
