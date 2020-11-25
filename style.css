@@ -3,6 +3,7 @@
 }
 
 #cabecalho {
+  padding: 8px;
   width: 100%;
   position: fixed;
   background-color: grey;
@@ -10,23 +11,49 @@
   text-align: center;
 }
 
-#titulo {
-  text-align: center;
+#left_side_screen {
+  position: fixed;
+  left: 0;
+  width: 25%;
+  text-align: left;
+}
+
+#minha_foto {
+  width: 100%;
+  margin: 20px auto 0;
+}
+
+#learning {
+  position: fixed;
+  width: 25%;
+  right: 0;
+  background-color: yellow;
+  text-align: left;
+}
+
+h3 {
+  padding: 20px 0;
+}
+
+ol {
+  width: 45%;
+  text-align: center; 
+  padding: 20px 50px;
+}
+
+main {
+  margin-top:80px;
 }
 
 body {
   background-color: rgb(253 , 251 , 251);
 }
 
-#minha_foto {
-  padding-top: 30px;
-  width: 90%;
-  height: auto;
-}
-
 aside {
-  width: 20%;    
-  height: 100%;
+  float: left;
+  min-height: 20%;
+  width: 20%;
+  max-width: 20%;
 }
 
 table {
