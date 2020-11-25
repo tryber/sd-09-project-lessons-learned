@@ -45,14 +45,13 @@ body {
 
 #artigo p {
   border: dotted;
-  padding: 6px
-
+  padding: 6px;
 }
 
 #secao {
   width: 40%;
   float: right;
-  margin-top: -125px
+  margin-top: -125px;
 }
 
 #secao p {
