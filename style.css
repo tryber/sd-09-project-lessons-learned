@@ -36,7 +36,7 @@ main {
   margin-top: 100px;
 }
 
-.perfil img{
+.perfil img {
   width: 175px;
   border-radius: 50%;
   border: 3px solid rgb(76 , 164 , 107);
@@ -67,4 +67,8 @@ h3 {
   right: 0;
   text-align: center;
   margin-bottom: 50px;
+}
+
+footer {
+  bottom: 0;
 }
