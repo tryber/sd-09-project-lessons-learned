@@ -79,6 +79,12 @@ body {
   line-height: 25px;
 }
 
+#rodape a:hover {
+  background-color: white;
+  color: black;
+  font-size: larger;
+}
+
 #rodape a {
   text-decoration: none;
   color: white;
