@@ -22,26 +22,22 @@ body {
 }
 
 #titulo {
-  width: 10;
-  position: block;
   text-align: center;
+  margin-right: 100px;
 }
 
 #cabecalho {
   width: 100%;
   background: teal;
-  text-align: start;
   top: 0;
   position: fixed;
-  padding: -10px;
+
 }
 
 #minha_foto {
-  border-radius: 35%;
-  width: 200px;
-
+  border-radius: 35px;
   display: block;
-  top: 5px;
-  margin: 1px;
+  margin-top: 105px;
+  width: 200px;
 
 }
