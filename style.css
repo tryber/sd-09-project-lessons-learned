@@ -68,7 +68,7 @@ table , th , td {
 
 
 .lado-esquerdo {
-  background-color: #c8c8c8;
+  background-color: rgb(196 , 176 , 176);
   padding: 20px 80px;
   display: inline-block;
   margin-left: 15%;
@@ -76,7 +76,7 @@ table , th , td {
 }
 
 .lado-direito {
-  background-color: #6d6e80;
+  background-color: rgb(109 ,	110 ,	128);
   padding: 20px 80px;
   margin-right: 15%;
   float: right;
