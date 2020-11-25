@@ -21,7 +21,7 @@ body {
   text-align: center;
   border-bottom: 1px gray solid;
   z-index: 15;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -31,7 +31,7 @@ nav {
   width: 185px;
   height: 100%;
   z-index: 9;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 nav a:hover {
@@ -63,7 +63,7 @@ nav ul {
   margin-top: 350px;
 }
 
-li a {
+nav a:hover li a {
   text-decoration: none;
   text-align: left;
   color: white;
@@ -81,6 +81,17 @@ main {
   margin-right: 10px;
 }
 
+article {
+  text-align: justify;
+  margin-bottom: 30px;
+  margin-right: 250px;
+}
+  
+#trybe h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
 #sobre-mim {
   margin-bottom: 20px;
   line-height: 40px;
@@ -92,7 +103,7 @@ main {
 }
 
 #descricao {
-  font-size: 16.5px
+  font-size: 16.5px;
 }
 
 #bh {
@@ -110,7 +121,7 @@ main {
   padding-top: 10px;
   font-size: 15px;
   line-height: 32px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #licoes h2 {
@@ -151,17 +162,6 @@ tr td {
 
 footer , nav {
   border-top: 1px gray solid;
-}
-
-article {
-  text-align: justify;
-  margin-bottom: 30px;
-  margin-right: 250px;
-}
-
-article h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
 }
 
 aside {
