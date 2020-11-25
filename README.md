@@ -147,7 +147,7 @@ Você deve criar um site que com uma série de informações a respeito do que v
 
 - A lista deve possuir 10 itens
 
-### >>>>5 - A página deve possuir uma lista de lições que ainda deseja aprender 
+### >>>>5 - A página deve possuir uma lista de lições que ainda deseja aprender
 
 - A lista **não** deve ser numerada e deve possuir o ID "licoes_a_aprender"
 
