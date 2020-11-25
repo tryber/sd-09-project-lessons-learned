@@ -1,54 +1,67 @@
  body {
   background-color: rgb(253, 251, 251);
 }
-
- #cabecalho {
-  top: 0;
-  
+#cabecalho {
+    position: fixed;
+    top: 0;   
+    background-color:rgb(72,164,107);
+    width: 100%;  
 }
-
-#titulo {
-    text-align: center;
-}
-#nav {
+#minha_foto {
+    width: 300px;
+    margin-top: 10%;
+    border: 10px rgb(204,227,222) solid;
+    float: left;
     
-    float:right;
-    width:20%;
-    margin:5px;
-    border: 5px solid rgb(109, 114, 114);
-}
-
- #minha_foto {
-  width: 300px;
-  float: left;
-}
-
+  } 
 h2 {
-    margin-top: 28%;
-}
-h3{
-    font-size:x-large ;
-}
-
-
-#info {
-    padding: 20px;
-    text-align: center;
-
+    
+    
 }
 #lista1{
-    float: left ;
-    margin-top:25% 
+    float: left;
+    margin-top: 20%;
+   
+}
+h3{
+    
 }
 
 #lista2{
-    float: right;   
-    margin-top:30% ;
-    margin-right: 15%;
+   float: right;
+   margin-top: 21%;
+   size: 20px;
+   font-size: medium;
+}
+#nav {    
+    padding-top:20% ;
+    width:20%;
+    display: inline;
+    
+}
+#nav li{
+    display: inline;
+}
+#info {
+    
+    padding-left: 80px;
+    padding-right: 80px;
+    float: left;
+    
+
 }
 
+
 #transicao {
-    margin-top:60% ;
+    float: left;
+    padding-left: 80px;
+    padding-right: 80px;
     
 }
 
+#rodape{
+    background-color:rgb(72,164,107);
+    width: 100%;
+    height: 100px;   
+    float: left;
+}
