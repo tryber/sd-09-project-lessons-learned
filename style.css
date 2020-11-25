@@ -5,11 +5,18 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: normal;
 }
 
 main {
   margin: 100px;
   padding: 0 100px;
+}
+
+article {
+  line-height: 2rem;
 }
 
 #cabecalho {
