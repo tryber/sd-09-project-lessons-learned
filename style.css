@@ -109,12 +109,18 @@ nav ul li {
 }
 
 #tabela {
-  border: 1px solid red;
+  border: 1px solid rgb(28, 25, 25);
   background-color: rgb(132 , 175 , 132);
   width: 400px;
   height: 100px;
-  /* float: right; */
-  display: block;
-  /* padding-bottom: 5em; */
-  align-items: stretch;
+  float: right;
+  padding-bottom: 4em;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: center;
 }
