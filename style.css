@@ -13,4 +13,10 @@ body {
 #titulo {
     color: white;
     font-weight: bold;
+    margin-left: 30px;
+}
+#minha_foto {
+    width: 300px; 
+    margin-top: 100px;
+    margin-left: 30px;
 }
