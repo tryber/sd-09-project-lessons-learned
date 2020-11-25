@@ -4,6 +4,7 @@ body {
 
 #tabela {
   background-color: teal;
+  margin: 10px;
 
 }
 
@@ -17,7 +18,7 @@ body {
   bottom: 0;
   left: 0;
   background-color: teal;
-  padding: 40px;
+  padding: 2%;
 }
 
 #titulo {
@@ -38,5 +39,6 @@ body {
   position: relative;
   display: block;
   top: 5px;
+  margin: 1px;
 
 }
