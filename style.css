@@ -2,7 +2,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+li a:hover {
   background: rgb(74 , 78 , 105);
   color: rgb(132 , 169 , 140);
 }
@@ -29,7 +29,7 @@ body {
 }
 
 #breve {
-  font-size: 1.2em;
+  font-size: 0.9em;
   font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande,
     Lucida Sans Unicode, Geneva, Verdana, sans-serif;
 }
@@ -79,6 +79,15 @@ a:before {
   pointer-events: none;
 }
 
+.icons {
+  border-radius:150px;
+  width:50px;
+}
+
+.icons:hover {
+    background-color: rgb(57 , 156 , 107);
+}
+
 .lado-esquerdo {
   float: left;
   width: 20%;
@@ -87,6 +96,10 @@ a:before {
 .lado-direito {
   float: left;
   width: 60%;
+}
+
+.contato div {
+  display:inline-block;
 }
 
 #minha_foto {
@@ -106,4 +119,11 @@ a:before {
   list-style-type: none;
   display: block;
   padding: 0 14px;
+}
+
+table {
+  margin: auto;
+  border-top: 3px solid rgb(57 , 156 , 107);
+  border-left: 3px solid rgb(57 , 156 , 107);
+  box-shadow: 5px 5px 15px rgb(57 , 156 , 107);
 }
