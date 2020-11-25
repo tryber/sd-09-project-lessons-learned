@@ -1,8 +1,248 @@
+* {
+  margin: 0;
+}
+
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: rgb(253 , 251 , 251);
+  color: #121416;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;  
+}
+
+#navbar-container {
+  background-color: rgb(255 , 255 , 255);
+  width: 100%;  
+  padding: 1% 0;
+  padding-left: 7%;
+}
+
+#site-navbar li {
+  display: inline;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+  color: #444;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+a:hover {
+  color: rgb(15 , 163 , 107) !important;
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#logo {
+  top: 15%;
+  left: 2%;
+  background-color: rgb(255 , 255 , 255);
+  width: 5%;
+  position: absolute;
+  padding: 5px 5px 0px 5px;
+  margin: 0;
+  min-width: 40px;
+}
+
+#logo img {
+  width: 100%;
+  padding: 0;
+  margin: 0;  
+}
+
+#titulo {
+  padding-left: 9%;
+  margin: 1%;
+  font-size: 3em;
 }
 
 #cabecalho {
+  background-color: rgb(15 , 163 , 107);
   position: fixed;
   top: 0;
+  width: 100%;
+  color: rgb(253 , 251 , 251);
+  z-index: 1;
+}
+
+header {
+  margin-top: 5%;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-image: url("https://blog.betrybe.com/wp-content/uploads/2020/03/fot-trybe-texto-lucas-scaled-1-1920x1024.jpg");
+}
+
+header .container {
+  height: 100%;
+  background-color: rgba(49, 49, 67, 0.6)
+}
+
+#titulo-texto {
+  color: rgb(253 , 251 , 251);
+  font-weight: 700;
+  font-size: 4.5em;
+  line-height: 1;
+}
+
+#banner {
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  margin: 3% 7%;
+}
+
+#section-name {
+  color: white;
+  margin-bottom: 100px;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+#section-name div {
+  display: inline-block;
+}
+
+#section-name #name {
+  padding-left: 8px;
+  color: rgb(184, 182, 182);
+}
+
+#section-name #name a {
+  padding-left: 5px;
+  color: rgb(184, 182, 182);
+}
+
+#section-name #name a:hover {
+  color: white !important;
+}
+
+#section-name #capital {
+  font-size: 3em;
+  font-weight: 400;
+  background-color: rgb(201, 245, 5);
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px 25px 20px;
+}
+
+#text-info {
+  margin-top: 40px;
+  font-size: 0.9em;
+  font-weight: 500;
+  word-spacing: 0.1em;
+  color: rgb(255, 254, 254);
+}
+
+#text-info a {
+  color: rgb(255, 254, 254);
+}
+
+.article-container {
+  padding: 5% 8%;
+  overflow: auto;
+}
+
+article {
+  width: 45%;
+  line-height: 1.5em;
+  padding: 2%;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+address {
+  width: 45%;
+  margin: 1em 0;
+  background-color: rgb(226 , 226 , 226);
+  padding: 0 2em;
+  padding-bottom: 1em;
+  line-height: 1.5em;
+  font-size: 0.8em;
+  font-style: normal;
+}
+
+#author-title {
+  font-size: 1.5em;
+}
+
+#author-name {
+  font-size: 1.3em;
+  margin: 2em 0.4em 0.4em 0.4em;
+}
+
+#author-description {
+  padding: 0 2em;
+  display: block;
+}
+
+.article-title {
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+h4 {
+  margin: 1em 0;
+}
+
+aside {
+  color: white;
+  background-color: rgb(15 , 163 , 107);
+  margin: 3em 0 2em 0;
+  padding: 2em;
+  box-shadow: -20px -15px rgba(169, 169, 169, 0.3);
+}
+
+#minha_foto {
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1em;
+}
+
+footer {
+  width: 100%;
+  font-size: 0.8em;
+  padding: 1em;
+  text-align: center;
+  font-style: italic;
+  background-color: rgb(15 , 163 , 107);
+  position: absolute;
+  color: white;
+}
+
+table {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 1.3em;
+  width: 100%;
+}
+
+table i {
+  font-size: 1.3em;
+}
+
+table a {
+  color: inherit;
+}
+
+td a:hover {
+  text-decoration: none;
 }
