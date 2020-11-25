@@ -8,7 +8,7 @@ body {
   color: rgb(18 , 20 , 22);
 }
 
-.container {
+.container, #logo img {
   position: relative;
   width: 100%;
   padding: 0;
@@ -16,27 +16,23 @@ body {
 }
 
 #navbar-container {
-  background-color: white;
   width: 100%;
+  background-color: white;
   padding: 1% 0;
   padding-left: 7%;
 }
 
 #site-navbar li {
   display: inline;
+  color: rgb(68 , 68 , 68);
   font-weight: 500;
   font-size: 14px;
   padding: 10px;
-  color: rgb(68 , 68 , 68);
 }
 
 a {
-  text-decoration: none;
   color: rgb(68 , 68 , 68);
-}
-
-table a {
-  color: inherit;
+  text-decoration: none;
 }
 
 a:hover {
@@ -49,43 +45,37 @@ a:visited, table a:hover {
 }
 
 #logo {
+  position: absolute;
   top: 15%;
   left: 2%;
-  background-color: white;
   width: 5%;
-  position: absolute;
-  padding: 5px 5px 0;
-  margin: 0;
   min-width: 40px;
-}
-
-#logo img {
-  width: 100%;
-  padding: 0;
+  background-color: white;
+  padding: 5px 5px 0;
   margin: 0;
 }
 
 #titulo {
+  font-size: 3em;
   padding-left: 9%;
   margin: 1%;
-  font-size: 3em;
 }
 
 #cabecalho {
-  background-color: rgb(15 , 163 , 107);
   position: fixed;
   top: 0;
   width: 100%;
-  color: rgb(253 , 251 , 251);
   z-index: 1;
+  background-color: rgb(15 , 163 , 107);
+  color: rgb(253 , 251 , 251);
 }
 
 header {
-  margin-top: 5%;
   width: 100%;
   height: 500px;
-  background-size: cover;
   background-image: url('https://blog.betrybe.com/wp-content/uploads/2020/03/fot-trybe-texto-lucas-scaled-1-1920x1024.jpg');
+  background-size: cover;
+  margin-top: 5%;
 }
 
 header .container {
@@ -101,9 +91,9 @@ header .container {
 }
 
 #banner {
-  width: 80%;
   position: absolute;
   bottom: 0;
+  width: 80%;
   margin: 3% 7%;
 }
 
@@ -119,43 +109,39 @@ header .container {
 }
 
 #section-name #name {
+  color: rgb(184 , 182 , 182);
   padding-left: 8px;
-  color: rgb(184 , 182 , 182);
 }
 
-#text-info a {
-  color: rgb(255 , 254 , 254);
-}
-
-#section-name #name a {
-  padding-left: 5px;
-  color: rgb(184 , 182 , 182);
-}
-
-#section-name #name a:hover {
+#text-info a, #section-name #name a:hover {
   color: white;
 }
 
+#section-name #name a {
+  color: rgb(184 , 182 , 182);
+  padding-left: 5px;
+}
+
 #section-name #capital {
-  font-size: 3em;
-  font-weight: 400;
-  background-color: rgb(201 , 245 , 5);
   width: 40px;
   height: 40px;
+  background-color: rgb(201 , 245 , 5);
+  font-size: 3em;
+  font-weight: 400;
   padding: 10px 10px 25px 20px;
 }
 
 #text-info {
-  margin-top: 40px;
+  color: white;
   font-size: 0.9em;
   font-weight: 500;
   word-spacing: 0.1em;
-  color: rgb(255 , 254 , 254);
+  margin-top: 40px;
 }
 
 .article-container {
-  padding: 5% 8%;
   overflow: auto;
+  padding: 5% 8%;
 }
 
 article {
@@ -176,11 +162,11 @@ address {
   width: 45%;
   margin: 1em 0;
   background-color: rgb(226 , 226 , 226);
+  font-style: normal;
+  font-size: 0.8em;
+  line-height: 1.5em;
   padding: 0 2em;
   padding-bottom: 1em;
-  line-height: 1.5em;
-  font-size: 0.8em;
-  font-style: normal;
 }
 
 #author-title {
@@ -194,7 +180,6 @@ address {
 
 #author-description {
   padding: 0 2em;
-  display: block;
 }
 
 .article-title {
@@ -207,36 +192,35 @@ h4 {
 }
 
 aside {
-  color: white;
   background-color: rgb(15 , 163 , 107);
+  color: white;
   margin: 3em 0 2em;
   padding: 2em;
   box-shadow: -20px -15px rgba(169 , 169 , 169 , 0.3);
 }
 
 #minha_foto {
+  float: left;
   width: 100px;
   border-radius: 50%;
-  float: left;
   margin-right: 1em;
 }
 
 footer {
   width: 100%;
+  background-color: rgb(15 , 163 , 107);
+  text-align: center;
+  color: white;
+  font-style: italic;
   font-size: 0.8em;
   padding: 1em;
-  text-align: center;
-  font-style: italic;
-  background-color: rgb(15 , 163 , 107);
-  position: absolute;
-  color: white;
 }
 
 table {
-  margin-top: 2em;
+  width: 100%;
   text-align: center;
   font-size: 1.3em;
-  width: 100%;
+  margin-top: 2em;
 }
 
 table i {
