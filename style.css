@@ -2,9 +2,10 @@ body {
   background-color: rgb(253 , 251 , 251);
   margin-top: 150px;
   font-family: Ubuntu, sans-serif;
+  line-height: 1.5;
 }
 
-table, th {
+table , th {
   border: 1px solid black;
 }
 
@@ -83,7 +84,7 @@ td {
 }
 
 .lado-direito {
-  width: 20%;
+  width: 30%;
   margin: 20px;
   text-align: center;
   border: 1px dotted rgb(65 , 122 , 73);
