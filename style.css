@@ -18,8 +18,7 @@ body{
 
 #perfil{ 
   overflow: auto;
-  padding-right: 150px;
-  padding-bottom: 100px; 
+  padding-bottom: 200px;
 }
 
 .fundos_secoes{ 
@@ -36,17 +35,17 @@ body{
 #artigo{ 
   text-align: center;
   overflow: auto;
-  float: left;
+  display: inline-block;
   height: 120px;
-  max-width: 800px; 
+  width: 50%;
 }
 
 #aside_breve_passagem{ 
   text-align: center;
-  float: right;
+  display: inline-block;
   overflow: auto;
   height: 120px;
-  max-width: 250px; 
+  width: 30%;
 }
 
 .listas{ 
@@ -59,7 +58,7 @@ body{
 }
 
 #conteudo{ 
-  position: relative;
+  padding-top: 100px;
   top: 4.5em; 
 }
 
@@ -74,29 +73,21 @@ body{
 }
 
 #minha_foto{ 
-  height: 200px;
+  height: 10em;
   object-fit: cover;
-  width: 200px;
+  width: 10em;
   border-radius: 100%;
   background-color: #fca311;
   padding: 2px;
-  top: 1em;
   left: 5%;
-  position: relative; 
 }
 
 #licoes_aprendidas{ 
   border-top: 1px solid #fca311;
-  left: 40px;
-  position: relative;
-  top: 2em; 
 }
 
 #licoes_a_aprender{ 
   border-top: 1px solid #fca311;
-  left: 40px;
-  position: relative;
-  top: 4em; 
 }
 
 .cartao_apresentacao{ 
