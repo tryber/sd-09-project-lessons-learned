@@ -35,27 +35,25 @@ table , th , td {
 }
 
 #article {
-  padding: 20px 10px 20px 10px;
+  padding: 20px 10px;
   background-color: bisque;
   text-align: center;
   margin: 20px 300px;
-  text-align: center;
   width: 40%;
 }
 
 #aside {
-  padding: 20px 10px 20px 10px;
+  padding: 20px 10px;
   background-color: bisque;
   margin: 20px 670px;
   text-align: center;
   width: 20%;
-  /* width: 40%; */
 }
 
 #cabecalho {
   background-color: royalblue;
   text-align: center;
-  color: #fff;
+  color: rgb(253 , 251 , 251);
   top: 0;
 }
 
@@ -68,22 +66,18 @@ table , th , td {
   padding: 100px 100px 0;
 }
 
-.container-aprendizados {
-
-}
 
 .lado-esquerdo {
-  background-color: #C8C8C8;
-  padding: 20px 80px 20px;
+  background-color: #c8c8c8;
+  padding: 20px 80px;
   display: inline-block;
   margin-left: 15%;
   width: 20%;
-  
 }
 
 .lado-direito {
-  background-color: #6D6E80;
-  padding: 20px 80px 20px;
+  background-color: #6d6e80;
+  padding: 20px 80px;
   margin-right: 15%;
   float: right;
   width: 20%;
