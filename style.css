@@ -1,143 +1,143 @@
-    body {
-        background-color: rgb(253, 251, 251);
-        font-family: sans-serif;
-    }
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
+}
 
-    table,tr, th, td {
-        border: 2px solid black;
-        margin-left: 0%;
-    }
+table,tr, th, td {
+    border: 2px solid black;
+    margin-left: 0%;
+}
 
-    p{
-        text-align: justify;
-    }
+p{
+    text-align: justify;
+}
 
-    .icone {
-        width: 50px;
-    }
+.icone {
+    width: 50px;
+}
 
-    .url_icone {
-        text-align: center;
-        color: black;
-        font-weight: bolder;
-    }
+.url_icone {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
 
-    #cabecalho {
-        margin: auto;
-        background: rgb(15,163,107);
-        position: fixed;
-        top: 0px;
-        right: 0px;
-        left: 0px;
-    }
+#cabecalho {
+    margin: auto;
+    background: rgb(15,163,107);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
 
-    #menu li {
-        display: inline-block;
-        padding-left: 15px;
-        padding-right: 10px;
-        font-weight: bolder;
-        color: rgb(253, 251, 251);
-    }
+#menu li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-weight: bolder;
+    color: rgb(253, 251, 251);
+}
 
-    #menu a {
-        color: rgb(253, 251, 251);
-    }
+#menu a {
+    color: rgb(253, 251, 251);
+}
 
-    #titulo {
-        color: rgb(253, 251, 251);
-        padding-left: 30px;
-    }
+#titulo {
+    color: rgb(253, 251, 251);
+    padding-left: 30px;
+}
 
-    #pagina-principal {
-        margin: auto;
-    }
+#pagina-principal {
+    margin: auto;
+}
 
-    #minha_foto {
-        border-radius: 50%;
-        width: 300px;
-        margin-left: 20%;
-        margin-top: 180px;
-    }
+#minha_foto {
+    border-radius: 50%;
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 180px;
+}
 
-    #sobre {
-        display: inline-block;
-        width: auto;
-        margin-left: 80px;
-        margin-bottom: 20px;
-    }
+#sobre {
+    display: inline-block;
+    width: auto;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
 
-    #github-icone {
-        display: inline-block;
-        margin-top: 20px;
-        margin-left: 100px;
-    }
+#github-icone {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+}
 
-    #linkedin-icone {
-        float: right;
-        margin-top: 20px;
-        margin-right: 150px;
-    }
+#linkedin-icone {
+    float: right;
+    margin-top: 20px;
+    margin-right: 150px;
+}
 
-    #listas {
-        font-size:14px;
-        line-height: 13px;
-        font-weight: bolder;
-        margin-top: 120px;
-    }
+#listas {
+    font-size:14px;
+    line-height: 13px;
+    font-weight: bolder;
+    margin-top: 120px;
+}
 
-    #listas h2 {
-        margin-left: 42%;
-    }
+#listas h2 {
+    margin-left: 42%;
+}
 
-    #titulo_licoes_aprendidas {
-        margin-left: 25%;
-        margin-top: 2%;
-        display: inline-block;
-    }
+#titulo_licoes_aprendidas {
+    margin-left: 25%;
+    margin-top: 2%;
+    display: inline-block;
+}
 
-    #titulo_licoes_a_aprender {
-        float: right;
-        margin-top: 2%;
-        margin-right: 31%;
-    }
+#titulo_licoes_a_aprender {
+    float: right;
+    margin-top: 2%;
+    margin-right: 31%;
+}
 
-    #licoes_aprendidas {
-        display: inline-block;
-        margin-left: 25%;
-        padding: 30px;
-    }
+#licoes_aprendidas {
+    display: inline-block;
+    margin-left: 25%;
+    padding: 30px;
+}
 
-    #licoes_a_aprender {
-        float: right;
-        margin-right: 30%;
-        padding: 30px;
-    }
-    .lado-esquerdo {
-        width: 500px;
-        display: inline-block;
-        margin-left: 10%;
-        margin-top: 120px;
-    }
-    .lado-direito {
-        float: right;
-        width: 400px;
-        margin-right: 8%;
-        margin-top: 120px;
-    }
-    #lado-direito-tabela {
-        width: 500px;
-        margin: 10px 10% 100px 10%;
-    }
-    #rodape {
-        background: rgb(15,163,107);
-        margin: auto;
-        color: rgb(253, 251, 251);
-        position: fixed;
-        bottom: 0px;
-        right: 0px;
-        left: 0px;
-        padding-left: 40px;
-    }
-    #rodape a {
-        color: rgb(253, 251, 251);
-    }
+#licoes_a_aprender {
+    float: right;
+    margin-right: 30%;
+    padding: 30px;
+}
+.lado-esquerdo {
+    width: 500px;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 120px;
+}
+.lado-direito {
+    float: right;
+    width: 400px;
+    margin-right: 8%;
+    margin-top: 120px;
+}
+#lado-direito-tabela {
+    width: 500px;
+    margin: 10px 10% 100px 10%;
+}
+#rodape {
+    background: rgb(15,163,107);
+    margin: auto;
+    color: rgb(253, 251, 251);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding-left: 40px;
+}
+#rodape a {
+    color: rgb(253, 251, 251);
+}
