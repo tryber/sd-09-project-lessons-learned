@@ -88,12 +88,8 @@ p {
   width: 24%;
 }
 
-table , td {
+main table , td {
   border: 1px solid rgb(15 , 163 , 107);
-}
-
-table {
-  width: 40%;
 }
 
 td {
