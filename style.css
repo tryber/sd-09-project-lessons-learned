@@ -36,6 +36,7 @@ header h3 {
 #licoes_aprendidas{
     max-width: 50%;
     display: inline;
+    font-style: normal;
 }
 #container-lista-licoes_aprendidas{
     max-width: 300px;
