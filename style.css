@@ -60,14 +60,16 @@ main{margin-top: 160px;}
     margin-right: auto;
     padding-top: 25px;
 }
-.ladoesquerdo{
-    display: inline-block;
+.lado-esquerdo{
+    
     width: 70%;
     margin-right: 15px;
     vertical-align: top;
-}
-.ladodireito{
     display: inline-block;
+}
+.lado-direito{
+    
     width: 20%;
     margin-left: 15px;
+   display: inline-block;
 }
