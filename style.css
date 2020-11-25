@@ -1,14 +1,14 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
     font-family: sans-serif;
 }
 
-table,tr, th, td {
+table, tr, th, td {
     border: 2px solid black;
     margin-left: 0%;
 }
 
-p{
+p {
     text-align: justify;
 }
 
@@ -24,7 +24,7 @@ p{
 
 #cabecalho {
     margin: auto;
-    background: rgb(15, 163, 107);
+    background: rgb(15 , 163 , 107);
     position: fixed;
     top: 0px;
     right: 0px;
@@ -36,15 +36,15 @@ p{
     padding-left: 15px;
     padding-right: 10px;
     font-weight: 600;
-    color: rgb(253, 251, 251);
+    color: rgb(253 , 251 , 251);
 }
 
 #menu a {
-    color: rgb(253, 251, 251);
+    color: rgb(253 , 251 , 251);
 }
 
 #titulo {
-    color: rgb(253, 251, 251);
+    color: rgb(253 , 251 , 251);
     padding-left: 30px;
 }
 
@@ -129,13 +129,13 @@ p{
 
 #lado-direito-tabela {
     width: 500px;
-    margin: 10px 10% 100px 10%;
+    margin: 10px 10% 100px;
 }
 
 #rodape {
-    background: rgb(15, 163, 107);
+    background: rgb(15 , 163 , 107);
     margin: auto;
-    color: rgb(253, 251, 251);
+    color: rgb(253 , 251, 251);
     position: fixed;
     bottom: 0px;
     right: 0px;
@@ -144,5 +144,5 @@ p{
 }
 
 #rodape a {
-    color: rgb(253, 251, 251);
+    color: rgb(253 , 251 , 251);
 }
