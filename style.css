@@ -83,3 +83,7 @@ footer {
     font-family: serif;
     line-height: 2rem;
 }
+
+a {
+    color: white;
+}
