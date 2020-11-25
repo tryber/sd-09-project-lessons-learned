@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: verdana, sans-serif;
+  font-family: 'Nunito', verdana, sans-serif;
   margin: 0;
 }
 
@@ -9,8 +9,26 @@ body {
   width: 100%;
   top: 0;
   border-bottom: 5px solid rgb(235 , 94 , 40);
-  background-color: rgb(37, 36, 34);
-  text-shadow: 1px 1px 2px black;
+  background-color: rgb(37 , 36 , 34);
+  text-shadow: 3px 3px 7px black;
+}
+
+#titulo {
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-size: 45px;
+  color: rgb(204 , 197 , 185);
+}
+
+#nav-link {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 20px;   
+}
+
+#icon {
+  font-size: 30px;
 }
 
 #conteudo {
@@ -30,7 +48,7 @@ body {
 #rodape {
   border-top: 5px solid rgb(235 , 94 , 40);
   height: 100%;
-  background-color: rgb(37, 36, 34);
+  background-color: rgb(37 , 36 , 34);
   padding: 10px;
   color: rgb(204 , 197 , 185);
   font-weight: 800;
@@ -40,4 +58,11 @@ body {
 .highlight-word {
   color: rgb(235 , 94 , 40);
   font-weight: 800;
+}
+
+.link {
+  margin-right: 75px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(204 , 197 , 185);
 }
