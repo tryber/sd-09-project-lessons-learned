@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 18px;
 }
 
@@ -67,12 +67,12 @@ img {
   line-height: 30px;
 }
 
-/*#learned_lessons , #lessons_to_learn {
+/* #learned_lessons , #lessons_to_learn {
   display: inline-block;
   padding: 10px;
   margin-right: 20px;
   line-height: 25px;
-}*/
+} */
 
 #first-project {
   line-height: 30px;
@@ -95,6 +95,14 @@ img {
   color: red;
   background-color: rgb(255 , 208 , 208);
   padding: 10px;
+}
+
+#first-project p {
+  margin-bottom: 50px;
+}
+
+#footer {
+  margin-top: 80px;
 }
 
 .black {
