@@ -19,6 +19,7 @@ main {
 #titulo {
   color: crimson;
   text-align: center;
+  font-family: acme;
   font-size: 50px;
 }
 #menu {
@@ -59,20 +60,17 @@ main {
 }
 .artigo {
   background-color: yellow;
-  width: fit-content;
   margin: 10px;
   padding: 5px;;
 }
 .sessao {
   background-color: pink;
   margin: 10px;
-  padding: 5px;
-  width: fit-content;       
+  padding: 5px;      
 }
 #texto-principal {
   text-align: justify;
-  width: 1000px;
-  height: 200px;
+  font-family: 'Noto Sans';
 }
 #minha_foto {
   width: 200px;
@@ -113,6 +111,7 @@ main {
   width: fit-content;
   margin: 10px;
   padding: 5px;
+  font-family: 'Noto Sans';
 }
 #rodape {
   width: auto;
