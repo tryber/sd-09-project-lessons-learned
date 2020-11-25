@@ -15,14 +15,14 @@ body {
   position: fixed;
   z-index: 1;
   padding: 20px;
-  background-color: #0fa5a5;
+  background-color: rgb(15 , 165 , 165);
   border-bottom: 1px solid black;
 }
 
 #titulo {
   letter-spacing: 2px;
   font-family: "Roboto Slab", serif;
-  color:  rgb(253 , 251 , 251);
+  color: rgb(253 , 251 , 251);
 }
 
 nav {
@@ -37,9 +37,9 @@ nav a {
   text-decoration: none;
   margin-left: 30px;
   font-size: 20px;
-  color:  rgb(253,  251 ,  251);
-  background-color: rgb(15 , 163 ,  163);
-  border: 1px solid rgb(253 , 251 ,  251);
+  color: rgb(253, 251 , 251);
+  background-color: rgb(15 , 163 , 163);
+  border: 1px solid rgb(253 , 251 , 251);
   border-radius: 30px;
   padding: 10px;
 }
@@ -79,7 +79,7 @@ flex-direction: row;
   align-items: center;
 }
 
-article  {
+article {
   margin-top: 60px;
   text-align: center;
   margin-left: 10px;
