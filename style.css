@@ -7,9 +7,10 @@ body {
 table, th {
   border: 1px solid black;
 }
-td{
-  border: 1px solid rgb(175, 175, 175);
-  background-color: rgb(118, 177, 126);
+
+td {
+  border: 1px solid rgb(175 , 175 , 175);
+  background-color: rgb(118 , 177 , 126);
 }
 
 #aside {
@@ -19,7 +20,7 @@ td{
 
 #cabecalho {
   position: fixed;
-  background-color: rgb(65, 122, 73);
+  background-color: rgb(65 , 122 , 73);
   top: 0;
   width: 100%;
   text-align: right;
@@ -47,11 +48,11 @@ td{
 #rodape {
   text-align: center;
   font-style: italic;
-  color: rgb(65, 122, 73);
+  color: rgb(65 , 122 , 73);
 }
 
-#soft-skills{
-  font-weight: bold;
+#soft-skills {
+  font-weight: 700;
   color: rgb(65 , 122 , 73);
   font-style: italic;
 }
@@ -61,15 +62,16 @@ td{
   margin-right: 30px;
 }
 
-#table{
+#table {
   width: 30%;
   align-items: center;
 }
 
-.align-main{
+.align-main {
   display: inline-block;
   margin-top: 150px;
 }
+
 .lado-esquerdo {
   width: 20%;
   margin: 20px;
@@ -90,7 +92,7 @@ td{
   display: inline-block;
 }
 
-.meio{
+.meio {
   width: 20%;
   margin: 20px;
   border: 1px dotted rgb(65 , 122 , 73);
