@@ -1,18 +1,43 @@
 body {
     background-color:rgb(253 , 251 , 251);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
     
 }
 #cabecalho {
     background-color: #6A6D4A;
     color: black;
     border-bottom: black;
-    padding: 22px;
+    padding: 10px;
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 1;
+    text-align: center;
+    min-height: 15%;
+    
 }
 #minha_foto {
     z-index: 2;
-    margin-top: 150px;
+    position: fixed;
+    border-radius: 50%;
+    margin: 20px 20px;
+    border: 4px solid lavender  ;
+    width: 13%;
+
+    
+
+}
+main {
+    background-color: #F5EDE0;
+    padding-top: 270px;
+    
+}
+
+#titulo {
+    font-size: 45px;
+}
+
+section {
+    display: inline-block;
 }
