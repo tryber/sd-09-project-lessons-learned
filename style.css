@@ -1,6 +1,5 @@
 * {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #cabecalho {
@@ -60,7 +59,7 @@ body {
   margin-left: 3%;
   position: fixed;
   bottom: 10px;
-  background-color: rgb(132, 175, 132);
+  background-color: rgb(132 , 175 , 132);
 }
 
 nav {

@@ -125,11 +125,11 @@ Você deve criar um site que com uma série de informações a respeito do que v
 
 ## Requisitos do projeto
 
-### 1 - O corpo da página deve possuir uma cor de fundo específica
+### >>>>1 - O corpo da página deve possuir uma cor de fundo específica
 
 - Possuir cor de fundo: rgb(253, 251, 251)
 
-### 2 - Seu site deve possuir uma barra superior com um título
+### >>>>2 - Seu site deve possuir uma barra superior com um título
 
 - A barra deve possuir o ID "cabecalho"
 
@@ -137,31 +137,31 @@ Você deve criar um site que com uma série de informações a respeito do que v
 
 - O título deve estar dentro da barra e possuir o ID "titulo", além de ser uma tag `h1`
 
-### 3 - A página deve possuir uma foto sua
+### >>>>3 - A página deve possuir uma foto sua
 
 - A foto deve ser inserida utilizando uma tag `img` com o ID "minha_foto"
 
-### 4 - A página deve possuir uma lista de lições aprendidas
+### >>>>4 - A página deve possuir uma lista de lições aprendidas
 
 - A lista deve ser numerada e possuir o ID "licoes_aprendidas"
 
 - A lista deve possuir 10 itens
 
-### 5 - A página deve possuir uma lista de lições que ainda deseja aprender
+### >>>>5 - A página deve possuir uma lista de lições que ainda deseja aprender 
 
 - A lista **não** deve ser numerada e deve possuir o ID "licoes_a_aprender"
 
 - A lista deve possuir 10 itens
 
-### 6 - A página deve possuir um rodapé
+### >>>>>6 - A página deve possuir um rodapé
 
 - O rodapé deve utilizar a tag `footer` e possuir o ID "rodape"
 
-### 7 - A página deve possuir pelo menos um link externo
+### >>>>>>7 - A página deve possuir pelo menos um link externo
 
 - A configuração desse link deve ser feita para abrir em uma nova aba do navegador
 
-### 8 - Crie um artigo sobre seu aprendizado
+### >8 - Crie um artigo sobre seu aprendizado
 
 - A `tag` `article` devem ser utilizadas
 
