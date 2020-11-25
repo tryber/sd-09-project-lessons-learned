@@ -18,18 +18,22 @@ main {
   min-width: 500px;
 }
 
-.article{
+.article {
   margin: 1em 10px;
 }
 
 .aside {
+  color: rgb(71 , 71 , 71);
+  font-family: serif;
+  font-size: 15px;
   float: right;
-} 
+  letter-spacing: 1px;
+}
 
 span {
   font-family: fantasy;
   font-size: 1.3em;
-  font-weight: bold;
+  font-weight: 800;
   color: crimson;
   letter-spacing: 2em;
   text-transform: uppercase;
