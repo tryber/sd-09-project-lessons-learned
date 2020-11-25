@@ -47,6 +47,6 @@ h1 {
   margin-top: 150px;
 }
 
-article, section {
-  display: inline-block;
+article section {
+  display: inline;
 }
