@@ -5,6 +5,13 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 1366px;
+  background-color: #0fa36b;
+}
+
+#titulo {
+  color: #ffffff;
+  text-align: center;
 }
 
 #minha_foto {
