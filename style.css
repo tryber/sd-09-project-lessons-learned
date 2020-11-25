@@ -7,20 +7,18 @@ body{
     top:0;
     width: 1366px;
     height: 160px;
-    background-image: url(https://lh3.googleusercontent.com/eNK4w8Qu02-rKY3pdb0NmD2WJLuC_LE7tntdkrDBCbF040PiwHUdqYNMCLt5Ypj_Gpv4lG8=w16383);
-    background-position: 332px;
-    background-size: 70%;
+    background-color: rgb(15,162,107);
     color: white; 
 }
 #cabecalho h1{
     font-size: 50px;
-    margin-left: 224px;
+    margin-left: 550px;
     margin-top: 49px
 }
 
 #apresentacao{
     margin-top: -139px;
-    margin-left: 30px;
+    margin-left: 90px;
     text-align: center;
     width: 168px;
 }
@@ -72,4 +70,14 @@ main{margin-top: 160px;}
     width: 20%;
     margin-left: 15px;
    display: inline-block;
+}
+.icones{
+    width: 50px;
+    border-radius: 50px;
+    margin: 3x;
+}
+#conteiner-icones{
+    width:50px;
+    margin-top: -128px;
+    margin-left: 218px;
 }
