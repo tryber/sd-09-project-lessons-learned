@@ -6,7 +6,7 @@
 }
 
 html {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: Share Tech Mono, monospace;
   font-size: 12px;
   display: flex;
   justify-content: center;
@@ -20,9 +20,10 @@ body {
 /* CABEÇALHO */
 header {
   top: 0px;
-  background-color: rgb(3,3,3);
+  background-color: rgb(3, 3, 3);
   color: aliceblue;
 }
+
 
 header h1 {
   font-size: 50px;
@@ -83,7 +84,7 @@ nav {
   font-size: 1.7rem;
 }
 
-#foto_aluno {
+#minha_foto {
   width: 200px;
   height: auto;
   border-radius: 50%;
@@ -121,17 +122,17 @@ figcaption {
 
 #trybe_aprendizado {
   position: absolute;
-  top: 420px;
+  top: 450px;
   left: 900px;
-  width: 35%;
+  width: 18%;
   font-size: 1.3rem;
 }
 
 #estudante_hoje {
   position: absolute;
-  top: 570px;
-  left: 900px;
-  width: 35%;
+  top: 450px;
+  left: 1300px;
+  width: 18%;
   font-size: 1.3rem;
 }
 
@@ -139,7 +140,7 @@ table {
   margin-top: 30px;
   margin-right: 20px;
   margin-bottom: 10px;
-  border: 2px solid rgb(3,3,3);  
+  border: 2px solid rgb(3,3,3);
   font-size: 1.6rem;
 }
 
