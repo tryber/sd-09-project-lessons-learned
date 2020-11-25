@@ -1,102 +1,102 @@
 body{
-  background-color: rgb(253 , 251 , 251);
-  font-family: Montserrat, sans-serif;
-  font-size: 14px;
-  margin: 0;
-  color: black;
-  line-height: 20px;
+ background-color: rgb(253 , 251 , 251);
+ font-family: Montserrat, sans-serif;
+ font-size: 14px;
+ margin: 0;
+ color: black;
+ line-height: 20px;
 }
 #cabecalho{
-  position: fixed;
-  top: 0;
-  height: 6em;
-  background-color: #fca311;
-  width: 100%;
-  z-index: 2;
+ position: fixed;
+ top: 0;
+ height: 6em;
+ background-color: #fca311;
+ width: 100%;
+ z-index: 2;
 }
 #perfil{
-  overflow: auto;
-  padding-bottom: 200px;
+ overflow: auto;
+ padding-bottom: 200px;
 }
 .fundos_secoes{
-  background-color: #14213d;
-  color: white;
-  padding: 50px;
+ background-color: #14213d;
+ color: white;
+ padding: 50px;
 }
 .exceto_secoes{
-  margin: 15px;
-  border: 1px solid #fca311;
+ margin: 15px;
+ border: 1px solid #fca311;
 }
 #artigo{
-  text-align: center;
-  overflow: auto;
-  display: inline-block;
-  height: 120px;
-  width: 50%;
+ text-align: center;
+ overflow: auto;
+ display: inline-block;
+ height: 120px;
+ width: 50%;
 }
 #aside_breve_passagem{
-  text-align: center;
-  display: inline-block;
-  overflow: auto;
-  height: 120px;
-  width: 30%;
+ text-align: center;
+ display: inline-block;
+ overflow: auto;
+ height: 120px;
+ width: 30%;
 }
 .listas{
-  text-decoration: none;
-  list-style: none;
+ text-decoration: none;
+ list-style: none;
 }
 .listas li{
-  display: inline-block;
+ display: inline-block;
 }
 #conteudo{
-  padding-top: 100px;
-  top: 4.5em;
+ padding-top: 100px;
+ top: 4.5em;
 }
 #navegacao{
-  background-color: #fca311;
-  text-align: center;
+ background-color: #fca311;
+ text-align: center;
 }
 #titulo{
-  text-align: start;
-  margin-left: 3em;
+ text-align: start;
+ margin-left: 3em;
 }
 #minha_foto{
-  height: 10em;
-  object-fit: cover;
-  width: 10em;
-  border-radius: 100%;
-  background-color: #fca311;
-  padding: 2px;
-  left: 5%;
+ height: 10em;
+ object-fit: cover;
+ width: 10em;
+ border-radius: 100%;
+ background-color: #fca311;
+ padding: 2px;
+ left: 5%;
 }
 #licoes_aprendidas{
-  border-top: 1px solid #fca311;
+ border-top: 1px solid #fca311;
 }
 #licoes_a_aprender{
-  border-top: 1px solid #fca311;
+ border-top: 1px solid #fca311;
 }
 .cartao_apresentacao{
-  background-color: #e5e5e5;
-  color: #14213d;
-  display: inline-block;
-  width: 500px;
-  overflow: auto;
+ background-color: #e5e5e5;
+ color: #14213d;
+ display: inline-block;
+ width: 500px;
+ overflow: auto;
 }
 #rodape{
-  clear: both;
-  text-align: center;
-  background-color: #fca311;
-  position: relative;
-  top: 5em;
+ clear: both;
+ text-align: center;
+ background-color: #fca311;
+ position: relative;
+ top: 5em;
 }
 .links_logos{
-  object-fit: cover;
-  padding: 10px;
+ object-fit: cover;
+ padding: 10px;
 }
 .style_link{
-  text-decoration: #fca311;
-  color: #fca311;
+ text-decoration: #fca311;
+ color: #fca311;
 }
 .style_link:hover{
-  color: #e5e5e5;
+ color: #e5e5e5;
 }
