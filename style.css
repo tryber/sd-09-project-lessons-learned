@@ -8,7 +8,7 @@ body {
   left: 480px;
   position: fixed;
   width: 945px;
-  background-color: #DDE2F0;
+  background-color: #dde2f0;
   padding-top: 150px;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .box {
-  background-color: #E3F6FC;
+  background-color: #e3f6fc;
   width: 50%;
   margin: auto;
   clear: both;
@@ -47,25 +47,25 @@ body {
 #secao-skills {
   position: relative;
   top: 100px;
-  background-color: #E3F6FC;
+  background-color: #e3f6fc;
   padding-bottom: 10px;
 }
 
 .skills {
   display: inline-block;
-  color: rgb(11, 26, 70);
+  color: rgb(11 , 26 , 70);
   line-height: 30px;
   margin-left: 50px;
-  background-color: #DDE2F0;
+  background-color: #dde2f0;
   padding-right: 50px;
   padding-left: 50px;
   margin-top: 25px;
 }
 
 .article {
-  background-color: #DDE2F0;
+  background-color: #dde2f0;
   display: inline-block;
-  color: rgb(11, 26, 70);
+  color: rgb(11 , 26 , 70);
   line-height: 30px;
   margin-left: 700px;
   padding: 30px;
@@ -73,7 +73,7 @@ body {
 }
 
 #rodape {
-  background-color: #DDE2F0;
+  background-color: #dde2f0;
   top: 200px;
   position: relative;
   padding: 20px;
