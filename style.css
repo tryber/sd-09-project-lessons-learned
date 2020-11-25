@@ -42,12 +42,11 @@ body {
 }
 
 #minha_foto {
-  padding-top: 150px;
-  margin-top: 20px;
-  padding-left: 80px;
+  margin-top: 400px;
   width: 300px;
   height: 350px;
   float: left;
+  border: ridge 6px gray;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
