@@ -56,7 +56,7 @@ body {
   width: 100%;
 }
 
-#artigo_aprendizado {
+.lado-esquerdo {
   width: 40%;
   margin: 20px;
   padding: 20px;
@@ -65,10 +65,9 @@ body {
   text-align: left;
 }
 
-#experiencia {
-  width: 22%;
+.lado-direito {
+  width: 30%;
   margin: 20px;
-  padding: 20px;
   border: 1px solid black;
   display: inline-block;
   text-align: left;
