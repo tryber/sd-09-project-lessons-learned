@@ -6,7 +6,7 @@ a:hover, a:focus {
   color: aquamarine;
 }
 
-a:link, :visited {
+a:link, a:visited {
   color: aliceblue;
 }
 
@@ -34,8 +34,13 @@ h1 {
 #rodape {
   background-color: darkcyan;
   padding: 6px;
+  color: aliceblue;
 }
 
 #texto_cabecalho {
   color: aliceblue;
+}
+
+em {
+  font-weight: bold;
 }
