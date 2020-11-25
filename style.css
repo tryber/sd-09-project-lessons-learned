@@ -80,12 +80,12 @@ a:before {
 }
 
 .icons {
-  border-radius:150px;
-  width:50px;
+  border-radius: 150px;
+  width: 50px;
 }
 
 .icons:hover {
-    background-color: rgb(57 , 156 , 107);
+  background-color: rgb(57 , 156 , 107);
 }
 
 .lado-esquerdo {
@@ -99,7 +99,7 @@ a:before {
 }
 
 .contato div {
-  display:inline-block;
+  display: inline-block;
 }
 
 #minha_foto {
