@@ -17,7 +17,6 @@ body {
   max-width: 1366px;
 }
 
-/* CABEÇALHO */
 header {
   top: 0px;
   background-color: rgb(40, 40, 40);
@@ -25,9 +24,8 @@ header {
   z-index: 1;
 }
 
-
 header h1 {
-  font-size: 50px;
+  font-size: 80px;
   text-align: center;
 }
 
@@ -63,78 +61,92 @@ nav {
   background-color: rgb(1,1,1);
 }
 
-/* CONTEÚDO PRICIPAL */
 #aluno_trybe {
-  position: relative;
+  display: inline-block;
 }
 
 #aluno_trybe aside {
-  position: absolute;
-  top: 150px;
-  right: 160px;
+  position: relative;
+  margin-top: 220px;
+  margin-left: 400px;
+  width: 60%;
 }
 
 #aluno_trybe h3 {
-  margin: 50px 0 10px 40px;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 #aluno_trybe p {
-  width: 600px;
-  margin: 10px 0 10px 40px;
   font-size: 1.7rem;
+  padding-bottom: 130px;
 }
 
 #minha_foto {
+  position: relative;
+  float: left;
   width: 200px;
   height: auto;
   border-radius: 50%;
-  margin: 140px 0 0 200px;
+  margin-top: 180px;
+  margin-left: 70px;
   position: relative;
   border: 5px solid rgb(40, 40, 40);
 }
 
-figcaption {
-  margin-left: 250px;
-}
-
-
 #licoes {
-  margin-top: 20px;
-  display: inline-block;
+  margin-bottom: 450px;
 }
 
 #licoes h2 {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 #licoes_aprendidas {
-  float: left;
   position: relative;
+  float: left;
   margin: 50px;
+  font-size: 2rem;
 }
 
 #licoes_a_aprender {
-  float: right;
   position: relative;
-  left: 50px;
+  float: right;
   margin: 50px;
+  font-size: 2rem;
+  width: 40%;
+}
+
+.aprendizado {
+  display: inline-block;
+  margin-top: 50px;
 }
 
 .lado-esquerdo {
-  position: absolute;
-  top: 450px;
-  left: 900px;
-  width: 18%;
-  font-size: 1.3rem;
+  position: relative;
+  float: left;
+  width: 45%;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.lado-esquerdo h3{
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .lado-direito {
-  position: absolute;
-  top: 450px;
-  left: 1300px;
-  width: 18%;
-  font-size: 1.3rem;
+  position: relative;
+  float: right;
+  width: 45%;
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.lado-direito h3{
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 table {
@@ -145,10 +157,18 @@ table {
   font-size: 1.6rem;
   width: 100%;
 }
+.modulos h3 {
+  display: block;
+  clear: both;
+  margin-top: 50px;
+}
 
 table th {
   border: 2px solid rgb(40, 40, 40);
   padding: 10px;
+  width: 50%;
+  color: rgb(253, 251, 251);
+  background-color: rgb(40, 40, 40);
 }
 
 table td {
@@ -156,9 +176,14 @@ table td {
   padding: 20px;
 }
 
-/* Rodapé */
+.modulos h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 50px;
+}
+
 #rodape {
-  margin: auto;
+  margin-top: 50px;
   padding: 2.5rem;
   text-align: center;
   background-color: rgb(40, 40, 40);
