@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 html {
@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 .container {
@@ -22,18 +22,18 @@ body {
   top: 0;
   left: 0;
   background: #1c5d99;
-  color: #fff;
+  color: white;
   text-align: center;
 }
 
-#cabecalho nav ul li {
+.nav-links li {
   display: inline;
   margin: 0 5px;
 }
 
-#cabecalho nav ul li a {
+.nav-links li a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 #minha_foto {
@@ -46,7 +46,7 @@ body {
   border: 1px solid #ddd;
   display: inline;
   border-radius: 50%;
-  background-color: #222222;
+  background-color: #222;
 }
 
 .wrapper_licoes {
@@ -60,4 +60,16 @@ body {
 
 #rodape {
   margin: 20px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+  margin-right: 5%;
 }
