@@ -1,3 +1,11 @@
+A página deve possuir pelo menos um link externo	heavy_multiplication_x
+Adicione uma tabela à páginaA página deve possuir uma lista de lições aprendidas	heavy_multiplication_x
+Crie uma seção que conta uma passagem sobre seu aprendizado	heavy_multiplication_x
+Altere atributos relacionados as fontes
+Faça com que seu artigo e seção sobre aprendizados fiquem um ao lado do outro
+Seu site deve passar sem problemas na verificação de semântica do site achecker
+
+
 # Boas vindas ao repositório do projeto Lições Aprendidas!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀

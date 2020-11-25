@@ -1,6 +1,8 @@
 body {
         background-color: rgb(253 , 251 , 251);
         position: relative;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        
 }
 
 #cabecalho {
@@ -25,9 +27,16 @@ body {
      margin-top: 220px;
 }
      
-aside{
+artigo_principal{
+        float:right;
+        width: 10px;
+        padding-right: 0%;
+}
+sessao_de_aprendizado{
         border: dotted;
         margin: 20px 30px;  
+        float:left;
+        padding-left: 0%;
         
 }
 
