@@ -17,7 +17,8 @@ body {
 .navi {
     display: inline-block;
     margin-right: 50px;
-    margin-left: 40px;}    
+    margin-left: 40px;
+    }
 
 #cabecalho {
     position: fixed;
