@@ -9,7 +9,7 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: sans-serif;
-    max-width:100%;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -24,7 +24,7 @@ header {
     width: 600px;
     height: 50px;
     margin-left: 50px;
-    color: rgb(253,251,251);
+    color: rgb(253, 251, 251);
 }
 
 .navegacao {
@@ -68,15 +68,18 @@ main img {
     margin-bottom: 50px;
 }
 
-.tabela{
+.tabela {
     width: 70px;
     height: 70px;
-    color: rgb(0,0,0);
+    color: rgb(1, 2, 1);
 }
 
 footer {
-    background-color: rgb(22,75,80);
+    background-color: rgb(22, 75, 80);
     width: 100%;
     height: 10vh;
-    color: rgb(253,251,251);
+    color: rgb(253, 251, 251);
+    font-size: 1.1rem;
+    font-family: serif;
+    line-height: 2rem;
 }
