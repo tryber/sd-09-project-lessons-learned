@@ -15,5 +15,9 @@ body {
   margin-top: 85px;
 }
 #licoes_aprendidas {
-  color: rgb(27, 163, 9);
+  color: rgb(27, 163 , 9);
+}
+#rodape {
+  background-color: rgb(89 , 238 , 43);  
+  margin-bottom: 00.1px;
 }
