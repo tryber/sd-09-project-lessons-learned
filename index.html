@@ -9,33 +9,28 @@
     <title>Lessons Learned</title>
 </head>
 <body>
+    <div id='container'>
     <header id="cabecalho">
-        <div id="barra">
-            <h1 class="colchete">{</h1>
         <h1 id="titulo">Lessons Learned</h1>
-        <h1 class="colchete">}</h1>
         <nav>
             <ul>
-                <li class="menusuperior"><a href=#meuaprendizado>Meu aprendizado</a></li>
-                <li class="menusuperior"><a href=#aprendizado>Aprendizado</a></li>
+                <li class="menusuperior"><a href=#lado-esquerdo>Meu aprendizado</a></li>
+                <li class="menusuperior"><a href=#licoes_aprendidas>Lições</a></li>
                 <li class="menusuperior"><a href=#oquevemporai>O que vem por aí...</a></li>
             </ul>
         </nav>
-        </div>
     </header>
-    <img id="minha_foto" src="minhafoto.jpg" alt= "foto de perfil">
-
-   
-    <article>
+    <article id="lado-esquerdo"> 
         <h2> Meu Aprendizado</h2>
-        <p>nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue </p>
+        <p>Com pouco menos de 3 semanas no curso posso afirmar que tem sido uma jornada bastante interessante. As dinâmicas, aulas, conteúdo se completam de forma natural criando uma experiência de aprendizado que instiga a buscar conhecimento cada vez mais. Os exercícios variam de dificuldade mas são organizados de forma que uma boa leitura do que se pede nos permite fazer uma abstração e realizá-los sem grandes impecilhos. Apesar de eu já possuir um background em tecnologia sinto que desta vez que meu aprendizado realmente está em expansão e estou ancioso <i>(positivamente)</i> para aprender mais!</p>
     </article>
-    <aside>
-        <h3>A entrevista</h3>
-        <p>nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium </p>
+    <aside id="lado-direito">
+        <h2>Github</h2>
+        <p>Uma ferramenta que em primeiro momento me assustou um pouco, mas essencial para a vida de qualquer desenvolvedor. Depois que aprendemos suas funções básicas, fica bem mais fácil manipular sem medo de errar</p>
     </aside>
-    <div>
-    <section id="esquerda">
+    </div>
+    <section>
+        <div id="barralicoes">  
         <h2>Lições Aprendidas</h2>
     <ol id="licoes_aprendidas">
         <li>Git</li>
@@ -49,8 +44,7 @@
         <li>VS Code</li>
         <li>Linux</li>
     </ol>
-    </section>
-    <section id="direita">
+
         <h2>Lições à aprender</h2>
     <ul id="licoes_a_aprender">
         <li>SQL</li>
@@ -62,10 +56,10 @@
         <li>Fundamentos de Back-end</li>
         <li>Estrutura de dados</li>
         <li>Git avançado</li>
-        <li>Reack/li>
+        <li>React</li>
     </ul>
+        </div>
     </section>
-    </div>
     <section>
         <h2> O que vem por aí...</h2>
         <table>
@@ -91,8 +85,10 @@
              </tr>
         </table>
     </section>
+    <img id="minha_foto" src="minhafoto.jpg" alt= "foto de perfil">
     <footer id="rodape">
         <p>Projeto integrante do curso de Desenvolvimento Web da Trybe, iniciado em NOV/20 - Turma 09.
             <a target="_blank" href="https://github.com/fcbresende">Minha Página github</a></p>
     </footer>
+</body>
 </html>
