@@ -41,3 +41,16 @@ main {
 section {
     display: inline-block;
 }
+p {
+    line-height: 35px;
+    display: inline-block;
+    margin: 45px 15px 15px 10px;
+    padding: 14px 10px 10px 10px;
+    width: 50%;
+}
+.lado-esquerdo {
+    float: left;
+}
+.lado-direito {
+    float: right;
+}
