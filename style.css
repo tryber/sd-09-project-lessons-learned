@@ -12,7 +12,6 @@ header {
 
 header ul {
   font-size: 40px;
-  padding: 0;
 }
 
 header ul a {
@@ -35,18 +34,20 @@ table , th , td {
 }
 
 #article {
-  padding: 20px 10px;
-  background-color: bisque;
+  background-color: rgb(109 , 110 ,	128);
+  display: inline-block;
+  padding: 20px 80px;
   text-align: center;
-  margin: 20px 300px;
-  width: 40%;
+  margin-left: 15%;
+  width: 20%;
 }
 
 #aside {
-  padding: 20px 10px;
-  background-color: bisque;
-  margin: 20px 670px;
+  background-color:rgb(196 , 176 , 176);
+  padding: 20px 80px;
   text-align: center;
+  margin-right: 15%;
+  float: right;
   width: 20%;
 }
 
@@ -59,13 +60,33 @@ table , th , td {
 
 #content {
   background-color: seashell;
+ /*padding: 120px 100px 10px;*/
   margin-top: 90px;
 }
 
+#rodape {
+  background-color: blue;
+  color: aliceblue;
+}
+
+#table{
+  padding: 20px;
+}
+
+#tabela {
+  display: inline-block;
+  margin: 40px 0 10px 200px;
+}
+
 .container {
+  display: inline-block;
+  /*width: 70%;*/
   padding: 100px 100px 0;
 }
 
+.container-aprendizados {
+  margin-left: 30px;
+}
 
 .lado-esquerdo {
   background-color: rgb(196 , 176 , 176);
