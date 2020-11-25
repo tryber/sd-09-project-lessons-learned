@@ -44,11 +44,7 @@ a:hover {
   text-decoration: underline;
 }
 
-a:visited {
-  text-decoration: none;
-}
-
-table a:hover {
+a:visited, table a:hover {
   text-decoration: none;
 }
 
