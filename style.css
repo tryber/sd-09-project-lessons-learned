@@ -21,27 +21,19 @@ body {
 }
 
   main {
-  background-color: violet;
+  background-color: rgb(253 , 251 , 251);
   margin-top: 100px;
   font-family: monospace;
-}
-
-  #passagem {
-  background-color: tomato;
-}
-
-  #artigo {
-  background-color: purple;
 }
 
   aside {
   float: right;
   width: 30%;
+  margin-right: 80px;
 }
 
   .side {
   float: right;
-  background-color: darkblue;
 }
 
   #minha_foto {
@@ -56,7 +48,38 @@ body {
 }
 
   section {
-  background-color: cyan;
+  height: 10%;
+  width: 45%;
+  margin-left: 80px;
+}
+
+  #licoes_aprendidas {  
+  float: left;
+  width: 43%;
+}
+
+  #licoes_a_aprender {
+  float: right;
+  width: 43%;
+}
+
+  #artigo {
+  width: 49%;  
+  float: right;
+}
+
+  #artigo2 {
+  width: 50%;
+  float: left;
+}
+
+  table, th, td {
+  border: 1px solid blue;
+  margin-top: 5px;
+}
+
+ #titletable {
+  padding-top: 545px;
 }
 
   footer {
@@ -73,12 +96,12 @@ body {
 
   #gitlogo {
   max-width: 10%;
-  margin-bottom: 50px;
-  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-left: 30px;
 }
 
 #linkedinlogo {
   max-width: 10%;
-  margin-bottom: 41px;
-  margin-left: 40px;
+  margin-bottom: 17px;
+  margin-left: 30px;
 }
