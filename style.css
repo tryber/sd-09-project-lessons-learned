@@ -5,8 +5,8 @@
   padding: 0;
 }
 
-html{
-  font-family: "Share Tech Mono", monospace;
+html {
+  font-family: 'Share Tech Mono', monospace;
   font-size: 12px;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@ body {
 /* CABEÇALHO */
 header {
   top: 0px;
-  background-color: #333;
+  background-color: rgb(3, 3, 3);
   color: aliceblue;
 }
 
@@ -36,7 +36,7 @@ header h1 {
   max-width: 1366px;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: center;
 }
@@ -45,12 +45,8 @@ nav{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333;
+  background-color: rgb(3, 3, 3);
   display: inline-flex;
-}
-
-#menu li {
-    
 }
 
 #menu li a {
@@ -62,12 +58,12 @@ nav{
 }
 
 #menu li a:hover {
-  background-color: #111;
+  background-color: rgb(1, 1, 1);
 }
 
 /* CONTEÚDO PRICIPAL */
 #aluno_trybe {
-  position: relative;  
+  position: relative;
 }
 
 #aluno_trybe aside {
@@ -93,7 +89,7 @@ nav{
   border-radius: 50%;
   margin: 140px 0 0 200px;
   position: relative;
-  border: 5px solid #333;
+  border: 5px solid rgb(3, 3, 3);
 }
 
 figcaption {
@@ -142,25 +138,27 @@ figcaption {
 table {
   margin-top: 30px;
   margin-right: 20px;
-  margin-bottom: 50px;
-  border: 2px solid #333;
-  text-align: center;
+  margin-bottom: 10px;
+  border: 2px solid rgb(3, 3, 3);  
+  font-size: 1.6rem;
 }
 
-table th{
-  border: 2px solid #333;
+table th {
+  border: 2px solid rgb(3, 3, 3);
+  padding: 10px;
 }
 
 table td {
-  border: 2px solid #333;
+  border: 2px solid rgb(3, 3, 3);
+  padding: 20px;
 }
 
 /* Rodapé */
 #rodape {
   margin: auto;
   padding: 2.5rem;
-  color: #8a8a8a;
-  background-color: #333;
+  color: rgb(138,138,138);
+  background-color: rgb(3, 3, 3);
   text-align: center;
   font-size: 1.2rem;
   display: flex;
