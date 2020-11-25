@@ -1,7 +1,7 @@
 /* paleta de cores
-#048243 rgb(4, 130, 67) - foggiest jungle green
-#32BF84 rgb(50, 191, 132)- recluse greenish teal
-#CAFFFB rgb(202, 255, 251)- merging light light blue
+    rgb(4, 130, 67) - foggiest jungle green
+    rgb(50, 191, 132)- recluse greenish teal
+    rgb(202, 255, 251)- merging light light blue
 */
 
 * {
@@ -10,11 +10,11 @@
 }
 
 body {
-  background-color: rgb(253 ,251 , 251);
+  background-color: rgb(253 ,251 ,251);
 }
 
 #cabecalho {
-  background-color: rgb(4 ,130 , 67);
+  background-color: rgb(4 ,130 ,67);
   width: 100%;
   position: fixed;
   top: 0;
@@ -31,6 +31,6 @@ body {
   width: 160px;
 }
 
-#licoes_aprendidas { 
+#licoes_aprendidas {
   margin-left: 20px;
 }
