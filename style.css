@@ -1,7 +1,12 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: Nunito, verdana, sans-serif;
+  font-family: Nunito, sans-serif;
   margin: 0;
+}
+
+h2 {
+  font-family: verdana;
+  font-size: 24px;
 }
 
 #cabecalho {
@@ -39,19 +44,29 @@ body {
 }
 
 #artigo {
-  max-width: 75%;
+  position: relative;
+  float: left;
+  margin-left: 30px;
+  width: 50%;
+  text-align: justify;
 }
 
 #aside {
-  max-width: 20%;
+  position: relative;
+  float: right;
+  margin-right: 65px;
+  margin-bottom: 40px;
+  width: 35%;
   padding: 10px;
+  text-align: justify;
   border: 1px solid rgb(235 , 94 , 40);
   border-radius: 25px;
 }
 
 #rodape {
+  display: inline-block;
   border-top: 5px solid rgb(235 , 94 , 40);
-  height: 100%;
+  width: 100%;
   background-color: rgb(37 , 36 , 34);
   padding: 10px;
   color: rgb(204 , 197 , 185);
