@@ -32,13 +32,15 @@ table {
 }
 
 .article.lado-esquerdo {
+  position: relative;
   margin: 1em 10px;
   float: left;
   width: 30%;
   line-height: 30px;
 }
 
-.aside.lado-direito{
+.aside.lado-direito {
+  position: relative;
   padding: 22px;
   color: rgb(71 , 71 , 71);
   font-family: serif;
