@@ -1,8 +1,32 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb( 253, 251, 251 );
+}
+
+aside {
+  width: 30%;
+  padding-left: 10px;
+  margin-left: 15px;
+  float: right;
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgb( 117, 240, 163 );
+  display: block;
+  text-align: center;
+}
+
+#lista-materias {
+  display: inline-block;
+  position: relative;
+}
+
+.foto-perfil {
+  margin-top: 100px;
+  width: 200px;
+  display: block;
+  border-radius: 40%;
 }
