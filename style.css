@@ -12,20 +12,70 @@ body{
 }
 
 #cabecalho{
+    color: #FF715B;
+    padding: 20px 0;
     text-align: center;
     position: fixed;
     top: 0px;
-    background-color: green;
+    background-color: #1EA896;
     width: 100%;
+    font-size: 28px;
+    z-index: 100;
 }
 
 #navigation{
-    text-align: left;
+    text-align: center;
 }
+
+nav li{
+    display: inline-block;
+    margin: 25px 10px 15px 25px
+}
+
+li a{
+    color: #FF715B;
+    text-decoration: none;
+    border: #FF715B 2px solid;
+    border-radius: 40%;
+    padding: 10px;
+    
+}
+
+li a:hover{
+    text-decoration: underline;
+    background-color: #0C453E;
+}
+
 img{
-    width: 200px;
+    width: 140px;
     margin-top: 50px;
+    border-radius: 50%;
+    border: #FF715B 4px solid;
+    position: fixed;
+    top: -30px;
+    left: 70px;
+    z-index: 1001;
 }
+
+#lists{
+    background-color: #ff9585;
+    margin-top: 160px;
+    padding: 30px 0 0 0;
+    color: #312521;    
+}
+
+section h2{
+    margin-left: -2%;
+}
+
+ol, section h2 {
+    position: relative;
+    left: 40px;
+}
+ol li, ul li{
+    line-height: 30px;
+}
+
 
 article{
     float: left;
@@ -37,14 +87,14 @@ section aside{
     max-width: 35%;
 }
 
-
-
-#lista-aprendidas{
-    float: left;
+article p, aside p{
+    line-height: 24px;
 }
 
-#lista-a-aprender{
-    float: left;
-    
+.container-infromation{
+    color: white;
+    background-color: #312521;
+    max-width: 90%;
+    margin: auto;
+    padding: 30px;
 }
-
