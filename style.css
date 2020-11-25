@@ -1,6 +1,12 @@
 body {
   background-color: rgb(253 , 251 , 251);
-
+  margin: 100px;
+  padding: 100px;
+  border: 60px;
+  font-size: 35px;
+  color: red;
+  line-height: normal;
+  font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -9,3 +15,5 @@ body {
   top: 0;
 
 }
+
+
