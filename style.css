@@ -96,17 +96,17 @@ nav {
   font-size: 5rem;
 }
 
-#aluno_trybe p {
-  font-size: 1.7rem;
-  padding-bottom: 130px;
-}
-
 .lado-esquerdo p {
   margin-bottom: 50px;
 }
 
 .lado-direito p {
   margin-bottom: 50px;
+}
+
+#aluno_trybe p {
+  font-size: 1.7rem;
+  padding-bottom: 130px;
 }
 
 #minha_foto {
