@@ -19,13 +19,13 @@ main {
 }
 
 span {
-    font-family: fantasy;
-    font-size: 1.3em;
-    font-weight: 800;
-    color: crimson;
-    letter-spacing: 2em;
-    text-transform: uppercase;
-  }
+  font-family: fantasy;
+  font-size: 1.3em;
+  font-weight: 800;
+  color: crimson;
+  letter-spacing: 2em;
+  text-transform: uppercase;
+}
 
 table {
   clear: both;
@@ -43,7 +43,7 @@ table {
   font-family: serif;
   font-size: 15px;
   float: right;
-  letter-spacing: 1px;;
+  letter-spacing: 1px;
   width: 20%;
 }
 
