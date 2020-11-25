@@ -11,7 +11,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 125px;
+  height: 115px;
   background-color: rgb(66 , 66 , 66);
 }
 
@@ -80,6 +80,8 @@ ul {
   margin-right: 420px;
   padding: 25px;
   border-radius: 15px;
+  box-shadow: 10px 10px rgb(46 , 254 , 247);
+  background-color: rgb(66 , 66 , 66);
 }
 
 #licoes_a_aprender {
@@ -90,4 +92,19 @@ ul {
   margin-right: 20px;
   padding: 25px;
   border-radius: 15px;
+  box-shadow: 10px 10px rgb(46 , 254 , 247);
+  background-color: rgb(66 , 66 , 66);
+}
+
+#rodape {
+  height: 100px;
+  margin-top: 50px;
+  background-color: rgb(66 , 66 , 66);
+}
+
+#rodape p {
+  font-family: Oxanium, cursive;
+  color: rgb(46 , 254 , 247);
+  text-align: center;
+  padding-top: 50px;
 }
