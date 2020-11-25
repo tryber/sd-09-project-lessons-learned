@@ -52,6 +52,9 @@ th, td {
 
 #aprendizado {
   font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
 }
 
 #minha_foto {
@@ -59,12 +62,6 @@ th, td {
   width: 200px;
   display: inline-block;
   border-radius: 40%;
-}
-
-#aprendizado {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 20px;
 }
 
 #rodape {
