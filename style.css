@@ -6,63 +6,63 @@
   body {
     background-color: rgb(253 ,251 ,251 );
     margin:0;
- }
+ } 
 
   header {
     background-color: black;
-}
+}  
 
   #cabecalho {
     width: 100%;
     height: 80px;
     position: fixed;
     top: 0;
-}
+}  
 
   #titulo {
     font-size: 40px;
     font-family: monospace;
     background-color: black;
-}
+}  
 
   main {
     background-color: violet;
     margin-top: 100px;
     font-family: monospace;
-}
+}  
 
   #passagem {
     background-color: tomato;
-}
+}  
 
   #artigo {
     background-color: purple;
-}
+}  
 
   aside {
     float: right;
     width: 30%;
-}
+}  
 
   .side {
     float: right;
     background-color: darkblue;
-}
+}  
 
   #minha_foto {
     float: left;
     width: 60%;
     border: 4px double;
     border-radius: 9px;
-}
+}  
 
   #textside {
     float: right;
-}
+}  
 
   section {
     background-color: cyan;
-}
+}  
 
   footer {
     background-color: rgb(175 , 207 , 255 );
@@ -75,16 +75,16 @@
     margin-left: 20px;
     margin-right: 20px;
 
-}
+}  
 
   #gitlogo {
     max-width: 10%;
     margin-bottom: 50px;
     margin-left: 50px;
-}
+}  
 
   #linkedinlogo {
     max-width: 10%;
     margin-bottom: 41px;
     margin-left: 40px;
-}
+}  
