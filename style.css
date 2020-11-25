@@ -2,22 +2,23 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
-footer {
-  position: fixed;
+#rodape {
+  position: relative;
   bottom: 0;
   left: 0;
+  background-color: teal;
+  padding: 40px;
 }
 
 #cabecalho {
-  background-color: teal;
   top: 0;
-  text-align: center;
-  padding: 20px;
 
 }
 
 #titulo {
-  font-size: 25%;
+  background-color: teal;
+  text-align: center;
+  padding: 40px;
 }
 
 #minha_foto {
