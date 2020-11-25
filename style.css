@@ -72,19 +72,19 @@ nav {
   width: 60%;
 }
 
-.lado-esquerdo h3 {
+.lado-esquerdo h2 {
   font-size: 2rem;
   margin-bottom: 15px;
   text-align: center;
 }
 
-.lado-direito h3 {
+.lado-direito h2 {
   font-size: 2rem;
   margin-bottom: 15px;
   text-align: center;
 }
 
-#modulos h3 {
+#modulos h2 {
   display: block;
   clear: both;
   margin-top: 50px;
@@ -92,7 +92,7 @@ nav {
   text-align: center;
 }
 
-#aluno_trybe h3 {
+#aluno_trybe h2 {
   font-size: 5rem;
 }
 
