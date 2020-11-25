@@ -8,7 +8,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  color: rgb(59, 134 , 134);
+  color: rgb(59 , 134 , 134);
   background-color: rgb(168 , 219 , 168);
   width: 100%;
   padding: 10px;
@@ -22,7 +22,7 @@ body {
 }
 
 #conteudo_extra {
-  width: 20%;
+  
   padding: 10px;
   text-align: center;
 }
@@ -33,7 +33,6 @@ body {
 }
 
 main {
-  width: 80%;
   padding: 10px;
 }
 
@@ -42,4 +41,8 @@ footer {
   padding: 10px;
   background-color: rgb(241 , 241 , 231);
   display: inline-block;
+}
+
+#article_meuaprendizado {
+  text-align: center;
 }
