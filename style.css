@@ -50,3 +50,8 @@ body {
   padding: 15px;
   text-align: center;
 }
+
+#rodape a {
+  text-decoration: none;
+  color: white;
+}
