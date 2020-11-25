@@ -1,12 +1,14 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
+  margin-left: 2%;
   width: 200px;
 }
 
-table, th, td {
+table , th , td {
   border: 1px solid black;
 }
 
@@ -16,6 +18,19 @@ table, th, td {
 
 #article {
   margin-right: 30%;
+}
+
+#cabelho {
+  
+}
+
+#content {
+  padding: 80px 40px 20px;
+  margin: 10px 20px;
+}
+
+#licoes_aprendidas {
+  width: 70%;
 }
 
 #rodape {
@@ -30,4 +45,9 @@ table, th, td {
   display: inline;
   padding: 20px;
   margin: 0;
+}
+
+.imagem {
+  padding: 70px 50px 0;
+  float: left;
 }
