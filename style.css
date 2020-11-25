@@ -19,7 +19,6 @@ h1 {
 }
 
 .lado-esquerdo {
-  margin-left: 300px;
   border: solid;
   border-color: blue;
   width: 70%;
@@ -29,10 +28,9 @@ h1 {
 }
 
 .lado-direito {
-  margin-right: 300px;
   border: solid;
   border-color: blue;
-  width: 30%;
+  width: 20%;
   float: right;
   padding: 10px;
   line-height: 25px;
