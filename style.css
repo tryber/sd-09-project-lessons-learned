@@ -51,7 +51,8 @@ nav a:hover {
 
 nav ul li {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
   font-size: 17px;
 }
 
@@ -78,4 +79,31 @@ footer {
 
 #rodape {
   width: 100vw;
+}
+
+table {
+  border: 2px solid grey;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  font-size: 16px;
+  width: 900px;
+  height: 90px;
+}
+
+tr td {
+  width: 200px;
+  height: 40px;
+}
+
+.up-table {
+  font-weight: 600;
+}
+
+.table-hdivision {
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.table-vdivision {
+  border-right: 1px solid #a0a0a0;
 }
