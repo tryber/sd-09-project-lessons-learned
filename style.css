@@ -20,9 +20,9 @@ body {
 }
 
 #minha_foto {
-  margin-top: 7%;
-  border: red;
-  border-radius: 4%;
+  margin-top: 10%;
+  border: 5px solid  rgb(226 , 246 , 247) ;
+  border-radius: 10%;
   border-width: 500%;
   margin-bottom: 6%;
 }
@@ -31,7 +31,7 @@ body {
   color: rgb(24 , 19 , 19);
 }
 
-.artigo {
+#artigo {
   background-color: rgb(219 , 231 , 233);
   float: right;
   width: 40%;
