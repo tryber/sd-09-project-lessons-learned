@@ -39,3 +39,12 @@ body {
   right: 0;
   top: 270px;
 }
+
+#tabela{
+  border: 1px solid   rgb(30, 32, 32);
+
+}
+table td{
+  border: 1px solid   rgb(30, 32, 32);;
+
+}
