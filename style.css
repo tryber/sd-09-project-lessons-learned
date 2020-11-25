@@ -57,18 +57,22 @@ body {
   font-family: sans-serif;
   margin-left: 80px;
   letter-spacing: 0.8px;
+  line-height: 35px;
 }
 
 #aprendizado {
   font-family: sans-serif;
   font-size: 18px;
   letter-spacing: 0.5;
+  line-height: 25px;
+  font-style: normal;
 }
 
 #passagem {
   font-family: sans-serif;
   font-size: 18px;
   letter-spacing: 0.5px;
+  line-height: 25px;
 }
 
 #rodape a {
@@ -77,11 +81,10 @@ body {
 }
 
 #rodape {
-  bottom: 0;
-  position: fixed;
+  height: 20px;
+  width: 1450px;
+  position: static;
   background-color: rgb(83 , 80 , 80);
-  right: 0;
-  left: 0;
   font-family: sans-serif;
   color: white;
   padding: 15px;
