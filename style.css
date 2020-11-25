@@ -1,15 +1,15 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  margin-top: 00.1px;
+  margin-top: 0px;
 }
 #cabecalho {
   background-color: rgb(89 , 238 , 43);
   position: fixed;
   width: 100%;
-  text-align: center;
 }
 #titulo {
   color: brown;
+  text-align: center;
 }
 #minha_foto {
   margin-top: 85px;
