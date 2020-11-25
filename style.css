@@ -40,11 +40,6 @@
   padding-top: 10px;
 }
 
-a:hover {
-  background-color: rgb(8 , 124 , 124);
-  color: antiquewhite;
-}
-
 #big-section {
   display: flex;
   margin-top: 50px;
@@ -66,7 +61,7 @@ body {
 }
 
 footer {
-  background-color: rgb(8 , 124 , 124); 
+  background-color: rgb(2 , 136 , 136);
   width: 100%;
   clear: both;
   margin-left: -9px;
@@ -78,13 +73,12 @@ footer {
 }
 
 h1 {
-  color: rgb(37 , 37 , 37);
   text-align: center;
-  color: rgb(245 , 231 , 214);
+  color: rgb(255 , 241 , 223);
 }
 
 header {
-  background-color: rgb(0 , 139 , 139);
+  background-color: rgb(2 , 136 , 136);
   width: 100%;
   padding-top: 30px;
   margin-left: -9px;
@@ -112,16 +106,17 @@ header {
 
 li a {
   display: inline-block;
-  background-color: rgb(0 , 139 , 139);
-  color: rgb(250 , 235 , 215);
+  background-color: rgb(2 , 136 , 136);
+  color: rgb(255 , 241 , 223);
   text-decoration: none;
   padding: 10px;
   margin-left: 100px;
   margin-bottom: 5px;
 }
 
+
 .link {
-  color: rgb(250 , 235 , 215);
+  color: rgb(255 , 241 , 223);
   text-decoration: none;
 }
 
@@ -131,7 +126,7 @@ li a {
   margin-top: 10%;
 }
 
-section.table {
+.table {
   background-color: rgb(235 , 231 , 231);
   float: right;
   margin-right: 15px;
@@ -156,6 +151,6 @@ section.table {
   line-height: 50px;
   padding: 5px  25px;
   border: 3px solid rgb(153 , 153 , 153);
-  color: rgb(250 , 235 , 215);
+  color: rgb(255 , 241 , 223);
   text-align: left;
 }
