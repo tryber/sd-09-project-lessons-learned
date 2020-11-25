@@ -14,9 +14,9 @@
     <main id="content">
       <img id="minha_foto" src="./foto-Ivan.jpg" alt="minha-foto" width="300">
       <nav id="links">
-        <a href="https://github.com/ivanrafael-dev" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/ivan-rafael" target="_blank">LinkedIn</a>
-        <a href="https://instagram.com/ivandolim">Instagram</a>
+        <a class="black" href="https://github.com/ivanrafael-dev" target="_blank">GitHub</a>
+        <a class="blue" href="https://www.linkedin.com/in/ivan-rafael" target="_blank">LinkedIn</a>
+        <a class="red" href="https://instagram.com/ivandolim">Instagram</a>
       </nav>
       <section id="section">
         <article id="article">
@@ -26,9 +26,9 @@
           <p>Começamos os estudos de HTML e CSS, e HTML semântico, que realmente é uma coisa muito importante e interessante, além de ajudar em muito a organizar as idéias.</p>
           <p>Tivemos nessa semana informações importantes sobre como será nosso auto-conhecimento, os 1:1 irão ajudar a alinharmos as idéias.</p>
         </article>
-        <section id="learned_lessons">
-          <h3>Lições aprendidas</h3>
-          <ol id="licoes_aprendidas">
+          <section id="learned_lessons" class="lado-esquerdo">
+            <h3>Lições aprendidas</h3>
+            <ol>
             <li>Unix</li>
             <li>Bash</li>
             <li>Shell</li>
@@ -40,10 +40,10 @@
             <li>HTML Semântico</li>
             <li>Empatia</li>
           </ol>
-        </section>
-        <section id="lessons_to_learn">
+          </section>
+          <section id="lessons_to_learn" class="lado-direito">
           <h3>Lições a aprender</h3>
-          <ul id="licoes_a_aprender">
+          <ul>
             <li>JavaScript</li>
             <li>DOM</li>
             <li>Forms</li>
@@ -55,13 +55,22 @@
             <li>Node</li>
             <li>SQL</li>
           </ul>
-        </section>
+          </section>
       </section>
-      <aside>
+      <aside id="first-project">
         <h3>Primeiro Projeto</h3>
         <p>Está sendo muito legal colocar o aprendizado em prática, o projeto ajuda a reforçar os temas além de nos colocar em prática com o Git</p>
       </aside>
       <footer id="rodape">
+        <div id="contacts">
+					<h4>Ivan Rafael</h4>
+					<nav>
+						<a href="https://instagram.com/ivandolim" target="_blank">Instagram</a>
+						<a href="https://github.com/IvanRafael-Dev" target="_blank">GitHub</a>
+						<a href="https://www.linkedin.com/in/ivan-rafael/" target="_blank">LinkedIn</a>
+					</nav>
+					<p>Com &#10084; <span>São Paulo, novembro de 2020</span></p>
+				</div>
       </footer>
     </main>
   </body>

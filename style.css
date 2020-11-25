@@ -1,12 +1,17 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
 }
 
-#cabecalho {
-  border: 1px solid red;
+#content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#cabecalho {  
   background-color: rgb(255 , 106 , 106);
-  height: 100px;
+  height: 150px;
   text-align: center;
   width: 100%;
   position: fixed;
@@ -23,12 +28,82 @@ body {
 }
 
 img {
+  border: 5px dotted rgb(170, 63, 63);
   border-radius: 20%;
-  margin-top: 150px;
+  margin-top: 200px;
+  margin-bottom: 10px;
 }
 
-#learned_lessons , #lessons_to_learn {
+#article {
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+#links a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+#learned_lessons {
+  width: 30%;
+  float: left;
+  margin: 0 30px 40px;
+}
+
+#lessons_to_learn {
+  width: 30%;
+  float: left;
+  margin: 0 30px 40px;
+}
+
+.lado-esquerdo ol {
+  line-height: 30px;
+  color: red;
+}
+
+.lado-direito ul {
+  color: red;
+  line-height: 30px;
+}
+/*#learned_lessons , #lessons_to_learn {
   display: inline-block;
   padding: 10px;
   margin-right: 20px;
+  line-height: 25px;
+}*/
+
+
+#first-project {
+  line-height: 30px;
+  clear: both;
+}
+
+#contacts{
+  background-color: rgb(255 , 106 , 106); 
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#contacts a{
+  color: white;
+  text-decoration: none;
+}
+
+#contacts a:hover{
+  color: red;
+  background-color: rgb(255, 208, 208);
+  padding:10px;
+}
+
+.black {
+  color: black;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
 }
