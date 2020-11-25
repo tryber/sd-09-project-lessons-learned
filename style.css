@@ -1,32 +1,22 @@
- body {
-    background-color: rgb(253, 251, 251);
+body {
+    background-color:rgb(253, 251, 251);
 }
 #cabecalho {
     position:fixed;
-    top:0;   
+    top:0;
     background-color:rgb(72,164,107);
-    width:100%;  
+    width:100%;
 }
 #minha_foto {
     width:300px;
     margin-top:10%;
     border:10px rgb(204,227,222) solid;
-    float:left;
-    
+    float:left;    
   } 
-h2 {
-    
-    
-}
 #lista1{
     float:left;
-    margin-top:20%;
-   
+    margin-top:20%;   
 }
-h3{
-    
-}
-
 #lista2{
    float:right;
    margin-top:21%;
