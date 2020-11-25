@@ -73,3 +73,8 @@ body {
   width: 40%;
   margin-right: 5%;
 }
+
+.wrapper_licoes h3 {
+  line-height: 16px;
+  font-size: 14pt;
+}
