@@ -88,7 +88,6 @@ nav ul li {
 .lado_esquerdo {
   display: inline-block;
   float: left;
-  margin: 10px;
   width: 30%;
   margin: 10px 0 50px 20px;
   background-color: cadetblue;
@@ -127,8 +126,8 @@ td {
   height: 2em;
 }
 
-#rodape h6 {
-  margin-left: 3%;
+#rodape h3 {
+  margin: 10px 0 30px 30px;
   position: fixed;
   bottom: 10px;
   background-color: rgb(132 , 175 , 132);
