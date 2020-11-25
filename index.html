@@ -11,7 +11,7 @@
 <body>
     <header id="cabecalho">
         <h1 id="titulo">Lessons Learned on Trybe</h1>
-        <nav>
+        <nav class="nav_bar">
             <ul>
                 <li><a href="https://www.linkedin.com/in/igormriegel/" target="_blank">LinkedIn</a></li>
                 <li><a href="https://github.com/igmriegel" target="_blank">Git Hub</a></li>
@@ -22,7 +22,7 @@
 
     <main>
         <img id="minha_foto" src="rsz_meplayingbass.jpg" alt="One picture of me Igor playing bass.">
-        <section>
+        <section class="container">
             <article class="lado-direito">
                 <h2>O que aprendi na Trybe...</h2>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
@@ -32,38 +32,61 @@
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separ. coast of the Semantics, a large language ocean. A small river named Duden flows by their place.</p>
             </aside>
         </section>
+        
+        <div class="container">
+            <section class="lado-direito">
+                <h2>Lições aprendidas na Trybe:</h2>
+                <ol id="licoes_aprendidas">
+                    <li>Como operar o shell</li>
+                    <li>Operando em diretórios e navegando neles usando Bash</li>
+                    <li>Como trabalhar com o GIT</li>
+                    <li>Criando repositórios GIT, criando branches e etc...</li>
+                    <li>Introdução ao HTML</li>
+                    <li>HTML Semântico</li>
+                    <li>Introdução ao CSS</li>
+                    <li>Box Model do CSS</li>
+                    <li>Entendimento básico de como a internet funciona</li>
+                    <li>Como exercitar a empatia no ambiente de trabalho</li>
+                </ol>
+            </section>
 
-        <section class="lado-direito">
-            <h2>Lições aprendidas na Trybe:</h2>
-            <ol id="licoes_aprendidas">
-                <li>Como operar o shell</li>
-                <li>Operando em diretórios e navegando neles usando Bash</li>
-                <li>Como trabalhar com o GIT</li>
-                <li>Criando repositórios GIT, criando branches e etc...</li>
-                <li>Introdução ao HTML</li>
-                <li>HTML Semântico</li>
-                <li>Introdução ao CSS</li>
-                <li>Box Model do CSS</li>
-                <li>Entendimento básico de como a internet funciona</li>
-                <li>Como exercitar a empatia no ambiente de trabalho</li>
-            </ol>
-        </section>
+            <section class="lado-esquerdo">
+                <h2>Lições que ainda vou aprender:</h2>
+                <Ul id="licoes_a_aprender">
+                    <li>Lógica de programação</li>
+                    <li>Trabalhar com Javascript</li>
+                    <li>Trabalhar com React</li>
+                    <li>Preparar páginas responsivas</li>
+                    <li>Testes unitários</li>
+                    <li>Realização de testes automáticos usando JEST</li>
+                    <li>Modelagem de banco de Dados</li>
+                    <li>Metodologias Ágeis</li>
+                    <li>Várias lições de soft skills que irão contribuir pra me tornar uma pessoa melhor :D</li>
+                    <li>Entre outras...</li>
+                </Ul>
+            </section>
+        </div>
 
-        <section class="lado-esquerdo">
-            <h2>Lições que ainda vou aprender:</h2>
-            <Ul id="licoes_a_aprender">
-                <li>Lógica de programação</li>
-                <li>Trabalhar com Javascript</li>
-                <li>Trabalhar com React</li>
-                <li>Preparar páginas responsivas</li>
-                <li>Testes unitários</li>
-                <li>Realização de testes automáticos usando JEST</li>
-                <li>Modelagem de banco de Dados</li>
-                <li>Metodologias Ágeis</li>
-                <li>Várias lições de soft skills que irão contribuir pra me tornar uma pessoa melhor :D</li>
-                <li>Entre outras...</li>
-            </Ul>
-        </section>
+
+        <table>
+            <caption><h3>Status do meu aprendizado:</h3></caption>
+            <tr>
+                <th>Title</th>
+                <th>SHELL</th>
+                <th>GIT</th>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>Javascript</th>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td>always learning...</td>
+                <td>always learning...</td>
+                <td>always learning...</td>
+                <td>always learning...</td>
+                <td>always learning...</td>
+            </tr>
+        </table>
 
     </main>
 

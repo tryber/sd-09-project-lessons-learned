@@ -39,14 +39,24 @@ aside {
 
 .lado-esquerdo {
   display: inline-block;
-  width: 40%;
+  width: 45%;
+  vertical-align: text-top;
+  margin:10px;
 }
 
 .lado-direito {
   display: inline-block;
-  width: 40%;
+  width: 45%;
+  vertical-align: text-top;
+  margin:10px;
 }
 
 .container {
   display: block;
+  padding: 20px;
+}
+
+.nav_bar li {
+  display: inline;
+  margin: 40px;
 }
