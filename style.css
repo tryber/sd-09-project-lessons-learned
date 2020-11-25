@@ -5,41 +5,41 @@ body {
 }
 
 .rodape {
-    margin-top: 40px;
-    text-align: center;
-    font-family: sans-serif;
+  margin-top: 40px;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 #navBar {
-    background-color: rgb (57, 240, 57);
-    text-align: center;
+  background-color: rgb (57, 240, 57);
+  text-align: center;
 }
 
 .navi {
-    display: inline-block;
-    margin-right: 50px;
-    margin-left: 40px;
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 40px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    text-align: center;
-    text-emphasis: bold;
-    font-size: 1em;
-    font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  text-emphasis: bold;
+  font-size: 1em;
+  font-family: sans-serif;
 }
 
 #titulo {
-    font-display: center;
-    text-emphasis: bold;
+  font-display: center;
+  text-emphasis: bold;
 }
 
 #minha_foto {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 
 ol , ul {
-    display: inline-block;
+  display: inline-block;
 }
