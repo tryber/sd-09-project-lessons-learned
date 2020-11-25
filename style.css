@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253,251,251);
-  margin: 0% 5% 0% 5%;
+  margin: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
 
@@ -9,7 +9,6 @@ body {
 #cabecalho {
   top: 0;
   border: 2px solid #0fa36b;
-  border-radius: 5px;
   background-color: #0fa36b;
   text-align: center;
 }
@@ -37,14 +36,14 @@ body {
 }
 
 #artigo {
-  width: 50%;
+  width: 51%;
   text-align: justify;
   border: 2px solid;
   float: left;
 }
 
-#aside {  
-  width: 40%;
+#aside {
+  width: 48%;
   text-align: justify;
   border: 2px solid black;
   float: right;
@@ -54,15 +53,14 @@ body {
   background-color: #0fa36b;
   text-align: center;
   position: absolute;
-  width: 90%;
-  margin-bottom: 10px;  
+  width: 100%;
   font-family: fantasy, sans-serif;
   font-weight: 525;
   font-style: oblique;
   clear: both;
 }
 
-.caixas{ 
+.caixas {
   display: inline-block;
   border: 2px solid #0fa36b;
 }
