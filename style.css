@@ -54,3 +54,19 @@ main{margin-top: 160px;}
     display: inline-block;
     margin-left: 15px;
 }
+#textos{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#textos article{
+    display: inline-block;
+    width: 70%;
+    margin-right: 15px;
+    vertical-align: top;
+}
+#textos aside{
+    display: inline-block;
+    width: 20%;
+    margin-left: 15px;
+}
