@@ -1,2 +1,7 @@
 .vscode
 node_modules/
+.gitignore
+.eslintrc.js
+
+package-lock.json
+package.json
