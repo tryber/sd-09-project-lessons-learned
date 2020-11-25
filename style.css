@@ -29,14 +29,17 @@ body {
      position: block;
      margin-top: 220px;
 }
-     
-artigo_principal{
+    
+#lado_a_lado{
+        display: inline-block;
+}
+.artigo_principal{
         float:right;
         width: 200px
         padding-right: 0%;
 }
 
-sessao_de_aprendizado{
+.sessao_de_aprendizado{
         border: dotted;
         margin: 20px 30px;  
         float:left;
@@ -56,4 +59,8 @@ footer{
         border: dotted;
 }
 
+
 div{ width: 500px;}
+
+table, th, td {
+        border: 3px solid blue;
