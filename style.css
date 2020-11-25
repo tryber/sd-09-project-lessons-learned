@@ -21,6 +21,7 @@ body {
   text-align: center;
   border-bottom: 1px gray solid;
   z-index: 15;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -30,6 +31,7 @@ nav {
   width: 185px;
   height: 100%;
   z-index: 9;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav a:hover {
@@ -37,7 +39,6 @@ nav a:hover {
 }
 
 #minha_foto {
-  padding: 2px;
   background-color: black;
   float: left;
   display: inline-block;
@@ -85,45 +86,39 @@ main {
   line-height: 40px;
 }
 
-#bh {
-  font-size: 13px;
+#sobre-mim h2 {
+  font-size: 23px;
+  line-height: 60px;
 }
 
-#licoes1 {
+#descricao {
+  font-size: 16.5px
+}
+
+#bh {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+#licoes {
   display: block;
   float: right;
   width: 210px;
   margin-right: 0;
-  border-left: 1px solid grey;
+  border-left: 2px double grey;
   padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 15px;
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif;
 }
 
-h4 {
+#licoes h2 {
+  text-align: center;
+  font-size: 16px;
   margin: 20px;
-}
-
-#licoes1 li {
-  
-}
-
-#licoes2 {
-  display: block;
-  float: right;
-  width: 80px;
-  margin-top: 400px;
-  margin-left: 20px;
-  margin-right: 0;
-  border-left: 1px solid grey;
-}
-
-footer {
-  position: relative;
-  bottom: 0;
-  top: 200px;
-  background-color: lightgray;
-  padding: 5px;
-  width: 100vw;
-  z-index: 11;
+  line-height: 25px;
+  font-weight: 1000;
 }
 
 table {
@@ -132,7 +127,9 @@ table {
   font-size: 16px;
   width: 795px;
   height: 175px;
-  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
 }
 
 tr td {
@@ -155,4 +152,45 @@ tr td {
 footer , nav {
   border-top: 1px gray solid;
 }
-  
+
+article {
+  text-align: justify;
+  margin-bottom: 30px;
+  margin-right: 250px;
+}
+
+article h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+aside {
+  text-align: justify;
+  margin-bottom: 30px;
+  margin-right: 250px;
+}
+
+aside h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#contato {
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  top: 150px;
+  background-color: lightgray;
+  padding: 5px;
+  width: 100vw;
+  z-index: 13;
+}
+
+#rodape p {
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+}
