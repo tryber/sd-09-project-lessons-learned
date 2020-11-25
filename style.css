@@ -29,15 +29,30 @@ body {
 
 /* ID styles */
 #cabecalho {
-  background-color: rgb(9 , 145 , 236);
+  background-color: rgba(126, 201, 251, 0.918);
   position: fixed;
-  width: 100%;
-  height: 100px;
-  font-family: "Satisfy", cursive;
+  right: 0;
+  left: 0;
+  width: 75%;
+  height: 15%;
+  min-height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px outset rgba(126, 201, 251, 0.918);
 }
 
 #titulo {
   text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 70px;
+  font-family: "Satisfy", cursive;
+  color: rgb(25, 63, 124);
 }
 
 #minha_foto {
