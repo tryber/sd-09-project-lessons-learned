@@ -58,14 +58,15 @@ main{margin-top: 160px;}
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 25px;
 }
-#textos article{
+.ladoesquerdo{
     display: inline-block;
     width: 70%;
     margin-right: 15px;
     vertical-align: top;
 }
-#textos aside{
+.ladodireito{
     display: inline-block;
     width: 20%;
     margin-left: 15px;
