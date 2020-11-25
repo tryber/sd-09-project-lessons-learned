@@ -32,10 +32,39 @@ body {
   color: rgb(76 , 164 , 107);
 }
 
+main {
+  margin-top: 100px;
+}
+
+.perfil img{
+  width: 175px;
+  border-radius: 50%;
+  border: 3px solid rgb(76 , 164 , 107);
+}
+
 #licoes_aprendidas , #licoes_a_aprender {
   line-height: 1.3;
 }
 
 h3 {
+  color: rgb(76 , 164 , 107);
   font-size: 20px;
+  line-height: 1.1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lado-esquerdo {
+  position: relative;
+  float: left;
+  width: 49%;
+  text-align: center;
+}
+
+.lado-direito {
+  position: relative;
+  float: right;
+  width: 49%;
+  right: 0;
+  text-align: center;
+  margin-bottom: 50px;
 }
