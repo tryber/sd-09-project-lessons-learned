@@ -46,3 +46,7 @@ h1 {
 #minha_foto {
   margin-top: 150px;
 }
+
+article, section {
+  display: inline-block;
+}
