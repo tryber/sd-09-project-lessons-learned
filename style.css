@@ -9,7 +9,7 @@ body {
   font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   line-height: 30px;
-  margin: 5px 5px;
+  margin: 5 5px;
   padding: 5px;
   color: rgb(37 , 37 , 37);
 }
@@ -29,7 +29,7 @@ header {
 h1 {
   color: rgb(37 , 37 , 37);
   text-align: center;
-  color: antiquewhite;
+  color: rgb(245 , 231 , 214);
 }
 
 li a {
@@ -43,7 +43,7 @@ li a {
 }
 
 a:hover {
-  background-color: rgb(8, 124, 124);
+  background-color: rgb(8 , 124 , 124);
   color: antiquewhite;
 }
 
@@ -71,7 +71,7 @@ a:hover {
   margin-right: 10%;
 }
 
-.aprendidas h2, .aprender h2 {
+.aprendidas h2 , .aprender h2 {
   margin-bottom: 15px;
 }
 
@@ -88,16 +88,16 @@ a:hover {
   float: right;
   max-width: 350px;
   padding: 10px;
-  border: 3px solid rgb(153, 153, 153);
+  border: 3px solid rgb(153 , 153 , 153);
   margin-bottom: 35px;
   margin-right: 15px;
   margin-top: 35px;
-  background-color: rgb(235, 231, 231);
+  background-color: rgb(235 , 231 , 231);
 }
 
-.artigo p{
+.artigo p {
   padding: 10px 30px;
-  background-color:rgb(253 , 251 , 251);
+  background-color: rgb(253 , 251 , 251);
   text-align: justify;
   text-indent: 20px;
   padding-top: 10px;
@@ -106,7 +106,7 @@ a:hover {
 .artigo h2 {
   padding-bottom: 15px;
   text-align: center;
-  color: rgb(73, 73, 73);
+  color: rgb(73 , 73 , 73);
 }
 
 #table {
@@ -114,8 +114,9 @@ a:hover {
   min-width: 300px;
   display: inline-block;
   margin-bottom: 35px;
-  border: 3px solid rgb(153, 153, 153);
-  padding: 15px;
+  border: 3px solid rgb(153 , 153 , 153);
+  padding: 5px;
+  margin-top: 45px;
 }
 
 #table h2 {
@@ -123,23 +124,22 @@ a:hover {
 }
 
 section#table {
-  background-color: rgb(235, 231, 231);
-  float:right;
+  background-color: rgb(235 , 231 , 231);
+  float: right;
   margin-right: 15px;
 }
 
-#table tr, #table td, #table th{
-  background-color: rgb(12, 145, 145);
+#table tr , #table td , #table th {
+  background-color: rgb(12 , 145 , 145);
   line-height: 50px;
   padding: 5px  25px;
-  border: 3px solid rgb(153, 153, 153);
-  text-align: center;
+  border: 3px solid rgb(153 , 153 , 153);
   color: antiquewhite;
   text-align: left;
 }
 
 footer {
-  background-color: rgb(8, 124, 124);
+  background-color: rgb(8 , 124 , 124);
   width: 100%;
   clear: both;
   margin-left: -9px;
