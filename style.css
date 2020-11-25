@@ -8,31 +8,14 @@ body {
   font-family: fantasy;
 }
 
-#navigation {
-  margin: 10px;
-}
-
-#navigation li {
-  margin-left: 40px;
-  list-style-type: none;
-  display: inline;
-  float: left;
-  font-family: fantasy;
-}
-
-#navigation li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 #cabecalho {
-  top: 0px;
+  top: 0;
   background-color: rgb(10, 126, 81);
   color: white;
   text-align: center;
   font-family: fantasy;
   padding: 30px;
+  position: relative;
 }
 
 #section-foto {
