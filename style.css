@@ -27,24 +27,11 @@ body {
 #minha_foto {
      border-radius: 50%;   
      padding: top;
-     position: block;
-     margin-top: 220px;
+     position: center;
+     margin-top: 110px;
+     
 }
     
-#artigo_principal{
-        float:left;
-        width: 40%;
-        padding-right: 0%;
-        margin-left: 20px;
-}
-
-#sessao_de_aprendizado{
-        float:right;
-        width: 40%;
-        margin-right: 20px;
-        
-}
-
 .fixacao {
         clear: both;
 }
@@ -69,3 +56,18 @@ table, th, td {
         border: 3px solid blue;
         margin-top: 20px;
         margin-bottom: 20px;
+}
+
+.lado-direito {
+        float:right;
+        width: 40%;
+        margin-right: 20px;
+}
+
+.lado-esquerdo{
+        float:left;
+        width: 40%;
+        padding-right: 0%;
+        margin-left: 20px;
+        }
+        
