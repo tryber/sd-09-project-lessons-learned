@@ -2,6 +2,10 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+#titulo{
+  font-family: sans-serif;
+}
+
 #cabecalho {
   background-color: teal;
   top: 0;
