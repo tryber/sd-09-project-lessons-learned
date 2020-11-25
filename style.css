@@ -30,24 +30,23 @@ body {
      margin-top: 220px;
 }
     
-#lado_a_lado{
-        display: inline-block;
-}
-.artigo_principal{
-        float:right;
-        width: 200px
+#artigo_principal{
+        float:left;
+        width: 40%;
         padding-right: 0%;
 }
 
-.sessao_de_aprendizado{
+#sessao_de_aprendizado{
         border: dotted;
         margin: 20px 30px;  
-        float:left;
-        width: 200px;
+        float:right;
+        width: 40%;
         
 }
 
-
+.fixacao {
+        clear: both;
+}
 
 h1{
         font-size: xx-large;
