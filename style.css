@@ -1,8 +1,76 @@
-body {
-  background-color: rgb(253 , 251 , 251);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#cabecalho {
+body {
+  background-color: rgb(253 , 251 , 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  line-height: 20px;
+  height: 100vh;
+  position: relative;
+}
+
+#cabecalho {  
   position: fixed;
+  padding: 20px;
   top: 0;
+  font-size: 20px;
+  color: rgb(0, 95, 146);
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+#minha_foto {
+  width: 300px;
+  margin-top: 80px;
+  border-radius: 20px; 
+  display: block; 
+}
+
+#list_container {
+  text-align: center;
+}
+
+.listas {
+  display: inline-block;
+  text-align: left;  
+}
+
+.listas ul {
+  margin-left: 40px;
+}
+
+#rodape {
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(48, 182, 255);
+  bottom: 0;
+  text-align: center;
+}
+
+#rodape p {
+  margin-top: 10px;
+  color: white;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 300px;
+  top: 60;
+  
+}
+
+.lado-direito {
+  display: inline-block;
+  margin-left: 40px;
 }
