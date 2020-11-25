@@ -45,7 +45,6 @@ h2 {
 }
 
 #artigo {
-  position: relative;
   float: left;
   margin-left: 30px;
   margin-bottom: 40px;
@@ -54,7 +53,6 @@ h2 {
 }
 
 #aside {
-  position: relative;
   float: right;
   margin-right: 115px;
   margin-bottom: 40px;
