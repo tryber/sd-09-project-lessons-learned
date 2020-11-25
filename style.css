@@ -96,18 +96,18 @@ h2 {
   box-shadow: 1px 3px 5px black;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   float: left;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   width: 50%;
   text-align: justify;
 }
 
-#lado-direito {
+.lado-direito {
   float: right;
   margin-top: 30px;
   margin-right: 60px;
-  margin-bottom: 300px;
+  margin-bottom: 330px;
   width: 35%;
   padding: 15px;
   text-align: justify;
@@ -133,7 +133,7 @@ h2 {
   box-shadow: 0 1px 15px black;
 }
 
-.highlight-word {
+.word {
   color: rgb(235 , 94 , 40);
   font-weight: 800;
 }
