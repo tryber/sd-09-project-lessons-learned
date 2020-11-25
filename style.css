@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
   margin-left: 300px;
   border: solid;
   border-color: blue;
-  width: 500px;
+  width: 70%;
   float: left;
   padding: 10px;
   line-height: 25px;
@@ -32,7 +32,7 @@ h1 {
   margin-right: 300px;
   border: solid;
   border-color: blue;
-  width: 280px;
+  width: 30%;
   float: right;
   padding: 10px;
   line-height: 25px;
