@@ -29,11 +29,11 @@ p {
 }
 
 .lado-direito {
-  border: 2px dashed rgb(253, 165, 0);
+  border: 2px dashed rgb(253 , 165 , 0);
   float: right;
   padding: 2%;
   width: 40%;
-  margin-right:3%;
+  margin-right: 3%;
 }
 
 .sem-float {
@@ -44,8 +44,8 @@ p {
 }
 
 .section-title {
-    text-align: center;
-    margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .footer-content-wrapper {
@@ -82,16 +82,16 @@ p {
 }
 
 .aside-content {
-    float: right;
-    position: sticky;
-    top: 30%;
-    width: 45%;
-    margin-top: 20px;
-    padding: 2%;
+  float: right;
+  position: sticky;
+  top: 30%;
+  width: 45%;
+  margin-top: 20px;
+  padding: 2%;
 }
 
 .study-themes-table {
-  margin: 5px auto; 
+  margin: 5px auto;
 }
 
 /* ID styles */
@@ -171,17 +171,21 @@ p {
   color: rgb(25 , 63 , 124);
 }
 
+#rodape a:visited {
+    color: rgb(25 , 63 , 124);
+  }
+
 #rodape a:hover {
   background-color: rgba(0 , 152 , 253 , 0.692);
 }
 
-.main-content table, th, td {
+.main-content table , th , td {
   border: 1px solid black;
   border-collapse: collapse;
-  text-align: center; 
+  text-align: center;
 }
 
 .study-themes-table th {
   width: 200px;
-  background-color:rgba(126 , 201 , 251);
+  background-color: rgba(126 , 201 , 251);
 }
