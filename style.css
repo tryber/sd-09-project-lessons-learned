@@ -113,12 +113,16 @@ header .container {
   padding-left: 8px;
 }
 
+#text-info a {
+  color: white;
+}
+
 #section-name #name a {
   color: rgb(184 , 182 , 182);
   padding-left: 5px;
 }
 
-#text-info a , #section-name #name a:hover {
+#section-name #name a:hover {
   color: white;
 }
 
