@@ -80,7 +80,6 @@ nav ul li {
 
 #esq_dir {
   display: flex;
-  background-color: burlywood;
   width: 60%;
   padding: 15px;
 }
@@ -127,9 +126,11 @@ td {
 }
 
 #rodape h3 {
-  margin: 10px 0 30px 30px;
+  margin: 10px 0 5px 30px;
+  padding: 1px 20px;
   position: fixed;
-  bottom: 10px;
-  background-color: rgb(132 , 175 , 132);
+  bottom: 0;
+  background-color: rgb(160, 177, 160);
   font-size: 12px;
+  border-radius: 0 15px;
 }
