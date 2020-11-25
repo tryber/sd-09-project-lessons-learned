@@ -21,7 +21,8 @@ header {
   letter-spacing: 2px;
 }
 nav {
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 nav a {
   float: left;
@@ -36,10 +37,13 @@ nav a:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-.centralizar {
+.centralizar figure {
   justify-content: center;
   display: flex;
-  flex-direction: initial;
+  align-items: center;
+}
+.centralizar a {
+  justify-content: center;
   align-items: center;
 }
 #minha_foto {
@@ -47,7 +51,6 @@ nav a:hover {
   margin-top: 150px;
   height: 200px;
   border-radius: 20px;
-  margin-left: 100px;
 }
 #link_github {
   text-decoration: none;
@@ -55,9 +58,12 @@ nav a:hover {
   background-color: #32bf84;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
-  margin-left: 100px;
+  margin-left: 400px;
   padding: 5px;
   letter-spacing: 2px;
+
+  display: block;
+  float: left;
 }
 #link_linkedin {
   text-decoration: none;
@@ -65,9 +71,11 @@ nav a:hover {
   background-color: #32bf84;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
-  margin-left: 10px;
+  margin-right: 400px;
   padding: 5px;
   letter-spacing: 2px;
+  display: block;
+  float: right;
 }
 table {
   padding: 10px;
@@ -76,18 +84,19 @@ table {
 #licoes_aprendidas {
   display: block;
   float: left;
-  margin-left: 90px;
+  margin-left: 400px;
   align-items: center;
   color: white;
   padding: 20px;
   background-color: #32bf84;
   border-radius: 5px;
+  clear: both;
 }
 #licoes_a_aprender {
   color: white;
   display: block;
   float: right;
-  margin-right: 90px;
+  margin-right: 400px;
   padding: 20px;
   background-color: #32bf84;
   border-radius: 5px;
@@ -99,9 +108,10 @@ article {
   float: left;
   width: 300px;
   text-align: center;
-  margin-left: 200px;
+  margin-left: 400px;
   background-color: #32bf84;
   border-radius: 5px;
+  clear: both;
 }
 aside {
   background-color: #32bf84;
@@ -109,9 +119,9 @@ aside {
   color: white;
   padding: 20px;
   float: right;
-  display: inline-block;
+  display: block;
   width: 300px;
   text-align: center;
-  margin-right: 200px;
+  margin-right: 400px;
   margin-top: 2px;
 }
