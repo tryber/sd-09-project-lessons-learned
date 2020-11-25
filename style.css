@@ -10,13 +10,14 @@ body {
 
 .titulos {
   color: rgb(31 , 224 , 151);
+  margin-bottom: 18px;
 }
 
 #cabecalho {
   position: fixed;
   text-align: center;
   top: 0;
-  padding: 16px;
+  padding: 11px;
   width: 100%;
   background-color: rgb(240 , 230 , 230);
   border-bottom: 2px solid black;
@@ -32,38 +33,52 @@ body {
 }
 
 .lista {
-  float: left;  
-  padding: 32px;
-  width: 60%;  
+  padding: 20px;
+  width: 100%;
+  margin: auto;
 }
 
 #lista_licoes_aprendidas {
- width: 40%;
- display: inline-block;
- margin-left: 50px;
- 
+  margin: 32px;
+  width: 20%;
+  display: inline-block;
+  
 }
 
 #lista_licoes_a_aprender {
- margin-left: 50px;
- width: 40%;
- display: inline-block;
- 
+  width: 20%;
+  display: inline-block;
+  
 }
 
 #rodape{
-  position: fixed;
-  bottom: 0;
   background-color: rgb(240 , 230 , 230);  
   text-align: center;
   border-top: 2px solid black;
-  margin-bottom: 32px;
   width: 100%;
+}
+#artigo_barra_lateral{
+  width: 100%;
+  text-align: center;
+}
+
+#artigo_aprendizado{
+  width: 40%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  display: inline-block;
+  text-align: left;
 }
 
 #experiencia{
-    margin-top: 70px;
-    margin-right: 100px;
-    float: right;
-    width: 20%;
+  width: 22%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  display: inline-block;
+  text-align: left;
 }
+
+
+
