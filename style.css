@@ -77,7 +77,17 @@ ul {
   float: right;
   width: 320px;
   margin-top: -360px;
-  margin-right: 400px;
+  margin-right: 420px;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+#licoes_a_aprender {
+  border: 1px solid red;
+  float: right;
+  width: 320px;
+  margin-top: -360px;
+  margin-right: 20px;
   padding: 25px;
   border-radius: 15px;
 }
