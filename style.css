@@ -16,7 +16,7 @@ body {
   background-color: rgb(7 , 30 , 61);
   line-height: 1.5;
   font-size: 28px;
-  padding-left: 30px;  
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
