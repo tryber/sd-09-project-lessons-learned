@@ -3,8 +3,13 @@ body {
   margin-top: 150px;
 }
 
-#aside{
+#align-items{
+  align-items: center;
+}
+
+#aside {
   margin: 20px;
+  text-align: center;
 }
 
 #cabecalho {
@@ -16,7 +21,7 @@ body {
 }
 
 #licoes_a_aprender {
-  
+
 }
 
 #licoes_aprendidas {
@@ -33,25 +38,33 @@ body {
   color: rgb(65, 122, 73);
 }
 
+#soft-skills{
+  font-weight: bold;
+  color: rgb(65 , 122 , 73);
+  font-style: italic;
+}
+
 #titulo {
   color: blanchedalmond;
   margin-right: 30px;
 }
 
-.lado-esq{
+.lado-esq {
   width: 30%;
   margin: 20px;
-  border: 1px dotted rgb(65, 122, 73);
+  border: 1px dotted rgb(65 , 122 , 73);
   background-color: blanchedalmond;
   display: inline-block;
   text-align: center;
+  padding: 20px;
 }
 
-.lado-dir{
+.lado-dir {
   width: 30%;
   margin: 20px;
   text-align: justify;
-  border: 1px dotted rgb(65, 122, 73);
+  border: 1px dotted rgb(65 , 122 , 73);
   background-color: blanchedalmond;
   display: inline-block;
+  padding: 20px;
 }
