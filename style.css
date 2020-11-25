@@ -6,11 +6,11 @@ body {
   position: fixed;
   top: 0;
   width: 1366px;
-  background-color: #0fa36b;
+  background-color: rgb(15 , 163 , 107);
 }
 
 #titulo {
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 
