@@ -13,14 +13,14 @@ html {
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253,251,251);
   max-width: 1366px;
 }
 
 /* CABEÇALHO */
 header {
   top: 0px;
-  background-color: rgb(3, 3, 3);
+  background-color: rgb(3,3,3);
   color: aliceblue;
 }
 
@@ -45,7 +45,7 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: rgb(3, 3, 3);
+  background-color: rgb(3,3,3);
   display: inline-flex;
 }
 
@@ -58,7 +58,7 @@ nav {
 }
 
 #menu li a:hover {
-  background-color: rgb(1, 1, 1);
+  background-color: rgb(1,1,1);
 }
 
 /* CONTEÚDO PRICIPAL */
@@ -89,7 +89,7 @@ nav {
   border-radius: 50%;
   margin: 140px 0 0 200px;
   position: relative;
-  border: 5px solid rgb(3, 3, 3);
+  border: 5px solid rgb(3,3,3);
 }
 
 figcaption {
@@ -139,17 +139,17 @@ table {
   margin-top: 30px;
   margin-right: 20px;
   margin-bottom: 10px;
-  border: 2px solid rgb(3, 3, 3);  
+  border: 2px solid rgb(3,3,3);  
   font-size: 1.6rem;
 }
 
 table th {
-  border: 2px solid rgb(3, 3, 3);
+  border: 2px solid rgb(3,3,3);
   padding: 10px;
 }
 
 table td {
-  border: 2px solid rgb(3, 3, 3);
+  border: 2px solid rgb(3,3,3);
   padding: 20px;
 }
 
@@ -158,7 +158,7 @@ table td {
   margin: auto;
   padding: 2.5rem;
   color: rgb(138,138,138);
-  background-color: rgb(3, 3, 3);
+  background-color: rgb(3,3,3);
   text-align: center;
   font-size: 1.2rem;
   display: flex;
