@@ -16,19 +16,6 @@ p {
 }
 
 /* Class styles */
-.main-content {
-  position: absolute;
-  top: 17%;
-  bottom: 12%;
-  left: 0;
-  right: 0;
-  width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5% 3%;
-  overflow: auto;
-}
-
 .lessons {
   overflow: auto;
 }
@@ -97,10 +84,14 @@ p {
 .aside-content {
     float: right;
     position: sticky;
-    top: 0;
+    top: 30%;
     width: 45%;
     margin-top: 20px;
     padding: 2%;
+}
+
+.study-themes-table {
+  margin: 5px auto; 
 }
 
 /* ID styles */
@@ -131,6 +122,20 @@ p {
   font-family: Satisfy, cursive;
   color: rgb(25 , 63 , 124);
 }
+
+.main-content {
+  position: absolute;
+  top: 17%;
+  bottom: 12%;
+  left: 0;
+  right: 0;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5% 3%;
+  overflow: auto;
+}
+
 
 #minha_foto {
   height: 100%;
@@ -168,4 +173,15 @@ p {
 
 #rodape a:hover {
   background-color: rgba(0 , 152 , 253 , 0.692);
+}
+
+.main-content table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center; 
+}
+
+.study-themes-table th {
+  width: 200px;
+  background-color:rgba(126 , 201 , 251);
 }
