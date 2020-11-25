@@ -10,6 +10,8 @@ body {
   font-family: Bitter, serif;
   padding-bottom: 20px;
   margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 h1 , h2 , h3 {
@@ -119,7 +121,7 @@ nav li a:hover {
   width: 29%;
   margin-right: 11%;
   margin-top: 2%;
-  padding: 65px;
+  padding: 69px;
   border-radius: 35px;
 }
 
