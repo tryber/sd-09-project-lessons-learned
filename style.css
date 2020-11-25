@@ -11,7 +11,7 @@ body {
   position: fixed;
   top: 0;
   height: 6em;
-  background-color: #fca311;
+  background-color: rgb(252 , 163 , 17);
   width: 100%;
   z-index: 2;
 }
@@ -22,14 +22,14 @@ body {
 }
 
 .fundos_secoes {
-  background-color: #14213d;
-  color: white;
+  background-color: rgb(20 , 33 , 61);
+  color: rgb(255 , 255 , 255);
   padding: 50px;
 }
 
 .exceto_secoes {
   margin: 15px;
-  border: 1px solid #fca311;
+  border: 1px solid rgb(252 , 163 , 17);
 }
 
 #artigo {
@@ -63,7 +63,7 @@ body {
 }
 
 #navegacao {
-  background-color: #fca311;
+  background-color: rgb(252 , 163 , 17);
   text-align: center;
 }
 
@@ -77,22 +77,22 @@ body {
   object-fit: cover;
   width: 10em;
   border-radius: 100%;
-  background-color: #fca311;
+  background-color: rgb(252 , 163 , 17);
   padding: 2px;
   left: 5%;
 }
 
 #licoes_aprendidas {
-  border-top: 1px solid #fca311;
+  border-top: 1px solid rgb(252 , 163 , 17);
 }
 
 #licoes_a_aprender {
-  border-top: 1px solid #fca311;
+  border-top: 1px solid rgb(252 , 163 , 17);
 }
 
 .cartao_apresentacao {
-  background-color: #e5e5e5;
-  color: #14213d;
+  background-color: rgb(229 , 229 , 229);
+  color: rgb(20 , 33 , 61);
   display: inline-block;
   width: 500px;
   overflow: auto;
@@ -101,7 +101,7 @@ body {
 #rodape {
   clear: both;
   text-align: center;
-  background-color: #fca311;
+  background-color: rgb(252 , 163 , 17);
   position: relative;
   top: 5em;
 }
@@ -112,10 +112,10 @@ body {
 }
 
 .style_link {
-  text-decoration: #fca311;
-  color: #fca311;
+  text-decoration: rgb(252 , 163 , 17);
+  color: rgb(252 , 163 , 17);
 }
 
 .style_link:hover {
-  color: #e5e5e5;
+  color: rgb(229 , 229 , 229);
 }
