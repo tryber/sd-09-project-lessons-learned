@@ -6,6 +6,28 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: fantasy;
+  line-height: normal;
+}
+
+#navigation {
+  padding: 0 30px;
+}
+
+#navigation ul {
+  float: left;
+  padding: 5px 0;
+}
+
+#navigation li {
+  margin-right: 20px;
+  list-style-type: none;
+  display: inline;
+}
+
+#navigation li a {
+  color: white;
+  text-decoration: none;
+  font-family: fantasy;
 }
 
 #cabecalho {
