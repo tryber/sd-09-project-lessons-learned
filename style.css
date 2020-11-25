@@ -4,14 +4,13 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-size: 19px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 30px;
   font-family: Georgia, serif;
-  width: 70%;
+  width: 90%;
 }
 
-footer, nav {
+footer , nav {
   border-top: 1px gray solid;
 }
 
@@ -19,14 +18,14 @@ footer, nav {
   position: fixed;
   top: 0;
   height: 70px;
-  background-color: #d3d3d3;
+  background-color: lightgrey;
   font-size: 18px;
   padding: 20px;
   margin: 0 auto;
   width: 100%;
   text-align: center;
   border-bottom: 1px gray solid;
-  z-index:10;
+  z-index: 10;
 }
 
 li a {
@@ -46,7 +45,7 @@ nav {
 }
 
 nav a:hover {
-  background-color: #a9a9a9;
+  background-color: darkgray;
 }
 
 nav ul li {
@@ -63,32 +62,30 @@ nav ul {
 main {
   position: relative;
   top: 180px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
-    display: inline-block
+#licoes_aprendidas , #licoes_a_aprender {
+  display: inline-block
 }
 
 footer {
   position: relative;
   bottom: 0;
   top: 250px;
-  background-color: #d3d3d3;
+  background-color: lightgray;
   padding: 10px;
-}
-
-#rodape {
   width: 100vw;
 }
 
 table {
   border: 2px solid grey;
-  margin-left: 40px;
-  margin-right: 40px;
   text-align: center;
   font-size: 16px;
-  width: 900px;
-  height: 90px;
+  width: 850px;
+  height: 175px;
+  margin-bottom: 5px;
 }
 
 tr td {
@@ -101,9 +98,33 @@ tr td {
 }
 
 .table-hdivision {
-  border-bottom: 1px solid #a0a0a0;
+  border-bottom: 1px solid rgb(160 , 160 , 160);
 }
 
 .table-vdivision {
-  border-right: 1px solid #a0a0a0;
+  border-right: 1px solid rgb(160 , 160 , 160);
+}
+
+#minha_foto {
+  padding: 3px;
+  background-color: black;
+  float: left;
+  display: inline-block;
+  margin-right:30px;
+}
+
+#meu-nome {
+  font-size: 16px;
+  margin: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#tabela-conteudo {
+  float: right;
+  display: inline-block;
+}
+
+#fotoetabela {
+  width: 90%;
+  margin: auto;
 }
