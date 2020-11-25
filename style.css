@@ -46,8 +46,8 @@ td {
 
 #cabecalho {
   position: fixed;
-  top: 0.01px;
-  left: 0.01px;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: rgb(117 , 240 , 163);
   display: block;
