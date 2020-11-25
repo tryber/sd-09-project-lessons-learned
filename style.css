@@ -28,6 +28,7 @@ header {
   text-transform: uppercase;
   color: rgb(46 , 254 , 247);
   margin-top: 25px;
+  cursor: pointer;
 }
 
 
@@ -70,6 +71,7 @@ ul {
   font-family: Oxanium, cursive;
   text-transform: uppercase;
   color: rgb(46 , 254 , 247);
+  cursor: pointer;
 }
 
 #card-links {
@@ -102,6 +104,12 @@ ul {
   background-color: rgb(66 , 66 , 66);
 }
 
+#licoes_aprendidas li {
+  color: rgb(234 , 234 , 234);
+  font-family: Oxanium, cursive;
+  margin-left: 10px;
+}
+
 #licoes_a_aprender {
   float: right;
   width: 320px;
@@ -113,6 +121,11 @@ ul {
   border-radius: 15px;
   box-shadow: 10px 10px rgb(46 , 254 , 247);
   background-color: rgb(66 , 66 , 66);
+}
+
+#licoes_a_aprender li {
+  color: rgb(234 , 234 , 234);
+  font-family: Oxanium, cursive;
 }
 
 #rodape {
