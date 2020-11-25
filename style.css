@@ -47,8 +47,7 @@ body {
   top: 55px;
 }
 
-#conteudo-principal .secao .artigo, 
-#conteudo-principal .secao .passagem_trybe {
+#conteudo-principal .secao .artigo, #conteudo-principal .secao .passagem_trybe {
   background: linear-gradient(rgb( 1 , 110 , 71 ) , rgb( 0 , 163 , 103 ));
   border-radius: 30px;
   color: white;
@@ -70,8 +69,7 @@ body {
   right: 295px;
 }
 
-#conteudo-principal .secao .arame-base:after, 
-#conteudo-principal .secao .arame-base:before {
+#conteudo-principal .secao .arame-base:after, #conteudo-principal .secao .arame-base:before {
   content: '';
   background-color: black;
   border-radius: 50%;
@@ -111,6 +109,6 @@ body {
   line-height: 30px;
 }
 
-#conteudo-principal .secao .text-artigo {
+#conteudo-principal .secao .sobre_aprendizado .text-artigo, #conteudo-principal .secao .passagem_trybe .text-artigo {
   text-align: justify;
 }
