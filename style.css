@@ -55,8 +55,7 @@ body {
   left: 0;
 }
 
-#conteudo-principal .secao .lado-direito,
-#conteudo-principal .secao .lado-esquerdo {
+.lado-direito, .lado-esquerdo {
   background: linear-gradient(rgb( 1 , 110 , 71 ) , rgb( 0 , 163 , 103 ));
   border-radius: 30px;
   color: white;
@@ -64,7 +63,7 @@ body {
   height: 300px;
 }
 
-#conteudo-principal .secao .lado-esquerdo {
+.lado-esquerdo {
   margin-left: 180px;
   width: 550px;
   padding: 20px;
@@ -80,8 +79,7 @@ body {
   top: 200px;
 }
 
-#conteudo-principal .arame-base:after,
-#conteudo-principal .arame-base:before {
+.arame-base:after, .arame-base:before {
   content: '';
   background-color: black;
   border-radius: 50%;
@@ -91,44 +89,43 @@ body {
   top: -2px;
 }
 
-#conteudo-principal .secao .arame-base:after {
+.secao .arame-base:after {
   right: -3px;
 }
 
-#conteudo-principal .secao .arame-base:before {
+.secao .arame-base:before {
   left: -3px;
 }
 
-#conteudo-principal .secao .arame-um {
+.secao .arame-um {
   top: 70px;
 }
 
-#conteudo-principal .secao .arame-dois {
+.secao .arame-dois {
   bottom: 70px;
 }
 
-#conteudo-principal .secao .lado-esquerdo .text-artigo {
+.text-artigo {
+  text-align: justify;
+}
+
+.lado-esquerdo .text-artigo {
   margin-left: 10px;
 }
 
-#conteudo-principal .secao .lado-direito {
+.lado-direito {
   width: 250px;
   padding: 26px;
   float: right;
   margin-left: 3px;
 }
 
-#conteudo-principal .lado-esquerdo .text-artigo,
-#conteudo-principal .lado-direito .text-artigo {
-  text-align: justify;
-}
-
-#conteudo-principal .secao-listas {
+.secao-listas {
   clear: both;
   margin-left: 15px;
 }
 
-#conteudo-principal .secao-listas .box-lista {
+.secao-listas .box-lista {
   background-color: rgb( 242 , 242 , 242 );
   display: inline-block;
   margin-top: 20px;
@@ -136,14 +133,14 @@ body {
   max-width: 500px;
 }
 
-#conteudo-principal .secao-listas .box-lista h2 {
+.box-lista h2 {
   font-weight: 300;
   line-height: 5px;
   font-size: 20px;
   padding-left: 10px;
 }
 
-#conteudo-principal .secao-listas .box-lista .list li {
+.list li {
   display: inline-block;
   width: 91px;
   border-radius: 5px;
@@ -216,22 +213,22 @@ body {
 }
 
 #rodape h3 span {
-  font-weight: bold;
+  font-weight: 700;
 }
 
-#rodape .redes-sociais {
+.redes-sociais {
   margin-bottom: 10px;
   margin-top: 10px;
   display: inline-block;
 }
 
-#rodape .redes-sociais a {
+.redes-sociais a {
   color: white;
   font-size: 20px;
   margin-left: 10px;
 }
 
-#rodape .redes-sociais a:hover em {
+.redes-sociais a:hover em {
   color: black;
 }
 
