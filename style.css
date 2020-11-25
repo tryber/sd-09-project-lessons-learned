@@ -40,27 +40,27 @@ p{
 #minha_foto{
     border-radius: 50%;
     width: 300px;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 220px;
 }
 
 #sobre{
     display: inline-block;
     width: auto;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-bottom: 20px;
 }
 
 #github-icone{
     display: inline-block;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 #linkedin-icone{
     float: right;
     margin-top: 20px;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 #listas{
