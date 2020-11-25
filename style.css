@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Nunito', verdana, sans-serif;
+  font-family: Nunito, verdana, sans-serif;
   margin: 0;
 }
 
@@ -11,6 +11,7 @@ body {
   border-bottom: 5px solid rgb(235 , 94 , 40);
   background-color: rgb(37 , 36 , 34);
   text-shadow: 3px 3px 7px black;
+  box-shadow: 0px 1px 15px black;
 }
 
 #titulo {
@@ -62,12 +63,12 @@ body {
   box-shadow: 1px 5px 10px black;
 }
 
-#licoes_aprendidas {
+#box2 {
   display: inline;
   float: left;
 }
 
-#licoes_a_aprender {
+#box3 {
   display: inline-block;
   margin-left: 150px;
 }
@@ -99,6 +100,7 @@ body {
   color: rgb(204 , 197 , 185);
   font-weight: 800;
   text-shadow: 1px 1px 2px black;
+  box-shadow: 0px 1px 15px black;
 }
 
 .highlight-word {
