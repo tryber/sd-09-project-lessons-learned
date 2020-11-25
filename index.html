@@ -1,82 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <title>Lessons Learned - Projeto</title>
 </head>
+
 <body>
     <header id="cabecalho">
         <h1 id="titulo">Lessons Learned</h1>
+        <nav id="nav-link">
+            <a class="link" href="https://www.linkedin.com/in/ggaldino95/" target="_blank"><span id="linkedin"
+                    class=" fa fa-linkedin"></span> LinkedIn</a>
+            <a class="link" href="https://github.com/GGaldino95" target="_blank"><span id="github"
+                    class="fa fa-github"></span> GitHub</a>
+        </nav>
     </header>
-    <img src="perfil.jpg" id="minha_foto" alt="Minha foto">
-    <nav>
-        <a href="https://www.linkedin.com/in/ggaldino95/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/GGaldino95" target="_blank">GitHub</a>
-    </nav>
-    <table id="table">
-        <tr>
-            <th>Nome:</th>
-            <td>Gabriel Galdino</td>
-        </tr>
-        <tr>
-            <th>Idade:</th>
-            <td>25</td>
-        </tr>
-        <tr>
-            <th>Turma:</th>
-            <td>09</td>
-        </tr>
-    </table>
-    <section id="aprendizados">
-        <h2>Lições Aprendidas:</h2>
-        <ol id="licoes_aprendidas">
-            <li>Fundamentos do Desenvolvimento Web</li>
-            <li>Introdução - Unix & Shell</li>
-            <li>Unix & Bash</li>
-            <li>Git & GitHub - <em>O que é e pra que serve?</em></li>
-            <li>Git & GitHub - <em>Entendendo comandos</em></li>
-            <li>Fundamentos da Internet - <em>Como ela funciona?</em></li>
-            <li>HTML & CSS - Estrutura de Página</li>
-            <li>HTML & CSS - Iniciando com CSS</li>
-            <li>HTML & CSS - Seletores e Posicionamento</li>
-            <li>HTML Semântico</li>
-        </ol>
-        <h2>Lições que desejo aprender ainda:</h2>
-        <ul id="licoes_a_aprender">
-            <li>Javascript</li>
-            <li>React</li>
-            <li>Metodologias Ágeis</li>
-            <li>Redux</li>
-            <li>SQL</li>
-            <li>MongoDB</li>
-            <li>NodeJS</li>
-            <li>Frameworks</li>
-            <li>Python</li>
-            <li>Soft Skills</li>
-        </ul>
-    </section>
-
-    <article id="artigo">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod tellus neque, at rhoncus magna
-            sollicitudin ut.
-            Nam odio tellus, porttitor et sodales quis, dignissim faucibus nisl. Vestibulum facilisis, mauris nec
-            vehicula consectetur,
-            nunc ex sodales est, venenatis convallis purus nisi ut mauris. Cras tempus risus eu nibh pretium porta.
-        </p>
-    </article>
-    <aside id="aside">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod tellus neque, at rhoncus magna
-            sollicitudin ut.
-            Nam odio tellus, porttitor et sodales quis, dignissim faucibus nisl.
-        </p>
-    </aside>
+    <main id="conteudo">
+        <img src="perfil.jpg" id="minha_foto" alt="Minha foto">
+        <div id="content-box">
+            <table id="table">
+                <tr>
+                    <th>Nome:</th>
+                    <td>Gabriel <span class="highlight-word">Gal</span>dino</td>
+                </tr>
+                <tr>
+                    <th>Idade:</th>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <th>Turma:</th>
+                    <td>09</td>
+                </tr>
+            </table>
+            <h2>Trajetória - <em>A New Hope</em></h2>
+            <article id="lado-esquerdo">
+                <p>
+                    <span id="sw">Numa galáxia não muito distante...</span><br><br>
+                    Lá estava eu, começando meus estudos no curso, com um baita aperto no coração
+                    me perguntando: "Será que sou capaz?" "Vou dar conta disso?" <br>
+                    E eu só tenho a agrader por todo o suporte que a TRYBE dá para seus alunos, pois
+                    eles te deixam com a sensação de que você é capaz de tudo! <br><br>
+                    Desde como usar o Terminal até o ponto que estamos, a experiência tem sido incrível.
+                    <br><br>
+                    Tamo junto galera! <strong>#VQV</strong>
+                </p>
+            </article>
+            <aside id="lado-direito">
+                <p>
+                    <span class="highlight-word">FUN FACT:</span><br><br>
+                    Faltando uns 40 minutos pro primeiro dia de reunião da Turma 09, meu
+                    Lubuntu decidiu não funcionar e tive criar outro pendrive com Ubuntu e formatar
+                    o notebook nesse meio tempo. Pensa na adrenalina...
+                </p>
+            </aside>
+        </div>
+        <section id="aprendizados">
+            <h2>Lições Aprendidas:</h2>
+            <ol id="licoes_aprendidas">
+                <li>Fundamentos do Desenvolvimento Web</li>
+                <li>Introdução - Unix & Shell</li>
+                <li>Unix & Bash</li>
+                <li>Git & GitHub - <em>O que é e pra que serve?</em></li>
+                <li>Git & GitHub - <em>Entendendo comandos</em></li>
+                <li>Fundamentos da Internet - <em>Como ela funciona?</em></li>
+                <li>HTML & CSS - Estrutura de Página</li>
+                <li>HTML & CSS - Iniciando com CSS</li>
+                <li>HTML & CSS - Seletores e Posicionamento</li>
+                <li>HTML Semântico</li>
+            </ol>
+            <h2>Lições que desejo aprender ainda:</h2>
+            <ul id="licoes_a_aprender">
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Metodologias Ágeis</li>
+                <li>Redux</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>NodeJS</li>
+                <li>Frameworks</li>
+                <li>Python</li>
+                <li>Soft Skills</li>
+            </ul>
+        </section>
+    </main>
     <footer id="rodape">
-        <em>Webiste desenvolvido por Gabriel Galdino. Todos os direitos reservados.</em>
+        Webiste desenvolvido por <span class="highlight-word">Gabriel Galdino</span> como projeto do curso Desenvolvimento Web Full-Stack.
+        Todos os direitos reservados <span class="highlight-word">©</span>.
     </footer>
 </body>
 </html>

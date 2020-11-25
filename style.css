@@ -6,10 +6,12 @@ body {
 
 h2 {
   font-family: verdana, sans-serif;
+  margin-top: 30px;
   font-weight: 700;
   line-height: 1.2;
   font-size: 24px;
   color: rgb(64 , 61 , 57);
+  text-shadow: 1px 1px 1px rgb(37 , 36 , 34);
 }
 
 #cabecalho {
@@ -30,15 +32,52 @@ h2 {
   color: rgb(204 , 197 , 185);
 }
 
+#nav-link {
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.link {
+  margin-right: 75px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(204 , 197 , 185);
+}
+
+.link:hover {
+  color: rgb(235 , 94 , 40);
+}
+
+#linkedin {
+  font-size: 25px;
+}
+
+#github {
+  font-size: 25px;
+}
+
+#conteudo {
+  margin: 15px;
+  padding-top: 100px;
+}
+
 #minha_foto {
+  float: left;
   padding: 1px;
   border: 10px solid rgb(235 , 94 , 40);
   border-radius: 25px;
   box-shadow: 1px 5px 13px black;
 }
 
+#content-box {
+  margin: 5px;
+  padding-bottom: 1px;
+  padding-left: 475px;
+}
+
 #table {
-  margin-top: 20px;
+  margin-top: 0;
   padding: 10px;
   font-size: 20px;
   border: 5px solid rgb(235 , 94 , 40);
@@ -46,17 +85,39 @@ h2 {
   box-shadow: 1px 5px 10px black;
 }
 
-#artigo {
+#sw {
+  padding: 7px;
+  border: hidden;
+  border-radius: 7px;
+  background-color: rgb(64 , 61 , 57);
+  color: lightblue;
+  font-style: italic;
+  text-shadow: 1px 1px 2px black;
+  box-shadow: 1px 3px 5px black;
+}
+
+#lado-esquerdo {
   float: left;
+  margin-bottom: 40px;
+  width: 50%;
   text-align: justify;
 }
 
-#aside {
+#lado-direito {
   float: right;
-  padding: 10px;
+  margin-top: 30px;
+  margin-right: 60px;
+  margin-bottom: 300px;
+  width: 35%;
+  padding: 15px;
   text-align: justify;
+  font-style: italic;
   border: 1px solid rgb(235 , 94 , 40);
   border-radius: 25px;
+}
+
+#aprendizados {
+  display: inline-block;
 }
 
 #rodape {
@@ -67,6 +128,12 @@ h2 {
   padding: 10px;
   color: rgb(204 , 197 , 185);
   font-weight: 800;
+  font-style: italic;
   text-shadow: 1px 1px 2px black;
   box-shadow: 0 1px 15px black;
+}
+
+.highlight-word {
+  color: rgb(235 , 94 , 40);
+  font-weight: 800;
 }
