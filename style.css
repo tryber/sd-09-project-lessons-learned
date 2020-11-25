@@ -1,18 +1,15 @@
-a:active {
-  color: red;
-}
-
-a:hover, a:focus {
-  color: aquamarine;
-}
-
-a:link, a:visited {
-  color: aliceblue;
+a {
+  color: darkcyan;
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: #FDFBFB;
   margin-top: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+em {
+  font-weight: bold;
 }
 
 h1 {
@@ -24,23 +21,34 @@ h1 {
   position: fixed;
   background-color: darkcyan;
   width: 100%;
-  text-align: center;
+}
+
+#linkedin {
+  width: 40px;
 }
 
 #minha_foto {
   margin-top: 130px;
 }
 
+#navegacao {
+  color: darkcyan;
+  font-size: 20px;
+  background-color: aquamarine;
+  padding-bottom: 5px 0;
+
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#navegacao li {
+  display: inline;
+}
+
 #rodape {
   background-color: darkcyan;
   padding: 6px;
   color: aliceblue;
-}
-
-#texto_cabecalho {
-  color: aliceblue;
-}
-
-em {
-  font-weight: bold;
 }

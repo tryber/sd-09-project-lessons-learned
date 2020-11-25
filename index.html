@@ -4,53 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Projeto HTML & CSS | Cleber Teixeira</title>
 </head>
 <body>
 
-    <header id="cabecalho">
-        <h1 id="titulo">Primeiro Projeto | HTML & CSS - Trybe! 🚀</h1>
-        <h3 id="texto_cabecalho">Saiba mais sobre a <a href="https://blog.betrybe.com/" target="_blank" rel="noopener noreferrer">Trybe</a></h3>
-    </header>
+  <header id="cabecalho">
+    <section>
+      <h1 id="titulo">Primeiro Projeto | HTML & CSS - Trybe! 🚀</h1>
+    </section>
+      <nav id="navegacao">
+        <ul>
+          <li>
+            <img id="linkedin" src="https://edugoldcareers.files.wordpress.com/2013/07/linkedin-icon20small.png">
+            <a href="https://www.linkedin.com/in/cleberlopesteixeira/">Cleber Lopes Teixeira</a>
+          </li>
+          <li>|</li>
+          <li>Saiba mais sobre a <a href="https://blog.betrybe.com/" target="_blank" rel="noopener noreferrer">Trybe</a></li>
+        </ul>
+      </nav>
+  </header>
 
-    <img id="minha_foto" src="https://avatars1.githubusercontent.com/u/72811671?s=460&u=34008ff57b6cc2524ae87a154c1fe70ef90abe5c&v=4" alt="Cleber Teixeira - Turma 09">
+  <main>
+    <section>
+      <img id="minha_foto" src="https://avatars1.githubusercontent.com/u/72811671?s=460&u=34008ff57b6cc2524ae87a154c1fe70ef90abe5c&v=4" alt="Cleber Teixeira - Turma 09">
+    <table>
+      <tr>
+        <th>Lições aprendidas:</th>
+        <th>Lições a aprender:</th>
+      </tr>
+      <tr>
+        <td>
+          <ol id="licoes_aprendidas">
+                <li>Zoom</li>
+                <li>Linux</li>
+                <li>Unix</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Slack</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Inteligência Emocional</li>
+                <li>Empatia</li>
+            </ol>
+        </td>
+        <td>
+          <ul id="licoes_a_aprender">
+            <li>JavaScript</li>
+            <li>Lógica de Programação</li>
+            <li>Algoritmos</li>
+            <li>DOM</li>
+            <li>JavaScript ES6</li>
+            <li>Testes automatizados com Jest</li>
+            <li>React</li>
+            <li>Formulários com React</li>
+            <li>Metodologias Ágeis</li>
+            <li>+ Soft Skills</li>
+        </ul>
+        </td>
+      </tr>
+    </table>
 
-    <h2>Lições aprendidas:</h2>
-
-    <ol id="licoes_aprendidas">
-        <li>Zoom</li>
-        <li>Linux</li>
-        <li>Unix</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Slack</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Inteligência Emocional</li>
-        <li>Empatia</li>
-    </ol>
-
-    <h2>Lições a aprender:</h2>
-
-    <ul id="licoes_a_aprender">
-        <li>JavaScript</li>
-        <li>Lógica de Programação</li>
-        <li>Algoritmos</li>
-        <li>DOM</li>
-        <li>JavaScript ES6</li>
-        <li>Testes automatizados com Jest</li>
-        <li>React</li>
-        <li>Formulários com React</li>
-        <li>Metodologias Ágeis</li>
-        <li>+ Soft Skills</li>
-    </ul>
-
-    <article>
-      <h2>Minha experiência com a Trybe</h2>
-      <p>
-          Minha experiência junto a Trybe tem sido muito incrível, intenso, motivador, inspirador e muito rico. Aqui você não aprende somente o conteúdo técnico necessário para o mercado de trabalho, aprendemos valores de soft skills muito importantes e que agregam muito para nosso crescimento enquanto pessoas, e desta forma temos um ensino completo que nos prepara não só para o mercado como também para vida. <em>Esta é a Trybe!</em> 😎👍
-      </p>
-    </article>
+      <article>
+        <h2>Minha experiência com a Trybe</h2>
+        <p>
+            Minha experiência junto a Trybe tem sido muito incrível, intenso, motivador, inspirador e muito rico. Aqui você não aprende somente o conteúdo técnico necessário para o mercado de trabalho, aprendemos valores de soft skills muito importantes e que agregam muito para nosso crescimento enquanto pessoas, e desta forma temos um ensino completo que nos prepara não só para o mercado como também para vida. <em>Esta é a Trybe!</em> 😎👍
+        </p>
+      </article>
+    </section>
 
     <aside>
       <h2>Minha evolução com HTML & CSS</h2>
@@ -60,5 +80,6 @@
     </aside>
 
     <footer id="rodape"><em>Todos os direitos reservados, Cleber Lopes Teixeira | Trybe - Turma 09</em> ✌️🚀</footer>
+  </main>
 </body>
 </html>
