@@ -111,9 +111,10 @@ nav ul li {
 #tabela {
   border: 1px solid red;
   background-color: rgb(132 , 175 , 132);
-  width: 50%;
-  height: auto;
-  float: right;
-  padding-bottom: 5em;
+  width: 400px;
+  height: 100px;
+  /* float: right; */
+  display: block;
+  /* padding-bottom: 5em; */
   align-items: stretch;
 }
