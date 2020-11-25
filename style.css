@@ -18,6 +18,7 @@ header {
     height: 15vh;
     position: fixed;
     background-color: rgb( 22 , 75 , 80 );
+    top: 0;
 }
 
 #titulo {
