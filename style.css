@@ -2,6 +2,18 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+head {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
 #titulo {
   font-family: sans-serif;
   top: 0;
@@ -13,6 +25,10 @@ body {
   text-align: center;
   padding: 50px;
 
+}
+
+#titulo {
+  font-size: 25%;
 }
 
 #minha_foto {
