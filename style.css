@@ -59,6 +59,7 @@ h2 {
 #licoes_a_aprender {
   line-height: 25px;
   font-weight: 500;
+  margin-right: 300px;
 }
 
 #licoesNovas {
@@ -69,7 +70,14 @@ article {
   border: dashed;
   text-align: left;
   clear: both;
-  padding-right:50%;
+}
+
+#meuAprendizado {
+  display: inline-block;
+  border: dashed;
+  text-align: center;
+  width: 60%;
+  margin-left: 10px;
 }
 
 #victor {
