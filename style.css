@@ -2,12 +2,6 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
-head {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
 footer {
   position: fixed;
   bottom: 0;
@@ -18,7 +12,7 @@ footer {
   background-color: teal;
   top: 0;
   text-align: center;
-  padding: 50px;
+  padding: 20px;
 
 }
 
