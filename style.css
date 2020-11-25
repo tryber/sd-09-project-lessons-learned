@@ -8,7 +8,7 @@ body {
   color: rgb(18 , 20 , 22);
 }
 
-.container, #logo img {
+.container , #logo img {
   position: relative;
   width: 100%;
   padding: 0;
@@ -40,7 +40,7 @@ a:hover {
   text-decoration: underline;
 }
 
-a:visited, table a:hover {
+a:visited , table a:hover {
   text-decoration: none;
 }
 
@@ -113,13 +113,13 @@ header .container {
   padding-left: 8px;
 }
 
-#text-info a, #section-name #name a:hover {
-  color: white;
-}
-
 #section-name #name a {
   color: rgb(184 , 182 , 182);
   padding-left: 5px;
+}
+
+#text-info a , #section-name #name a:hover {
+  color: white;
 }
 
 #section-name #capital {
