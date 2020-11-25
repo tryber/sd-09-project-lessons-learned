@@ -32,8 +32,7 @@ body {
   color: rgb(76 , 164 , 107);
 }
 
-#licoes_aprendidas,
-#licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   line-height: 1.3;
 }
 
