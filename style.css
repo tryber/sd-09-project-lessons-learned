@@ -9,7 +9,7 @@ body {
   position: fixed;
   top: 0;
   color: rgb(59, 134 , 134);
-  background-color: rgb(168, 219 , 168);
+  background-color: rgb(168 , 219 , 168);
   width: 100%;
   padding: 10px;
   font-size: 20px;
@@ -34,12 +34,12 @@ body {
 
 main {
   width: 80%;
-  padding: 10px; 
+  padding: 10px;
 }
 
 footer {
   width: 100%;
-  padding: 10px 10px;
-  background-color: rgb(241, 241 , 231);
+  padding: 10px;
+  background-color: rgb(241 , 241 , 231);
   display: inline-block;
 }
