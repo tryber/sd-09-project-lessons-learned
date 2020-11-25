@@ -8,6 +8,27 @@ body {
   font-family: fantasy;
 }
 
+#navigation {
+  margin: 10px;
+}
+
+#navigation ul {
+}
+
+#navigation li {
+  margin-left: 40px;
+  list-style-type: none;
+  display: inline;
+  float: left;
+  font-family: fantasy;
+}
+
+#navigation li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 #cabecalho {
   top: 0px;
   background-color: rgb(10, 126, 81);
@@ -18,13 +39,18 @@ body {
 }
 
 #section-foto {
+  margin-top: 20px;
   margin-left: 20px;
 }
 
-#minha-foto {
+#minha_foto {
   width: 300px;
   margin-top: 20px;
   border-radius: 50%;
+}
+
+#section-foto p {
+  margin-left: 100px;
 }
 
 #main-content {
