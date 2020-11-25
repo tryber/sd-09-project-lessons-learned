@@ -26,14 +26,17 @@ td{
 }
 
 #licoes_a_aprender {
-
+  align-self: center;
+  font-size: 14px;
 }
 
 #licoes_aprendidas {
-
+  align-self: center;
+  font-size: 14px;
 }
 
 #minha_foto {
+  margin: 20px;
   width: 8%;
   float: left;
 }
@@ -55,23 +58,32 @@ td{
   margin-right: 30px;
 }
 
-.lado-esq {
+.align-main{
+  display: inline-block;
+  margin-top: 150px;
+}
+.lado-esquerdo {
   width: 30%;
   margin: 20px;
   border: 1px dotted rgb(65 , 122 , 73);
   background-color: blanchedalmond;
-  display: inline-block;
   text-align: center;
   padding: 20px;
-  float: left;
 }
 
-.lado-dir {
+.lado-direito {
   width: 30%;
   margin: 20px;
-  text-align: justify;
+  text-align: center;
   border: 1px dotted rgb(65 , 122 , 73);
   background-color: blanchedalmond;
-  display: inline-block;
+  padding: 20px;
+}
+
+.meio{
+  width: 30%;
+  margin: 20px;
+  border: 1px dotted rgb(65 , 122 , 73);
+  background-color: blanchedalmond;
   padding: 20px;
 }
