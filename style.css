@@ -1,68 +1,122 @@
+
+article, aside{
+  width: 30%;
+}
+
+body {
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: rgb(253 , 251 , 251);
+}
+
+h1, h2 {
+  margin-top: 0%;
+  letter-spacing: 2px;
+}
+
+footer p{
+  margin: 0%;
+}
+
 main a {
-  text-decoration: none;
+  color: rgb(31 , 31 , 31);  
   display: block;
   font-size: 1.5em;
-  background-color: seagreen;
-  margin: 0%;
-  color: black;
-}
-ul a{
+  margin: 0%;  
   text-decoration: none;
-  color: black;
-}
-body {
-  font-family: 'Noto Sans JP', sans-serif;
-  color: black;
-  background-color: rgb(253 , 251 , 251);
-  height: 768px;
-  width: 1366px;
-}
-
-header h1 {
-  margin-top: 0%;
-}
-
-#navegacao {
-  position: absolute;
-  top: 0%;
 }
 
 nav ul li {
   display: inline;
-  padding: 0px 25px;
+  padding: 0px 10px;
 }
 
-article{
-  display: inline-block;
+ul a{
+  color: rgb(31 , 31 , 31);
+  text-decoration: none;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0%;
-  width: 1366px;
-}
-
-#titulo {
-  text-align: center;
-  background-color: seagreen;
-}
-
-#licoes {
-  background-color: salmon;
+  left: 0%;
+  right: 0%;
+  top: 0%;  
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
-  display: inline-block;
-  width: 40%;
+  margin: 2% 25%;
+  text-align: justify;
 }
 
 #minha_foto {
-  box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 8px 2px rgba(0 , 0 , 0 , 0.2);
   border-radius: 30px;
-  width: 300px;
+  margin-top: 15px;
+  width: 265px;
+}
+
+#navegacao {
+  left: 15%;
+  position: absolute;
+  top: 0%;
+}
+
+#rodape {
+  height: 20px ;
+  padding: 20px;
+  text-align: center;
+}
+
+#titulo {
+  background-color: rgb(33 , 148 , 33);
+  box-shadow: 0 0 10px 0 rgba(0 , 0 , 0 , 0.5);
+  text-align: center;
+  width: 100%;
+}
+
+.art-title {
+  margin: 0px;
+  text-align: center;
 }
 
 .imgbox {
+  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
+  margin: 55px auto 0px auto;
+  padding: 0px 55px;
+  width: 60%;
   text-align: center;
-  margin: 60px auto 25px auto;
+}
+
+.lado-direito {
+  box-shadow: 2px 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 25px;
+  text-align: justify;
+  vertical-align: top;  
+}
+
+.lado-esquerdo{
+  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 25px;
+  text-align: justify;
+  vertical-align: top;
+}
+
+.licoes {
+  display: inline-block;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 5px 25px;
+  text-align: justify;
+}
+
+.more-info{
+  margin: 0%;
+  text-align: center;
+  padding-top: 12px;
 }
