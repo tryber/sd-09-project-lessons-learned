@@ -9,3 +9,14 @@ body {
   padding: 18px;
 
 }
+
+#minha_foto{
+  border-radius: 35%;
+  width: 300px;
+  position: relative;
+  display: block;
+  margin-bottom: 100px;
+  top: 80%;
+
+
+}
