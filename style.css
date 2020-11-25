@@ -50,27 +50,37 @@ main {
   margin-top: 150px;
 }
 
+main figure , main section , main table {
+  display: inline-block;
+  width: 23%;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+main figure , main section {
+  margin-right: 2%;
+}
+
 img {
-  max-width: 13%;
+  max-width: calc(100% - 4px);
   height: auto;
-  margin-left: 50px;
-  margin-right: 20px;
   border-radius: 100%;
   border: 2px solid rgb(15 , 163 , 107);
+}
+
+figcaption {
+  text-align: center;
 }
 
 p {
   line-height: 1.5;
 }
 
-main ul , main ol , table {
-  display: inline-block;
-  width: 15%;
-}
-
 .lado-esquerdo , .lado-direito {
   display: inline-block;
   width: 74%;
+  margin-bottom: 50px;
 }
 
 .lado-direito {
