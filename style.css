@@ -2,7 +2,30 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+#profile-pic {
+   border-radius: 50%;
+   width: 200px;
+}
+
 #id {
   top: 0;
   position: fixed;
 }
+
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+article {
+  width: 50%;
+}
+
