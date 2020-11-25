@@ -18,9 +18,13 @@ p {
 
 }
 
+#licoes_a_aprender {
+  font-family: monospace;
+  color: teal;
+
+}
 #licoes_aprendidas {
   line-height: 20px;
-  font-family: fantasy;
 
 }
 
