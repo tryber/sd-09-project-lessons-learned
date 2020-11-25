@@ -8,12 +8,12 @@ body {
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    color: rgba(0 , 0 , 0 , 0.9);
+    color: rgba(0 , 0 , 0 , 0.85);
 }
 
 h2, h3 {
     margin: 10px auto;
-    color: #44a9a7;
+    color: #334f54;
     font-weight: bold;
 }
 
@@ -25,7 +25,7 @@ h3 {
     font-size: 24px;
 }
 
-p, li {
+p, li, th, td {
     font-size: 20px;
     line-height: 30px;
 }
@@ -39,7 +39,7 @@ li {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #334f54;
+    background-color: #44a9a7;
     color: rgb(253 , 251 , 251);
     text-align: center;
     padding: 10px;
@@ -109,5 +109,17 @@ footer {
     margin: 10px auto;
     padding: 10px;
     clear: both;
+}
 
+table {
+    margin: 10px auto;
+    width: 80%;
+}
+
+table th {
+    background-color: #44a9a7;
+}
+
+table td {
+    background-color: #ffd781;
 }
