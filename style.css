@@ -47,7 +47,8 @@ body {
   top: 55px;
 }
 
-#conteudo-principal .secao .artigo, #conteudo-principal .secao .passagem_trybe {
+#conteudo-principal .secao .lado-direito, 
+#conteudo-principal .secao .lado-esquerdo {
   background: linear-gradient(rgb( 1 , 110 , 71 ) , rgb( 0 , 163 , 103 ));
   border-radius: 30px;
   color: white;
@@ -69,7 +70,8 @@ body {
   right: 295px;
 }
 
-#conteudo-principal .secao .arame-base:after,#conteudo-principal .secao .arame-base:before {
+#conteudo-principal .arame-base:after, 
+#conteudo-principal .arame-base:before {
   content: '';
   background-color: black;
   border-radius: 50%;
@@ -99,7 +101,7 @@ body {
   margin-left: 10px;
 }
 
-#conteudo-principal .secao .passagem_trybe {
+#conteudo-principal .secao .lado-direito {
   padding: 18px;
   width: 250px;
 }
@@ -109,6 +111,7 @@ body {
   line-height: 30px;
 }
 
-.sobre_aprendizado .text-artigo,.passagem_trybe .text-artigo {
+.sobre_aprendizado .text-artigo,
+.passagem_trybe .text-artigo {
   text-align: justify;
 }
