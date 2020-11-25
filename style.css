@@ -41,14 +41,14 @@ aside {
   display: inline-block;
   width: 45%;
   vertical-align: text-top;
-  margin:10px;
+  margin: 10px;
 }
 
 .lado-direito {
   display: inline-block;
   width: 45%;
   vertical-align: text-top;
-  margin:10px;
+  margin: 10px;
 }
 
 .container {
@@ -59,4 +59,9 @@ aside {
 .nav_bar li {
   display: inline;
   margin: 40px;
+}
+
+table {
+  text-align: center;
+  margin: auto;
 }
