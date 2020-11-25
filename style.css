@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   font-family: Georgia, Courier, monospace;
 }
 
@@ -28,7 +28,14 @@ table, th, td {
   border-collapse: collapse;
 }
 
-th, td {
+th {
+  padding: 10px;
+  height: 30px;
+  font: bold;
+  color: blue;
+}
+
+td {
   padding: 10px;
   height: 30px;
 }
@@ -38,7 +45,7 @@ th, td {
   top: 0px;
   left: 0px;
   width: 100%;
-  background-color: rgb(117, 240, 163);
+  background-color: rgb(117 , 240 , 163);
   display: block;
   text-align: center;
 }
