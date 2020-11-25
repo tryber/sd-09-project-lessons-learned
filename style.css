@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -112,11 +113,6 @@ body {
   margin-left: 3px;
 }
 
-.titulo-article {
-  font-size: 1.2em;
-  line-height: 30px;
-}
-
 #conteudo-principal .lado-esquerdo.text-artigo, 
 #conteudo-principal .lado-direito .text-artigo {
   text-align: justify;
@@ -124,4 +120,64 @@ body {
 
 #conteudo-principal .secao-listas {
   clear: both;
+}
+
+#conteudo-principal .secao-listas .box-lista {
+  background-color: rgb( 242 , 242 , 242 );
+  display: inline-block;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+#conteudo-principal .secao-listas .box-lista h2 {
+  font-weight: 300;
+  line-height: 5px;
+  font-size: 20px;
+}
+
+#conteudo-principal .secao-listas .box-lista .list li {
+  display: inline-block;
+  width: 91px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+#licoes_aprendidas li {
+  border: 1px solid;
+  border-color: rgb( 1 , 112 , 72 );
+  transition: 0.5s;
+}
+
+#licoes_aprendidas a {
+  color: rgb( 1 , 112 , 72 );
+}
+
+#licoes_aprendidas a:hover li {
+  background-color: rgb( 1 , 112 , 72 );
+  color: white;
+}
+
+#licoes_a_aprender li {
+  border: 1px solid;
+  border-color: rgb( 67 , 66 , 66 );
+}
+
+#licoes_a_aprender li > a{
+  color: rgb( 67 , 66 , 66 );
+}
+
+.titulo-article {
+  font-size: 1.2em;
+  line-height: 30px;
+}
+
+.green-color {
+  color: rgb( 1 , 112 , 72 );
+}
+
+.gray-color {
+  color: rgb( 67 , 66 , 66 );
 }
