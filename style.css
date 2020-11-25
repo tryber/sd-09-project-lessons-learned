@@ -13,13 +13,13 @@ html {
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   max-width: 1366px;
 }
 
 header {
-  top: 0px;
-  background-color: rgb(40, 40, 40);
+  top: 0;
+  background-color: rgb(40 , 40 , 40);
   color: aliceblue;
   z-index: 1;
 }
@@ -45,7 +45,7 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(40 , 40 , 40);
   display: inline-flex;
 }
 
@@ -58,7 +58,7 @@ nav {
 }
 
 #menu li a:hover {
-  background-color: rgb(1, 1, 1);
+  background-color: rgb(1 , 1 , 1);
 }
 
 #aluno_trybe {
@@ -70,6 +70,27 @@ nav {
   margin-top: 220px;
   margin-left: 400px;
   width: 60%;
+}
+
+.lado-esquerdo h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.lado-direito h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.modulos h3 {
+  display: block;
+  clear: both;
+  margin-top: 50px;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 50px;
 }
 
 #aluno_trybe h3 {
@@ -89,7 +110,7 @@ nav {
   border-radius: 50%;
   margin-top: 180px;
   margin-left: 70px;
-  border: 5px solid rgb(40, 40, 40);
+  border: 5px solid rgb(40 , 40 , 40);
 }
 
 #licoes {
@@ -128,12 +149,6 @@ nav {
   text-align: justify;
 }
 
-.lado-esquerdo h3 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
 .lado-direito {
   position: relative;
   float: right;
@@ -142,51 +157,34 @@ nav {
   text-align: justify;
 }
 
-.lado-direito h3 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
 table {
   margin-top: 30px;
   margin-right: 20px;
   margin-bottom: 10px;
-  border: 2px solid rgb(40, 40, 40);
+  border: 2px solid rgb(40 , 40 , 40);
   font-size: 1.6rem;
   width: 100%;
 }
-.modulos h3 {
-  display: block;
-  clear: both;
-  margin-top: 50px;
-}
 
 table th {
-  border: 2px solid rgb(40, 40, 40);
+  border: 2px solid rgb(40 , 40 , 40);
   padding: 10px;
   width: 50%;
-  color: rgb(253, 251, 251);
-  background-color: rgb(40, 40, 40);
+  color: rgb(253 , 251 , 251);
+  background-color: rgb(40 , 40 , 40);
 }
 
 table td {
-  border: 2px solid rgb(40, 40, 40);
+  border: 2px solid rgb(40 , 40 , 40);
   padding: 20px;
-}
-
-.modulos h3 {
-  font-size: 2.5rem;
-  text-align: center;
-  padding-top: 50px;
 }
 
 #rodape {
   margin-top: 50px;
   padding: 2.5rem;
   text-align: center;
-  background-color: rgb(40, 40, 40);
-  color: rgb(138, 138, 138);
+  background-color: rgb(40 , 40 , 40);
+  color: rgb(138 , 138 , 138);
   font: 1.2rem monospace italic small-caps 800;
   line-height: 1;
   display: flex;
