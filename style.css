@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  margin-top: 0px;
+  margin: 0.1px 0.1px 0.1px 0.1px;
 }
 #cabecalho {
   background-color: rgb(89 , 238 , 43);
@@ -18,8 +18,8 @@ body {
   color: rgb(27, 163 , 9);
 }
 #rodape {
-  background-color: rgb(89 , 238 , 43);  
-  margin-bottom: 00.1px;
+  background-color: rgb(89 , 238 , 43);
+  width: 100%;
 }
 .link {
   text-align: center;
