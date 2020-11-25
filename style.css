@@ -40,12 +40,14 @@ body {
   width: 50%;
   text-align: justify;
   border: 2px solid;
+  float: left;
 }
 
 #aside {  
-  width: 50%;
+  width: 40%;
   text-align: justify;
   border: 2px solid black;
+  float: right;
 }
 
 #rodape {
@@ -57,6 +59,7 @@ body {
   font-family: fantasy, sans-serif;
   font-weight: 525;
   font-style: oblique;
+  clear: both;
 }
 
 .caixas{ 
