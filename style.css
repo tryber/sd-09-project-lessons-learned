@@ -108,6 +108,8 @@ ul {
   margin-top: -360px;
   margin-right: 20px;
   padding: 25px;
+  list-style: none;
+  text-align: justify;
   border-radius: 15px;
   box-shadow: 10px 10px rgb(46 , 254 , 247);
   background-color: rgb(66 , 66 , 66);
