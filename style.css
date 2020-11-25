@@ -1,37 +1,32 @@
 body{
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   font-family: Montserrat, sans-serif;
   font-size: 14px;
   margin: 0;
   color: black;
   line-height: 20px;
 }
-
 #cabecalho{
   position: fixed;
-  top: 0px;
+  top: 0;
   height: 6em;
   background-color: #fca311;
   width: 100%;
   z-index: 2;
 }
-
 #perfil{
   overflow: auto;
   padding-bottom: 200px;
 }
-
 .fundos_secoes{
   background-color: #14213d;
-  color:white;
+  color: white;
   padding: 50px;
 }
-
 .exceto_secoes{
   margin: 15px;
   border: 1px solid #fca311;
 }
-
 #artigo{
   text-align: center;
   overflow: auto;
@@ -39,7 +34,6 @@ body{
   height: 120px;
   width: 50%;
 }
-
 #aside_breve_passagem{
   text-align: center;
   display: inline-block;
@@ -47,31 +41,25 @@ body{
   height: 120px;
   width: 30%;
 }
-
 .listas{
   text-decoration: none;
   list-style: none;
 }
-
 .listas li{
   display: inline-block;
 }
-
 #conteudo{
   padding-top: 100px;
   top: 4.5em;
 }
-
 #navegacao{
   background-color: #fca311;
   text-align: center;
 }
-
 #titulo{
   text-align: start;
   margin-left: 3em;
 }
-
 #minha_foto{
   height: 10em;
   object-fit: cover;
@@ -81,15 +69,12 @@ body{
   padding: 2px;
   left: 5%;
 }
-
 #licoes_aprendidas{
   border-top: 1px solid #fca311;
 }
-
 #licoes_a_aprender{
   border-top: 1px solid #fca311;
 }
-
 .cartao_apresentacao{
   background-color: #e5e5e5;
   color: #14213d;
@@ -97,7 +82,6 @@ body{
   width: 500px;
   overflow: auto;
 }
-
 #rodape{
   clear: both;
   text-align: center;
@@ -105,17 +89,14 @@ body{
   position: relative;
   top: 5em;
 }
-
 .links_logos{
   object-fit: cover;
   padding: 10px;
 }
-
 .style_link{
   text-decoration: #fca311;
   color: #fca311;
 }
-
 .style_link:hover{
   color: #e5e5e5;
 }
