@@ -81,7 +81,7 @@ nav ul li {
 #esq_dir {
   display: flex;
   background-color: burlywood;
-  width: 70%;
+  width: 60%;
   padding: 15px;
 }
 
@@ -97,7 +97,7 @@ nav ul li {
 
 .lado_direito * {
   display: inline-block;
-  width: 200PX;
+  width: 200px;
   padding: 10px;
   margin: 15px;
 }
