@@ -10,11 +10,60 @@ body {
 
 header {
     width: 100%;
-    height: 50px;
+    height: 15vh;
     position: fixed;
-    background-color: #008388f2;
+    background-color: #008388;
 }
 
-header h1{
-    color: rgb(0, 0, 0);
+#titulo {
+    width: 600px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.navegacao {
+    color: aliceblue;
+    width: 150px;
+    height: 15px;
+    float: right;
+    margin-right: 200px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+main img{
+    margin-top: 140px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+
+.listas {
+    width: 100%;
+    height: 40vh;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+.lista-ordenada {
+    margin-bottom: 30px;
+}
+
+.artigo {
+    width: 100%;
+    height: 50vh;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+
+.aprendizado {
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #008388;
+    width: 100%;
+    height: 10vh;
 }
