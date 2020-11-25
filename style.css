@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 body {
@@ -42,27 +42,21 @@ body {
   margin: 32px;
   width: 20%;
   display: inline-block;
-  
 }
 
 #lista_licoes_a_aprender {
   width: 20%;
   display: inline-block;
-  
 }
 
-#rodape{
-  background-color: rgb(240 , 230 , 230);  
+#rodape {
+  background-color:rgb(240 , 230 , 230);  
   text-align: center;
   border-top: 2px solid black;
   width: 100%;
 }
-#artigo_barra_lateral{
-  width: 100%;
-  text-align: center;
-}
 
-#artigo_aprendizado{
+#artigo_aprendizado {
   width: 40%;
   margin: 20px;
   padding: 20px;
@@ -71,7 +65,7 @@ body {
   text-align: left;
 }
 
-#experiencia{
+#experiencia {
   width: 22%;
   margin: 20px;
   padding: 20px;
