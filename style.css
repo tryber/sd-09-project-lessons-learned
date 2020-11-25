@@ -62,6 +62,10 @@ ul {
   box-shadow: 20px 15px 10px rgb(56 , 56 , 56);
 }
 
+#hero-card p {
+  text-align: center;
+}
+
 #minha_foto {
   position: absolute;
   left: 160px;
