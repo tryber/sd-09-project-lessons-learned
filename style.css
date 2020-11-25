@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
 body {
   background-color: rgb(253 , 251 , 251);
 }
@@ -10,6 +16,7 @@ body {
   position: fixed;
   text-align: center;
   top: 0;
+  padding: 16px;
   width: 100%;
   background-color: rgb(240 , 230 , 230);
   border-bottom: 2px solid black;
@@ -25,20 +32,38 @@ body {
 }
 
 .lista {
-  display: flex;
-  
+  float: left;  
+  padding: 32px;
+  width: 60%;  
 }
 
 #lista_licoes_aprendidas {
-  width: 50%;
-  margin-left: 200px;
+ width: 40%;
+ display: inline-block;
+ margin-left: 50px;
+ 
+}
+
+#lista_licoes_a_aprender {
+ margin-left: 50px;
+ width: 40%;
+ display: inline-block;
+ 
 }
 
 #rodape{
   position: fixed;
+  bottom: 0;
+  background-color: rgb(240 , 230 , 230);  
   text-align: center;
-  bottom: 40px;
-  right: 0;
-  width: 100%;
   border-top: 2px solid black;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+#experiencia{
+    margin-top: 70px;
+    margin-right: 100px;
+    float: right;
+    width: 20%;
 }
