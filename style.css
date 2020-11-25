@@ -3,8 +3,8 @@ body {
 }
 
 #profile-pic {
-   border-radius: 50%;
-   width: 200px;
+  border-radius: 50%;
+  width: 200px;
 }
 
 #id {
@@ -19,12 +19,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 #article {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 article {
   width: 50%;
 }
