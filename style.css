@@ -1,7 +1,10 @@
 body {
         background-color: rgb(253 , 251 , 251);
         position: relative;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:grey;
+        font-size: 22px;
+        line-height: 30px;
         
 }
 
@@ -29,16 +32,19 @@ body {
      
 artigo_principal{
         float:right;
-        width: 10px;
+        width: 200px
         padding-right: 0%;
 }
+
 sessao_de_aprendizado{
         border: dotted;
         margin: 20px 30px;  
         float:left;
-        padding-left: 0%;
+        width: 200px;
         
 }
+
+
 
 h1{
         font-size: xx-large;
@@ -49,3 +55,5 @@ h1{
 footer{
         border: dotted;
 }
+
+div{ width: 500px;}

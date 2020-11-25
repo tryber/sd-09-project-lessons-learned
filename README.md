@@ -1,6 +1,6 @@
-A página deve possuir pelo menos um link externo	heavy_multiplication_x
-Adicione uma tabela à páginaA página deve possuir uma lista de lições aprendidas	heavy_multiplication_x
-Crie uma seção que conta uma passagem sobre seu aprendizado	heavy_multiplication_x
+168-? -A página deve possuir pelo menos um link externo	heavy_multiplication_x
+152 -Adicione uma tabela à páginaA página deve possuir uma lista de lições aprendidas	heavy_multiplication_x
+178-Crie uma seção que conta uma passagem sobre seu aprendizado	heavy_multiplication_x
 Altere atributos relacionados as fontes
 Faça com que seu artigo e seção sobre aprendizados fiquem um ao lado do outro
 Seu site deve passar sem problemas na verificação de semântica do site achecker
