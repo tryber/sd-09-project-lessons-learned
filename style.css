@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
 }
 
@@ -101,7 +101,7 @@ img {
   margin-bottom: 50px;
 }
 
-#footer {
+#rodape {
   margin-top: 80px;
 }
 
