@@ -13,7 +13,6 @@ body {
   float: right;
   margin-right: 10%;
   margin-top: 5%;
-  top: 20px;
 }
 
 table,
@@ -22,7 +21,6 @@ td {
   border: 1px solid green;
   font-size: 20px;
   margin-left: 20px;
-  top: 0;
 }
 
 th,
