@@ -4,7 +4,7 @@
 }
 
 body {
-  background: rgb(253 , 251 , 251);
+  background: rgb(253, 251, 251);
   font-family: sans-serif;
 }
 
@@ -13,10 +13,10 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: rgb(230 , 227 , 227);
-  border-bottom: 1px solid rgb(177 , 176 , 176);
- text-align: center;  
- padding: 8px;
+  background-color: rgb(230, 227, 227);
+  border-bottom: 1px solid rgb(177, 176, 176);
+  text-align: center;
+  padding: 8px;
 }
 
 #titulo {
@@ -24,10 +24,15 @@ body {
 }
 
 #cabecalho li {
-  display: inline-block;;
+  display: inline-block;
 }
 
 #cabecalho a {
   text-decoration: none;
-  color: rgb(76 , 164 , 107);
+  color: rgb(76, 164, 107);
+}
+
+#licoes_aprendidas,
+#licoes_a_aprender {
+  line-height: 1.3;
 }
