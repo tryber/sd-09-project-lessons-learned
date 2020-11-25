@@ -84,7 +84,7 @@ nav {
   text-align: center;
 }
 
-.modulos h3 {
+#modulos h3 {
   display: block;
   clear: both;
   margin-top: 50px;
@@ -136,7 +136,7 @@ nav {
   width: 40%;
 }
 
-.aprendizado {
+#aprendizado {
   display: inline-block;
   margin-top: 50px;
 }
