@@ -27,13 +27,59 @@ body {
   margin-left: 20px;   
 }
 
-#icon {
+.icon {
   font-size: 30px;
 }
 
 #conteudo {
   margin: 15px;
   padding-top: 125px;
+}
+
+#box {
+  display: inline-block;
+}
+
+#list-box {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#minha_foto {
+  padding: 1px;
+  border: 10px solid rgb(235 , 94 , 40);
+  border-radius: 25px;
+  box-shadow: 1px 5px 13px black;
+}
+
+#table {
+  margin-top: 20px;
+  margin-bottom: 110px;
+  padding: 10px;
+  font-size: 20px;
+  border: 5px solid rgb(235 , 94 , 40);
+  border-radius: 25px;
+  box-shadow: 1px 5px 10px black;
+}
+
+#licoes_aprendidas {
+  display: inline;
+  float: left;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  margin-left: 150px;
+}
+
+#artigo {
+  display: block;
+}
+
+#secao {
+  padding: 5px;
+  border: 1px solid rgb(235 , 94 , 40);
+  border-radius: 25px;
 }
 
 #sw {
@@ -65,4 +111,8 @@ body {
   font-size: 18px;
   text-decoration: none;
   color: rgb(204 , 197 , 185);
+}
+
+.link:hover {
+  color: rgb(235 , 94 , 40);
 }
