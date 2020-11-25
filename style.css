@@ -1,7 +1,41 @@
-body {
-  background-color: rgb(253, 251, 251);
+a:active {
+  color: red;
 }
 
-header {
+a:hover, a:focus {
+  color: aquamarine;
+}
+
+a:link, :visited {
+  color: aliceblue;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
   margin-top: 0;
+}
+
+h1 {
+  color: aquamarine ;
+}
+
+#cabecalho {
+  margin-top: 0;
+  position: fixed;
+  background-color: darkcyan;
+  width: 100%;
+  text-align: center;
+}
+
+#minha_foto {
+  margin-top: 130px;
+}
+
+#rodape {
+  background-color: darkcyan;
+  padding: 6px;
+}
+
+#texto_cabecalho {
+  color: aliceblue;
 }
