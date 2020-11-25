@@ -6,7 +6,7 @@ body {
   font-size: 35px;
   color: red;
   line-height: normal;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -28,9 +28,10 @@ body {
 .lado-esquerdo {
   position: relative;
   float: right;
-  border-width:2px;
-  width:auto;
+  border-width: 2px;
+  width: auto;
   height: auto;
-  left:100px;
+  left: 100px;
 
 }
+
