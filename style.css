@@ -121,3 +121,7 @@ body {
 #conteudo-principal .lado-direito .text-artigo {
   text-align: justify;
 }
+
+#conteudo-principal .secao-listas {
+  clear: both;
+}
