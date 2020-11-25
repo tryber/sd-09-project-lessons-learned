@@ -22,10 +22,40 @@ body {
 }
 
 #navegacao {
-  margin-top: 6%;
+  margin-top: 80px;
+  margin-left: -30px;
 }
 
 #navegacao li {
   display: inline-block;
   margin-right: 30px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+}
+
+#artigo {
+  width: 50%;
+}
+
+#artigo p {
+  border: dotted;
+  padding: 6px
+
+}
+
+#secao {
+  width: 40%;
+  float: right;
+  margin-top: -125px
+}
+
+#secao p {
+  border: dotted;
+  padding: 6px;
 }
