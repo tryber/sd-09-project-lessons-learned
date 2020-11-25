@@ -54,8 +54,8 @@ body {
     float: right;
 }
 #section_article {
-    margin-top: 10px;
-    margin-bottom: 62px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-top: solid gray;
     border-bottom: solid gray;
     text-align: center;
@@ -74,8 +74,20 @@ body {
 .lado-direito {
     border: 3px dashed green;
     background-color: greenyellow;
-    width: 45%;
+    width: 49.99%;
     display: inline-block;
+}
+aside{
+    float: right;
+    width: 200px;
+    border: 1px dashed gray;
+    margin: 5px;
+}
+aside h4{
+    text-decoration: underline;
+}
+#table {
+    margin-bottom: 70px;
 }
 footer {
     display: block;
