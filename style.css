@@ -18,6 +18,7 @@ body {
   font-size: 40px;
   font-family: monospace;
   background-color: black;
+  color: rgb(176 , 207 , 255)
 }
 
   main {
@@ -46,6 +47,15 @@ body {
   #textside {
   float: right;
 }
+#title_sobre_meu_aprendizado {
+  color: rgb(62 , 76 , 97);
+}
+
+#sobre_meu_aprendizado {
+  color: rgb(175 , 212 , 237);
+  font-size: 10px;
+  font-style: italic;
+}
 
   section {
   height: 10%;
@@ -66,11 +76,13 @@ body {
   #artigo {
   width: 49%;  
   float: right;
+  font-size: 15px;
 }
 
   #artigo2 {
   width: 50%;
   float: left;
+  font-size: 15px;
 }
 
   table, th, td {
