@@ -6,7 +6,8 @@ a:hover {
   background: rgb(74 , 78 , 105);
   color: rgb(132 , 169 , 140);
 }
-article p{
+
+article p {
   text-indent: 1.5em;
   padding: 10px;
 }
@@ -87,6 +88,7 @@ a:before {
   float: left;
   width: 60%;
 }
+
 #minha_foto {
   border-radius: 150px;
   margin: auto;
