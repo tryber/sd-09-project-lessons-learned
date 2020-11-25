@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+
 }
 
 #article {
@@ -25,8 +25,17 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-left: 100px;
 }
 
-article {
+p {
   width: 50%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+aside {
+  margin-left: 50px;
 }
