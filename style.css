@@ -3,6 +3,24 @@ body {
 
 }
 
+.passagem {
+  display: table-cell;
+}
+
+.artigo {
+  display: table-cell;
+  float: left;
+  width: 300px;
+  margin-top:  -20;
+  margin-left: 20px;
+
+}
+
+.ladoAlado {
+  width: 960px;
+  margin: auto;
+}
+
 p {
   font-family: monospace;
   font-size: 15px;
