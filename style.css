@@ -67,6 +67,7 @@ body {
 
 .lado-direito {
   width: 30%;
+  height: 20%;
   margin: 20px;
   border: 1px solid black;
   display: inline-block;
