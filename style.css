@@ -1,131 +1,129 @@
-/* CSS - algumas propriedades mais avançadas foram comentadas */
-
-*{
-  margin: 0;  /* Tirando a margem padrão de todas as tags */
-  padding: 0; /* Tirando o padding padrão de todas as tags */
-}
-body{
-  background-color: rgb(253, 251, 251);
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#cabecalho{
-  display: flex; /* Mesmo sendo um pouco avançado, tive que ultilizar display flex para tornar seus filhos flexiveis para controlar seus posicionamentos com mais eficiência*/
-  flex-direction: row; /* Direção das tag filhos em linha */
+body {
+  background-color: rgb(253 , 251 , 251);
+}
+
+#cabecalho {
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  position: relative;
   top: 0;
-  position: fixed; /* fixando o container noponto em que está na pagina independente se houver rolagem */
-  z-index: 1;/* deixando o container na maior camada para sobrepôr as outras*/
-  padding: 20px; /* Espaçamento interno de 20px*/
+  position: fixed;
+  z-index: 1;
+  padding: 20px;
   background-color: #0fa5a5;
-  border-bottom: 1px solid black; /* borda inferior solida preta de 1px */
+  border-bottom: 1px solid black;
 }
 
-#titulo{
+#titulo {
   letter-spacing: 2px;
-  font-family: 'Roboto Slab', serif; /* colocando font roboto do google fonts */
-  color: rgb(253, 251, 251);
+  font-family: "Roboto Slab", serif;
+  color:  rgb(253 , 251 , 251);
 }
 
-nav{
-  display: flex; /* Tonando o container flex deixando seus filhos flexicíveis para mudanças*/
-  flex: 1; /*deixa o container ocupar todo o espaço possivel do container pai*/
-  justify-content: flex-end; /* Alinha o conteúdo do container para o final em relação a largura*/
-  align-items: center; /* Alinha todos os itens do container ao centro em relaçao a altura*/
-  margin-right: 50px; /*Espaçamento externo em relação a borda do container pai*/
+nav {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
 }
 
-nav a{ /*selecionando as tags "a" do container "nav"*/
-  text-decoration: none; /* tirando as estilizações padrões da tag*/
+nav a {
+  text-decoration: none;
   margin-left: 30px;
   font-size: 20px;
-  color:  rgb(253, 251, 251);
-  background-color:#0fa5a5;
-  border: 1px solid rgb(253, 251, 251); /*adicionando borda em todos os lados */
-  border-radius: 30px; /*encurvando a borda em 30px*/
-  padding: 10px; /*espaçamento interno do texto até a borda*/
+  color:  rgb(253,  251 ,  251);
+  background-color: rgb(15 , 163 ,  163);
+  border: 1px solid rgb(253 , 251 ,  251);
+  border-radius: 30px;
+  padding: 10px;
 }
 
-#page_content{
+#page_content {
   padding: 25px;
   margin-top: 90px;
   display: flex;
   flex-direction: row;
 }
 
-main{
+main {
   width: 80%;
   margin-right: 30px;
 }
 
-main img{
+main img {
   margin-top: 35px;
   border: 1px solid black;
 }
 
-.sub_title{
+.sub_title {
   text-align: center;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif;
-  color: #0fa5a5;
+  color: rgb(15 , 163 , 163);
 }
 
-#main_content{
+#main_content {
 display: flex;
 flex-direction: row;
 }
 
-.article_content{
+.article_content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-article {
+article  {
   margin-top: 60px;
   text-align: center;
   margin-left: 10px;
   font-size: 20px;
 }
 
-aside{
+aside {
   flex: 1;
 }
 
-section{
+section {
   letter-spacing: 1px;
   text-align: right;
   font-size: 16px;
 }
 
-.arct_posit{
+.arct_posit {
   text-align: right;
 }
 
-#list_content{
+#list_content {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
   margin-left: 30px;
 }
 
-#list_content h3{
-  color: #0fa5a5 ;
+#list_content h3 {
+  color: rgb(15 , 163 , 163);
   margin-bottom: 10px;
   text-align: center;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   margin-right: 70px;
   text-align: center;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   text-align: center;
   margin-left: 70px;
 }
 
-footer{
+footer {
   margin-top: 30px;
   text-align: center;
 }
