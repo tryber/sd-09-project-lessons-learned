@@ -9,6 +9,7 @@ body {
   background-color: rgb( 253 , 251 , 251 );
   position: relative;
   font-family: Roboto, sans-serif;
+  margin: 0;
 }
 
 #cabecalho {
@@ -176,6 +177,28 @@ body {
   color: rgb( 67 , 66 , 66 );
 }
 
+#tabela {
+  text-align: center;
+  margin: 50px auto;
+  width: 80%;
+}
+
+
+#tabela tr:nth-child(1) th {
+  border-bottom: 1px solid;
+  border-color: rgb( 1 , 110 , 71 );
+  padding: 10px;
+  color: rgb( 1 , 110 , 71 );
+  font-weight: 500;
+}
+#tabela tr:nth-child(2) {
+  background-color: rgba( 1 , 110 , 71 , 0.2 );
+}
+#tabela tr:nth-child(2) td {
+  padding: 10px;
+}
+
+
 #rodape {
   background-color: rgb( 0 , 163 , 103 );
   bottom: 0;
@@ -188,9 +211,25 @@ body {
 #rodape h3 {
   font-size: 13px;
   font-weight: 300;
+  line-height: 10px;
+  display: inline-block;
 }
 #rodape h3 span {
   font-weight: bold;
+}
+
+#rodape .redes-sociais {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+#rodape .redes-sociais a {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+#rodape .redes-sociais a:hover i {
+  color: black;
 }
 
 .titulo-article {
