@@ -20,8 +20,9 @@ body {
 /* CABEÇALHO */
 header {
   top: 0px;
-  background-color: rgb(3, 3, 3);
+  background-color: rgb(40, 40, 40);
   color: aliceblue;
+  z-index: 1;
 }
 
 
@@ -46,7 +47,7 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: rgb(3,3,3);
+  background-color: rgb(40, 40, 40);
   display: inline-flex;
 }
 
@@ -90,7 +91,7 @@ nav {
   border-radius: 50%;
   margin: 140px 0 0 200px;
   position: relative;
-  border: 5px solid rgb(3,3,3);
+  border: 5px solid rgb(40, 40, 40);
 }
 
 figcaption {
@@ -120,7 +121,7 @@ figcaption {
   margin: 50px;
 }
 
-#trybe_aprendizado {
+.lado-esquerdo {
   position: absolute;
   top: 450px;
   left: 900px;
@@ -128,7 +129,7 @@ figcaption {
   font-size: 1.3rem;
 }
 
-#estudante_hoje {
+.lado-direito {
   position: absolute;
   top: 450px;
   left: 1300px;
@@ -140,17 +141,18 @@ table {
   margin-top: 30px;
   margin-right: 20px;
   margin-bottom: 10px;
-  border: 2px solid rgb(3,3,3);
+  border: 2px solid rgb(40, 40, 40);
   font-size: 1.6rem;
+  width: 100%;
 }
 
 table th {
-  border: 2px solid rgb(3,3,3);
+  border: 2px solid rgb(40, 40, 40);
   padding: 10px;
 }
 
 table td {
-  border: 2px solid rgb(3,3,3);
+  border: 2px solid rgb(40, 40, 40);
   padding: 20px;
 }
 
@@ -158,10 +160,16 @@ table td {
 #rodape {
   margin: auto;
   padding: 2.5rem;
-  color: rgb(138,138,138);
-  background-color: rgb(3,3,3);
   text-align: center;
+  background-color: rgb(40, 40, 40);
+  color: rgb(138,138,138);
   font-size: 1.2rem;
+  font-family: monospace;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  line-height: 1;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
