@@ -4,14 +4,22 @@ body {
 #cabecalho{
     position: fixed;
     top: 0px;
-    background-color: green;
+    background-color: grey;
     width: 100%;
+    text-align: center;
     
 }
 .aprender{
-    text-align: right;
-    background-color: grey;    
+    background-color: grey; 
+    display: inline-block;
+    text-align: justify;
+    margin-top: 0;
+    width:40%;
+    padding: 16px;
+    line-height: 24px;
+    vertical-align: middle;   
 }
+
 
 aside{
     width: 40%;
@@ -21,3 +29,10 @@ aside{
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
 }
+#rodape{
+    background-color: grey; 
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
