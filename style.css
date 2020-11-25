@@ -12,9 +12,6 @@ body {
   margin: 10px;
 }
 
-#navigation ul {
-}
-
 #navigation li {
   margin-left: 40px;
   list-style-type: none;
@@ -82,7 +79,7 @@ body {
   margin-top: 40px;
   margin-bottom: 20px;
   display: inline-block;
-  float: left;
+  float: right;
   font-size: 20px;
 }
 
@@ -100,13 +97,14 @@ body {
 }
 
 #section-aside {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 20px;
-  display: inline-block;
+  display: block;
   font-size: 20px;
 }
 
 #section-aside h2 {
+  margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 20px;
   color: green;
@@ -120,6 +118,7 @@ body {
 }
 
 #rodape {
+  margin-top: 20px;
   text-align: center;
   padding: 3px;
   background-color: rgb(10, 126, 81);
