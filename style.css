@@ -7,6 +7,8 @@ body {
   color: black;
   font-family: 'Noto Sans JP', sans-serif;
   background-color: rgb(253 , 251 , 251);
+  letter-spacing: 1px;
+  
 }
 
 h1, h2 {
@@ -15,6 +17,7 @@ h1, h2 {
 }
 
 footer p{
+  line-height: 40px;
   margin: 0%;
 }
 
@@ -26,9 +29,21 @@ main a {
   text-decoration: none;
 }
 
+
 nav ul li {
   display: inline;
   padding: 0px 10px;
+}
+
+table{
+  display: inline-block;
+}
+
+th, td {
+  padding: 0px 25px;
+  border: 1px solid #666666;
+  background-color: rgb(206, 189, 221);
+  
 }
 
 ul a{
@@ -43,6 +58,11 @@ ul a{
   top: 0%;  
 }
 
+#body-bg{
+  background-image: url(https://st.depositphotos.com/1032463/1373/i/600/depositphotos_13732950-stock-photo-background-of-old-vintage-newspapers.jpg);
+  opacity: 0.5;
+}
+
 #licoes_aprendidas, #licoes_a_aprender {
   margin: 2% 25%;
   text-align: justify;
@@ -52,7 +72,7 @@ ul a{
   box-shadow: 2px 4px 8px 2px rgba(0 , 0 , 0 , 0.2);
   border-radius: 30px;
   margin-top: 15px;
-  width: 265px;
+  width: 250px;
 }
 
 #navegacao {
@@ -62,8 +82,8 @@ ul a{
 }
 
 #rodape {
-  height: 20px ;
-  padding: 20px;
+  height: 40px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -85,6 +105,7 @@ ul a{
   padding: 0px 55px;
   width: 60%;
   text-align: center;
+  transition: 0.3s;
 }
 
 .lado-direito {
@@ -93,7 +114,8 @@ ul a{
   margin: 5px;
   padding: 5px 25px;
   text-align: justify;
-  vertical-align: top;  
+  vertical-align: top;
+  transition: 0.3s;
 }
 
 .lado-esquerdo{
@@ -103,6 +125,7 @@ ul a{
   padding: 5px 25px;
   text-align: justify;
   vertical-align: top;
+  transition: 0.3s;
 }
 
 .licoes {
@@ -113,10 +136,22 @@ ul a{
   margin: 0px 5px;
   padding: 5px 25px;
   text-align: justify;
+  transition: 0.3s;
 }
 
 .more-info{
   margin: 0%;
   text-align: center;
   padding-top: 12px;
+}
+
+.tabelajs {
+  margin: 5px;
+  text-align: center;
+  
+}
+
+.imgbox:hover, .lado-direito:hover, .lado-esquerdo:hover, .licoes:hover{
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.3);
+  background-color: rgba(23, 114, 29, 0.1)
 }
