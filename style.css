@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, sans-serif;
   margin: 0px;
 }
 #cabecalho {
@@ -20,12 +20,15 @@ header {
   text-align: center;
   letter-spacing: 2px;
 }
+nav {
+  align-items: center;
+}
 nav a {
   float: left;
   color: white;
   display: block;
-  text-align: center;
   text-decoration: none;
+  text-align: center;
   padding: 14px 16px;
   font-size: 18px;
 }
@@ -35,9 +38,11 @@ nav a:hover {
 }
 
 #minha_foto {
-  margin-top: 180px;
+  align-items: center;
+  margin-top: 150px;
   height: 200px;
   border-radius: 20px;
+  margin-left: 100px;
 }
 #link_github {
   text-decoration: none;
@@ -45,16 +50,63 @@ nav a:hover {
   background-color: #32bf84;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
-  margin-left: 70px;
+  margin-left: 100px;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+#link_linkedin {
+  text-decoration: none;
+  color: white;
+  background-color: #32bf84;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  margin-left: 10px;
   padding: 5px;
   letter-spacing: 2px;
 }
 table {
   padding: 10px;
 }
+
 #licoes_aprendidas {
-  display: inline-block;
+  display: block;
+  float: left;
+  margin-left: 90px;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  background-color: #32bf84;
+  border-radius: 5px;
 }
 #licoes_a_aprender {
+  color: white;
+  display: block;
+  float: right;
+  margin-right: 90px;
+  padding: 20px;
+  background-color: #32bf84;
+  border-radius: 5px;
+}
+article {
+  color: white;
+  padding: 20px;
+  display: block;
+  float: left;
+  width: 300px;
+  text-align: center;
+  margin-left: 200px;
+  background-color: #32bf84;
+  border-radius: 5px;
+}
+aside {
+  background-color: #32bf84;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+  float: right;
   display: inline-block;
+  width: 300px;
+  text-align: center;
+  margin-right: 200px;
+  margin-top: 2px;
 }
