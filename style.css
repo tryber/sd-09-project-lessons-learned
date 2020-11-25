@@ -19,6 +19,10 @@ article {
   line-height: 2rem;
 }
 
+aside {
+  line-height: 2rem;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -31,4 +35,18 @@ article {
 #minha_foto {
   width: 200px;
   border-radius: 100%;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+}
+
+.container {
+  display: block;
 }
