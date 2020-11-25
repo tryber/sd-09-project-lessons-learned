@@ -21,7 +21,7 @@ body {
   text-align: center;
   border-bottom: 1px gray solid;
   z-index: 15;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 nav {
@@ -31,7 +31,7 @@ nav {
   width: 185px;
   height: 100%;
   z-index: 9;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 nav a:hover {
@@ -86,7 +86,7 @@ article {
   margin-bottom: 30px;
   margin-right: 250px;
 }
-  
+
 #trybe h2 {
   font-size: 18px;
   margin-bottom: 10px;
@@ -121,7 +121,7 @@ article {
   padding-top: 10px;
   font-size: 15px;
   line-height: 32px;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 #licoes h2 {
@@ -166,13 +166,17 @@ footer , nav {
 
 aside {
   text-align: justify;
-  margin-bottom: 30px;
   margin-right: 250px;
 }
 
 aside h3 {
   font-size: 16px;
   margin-bottom: 5px;
+}
+
+#extra {
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 #contato {
