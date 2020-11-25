@@ -41,6 +41,7 @@ body {
 
 #artigo {
   width: 50%;
+  display: inline-block;
 }
 
 #artigo p {
@@ -48,13 +49,13 @@ body {
   padding: 6px;
 }
 
-#secao {
+#aside {
   width: 40%;
-  float: right;
-  margin-top: -125px;
+  display: inline-block;
+  margin-left: 10px;
 }
 
-#secao p {
+#aside p {
   border: dotted;
   padding: 6px;
 }
