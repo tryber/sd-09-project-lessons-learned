@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 
-#cabecalho {  
+#cabecalho {
   background-color: rgb(255 , 106 , 106);
   height: 150px;
   text-align: center;
@@ -17,7 +17,8 @@ body {
   position: fixed;
   top: 0;
 }
-#cabecalho p{
+
+#cabecalho p {
   color: white;
   margin: -20px;
 }
@@ -28,7 +29,7 @@ body {
 }
 
 img {
-  border: 5px dotted rgb(170, 63, 63);
+  border: 5px dotted rgb(170 , 63 , 63);
   border-radius: 20%;
   margin-top: 200px;
   margin-bottom: 10px;
@@ -65,6 +66,7 @@ img {
   color: red;
   line-height: 30px;
 }
+
 /*#learned_lessons , #lessons_to_learn {
   display: inline-block;
   padding: 10px;
@@ -72,28 +74,27 @@ img {
   line-height: 25px;
 }*/
 
-
 #first-project {
   line-height: 30px;
   clear: both;
 }
 
-#contacts{
-  background-color: rgb(255 , 106 , 106); 
+#contacts {
+  background-color: rgb(255 , 106 , 106);
   color: white;
   padding: 10px;
   text-align: center;
 }
 
-#contacts a{
+#contacts a {
   color: white;
   text-decoration: none;
 }
 
-#contacts a:hover{
+#contacts a:hover {
   color: red;
-  background-color: rgb(255, 208, 208);
-  padding:10px;
+  background-color: rgb(255 , 208 , 208);
+  padding: 10px;
 }
 
 .black {
