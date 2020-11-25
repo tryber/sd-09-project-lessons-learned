@@ -28,7 +28,9 @@ body {
 
 #lista_conhecimento {
   display: block;
-  background-color: seagreen;
+  width: 100%;
+  float: left;
+  margin: 30px;
 }
 
 #licoes_aprendidas {
@@ -42,9 +44,17 @@ body {
 }
 
 #artigo_aprendizado {
-  width: 70%;
+  width: 45%;
   float: left;
   margin: 10px 0 50px 20px;
+  padding: 0 20px;
+}
+
+#secao {
+  width: 45%;
+  float: left;
+  padding: 0 10px;
+  margin-top: 15px;
 }
 
 #rodape {
@@ -93,4 +103,12 @@ nav {
 nav ul li {
   display: inline-block;
   padding: 5px 10px;
+}
+
+#tabela {
+  border: 1px solid red;
+  background-color: rgb(132 , 175 , 132);
+  width: 50%;
+  height: auto;
+  float: right;
 }
