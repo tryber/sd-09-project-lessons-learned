@@ -6,14 +6,14 @@
 body {
     background-color: rgb(253 , 251 , 251);
     margin: 0 auto;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     color: rgba(0 , 0 , 0 , 0.85);
 }
 
 h2 , h3 {
     margin: 10px auto;
-    color: #334f54;
+    color: rgb(51 , 79 , 84);
     font-weight: 700;
 }
 
@@ -39,7 +39,7 @@ li {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #44a9a7;
+    background-color: rgb(68 , 169 , 167);
     color: rgb(253 , 251 , 251);
     text-align: center;
     padding: 10px;
@@ -83,7 +83,7 @@ img {
     width: 300px;
     border-radius: 50%;
     padding: 10px;
-    background-color: #ffd781;
+    background-color: rgb(255 , 215 , 129);
 }
 
 footer {
@@ -100,8 +100,8 @@ footer {
 .lado-direito {
     width: 25%;
     float: right;
-    border-bottom: solid 2px #ffd781;
-    border-left: solid 2px #ffd781;
+    border-bottom: solid 2px rgb(255 , 215 , 129);
+    border-left: solid 2px rgb(255 , 215 , 129);
 }
 
 #trabalhos {
@@ -117,9 +117,9 @@ table {
 }
 
 table th {
-    background-color: #44a9a7;
+    background-color: rgb(68 , 169 , 167);
 }
 
 table td {
-    background-color: #ffd781;
+    background-color: rgb(255 , 215 , 129);
 }
