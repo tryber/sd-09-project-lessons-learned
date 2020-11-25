@@ -14,19 +14,25 @@ nav ul button {
 main {
   margin-left: 20px;
   margin-top: 115px;
-  width: 60%;
+  width: 80%;
   min-width: 500px;
 }
 
-section {
+.article{
   margin: 1em 10px;
 }
 
+.aside {
+  float: right;
+} 
+
 span {
-  font-family: monospace;
+  font-family: fantasy;
   font-size: 1.3em;
+  font-weight: bold;
   color: crimson;
-  letter-spacing: 1px;
+  letter-spacing: 2em;
+  text-transform: uppercase;
 }
 
 #cabecalho {
@@ -38,11 +44,12 @@ span {
 }
 
 #minha_foto {
-  border: solid 10px rgb(183, 240, 183);
+  border: solid 10px rgb(183 , 240 , 183);
   border-radius: 1em;
 }
 
 #titulo {
   font-family: monospace;
   font-style: italic;
+  color: bisque;
 }
