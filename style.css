@@ -50,6 +50,10 @@ body {
   float: left;
 }
 
+#tabela {
+  border: 3px;
+}
+
 #licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   padding-top: 150px;
