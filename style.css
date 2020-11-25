@@ -11,5 +11,18 @@ body{
 
 #minha_foto{
     margin-top: 80px;
+    border-radius: 10px;
 }
 
+#licoes_aprendidas{
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+li{
+    background-color: blueviolet;
+    padding: 5px;
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 300px;
+}
