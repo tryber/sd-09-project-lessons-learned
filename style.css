@@ -3,21 +3,21 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: rgb(253 , 251 , 251);
-  color: #121416;
+  color: rgb(18 , 20 , 22);
 }
 
 .container {
   position: relative;
   width: 100%;
   padding: 0;
-  margin: 0;  
+  margin: 0;
 }
 
 #navbar-container {
-  background-color: rgb(255 , 255 , 255);
-  width: 100%;  
+  background-color: white;
+  width: 100%;
   padding: 1% 0;
   padding-left: 7%;
 }
@@ -27,16 +27,24 @@ body {
   font-weight: 500;
   font-size: 14px;
   padding: 10px;
-  color: #444;
+  color: rgb(68 , 68 , 68);
 }
 
 a {
   text-decoration: none;
-  color: #444;
+  color: rgb(68 , 68 , 68);
+}
+
+table a {
+  color: inherit;
+}
+
+table a:hover {
+  text-decoration: none;
 }
 
 a:hover {
-  color: rgb(15 , 163 , 107) !important;
+  color: rgb(15 , 163 , 107);
   text-decoration: underline;
 }
 
@@ -47,10 +55,10 @@ a:visited {
 #logo {
   top: 15%;
   left: 2%;
-  background-color: rgb(255 , 255 , 255);
+  background-color: white;
   width: 5%;
   position: absolute;
-  padding: 5px 5px 0px 5px;
+  padding: 5px 5px 0;
   margin: 0;
   min-width: 40px;
 }
@@ -58,7 +66,7 @@ a:visited {
 #logo img {
   width: 100%;
   padding: 0;
-  margin: 0;  
+  margin: 0;
 }
 
 #titulo {
@@ -81,12 +89,12 @@ header {
   width: 100%;
   height: 500px;
   background-size: cover;
-  background-image: url("https://blog.betrybe.com/wp-content/uploads/2020/03/fot-trybe-texto-lucas-scaled-1-1920x1024.jpg");
+  background-image: url('https://blog.betrybe.com/wp-content/uploads/2020/03/fot-trybe-texto-lucas-scaled-1-1920x1024.jpg');
 }
 
 header .container {
   height: 100%;
-  background-color: rgba(49, 49, 67, 0.6)
+  background-color: rgba(49 , 49 , 67 , 0.6);
 }
 
 #titulo-texto {
@@ -116,22 +124,26 @@ header .container {
 
 #section-name #name {
   padding-left: 8px;
-  color: rgb(184, 182, 182);
+  color: rgb(184 , 182 , 182);
+}
+
+#text-info a {
+  color: rgb(255 , 254 , 254);
 }
 
 #section-name #name a {
   padding-left: 5px;
-  color: rgb(184, 182, 182);
+  color: rgb(184 , 182 , 182);
 }
 
 #section-name #name a:hover {
-  color: white !important;
+  color: white;
 }
 
 #section-name #capital {
   font-size: 3em;
   font-weight: 400;
-  background-color: rgb(201, 245, 5);
+  background-color: rgb(201 , 245 , 5);
   width: 40px;
   height: 40px;
   padding: 10px 10px 25px 20px;
@@ -142,11 +154,7 @@ header .container {
   font-size: 0.9em;
   font-weight: 500;
   word-spacing: 0.1em;
-  color: rgb(255, 254, 254);
-}
-
-#text-info a {
-  color: rgb(255, 254, 254);
+  color: rgb(255 , 254 , 254);
 }
 
 .article-container {
@@ -185,7 +193,7 @@ address {
 
 #author-name {
   font-size: 1.3em;
-  margin: 2em 0.4em 0.4em 0.4em;
+  margin: 2em 0.4em 0.4em;
 }
 
 #author-description {
@@ -205,9 +213,9 @@ h4 {
 aside {
   color: white;
   background-color: rgb(15 , 163 , 107);
-  margin: 3em 0 2em 0;
+  margin: 3em 0 2em;
   padding: 2em;
-  box-shadow: -20px -15px rgba(169, 169, 169, 0.3);
+  box-shadow: -20px -15px rgba(169 , 169 , 169 , 0.3);
 }
 
 #minha_foto {
@@ -237,12 +245,4 @@ table {
 
 table i {
   font-size: 1.3em;
-}
-
-table a {
-  color: inherit;
-}
-
-td a:hover {
-  text-decoration: none;
 }
