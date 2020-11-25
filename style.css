@@ -2,6 +2,11 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+#licoes_aprendidas {
+  line-height: 20px;
+  font-family: fantasy;
+}
+
 #rodape {
   position: relative;
   bottom: 0;
@@ -26,7 +31,7 @@ body {
   border-radius: 35%;
   width: 200px;
   position: relative;
-  display: inline;
-  margin-left: 10px;
+  display: block;
+  top: 5px;
 
 }
