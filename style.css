@@ -90,7 +90,6 @@ nav {
   margin-top: 50px;
   font-size: 2.5rem;
   text-align: center;
-  padding-top: 50px;
 }
 
 #aluno_trybe h3 {
@@ -100,6 +99,14 @@ nav {
 #aluno_trybe p {
   font-size: 1.7rem;
   padding-bottom: 130px;
+}
+
+.lado-esquerdo p {
+  margin-bottom: 50px;
+}
+
+.lado-direito p {
+  margin-bottom: 50px;
 }
 
 #minha_foto {
@@ -136,17 +143,13 @@ nav {
   width: 40%;
 }
 
-#aprendizado {
-  display: inline-block;
-  margin-top: 50px;
-}
-
 .lado-esquerdo {
   position: relative;
   float: left;
   width: 45%;
   font-size: 1.5rem;
   text-align: justify;
+  margin-top: 50px;
 }
 
 .lado-direito {
@@ -155,6 +158,7 @@ nav {
   width: 45%;
   font-size: 1.8rem;
   text-align: justify;
+  margin-top: 50px;
 }
 
 table {
