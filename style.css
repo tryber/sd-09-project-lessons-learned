@@ -1,14 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 115px;
+  margin: auto;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  color: rgb(59, 134, 134);
+  background-color:rgb(168, 219, 168);
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
 }
 
 #minha_foto {
- width: 100px;
- float: right;
  border-radius: 50%;
+ width: 150px;
+ float: right;
+}
+
+#conteudo_extra{
+  width: 20%;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.lista_licoes{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+main{
+  width: 80%;
+  padding: 10px 10px; 
+}
+
+footer{
+  width: 100%;
+  padding: 10px 10px;
+  background-color: rgb(241, 241 , 231);
+  display: inline-block;
 }
