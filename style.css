@@ -4,6 +4,63 @@ body {
 }
 
 #cabecalho {
+  background-color: #188783;
+  border-bottom: 5px solid #ffffff;
+  padding: 0;
   position: fixed;
   top: 0;
+  width: 100%;
+}
+
+#titulo {
+  display: block;
+  float: left;
+  margin: 25px 0px 0px 50px;
+  padding: 0;
+}
+
+#navigation {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+
+#menu li {
+  float: left;
+  width: 150px;
+}
+
+#menu li a {
+  background-color: #316359;
+  color: #0B3333;
+  display: block;
+  margin: 25px 50px 0px 50px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+}
+
+#menu li a:hover:not(.active) {
+  background-color: #98D6AC;
+}
+
+#menu li a.active {
+  background-color: #ffffff;
+  color: #0E3A3B;
+  display: block;
+  margin: 25px 0px 0px 0px;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
 }
