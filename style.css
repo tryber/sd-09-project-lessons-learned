@@ -2,15 +2,16 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
-#titulo{
+#titulo {
   font-family: sans-serif;
+  top: 0;
 }
 
 #cabecalho {
   background-color: teal;
   top: 0;
   text-align: center;
-  padding: 18px;
+  padding: 50px;
 
 }
 
