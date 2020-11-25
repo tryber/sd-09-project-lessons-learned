@@ -1,6 +1,5 @@
 body {
   background-color: rgb(253 , 251 , 251);
-
 }
 
 #cabecalho {
@@ -16,13 +15,11 @@ body {
 }
 
 #minha_foto {
-  margin-top: 7%;
-     
-     
+  margin-top: 7%;  
 }
 
 #rodape {
-  color: rgb(24, 19, 19);
+  color: rgb(24 , 19 , 19);
 }
 
 .artigo {
@@ -31,7 +28,5 @@ body {
   width: 40%;
   position: absolute;
   right: 0;
-  left: ;
   top: 270px;
-
 }
