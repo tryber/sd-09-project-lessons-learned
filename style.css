@@ -37,10 +37,8 @@ body {
 }
 
 #licoes {
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-bottom: 40px;
-  margin-right: 40px;
+  margin: 40px;
+  color: green;
 }
 
 #licoes_aprendidas {
@@ -48,10 +46,61 @@ body {
   margin-top: 20px;
   display: inline-block;
   float: left;
+  color: blue;
 }
 
 #licoes_a_aprender {
   margin-left: 40px;
   margin-top: 20px;
   display: inline-block;
+  color: goldenrod;
+}
+
+#section-article {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#section-article h2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: green;
+}
+
+#section-article p {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: blueviolet;
+  font-style: oblique;
+}
+
+#section-aside {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#section-aside h2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: green;
+}
+
+#section-aside p {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: blueviolet;
+  font-style: oblique;
+}
+
+#rodape {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(10, 126, 81);
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#rodape a {
+  color: white;
+  text-decoration: none;
 }
