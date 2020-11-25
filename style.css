@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
   max-width: 1366px;
 }
 
@@ -58,7 +58,7 @@ nav {
 }
 
 #menu li a:hover {
-  background-color: rgb(1,1,1);
+  background-color: rgb(1, 1, 1);
 }
 
 #aluno_trybe {
@@ -89,7 +89,6 @@ nav {
   border-radius: 50%;
   margin-top: 180px;
   margin-left: 70px;
-  position: relative;
   border: 5px solid rgb(40, 40, 40);
 }
 
@@ -129,7 +128,7 @@ nav {
   text-align: justify;
 }
 
-.lado-esquerdo h3{
+.lado-esquerdo h3 {
   font-size: 2rem;
   margin-bottom: 15px;
   text-align: center;
@@ -143,7 +142,7 @@ nav {
   text-align: justify;
 }
 
-.lado-direito h3{
+.lado-direito h3 {
   font-size: 2rem;
   margin-bottom: 15px;
   text-align: center;
@@ -188,12 +187,7 @@ table td {
   text-align: center;
   background-color: rgb(40, 40, 40);
   color: rgb(138,138,138);
-  font-size: 1.2rem;
-  font-family: monospace;
-  font-style: italic;
-  font-variant: small-caps;
-  font-weight: bold;
-  font-stretch: ultra-expanded;
+  font: 1.2rem monospace italic small-caps 800;
   line-height: 1;
   display: flex;
   justify-content: space-evenly;
