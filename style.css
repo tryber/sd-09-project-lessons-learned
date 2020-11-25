@@ -47,7 +47,7 @@ body {
   top: 55px;
 }
 
-#conteudo-principal .secao .artigo,
+#conteudo-principal .secao .artigo, 
 #conteudo-principal .secao .passagem_trybe {
   background: linear-gradient(rgb( 1 , 110 , 71 ) , rgb( 0 , 163 , 103 ));
   border-radius: 30px;
@@ -57,7 +57,7 @@ body {
 }
 
 #conteudo-principal .secao .sobre_aprendizado {
-  margin-left: 180px;  
+  margin-left: 180px;
   width: 588px;
   padding: 19px;
 }
@@ -70,8 +70,8 @@ body {
   right: 295px;
 }
 
-#conteudo-principal .secao .arame-base::after, 
-#conteudo-principal .secao .arame-base::before {
+#conteudo-principal .secao .arame-base:after, 
+#conteudo-principal .secao .arame-base:before {
   content: '';
   background-color: black;
   border-radius: 50%;
@@ -81,19 +81,19 @@ body {
   top: -2px;
 }
 
-.arame-base::after {
+#conteudo-principal .secao .arame-base:after {
   right: -3px;
 }
 
-.arame-base::before {
+#conteudo-principal .secao .arame-base:before {
   left: -3px;
 }
 
-.arame-um {
+#conteudo-principal .secao .arame-um {
   top: 70px;
 }
 
-.arame-dois {
+#conteudo-principal .secao .arame-dois {
   bottom: 70px;
 }
 
@@ -106,13 +106,11 @@ body {
   width: 250px;
 }
 
-/*global-classes*/
-
 .titulo-article {
   font-size: 1.2em;
   line-height: 30px;
 }
 
-.text-artigo {
+#conteudo-principal .secao .text-artigo {
   text-align: justify;
 }
