@@ -6,9 +6,26 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: Patrick Hand, cursive;
+  font-size: 20px;
+}
+
+p {
+    line-height: 25px;
 }
 
 /* Class styles */
+.main-content {
+    position: absolute;
+    top: 17%;
+    left: 0;
+    right: 0;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 3%;
+    overflow: auto;
+}
+
 .lessons {
   width: 70%;
   margin: auto;
@@ -61,10 +78,11 @@ body {
 
 /* ID styles */
 #cabecalho {
-  background-color: rgba(126 , 201 , 251 , 0.918);
+  background-color: rgba(126 , 201 , 251);
   position: fixed;
   right: 0;
   left: 0;
+  z-index: 1;
   width: 75%;
   height: 15%;
   min-height: 70px;
@@ -102,11 +120,12 @@ body {
 }
 
 #rodape {
-  background-color: rgba(126 , 201 , 251 , 0.918);
+  background-color: rgba(126 , 201 , 251);
   position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: 1;
   width: 75%;
   height: 10%;
   min-height: 50px;
@@ -117,9 +136,9 @@ body {
 
 /* Inherit styles */
 #rodape a:link , a:visited {
-    color: rgb(25 , 63 , 124);
+  color: rgb(25 , 63 , 124);
 }
 
 #rodape a:hover {
-    background-color: rgba(0 , 152 , 253 , 0.692);
+  background-color: rgba(0 , 152 , 253 , 0.692);
 }
