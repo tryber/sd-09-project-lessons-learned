@@ -1,15 +1,12 @@
 body {
     background-color: rgb(253 , 251 , 251);
+    font-size: medium;
 }
 
 #cabecalho {
     background-color: green;
 
     }
-
-div {
-    width:;
-}
 
 img {
     border-radius: 50%;
@@ -18,4 +15,14 @@ img {
 
 #linkheader {
     display: inline-block;
+}
+
+ol {
+    float: left;
+    padding-left: 40px;
+}
+
+ul {
+    float: right;
+    padding-right: 40px;
 }
