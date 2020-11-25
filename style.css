@@ -13,17 +13,48 @@ table , th , td {
   border: 1px solid black;
 }
 
+nav ul {
+  text-align: center;
+  font-size:40px;
+  padding-left: 0;
+  color: #000;
+}
+
+nav ul a {
+  margin: 0 10px;
+  color: floralwhite;
+}
+
 * {
   margin: 0;
 }
 
-#article {
+#aside {
+  display: inline-block;
   margin-right: 30%;
+  float: right;
+}
+
+#article {
+  display: inline-block;
+  border: solid 1px;
+  margin-right: 40%;
+  float: left;
+}
+
+#cabecalho {
+  background-color: royalblue;
+  display: inline;
+  position: fixed;
+  padding: 20px;
+  color: lightcyan;
+  width: 100%;
+  margin: 0;
 }
 
 #content {
   padding: 80px 40px 20px;
-  margin: 10px 20px;
+  margin: 0 20px;
 }
 
 #licoes_aprendidas {
@@ -36,13 +67,19 @@ table , th , td {
 }
 
 #titulo {
-  background-color: royalblue;
-  display: inline;
-  position: fixed;
-  padding: 20px;
-  color: lightcyan;
-  width: 100%;
-  margin: 0;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+  float: left;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 40%;
+  float: right;
 }
 
 .imagem {
