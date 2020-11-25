@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
 }
 
-table, tr, th, td {
+table , tr , th , td {
     border: 2px solid black;
     margin-left: 0%;
 }
@@ -26,9 +26,9 @@ p {
     margin: auto;
     background: rgb(15 , 163 , 107);
     position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 #menu li {
@@ -135,11 +135,11 @@ p {
 #rodape {
     background: rgb(15 , 163 , 107);
     margin: auto;
-    color: rgb(253 , 251, 251);
+    color: rgb(253 , 251 , 251);
     position: fixed;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
     padding-left: 40px;
 }
 
