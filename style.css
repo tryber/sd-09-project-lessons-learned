@@ -9,32 +9,62 @@ body {
     width: 100%;
 }
 
+#nav {
+    display: inline;
+    font-family: "Nerko One";
+    font-size: x-large;
+}
+
+#nav li {
+    display: inline;
+    width: 10%;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(107, 112, 92);
+}
+
+a:active {
+    color: rgb(107, 112, 92);
+}
+
+#logoTrybe {
+    margin-right: 5%;
+}
+
+#titulo {
+    font-family: "Shadows Into Light";
+    padding: 15px;
+}
+
 #minha_foto {
     width: 300px;
-    margin-top: 10%;
-    border: 10px rgb(204, 227, 222) solid;
+    margin-top: 15%;
+    border: 10px rgb(48, 109, 96) solid;
     float: left;
 }
 
 #lista1 {
     float: left;
     margin-top: 20%;
+    display: inline;
+    padding: 2%;
 }
 
 #lista2 {
     float: right;
-    margin-top: 21%;
+    margin-top: 23%;
+    padding-right: 35px;
     size: 20px;
     font-size: medium;
-}
-
-#nav {
-    padding-top: 20%;
-    width: 20%;
-    display: inline;
-}
-
-#nav li {
     display: inline;
 }
 
@@ -53,6 +83,12 @@ body {
 #rodape {
     background-color: rgb(72, 164, 107);
     width: 100%;
-    height: 100px;
+    height: 200px;
     float: left;
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-family: "Nerko One";
 }
