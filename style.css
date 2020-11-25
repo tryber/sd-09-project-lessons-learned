@@ -34,10 +34,6 @@ nav {
   font-family: Roboto, sans-serif;
 }
 
-nav a:hover {
-  background-color: darkgray;
-}
-
 #minha_foto {
   background-color: black;
   float: left;
@@ -63,7 +59,7 @@ nav ul {
   margin-top: 350px;
 }
 
-nav a:hover li a {
+nav li a {
   text-decoration: none;
   text-align: left;
   color: white;
@@ -72,6 +68,10 @@ nav a:hover li a {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 0;
+}
+
+nav a:hover {
+  background-color: darkgray;
 }
 
 main {
