@@ -22,7 +22,7 @@ body {
 #breve {
   font-size: 0.9em;
   font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande,
-  Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+    Lucida Sans Unicode, Geneva, Verdana, sans-serif;
 }
 
 footer {
@@ -89,10 +89,6 @@ a:before {
   width: 60%;
 }
 
-li a:hover {
-  background: rgb(74 , 78 , 105);
-  color: rgb(132 , 169 , 140);
-}
 
 .contato div {
   display: inline-block;
@@ -134,6 +130,11 @@ table {
 .referencias a {
   color: black;
   text-decoration: none;
+}
+
+li a:hover {
+  background: rgb(74 , 78 , 105);
+  color: rgb(132 , 169 , 140);
 }
 
 .referencias {
