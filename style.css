@@ -37,7 +37,7 @@ body {
 
 #cabecalho a {
   text-decoration: none;
-  color: rgb(255 , 255 , 255);
+  color: white;
   list-style: none;
   text-align: center;
   font-size: 26px;
@@ -61,5 +61,5 @@ main {
 
 #rodape a {
   text-decoration: none;
-  color: rgb(255 , 255 , 255);
+  color: white;
 }
