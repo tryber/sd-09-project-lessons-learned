@@ -14,7 +14,7 @@ footer {
   padding-left: 20px;
   color: black;
   font-family: Work Sans, sans-serif;
-  background-color: #723f61;
+  background-color:rgb(114 , 63 , 97);
   width: 100%;
   height: 50px;
 }
@@ -26,10 +26,9 @@ footer {
   margin-top: 80px;
   margin-bottom: 10px;
   background-color: rgb(253 , 251 , 251);
-  padding: 0;
   padding: 20px;
   height: 100%;
-  border: 2px solid #d97b91;
+  border: 2px solid rgb(217 , 123 , 145);
   border-radius: 7px;
 }
 
@@ -37,7 +36,7 @@ footer {
   font-size: 15px;
   text-align: center;
   text-decoration: underline;
-  color: #a65777;
+  color: rgb(166 , 87 , 119);
 }
 
 .side-article {
@@ -52,7 +51,7 @@ footer {
   top: 20px;
   left: 40px;
   border-radius: 50%;
-  border: 2px solid #d97b91
+  border: 2px solid rgb(217 , 123 , 145);
 }
 
 .caption {
@@ -97,7 +96,7 @@ header {
   font-family: Work Sans, sans-serif;
   font-weight: 800;
   text-align: center;
-  background-color: #723f61;
+  background-color: rgb(114 , 63 , 97);
   width: 100%;
   z-index: 3;
 }
@@ -122,8 +121,8 @@ article {
   width: 100%;
 }
 
-table, th, td {
-  border: 1px solid rgb(175, 173, 173);
+table , th , td {
+  border: 1px solid rgb(175 , 173 , 173);
   border-collapse: collapse;
 }
 
@@ -131,33 +130,33 @@ table {
   margin-left: 38px;
 }
 
-td, th {
+td , th {
   padding: 15px;
   text-align: center;
   width: 50px;
 }
 
 th {
-  background-color: #dfa599;
+  background-color: rgb(223 , 165 , 153);
 }
 
 td {
-  background-color: #e9d1cc;
+  background-color: rgb(233 , 209 , 204);
 }
 
 .titles {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 800px;
   line-height: 30px;
   padding-bottom: 0;
-  color: #a65777;
+  color: rgb(166 , 87 , 119);
   text-align: start;
 }
 
 .menu1 {
   width: 100%;
   display: inline-block;
-  border: 2px solid #d97b91;
+  border: 2px solid rgb(217 , 123 , 145);
   border-radius: 5px 5px 0 0;
   text-align: center;
 }
@@ -165,7 +164,7 @@ td {
 .menu2 {
   width: 100%;
   display: inline-block;
-  border: 2px solid #d97b91;
+  border: 2px solid rgb(217 , 123 , 145);
   border-top: 0;
   border-radius: 0 0 5px 5px;
   text-align: center;
