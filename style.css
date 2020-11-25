@@ -1,16 +1,31 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  margin: 0%;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: rgb(9 , 94 , 9);
+  width: 100%;
+}
+
+nav {
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.link_color {
+  color: black;
+
 }
 
 h1 {
   font-family: Courier New, Courier, serif;
-  font-size: 40px;
-  color: blue;
+  font-size: 50px;
+  color: black;
+  text-align: center;
 }
 
 .paragrafo_text {
@@ -20,8 +35,9 @@ h1 {
 
 .lado-esquerdo {
   border: solid;
-  border-color: blue;
-  width: 70%;
+  border-color: rgb(9 , 94 , 9);
+  width: 500px;
+  margin-left: 300px;
   float: left;
   padding: 10px;
   line-height: 25px;
@@ -29,18 +45,54 @@ h1 {
 
 .lado-direito {
   border: solid;
-  border-color: blue;
-  width: 20%;
+  border-color: rgb(9 , 94 , 9);
+  width: 380px;
+  margin-right: 300px;
   float: right;
   padding: 10px;
   line-height: 25px;
+
 }
 
 #rodape {
-  margin-top: 300px;
+  margin-top: 400px;
   text-align: center;
+  height:  40px;
+  background-color: rgb(9 , 94 , 9);
 }
 
 #minha_foto {
-  margin-top: 150px;
+  margin-top: 170px;
+  border-radius: 50%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  font-size: 20px;
+}
+
+#name {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 40px;
+}
+
+#link_github {
+  font-size: 20px;
+}
+
+#div_link {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#p_footer {
+  padding-top: 10px;
 }
