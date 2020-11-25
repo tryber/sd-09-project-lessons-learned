@@ -112,22 +112,26 @@ p{
     margin-right: 30%;
     padding: 30px;
 }
+
 .lado-esquerdo {
     width: 500px;
     display: inline-block;
     margin-left: 10%;
     margin-top: 120px;
 }
+
 .lado-direito {
     float: right;
     width: 400px;
     margin-right: 8%;
     margin-top: 120px;
 }
+
 #lado-direito-tabela {
     width: 500px;
     margin: 10px 10% 100px 10%;
 }
+
 #rodape {
     background: rgb(15, 163, 107);
     margin: auto;
@@ -138,6 +142,7 @@ p{
     left: 0px;
     padding-left: 40px;
 }
+
 #rodape a {
     color: rgb(253, 251, 251);
 }
