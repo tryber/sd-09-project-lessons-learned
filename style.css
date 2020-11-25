@@ -1,66 +1,62 @@
 
-article, aside{
+article, aside {
   width: 30%;
 }
 
 body {
   color: black;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   background-color: rgb(253 , 251 , 251);
   letter-spacing: 1px;
-  
 }
 
 h1, h2 {
-  margin-top: 0%;
+  margin-top: 0;
   letter-spacing: 2px;
 }
 
-footer p{
+footer p {
   line-height: 40px;
-  margin: 0%;
+  margin: 0;
 }
 
 main a {
-  color: rgb(31 , 31 , 31);  
+  color: rgb(31, 31, 31);
   display: block;
   font-size: 1.5em;
-  margin: 0%;  
+  margin: 0;
   text-decoration: none;
 }
 
-
 nav ul li {
   display: inline;
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 
-table{
+table {
   display: inline-block;
 }
 
 th, td {
-  padding: 0px 25px;
-  border: 1px solid #666666;
-  background-color: rgb(206, 189, 221);
-  
+  padding: 0 15px;
+  border: 1px solid #666;
+  background-color: rgb(206 , 189 , 221); 
 }
 
-ul a{
+tr{
+  display: inline;
+}
+
+ul a {
   color: rgb(31 , 31 , 31);
   text-decoration: none;
 }
 
 #cabecalho {
   position: fixed;
-  left: 0%;
-  right: 0%;
-  top: 0%;  
-}
-
-#body-bg{
-  background-image: url(https://st.depositphotos.com/1032463/1373/i/600/depositphotos_13732950-stock-photo-background-of-old-vintage-newspapers.jpg);
-  opacity: 0.5;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
@@ -78,7 +74,7 @@ ul a{
 #navegacao {
   left: 15%;
   position: absolute;
-  top: 0%;
+  top: 0;
 }
 
 #rodape {
@@ -95,30 +91,20 @@ ul a{
 }
 
 .art-title {
-  margin: 0px;
+  margin: 0;
   text-align: center;
 }
 
 .imgbox {
   box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
-  margin: 55px auto 0px auto;
-  padding: 0px 55px;
+  margin: 55px auto 0 auto;
+  padding: 0 55px;
   width: 60%;
   text-align: center;
   transition: 0.3s;
 }
 
-.lado-direito {
-  box-shadow: 2px 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
-  display: inline-block;
-  margin: 5px;
-  padding: 5px 25px;
-  text-align: justify;
-  vertical-align: top;
-  transition: 0.3s;
-}
-
-.lado-esquerdo{
+.lado-direito, .lado-esquerdo {
   box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
   display: inline-block;
   margin: 5px;
@@ -129,29 +115,28 @@ ul a{
 }
 
 .licoes {
-  display: inline-block;
-  width: 30%;
   box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.2);
   display: inline-block;
-  margin: 0px 5px;
+  margin: 0 5px;
   padding: 5px 25px;
   text-align: justify;
   transition: 0.3s;
+  width: 30%;
 }
 
-.more-info{
-  margin: 0%;
+.more-info {
+  margin: 0;
   text-align: center;
   padding-top: 12px;
 }
 
 .tabelajs {
+  display: block;
   margin: 5px;
   text-align: center;
-  
 }
 
-.imgbox:hover, .lado-direito:hover, .lado-esquerdo:hover, .licoes:hover{
-  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.3);
+.imgbox:hover, .lado-direito:hover, .lado-esquerdo:hover, .licoes:hover {
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3);
   background-color: rgba(23, 114, 29, 0.1)
 }
