@@ -4,49 +4,124 @@
     <meta charset="UTF-8">
     <title>Lições Aprendidas - Renato Feitosa</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dc9519ec19d4302020c39e2_trybe%20-%20favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/35c8956158.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header id="cabecalho">
-      <h1 id="titulo">Lições Aprendidas - Renato Feitosa</h1>
-    </header>
+    <div id="cabecalho">
+      <div class="container">
+        <div id="logo"><a href="https://www.betrybe.com/"><img src="trybe-logo.png" alt="Logo da Trybe"></a></div>
+        <nav id="navbar-container">
+          <ul id="site-navbar">
+            <li><a href="https://www.betrybe.com/pague-quando-estiver-trabalhando">Como Funciona?</a></li>
+            <li><a href="https://www.betrybe.com/formacao">Currículo</a></li>
+            <li><a href="#experiencia">Experiências de Aprendizado</a></li>
+            <li><a href="https://www.betrybe.com/trybe-na-midia">Trybe na Mídia</a></li>
+            <li><a href="https://www.betrybe.com/depoimentos">Depoimentos</a></li>
+            <li><a href="https://blog.betrybe.com/">Blog Trybe</a></li>
+            <li><a href="https://www.betrybe.com/perguntas-frequentes">Dúvidas</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h1 id="titulo">Experiências de Aprendizado</h1>
+        </div>
+      </div>
+    </div>
     <main>
-      <img id="minha_foto" src="profile-img.jpg" alt="Foto de Renato Feitosa">
-      <h2>As dez lições que aprendi (até agora)</h2>
-      <ol id="licoes_aprendidas">
-        <li>O <em>Slack</em> é um ótimo ambiente para manter equipes em contato;</li>
-        <li>Interações respeitosas são um incentivo à aprendizagem;</li>
-        <li>A utilidade e como fazer <em>branches</em> no Git;</li>
-        <li>A importância de <em>commits</em> para manter controle sobre um projeto;</li>
-        <li>Realizar <em>pull requests</em> e <em>merges</em> no GitHub, funções essenciais para desenvolvimento em equipe;</li>
-        <li><em>Soft skills</em> é usar da nossa própria humanidade para agregar valor ao nosso trabalho;</li>
-        <li>Entender as hierarquias do CSS economiza horas de tentativas e erros e permite códigos mais elegantes;</li>
-        <li>Como o HTML Semântico é essencial para a acessibilidade na web;</li>
-        <li>Aprender em grupo é um grande estímulo para superar a saturação estagnante do auto-aprendizado;</li>
-        <li>Na Trybe, o pertencimento a um coletivo é realidade e não apenas <em>marketing</em>.</li>
-      </ol>
-      <h2>O que ainda desejo (e vou) aprender</h2>
-      <ul id="licoes_a_aprender">
-        <li>Como explorar o <em>LinkedIn</em> para conseguir mais oportunidades;</li>
-        <li>Explorar um DOM dinâmico com <em>JavaScript</em>;</li>
-        <li>Desenvolver <em>front-ends</em> em <em>React</em> - e entender como utilizar <em>Rest APIs</em>;</li>
-        <li><em>Flexbox</em> sem <em>Bootstrap</em>;</li>
-        <li>Práticas que permitam escrever um CSS responsivo sem penar tanto;</li>
-        <li>Metodologias Ágeis e sua importância no desenvolvimento profissional de <em>software</em>;</li>
-        <li>Tests em <em>front-end</em>, algo que pra mim ainda é difícil de imaginar;</li>
-        <li>A lógica e as vantagens de <em>MongoDB</em> e como utilizá-lo;</li>
-        <li>Se <em>NodeJS</em> supera <em>Python</em> em <em>back-ends</em>;</li>
-        <li>Noções de arquitetura de <em>software</em> para o planejamento e otimização da programação.</li>
-      </ul>
+      <header>
+        <div class="container">
+          <div id="banner">
+            <div id="section-name">
+              <div id="capital">D</div> <div id="name">— <a href="#">Depoimentos</a></div>
+            </div>
+            <h2 id="titulo-texto">Trybe: coletividade é a condição para nos tirar do <em>loop</em></h2>
+            <div id="text-info">por <a href="#author">Renato Feitosa</a> • 24 de novembro de 2020 • <i class="fas fa-chart-line"></i> 2 visualizações • <i class="far fa-clock"></i> 3 minutos de leitura</div>
+          </div>
+        </div>
+      </header>
+      <div id="experiencia" class="article-container">
+        <article class="lado-esquerdo">
+          <h3 class="article-title">A Experiência</h3>
+          <p>
+            Ao tomar a decisão de, à época dos meus 37 anos, mudar de área e ingressar no desenvolvimento de software, o auto-aprendizado me parecia o caminho mais lógico. Apesar de colocar coisas em prática e vender <a href="https://pythaqua.github.io/#projetos" target="_new">alguns projetos</a>, atingi um estágio em que não conseguia mais evoluir. O sentimento de estagnação e a insegurança para tentar vagas no mercado - sendo "forasteiro" com a minha idade - me dominaram. Foi quando conheci a <a href="https://www.betrybe.com/">Trybe</a>, que descobri ser uma escola de <em>software</em> em que se ensina que <strong>o potencial humano e a coletividade têm tanto valor quanto conhecimentos sobre programação</strong>.
+          </p>
+          <aside>
+            <p>
+              Diante da frieza dos códigos e pressão dos prazos, a escola valoriza o que há de mais essencial ao mercado: as pessoas. <strong>A Trybe resgata o desenvolvimento humano como etapa essencial ao aprendizado de <em>software</em></strong>, oferecendo acesso a especialistas em psicologia e dedicando valiosas horas à prática de <em>soft skills</em> e do autoconhecimento.
+            </p>
+          </aside>
+        </article>
+        <article class="lado-direito">
+          <h3 class="article-title">Os Aprendizados</h3>
+          <section>
+            <h4>As dez lições que aprendi (até agora)</h4>
+            <ol id="licoes_aprendidas">
+              <li>O <em>Slack</em> é um ótimo ambiente para manter equipes em contato;</li>
+              <li>Interações respeitosas são um incentivo à aprendizagem;</li>
+              <li>Como fazer <em>branches</em> no Git e a sua utilidade;</li>
+              <li>A importância dos <em>commits</em> para manter o controle de versões num projeto;</li>
+              <li>Realizar <em>pull requests</em> e <em>merges</em> no GitHub, funções essenciais para desenvolvimento em equipe;</li>
+              <li><em>Soft skills</em> é usar da nossa própria humanidade para agregar valor ao nosso trabalho;</li>
+              <li>Entender as hierarquias do CSS economiza horas de tentativas e erros e permite códigos mais elegantes;</li>
+              <li>Como o HTML Semântico é essencial para a acessibilidade na web;</li>
+              <li>Aprender em grupo é um grande estímulo para superar a saturação estagnante do auto-aprendizado;</li>
+              <li>Na Trybe, o pertencimento a um coletivo é realidade e não apenas <em>marketing</em>.</li>
+            </ol>
+          </section>
+          <section>
+            <h4>O que ainda desejo (e vou) aprender</h4>
+            <ul id="licoes_a_aprender">
+              <li>Como explorar o <em>LinkedIn</em> para conseguir mais oportunidades;</li>
+              <li>Explorar um DOM dinâmico com <em>JavaScript</em>;</li>
+              <li>Desenvolver <em>front-ends</em> em <em>React</em> - e entender como utilizar <em>Rest APIs</em>;</li>
+              <li><em>Flexbox</em> sem <em>Bootstrap</em>;</li>
+              <li>Práticas que permitam escrever um CSS responsivo sem penar tanto;</li>
+              <li>Metodologias Ágeis e sua importância no desenvolvimento profissional de <em>software</em>;</li>
+              <li>Tests em <em>front-end</em>, algo que pra mim ainda é difícil de imaginar;</li>
+              <li>A lógica e as vantagens de <em>MongoDB</em> e como utilizá-lo;</li>
+              <li>Se <em>NodeJS</em> supera <em>Python</em> em <em>back-ends</em>;</li>
+              <li>Noções de arquitetura de <em>software</em> para o planejamento e otimização da programação.</li>
+            </ul>
+          </section>
+        </article>
+        <address class="lado-esquerdo" id="author">
+          <h4 id="author-title">Sobre quem escreveu</h4>
+          <img id="minha_foto" src="profile-img.jpg" alt="Foto de Renato Feitosa">
+          <h5 id="author-name">Renato Pereira Feitosa</h5>
+          <p id="author-description">Bacharel em Ciências Sociais, desenvolvedor em <em>Python</em> e <em>Django</em> e integrante da <strong>❤️ Turma 9 ❤️</strong> do curso de Desenvolvimento Web da Trybe. <a href="https://www.betrybe.com/">#vqv</a> 🚀🚀🚀</p>
+          <table>
+            <tr>
+              <td>
+                <a href="https://github.com/pythaqua/" target="_blank">
+                  <i class="fab fa-github-square"></i>
+                  Github
+                </a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in/renato-pereira-feitosa" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                  LinkedIn
+                </a>
+              </td>
+              <td>
+                <a href="mailto:renatomo.pataqua@gmail.com" target="_blank">
+                  <i class="fas fa-envelope-square"></i>
+                  E-mail
+                </a>
+              </td>
+              <td>
+                <a href="https://twitter.com/pythaqua" target="_blank">
+                  <i class="fab fa-twitter-square"></i>
+                  Twitter
+                </a>
+              </td>
+            </tr>
+          </table>
+        </address>
+      </div>
     </main>
-    <article>
-      <h2>Trybe: coletividade é a condição para nos tirar do loop</h2>
-      <p>
-        Ao tomar a decisão de, à época dos meus 37 anos, mudar de área e ingressar no desenvolvimento de software, o auto-aprendizado me parecia o caminho mais provável. Apesar de colocar coisas em prática e vender <a href="https://pythaqua.github.io/#projetos">alguns projetos</a>, atingi um estágio em que não conseguia mais evoluir. O sentimento de estagnação e a insegurança para tentar vagas no mercado - sendo "forasteiro" com a minha idade - me dominaram. Foi quando conheci a Trybe, que, descobri, ser uma escola de software em que se ensina que o potencial humano e a coletividade têm tanto valor quanto conhecimentos sobre programação.
-      </p>
-      <aside>
-        <p>Diante da frieza dos códigos e pressão dos prazos, a escola valoriza o que há de mais essencial ao mercado: as pessoas. A Trybe resgata o desenvolvimento humano como etapa essencial ao aprendizado de software ao oferecer acesso a especialistas em psicologia e dedicando valiosas horas à prática de soft skills e do autoconhecimento.</p>
-      </aside>
-    </article>
-    <footer id="rodape">Desenvolvido por Renato Feitosa</footer>
+    <footer id="rodape">Desenvolvido por Renato Feitosa como projeto de conclusão do Bloco 3 do curso de Desenvolvimento Web da Trybe.</footer>
   </body>
 </html>
