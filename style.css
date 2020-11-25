@@ -123,8 +123,8 @@ body {
     line-height: 25px;
 }
 
-#table-info, tr, th {
+table tr, td {
     border: 1px solid black;
     text-align: center;
-    margin: 10px 10px;
+    margin: 20px 10px;
 }
