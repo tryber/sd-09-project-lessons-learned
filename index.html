@@ -13,7 +13,7 @@
         <header id="cabecalho">
             <h1 id="titulo">Lessons Learned - Trybe</h1>
 
-            <nav>
+            <nav id="nav-bar">
                 <ul>
                     <li class="nav-links">Início</li>
                     <li class="nav-links">Lições</li>
@@ -23,12 +23,32 @@
         </header>
 
         <main>
-            <div id="sobre">
+            <section id="sobre">
                 <h2>Saulo Kirchmaier Teixeira</h2>
                 <img src="/sauloimg.jpeg" alt="Imagem de Saulo Kirchmaier" id="minha_foto">
-            </div>
+            </section>
 
-            <section class="lista-conteudo">
+            
+
+            <section class="couteudo-principal">
+                <article id="artigo-aprendizado" class="lado-esquerdo">
+                    <h2>Ser um tryber</h2>
+                    <p>Estou apenas na terceira semana de estudos na Trybe, e ja estou fazendo o primeiro projeto, que é justamente essa página web. Durante essas semanas consegui entender o funcionamento do git/github, de forma pratica e clara e a utilizar o terminal. Vimos o básico de HTML e CSS, e ja posso contruir páginas sem problemas. Sei que ainda tem muito por vir, e a proxima lição será sobre Javascript. Mal posso esperar para me tornar um desenvolvedor Web Full Stack Jr e trabalhar para mundo 🗺️.</p>
+                </article>
+
+                <aside id="passagem-aprendizado" class="lado-direito">
+                    <h3>Aconteceu comigo</h3>
+                    <p>Na Trybe, fazemos muitas atividades de sofl skills, uma delas foi o primeiro trabalho em equipe, em que eu e mais 6 colegas eleboramos uma apresentação sobre o funcionamento da internet.</p>
+                </aside>
+            </section>            
+
+            <section id="trabalhos">
+                <p>Para conhecer meus trabalhos acesse o meu <a href="https://github.com/saulokirchmaier" target="_blank">Github</a>, e para saber um pouco mais sobre mim acesse o meu <a href="https://www.linkedin.com/in/saulokirchmaier/" target="_blank">LinkedIn</a>.</p>
+            </section>
+
+            <div id="listas">
+                <h2>Conteúdos Trybe</h2>
+                <section class="lista-conteudo">
                     <h2>Estudado</h2>
                     <ol id="licoes_aprendidas">
                         <li>Unix/Shell</li>
@@ -42,41 +62,28 @@
                         <li>Internet</li>
                         <li>Resiliência</li>
                     </ol>
-            </section>
-
-            <section class="lista-conteudo">
-                <h2>A estudar</h2>
-                <ul id="licoes_a_aprender">
-                    <li>JavaScript</li>
-                    <li>SQL</li>
-                    <li>NoSQL</li>
-                    <li>Responsividade</li>
-                    <li>Testes</li>
-                    <li>Trabalho em equipe</li>
-                    <li>Tomada de decisões</li>
-                    <li>Jest</li>
-                    <li>React</li>
-                    <li>Redux</li>
-                </ul>
-            </section>
-
-            <section>
-                <article id="artigo-aprendizado" class="lado-direito">
-                    <h2>Ser um tryber</h2>
-                    <p>Estou apenas na terceira semana de estudos na Trybe, e ja estou fazendo o primeiro projeto, que é justamente essa página web. Durante essas semanas consegui entender o funcionamento do git/github, de forma pratica e clara e a utilizar o terminal. Vimos o básico de HTML e CSS, e ja posso contruir páginas sem problemas. Sei que ainda tem muito por vir, e a proxima lição será sobre Javascript. Mal posso esperar para me tornar um desenvolvedor Web Full Stack Jr e trabalhar para mundo 🗺️.</p>
-                </article>
-
-                <aside id="passagem-aprendizado" class="lado-esquerdo">
-                    <h3>Aconteceu comigo</h3>
-                    <p>Na Trybe, fazemos muitas atividades de sofl skills, uma delas foi o primeiro trabalho em equipe, em que eu e mais 6 colegas eleboramos uma apresentação sobre o funcionamento da internet.</p>
-                </aside>
-            </section>
-
-            <p>Para conhecer meus trabalhos acesse o meu <a href="https://github.com/saulokirchmaier" target="_blank">Github</a>, e para saber um pouco mais sobre mim acesse o meu <a href="https://www.linkedin.com/in/saulokirchmaier/" target="_blank">LinkedIn</a></p>
+                </section>
+    
+                <section class="lista-conteudo">
+                    <h2>A estudar</h2>
+                    <ul id="licoes_a_aprender">
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>NoSQL</li>
+                        <li>Responsividade</li>
+                        <li>Testes</li>
+                        <li>Trabalho em equipe</li>
+                        <li>Tomada de decisões</li>
+                        <li>Jest</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                    </ul>
+                </section>
+            </div>
         </main>
 
         <footer id="rodape">
-            <p>Feito por Saulo Kirchmaier como projeto para Trybe</p>
+            <p>Feito por Saulo Kirchmaier como projeto para Trybe.</p>
         </footer>
     </body>
 </html>

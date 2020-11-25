@@ -30,6 +30,11 @@ p, li {
     line-height: 30px;
 }
 
+li {
+    padding-left: 5px;
+    text-align: left;
+}
+
 #cabecalho {
     position: fixed;
     top: 0;
@@ -40,18 +45,26 @@ p, li {
     padding: 10px;
 }
 
+#titulo, #nav-bar {
+    display: inline-block;
+}
+
+#titulo {
+    margin-right: 500px;
+}
+
 .nav-links, .lista-conteudo {
     display: inline-block;
     margin-right: 40px;
 }
 
 main {
-    margin: 70px 30px 10px;
+    margin: 50px 30px 10px;
     padding: 20px;
 }
 
 .lista-conteudo {
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 10px;
     max-width: 70%;
 }
@@ -76,4 +89,25 @@ img {
 footer {
     background-color: #334f54;
     color: rgb(253 , 251 , 251);
+    text-align: center;
+}
+
+.lado-esquerdo {
+    width: 70%;
+    float: left;
+}
+
+.lado-direito {
+    width: 25%;
+    float: right;
+    border-bottom: solid 2px #ffd781;
+    border-left: solid 2px #ffd781;
+}
+
+#trabalhos {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    clear: both;
+
 }
