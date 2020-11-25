@@ -11,42 +11,24 @@
 </head>
 
 <body>
+    <a id="top"></a>
     <header id="cabecalho">
         <h1 id="titulo">Lições aprendidas na Trybe</h1>
     </header>
 
 <nav>
+    <img id="minha_foto" src="Ana.png" alt="Foto de Ana Luiza Machado Salgado" height=170px>
+
     <ul>
-        <li> <a href="#minha_foto">Página Inicial</a></li>
-        <li> <a href="#licoes_aprendidas">Sobre o aprendizado</a></li>
-        <li> <a href="#rodape">Contato</a></li>
-    </ul>
+        <li><a href="#top">Sobre mim</a></li>
+        <li><a href="#licoes_aprendidas">Aprendizado</a></li>
+        <li><a href="#rodape">Contato</a></li>
+    </ul>    
 </nav>
 
 <main>
-    <section id="fotoetabela">
-        <img id="minha_foto" src="Ana.png" alt="Foto de Ana Luiza Machado Salgado" height=170px>
-        <table id="tabela-conteudos">
-            <tr>
-                <td class="up-table table-hdivision table-vdivision">Fundamentos do Desenvolvimento Web</td>
-                <td class="up-table table-hdivision table-vdivision">Desenvolvimento Front-end</td>
-                <td class="up-table table-hdivision table-vdivision">Desenvolvimento                Back-end</td>
-                <td class="up-table table-hdivision">Ciência da Computação</td>
-            </tr>
-            <tr>
-                <td class="table-vdivision"><img src="check.jpg" alt="check mark" width=25px></td>
-                <td class="table-vdivision"><img src="loading.txt" alt="loading gif" width=150px></td>
-                <td class="table-vdivision"><img src="loading.txt" alt="loading gif" width=150px></td>
-                <td><img src="loading.txt" alt="loading gif" width=150px></td>
-            </tr>
-        </table>
-    </section>
-
-    <section>
-        <h2 id="meu-nome">Ana Luiza Machado Salgado</h2>
-    </section>
-
-    <section>
+    <section id="licoes1">
+        <h4>O que eu já aprendi:</h3>
         <ol id="licoes_aprendidas">
             <li>Unix & Bash</li>
             <li>Git</li>
@@ -59,7 +41,9 @@
             <li>Inspect</li>
             <li>Semantic HTML</li>
         </ol>
+    </section>
 
+    <section id="licoes2">
         <ul id="licoes_a_aprender">
             <li>JavaScript</li>
             <li>DOM</li>
@@ -72,6 +56,29 @@
             <li>Node</li>
             <li>SQL</li>
         </ul>
+    </section>
+
+    <section id="sobre-mim">
+        <h2>Ana Luiza Machado Salgado</h2>
+        <p>Brasileira, graduanda em Arquitetura e Urbanismo pela UFOP e estudante de Desenvolvimento de Software na Trybe.</p>
+        <p id="bh"><img src="bh.png" alt="ícone de localização" height=16px> Belo Horizonte, MG.</p>
+    </section>
+
+    <section>
+        <table id="tabela-conteudos">
+            <tr>
+                <td class="up-table table-hdivision table-vdivision">Fundamentos do Desenvolvimento Web</td>
+                <td class="up-table table-hdivision table-vdivision">Desenvolvimento Front-end</td>
+                <td class="up-table table-hdivision table-vdivision">Desenvolvimento                Back-end</td>
+                <td class="up-table table-hdivision">Ciência da Computação</td>
+            </tr>
+            <tr>
+                <td class="table-vdivision"><img src="check.jpg" alt="check mark" width=25px></td>
+                <td class="table-vdivision"><img src="loading.txt" alt="loading gif" width=170px></td>
+                <td class="table-vdivision"><img src="loading.txt" alt="loading gif" width=170px></td>
+                <td><img src="loading.txt" alt="loading gif" width=170px></td>
+            </tr>
+        </table>
     </section>
 
     <article>
