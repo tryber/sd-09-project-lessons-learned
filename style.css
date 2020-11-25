@@ -6,7 +6,7 @@ body {
   font-size: 35px;
   color: red;
   line-height: normal;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 
 }
 
@@ -16,4 +16,21 @@ body {
 
 }
 
+.lado-direito {
+  position: relative;
+  float: left;
+  border-width: 2px;
+  width: 300px;
+  height: 700px;
 
+}
+
+.lado-esquerdo {
+  position: relative;
+  float: left;
+  border-width:2px;
+  width:auto;
+  height: auto;
+  left:300px;
+
+}
