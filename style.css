@@ -4,27 +4,22 @@ body{
 }
 
 table,tr, th, td{
-    border: 1px solid black;
-    margin-left: 15%;
+    border: 2px solid black;
+    margin-left: 0%;
 }
 
 p{
     text-align: justify;
 }
 
-h2, h3{
-    text-align: center;
-}
-
 .icone{
-    width: 75px;
+    width: 50px;
 }
 
 #cabecalho{
     margin: auto;
     padding: 30px 490px;
-    background: rgb(172,172,172);
-    background: linear-gradient(180deg, rgba(172,172,172,1) 0%, rgba(230,230,230,1) 100%);
+    background: rgb(134, 173, 95);
     position: fixed;
     top: 0px;
 }
@@ -35,7 +30,7 @@ h2, h3{
 }
 
 #titulo{
-    color: #6E4D4D;
+    color: rgb(253, 251, 251);
 }
 
 #pagina-principal{
@@ -45,21 +40,55 @@ h2, h3{
 #minha_foto{
     border-radius: 50%;
     width: 300px;
-    margin-left: 39%;
-    margin-top: 250px;
+    margin-left: 10%;
+    margin-top: 220px;
+}
 
+#sobre{
+    display: inline-block;
+    width: auto;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+#github-icone{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#linkedin-icone{
+    float: right;
+    margin-top: 20px;
+    margin-right: 200px;
 }
 
 #listas{
     font-size:14px;
     line-height: 13px;
     font-weight: bolder;
-    margin-top: 300px;
+    margin-top: 130px;
+}
+
+#listas h2{
+    margin-left: 42%;
+}
+
+#titulo_licoes_aprendidas{
+    margin-left: 25%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+#titulo_licoes_a_aprender{
+    float: right;
+    margin-top: 2%;
+    margin-right: 31%;
 }
 
 #licoes_aprendidas{
     display: inline-block;
-    margin-left: 30%;
+    margin-left: 25%;
     padding: 30px;
 }
 
@@ -73,29 +102,26 @@ h2, h3{
     width: 500px;
     display: inline-block;
     margin-left: 10%;
+    margin-top: 80px;
 }
 
 #lado-direito{
     float: right;
+    width: 400px;
+    margin-right: 8%;
+    margin-top: 80px;
+}
+
+#lado-direito-tabela{
     width: 500px;
     margin-right: 10%;
-
+    margin-top: 10px;
+    margin-left: 10%;
 }
 
 #rodape{
     margin-top: 10%;
-    background: rgb(172,172,172);
-    background: linear-gradient(180deg, rgba(172,172,172,1) 0%, rgba(230,230,230,1) 100%);
+    background: rgb(134, 173, 95);
     padding: 5px;
 }
 
-#github-icone{
-    float: left;
-    margin-left: 400px;
-    padding: 40px;
-}
-#linkedin-icone{
-    float: right;
-    margin-right: 400px;
-    padding: 40px;
-}
