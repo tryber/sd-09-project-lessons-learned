@@ -20,6 +20,15 @@ body {
 
 #minha_foto {
   padding-top: 30px;
-  width: 300px;
-  height: 300px;
+  width: 90%;
+  height: auto;
+}
+
+aside {
+  width: 20%;    
+  height: 100%;
+}
+
+table {
+  width: 90%;
 }
