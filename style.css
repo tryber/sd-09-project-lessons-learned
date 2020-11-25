@@ -9,6 +9,7 @@ body {
     text-align: center;
     font-family: sans-serif;
     }
+
 #navBar {
     background-color: rgb (57, 240, 57);
     text-align: center;
@@ -28,6 +29,7 @@ body {
     font-size: 1em;
     font-family: sans-serif;
     }
+
 #titulo {
     font-display: center;
     text-emphasis: bold;
@@ -38,6 +40,6 @@ body {
     }
 
 
-ol,ul {
+ol, ul {
     display: inline-block;
 }
