@@ -10,11 +10,11 @@
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253 ,251 ,251);
 }
 
 #cabecalho {
-  background-color: rgb(4,130,67);
+  background-color: rgb(4 ,130 ,67);
   width: 100%;
   position: fixed;
   top: 0;
@@ -36,7 +36,7 @@ body {
 }
 
 #rodape {
-    background-color: rgb(202, 255, 251);
-    padding: 20px 0;
-    text-align: center;
+  background-color: rgb(202 ,255 ,251);
+  padding: 20px 0;
+  text-align: center;
 }
