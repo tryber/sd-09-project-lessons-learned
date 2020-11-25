@@ -5,22 +5,77 @@ body {
 
 #cabecalho {
   top: 0;
+  left: 480px;
   position: fixed;
-  background-color: teal;
-  width: 100%;
+  width: 945px;
+  background-color: #DDE2F0;
+  padding-top: 150px;
+}
+
+#cabecalho li {
+  display: inline;
+  padding: 20px;
 }
 
 #titulo {
-  text-align: center;
+  margin-left: 8%;
+}
+
+.box {
+  background-color: #E3F6FC;
+  width: 50%;
+  margin: auto;
+  clear: both;
+}
+
+.box p {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 50px;
+  position: relative;
+  bottom: 190px;
+  left: 80px;
 }
 
 #minha_foto {
-  width: 350px;
-  border-radius: 50px;
+  width: 320px;
+  padding-top: 110px;
+  left: 550px;
+  position: relative;
+  border-radius: 160px;
+}
+
+#secao-skills {
+  position: relative;
+  top: 100px;
+  background-color: #E3F6FC;
+  padding-bottom: 10px;
 }
 
 .skills {
   display: inline-block;
-  color: royalblue;
-  font-weight: bold;
+  color: rgb(11, 26, 70);
+  line-height: 30px;
+  margin-left: 50px;
+  background-color: #DDE2F0;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 25px;
+}
+
+.article {
+  background-color: #DDE2F0;
+  display: inline-block;
+  color: rgb(11, 26, 70);
+  line-height: 30px;
+  margin-left: 700px;
+  padding: 30px;
+  margin-top: 15px;
+}
+
+#rodape {
+  background-color: #DDE2F0;
+  top: 200px;
+  position: relative;
+  padding: 20px;
+  border: solid;
 }
