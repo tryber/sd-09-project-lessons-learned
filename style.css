@@ -3,31 +3,21 @@ body{
    margin:0;
    font-family: Montserrat;
 }
-#cabecalho{
-    position: fixed;
+#cabecalho{ position: fixed;
     top:0;
     width: 1366px;
     height: 160px;
     background-image: url(https://lh3.googleusercontent.com/eNK4w8Qu02-rKY3pdb0NmD2WJLuC_LE7tntdkrDBCbF040PiwHUdqYNMCLt5Ypj_Gpv4lG8=w16383);
     background-position: 332px;
     background-size: 70%;
-    color: white;
-    
+    color: white; 
 }
 #cabecalho h1{
     font-size: 50px;
     margin-left: 224px;
     margin-top: 49px
 }
-article{display: inline-block;
-    width: 40%;
-    vertical-align: top;
-    margin: 10px;
-}
-#licoes{display:inline-block;
-width: 40%;
-margin:10px;
-}
+
 #apresentacao{
     margin-top: -139px;
     margin-left: 30px;
@@ -44,9 +34,23 @@ margin:10px;
     border-radius: 100px;
     height: 100px;
 }
-aside{
-    display: inline-block;
-    width: 15%;
-    vertical-align: top;
-}
+
 main{margin-top: 160px;}
+
+#licoes{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 2em;
+    padding-top: 5px;
+}
+#licoes_aprendidas{
+    width: 40%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#licoes_a_aprender{
+    width: 40%;
+    display: inline-block;
+    margin-left: 15px;
+}
