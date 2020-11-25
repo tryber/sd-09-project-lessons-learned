@@ -5,6 +5,7 @@ body {
         color:grey;
         font-size: 22px;
         line-height: 30px;
+        front
         
 }
 
@@ -34,13 +35,13 @@ body {
         float:left;
         width: 40%;
         padding-right: 0%;
+        margin-left: 20px;
 }
 
 #sessao_de_aprendizado{
-        border: dotted;
-        margin: 20px 30px;  
         float:right;
         width: 40%;
+        margin-right: 20px;
         
 }
 
@@ -54,12 +55,17 @@ h1{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-footer{
+footer {
         border: dotted;
 }
 
 
-div{ width: 500px;}
+div { 
+        border: dotted;
+        height: 340px;
+}
 
 table, th, td {
         border: 3px solid blue;
+        margin-top: 20px;
+        margin-bottom: 20px;
