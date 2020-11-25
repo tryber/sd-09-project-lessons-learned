@@ -18,25 +18,33 @@ main {
   min-width: 500px;
 }
 
+span {
+    font-family: fantasy;
+    font-size: 1.3em;
+    font-weight: 800;
+    color: crimson;
+    letter-spacing: 2em;
+    text-transform: uppercase;
+  }
+
+table {
+  clear: both;
+}
+
 .article {
   margin: 1em 10px;
+  float: left;
+  width: 30%;
 }
 
 .aside {
+  padding: 22px;
   color: rgb(71 , 71 , 71);
   font-family: serif;
   font-size: 15px;
   float: right;
-  letter-spacing: 1px;
-}
-
-span {
-  font-family: fantasy;
-  font-size: 1.3em;
-  font-weight: 800;
-  color: crimson;
-  letter-spacing: 2em;
-  text-transform: uppercase;
+  letter-spacing: 1px;;
+  width: 20%;
 }
 
 #cabecalho {
