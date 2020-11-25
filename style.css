@@ -23,6 +23,7 @@ td{
   top: 0;
   width: 100%;
   text-align: right;
+  margin: 0;
 }
 
 #licoes_a_aprender {
@@ -39,6 +40,8 @@ td{
   margin: 20px;
   width: 8%;
   float: left;
+  border-radius: 10%;
+  border: 5px solid blanchedalmond;
 }
 
 #rodape {
@@ -58,32 +61,40 @@ td{
   margin-right: 30px;
 }
 
+#table{
+  width: 30%;
+  align-items: center;
+}
+
 .align-main{
   display: inline-block;
   margin-top: 150px;
 }
 .lado-esquerdo {
-  width: 30%;
+  width: 20%;
   margin: 20px;
   border: 1px dotted rgb(65 , 122 , 73);
   background-color: blanchedalmond;
   text-align: center;
   padding: 20px;
+  display: inline-block;
 }
 
 .lado-direito {
-  width: 30%;
+  width: 20%;
   margin: 20px;
   text-align: center;
   border: 1px dotted rgb(65 , 122 , 73);
   background-color: blanchedalmond;
   padding: 20px;
+  display: inline-block;
 }
 
 .meio{
-  width: 30%;
+  width: 20%;
   margin: 20px;
   border: 1px dotted rgb(65 , 122 , 73);
   background-color: blanchedalmond;
   padding: 20px;
+  display: inline-block;
 }
