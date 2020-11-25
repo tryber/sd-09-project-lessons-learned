@@ -8,7 +8,7 @@ body {
 }
 
 #minha_foto {
-  margin-top: 5.25%;
+  margin-top: 16px;
   width: 30%;
 }
 
@@ -19,4 +19,14 @@ body {
 #instagram {
   width: 50px;
   margin-left: 6px;
+}
+
+#navegacao {
+  margin-top: 6%;
+}
+
+#navegacao li{
+  display: inline-block;
+  margin-right: 30px;
+  
 }
