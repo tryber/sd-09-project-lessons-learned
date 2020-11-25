@@ -64,11 +64,11 @@ h1 {
   font-weight: 800;
 }
 
-#licoes_aprendidas {
+#licoes1 {
   margin-left: 20px;
 }
 
-#licoes_a_aprender {
+#licoes2 {
   margin-left: 50px;
 }
 
@@ -127,7 +127,7 @@ table , td , th {
   align-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 250px;
+  margin-top: 275px;
 }
 
 table {
