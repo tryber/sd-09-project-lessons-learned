@@ -16,13 +16,13 @@ body {
 }
 
 caption {
-    border: 4px solid grey;
+  border: 4px solid grey;
 }
 
 footer {
-    text-align: center;
-    bottom: 0;
-    width: 100%;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
 }
 
 .lado-direito {
@@ -40,7 +40,7 @@ footer {
 }
 
 #links_importantes {
-    text-align: center;
+  text-align: center;
 }
 
 #minha_foto {
