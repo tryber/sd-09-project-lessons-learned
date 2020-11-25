@@ -1,95 +1,95 @@
-body{ 
-    background-color: rgb(253 , 251 , 251);
-    margin: 0;
-    font-family: Montserrat, sans-serif;
+body {
+  background-color: rgb(253 , 251 , 251);
+  margin: 0;
+  font-family: Montserrat, sans-serif;
 }
 
-#cabecalho{ 
-    position: fixed;
-    top:0;
-    width: 1366px;
-    height: 160px;
-    background-color: rgb(15 , 162 , 107);
-    color: white;
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 1366px;
+  height: 160px;
+  background-color: rgb(15 , 162 , 107);
+  color: white;
 }
 
-#cabecalho h1{ 
-    font-size: 50px;
-    margin-left: 550px;
-    margin-top: 49px
+#cabecalho h1 {
+  font-size: 50px;
+  margin-left: 550px;
+  margin-top: 49px;
 }
 
-#apresentacao{ 
-    margin-top: -139px;
-    margin-left: 90px;
-    text-align: center;
-    width: 168px;
+#apresentacao {
+  margin-top: -139px;
+  margin-left: 90px;
+  text-align: center;
+  width: 168px;
 }
 
-#apresentacao h2{ 
-    margin: 0;
+#apresentacao h2 {
+  margin: 0;
 }
 
-#apresentacao p{ 
-    margin: -5px;
+#apresentacao p {
+  margin: -5px;
 }
 
-#minha_foto{ 
-    border-radius: 100px;
-    height: 100px;
+#minha_foto {
+  border-radius: 100px;
+  height: 100px;
 }
 
-main{ 
-    margin-top: 160px;
+main {
+  margin-top: 160px;
 }
 
-#licoes{ 
-    width: 70%;
-    margin: 0 auto;
-    line-height: 2em;
-    padding-top: 5px;
+#licoes {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 2em;
+  padding-top: 5px;
 }
 
-#licoes_aprendidas{ 
-    width: 40%;
-    display: inline-block;
-    margin-right: 15px;
+#licoes_aprendidas {
+  width: 40%;
+  display: inline-block;
+  margin-right: 15px;
 }
 
-#licoes_a_aprender{ 
-    width: 40%;
-    display: inline-block;
-    margin-left: 15px;
+#licoes_a_aprender {
+  width: 40%;
+  display: inline-block;
+  margin-left: 15px;
 }
 
-#textos{ 
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 25px;
+#textos {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
 }
 
-.lado-esquerdo{ 
-    width: 70%;
-    margin-right: 15px;
-    vertical-align: top;
-    display: inline-block;
+.lado-esquerdo {
+  width: 70%;
+  margin-right: 15px;
+  vertical-align: top;
+  display: inline-block;
 }
 
-.lado-direito{ 
-    width: 20%;
-    margin-left: 15px;
-    display: inline-block;
+.lado-direito {
+  width: 20%;
+  margin-left: 15px;
+  display: inline-block;
 }
 
-.icones{ 
-    width: 50px;
-    border-radius: 50px;
-    margin: 3px;
+.icones {
+  width: 50px;
+  border-radius: 50px;
+  margin: 3px;
 }
 
-#conteiner-icones{ 
-    width: 50px;
-    margin-top: -128px;
-    margin-left: 218px;
+#conteiner-icones {
+  width: 50px;
+  margin-top: -128px;
+  margin-left: 218px;
 }
