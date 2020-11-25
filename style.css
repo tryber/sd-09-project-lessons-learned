@@ -22,28 +22,32 @@ aside {
   margin: 10px;
 }
 
-table, th, td {
+table {
   border: 1px solid black;
   margin: 20px 30px 30px;
   border-collapse: collapse;
 }
 
 th {
+  border: 1px solid black;
+  margin: 20px 30px 30px;
   padding: 10px;
   height: 30px;
-  font: bold;
+  font-weight: bold;
   color: blue;
 }
 
 td {
+  border: 1px solid black;
+  margin: 20px 30px 30px;
   padding: 10px;
   height: 30px;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0.01px;
+  left: 0.01px;
   width: 100%;
   background-color: rgb(117 , 240 , 163);
   display: block;
