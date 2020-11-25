@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 aside {
@@ -12,7 +12,7 @@ aside {
 
 table, th, td {
   border: 1px solid black;
-  margin: 10px 30px 30px 30px;
+  margin: 10px 30px 30px;
   border-collapse: collapse;
 }
 
@@ -38,7 +38,12 @@ th, td {
   text-align: center;
 }
 
-#licoes_aprendidas,
+#licoes_aprendidas {
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+}
+
 #licoes_a_aprender {
   display: inline-block;
   text-align: left;
@@ -49,7 +54,7 @@ th, td {
   font-size: 20px;
 }
 
-.minha_foto {
+#minha_foto {
   margin-top: 100px;
   width: 200px;
   display: inline-block;
