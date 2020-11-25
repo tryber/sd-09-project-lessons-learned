@@ -35,6 +35,8 @@ ul {
   text-align: center;
   padding-top: 30px;
   margin-left: 520px;
+  margin-left: 30px;
+  margin-right: 80px;
 }
 
 #nav-btn li {
@@ -75,11 +77,6 @@ ul {
   margin-top: 30px;
 }
 
-ul {
-  margin-left: 30px;
-  margin-right: 80px;
-}
-
 #card-list li {
   display: inline;
   margin-left: 50px;
@@ -96,7 +93,6 @@ ul {
 }
 
 #licoes_aprendidas {
-  
   float: right;
   width: 320px;
   margin-top: -360px;
@@ -108,7 +104,6 @@ ul {
 }
 
 #licoes_a_aprender {
- 
   float: right;
   width: 320px;
   margin-top: -360px;
