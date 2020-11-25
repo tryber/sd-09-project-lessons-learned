@@ -71,3 +71,13 @@ article {
   clear: both;
   padding-right:50%;
 }
+
+#victor {
+  text-align: center;
+  font-weight: 800;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
