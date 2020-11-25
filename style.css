@@ -1,38 +1,38 @@
-body{ 
+body{
   background-color: rgb(253, 251, 251);
   font-family: Montserrat, sans-serif;
   font-size: 14px;
   margin: 0;
   color: black;
-  line-height: 20px; 
+  line-height: 20px;
 }
 
-#cabecalho{ 
+#cabecalho{
   position: fixed;
   top: 0px;
   height: 6em;
   background-color: #fca311;
   width: 100%;
-  z-index: 2; 
+  z-index: 2;
 }
 
-#perfil{ 
+#perfil{
   overflow: auto;
   padding-bottom: 200px;
 }
 
-.fundos_secoes{ 
+.fundos_secoes{
   background-color: #14213d;
   color:white;
-  padding: 50px; 
+  padding: 50px;
 }
 
-.exceto_secoes{ 
+.exceto_secoes{
   margin: 15px;
-  border: 1px solid #fca311; 
+  border: 1px solid #fca311;
 }
 
-#artigo{ 
+#artigo{
   text-align: center;
   overflow: auto;
   display: inline-block;
@@ -40,7 +40,7 @@ body{
   width: 50%;
 }
 
-#aside_breve_passagem{ 
+#aside_breve_passagem{
   text-align: center;
   display: inline-block;
   overflow: auto;
@@ -48,31 +48,31 @@ body{
   width: 30%;
 }
 
-.listas{ 
+.listas{
   text-decoration: none;
-  list-style: none; 
+  list-style: none;
 }
 
-.listas li{ 
-  display: inline-block; 
+.listas li{
+  display: inline-block;
 }
 
-#conteudo{ 
+#conteudo{
   padding-top: 100px;
-  top: 4.5em; 
+  top: 4.5em;
 }
 
-#navegacao{ 
+#navegacao{
   background-color: #fca311;
-  text-align: center; 
+  text-align: center;
 }
 
-#titulo{ 
+#titulo{
   text-align: start;
-  margin-left: 3em; 
+  margin-left: 3em;
 }
 
-#minha_foto{ 
+#minha_foto{
   height: 10em;
   object-fit: cover;
   width: 10em;
@@ -82,40 +82,40 @@ body{
   left: 5%;
 }
 
-#licoes_aprendidas{ 
+#licoes_aprendidas{
   border-top: 1px solid #fca311;
 }
 
-#licoes_a_aprender{ 
+#licoes_a_aprender{
   border-top: 1px solid #fca311;
 }
 
-.cartao_apresentacao{ 
+.cartao_apresentacao{
   background-color: #e5e5e5;
   color: #14213d;
   display: inline-block;
   width: 500px;
-  overflow: auto; 
+  overflow: auto;
 }
 
-#rodape{ 
+#rodape{
   clear: both;
   text-align: center;
   background-color: #fca311;
   position: relative;
-  top: 5em; 
+  top: 5em;
 }
 
-.links_logos{ 
+.links_logos{
   object-fit: cover;
-  padding: 10px; 
+  padding: 10px;
 }
 
-.style_link{ 
+.style_link{
   text-decoration: #fca311;
-  color: #fca311; 
+  color: #fca311;
 }
 
-.style_link:hover{ 
-  color: #e5e5e5; 
+.style_link:hover{
+  color: #e5e5e5;
 }
