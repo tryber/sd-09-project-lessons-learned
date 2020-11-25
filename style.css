@@ -26,12 +26,13 @@ main {
     padding: 2%;
     margin: 1px;
     border: dotted green;
+    display: inline-block;
 }
 
 #minha_foto {
     position: relative;
     float: left;
-    height: 300px;
+    height: 330px;
     border: 10px ridge silver;
 }
 
@@ -43,6 +44,16 @@ main {
     margin-top: -20px;
     padding-top: 0;
     text-align: left;
+}
+
+#nao-aprendidas {
+    position: relative;
+    color: white;
+    width: 35%;
+    right: 0;
+    margin-top: -382px;
+    text-align: center;
+    float: right;
 }
 
 .icon {
@@ -57,5 +68,6 @@ main {
 
 li {
     text-align: left;
-    margin: 9px;
+    margin: 10px;
+    font-size: large;
 }
