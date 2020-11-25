@@ -1,16 +1,37 @@
 body {
-    background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253 , 251 , 251);
 
 }
 
 #cabecalho {
-    background-color: rgb(42 , 99 , 143);
-    position: fixed;
-    width: 100%;
-    color: white;
-    top: 0;   
+  background-color: rgb(42 , 99 , 143);
+  position: fixed;
+  width: 100%;
+  color: white;
+  top: 0;
 }
 
 #titulo {
-    text-align: center;
+  text-align: center;
+}
+
+#minha_foto {
+  margin-top: 7%;
+     
+     
+}
+
+#rodape {
+  color: rgb(24, 19, 19);
+}
+
+.artigo {
+  background-color: rgb(219 , 231 , 233);
+  float: right;
+  width: 40%;
+  position: absolute;
+  right: 0;
+  left: ;
+  top: 270px;
+
 }
