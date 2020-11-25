@@ -1,7 +1,21 @@
 body {
-  background-color: rgb(253 , 251 , 251);
+    background-color: rgb(253 , 251 , 251);
 }
 
-header {
-  position: fixed;
+#cabecalho {
+    background-color: green;
+
+    }
+
+div {
+    width:;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+#linkheader {
+    display: inline-block;
 }
