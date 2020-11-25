@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #id {
-  top:0;
+  top: 0;
   position: fixed;
 }
