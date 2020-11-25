@@ -1,14 +1,14 @@
 header {
-    background-color: rgb(15 ,163 ,107);
+    background-color: rgb(15, 163, 107);
     margin-bottom: 10px;
 }
 
 header h1 {
-    margin-top: 0;
+margin-top: 0;
     font-family: Montserrat, sans-serif;
-    text-align: center;
+        text-align: center;
     padding-bottom: 5px;
-    border-bottom: 10px double rgb(10 ,171 ,83);
+    border-bottom: 10px double rgb(10, 171, 83);
 }
 
 nav a {
@@ -16,28 +16,28 @@ nav a {
     display: inline-block;
     margin: 0 15px 10px;
     padding: 2px;
-    border: 2px solid rgb(8 ,140 ,123);
+    border: 2px solid rgb(8, 140, 123);
 }
 
 body {
-    background-color: rgb(253 ,251 ,251);
+    background-color: rgb(253, 251, 251);
 }
 
 img {
     border-radius: 40px;
-    border: 2px solid rgb(8 ,140 ,123);
+    border: 2px solid rgb(8, 140, 123);
     width: 150px;
     margin-right: 60%;
 }
 
 article {
-    margin: 10px 0px 60px;
+    margin: 10px 0 60px;
     float: left;
     width: 50%;
 }
 
 aside {
-    margin: 10px 0px 10px;
+    margin: 10px 0;
     float: right;
     width: 40%;
 }
@@ -67,8 +67,8 @@ table {
 }
 
 /* Estilização da tabela */
-table ,th ,td {
-    border: 1.5px solid rgb(10 ,171 ,83);
+table, th, td {
+    border: 1.5px solid rgb(10, 171, 83);
 }
 
 /* Estilização do rodapé */
@@ -77,5 +77,5 @@ footer h2 {
 }
 
 footer {
-    background-color: rgb(10 ,171 ,83);
+    background-color: rgb(10, 171, 83);
 }
