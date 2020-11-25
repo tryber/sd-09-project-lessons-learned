@@ -8,7 +8,7 @@
   width: 100%;
   top: 0;
   background-color: seagreen;
-  color: rgb(36, 19, 39);
+  color: rgb(36 , 19 , 39);
 }
 
 #titulo {
@@ -45,14 +45,14 @@ body {
   float: left;
 }
 
-#artigo_aprendizado {
+.lado_esquerdo {
   width: 45%;
   float: left;
   margin: 10px 0 50px 20px;
   padding: 0 20px;
 }
 
-#secao {
+.lado_direito {
   width: 45%;
   float: left;
   padding: 0 10px;
