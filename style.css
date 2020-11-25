@@ -1,6 +1,7 @@
 body {
-  background-color: rgb(253 , 251 , 251);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(253 , 251 , 251);
+  line-height: 1.5;
 }
 
 img {
@@ -20,10 +21,6 @@ table , th , td {
   margin-right: 30%;
 }
 
-#cabelho {
-  
-}
-
 #content {
   padding: 80px 40px 20px;
   margin: 10px 20px;
@@ -40,10 +37,11 @@ table , th , td {
 
 #titulo {
   background-color: royalblue;
-  width: 100%;
-  position: fixed;
   display: inline;
+  position: fixed;
   padding: 20px;
+  color: lightcyan;
+  width: 100%;
   margin: 0;
 }
 
