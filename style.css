@@ -1,125 +1,125 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(253 , 251 , 251);
-    margin: 0 auto;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    color: rgba(0 , 0 , 0 , 0.85);
+  background-color: rgb(253 , 251 , 251);
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: rgba(0 , 0 , 0 , 0.85);
 }
 
 h2 , h3 {
-    margin: 10px auto;
-    color: rgb(51 , 79 , 84);
-    font-weight: 700;
+  margin: 10px auto;
+  color: rgb(51 , 79 , 84);
+  font-weight: 700;
 }
 
 h2 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 p , li , th , td {
-    font-size: 20px;
-    line-height: 30px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 li {
-    padding-left: 5px;
-    text-align: left;
+  padding-left: 5px;
+  text-align: left;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgb(68 , 169 , 167);
-    color: rgb(253 , 251 , 251);
-    text-align: center;
-    padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(68 , 169 , 167);
+  color: rgb(253 , 251 , 251);
+  text-align: center;
+  padding: 10px;
 }
 
 #titulo , #nav-bar {
-    display: inline-block;
+  display: inline-block;
 }
 
 #titulo {
-    margin-right: 500px;
+  margin-right: 500px;
 }
 
 .nav-links , .lista-conteudo {
-    display: inline-block;
-    margin-right: 40px;
+  display: inline-block;
+  margin-right: 40px;
 }
 
 main {
-    margin: 50px 30px 10px;
-    padding: 20px;
+  margin: 50px 30px 10px;
+  padding: 20px;
 }
 
 .lista-conteudo {
-    margin: 0 auto;
-    padding: 10px;
-    max-width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 70%;
 }
 
 #licoes_aprendidas {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 #artigo-aprendizado , #passagem-aprendizado {
-    margin: 10px auto;
-    padding: 10px;
-    max-width: 70%;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 70%;
 }
 
 img {
-    width: 300px;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: rgb(255 , 215 , 129);
+  width: 300px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgb(255 , 215 , 129);
 }
 
 footer {
-    background-color: #334f54;
-    color: rgb(253 , 251 , 251);
-    text-align: center;
+  background-color rgb(51 , 79 , 84); 
+  color: rgb(253 , 251 , 251);
+  text-align: center;
 }
 
 .lado-esquerdo {
-    width: 70%;
-    float: left;
+  width: 70%;
+  float: left;
 }
 
 .lado-direito {
-    width: 25%;
-    float: right;
-    border-bottom: solid 2px rgb(255 , 215 , 129);
-    border-left: solid 2px rgb(255 , 215 , 129);
+  width: 25%;
+  float: right;
+  border-bottom: solid 2px rgb(255 , 215 , 129);
+  border-left: solid 2px rgb(255 , 215 , 129);
 }
 
 #trabalhos {
-    width: 100%;
-    margin: 10px auto;
-    padding: 10px;
-    clear: both;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  clear: both;
 }
 
 table {
-    margin: 10px auto;
-    width: 80%;
+  margin: 10px auto;
+  width: 80%;
 }
 
 table th {
-    background-color: rgb(68 , 169 , 167);
+  background-color: rgb(68 , 169 , 167);
 }
 
 table td {
-    background-color: rgb(255 , 215 , 129);
+  background-color: rgb(255 , 215 , 129);
 }
