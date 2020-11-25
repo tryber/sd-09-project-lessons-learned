@@ -1,5 +1,6 @@
 * {
   font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
 }
 
 #cabecalho {
@@ -7,6 +8,7 @@
   width: 100%;
   top: 0;
   background-color: seagreen;
+  color: rgb(36, 19, 39);
 }
 
 #titulo {
@@ -70,6 +72,7 @@ body {
   position: fixed;
   bottom: 10px;
   background-color: rgb(132 , 175 , 132);
+  font-size: 12px;
 }
 
 nav {
@@ -111,4 +114,6 @@ nav ul li {
   width: 50%;
   height: auto;
   float: right;
+  padding-bottom: 5em;
+  align-items: stretch;
 }
