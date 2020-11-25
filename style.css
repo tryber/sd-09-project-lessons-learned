@@ -17,17 +17,17 @@ p {
 
 /* Class styles */
 .main-content {
-    position: absolute;
-    top: 17%;
-    bottom: 12%;
-    left: 0;
-    right: 0;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5% 3%;
-    overflow: auto;
-  }  
+  position: absolute;
+  top: 17%;
+  bottom: 12%;
+  left: 0;
+  right: 0;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5% 3%;
+  overflow: auto;
+}
 
 .lessons {
   overflow: auto;
@@ -165,7 +165,7 @@ p {
 }
 
 /* Inherit styles */
-#rodape a:visited {
+#rodape a:link {
   color: rgb(25 , 63 , 124);
 }
 
