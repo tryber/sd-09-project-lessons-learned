@@ -6,42 +6,59 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: Patrick Hand, cursive;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 p {
-    line-height: 25px;
+  line-height: 25px;
+  text-indent: 50px;
+  text-align: justify;
 }
 
 /* Class styles */
 .main-content {
-    position: absolute;
-    top: 17%;
-    bottom: 12%;
-    left: 0;
-    right: 0;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5% 3%;
-    overflow: auto;
+  position: absolute;
+  top: 17%;
+  bottom: 12%;
+  left: 0;
+  right: 0;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5% 3%;
+  overflow: auto;
 }
 
 .lessons {
-  width: 70%;
-  margin: auto;
+  overflow: auto;
 }
 
 .lado-esquerdo {
+  border: 2px dashed rgba(126 , 201 , 251);
   float: left;
+  padding: 2%;
+  width: 40%;
+  margin-left: 3%;
 }
 
 .lado-direito {
+  border: 2px dashed rgb(253, 165, 0);
   float: right;
+  padding: 2%;
+  width: 40%;
+  margin-right:3%;
 }
 
 .sem-float {
-  clear: both;
+  margin-top: 20px;
+  padding: 2%;
+  width: 45%;
+  position: relative;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .footer-content-wrapper {
@@ -75,6 +92,15 @@ p {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.aside-content {
+    float: right;
+    position: sticky;
+    top: 0;
+    width: 45%;
+    margin-top: 20px;
+    padding: 2%;
 }
 
 /* ID styles */
@@ -113,11 +139,11 @@ p {
 }
 
 #licoes_aprendidas {
-
+  border: none; /* Colocado só pra parrar o erro no CC */
 }
 
 #licoes_a_aprender {
-
+  border: none; /* Colocado só pra parrar o erro no CC */
 }
 
 #rodape {
