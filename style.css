@@ -15,15 +15,15 @@ body {
 }
 
 .lado-esquerdo {
- float: left;
+  float: left;
 }
 
 .lado-direito {
- float: right;
+  float: right;
 }
 
 .sem-float {
- clear: both;
+  clear: both;
 }
 
 .footer-content-wrapper {
@@ -36,7 +36,7 @@ body {
   width: 45%;
   padding-left: 5%;
   font-family: Satisfy, cursive;
-  color: rgb(25, 63, 123);
+  color: rgb(25 , 63 , 123);
   font-size: 25px;
 }
 
@@ -61,7 +61,7 @@ body {
 
 /* ID styles */
 #cabecalho {
-  background-color: rgba(126, 201, 251 , 0.918);
+  background-color: rgba(126 , 201 , 251 , 0.918);
   position: fixed;
   right: 0;
   left: 0;
@@ -70,7 +70,7 @@ body {
   min-height: 70px;
   margin-left: auto;
   margin-right: auto;
-  border: 10px outset rgba(126, 201, 251 , 0.918);
+  border: 10px outset rgba(126 , 201 , 251 , 0.918);
 }
 
 #titulo {
@@ -117,7 +117,7 @@ body {
 
 /* Inherit styles */
 #rodape a:link , a:visited {
-    color: rgb(25, 63, 124);
+    color: rgb(25 , 63 , 124);
 }
 
 #rodape a:hover {
