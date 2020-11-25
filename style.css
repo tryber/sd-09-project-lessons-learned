@@ -20,7 +20,6 @@ a {
   top: 0;
   background-color: rgb(253 , 220 , 92);
   width: 100%;
-  height: 10%;
   color: rgb(102 , 95 , 209);
   text-align: center;
   border: 3px rgb(253 , 220 , 92) solid;
@@ -39,7 +38,7 @@ a {
 
 #minha_foto {
   margin-left: 50px;
-  margin-top: 7%;
+  margin-top: 10%;
   display: inline-block;
   border: 3px rgb(102 , 95 , 209) solid;
 }
@@ -53,7 +52,7 @@ a {
   border: 3px yellow solid;
 }
 
-#rodape > h4 {
+#rodape > h3 {
   margin-top: 20px;
   display: inline-block;
 }
