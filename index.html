@@ -2,67 +2,112 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <title>Lessons Learned</title>
         <link rel="stylesheet" type="text/css" href="style.css"> 
     </head>
     <body>
         <header id=cabecalho>
-            <h1 id="titulo">Iniciando o site!</h1>
+            <h1 id="titulo">Lições aprendidas - Trybe!</h1>
             <nav id="menu">
                 <ul>
-                    <li><a>item 1</a></li>
-                    <li><a>item 2</a></li>
-                    <li><a>item 3</a></li>
+                    <li><a>Home</a></li>
+                    <li><a>Habilidades</a></li>
+                    <li><a>Contato</a></li>
                 </ul>
             </nav>
         </header>
-        
         <main>
-            <img id="minha_foto" src="exemplo.png">
-            <div>
-                <ol class="lado-esquerdo" id="licoes_aprendidas">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ol>
-                <ul class="lado-direito" id="licoes_a_aprender">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <article>
-                <section>
-                <!--Crie um artigo sobre seu aprendizado
-                A tag article devem ser utilizadas
-                O artigo deve ter mais de 300 letras e menos de 600--> 
+            <img id="minha_foto" src="fotome.jpg" alt="Vinicius Palenske">
+            <article id="caixa">
+                <h2>Skills</h2>
+                <section class="lado-esquerdo">
+                    <ol id="licoes_aprendidas">
+                        <h3>Coisas que aprendi</h3>
+                        <li>SoftSkills</li>
+                        <li>Unix</li>
+                        <li>Bash</li>
+                        <li>Networking</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>HTML semântico</li>
+                    </ol>
+                </section>
+                <section class="lado-direito">
+                    <ul id="licoes_a_aprender">
+                        <h3>Coisas a aprender</h3>
+                        <li>Mais soft skills</li>
+                        <li>JavaScript</li>
+                        <li>react</li>
+                        <li>Python</li>
+                        <li>etc</li>
+                    </ul>
                 </section>
             </article>
-            <aside>
-                <section>
-                    <!--9 - Crie uma seção que conta uma passagem sobre seu aprendizado.
-                    A seção deve ter mais que 100 letras e menos que 300-->
+            <article class="artigo">
+                <h2>Processo de aprendizagem ativa</h2>
+                <section class="sessao" id="texto-principal">
+                    <h3>Dias na tribo</h3>
+                    <br>
+                    <p>jdhsauidhsa suadhsuia hsuiadh suadhsuiadh 
+                        sauidhauuahd asduh asudh asuidhsaiu 
+                        hsadu hsuidhsauidhsaiudhsauidhui 
+                        uhsduiasdhsaudisadsa ioshdsuiadh 
+                        suaidh asiudhsaiu dhsadsaduhs aduisahdui ahsdiuash asd iusadh saiudhsaduisa hduisa dhsauidh iuhsud ashd uish uihuhsushush sayguywayu sygdyusag yusgd ajs iojdsaioj dsiaojd iosajdahgdy gash aisjdih aus iajsiod jsiadj auisfhasj ijsaodka iojfiaojssauidhauuahd asduh asudh asuidhsaiu 
+                        hsadu hsuidhsauidhsaiudhsauidhui 
+                        uhsduiasdhsaudisadsa ioshdsuiadh 
+                        suaidh asiudhsaiu dhsadsaduhs aduisahdui ahsdiuash asd iusadh saiudhsaduisa hduisa dhsauidh iuhsud ashd uish uihuhsushush sayguywayu sygdyusag yusgd ajs iojdsaioj dsiaojd iosajdahgdy gash aisjdih aus iajsiod jsiadj auisfhasj ijsaodka iojfiaojssauidhauuahd asduh asudh asuidhsaiu 
+                        hsadu hsuidhsauidhsaiudhsauidhui 
+                        uhsduiasdhsaudisadsa ioshdsuiadh 
+                        suaidh asiudhsaiu dhsadsaduhs aduisahdui ahsdiuash asd iusadh saiudhsaduisa hduisa dhsauidh iuhsud ashd uish uihuhsushush sayguywayu sygdyusag yusgd ajs iojdsaioj dsiaojd iosajdahgdy gash aisjdih aus iajsiod jsiadj auisfhasj ijsaodka iojfiaojs
+                    </p>
+                </section>
+                <section class="sessao">
+                    <h3>Tabela de aprendizado</h3><br>
+                    <table id="dificuldade_skills">
+                        <tr>
+                            <th>Dificudade</th>
+                            <th>Fácil</th>
+                            <th>Médio</th>
+                            <th>Difícil</th>
+                        </tr>
+                        <tr>
+                            <th> UNIX </th>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th> BASH </th>
+                            <td></td>
+                            <td>X</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th> HTML </th>
+                            <td></td>
+                            <td>X</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th> CSS </th>
+                            <td></td>
+                            <td></td>
+                            <td>X</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+            <aside id="canto">
+                <h2>Momentos</h2>
+                <section class="sessao">
+                    <h3>O dia em que eu aprendi a usar o Github</h3><br>
+                    <p>ushdusa duihsad uish adsh au idhsa duihasd
+                        dsduh sads ads.
+                        sihuaidhuisahdsu uhsuidhsauid ds das dsad sdasjk idjai osdisoaj iosadj aodksoad.
+                    </p>
                 </section>
             </aside>
-            <div>
-                <table> </table>
-            </div>
-            <footer id="rodape">
-                <a href=""></a>
-            </footer>
         </main>
+        <footer id="rodape"> <p>Direitos reservados a mim.<br> - 2020, um ano muito louco -</p></footer>
     </body>
 </html>
