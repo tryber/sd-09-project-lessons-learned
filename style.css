@@ -1,7 +1,7 @@
 #cabecalho {
   position: fixed;
   width: 100%;
-  top: 0px;
+  top: 0;
   background-color: seagreen;
 }
 
@@ -62,8 +62,8 @@ nav {
 
 #img_face {
   width: 25px;
-
 }
+
 #img_linkedin {
   width: 60px;
 }
