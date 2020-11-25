@@ -6,7 +6,6 @@ body {
 p {
   font-family: monospace;
   font-size: 15px;
-  font-weight: bold;
   font-style: italic;
   line-height: 20px;
   text-align: justify;
@@ -23,6 +22,7 @@ p {
   color: teal;
 
 }
+
 #licoes_aprendidas {
   line-height: 20px;
 
