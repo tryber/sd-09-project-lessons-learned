@@ -13,13 +13,13 @@ main {
 #cabecalho {
   position: fixed;
   width: 100%;
-  top: 0px;
+  top: 0;
   background-color: wheat;
 }
 #titulo {
   color: crimson;
   text-align: center;
-  font-family: acme;
+  font-family: 'Acme' ,sans-serif;;
   font-size: 50px;
 }
 #menu {
@@ -30,15 +30,13 @@ main {
 }
 #menu ul {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
   }
 #menu li {
   float: left;
 }
 #menu li a {
-  display:inline-block;
-  margin: 0px 0px 10px 10px;
+  display: inline-block;
+  margin: 0 0 10px 10px;
   padding: 5px;
   text-align: center;
   text-decoration: none;
@@ -61,16 +59,16 @@ main {
 .artigo {
   background-color: yellow;
   margin: 10px;
-  padding: 5px;;
+  padding: 5px 5px;
 }
 .sessao {
   background-color: pink;
   margin: 10px;
-  padding: 5px;      
+  padding: 5px 5px;      
 }
 #texto-principal {
   text-align: justify;
-  font-family: 'Noto Sans';
+  font-family: 'Noto Sans', sans-serif;
 }
 #minha_foto {
   width: 200px;
@@ -118,5 +116,5 @@ main {
   height: 60px;
   background-color: grey;
   text-align: center;
-  padding: 40px 0px 0px 0px;
-}
+  padding: 40px 0 0 0;
+  }
