@@ -4,12 +4,15 @@ body {
 #cabecalho{
     position: fixed;
     top: 0px;
-    background-color: green; 
-}
-.aprender{
-    text-align: justify;
+    background-color: green;
+    width: 100%;
     
 }
+.aprender{
+    text-align: right;
+    background-color: grey;    
+}
+
 aside{
     width: 40%;
     padding-left: .5rem;
