@@ -1,5 +1,7 @@
 a {
+  color: white ;
   text-decoration: none;
+  text-shadow: cyan 1px 0 1px;
 }
 
 li a:hover {
@@ -111,13 +113,14 @@ a:before {
 
 .navbar {
   font-size: 18px;
+  font-weight: 600;
   padding-top: 10px;
 }
 
 .navbar li {
   float: left;
-  list-style-type: none;
   display: block;
+  list-style-type: none;
   padding: 0 14px;
 }
 
