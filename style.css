@@ -22,33 +22,11 @@ body {
   color: rgb(204 , 197 , 185);
 }
 
-#nav-link {
-  margin-top: 0;
-  margin-bottom: 10px;
-  margin-left: 20px;
-}
-
-.icon {
-  font-size: 30px;
-}
-
-#conteudo {
-  margin: 15px;
-  padding-top: 125px;
-}
-
 #minha_foto {
-  float: left;
   padding: 1px;
   border: 10px solid rgb(235 , 94 , 40);
   border-radius: 25px;
   box-shadow: 1px 5px 13px black;
-}
-
-#content-box {
-  margin: 5px;
-  padding-bottom: 1px;
-  padding-left: 475px;
 }
 
 #table {
@@ -61,30 +39,14 @@ body {
 }
 
 #artigo {
-  display:inline-block;
   max-width: 75%;
 }
 
 #aside {
-  display: inline-block;
   max-width: 20%;
   padding: 10px;
   border: 1px solid rgb(235 , 94 , 40);
   border-radius: 25px;
-}
-
-.box {
-  display: inline-block;
-  margin: 25px;
-}
-
-#sw {
-  padding: 7px;
-  border: hidden;
-  border-radius: 7px;
-  background-color: rgb(64 , 61 , 57);
-  color: lightblue;
-  text-shadow: 1px 1px 2px black;
 }
 
 #rodape {
@@ -96,20 +58,4 @@ body {
   font-weight: 800;
   text-shadow: 1px 1px 2px black;
   box-shadow: 0 1px 15px black;
-}
-
-.highlight-word {
-  color: rgb(235 , 94 , 40);
-  font-weight: 800;
-}
-
-.link {
-  margin-right: 75px;
-  font-size: 18px;
-  text-decoration: none;
-  color: rgb(204 , 197 , 185);
-}
-
-.link:hover {
-  color: rgb(235 , 94 , 40);
 }
