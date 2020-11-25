@@ -59,14 +59,16 @@ h1 {
   color: rgb(39 , 42 , 45);
 }
 
-h3 {
+#nome {
   font-size: larger;
+  font-weight: 800;
 }
 
 #rodape {
   font-size: 13px;
   margin-left: 15px;
   margin-right: 15px;
+  margin-top: 25px;
 }
 
 .lado-esquerdo {
@@ -83,7 +85,7 @@ h3 {
   margin-right: 15px;
 }
 
-table, td, th {
+table , td , th {
   border: 1px solid black;
   text-align: center;
   border-collapse: collapse;
