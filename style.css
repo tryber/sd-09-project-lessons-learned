@@ -11,28 +11,33 @@ body {
   border: 2px solid #0fa36b;
   background-color: #0fa36b;
   text-align: center;
+  position: fixed;
+  width: 100%;
 }
 
 #minha_foto {
   width: 150px;
   border-radius: 50%;
   position: absolute;
-  margin-top:-6%;
+  margin-top: 2%;
   margin-left: 3%;
   border: 4px solid #0fa36b;
 }
 
 .list {
-  margin-top: 10%;
+  margin-top: 15%;
   border: 2px solid #0fa36b;
+  margin-left: 25px;
 }
 
 #licoes_aprendidas {
   float: left;
+  padding: 15px;
 }
 
 #licoes_a_aprender {
   float: left;
+  padding: 15px;
 }
 
 #artigo {
@@ -52,15 +57,26 @@ body {
 #rodape {
   background-color: #0fa36b;
   text-align: center;
-  position: absolute;
+  height: 50px;
   width: 100%;
   font-family: fantasy, sans-serif;
   font-weight: 525;
   font-style: oblique;
   clear: both;
+  margin-top: 200px;
 }
 
 .caixas {
   display: inline-block;
   border: 2px solid #0fa36b;
+}
+
+#textrodape{
+  padding-top: 15px;
+  border: 1px solid red;
+}
+
+li {
+  margin-top: 5px ;
+  margin-left: 15px;
 }
