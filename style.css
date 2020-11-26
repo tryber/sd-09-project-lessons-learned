@@ -128,7 +128,7 @@ ul {
   font-family: Oxanium, cursive;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   width: 400px;
   height: 200px;
   margin-top: 100px;
@@ -160,7 +160,7 @@ ul {
   font-family: Roboto, sans-serif;
   color: rgb(234 , 234 , 234);
   background-color: rgb(66 , 66 , 66);
-} 
+}
 
 .lado-direito h1 {
   text-transform: uppercase;
