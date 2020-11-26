@@ -1,25 +1,25 @@
 body {
     background-color: rgb(253 , 251 , 251);
-    background-position: center;
+        background-position: center;
     margin-left: 50px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    font-family:"Indie Flower", cursive;
+        position: fixed;
+    top: 0;
+    font-family: 'Indie Flower', cursive;
     font-size: 30px;
 }
 
 #minha_foto {
     border-radius: 10px;
     float: left;
-    position: relative;
+        position: relative;
 }
 
 #headNav {
     float: right;
-    position: absolute;
+        position: absolute;
     width: 100%;
     bottom: 120px;
     margin-left: 100px;
@@ -37,5 +37,5 @@ body {
 footer {
     background-color: black;
     color: white;
-    font-family:"Courier New", Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
