@@ -22,7 +22,7 @@ body {
   padding: 8px;
 }
 
-.titulo {
+#titulo {
   margin: 8px;
 }
 
@@ -69,7 +69,7 @@ main {
   border-radius: 10px;
 }
 
-h3 {
+h4 {
   color: rgb(76 , 164 , 107);
   font-size: 20px;
   line-height: 1.1;
@@ -98,7 +98,7 @@ h3 {
   border-radius: 10px;
 }
 
-.lado-direito h4 {
+.lado-direito h3 {
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -115,7 +115,7 @@ h3 {
   line-height: 1.5;
 }
 
-.lado-esquerdo h4 {
+.lado-esquerdo h3 {
   font-size: 30px;
   font-weight: 700;
   padding-bottom: 10px;
@@ -138,7 +138,7 @@ h3 {
   display: inline-block;
 }
 
-#licoes h3 {
+#licoes h4 {
   width: 205px;
   margin-bottom: 10px;
   border-bottom: 1px solid rgb(40 , 42 , 54);
@@ -151,6 +151,13 @@ h3 {
 #genios {
   text-align: center;
   padding: 16px;
+}
+
+h5 {
+  color: rgb(76 , 164 , 107);
+  font-size: 20px;
+  line-height: 1.1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 table {
