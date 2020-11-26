@@ -3,38 +3,38 @@
   padding: 0;
   border: 0;
 }
-body {
+body{
   background-color: rgb(253, 251, 251);
 }
-main {
+main{
   margin-top: 120px;
   width: fit-content;
 }
-#cabecalho {
+#cabecalho{
   position: fixed;
   width: 100%;
   top: 0;
   background-color: wheat;
 }
-#titulo {
+#titulo{
   color: crimson;
   text-align: center;
-  font-family: 'Acme' ,sans-serif;;
+  font-family: Acme, sans-serif;
   font-size: 50px;
 }
-#menu {
+#menu{
   width: fit-content;
   float: left;
   clear: both;
   border-radius: 3px;
 }
-#menu ul {
+#menu ul{
   list-style-type: none;
-  }
-#menu li {
+}
+#menu li{
   float: left;
 }
-#menu li a {
+#menu li a{
   display: inline-block;
   margin: 0 0 10px 10px;
   padding: 5px;
@@ -45,43 +45,44 @@ main {
   color: crimson;
   font-size: 30px;
 }
-#menu a:hover {
+#menu a:hover{
   background-color: crimson;
   background-size: cover;
   color: white;
 }
-.lado-esquerdo {
+.lado-esquerdo{
   display: inline-block;
 }
-.lado-direito {
+.lado-direito{
   display: inline-block;
 }
-.artigo {
+.artigo{
   background-color: yellow;
   margin: 10px;
-  padding: 5px 5px;
+  padding: 5px;
 }
-.sessao {
+.sessao{
   background-color: pink;
   margin: 10px;
-  padding: 5px 5px;      
+  padding: 5px;
 }
-#texto-principal {
+#texto-principal{
   text-align: justify;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: Noto Sans, sans-serif;
 }
-#minha_foto {
+#minha_foto{
   width: 200px;
   margin: 10px;
   border: 3px ridge crimson;
 }
-#caixa {
+#caixa{
+  display: inline-block;
   background-color: orange;
   width: fit-content;
   margin: 10px;
   padding: 5px;
 }
-#licoes_aprendidas {
+#licoes_aprendidas{
   margin-block-start: 0.1em;
   margin-block-end: 0;
   text-align: center;
@@ -90,10 +91,10 @@ main {
   margin: 10px;
   padding: 10px 5px 5px 35px;
 }
-#licoes_aprendidas ol li {
+#licoes_aprendidas ol li{
   text-align: center;
 }
-#licoes_a_aprender {
+#licoes_a_aprender{
   list-style-type: circle;
   text-align: center;
   width: fit-content;
@@ -101,20 +102,20 @@ main {
   margin: 10px;
   padding: 10px 5px 5px 30px;
 }
-#licoes_a_aprender ul li {
+#licoes_a_aprender ul li{
   text-align: center;
 }
-#canto {
+#canto{
   background-color: wheat;
   width: fit-content;
   margin: 10px;
   padding: 5px;
-  font-family: 'Noto Sans';
+  font-family: Noto Sans, sans-serif;
 }
-#rodape {
+#rodape{
   width: auto;
   height: 60px;
   background-color: grey;
   text-align: center;
-  padding: 40px 0 0 0;
-  }
+  padding: 40px 0 0;
+}
