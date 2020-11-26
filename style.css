@@ -8,8 +8,8 @@ body {
 
 #cabecalho {
   top: 0;
-  border: 2px solid #0fa36b;
-  background-color: #0fa36b;
+  border: 2px solid rgb(15, 163, 107);
+  background-color: rgb(15, 163, 107);
   text-align: center;
   position: fixed;
   width: 100%;
@@ -21,13 +21,14 @@ body {
   position: absolute;
   margin-top: 2%;
   margin-left: 3%;
-  border: 4px solid #0fa36b;
+  margin-right: auto;
+  border: 4px solid rgb(15, 163, 107);
 }
 
 .list {
   margin-top: 15%;
-  border: 2px solid #0fa36b;
   margin-left: 25px;
+
 }
 
 #licoes_aprendidas {
@@ -41,39 +42,39 @@ body {
 }
 
 #artigo {
-  width: 51%;
+  width: 40%;
   text-align: justify;
-  border: 2px solid;
   float: left;
+  padding-left: 25px;
 }
 
 #aside {
   width: 48%;
   text-align: justify;
-  border: 2px solid black;
   float: right;
+  padding-right: 25px;
 }
 
 #rodape {
-  background-color: #0fa36b;
+  background-color:  rgb(15, 163, 107);
   text-align: center;
-  height: 50px;
+  height: 40px;
   width: 100%;
   font-family: fantasy, sans-serif;
   font-weight: 525;
   font-style: oblique;
   clear: both;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .caixas {
   display: inline-block;
-  border: 2px solid #0fa36b;
+  padding-top: 15px;
 }
 
 #textrodape{
   padding-top: 15px;
-  border: 1px solid red;
+  font-style: italic;
 }
 
 li {
