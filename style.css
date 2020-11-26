@@ -12,3 +12,6 @@ body {
    position: fixed; top: 0px;
    background-color: green
 }
+#rodape{
+   position: fixed;bottom: 0px;
+}
