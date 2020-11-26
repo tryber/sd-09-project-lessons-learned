@@ -11,7 +11,8 @@ body {
 main {
   display: inline-block;
   margin-top: 125px;
-  width: 1000px;
+  width: fit-content;
+  max-width: 870px;
 }
 
 #cabecalho {
@@ -19,7 +20,6 @@ main {
   top: 0;
   width: 100%;
   background-color: wheat;
-  z-index: 1;
 }
 
 #titulo {
@@ -73,37 +73,38 @@ main {
 .artigo {
   background-color: yellow;
   display: inline-block;
+  padding: 5px;
+  margin: auto;
+}
+
+.sessao {
+  background-color: pink;
   width: fit-content;
   margin: 10px;
   padding: 5px;
 }
 
-.sessao {
-  background-color: pink;
-  float: left;
-  margin: 10px;
-  padding: 5px;
-}
-
 #texto-principal {
-  width: 700px;
   text-align: justify;
   font-family: Noto Sans, sans-serif;
+  width: 822px;
 }
 
 #minha_foto {
   display: inline-block;
   width: 200px;
   border: 3px ridge crimson;
-  margin: 10px;
   padding: 10px;
+  vertical-align: top;
 }
 
 #caixa_licoes {
   display: inline-block;
   background-color: orange;
   width: fit-content;
-  margin-left: 65px;
+  margin: auto;
+  vertical-align: top;
+  padding: 4px;
 }
 
 #caixa_licoes h2 {
@@ -114,9 +115,10 @@ main {
   margin-block-start: 0.1em;
   margin-block-end: 0;
   text-align: center;
-  width: 300px;
+  width: 250px;
   background-color: wheat;
-  padding: 0 0 0 35px;
+  padding: 10px 0 10px 35px;
+  margin: auto;
 }
 
 #licoes_aprendidas ol li {
@@ -128,7 +130,8 @@ main {
   text-align: center;
   width: 300px;
   background-color: wheat;
-  padding: 0 0 0 30px;
+  padding: 10px 0 10px 35px;
+  margin: auto;
 }
 
 #licoes_a_aprender ul li {
@@ -138,8 +141,23 @@ main {
 #canto {
   background-color: wheat;
   display: inline-block;
-  width: 400px;
+  margin: auto;
+  margin-top: 125px;
+  vertical-align: top;
+  width: fit-content;
+  max-width: 465px;
   font-family: Noto Sans, sans-serif;
+}
+
+#tabela {
+  background-color: purple;
+  text-align: center;
+  margin: 40px auto 40px auto;
+  padding: 20px;
+  width: fit-content;
+  max-width: 465px;
+  font-family: Noto Sans, sans-serif;
+
 }
 
 #rodape {
