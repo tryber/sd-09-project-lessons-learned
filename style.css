@@ -1,22 +1,28 @@
 body {
     background-color: rgb(253, 251, 251);
-    color:gray;
+    color: black;
     font-family: sans-serif;
     letter-spacing: 4px;
     font-size: 20x; 
    }
 #cabecalho{
    margin: auto;
-   padding-right: 1350px;
+   padding-right: 1500px;
    border: green;
    position: fixed; top: 0px;
    background-color: green
    
 }
-
-
-.conteiner{
-   display:flex
-   flex-direction: row;
+#licoes_a_aprender {
+   float: left;
+   margin-left: 70px;
+   margin-top: 20px;
 }
+#licoes_aprendidas{
+   float: left;
+   margin-top: 20px;
+}  
+#rodape{
+   position: fixed; bottom: 0px;
 
+}
