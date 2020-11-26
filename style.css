@@ -1,15 +1,15 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
-  background-color: rgb(47, 54, 64);
-  color: rgb(245, 246, 250);
+  background-color: rgb(47 , 54 , 64);
+  color: rgb(245 , 246 , 250);
   position: fixed;
   top: 0;
   width: 100%;
   margin: auto;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: Noto Sans, sans-serif;
 }
 
 #cabecalho li {
@@ -22,13 +22,13 @@ body {
 }
 
 #cabecalho a {
-  color: rgb(245, 246, 250);
+  color: rgb(245 , 246 , 250);
   padding: 14px 16px;
   text-decoration: none;
 }
 
 #cabecalho a:hover {
-  background-color: rgb(251, 197, 49);
+  background-color: rgb(251 , 197 , 49);
   color: rgb(47, 54, 64);
 }
 
@@ -74,26 +74,26 @@ body {
   width: 35%;
   padding: 2%;
   margin: 3%;
-  color: rgb(53, 59, 72);
+  color: rgb(53 , 59 , 72);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #lists h2 {
   margin-bottom: 15px;
-  color: rgb(47, 54, 64);
+  color: rgb(47 , 54 , 64);
 }
 
 #lists {
-  background-color: rgb(220, 221, 225);
+  background-color: rgb(220 , 221 , 225);
 }
 
 .trybe {
-  color: rgb(33, 140, 116);
+  color: rgb(33 , 140 , 116);
 }
 
 footer table {
   margin: auto;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: Noto Sans, sans-serif;
   font-size: 80%;
   font-weight: 400;
 }
