@@ -3,43 +3,45 @@
   padding: 0;
   border: 0;
 }
+
 body {
-
   background-color: rgb(253 , 251 , 251);}
-main {
 
+main {
   display: inline-block;
   margin-top: 120px;
   width: 1366px;
 }
-#cabecalho {
 
+#cabecalho {
   position: fixed;
   width: 100%;
   top: 0;
   background-color: wheat;
 }
-#titulo {
 
+#titulo {
   color: crimson;
   text-align: center;
   font-family: Acme, sans-serif;
   font-size: 50px;
 }
-#menu {
 
+#menu {
   width: fit-content;
   float: left;
   clear: both;
   border-radius: 3px;
 }
+
 #menu ul {
-  
   list-style-type: none;
 }
+
 #menu li {
   float: left;
 }
+
 #menu li a {
   display: inline-block;
   margin: 0 0 10px 10px;
@@ -51,40 +53,48 @@ main {
   color: crimson;
   font-size: 30px;
 }
+
 #menu a:hover {
   background-color: crimson;
   background-size: cover;
   color: white;
 }
+
 .lado-esquerdo {
   display: inline-block;
 }
+
 .lado-direito {
   display: inline-block;
 }
+
 .artigo {
   background-color: yellow;
   display: inline-block;
   margin: 10px;
   padding: 5px;
 }
+
 .sessao {
   background-color: pink;
   float: left;
   margin: 5px;
   padding: 5px;
 }
+
 #texto-principal {
   width: 700px;
   text-align: justify;
   font-family: Noto Sans, sans-serif;
 }
+
 #minha_foto {
   display: inline-block;
   width: 200px;
   margin: 10px;
   border: 3px ridge crimson;
 }
+
 #caixa_licoes {
   display: inline-block;
   background-color: orange;
@@ -92,6 +102,7 @@ main {
   margin: 10px;
   padding: 5px;
 }
+
 #licoes_aprendidas {
   margin-block-start: 0.1em;
   margin-block-end: 0;
@@ -101,9 +112,11 @@ main {
   margin: 10px;
   padding: 10px 5px 5px 35px;
 }
+
 #licoes_aprendidas ol li {
   text-align: center;
 }
+
 #licoes_a_aprender {
   list-style-type: circle;
   text-align: center;
@@ -112,9 +125,11 @@ main {
   margin: 10px;
   padding: 10px 5px 5px 30px;
 }
+
 #licoes_a_aprender ul li {
   text-align: center;
 }
+
 #canto {
   background-color: wheat;
   display: inline-block;
@@ -123,6 +138,7 @@ main {
   padding: 5px;
   font-family: Noto Sans, sans-serif;
 }
+
 #rodape {
   width: auto;
   height: 60px;
