@@ -13,6 +13,7 @@ body {
   width: 100%;
   color: white;
   top: 0;
+  z-index: 1;
 }
 
 #titulo {
@@ -33,11 +34,18 @@ body {
 
 #artigo {
   background-color: rgb(219 , 231 , 233);
-  float: right;
-  width: 40%;
   position: absolute;
-  right: 0;
-  top: 270px;
+  left: 700px;
+  right: 50px ;
+  float: right;
+}
+
+#jornada {
+  background-color: red;
+  position: absolute;
+  left: 50px;
+  right: 700px;
+  float: left;
 }
 
 #tabela {
@@ -48,4 +56,8 @@ body {
 table td {
   border: 1px solid   rgb(30 , 32 , 32);
 
+}
+
+ul {
+  display: block ;
 }
