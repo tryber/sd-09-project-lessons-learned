@@ -5,6 +5,7 @@ body {
   border: groove;
   width: 90%;
   margin-right: 70px;
+  height: 650px;
 }
 
 #cabecalho {
@@ -41,8 +42,7 @@ body {
 aside {
   float: right;
   position: relative;
-  left: 500px;
-  bottom: 145px;
+  left: 500px;  
   margin-left: 10px;
   width: 300px;
   height: 270px;
@@ -66,7 +66,9 @@ footer {
   float: left;
   height:auto;
   font-size: 8px;
-  width: 100%;  
+  width: 100%;
+  bottom: 170px;
+  position: relative;
 }
 
 #tableSize {
@@ -74,7 +76,6 @@ footer {
   height: 25px;
   text-align: center;
   background-color: red;
-
 }
 
 .lado-esquerdo {
@@ -82,5 +83,12 @@ footer {
 }
 
 .lado-direito {
-  display: inline-block;
+  float: right;
+  position: relative;
+  left: 200px;
+  bottom: 270px;
+}
+
+#licoes_aprendidas {
+  width: 500px;
 }
