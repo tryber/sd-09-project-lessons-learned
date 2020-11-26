@@ -82,12 +82,7 @@ nav a:hover {
   display: block;
   float: right;
 }
-#sobre-mim {
-  background-color: #32bf84;
-  color: white;
-  clear: both;
-  text-align: center;
-}
+
 table {
   padding: 10px;
 }
