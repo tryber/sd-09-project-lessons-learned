@@ -4,8 +4,8 @@ body {
 }
 
 #cabecalho {
-  background-color: #188783;
-  border-bottom: 5px solid #ffffff;
+  background-color: rgb(24 , 135 , 131);
+  border-bottom: 5px solid white;
   padding: 0;
   position: fixed;
   top: 0;
@@ -15,7 +15,7 @@ body {
 #titulo {
   display: block;
   float: left;
-  margin: 25px 0px 0px 50px;
+  margin: 25px 0 0 50px;
   padding: 0;
 }
 
@@ -38,10 +38,10 @@ body {
 }
 
 #menu li a {
-  background-color: #316359;
-  color: #0B3333;
+  background-color: rgb(49 , 99 , 89);
+  color: rgb(14 , 58 , 59);
   display: block;
-  margin: 25px 50px 0px 50px;
+  margin: 25px 50px 0;
   padding-bottom: 15px;
   padding-top: 15px;
   text-align: center;
@@ -49,15 +49,15 @@ body {
   width: 150px;
 }
 
-#menu li a:hover:not(.active) {
-  background-color: #98D6AC;
+#menu li a:hover:not( .active ) {
+  background-color: rgb(152 , 214 , 172);
 }
 
 #menu li a.active {
-  background-color: #ffffff;
-  color: #0E3A3B;
+  background-color: white;
+  color: rgb(14 , 58 , 59);
   display: block;
-  margin: 25px 0px 0px 0px;
+  margin: 25px 0 0;
   padding-bottom: 25px;
   padding-top: 15px;
   text-align: center;
