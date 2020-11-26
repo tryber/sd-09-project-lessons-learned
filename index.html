@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lições Aprendidas!</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
     <header id="cabecalho">
@@ -24,65 +25,20 @@
           id="minha_foto"
           alt="Foto de perfil de Luiz Vicentin"
         />
-        <h2>Luiz Fernando Vicentin</h2>
-        <a href="https://www.betrybe.com/" target="_blank"><h3>Trybe</h3></a>
+        <div class="info">
+          <h2>Luiz Fernando Vicentin</h2>
+          <a href="https://www.betrybe.com/" target="_blank"
+            ><h3>Student | Trybe</h3></a
+          >
+        </div>
       </section>
-      <section>
-        <h3>Lições Aprendidas</h3>
-        <ol id="licoes_aprendidas">
-          <li>Inteligencia Emocional</li>
-          <li>Empatia</li>
-          <li>Unix e Bash</li>
-          <li>Shell Script</li>
-          <li>Git e GitHub</li>
-          <li>Internet - Compreendendo como funciona</li>
-          <li>HTML e CSS - estruturas da página</li>
-          <li>HTML e CSS - Primeiros passos com CSS</li>
-          <li>HTML e CSS - Seletores e posicionamento</li>
-          <li>HTML semântico</li>
-        </ol>
-      </section>
-      <section>
-        <h3>Lições a Aprender</h3>
-        <ul id="licoes_a_aprender">
-          <li>JavaScript e lógica de programação</li>
-          <li>Desenvolvimento Front-end</li>
-          <li>HTML & CSS - Forms</li>
-          <li>Bibliotecas JavaScript e Frameworks CSS</li>
-          <li>CSS Flexbox</li>
-          <li>CSS Responsivo - Mobile First</li>
-          <li>JavaScript ES6</li>
-          <li>Assincronicidade & Callbacks</li>
-          <li>Jest</li>
-          <li>React</li>
-        </ul>
-      </section>
-      <section id="genios">
-        <h3>Genios Inventores</h3>
-        <table>
-          <tr>
-            <th>Nome</th>
-            <th>Sobrenome</th>
-            <th>Tecnologia</th>
-          </tr>
-          <tr>
-            <td>Linus</td>
-            <td>Torvalds</td>
-            <td>Linux & Git</td>
-          </tr>
-          <tr>
-            <td>Tim</td>
-            <td>Berners-Lee</td>
-            <td>HTML</td>
-          </tr>
-          <tr>
-            <td>Brendan</td>
-            <td>Eich</td>
-            <td>JavaScript</td>
-          </tr>
-        </table>
-      </section>
-      <div class="lados">
+      <img
+          src="assets/y.png"
+          id="foto_trybe"
+          alt="Foto do logotipo da Escola Trybe"
+        />
+    <div class="lados">
+      <section id="lado">
         <article class="lado-esquerdo">
           <h4>Aprendizado</h4>
           <p>
@@ -102,8 +58,65 @@
             Aprender a Aprender é crucial se você quiser ir longe.
           </p>
         </aside>
+      </section>
       </div>
+      <section id="licoes">
+        <section id="licoes_a_apre">
+          <h3>Lições Aprendidas</h3>
+          <ol id="licoes_aprendidas">
+            <li>Inteligencia Emocional</li>
+            <li>Empatia</li>
+            <li>Unix e Bash</li>
+            <li>Shell Script</li>
+            <li>Git e GitHub</li>
+            <li>Internet - Compreendendo como funciona</li>
+            <li>HTML e CSS - estruturas da página</li>
+            <li>HTML e CSS - Primeiros passos com CSS</li>
+            <li>HTML e CSS - Seletores e posicionamento</li>
+            <li>HTML semântico</li>
+          </ol>
+        </section>
+        <section id="licoes_a_apre">
+          <h3>Lições a Aprender</h3>
+          <ul id="licoes_a_aprender">
+            <li>JavaScript e lógica de programação</li>
+            <li>Criatividade</li>
+            <li>HTML & CSS - Forms</li>
+            <li>Bibliotecas JavaScript e Frameworks CSS</li>
+            <li>CSS Flexbox</li>
+            <li>CSS Responsivo - Mobile First</li>
+            <li>JavaScript ES6</li>
+            <li>Liderança</li>
+            <li>Proatividade</li>
+            <li>Negociação</li>
+          </ul>
+        </section>
     </main>
+    <section id="genios">
+      <h3>Inventores</h3>
+      <table>
+        <tr>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>Tecnologia</th>
+        </tr>
+        <tr>
+          <td>Linus</td>
+          <td>Torvalds</td>
+          <td>Linux & Git</td>
+        </tr>
+        <tr>
+          <td>Tim</td>
+          <td>Berners-Lee</td>
+          <td>HTML</td>
+        </tr>
+        <tr>
+          <td>Brendan</td>
+          <td>Eich</td>
+          <td>JavaScript</td>
+        </tr>
+      </table>
+    </section>
     <footer id="rodape">
       <p>
         <a href="https://github.com/luizvicentin" target="blank"
@@ -111,27 +124,27 @@
             align="center"
             src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg"
             alt="luizvicentin"
-            height="20"
-            width="20"
+            height="30"
+            width="30"
         /></a>
         <a href="https://linkedin.com/in/luizvicentin" target="blank"
           ><img
             align="center"
             src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
             alt="luizvicentin"
-            height="20"
-            width="20"
+            height="30"
+            width="30"
         /></a>
         <a href="https://twitter.com/LuizFVicentin" target="blank"
           ><img
             align="center"
             src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg"
             alt="luizvicentin"
-            height="20"
-            width="20"
+            height="30"
+            width="30"
         /></a>
       </p>
-      <p>© 2020 NV, Inc</p>
+      <h6>© 2020 NV, Inc</h6>
     </footer>
   </body>
 </html>
