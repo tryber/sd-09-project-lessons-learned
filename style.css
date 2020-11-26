@@ -1,10 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 body {
   background-color: rgb(253 , 251 , 251);
+}
+
+#titulo {
+  color: red;
+  text-align: center;
 }
 
 #profile-pic {
