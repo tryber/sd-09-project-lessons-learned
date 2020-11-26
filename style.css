@@ -34,7 +34,7 @@ body {
   line-height: 1.5rem;
 }
 
-#licoes_aprendidas li, #licoes_a_aprender li {
+#licoes_aprendidas li , #licoes_a_aprender li {
   margin-left: 2.4rem;
 }
 
@@ -45,12 +45,12 @@ body {
 
 #artigos {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2 , 1fr);
   box-sizing: border-box;
   margin: 1.5rem;
 }
 
-#artigos article, #artigos aside{
+#artigos article , #artigos aside {
   margin: 1.2rem;
   font-family: 'Press Start 2P', cursive;
   line-height: 1.5rem;
