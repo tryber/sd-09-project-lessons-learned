@@ -1,13 +1,13 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   font-family: Helvetica, sans-serif;
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   text-align: center;
   background-color: green;
   width: 100%;
@@ -16,29 +16,40 @@ body {
 #cabecalho ul {
   display: inline-block;
   list-style: none;
-  background-color: greenyellow;
+  background-color: rgb(0, 0, 0);
   width: 100%;
   margin-bottom: 0;
   height: 30px;
   line-height: 30px;
+  text-align: left;
+  padding: 10px;
 }
 
 #cabecalho li {
   display: inline;
-  margin-left: 20px;
   font-weight: 700;
+  margin-right: 20px;
 }
 
 #cabecalho a {
   text-decoration: none;
-  color: black;
+  color: greenyellow;
+  padding-right: 300px;
+  float: right;
 }
 
-img {
-  width: 200px;
-  margin-left: 80px;
+h2 {
+  float: right;
+  padding-right: 450px;
+  margin-top: 230px;
+}
+
+main img {
+  width: 250px;
+  margin-left: 10%;
   margin-top: 160px;
   border: 2px solid black;
+  border-radius: 100%;
 }
 
 table {
@@ -54,36 +65,49 @@ table {
 
 article {
   text-align: center;
-  background-color: rgb(222, 243, 213);
   padding: 20px;
-  border-radius: 30px;
-}
-
-article p {
-  text-align: left;
 }
 
 aside {
   text-align: center;
-  background-color: rgb(222, 243, 213);
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 30px;
-  border-radius: 30px;
-}
-
-article p {
-  text-align: left;
 }
 
 .lado-esquerdo {
   float: left;
   width: 40%;
   margin: 4%;
+  border-top: 1px solid black;
 }
 
 .lado-direito {
   float: right;
   width: 40%;
   margin: 4%;
+  border-top: 1px solid black;
+}
+
+#aprendidas {
+  float: left;
+  width: 40%;
+  margin: 4%;
+  border-top: 1px solid black;
+  padding: 10px;
+}
+
+#aprender {
+  float: left;
+  width: 40%;
+  margin: 4%;
+  border-top: 1px solid black;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  font-weight: 700;
+  background-color: black;
+  color: white;
 }
