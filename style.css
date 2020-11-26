@@ -36,7 +36,7 @@ body {
   background-color: rgb(219 , 231 , 233);
   position: absolute;
   left: 700px;
-  right: 50px ;
+  right: 50px;
   float: right;
 }
 
@@ -59,5 +59,5 @@ table td {
 }
 
 ul {
-  display: block ;
+  display: block;
 }
