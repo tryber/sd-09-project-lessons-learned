@@ -1,3 +1,7 @@
+/* {
+  max-width: 1366px;
+  max-height: 768px;
+}*/
 body {
   background-color: rgb(253, 251, 251);
   font-family: Impact, Haettenschweiler, sans-serif;
@@ -47,6 +51,7 @@ nav a:hover {
   align-items: center;
 }
 #minha_foto {
+  float: left;
   align-items: center;
   margin-top: 150px;
   height: 200px;
@@ -59,7 +64,7 @@ nav a:hover {
   background-color: #32bf84;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
-  margin-left: 400px;
+  margin-left: 500px;
   padding: 5px;
   letter-spacing: 2px;
 
@@ -72,7 +77,7 @@ nav a:hover {
   background-color: #32bf84;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
-  margin-right: 400px;
+  margin-right: 500px;
   padding: 5px;
   letter-spacing: 2px;
   display: block;
@@ -85,7 +90,7 @@ table {
 #licoes_aprendidas {
   display: block;
   float: left;
-  margin-left: 400px;
+  margin-left: 500px;
   align-items: center;
   color: white;
   padding: 20px;
@@ -98,7 +103,7 @@ table {
   color: white;
   display: block;
   float: right;
-  margin-right: 400px;
+  margin-right: 501px;
   padding: 20px;
   background-color: #32bf84;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -111,7 +116,7 @@ article {
   float: left;
   width: 300px;
   text-align: center;
-  margin-left: 400px;
+  margin-left: 500px;
   margin-bottom: 12px;
   background-color: #32bf84;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -128,9 +133,8 @@ aside {
   display: block;
   width: 300px;
   text-align: center;
-  margin-right: 400px;
-  margin-top: 2px;
-  margin-bottom: 15px;
+  margin-right: 501px;
+  margin-bottom: 12px;
 }
 #rodape {
   clear: both;
