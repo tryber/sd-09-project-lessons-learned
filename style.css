@@ -62,6 +62,14 @@ body {
   width: 30%;
 }
 
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
 .listas {
   text-decoration: none;
   list-style: none;
