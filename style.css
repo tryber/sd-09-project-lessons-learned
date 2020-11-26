@@ -14,6 +14,7 @@ body {
   color: white;
   top: 0;
   z-index: 1;
+  margin: 0px 0px 50px 0px;
 }
 
 #titulo {
@@ -32,22 +33,6 @@ body {
   color: rgb(24 , 19 , 19);
 }
 
-#artigo {
-  background-color: rgb(219 , 231 , 233);
-  position: absolute;
-  left: 700px;
-  right: 50px;
-  float: right;
-}
-
-#jornada {
-  background-color: red;
-  position: absolute;
-  left: 50px;
-  right: 700px;
-  float: left;
-}
-
 #tabela {
   border: 1px solid   rgb(30 , 32 , 32);
 
@@ -60,4 +45,15 @@ table td {
 
 ul {
   display: block;
+}
+
+h2 {
+  margin: auto;
+  padding: 10px;
+  border: 0;
+}
+
+main {
+  font-size: large;
+  line-height: 1.5;
 }
