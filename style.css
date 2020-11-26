@@ -1,70 +1,69 @@
 body {
-      background-color: rgb(253 , 251 , 251);
-      position: relative;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color:grey;
-      font-size: 22px;
-      line-height: 30px;
+  background-color: rgb(253 , 251 , 251);
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: grey;
+  font-size: 22px;
+  line-height: 30px;
 }
 
 #cabecalho {
-      position: fixed;
-      width: 2800px; 
-      height: 100px;
-      top: 0;
-      background-color: aquamarine;
+  position: fixed;
+  width: 2800px;
+  height: 100px;
+  top: 0;
+  background-color: aquamarine;
 }
 
-.center{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 30%;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 #minha_foto {
-      border-radius: 50%;   
-      padding: top;
-      position: center;
-      margin-top: 110px;
-     
+  border-radius: 50%;
+  padding: top;
+  position: center;
+  margin-top: 110px;
 }
 
 .fixacao {
-      clear: both;
+  clear: both;
 }
 
-h1{
-      font-size: xx-large;
-      font-weight: 800;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+h1 {
+  font-size: xx-large;
+  font-weight: 800;
+  font-family: Franklin Gothic Medium; Arial Narrow, Arial, sans-serif;
 }
 
 footer {
-      border: dotted;
+  border: dotted;
 }
 
 div {
-      border: dotted;
-      height: 340px;
+  border: dotted;
+  height: 340px;
 }
 
 table, th, td {
-      border: 3px solid blue;
-      margin-top: 20px;
-      margin-bottom: 20px;
+  border: 3px solid blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .lado-direito {
-      float: right;
-      width: 40%;
-      margin-right: 20px;
+  float: right;
+  width: 40%;
+  margin-right: 20px;
 }
 
-.lado-esquerdo{
-      float:left;
-      width: 40%;
-      padding-right: 0%;
-      margin-left: 20px;
+.lado-esquerdo {
+  float: left;
+  width: 40%;
+  padding-right: 0%;
+  margin-left: 20px;
 }
         
