@@ -1,7 +1,12 @@
 header {
   background-color: rgb(15 , 163 , 107);
   margin-bottom: 10px;
+  margin-top: 0;
   top: 0;
+}
+
+main{
+  margin: 10px 10px;
 }
 
 header h1 {
@@ -22,6 +27,7 @@ nav a {
 }
 
 body {
+  margin: 0;
   background-color: rgb(253 , 251 , 251);
   color: rgb(23 , 28 , 40);
 }
@@ -39,7 +45,7 @@ img {
   width: 50%;
 }
 
-.lado-direito{
+.lado-direito {
   margin: 10px 0;
   float: right;
   width: 40%;
@@ -79,6 +85,10 @@ table , th , td {
 /* Estilização do rodapé */
 footer h2 {
   font-family: Montserrat , sans-serif;
+}
+
+footer a , footer h2{
+  margin-left: 10px;
 }
 
 footer {
