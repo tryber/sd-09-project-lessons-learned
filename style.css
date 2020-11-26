@@ -11,7 +11,8 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
+  position: fixed;
 }
 
 #titulo {
@@ -31,9 +32,10 @@ body {
 
 nav {
   background-color: red;
-  top: 0;
+  position: relative;
+  top: 40px;
   width: 100%;
-  height: 100px;
+  height: 50px;
 }
 
 header {
