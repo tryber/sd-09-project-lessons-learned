@@ -1,6 +1,7 @@
 header {
   background-color: rgb(15 , 163 , 107);
   margin-bottom: 10px;
+  top: 0;
 }
 
 header h1 {
@@ -22,6 +23,7 @@ nav a {
 
 body {
   background-color: rgb(253 , 251 , 251);
+  color: rgb(23 , 28 , 40);
 }
 
 img {
@@ -31,13 +33,13 @@ img {
   margin-right: 60%;
 }
 
-article {
+.lado-esquerdo {
   margin: 10px 0 60px;
   float: left;
   width: 50%;
 }
 
-aside {
+.lado-direito{
   margin: 10px 0;
   float: right;
   width: 40%;
@@ -63,13 +65,15 @@ section ol {
 
 /* Posição da tabela */
 table {
+  line-height: 23px;
+  font-size: 20px;
   float: right;
   border: 0 100px 0 0;
 }
 
 /* Estilização da tabela */
 table , th , td {
-  border: 1.5px solid rgb(10 , 171 , 83);
+  border: 1.5px ridge rgb(10 , 171 , 83);
 }
 
 /* Estilização do rodapé */
