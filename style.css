@@ -6,6 +6,9 @@ body {
     font-size: 20x; 
    }
 #cabecalho{
+   margin: auto;
+   padding-right: 3em;
+   border: green;
    position: fixed; top: 0px;
    background-color: green
 }
