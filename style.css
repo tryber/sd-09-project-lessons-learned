@@ -5,13 +5,13 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 header {
-  background-color: rgb(7 , 30 ,61);
+  background-color: rgb(7 , 30 , 61);
   grid-area: header;
-  color: rgb(33 , 230 ,193);
+  color: rgb(33 , 230 , 193);
   text-align: center;
   position: fixed;
   width: 100%;
@@ -21,7 +21,7 @@ header {
 
 nav a {
   text-decoration: none;
-  color: rgb(33 , 230 ,193);
+  color: rgb(33 , 230 , 193);
   font-size: 26px;
 }
 
@@ -29,7 +29,7 @@ main {
   grid-area: main;
 }
 
-aside {
+.aside {
   grid-area: aside;
   display: flex;
   flex-direction: column;
@@ -37,21 +37,21 @@ aside {
 }
 
 footer {
-  background-color: rgb(7 , 30 ,61);
+  background-color: rgb(7 , 30 , 61);
   grid-area: footer;
   text-align: center;
 }
 
 footer a {
   text-decoration: none;
-  color: rgb(33 , 230 ,193);
+  color: rgb(33 , 230 , 193);
 }
 
 .container {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 10vh 85vh 5vh;
-  grid-template-areas: "header header" "main aside" "footer footer";
+  grid-template-areas: 'header header' 'main aside' 'footer footer';
 }
 
 .content {
