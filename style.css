@@ -138,6 +138,7 @@ ul {
   font-family: Roboto, sans-serif;
   color: rgb(234 , 234 , 234);
   background-color: rgb(66 , 66 , 66);
+  float: left;
 }
 
 .lado-esquerdo h1 {
@@ -154,12 +155,14 @@ ul {
   width: 400px;
   height: 200px;
   margin-top: -218px;
-  margin-left: 675px;
+  margin-left: 400px;
+  margin-right: 100px;
   padding: 10px;
   border-radius: 15px;
   font-family: Roboto, sans-serif;
   color: rgb(234 , 234 , 234);
   background-color: rgb(66 , 66 , 66);
+  float: right;
 }
 
 .lado-direito h1 {
@@ -174,7 +177,7 @@ ul {
 
 #rodape {
   height: 100px;
-  margin-top: 50px;
+  margin-top: 500px;
   background-color: rgb(66 , 66 , 66);
 }
 
