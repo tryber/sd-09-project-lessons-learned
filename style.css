@@ -57,3 +57,25 @@ main {
   font-size: large;
   line-height: 1.5;
 }
+
+.content{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.lado-esquerdo {
+  position: relative;
+  top:800px;
+  bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.lado-direito {
+  position: relative;
+  top:5px;
+  bottom: 10px;
+  margin-left: 500px;
+  margin-right: 20px;
+}
