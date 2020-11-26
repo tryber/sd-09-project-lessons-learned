@@ -8,3 +8,7 @@ body{
 #texto{
     text-align: justify;
 }
+#nav{
+    display: inline;
+    padding: 8px;
+}
