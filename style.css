@@ -1,15 +1,18 @@
 body {
 
-    background-color : rgb(253, 251, 251);
+background-color : rgb(253, 251, 251);
 
 
 }
 
 #cabecalho {
 
-  margin-top: 0px;
-  background-color : rgb(200, 186, 98);
-  position: fixed;
+margin-top: 0px;
+position: fixed;
+width:300px;
+border-top: 14px ;
+border-left: 20px ;
+background-color: #429653;
 
 
 }
@@ -18,5 +21,4 @@ body {
 
 border-radius: 50%;
 
-    
 }
