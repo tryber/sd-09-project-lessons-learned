@@ -1,14 +1,17 @@
- body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253 , 251 , 251);
 }
-#cabecalho{
-    position: fixed;
-    top: 0px;
+
+#cabecalho {
+  position: fixed;
+  top: 0;
 }
-#texto{
-    text-align: justify;
+
+#texto {
+  text-align: justify;
 }
-.nav{
-    display: inline;
-    padding: 8px;
+
+.nav {
+  display: inline;
+  padding: 8px;
 }
