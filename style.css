@@ -1,30 +1,44 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  display: flex;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  box-sizing: content-box;
-  padding: 4rem;
-  border: 10rem , 0 , 0 , 10rem;
+  width: 100%;
+  padding: 1rem;
   text-align: justify;
-  align-items: center;
+  background-color: seagreen;
+}
+
+.atalhos {
+  position: relative;
+  display: inline;
+  padding: 10px;
 }
 
 #licoes_a_aprender , #licoes_aprendidas {
-  box-sizing: content-box;
-  align-items: center;
-  position: relative;
-  width: 50%;
+
+  width: 15%;
   height: auto;
   border-width: 1rem;
-  margin: 2px;
-  padding: 2px;
-  display: flexbox;
+  margin: 1rem;
+  padding-top: 2.4rem;
+  padding-bottom: 3.2rem;
+}
+
+
+
+
+#lista_licoes {
+  display: flex;
+  flex-direction: row;
 }
 
 #minha_foto {
-  display: grid;
+  margin-top: 8rem;
+}
+
+#git_site {
+  width: 100px;
 }
