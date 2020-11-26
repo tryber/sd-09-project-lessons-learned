@@ -34,15 +34,36 @@ body {
   line-height: 1.5rem;
 }
 
+#licoes_aprendidas li, #licoes_a_aprender li {
+  margin-left: 2.4rem;
+}
+
 #lista_licoes {
   display: flex;
   flex-direction: row;
 }
 
+#artigos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-sizing: border-box;
+  margin: 1.5rem;
+}
+
+#artigos article, #artigos aside{
+  margin: 1.2rem;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.5rem;
+}
+
 #minha_foto {
   margin-top: 8rem;
+  margin-left: 2.4rem;
 }
 
 #git_site {
   width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
