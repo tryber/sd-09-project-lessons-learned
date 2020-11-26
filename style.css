@@ -1,10 +1,10 @@
-body {
-    background-color: rgb(253,251,251) ;
+body{
+    background-color:rgb(253,251,251);
 }
-header {
-  margin-top: 0px ;
+#cabecalho{
+  margin-top: 0px;
+  background-color:rgb(200,186,98);
 }
-
-.foto {
-border-radius: 50% ;
+#minha_foto{
+border-radius: 50%;
 }
