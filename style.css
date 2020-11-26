@@ -122,6 +122,7 @@ article {
   float: left;
   width: 300px;
   text-align: center;
+  line-height: initial;
   margin-left: 500px;
   margin-bottom: 12px;
   background-color: #32bf84;
@@ -139,6 +140,7 @@ aside {
   display: block;
   width: 300px;
   text-align: center;
+  line-height: initial;
   margin-right: 500px;
   margin-bottom: 12px;
 }
