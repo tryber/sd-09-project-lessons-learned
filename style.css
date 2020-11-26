@@ -5,3 +5,9 @@ body {
    position: fixed; top: 0px;
    background-color: green
 }
+p {
+   color:gray;
+   font-family: arial;
+   letter-spacing: 4px;
+   font-size: 20x;
+}
