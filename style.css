@@ -1,7 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     color:gray;
-    font-family: arial;
+    font-family: sans-serif;
     letter-spacing: 4px;
     font-size: 20x; 
    }
@@ -11,6 +11,7 @@ body {
    border: green;
    position: fixed; top: 0px;
    background-color: green
+   
 }
 #rodape{
    position: fixed;bottom: 10px;
