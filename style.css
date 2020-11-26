@@ -154,12 +154,6 @@ body {
   color: white;
 }
 
-#licoes_a_aprender li {
-  border: 1px solid;
-  border-color: rgb( 67 , 66 , 66 );
-  color: rgb( 67 , 66 , 66 );
-}
-
 .item-list {
   display: inline-block;
   width: 91px;
@@ -239,4 +233,9 @@ body {
 
 .gray-color {
   color: rgb( 67 , 66 , 66 );
+}
+
+.gray-box {
+  border: 1px solid;
+  border-color: rgb( 67 , 66 , 66 );
 }
