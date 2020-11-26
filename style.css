@@ -28,10 +28,6 @@ body {
   margin-bottom: 6%;
 }
 
-#rodape {
-  color: rgb(24 , 19 , 19);
-}
-
 #tabela {
   border: 1px solid   rgb(30 , 32 , 32);
 
@@ -81,6 +77,9 @@ main {
 }
 
 #rodape {
+  background-color: rgb(24, 23, 23);
+  color: aliceblue;
+  width: 100%;
   margin-left: 10px;
   bottom: 100;
   margin-top: 300px;
