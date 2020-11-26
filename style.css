@@ -12,70 +12,70 @@ header h1 {
 }
 
 nav a {
-list-style-type: none;
-display: inline-block;
-margin: 0 15px 10px;
-padding: 2px;
-border: 2px solid rgb(8 , 140 , 123);
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px 10px;
+  padding: 2px;
+  border: 2px solid rgb(8 , 140 , 123);
 }
 
 body {
-background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 img {
-border-radius: 40px;
-border: 2px solid rgb(8 , 140 , 123);
-width: 150px;
-margin-right: 60%;
+  border-radius: 40px;
+  border: 2px solid rgb(8 , 140 , 123);
+  width: 150px;
+  margin-right: 60%;
 }
 
 article {
-margin: 10px 0 60px;
-float: left;
-width: 50%;
+  margin: 10px 0 60px;
+  float: left;
+  width: 50%;
 }
 
 aside {
-margin: 10px 0;
-float: right;
-width: 40%;
+  margin: 10px 0;
+  float: right;
+  width: 40%;
 }
 
 section {
-clear: both;
-border: 10px 20px 10px 20px;
-width: 100%;
+  clear: both;
+  border: 10px 20px 10px 20px;
+  width: 100%;
 }
 
 section h2 {
-font-family: Montserrat , sans-serif;
+  font-family: Montserrat , sans-serif;
 }
 
 section ul {
-display: inline-block;
+  display: inline-block;
 }
 
 section ol {
-display: inline-block;
+  display: inline-block;
 }
 
 /* Posição da tabela */
 table {
-float: right;
-border: 0 100px 0 0;
+  float: right;
+  border: 0 100px 0 0;
 }
 
 /* Estilização da tabela */
 table , th , td {
-border: 1.5px solid rgb(10 , 171 , 83);
+  border: 1.5px solid rgb(10 , 171 , 83);
 }
 
 /* Estilização do rodapé */
 footer h2 {
-font-family: Montserrat , sans-serif;
+  font-family: Montserrat , sans-serif;
 }
 
 footer {
-background-color: rgb(10, 171, 83);
+  background-color: rgb(10 , 171 , 83);
 }
