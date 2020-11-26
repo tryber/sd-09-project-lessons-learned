@@ -45,13 +45,13 @@ body {
   margin-top: 400px;
   width: 300px;
   height: 350px;
-  float: left;
   border: ridge 6px gray;
+  display: inline-block;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
-  padding-top: 150px;
+  margin-top: 400px;
   font-size: 26px;
   font-family: sans-serif;
   margin-left: 80px;
@@ -78,15 +78,15 @@ body {
   line-height: 25px;
 }
 
+#rodape a {
+  text-decoration: none;
+  color: white;
+}
+
 #rodape a:hover {
   background-color: white;
   color: black;
   font-size: larger;
-}
-
-#rodape a {
-  text-decoration: none;
-  color: white;
 }
 
 #rodape {
