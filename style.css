@@ -5,61 +5,101 @@
 }
 
 body {
-  background-color: rgb(253 , 251 , 251);
-  font-family: Arial, sans-serif;
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+header {
+  background-color: rgb(7 , 30 ,61);
+  grid-area: header;
+  color: rgb(33 , 230 ,193);
+  text-align: center;
   position: fixed;
   width: 100%;
+  height: 10vh;
   top: 0;
-  background-color: rgb(7 , 30 , 61);
-  line-height: 1.5;
-  font-size: 28px;
-  padding-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(33 , 230 ,193);
+  font-size: 26px;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#cabecalho h1 {
-  color: rgb(40 , 230 , 195);
+footer {
+  background-color: rgb(7 , 30 ,61);
+  grid-area: footer;
   text-align: center;
 }
 
-#cabecalho ul {
-  list-style: none;
+footer a {
+  text-decoration: none;
+  color: rgb(33 , 230 ,193);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 10vh 85vh 5vh;
+  grid-template-areas: "header header" "main aside" "footer footer";
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.photo {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  padding: 10px;
+  margin: auto;
 }
 
-#cabecalho a {
-  text-decoration: none;
-  color: white;
+.lado-esquerdo {
+  width: 70%;
+  margin: auto;
+}
+
+.lado-esquerdo h2 {
+  padding: 0 0 20px;
+}
+
+.licoes-aprendidas {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#licoes_aprendidas {
+  display: block;
+  float: left;
   list-style: none;
-  text-align: center;
-  font-size: 26px;
+  list-style-position: inside;
 }
 
-main {
-  width: 100%;
-  margin-top: 130px;
-  padding: 50px;
+#licoes_aprendidas li {
+  display: inline;
 }
 
-#rodape {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  background-color: rgb(7 , 30 , 61);
-  padding: 10px;
-  text-align: center;
+#licoes_a_aprender {
+  display: block;
+  float: right;
+  list-style: none;
+  list-style-position: inside;
 }
 
-#rodape a {
-  text-decoration: none;
-  color: white;
+#licoes_a_aprender li {
+  display: inline;
 }
