@@ -1,11 +1,3 @@
-168-? -A página deve possuir pelo menos um link externo	
-152 -Adicione uma tabela à páginaA página deve possuir uma lista de lições aprendidas	
-178-Crie uma seção que conta uma passagem sobre seu aprendizado	
-Altere atributos relacionados as fontes
-Faça com que seu artigo e seção sobre aprendizados fiquem um ao lado do outro
-Seu site deve passar sem problemas na verificação de semântica do site achecker
-
-
 # Boas vindas ao repositório do projeto Lições Aprendidas!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀
@@ -144,6 +136,8 @@ Você deve criar um site que com uma série de informações a respeito do que v
 - O elemento com o id `cabecalho` deve ser fixo no topo da página, com a propriedade top tendo `0px`
 
 - O título deve estar dentro da barra e possuir o ID "titulo", além de ser uma tag `h1`
+
+### 11 - Seu site deve passar sem problemas na verificação de semântica do site achecker
 
 ### 3 - A página deve possuir uma foto sua
 
