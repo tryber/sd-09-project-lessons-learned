@@ -1,4 +1,43 @@
 body {
 
     background-color: rgb(253, 251, 251);
+    margin: 0px;
+}
+
+#cabecalho {
+
+    background-color: #7F9172;
+    padding: 10px;
+}
+
+h1 {
+
+    color: #4C1E4F;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.menu-superior {
+
+    font-size: 17px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#minha_foto {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  30px;
+    border: 8px solid #4C1E4F;
+    border-radius: 50%;
+    width: 17em;
+
+
+
 }
