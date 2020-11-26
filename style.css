@@ -55,7 +55,7 @@ body {
   left: 0;
 }
 
-.lado-direito, .lado-esquerdo {
+.lado-direito , .lado-esquerdo {
   background: linear-gradient(rgb( 1 , 110 , 71 ) , rgb( 0 , 163 , 103 ));
   border-radius: 30px;
   color: white;
@@ -76,10 +76,9 @@ body {
   position: absolute;
   width: 30px;
   right: 237px;
-  top: 200px;
 }
 
-.arame-base:after, .arame-base:before {
+.arame-base:after , .arame-base:before {
   content: '';
   background-color: black;
   border-radius: 50%;
@@ -89,19 +88,19 @@ body {
   top: -2px;
 }
 
-.secao .arame-base:after {
+.arame-base:after {
   right: -3px;
 }
 
-.secao .arame-base:before {
+.arame-base:before {
   left: -3px;
 }
 
-.secao .arame-um {
+.posicao-um {
   top: 70px;
 }
 
-.secao .arame-dois {
+.posicao-dois {
   bottom: 70px;
 }
 
@@ -140,24 +139,14 @@ body {
   padding-left: 10px;
 }
 
-.list li {
-  display: inline-block;
-  width: 91px;
-  border-radius: 5px;
-  padding: 5px;
-  text-align: center;
-  margin-left: 5px;
-  margin-top: 15px;
+#licoes_aprendidas a {
+  color: rgb( 1 , 112 , 72 );
 }
 
-#licoes_aprendidas li {
+#licoes_aprendidas a li {
   border: 1px solid;
   border-color: rgb( 1 , 112 , 72 );
   transition: 0.5s;
-}
-
-#licoes_aprendidas a {
-  color: rgb( 1 , 112 , 72 );
 }
 
 #licoes_aprendidas a:hover li {
@@ -168,10 +157,17 @@ body {
 #licoes_a_aprender li {
   border: 1px solid;
   border-color: rgb( 67 , 66 , 66 );
+  color: rgb( 67 , 66 , 66 );
 }
 
-#licoes_a_aprender li > a {
-  color: rgb( 67 , 66 , 66 );
+.item-list {
+  display: inline-block;
+  width: 91px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 15px;
 }
 
 #tabela {
@@ -216,19 +212,19 @@ body {
   font-weight: 700;
 }
 
-.redes-sociais {
+#rodape nav {
   margin-bottom: 10px;
   margin-top: 10px;
   display: inline-block;
 }
 
-.redes-sociais a {
+.rede-social {
   color: white;
   font-size: 20px;
   margin-left: 10px;
 }
 
-.redes-sociais a:hover em {
+.rede-social:hover em {
   color: black;
 }
 
