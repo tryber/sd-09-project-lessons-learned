@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253 , 251 , 251);
   position: relative;
-  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  font-family: Oswald, Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
   color: grey;
   font-size: 22px;
   line-height: 30px;
@@ -10,9 +10,9 @@ body {
 #cabecalho {
   position: fixed;
   width: 2800px;
-  height: 100px;
+  height: 150px;
   top: 0;
-  background-color: aquamarine;
+  background-color: rgb(2, 76, 146);
 }
 
 .center {
@@ -24,18 +24,32 @@ body {
 
 #minha_foto {
   border-radius: 50%;
-  padding: top;
-  position: center;
-  margin-top: 110px;
+  z-index: 1;
+  margin-left: 1500px;
+  height: 200px;
+  width: auto;
+  position: fixed;
+  top: 0;
+  border-style: solid;
+  border-color:white;
+  border-width: 10px;
 }
 
+#listas {
+  margin-top: 180px;
+}
 .fixacao {
   clear: both;
 }
 
-h1 {
-  font-size: xx-large;
+#titulo {
+  width: auto;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 80px;
   font-weight: 800;
+  color: aliceblue;
   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
