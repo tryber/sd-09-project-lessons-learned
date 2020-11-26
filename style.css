@@ -64,12 +64,13 @@ td {
   color: white;
   text-align: center;
   font-family: fantasy;
-  padding: 30px;
+  margin-bottom: 20px;
   position: fixed;
+  width: 100%;
 }
 
 #section-foto {
-  margin-top: 20px;
+  margin-top: 70px;
   margin-left: 20px;
 }
 
