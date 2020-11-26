@@ -152,7 +152,7 @@ main {
 #tabela {
   background-color: purple;
   text-align: center;
-  margin: 40px auto 40px auto;
+  margin: 40px auto;
   padding: 20px;
   width: fit-content;
   max-width: 465px;
