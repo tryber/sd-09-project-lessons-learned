@@ -22,7 +22,7 @@ body {
   padding: 8px;
 }
 
-#titulo {
+.titulo {
   margin: 8px;
 }
 
@@ -131,7 +131,7 @@ h3 {
   padding: 20px;
 }
 
-#licoes_a_apre {
+.licoes_a_apre {
   padding-left: 150px;
   width: 35%;
   line-height: 1.35;
@@ -144,7 +144,7 @@ h3 {
   border-bottom: 1px solid rgb(40 , 42 , 54);
 }
 
-#licoes_a_apre #licoes_a_aprender {
+.licoes_a_apre #licoes_a_aprender {
   margin-left: auto;
 }
 
