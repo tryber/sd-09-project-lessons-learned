@@ -65,17 +65,23 @@ main {
 }
 
 .lado-esquerdo {
-  position: relative;
-  top: 800px;
-  bottom: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  position: absolute;
+  top: 1500px;
+  bottom: 100px;
+  margin-left: 10px;
+  margin-right: 600px;
 }
 
 .lado-direito {
-  position: relative;
-  top: 5px;
-  bottom: 10px;
-  margin-left: 500px;
+  position: absolute;
+  top: 1500px;
+  bottom: 100px;
+  margin-left: 600px;
   margin-right: 20px;
+}
+
+#rodape {
+  margin-left: 10px;
+  bottom: 100;
+  margin-top: 300px;
 }
