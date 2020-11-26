@@ -1,103 +1,103 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    background-color: #2f3640;
-    color: #f5f6fa;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    margin: auto;
-    font-family: 'Noto Sans', sans-serif;
+  background-color: rgb(47, 54, 64);
+  color: rgb(245, 246, 250);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 #cabecalho li {
-    display: inline-block;
-    margin: 20px;
+  display: inline-block;
+  margin: 20px;
 }
 
 #cabecalho h1 {
-    text-align: center;
+  text-align: center;
 }
 
 #cabecalho a {
-    color: #f5f6fa;
-    padding: 14px 16px;
-    text-decoration: none;
+  color: rgb(245, 246, 250);
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 #cabecalho a:hover {
-    background-color: #fbc531;
-    color: #2f3640;
+  background-color: rgb(251, 197, 49);
+  color: rgb(47, 54, 64);
 }
 
 #minha_foto {
-    margin: 130px 100px 30px;
-    width: 250px;
-    border-radius: 60%;
+  margin: 130px 100px 30px;
+  width: 250px;
+  border-radius: 60%;
 }
 
 #sobre_mim {
-    text-align: justify;
-    width: 40%;
-    margin: 30px;
-    padding: 30px;
+  text-align: justify;
+  width: 40%;
+  margin: 30px;
+  padding: 30px;
 
 }
 
 #aprendizado {
-    text-align: justify;
-    width: 30%;
-    margin: 30px;
-    padding: 30px;
+  text-align: justify;
+  width: 30%;
+  margin: 30px;
+  padding: 30px;
 
 }
 
 .lado-direito {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #paragrafos {
-    font-size: 20px;
-    line-height: 110%;
+  font-size: 20px;
+  line-height: 110%;
 }
 
 #lists div {
-    display: inline-block;
-    width: 35%;
-    padding: 2%;
-    margin: 3%;
-    color: #353b48;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  width: 35%;
+  padding: 2%;
+  margin: 3%;
+  color: rgb(53, 59, 72);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #lists h2 {
-    margin-bottom: 15px;
-    color: #2f3640;
+  margin-bottom: 15px;
+  color: rgb(47, 54, 64);
 }
 
 #lists {
-    background-color: #dcdde1;
+  background-color: rgb(220, 221, 225);
 }
 
 .trybe {
-    color: #218c74;
+  color: rgb(33, 140, 116);
 }
 
-footer table{
-    margin: auto;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 80%;
-    font-weight: normal;
+footer table {
+  margin: auto;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 80%;
+  font-weight: 400;
 }
 
 * {
-    margin: 0px;
+  margin: 0;
 }
