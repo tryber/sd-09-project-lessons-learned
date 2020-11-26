@@ -5,8 +5,8 @@ header {
   top: 0;
 }
 
-main{
-  margin: 10px 10px;
+main {
+  margin: 10px;
 }
 
 header h1 {
@@ -87,7 +87,7 @@ footer h2 {
   font-family: Montserrat , sans-serif;
 }
 
-footer a , footer h2{
+footer a , footer h2 {
   margin-left: 10px;
 }
 
