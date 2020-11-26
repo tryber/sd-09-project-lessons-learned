@@ -50,7 +50,7 @@ body {
   margin: 1.5rem;
 }
 
-#artigos article , #artigos aside {
+#artigos article , #artigos aside , #artigos section {
   margin: 1.2rem;
   font-family: 'Press Start 2P', cursive;
   line-height: 1.5rem;
