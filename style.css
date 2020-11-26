@@ -2,6 +2,10 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+#titulo {
+  font-family: 'Press Start 2P', cursive;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -9,26 +13,25 @@ body {
   padding: 1rem;
   text-align: justify;
   background-color: seagreen;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .atalhos {
   position: relative;
   display: inline;
   padding: 10px;
+  font-family: 'Press Start 2P', cursive;
 }
 
 #licoes_a_aprender , #licoes_aprendidas {
-
   width: 15%;
   height: auto;
   border-width: 1rem;
   margin: 1rem;
   padding-top: 2.4rem;
   padding-bottom: 3.2rem;
+  font-family: 'Press Start 2P', cursive;
 }
-
-
-
 
 #lista_licoes {
   display: flex;
