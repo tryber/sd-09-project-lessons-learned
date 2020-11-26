@@ -65,7 +65,7 @@ td {
   text-align: center;
   font-family: fantasy;
   padding: 30px;
-  position: relative;
+  position: absolute;
 }
 
 #section-foto {
