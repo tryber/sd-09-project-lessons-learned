@@ -26,6 +26,10 @@ body {
   margin: 8px;
 }
 
+.info a {
+  text-decoration: none;
+}
+
 #cabecalho li {
   display: inline-block;
 }
@@ -40,7 +44,7 @@ main {
 }
 
 .perfil {
-  margin:  30px 100px;
+  margin: 30px 100px;
   display: inline-block;
 }
 
@@ -63,10 +67,6 @@ main {
   margin-top: 20px;
   margin-left: 120px;
   border-radius: 10px;
-}
- 
-.info a {
-  text-decoration: none;
 }
 
 h3 {
@@ -110,9 +110,9 @@ h3 {
 }
 
 .lado-esquerdo {
- width: 55%;
- float: left;
- line-height: 1.5; 
+  width: 55%;
+  float: left;
+  line-height: 1.5;
 }
 
 .lado-esquerdo h4 {
@@ -145,7 +145,7 @@ h3 {
 }
 
 #licoes_a_apre #licoes_a_aprender {
- margin-left: auto;
+  margin-left: auto;
 }
 
 #genios {
@@ -159,7 +159,7 @@ table {
   padding: 16px;
 }
 
-th, td {
+th , td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
@@ -177,12 +177,10 @@ th {
   background-color: rgb(76 , 164 , 107);
 }
 
-#rodape a img{
-  color: rgb(230 , 227 , 227)
+#rodape a img {
+  color: rgb(230 , 227 , 227);
 }
 
 #rodape h6 {
   padding-top: 20px;
 }
-
-
