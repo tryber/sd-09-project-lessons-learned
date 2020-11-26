@@ -18,6 +18,7 @@ body {
 main {
   max-width: 95%;
   margin: auto;
+  margin-top: 90px;
 }
 
 #cabecalho {
@@ -46,11 +47,6 @@ main {
 #cabecalho a {
   text-decoration: none;
   color: rgb(76 , 164 , 107);
-}
-
-main {
-  margin-top: 90px;
-  
 }
 
 .perfil {
@@ -199,7 +195,7 @@ th {
 
 #rodape a img {
   margin: 10px;
-  transition: transform 200ms ease-in-out
+  transition: transform 200ms ease-in-out;
 }
 
 #rodape a img:hover {
