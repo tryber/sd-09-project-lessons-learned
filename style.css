@@ -7,8 +7,9 @@ body{
   background-color: rgb(253, 251, 251);
 }
 main{
+  display: inline-block;
   margin-top: 120px;
-  width: fit-content;
+  width: 1366px;
 }
 #cabecalho{
   position: fixed;
@@ -58,24 +59,28 @@ main{
 }
 .artigo{
   background-color: yellow;
+  display: inline-block;
   margin: 10px;
   padding: 5px;
 }
 .sessao{
   background-color: pink;
-  margin: 10px;
+  float: left;
+  margin: 5px;
   padding: 5px;
 }
 #texto-principal{
+  width: 700px;
   text-align: justify;
   font-family: Noto Sans, sans-serif;
 }
 #minha_foto{
+  display: inline-block;
   width: 200px;
   margin: 10px;
   border: 3px ridge crimson;
 }
-#caixa{
+#caixa_licoes{
   display: inline-block;
   background-color: orange;
   width: fit-content;
@@ -107,7 +112,8 @@ main{
 }
 #canto{
   background-color: wheat;
-  width: fit-content;
+  display: inline-block;
+  width: 320px;
   margin: 10px;
   padding: 5px;
   font-family: Noto Sans, sans-serif;
