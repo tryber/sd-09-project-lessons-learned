@@ -93,3 +93,17 @@ main {
   margin-top: -128px;
   margin-left: 218px;
 }
+
+table {
+  margin: 20px auto;
+  text-align: center;
+  width: 60%;
+}
+
+table td {
+  border: 1px solid black;
+}
+
+table th {
+  border: 1px solid black;
+}
