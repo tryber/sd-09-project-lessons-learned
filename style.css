@@ -1,10 +1,8 @@
-/* {
-  max-width: 1366px;
-  max-height: 768px;
-}*/
+* {
+  font-family: "Nunito", sans-serif;
+}
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Impact, Haettenschweiler, sans-serif;
   margin: 0px;
 }
 #cabecalho {
