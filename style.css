@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+#cabecalho{
+    position: fixed;
+    top: 0;
+    right: auto;
+    left: auto;
+    width: 100%;
+    z-index: 2;
+}
+#titulo {
+    text-align: center;
+    background-color: rgb(42, 103, 131);
+}
+#meu-nome{
+    text-align: center;
+    background-color: rgb(42, 103, 131);
+    position: relative;
+    top: -140px;
+    padding: 8px;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+img{
+   clip-path: circle(34% at 50% 50%);
+   position: relative;
+   top: -70px;  
+}
+img.minha_foto {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+header{
+    height: 250px;
+    background-color: rgb(9, 65, 65);
+}
+body {
+    background-color: rgb(253, 251, 251);
+    position: relative;
+    top: 260px;
+}
+.subtitle {
+    margin-bottom: 10px;
+    background-color: rgb(230, 230,230)
+}
+.lists {
+    margin: 15px;
+    display: inline-block;
+}
+aside {
+    width: 35%;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left: 203px;
+    right: 15px;
+    z-index: 1;
+}
+.lado-esquerdo {
+    text-align: justify;
+}
+.lado-direito{
+    text-align: justify;
+    padding: 5px;
+    border: 2px dotted rgb(161, 161, 161);
+}
+#table {
+    width: 870px;
+    text-align: center; 
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+
+}
+#id_table {
+    background-color: rgb(9, 65, 65);
+    color: white;
+    width: 1000px;
+    text-align: center; 
+}
+nav{
+    margin-left: 15px;
+}
+footer{
+    position: relative;
+    bottom: 0px; 
+    top: 100px;
+    left: 15px;
+    width: 80%;
+}
