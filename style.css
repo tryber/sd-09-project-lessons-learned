@@ -24,6 +24,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+#titulo {
+  margin-top: 10px;
+}
+
 nav {
   background-color: grey;
   position: fixed;
@@ -52,26 +56,30 @@ nav ul li {
   padding-bottom: 15px;
   width: 185px;
   margin-left: 0;
+  text-align: center;
 }
 
 nav ul {
   margin-left: 0;
   margin-top: 350px;
+  padding: 0;
 }
 
 nav li a {
   text-decoration: none;
   text-align: left;
   color: white;
-  width: 180px;
-  padding-right: 50px;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 0;
 }
 
 nav a:hover {
+  display: block;
+  text-align: center;
   background-color: darkgray;
+  width: 100%;
 }
 
 main {
@@ -181,6 +189,21 @@ aside h3 {
 
 #contato {
   text-align: center;
+  z-index: 16;
+}
+
+#contato h3 {
+  display: inline;
+}
+
+#linkedin a:hover img {
+  background-color: rgb(0 , 119 , 181);
+  border-radius: 2px;
+}
+
+#github a:hover img {
+  background-color: rgb(110 , 84 , 148);
+  border-radius: 20px;
 }
 
 footer {
