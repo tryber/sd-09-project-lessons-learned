@@ -16,6 +16,20 @@ body {
   z-index: 2;
 }
 
+#chess {
+  background-color: white;
+  left: 5em;
+  top: 1em;
+  position: relative;
+}
+
+.chees-image {
+  height: 50px;
+  object-fit: cover;
+  width: 50px;
+  border: 1px solid black;
+}
+
 #perfil {
   overflow: auto;
   padding-bottom: 200px;
