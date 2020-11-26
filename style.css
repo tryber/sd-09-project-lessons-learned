@@ -53,8 +53,8 @@ aside {
     width: 35%;
     display: inline-block;
     position: relative;
-    top: -10px;
-    left: 203px;
+    top: -65px;
+    left: 500px;
     right: 15px;
     z-index: 1;
 }
@@ -67,7 +67,7 @@ aside {
     border: 2px dotted rgb(161, 161, 161);
 }
 #table {
-    width: 870px;
+    width: 1325px;
     text-align: center; 
     margin-top: 15px;
     margin-left: 15px;
@@ -79,8 +79,12 @@ aside {
 #id_table {
     background-color: rgb(9, 65, 65);
     color: white;
-    width: 1000px;
+    width: 1325px;
     text-align: center; 
+    padding: 5px;
+}
+td{
+    padding: 3px;
 }
 nav{
     margin-left: 15px;
