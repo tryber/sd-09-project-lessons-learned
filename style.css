@@ -4,6 +4,7 @@ body {
 
 #titulo {
   font-family: 'Press Start 2P', cursive;
+  color: rgb(36 , 36 , 35);
 }
 
 #cabecalho {
@@ -14,6 +15,7 @@ body {
   text-align: justify;
   background-color: seagreen;
   font-family: 'Press Start 2P', cursive;
+  color: rgb(36 , 36 , 35);
 }
 
 .atalhos {
@@ -21,6 +23,7 @@ body {
   display: inline;
   padding: 10px;
   font-family: 'Press Start 2P', cursive;
+  color: rgb(36 , 36 , 35);
 }
 
 #licoes_a_aprender , #licoes_aprendidas {
@@ -31,6 +34,8 @@ body {
   padding-top: 2.4rem;
   padding-bottom: 3.2rem;
   font-family: 'Press Start 2P', cursive;
+  color: rgb(36 , 36 , 35);
+  font-size: 0.75rem;
   line-height: 1.5rem;
 }
 
@@ -50,9 +55,11 @@ body {
   margin: 1.5rem;
 }
 
-#artigos article , #artigos aside , #artigos section {
+#artigos article , #artigos aside {
   margin: 1.2rem;
   font-family: 'Press Start 2P', cursive;
+  color: rgb(36 , 36 , 35); /* onde achei a cor http://pt.tacolor.com/hex/5b5b58/ */
+  font-size: 0.75rem;
   line-height: 1.5rem;
 }
 
