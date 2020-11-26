@@ -1,41 +1,42 @@
 body {
-    background-color: rgb(253 , 251 , 251);
-        background-position: center;
-        margin-left: 50px;
+  background-color: rgb(253 , 251 , 251);
+  background-position: center;
+  margin-left: 50px;
 }
 
 #cabecalho {
-        position: fixed;
-        top: 0;
-    font-family: Indie Flower , cursive;
-    font-size: 30px;
+  position: fixed;
+  top: 0;
+  font-family: Indie Flower , cursive;
+  font-size: 30px;
 }
 
 #minha_foto {
-    border-radius: 10px;
-    float: left;
-        position: relative;
+  border-radius: 10px;
+  float: left;
+  position: relative;
 }
 
 #headNav {
-    float: right;
-        position: absolute;
-        width: 100%;
-        bottom: 120px;
-        margin-left: 100px;
+  float: right;
+  position: absolute;
+  width: 100%;
+  bottom: 120px;
+  margin-left: 100px;
 }
 
 #main {
-    margin-top: 150px;
-    margin-right: 550px;
+  margin-top: 150px;
+  margin-right: 550px;
 }
 
 #sectionLearn {
-    display: inline-block;
+  display: inline-block;
 }
 
 footer {
-    background-color: black;
-    color: white;
-    font-family: Courier New , Courier, monospace;
+  background-color: black;
+  color: white;
+  font-family: Courier New , Courier, monospace;
 }
+
