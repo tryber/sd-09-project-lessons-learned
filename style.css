@@ -4,32 +4,37 @@
   border: 0;
 }
 body {
-  background-color: rgb(253 , 251 , 251);
-}
+
+  background-color: rgb(253 , 251 , 251);}
 main {
+
   display: inline-block;
   margin-top: 120px;
   width: 1366px;
 }
 #cabecalho {
+
   position: fixed;
   width: 100%;
   top: 0;
   background-color: wheat;
 }
 #titulo {
+
   color: crimson;
   text-align: center;
   font-family: Acme, sans-serif;
   font-size: 50px;
 }
 #menu {
+
   width: fit-content;
   float: left;
   clear: both;
   border-radius: 3px;
 }
 #menu ul {
+  
   list-style-type: none;
 }
 #menu li {
@@ -96,7 +101,7 @@ main {
   margin: 10px;
   padding: 10px 5px 5px 35px;
 }
-#licoes_aprendidas ol li{
+#licoes_aprendidas ol li {
   text-align: center;
 }
 #licoes_a_aprender {
