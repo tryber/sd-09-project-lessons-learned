@@ -48,8 +48,7 @@ aside {
   height: 270px;
   border-radius: 10px;
   padding: right;
-  letter-spacing: 10px;
-  text-align: justify;
+  line-height: 25px;
 }
 
 #lorem {
