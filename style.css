@@ -27,9 +27,9 @@ body {
 }
 
 #headNav {
- position: relative;
- width: 100%;
- text-align: center;
+  position: relative;
+  width: 100%;
+  text-align: center;
 }
 
 #main {
@@ -42,7 +42,7 @@ body {
 aside {
   float: right;
   position: relative;
-  left: 500px;  
+  left: 500px;
   margin-left: 10px;
   width: 300px;
   height: 270px;
@@ -55,8 +55,8 @@ aside {
   border-radius: 10px;
   float: left;
   position: static;
-  border: 0ch;
-  margin: 0px;
+  border: 1px;
+  margin: 1px;
 }
 
 footer {
@@ -64,7 +64,7 @@ footer {
   color: white;
   font-family: Courier New , Courier, monospace;
   float: left;
-  height:auto;
+  height: auto;
   font-size: 8px;
   width: 100%;
   bottom: 170px;
@@ -79,7 +79,7 @@ footer {
 }
 
 .lado-esquerdo {
-  display: inline-block
+  display: inline-block;
 }
 
 .lado-direito {
