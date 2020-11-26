@@ -6,11 +6,12 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: Arial, sans-serif;
 }
 
 header {
   background-color: rgb(7 , 30 , 61);
-  grid-area: header;
+  grid-area: h;
   color: rgb(33 , 230 , 193);
   text-align: center;
   position: fixed;
@@ -26,11 +27,11 @@ nav a {
 }
 
 main {
-  grid-area: main;
+  grid-area: m;
 }
 
-.aside {
-  grid-area: aside;
+.lado-direito {
+  grid-area: a;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +39,7 @@ main {
 
 footer {
   background-color: rgb(7 , 30 , 61);
-  grid-area: footer;
+  grid-area: f;
   text-align: center;
 }
 
@@ -51,7 +52,7 @@ footer a {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 10vh 85vh 5vh;
-  grid-template-areas: 'header header' 'main aside' 'footer footer';
+  grid-template-areas: 'h h' 'm a' 'f f';
 }
 
 .content {
