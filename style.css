@@ -3,22 +3,37 @@ body {
 background-color : rgb(253, 251, 251);
 
 
+
 }
 
 #cabecalho {
 
-margin-top: 0px;
-position: fixed;
-width:300px;
-border-top: 14px ;
-border-left: 20px ;
-background-color: #429653;
-
-
+margin: 0px;
+background-color : rgb(201, 123, 50);
+height: 100px;
+line-height: 100px;
+position: relative;
 }
 
 #minha_foto {
 
 border-radius: 50%;
+float: left;
 
+
+}
+
+#titulo {
+text-align: center;
+color: rgb(255, 255, 255);
+}
+
+#licoes_a_aprender {
+  float: left;
+  padding: 10%;
+}
+
+#licoes_aprendidas {
+  float: right;
+  padding: 10%;
 }
