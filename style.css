@@ -15,6 +15,8 @@ body {
   background-color: transparent;
   width: 90%;
   height: 19%;
+  letter-spacing: 10px;
+  margin-left: 30px;
 }
 
 #minha_foto {
@@ -33,10 +35,7 @@ body {
   margin-top: 80px;
   margin-right: 550px;
   margin-left: 30px;
-}
-
-#sectionLearn {
- 
+  text-align: justify;
 }
 
 aside {
@@ -56,7 +55,7 @@ aside {
   float: left;
   position: static;
   border: 0ch;
-  margin: 5px;
+  margin: 0px;
 }
 
 footer {
@@ -75,4 +74,12 @@ footer {
   text-align: center;
   background-color: red;
 
+}
+
+.lado-esquerdo {
+  display: inline-block
+}
+
+.lado-direito {
+  display: inline-block;
 }
