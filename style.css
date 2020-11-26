@@ -41,6 +41,7 @@ img {
   width: 150px;
   margin-top: 110px;
   margin-right: 60%;
+  margin-bottom: 30px;
 }
 
 .lado-esquerdo {
@@ -75,6 +76,7 @@ section ol {
 
 /* Posição da tabela */
 table {
+  font-family: monospace;
   line-height: 23px;
   font-size: 20px;
   float: right;
