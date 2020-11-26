@@ -11,6 +11,11 @@ body {
   background-color: rgb(83 , 80 , 80);
 }
 
+#titulo a:hover{
+  border-bottom: solid gray 2px;
+  border-right: solid black 3px;
+}
+
 #titulo {
   position: relative;
   text-align: center;
