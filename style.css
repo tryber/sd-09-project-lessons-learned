@@ -11,6 +11,14 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto', sans-serif;
 }
 
 #cabecalho {
