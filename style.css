@@ -23,6 +23,7 @@ body {
     position: fixed;
     top: 0px;
     width: 100em;
+    z-index: 1;
 
 }
 
@@ -73,12 +74,16 @@ h1 {
 #minha_foto {
 
     display: block;
-    margin-left: auto;
+ /*   margin-left: auto;
     margin-right: auto;
-    margin-top:  210px;
+    margin-top:  100px; */
     border: 8px solid #4C1E4F;
     border-radius: 50%;
-    width: 17em;
+    width: 12em;
+    z-index: 2;
+    position: fixed;
+    top: 50px;
+    left: 250px;
 
 }
 
