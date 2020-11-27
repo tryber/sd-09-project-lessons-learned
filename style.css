@@ -5,7 +5,7 @@
     border: 2px solid #7C606B;
     border-radius: 20px;
     width: 40%;
-    height: 500;
+    height: 100;
     background-color: #AFBAA8;
     display: inline-block;
 }
@@ -36,7 +36,14 @@ h1 {
 
 }
 
-.licoes_a_aprender {
+#licoes {
+
+    margin-top: 300px;
+    text-align: center;
+
+}
+
+#box-aprender {
 
     padding: 50px;
     margin: 50px;
@@ -49,7 +56,7 @@ h1 {
     display: inline-block;
 }
 
-.licoes_aprendidas {
+#box-aprendidas {
 
     padding: 50px;
     margin: 50px;
@@ -83,7 +90,7 @@ h1 {
     z-index: 2;
     position: fixed;
     top: 50px;
-    left: 250px;
+    left: 150px;
 
 }
 
