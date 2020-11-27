@@ -6,12 +6,38 @@ body{
     position: fixed;
     top: 0px;
     width: 100%;
+    text-align: center; 
     background-color: aqua;
 }
 
+#titulo{
+    display: inline;  
+}
+
+#conteudo-primario{
+    width: 600px;
+    margin: auto;
+    
+}
+
+article{
+    float: right; ;
+    display: inline;
+    margin-top: 80px;
+    margin-right: 50px;
+    width: 350px;
+    height: 200px;
+    background-color:aquamarine;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 0px;
+}
+p{
+    margin-left:5px ;
+}
 #minha_foto{
     margin-top: 80px;
-    border-radius: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:0px;
 }
 
 #licoes_aprendidas{
