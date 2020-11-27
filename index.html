@@ -4,27 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lessons Learned</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <header id="cabecalho">
       <h1 id="titulo">Projeto Lições Aprendidas</h1>
+      <div class="division"></div>
       <nav>
-        <a href="https://www.betrybe.com">Trybe</a>
+        <a href="https://www.betrybe.com" target="_blank">Trybe</a>
       </nav>
     </header>
     <main class="content">
-      <section class="photo">
-        <img id="minha_foto" src="/natalianegreiros.jpeg" alt="Foto de Natália">
-      </section>
-      <section class="lado-esquerdo">
-        <article>
-          <h2>Meu aprendizado</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nihil ea praesentium dolorum, iste beatae, provident nam illo perspiciatis voluptate voluptas quos laborum. Itaque esse, exercitationem assumenda atque delectus quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam velit possimus sunt cumque quis. Doloribus voluptatum eligendi neque temporibus, iste sunt beatae possimus placeat voluptate ducimus dolorum obcaecati nisi sit!</p>
+      <section class="lado-direito">
+        <article class="article">
+          <h2>Meu aprendizado na Trybe</h2>
+          <p>Decidi entrar na Trybe para aprender a programar, mas, felizmente, tô aprendendo bem mais que isso.<br>Em
+            pouco mais de duas semanas, percebi que a Trybe vai além do ensino da Stack Web, ela ensina também a ser uma
+            pessoa melhor, um profissional que não se limita somente a hard skills, mas também soft skills. Sei que há
+            um longo caminho a percorrer, com a ajuda de toda a equipe e colegas, espero chegar ao final do curso com as
+            habilidades suficiente para ingressar no mercado de trabalho.</p>
         </article>
       </section>
-      <section class="licoes-aprendidas">
+      <section class="licoes">
         <ol id="licoes_aprendidas">
           <h2>Lições aprendidas</h2>
           <li>Unix</li>
@@ -38,32 +42,36 @@
           <li>Slack</li>
           <li>Empatia</li>
         </ol>
+        <img id="arrow" src="./arrow-right-solid.svg" alt="">
         <ul id="licoes_a_aprender">
           <h2>Ainda falta</h2>
           <li>Lógica de Programação</li>
           <li>Javascript</li>
-          <li>DOM</li>
-          <li>Forms</li>
-          <li>CSS - Flexbox</li>
-          <li>CSS - Responsivo</li>
-          <li>Testes</li>
           <li>React</li>
+          <li>Banco de dados</li>
+          <li>REST</li>
+          <li>Segurança</li>
+          <li>Testes</li>
+          <li>Deploy</li>
           <li>Python</li>
           <li>Metodolodias Ágeis</li>
         </ul>
       </section>
     </main>
-    <section class="lado-direito">
+    <section class="lado-esquerdo">
+      <div class="photo">
+        <img id="minha_foto" src="/natalianegreiros.jpeg" alt="Foto de Natália">
+      </div>
       <aside>
-        <h2>Passagem sobre aprendizado</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat impedit, tempora ullam quisquam cumque quod praesentium qui ducimus enim! Sit id suscipit odio eum magnam temporibus delectus inventore maiores.
-      </p>
+        <h2 class="title-name">Natália Negreiros</h2>
+        <p>Esse é o primeiro projeto do módulo de <strong>Fundamentos</strong> do desenvolvimento web.</p>
+        <p>Todo o conhecimento adquirido durante as três primeiras semanas foram essenciais para a finalização do projeto.</p>
       </aside>
+      <footer id="rodape">
+        <a href="https://github.com/negres" target="_blank">Github</a>
+        <a href="https://linkedin.com/in/natalianegres" target="_blank">Linkedin</a>
+      </footer>
     </section>
-    <footer id="rodape">
-      <a href="https://github.com/negres" target="_blank">Github</a>
-      <a href="https://github.com/negres" target="_blank">Linkedin</a>
-    </footer>
   </div>
 </body>
 </html>

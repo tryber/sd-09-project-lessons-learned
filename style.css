@@ -6,101 +6,224 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: Arial, sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 header {
-  background-color: rgb(7 , 30 , 61);
-  grid-area: h;
-  color: rgb(33 , 230 , 193);
-  text-align: center;
-  position: fixed;
+  background-color: rgb(253 , 251 , 251);
+  grid-area: h;  
+  position: sticky;
+  top: 0;
   width: 100%;
   height: 10vh;
-  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#titulo {
+  color: rgb(130 , 87 , 229);
+  font-size: 48px;
+}
+
+.division {
+  width: 2px;
+  height: 50px;
+  background-color: rgb(29 , 29 , 33);
+}
+
+nav {
+  position: relative;
+  right: 0;
 }
 
 nav a {
   text-decoration: none;
-  color: rgb(33 , 230 , 193);
-  font-size: 26px;
+  color: rgb(4 , 211 , 97);
+  font-size: 48px;
+  transition: 300ms;
+}
+
+nav a:hover {
+  color: rgb(130 , 87 , 229);
 }
 
 main {
   grid-area: m;
 }
 
-.lado-direito {
+.lado-esquerdo {
   grid-area: a;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
+  align-items: center;
+  background: rgb(130 , 87 , 229);
+  border-radius: 0 30px 30px 0;
+  padding: 30px;
+}
+
+#rodape {
+  display: inline;
+  position: absolute;
+  bottom: 50px;
+}
+
+.lado-esquerdo h2 {
+  padding: 0 0 50px;
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.lado-esquerdo p {
+  color: white;
+  line-height: 1.5;
+}
+
+#minha_foto {
+  margin-top: 50px;
+  width: 180px;
+  border-radius: 50%;
+  border: 3px solid rgb(4 , 211 , 97);
 }
 
 footer {
-  background-color: rgb(7 , 30 , 61);
   grid-area: f;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 footer a {
   text-decoration: none;
-  color: rgb(33 , 230 , 193);
+  color: rgb(253 , 251 , 251);
+  font-size: 20px;
+  padding: 10px;
+  transition: 300ms;
+}
+
+footer a:hover {
+  color: rgb(4 , 211 , 97);
 }
 
 .container {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-rows: 10vh 85vh 5vh;
-  grid-template-areas: 'h h' 'm a' 'f f';
+  grid-template-areas: 'a h' 'a m' 'a f';
 }
 
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 50px 0;
+
 }
 
-.photo {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-
-.lado-esquerdo {
+.lado-direito {
   width: 70%;
-  margin: auto;
+  margin: 100px auto 0;
+  color: rgb(29 , 29 , 33);
 }
 
-.lado-esquerdo h2 {
-  padding: 0 0 20px;
+.lado-direito h2 {
+  padding-bottom: 20px;
+  background-color: rgb(29 , 29 , 33);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 10px 10px 0px 0px;  
 }
 
-.licoes-aprendidas {
+.lado-direito p {
+  background-color: rgb(241 , 241 , 245);
+  border-bottom: 20px solid rgb(29 , 29 , 33);
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 1px solid rgb(29 , 29 , 33);
+  border-right: 1px solid rgb(29 , 29 , 33);
+}
+
+.licoes {
   width: 70%;
-  margin: auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  color: rgb(29 , 29 , 33);
 }
 
 #licoes_aprendidas {
-  display: block;
-  float: left;
-  list-style: none;
-  list-style-position: inside;
+  width: 300px;
+  border-bottom: 20px solid rgb(4 , 211 , 97);
+  border-radius: 0 0 10px 10px;
+}
+
+#licoes_aprendidas h2 {
+  padding-bottom: 20px;
+  background-color: rgb(4 , 211 , 97);
+  color: white;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
 }
 
 #licoes_aprendidas li {
-  display: inline;
+  text-align: center;
+  list-style: none;
+  padding: 10px 20px;
+  background-color: rgb(241 , 241 , 245);
+  border-top: 1px solid rgb(4 , 211 , 97);
+  border-left: 1px solid rgb(4 , 211 , 97);
+  border-right: 1px solid rgb(4 , 211 , 97);
+
+}
+#licoes_aprendidas li:hover {
+  background-color:white;
+  color: rgb(4 , 211 , 97);
+}
+
+#arrow {
+  color: rgb(29 , 29 , 33);
 }
 
 #licoes_a_aprender {
-  display: block;
-  float: right;
-  list-style: none;
-  list-style-position: inside;
+  width: 300px;
+  border-bottom: 20px solid rgb(130 , 87 , 229);
+  border-radius: 0 0 10px 10px;
+}
+
+#licoes_a_aprender h2 {
+  padding-bottom: 20px;
+  background-color: rgb(130 , 87 , 229);
+  color: white;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
 }
 
 #licoes_a_aprender li {
-  display: inline;
+  text-align: center;
+  list-style: none;
+  padding: 10px 20px;
+  background-color: rgb(241 , 241 , 245);
+  border-top: 1px solid rgb(130 , 87 , 229);
+  border-left: 1px solid rgb(130 , 87 , 229);
+  border-right: 1px solid rgb(130 , 87 , 229);
+}
+
+#licoes_a_aprender li:hover {
+  background-color:white;
+  color: rgb(130 , 87 , 229);
 }
