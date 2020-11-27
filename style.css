@@ -76,12 +76,12 @@ a:active {
     margin-top: 8%;
     display: inline;
     padding: 2%;
+    margin-left: 80px;
 }
 
 #lista2 {
     float: right;
     margin-top: 10%;
-    padding-right: 40px;
     size: 40px;
     font-size: large;
     display: inline;
