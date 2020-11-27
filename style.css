@@ -104,7 +104,7 @@ body {
 #lessonsLearned {
   background-color: rgb(14 , 58 , 59);
   display: block;
-  margin: 50px 20vw 50px;
+  margin: 50px 20vw;
   padding-bottom: 50px;
 }
 
@@ -113,7 +113,7 @@ body {
   color: rgb(14 , 58 , 59);
   display: block;
   font-size: 24px;
-  font-weight: 400px;
+  font-weight: 400;
   height: 40px;
   line-height: 40px;
   margin: 0;
@@ -137,7 +137,7 @@ body {
   width: 320px;
 }
 
-#aprendizado {
+.lado-esquerdo {
   background-color: rgb(14 , 58 , 59);
   display: block;
   float: left;
@@ -146,7 +146,7 @@ body {
   width: calc(30vw - 25px);
 }
 
-#passagem {
+.lado-direito {
   background-color: rgb(14 , 58 , 59);
   display: block;
   float: right;
