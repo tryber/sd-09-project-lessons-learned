@@ -118,13 +118,27 @@ nav a {
   padding: 20px;
 }
 
+section h2 {
+  text-align: center;
+}
+
+.aprendizado {
+  width: 890px;
+  margin: auto;
+}
+
 .aprendizado_box {
   background-color: palegreen;
-  float: left;
-  width: 300px;
+  display: inline-block;
+  width: 350px;
+  height: 320px;
   padding: 0 30px 20px 20px;
   border-radius: 10px;
   margin: 0 20px;
+}
+
+aside , article{
+  width: 40%;
 }
 
 #rodape {
@@ -132,4 +146,17 @@ nav a {
   background-color: #023C40;
   color: white;
   line-height: 100px;
+}
+
+#rodape p{
+  color: white;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#rodape a{
+  color: white;
+  float: right;
+  margin-right: 50px;
+  display: inline-block;
 }
