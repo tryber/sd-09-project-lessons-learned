@@ -81,9 +81,6 @@ h1 {
 #minha_foto {
 
     display: block;
- /*   margin-left: auto;
-    margin-right: auto;
-    margin-top:  100px; */
     border: 8px solid #4C1E4F;
     border-radius: 50%;
     width: 12em;
@@ -104,7 +101,6 @@ h1 {
     height: 300px;
     background-color: #AFBAA8;
     display: inline-block;
-
 
 }
 #titulo-aprender {
