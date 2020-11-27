@@ -74,11 +74,6 @@ body {
   position: fixed;
 }
 
-#cabeçalho h1{
-  margin: 0px;
-  top: 0px;
-}
-
 nav {
   background-color: palegoldenrod;
   height: 90px;
