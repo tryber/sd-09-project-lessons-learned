@@ -52,6 +52,12 @@ body{
     width: 650px;
 }
 
+article{
+    display: inline-block;
+    width:50%;
+    float: left;
+}
+
 .tabela{
     text-align: center;
 }
