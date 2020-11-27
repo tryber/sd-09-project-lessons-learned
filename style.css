@@ -124,276 +124,55 @@ footer {
   background: rgb(15 , 164 , 107);
 }
 
-.pixel:nth-child(48) , 
-.pixel:nth-child(49) , 
-.pixel:nth-child(50) , 
-.pixel:nth-child(51) , 
-.pixel:nth-child(52) , 
-.pixel:nth-child(64) , 
-.pixel:nth-child(65) , 
-.pixel:nth-child(66) , 
-.pixel:nth-child(67) , 
-.pixel:nth-child(68) , 
-.pixel:nth-child(71) , 
-.pixel:nth-child(72) , 
-.pixel:nth-child(73) , 
-.pixel:nth-child(74) , 
-.pixel:nth-child(75) , 
-.pixel:nth-child(76) , 
-.pixel:nth-child(86) , 
-.pixel:nth-child(87) , 
-.pixel:nth-child(88) , 
-.pixel:nth-child(89) , 
-.pixel:nth-child(90) , 
-.pixel:nth-child(91) , 
-.pixel:nth-child(95) , 
-.pixel:nth-child(96) , 
-.pixel:nth-child(97) , 
-.pixel:nth-child(98) , 
-.pixel:nth-child(99) , 
-.pixel:nth-child(100) , 
-.pixel:nth-child(108) , 
-.pixel:nth-child(109) , 
-.pixel:nth-child(110) , 
-.pixel:nth-child(111) , 
-.pixel:nth-child(112) , 
-.pixel:nth-child(113) , 
-.pixel:nth-child(119) , 
-.pixel:nth-child(120) , 
-.pixel:nth-child(121) , 
-.pixel:nth-child(122) , 
-.pixel:nth-child(123) , 
-.pixel:nth-child(124) , 
-.pixel:nth-child(130) , 
-.pixel:nth-child(131) , 
-.pixel:nth-child(132) , 
-.pixel:nth-child(133) , 
-.pixel:nth-child(134) , 
-.pixel:nth-child(135) , 
-.pixel:nth-child(143) , 
-.pixel:nth-child(144) , 
-.pixel:nth-child(145) , 
-.pixel:nth-child(146) , 
-.pixel:nth-child(147) , 
-.pixel:nth-child(148) , 
-.pixel:nth-child(152) , 
-.pixel:nth-child(153) , 
-.pixel:nth-child(154) , 
-.pixel:nth-child(155) , 
-.pixel:nth-child(156) , 
-.pixel:nth-child(157) , 
-.pixel:nth-child(167) , 
-.pixel:nth-child(168) , 
-.pixel:nth-child(169) , 
-.pixel:nth-child(170) , 
-.pixel:nth-child(171) , 
-.pixel:nth-child(172) , 
-.pixel:nth-child(174) , 
-.pixel:nth-child(175) , 
-.pixel:nth-child(176) , 
-.pixel:nth-child(177) , 
-.pixel:nth-child(178) , 
-.pixel:nth-child(179) , 
-.pixel:nth-child(191) , 
-.pixel:nth-child(192) , 
-.pixel:nth-child(193) , 
-.pixel:nth-child(194) , 
-.pixel:nth-child(195) , 
-.pixel:nth-child(196) , 
-.pixel:nth-child(197) , 
-.pixel:nth-child(198) , 
-.pixel:nth-child(199) , 
-.pixel:nth-child(200) , 
-.pixel:nth-child(201) , 
-.pixel:nth-child(215) , 
-.pixel:nth-child(216) , 
-.pixel:nth-child(217) , 
-.pixel:nth-child(218) , 
-.pixel:nth-child(219) , 
-.pixel:nth-child(220) , 
-.pixel:nth-child(221) , 
-.pixel:nth-child(222) , 
-.pixel:nth-child(223) , 
-.pixel:nth-child(239) , 
-.pixel:nth-child(240) , 
-.pixel:nth-child(241) , 
-.pixel:nth-child(242) , 
-.pixel:nth-child(243) , 
-.pixel:nth-child(244) , 
-.pixel:nth-child(245) , 
-.pixel:nth-child(263) , 
-.pixel:nth-child(264) , 
-.pixel:nth-child(265) , 
-.pixel:nth-child(266) , 
-.pixel:nth-child(267) , 
-.pixel:nth-child(286) , 
-.pixel:nth-child(287) , 
-.pixel:nth-child(288) , 
-.pixel:nth-child(289) , 
-.pixel:nth-child(290) , 
-.pixel:nth-child(309) , 
-.pixel:nth-child(310) , 
-.pixel:nth-child(311) , 
-.pixel:nth-child(312) , 
-.pixel:nth-child(313) , 
-.pixel:nth-child(332) , 
-.pixel:nth-child(333) , 
-.pixel:nth-child(334) , 
-.pixel:nth-child(335) , 
-.pixel:nth-child(336) , 
-.pixel:nth-child(355) , 
-.pixel:nth-child(356) , 
-.pixel:nth-child(357) , 
-.pixel:nth-child(358) , 
-.pixel:nth-child(359) , 
-.pixel:nth-child(378) , 
-.pixel:nth-child(379) , 
-.pixel:nth-child(380) , 
-.pixel:nth-child(381) , 
-.pixel:nth-child(382) , 
-.pixel:nth-child(401) , 
-.pixel:nth-child(402) , 
-.pixel:nth-child(403) , 
-.pixel:nth-child(404) , 
-.pixel:nth-child(405) , 
-.pixel:nth-child(424) , 
-.pixel:nth-child(425) , 
-.pixel:nth-child(426) , 
-.pixel:nth-child(427) , 
-.pixel:nth-child(428) , 
-.pixel:nth-child(447) , 
-.pixel:nth-child(448) , 
-.pixel:nth-child(449) , 
-.pixel:nth-child(450) , 
-.pixel:nth-child(451) , 
-.pixel:nth-child(470) , 
-.pixel:nth-child(471) , 
-.pixel:nth-child(472) , 
-.pixel:nth-child(473) , 
-.pixel:nth-child(474) {
+.pixel:nth-child(48) , .pixel:nth-child(49) , .pixel:nth-child(50) , .pixel:nth-child(51) , .pixel:nth-child(52) , .pixel:nth-child(64) , .pixel:nth-child(65) , .pixel:nth-child(66) , .pixel:nth-child(67) , .pixel:nth-child(68) , .pixel:nth-child(71) , .pixel:nth-child(72) , .pixel:nth-child(73) , .pixel:nth-child(74) , .pixel:nth-child(75) , .pixel:nth-child(76) , .pixel:nth-child(86) , .pixel:nth-child(87) , .pixel:nth-child(88) , .pixel:nth-child(89) , .pixel:nth-child(90) , .pixel:nth-child(91) , .pixel:nth-child(95) , .pixel:nth-child(96) , .pixel:nth-child(97) , .pixel:nth-child(98) , .pixel:nth-child(99) , .pixel:nth-child(100) , .pixel:nth-child(108) , .pixel:nth-child(109) , .pixel:nth-child(110) , .pixel:nth-child(111) , .pixel:nth-child(112) , .pixel:nth-child(113) , .pixel:nth-child(119) , .pixel:nth-child(120) , .pixel:nth-child(121) , .pixel:nth-child(122) , .pixel:nth-child(123) , .pixel:nth-child(124) , .pixel:nth-child(130) , .pixel:nth-child(131) , .pixel:nth-child(132) , .pixel:nth-child(133) , .pixel:nth-child(134) , .pixel:nth-child(135) , .pixel:nth-child(143) , .pixel:nth-child(144) , .pixel:nth-child(145) , .pixel:nth-child(146) , .pixel:nth-child(147) , .pixel:nth-child(148) , .pixel:nth-child(152) , .pixel:nth-child(153) , .pixel:nth-child(154) , .pixel:nth-child(155) , .pixel:nth-child(156) , .pixel:nth-child(157) , .pixel:nth-child(167) , .pixel:nth-child(168) , .pixel:nth-child(169) , .pixel:nth-child(170) , .pixel:nth-child(171) , .pixel:nth-child(172) , .pixel:nth-child(174) , .pixel:nth-child(175) , .pixel:nth-child(176) , .pixel:nth-child(177) , .pixel:nth-child(178) , .pixel:nth-child(179) , .pixel:nth-child(191) , .pixel:nth-child(192) , .pixel:nth-child(193) , .pixel:nth-child(194) , .pixel:nth-child(195) , .pixel:nth-child(196) , .pixel:nth-child(197) , .pixel:nth-child(198) , .pixel:nth-child(199) , .pixel:nth-child(200) , .pixel:nth-child(201) , .pixel:nth-child(215) , .pixel:nth-child(216) , .pixel:nth-child(217) , .pixel:nth-child(218) , .pixel:nth-child(219) , .pixel:nth-child(220) , .pixel:nth-child(221) , .pixel:nth-child(222) , .pixel:nth-child(223) , .pixel:nth-child(239) , .pixel:nth-child(240) , .pixel:nth-child(241) , .pixel:nth-child(242) , .pixel:nth-child(243) , .pixel:nth-child(244) , .pixel:nth-child(245) , .pixel:nth-child(263) , .pixel:nth-child(264) , .pixel:nth-child(265) , .pixel:nth-child(266) , .pixel:nth-child(267) , .pixel:nth-child(286) , .pixel:nth-child(287) , .pixel:nth-child(288) , .pixel:nth-child(289) , .pixel:nth-child(290) , .pixel:nth-child(309) , .pixel:nth-child(310) , .pixel:nth-child(311) , .pixel:nth-child(312) , .pixel:nth-child(313) , .pixel:nth-child(332) , .pixel:nth-child(333) , .pixel:nth-child(334) , .pixel:nth-child(335) , .pixel:nth-child(336) , .pixel:nth-child(355) , .pixel:nth-child(356) , .pixel:nth-child(357) , .pixel:nth-child(358) , .pixel:nth-child(359) , .pixel:nth-child(378) , .pixel:nth-child(379) , .pixel:nth-child(380) , .pixel:nth-child(381) , .pixel:nth-child(382) , .pixel:nth-child(401) , .pixel:nth-child(402) , .pixel:nth-child(403) , .pixel:nth-child(404) , .pixel:nth-child(405) , .pixel:nth-child(424) , .pixel:nth-child(425) , .pixel:nth-child(426) , .pixel:nth-child(427) , .pixel:nth-child(428) , .pixel:nth-child(447) , .pixel:nth-child(448) , .pixel:nth-child(449) , .pixel:nth-child(450) , .pixel:nth-child(451) , .pixel:nth-child(470) , .pixel:nth-child(471) , .pixel:nth-child(472) , .pixel:nth-child(473) , .pixel:nth-child(474) {
   background: rgb(21 , 23 , 25);
 }
 
-.pixel:nth-child(55) , 
-.pixel:nth-child(56) , 
-.pixel:nth-child(57) , 
-.pixel:nth-child(58) , 
-.pixel:nth-child(59) , 
-.pixel:nth-child(60) , 
-.pixel:nth-child(61) , 
-.pixel:nth-child(79) , 
-.pixel:nth-child(80) , 
-.pixel:nth-child(81) , 
-.pixel:nth-child(82) , 
-.pixel:nth-child(83) , 
-.pixel:nth-child(103) , 
-.pixel:nth-child(104) , 
-.pixel:nth-child(105) , 
-.pixel:nth-child(280) , 
-.pixel:nth-child(296) , 
-.pixel:nth-child(422) , 
-.pixel:nth-child(436) , 
-.pixel:nth-child(127) {
+.pixel:nth-child(55) , .pixel:nth-child(56) , .pixel:nth-child(57) , .pixel:nth-child(58) , .pixel:nth-child(59) , .pixel:nth-child(60) , .pixel:nth-child(61) , .pixel:nth-child(79) , .pixel:nth-child(80) , .pixel:nth-child(81) , .pixel:nth-child(82) , .pixel:nth-child(83) , .pixel:nth-child(103) , .pixel:nth-child(104) , .pixel:nth-child(105) , .pixel:nth-child(280) , .pixel:nth-child(296) , .pixel:nth-child(422) , .pixel:nth-child(436) , .pixel:nth-child(127) {
   background: rgb(232 , 244 , 245);
 }
 
-.pixel:nth-child(326) , 
-.pixel:nth-child(327) , 
-.pixel:nth-child(329) , 
-.pixel:nth-child(339) , 
-.pixel:nth-child(341) , 
-.pixel:nth-child(342) , 
-.pixel:nth-child(348) , 
-.pixel:nth-child(351) , 
-.pixel:nth-child(352) , 
-.pixel:nth-child(362) , 
-.pixel:nth-child(363) , 
-.pixel:nth-child(366) , 
-.pixel:nth-child(372) , 
-.pixel:nth-child(373) , 
-.pixel:nth-child(374) , 
-.pixel:nth-child(386) , 
-.pixel:nth-child(387) , 
-.pixel:nth-child(388) {
+.pixel:nth-child(326) , .pixel:nth-child(327) , .pixel:nth-child(329) , .pixel:nth-child(339) , .pixel:nth-child(341) , .pixel:nth-child(342) , .pixel:nth-child(348) , .pixel:nth-child(351) , .pixel:nth-child(352) , .pixel:nth-child(362) , .pixel:nth-child(363) , .pixel:nth-child(366) , .pixel:nth-child(372) , .pixel:nth-child(373) , .pixel:nth-child(374) , .pixel:nth-child(386) , .pixel:nth-child(387) , .pixel:nth-child(388) {
   background: rgb(238 , 195 , 154);
 }
 
-.pixel:nth-child(328) , 
-.pixel:nth-child(330) , 
-.pixel:nth-child(340) , 
-.pixel:nth-child(349) , 
-.pixel:nth-child(350) , 
-.pixel:nth-child(353) , 
-.pixel:nth-child(364) , 
-.pixel:nth-child(365) , 
-.pixel:nth-child(443) , 
-.pixel:nth-child(455) , 
-.pixel:nth-child(458) {
+.pixel:nth-child(328) , .pixel:nth-child(330) , .pixel:nth-child(340) , .pixel:nth-child(349) , .pixel:nth-child(350) , .pixel:nth-child(353) , .pixel:nth-child(364) , .pixel:nth-child(365) , .pixel:nth-child(443) , .pixel:nth-child(455) , .pixel:nth-child(458) {
   background: rgb(102 , 57 , 49);
 }
 
-.pixel:nth-child(395) , 
-.pixel:nth-child(411) , 
-.pixel:nth-child(418) , 
-.pixel:nth-child(419) , 
-.pixel:nth-child(420) , 
-.pixel:nth-child(433) , 
-.pixel:nth-child(434) , 
-.pixel:nth-child(435) {
+.pixel:nth-child(395) , .pixel:nth-child(411) , .pixel:nth-child(418) , .pixel:nth-child(419) , .pixel:nth-child(420) , .pixel:nth-child(433) , .pixel:nth-child(434) , .pixel:nth-child(435) {
   background: rgb(65 , 65 , 255);
 }
 
-.pixel:nth-child(281) , 
-.pixel:nth-child(282) , 
-.pixel:nth-child(283) ,
-.pixel:nth-child(303) , 
-.pixel:nth-child(304) , 
-.pixel:nth-child(305) , 
-.pixel:nth-child(306) , 
-.pixel:nth-child(397) , 
-.pixel:nth-child(398) {
+.pixel:nth-child(281) , .pixel:nth-child(282) , .pixel:nth-child(283) , .pixel:nth-child(303) , .pixel:nth-child(304) , .pixel:nth-child(305) , .pixel:nth-child(306) , .pixel:nth-child(397) , .pixel:nth-child(398) {
   background: rgb(178 , 16 , 48);
 }
 
-.pixel:nth-child(293) ,
-.pixel:nth-child(294) , 
-.pixel:nth-child(295) , 
-.pixel:nth-child(317) , 
-.pixel:nth-child(318) , 
-.pixel:nth-child(319) ,
-.pixel:nth-child(409) , 
-.pixel:nth-child(320) {
+.pixel:nth-child(293) , .pixel:nth-child(294) , .pixel:nth-child(295) , .pixel:nth-child(317) , .pixel:nth-child(318) , .pixel:nth-child(319) , .pixel:nth-child(409) , .pixel:nth-child(320) {
   background: rgb(106 , 222 , 60);
 }
 
-.pixel:nth-child(396) ,
-.pixel:nth-child(410) {
+.pixel:nth-child(396) , .pixel:nth-child(410) {
   background: rgb(235 , 211 , 32);
 }
     
-.pixel:nth-child(394) ,
-.pixel:nth-child(412) {
+.pixel:nth-child(394) , .pixel:nth-child(412) {
   background: rgb(191 , 145 , 27);
 }
 
-.pixel:nth-child(316) , 
-.pixel:nth-child(408) {
+.pixel:nth-child(316) , .pixel:nth-child(408) {
   background: rgb(70 , 140 , 39);
 }
 
-.pixel:nth-child(338) , 
-.pixel:nth-child(361) , 
-.pixel:nth-child(440) {
+.pixel:nth-child(338) , .pixel:nth-child(361) , .pixel:nth-child(440) {
   background: rgb(77 , 36 , 36);
 }
 
-.pixel:nth-child(430) , 
-.pixel:nth-child(416) {
+.pixel:nth-child(430) , .pixel:nth-child(416) {
   background: rgb(196 , 196 , 196);
 }
 
-.pixel:nth-child(432) , 
-.pixel:nth-child(417) {
+.pixel:nth-child(432) , .pixel:nth-child(417) {
   background: rgb(37 , 68 , 194);
 }
 
