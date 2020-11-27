@@ -1,20 +1,21 @@
 body {
   background-color: rgb(253 , 251 , 251);
   margin: 0;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-   header {
+  header {
   background-color: black;
 }
 
-#cabecalho {
+  #cabecalho {
   width: 100%;
   height: 80px;
   position: fixed;
   top: 0;
 }
 
-#titulo {
+  #titulo {
   font-size: 40px;
   font-family: monospace;
   background-color: black;
@@ -25,36 +26,21 @@ body {
   background-color: rgb(253 , 251 , 251);
   margin-top: 100px;
   font-family: monospace;
+  margin-right: 5%;
 }
 
-  aside {
-  float: right;
-  width: 30%;
-  margin-right: 80px;
-}
-
-  .side {
+ .side {
   float: right;
 }
 
   #minha_foto {
-  float: left;
-  width: 60%;
-  border: 4px double;
+  width: 100%;
+  border: 4px solid;
   border-radius: 9px;
 }
 
   #textside {
   float: right;
-}
-#title_sobre_meu_aprendizado {
-  color: rgb(62 , 76 , 97);
-}
-
-#sobre_meu_aprendizado {
-  color: rgb(175 , 212 , 237);
-  font-size: 10px;
-  font-style: italic;
 }
 
   section {
@@ -66,20 +52,38 @@ body {
   #licoes_aprendidas {  
   float: left;
   width: 43%;
+  line-height:15px
 }
 
   #licoes_a_aprender {
   float: right;
   width: 43%;
+  color: rgb(62 , 76 , 97);
+  line-height:15px
 }
 
-  #artigo {
+  aside {
+  float: right;
+ 
+}
+
+  #title_sobre_meu_aprendizado {
+  color: rgb(62 , 76 , 97);
+}
+
+  #sobre_meu_aprendizado {
+  color: rgb(175 , 212 , 237);
+  font-size: 13px;
+  font-style: italic;
+}
+
+  .lado-esquerdo {
   width: 49%;  
   float: right;
   font-size: 15px;
 }
 
-  #artigo2 {
+  .lado-direito {
   width: 50%;
   float: left;
   font-size: 15px;
@@ -91,7 +95,7 @@ body {
 }
 
  #titletable {
-  padding-top: 545px;
+  padding-top: 490px;
 }
 
   footer {
