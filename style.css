@@ -1,7 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
   margin: 0;
-  font-family: 'Courier New', Courier, monospace;
 }
 
   header {
@@ -31,16 +30,23 @@ body {
 
  .side {
   float: right;
+  width: 30%;
+  height:;
 }
 
   #minha_foto {
-  width: 100%;
+  width: 60%;
   border: 4px solid;
   border-radius: 9px;
+  float: right;
 }
 
   #textside {
   float: right;
+  width: 60%;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
   section {
@@ -58,20 +64,14 @@ body {
   #licoes_a_aprender {
   float: right;
   width: 43%;
-  color: rgb(62 , 76 , 97);
   line-height:15px
 }
 
-  aside {
-  float: right;
- 
-}
-
-  #title_sobre_meu_aprendizado {
+  .title_sobre_meu_aprendizado {
   color: rgb(62 , 76 , 97);
 }
 
-  #sobre_meu_aprendizado {
+  .sobre_meu_aprendizado {
   color: rgb(175 , 212 , 237);
   font-size: 13px;
   font-style: italic;
