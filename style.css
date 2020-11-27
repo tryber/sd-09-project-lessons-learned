@@ -8,11 +8,12 @@ border: inset 1em rgb(79, 121, 121);
 text-align: center;
 padding: 3em;
 margin-bottom: 10px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular';
+font-family: fantasy;
 }
 
 #cabecalho {
-margin-top: 0;
+margin-top: 0px;
+font-family: cursive;
 }
 
 img {
