@@ -47,7 +47,7 @@ table {
   border-spacing: 0;
 }
 
-/* 
+/*
 
 Fim do trecho para o "Zerar" o CSS defalt.
 
@@ -80,7 +80,7 @@ nav {
   margin-top: 50px;
 }
 
-nav li{
+nav li {
   display: inline-block;
   height: 90px;
   background-color: palegreen;
@@ -100,16 +100,16 @@ nav a {
   float: left;
 }
 
-#modulos table, th, td{
+#modulos table, th, td {
   border: 1px solid black;
   text-align: center;
 }
 
-#modulos table{
+#modulos table {
   margin: 20px auto;
 }
 
-#modulos th, td{
+#modulos th, td {
   padding: 20px;
 }
 
@@ -132,7 +132,7 @@ section h2 {
   margin: 0 20px;
 }
 
-aside , article{
+aside , article {
   width: 40%;
 }
 
@@ -143,13 +143,13 @@ aside , article{
   line-height: 100px;
 }
 
-#rodape p{
+#rodape p {
   color: white;
   display: inline-block;
   margin-left: 50px;
 }
 
-#rodape a{
+#rodape a {
   color: white;
   float: right;
   margin-right: 50px;
