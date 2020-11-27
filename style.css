@@ -6,7 +6,7 @@
 body {
   background-color: rgb(253 , 251 , 251);
   margin: 0 auto;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   text-align: center;
   color: rgba(0 , 0 , 0 , 0.85);
 }
@@ -59,8 +59,9 @@ li {
 }
 
 main {
-  margin: 50px 30px 10px;
+  margin: 50px auto 10px;
   padding: 20px;
+  width: 70%;
 }
 
 .lista-conteudo {
@@ -87,9 +88,9 @@ img {
 }
 
 footer {
-  background-color: rgb(51 , 79 , 84); 
   color: rgb(253 , 251 , 251);
   text-align: center;
+  background-color: rgb(51 , 79 , 84);
 }
 
 .lado-esquerdo {
