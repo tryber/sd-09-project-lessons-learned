@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: Sarabun, sans-serif;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
@@ -18,7 +19,11 @@ body {
   color: white;
   display: block;
   float: left;
-  margin: 30px 0 0 50px;
+  font-size: 30px;
+  font-weight: 500;
+  height: 92px;
+  line-height: 92px;
+  margin: 0 0 0 50px;
   padding: 0;
   text-shadow: 3px 3px 5px rgb(14 , 58 , 59);
 }
@@ -32,8 +37,10 @@ body {
   background-color: rgb(49 , 99 , 89);
   color: white;
   display: inline-block;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   height: 40px;
+  letter-spacing: 1px;
   line-height: 40px;
   margin-left: 20px;
   margin-right: 20px;
@@ -52,8 +59,10 @@ body {
   border-bottom: 20px solid white;
   color: rgb(24 , 135 , 131);
   display: inline-block;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   height: 40px;
+  letter-spacing: 1px;
   line-height: 40px;
   margin-left: 20px;
   margin-right: 20px;
@@ -75,6 +84,8 @@ body {
 
 #easterEgg {
   color: rgb(49 , 99 , 89);
+  font-size: 14px;
+  font-weight: 200;
   height: 60px;
   line-height: 60px;
   margin: 0 50px;
@@ -93,10 +104,7 @@ body {
 #lessonsLearned {
   background-color: rgb(14 , 58 , 59);
   display: block;
-  margin-bottom: 50px;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  margin-top: 50px;
+  margin: 50px 20vw 50px;
   padding-bottom: 50px;
 }
 
@@ -104,18 +112,18 @@ body {
   background-color: white;
   color: rgb(14 , 58 , 59);
   display: block;
+  font-size: 24px;
+  font-weight: 400px;
   height: 40px;
   line-height: 40px;
-  margin: 0 0 50px 0;
+  margin: 0;
   padding-left: 40px;
 }
 
 #minha_foto {
   float: left;
   height: 250px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 50px 50px 20px;
   width: 250px;
 }
 
@@ -125,5 +133,30 @@ body {
 
 #table {
   color: white;
-  width: 350px;
+  font-size: 16px;
+  width: 320px;
+}
+
+#aprendizado {
+  background-color: rgb(14 , 58 , 59);
+  display: block;
+  float: left;
+  margin: 0 25px 50px 20vw;
+  padding: 0;
+  width: calc(30vw - 25px);
+}
+
+#passagem {
+  background-color: rgb(14 , 58 , 59);
+  display: block;
+  float: right;
+  margin: 0 20vw 50px 25px;
+  padding: 0;
+  width: calc(30vw - 25px);
+}
+
+p {
+  color: white;
+  margin: 0;
+  padding: 25px 50px;
 }
