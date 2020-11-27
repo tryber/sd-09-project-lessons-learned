@@ -1,15 +1,17 @@
 body {
-  background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253 , 251 , 251); /* voltar para rgb(253 , 251 , 251) */
   margin: 0;
+  overflow-x: hidden;
+  padding: 0;
 }
 
 #cabecalho {
   background-color: rgb(24 , 135 , 131);
-  border-bottom: 8px solid white;
+  border-bottom: 4px solid white;
   padding: 0;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 #titulo {
@@ -35,10 +37,10 @@ body {
   line-height: 40px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 30px;
+  margin-top: 32px;
   text-align: center;
   text-decoration: none;
-  width: 150px;
+  width: 200px;
 }
 
 .botao:hover {
@@ -47,7 +49,7 @@ body {
 
 .botaoAtivo {
   background-color: white;
-  border-bottom: 22px solid white;
+  border-bottom: 20px solid white;
   color: rgb(24 , 135 , 131);
   display: inline-block;
   font-weight: 600;
@@ -55,8 +57,74 @@ body {
   line-height: 40px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 30px;
+  margin-top: 32px;
   text-align: center;
   text-decoration: none;
-  width: 150px;
+  width: 200px;
+}
+
+#rodape {
+  background-color: rgb(49 , 99 , 89);
+  border-top: 4px solid white;
+  bottom: 0;
+  height: 60px;
+  padding: 0; 
+  position: relative; /* Atenção! Não esquecer de remover! */
+  width: 100vw;
+}
+
+#easterEgg {
+  color: rgb(49 , 99 , 89);
+  height: 60px;
+  line-height: 60px;
+  margin: 0 50px;
+  text-align: right;
+}
+
+#content {
+  background-color: rgb(24 , 135 , 131);
+  display: block;
+  min-height: calc(100vh - 160px);
+  overflow: auto;
+  padding-top: 96px;
+  width: 100vw;
+}
+
+#lessonsLearned {
+  background-color: rgb(14 , 58 , 59);
+  display: block;
+  margin-bottom: 50px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sectionTitles {
+  background-color: white;
+  color: rgb(14 , 58 , 59);
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding-left: 40px;
+}
+
+#minha_foto {
+  float: left;
+  height: 250px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  width: 250px;
+}
+
+#divTable {
+  margin-top: 50px;
+}
+
+#table {
+  color: white;
+  width: 350px;
 }
