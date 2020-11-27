@@ -28,7 +28,7 @@ body {
     font-family: "Nerko One";
     font-size: xx-large;
     position: fixed;
-    right: 100px;
+    right: 50px;
     top: 35px;
     padding: 20px;
 }
@@ -36,6 +36,7 @@ body {
 #nav li {
     display: inline;
     width: 10%;
+    padding: 5px;
 }
 
 a:link {
@@ -98,12 +99,18 @@ h3 {
 #info {
     float: left;
     padding-right: 800px;
+    font-weight: 200;
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 30px;
 }
 
 #transicao {
     float: right;
     padding-left: 600px;
     margin-top: -190px;
+    font-style: italic;
+    padding-right: 100px;
 }
 
 #rodape {
