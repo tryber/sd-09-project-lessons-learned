@@ -1,5 +1,5 @@
 a {
-  color: rgb(255 , 255 , 255);
+  color: white;
   font-weight: 600;
 }
 
@@ -40,7 +40,7 @@ aside {
 body {
   background-attachment: fixed;
   background-color: rgb(253 , 251 , 251);
-  background-image: url(https://wallpapercave.com/wp/wp2848515.jpg);
+  background-image: url("https://wallpapercave.com/wp/wp2848515.jpg");
   background-size: cover;
   font-family: sans-serif;
   margin-top: 0;
@@ -91,7 +91,7 @@ tr {
 #cabecalho {
   background-color: rgb(0 , 152 , 255);
   background-image: linear-gradient(to right , rgb(0 , 152 , 255) , black);
-  box-shadow: 0 0 10px rgb(255 , 255 , 255);
+  box-shadow: 0 0 10px white;
   left: 0;
   opacity: 0.95;
   position: fixed;
@@ -129,9 +129,9 @@ tr {
 }
 
 #minha_foto {
-  border: 4px solid rgb(22, 104, 158);
+  border: 4px solid rgb(22 , 104 , 158);
   border-radius: 30px;
-  box-shadow: 0 0 15px rgb(255 , 255 , 255);
+  box-shadow: 0 0 15px white;
   display: inline-block;
   position: fixed;
   right: 50px;
@@ -150,7 +150,7 @@ tr {
 
 #rodape {
   background-image: linear-gradient(to right , rgb(0 , 152 , 255) , black);
-  box-shadow: 0 0 10px rgb(255 , 255 , 255);
+  box-shadow: 0 0 10px white;
   color: aliceblue;
   font-size: 12px;
   font-weight: 100;
@@ -174,7 +174,7 @@ tr {
   width: 240px;
 }
 
-#titulo {
+header #titulo {
   text-align: center;
 }
 
@@ -209,6 +209,6 @@ tr {
   background-color: rgb(14 , 163 , 106);
   border: 1px solid rgb(5 , 32 , 63);
   border-radius: 7px;
-  box-shadow: 0 0 5px rgb(255, 255, 255);
+  box-shadow: 0 0 5px white;
   padding: 6px;
 }
