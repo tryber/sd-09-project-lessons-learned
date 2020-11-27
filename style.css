@@ -105,6 +105,19 @@ nav a {
   float: left;
 }
 
+#modulos table, th, td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+#modulos table{
+  margin: 20px auto;
+}
+
+#modulos th, td{
+  padding: 20px;
+}
+
 .aprendizado_box {
   background-color: palegreen;
   float: left;
