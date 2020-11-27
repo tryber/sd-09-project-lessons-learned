@@ -28,15 +28,15 @@ article{
     width: 350px;
     height: 200px;
     background-color:aquamarine;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50px;
 }
 p{
     margin-left:5px ;
 }
 #minha_foto{
     margin-top: 80px;
-    border-top-left-radius: 30px;
+    border-top-left-radius: 50px;
     border-bottom-left-radius:0px;
 }
 
