@@ -5,6 +5,8 @@ body {
 }
 
 #cabecalho {
+  margin: auto;
+  text-align: center;
   position: fixed;
   top: 0;
 }
@@ -16,6 +18,12 @@ body {
 .nav {
   display: inline;
   padding: 8px;
+}
+
+#minha_foto {
+  width: 300px;
+  border-radius: 15px;
+  border: 3px solid #24943A ;
 }
 
 /*
