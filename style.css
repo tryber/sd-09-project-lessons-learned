@@ -74,7 +74,7 @@ body {
   line-height: 35px;
 }
 
-#textrodape{
+#textrodape {
   padding-top: 15px;
   font-style: italic;
   color: antiquewhite;
@@ -84,4 +84,16 @@ body {
 li {
   margin-top: 5px ;
   margin-left: 15px;
+}
+
+#tabela {
+  border: 2px solid black;
+  border-spacing: 0;
+  margin-left: 20%;
+  line-height: 35px;
+  padding: 2px;
+}
+
+td {
+  border: 2px solid black;
 }
