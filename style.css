@@ -105,6 +105,12 @@
                     font-style: italic;
                     font-weight: 500;
                     margin-left: 30px;
+                    display: inline;
+                }
+                
+                #info1 {
+                    display: inline;
+                    position: fixed;
                 }
                 
                 #transicao {
@@ -114,6 +120,7 @@
                     font-style: italic;
                     padding-right: 100px;
                     color: rgb(92, 114, 92);
+                    display: inline;
                 }
                 
                 #rodape {
