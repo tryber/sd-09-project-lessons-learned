@@ -77,6 +77,7 @@ a:active {
     display: inline;
     padding: 2%;
     margin-left: 80px;
+    line-height: 25px;
 }
 
 #lista2 {
@@ -85,6 +86,7 @@ a:active {
     size: 40px;
     font-size: large;
     display: inline;
+    line-height: 25px;
 }
 
 h2,
