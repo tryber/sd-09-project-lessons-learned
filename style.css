@@ -31,3 +31,17 @@ body {
   width: 10%;
   height: 10%;
 }
+#center {
+  text-align: center;
+}
+#article {
+  background-color: rgb(235, 14, 51);
+  width: 40%;
+}
+#aside {
+  background-color: rgb(89 , 238 , 43);
+  width: 40%;
+  position: absolute;
+  right: 100px;
+  top: 950px;
+}
