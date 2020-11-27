@@ -47,9 +47,20 @@ table {
 	border-spacing: 0;
 }
 
+/* 
+
+Fim do trecho para o "Zerar" o CSS defalt.
+
+*/
+
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: 'PT Serif', serif;
+  color: #363946;
+  font-size: 18px;
+  line-height: 1.2em;
 }
+
 
 
 #cabeçalho {
