@@ -49,14 +49,17 @@ nav a {
   width: 100%;
   margin-top: 50px;
   padding: 10px;
+  border: 1px solid rgb(4 , 211 , 97);
+  border-radius: 10px 10px 0 0;
 }
 
 table {
   color: black;
   background-color: rgb(241 , 241 , 245);
+  border-bottom: 30px solid wheat;
 }
 
-table, th, td {
+table , th , td {
   width: 100%;
   border: 1px solid rgb(4 , 211 , 97);
   border-collapse: collapse;
@@ -152,13 +155,12 @@ main {
 }
 
 .lado-direito h2 {
-  padding-bottom: 20px;
+  padding: 10px;
   background-color: rgb(29 , 29 , 33);
   color: white;
-  padding: 10px;
   text-align: center;
   font-weight: 400;
-  border-radius: 10px 10px 0 0;  
+  border-radius: 10px 10px 0 0;
 }
 
 .lado-direito p {
@@ -187,11 +189,10 @@ main {
 }
 
 #licoes_aprendidas h2 {
-  padding-bottom: 20px;
+  padding: 10px;
   background-color: rgb(4 , 211 , 97);
   color: white;
   font-weight: 400;
-  padding: 10px;
   text-align: center;
   border-radius: 10px 10px 0 0;
 }
@@ -206,6 +207,13 @@ main {
   border-right: 1px solid rgb(4 , 211 , 97);
 
 }
+
+#licoes_a_aprender {
+  width: 300px;
+  border-bottom: 20px solid rgb(130 , 87 , 229);
+  border-radius: 0 0 10px 10px;
+}
+
 #licoes_aprendidas li:hover {
   background-color: white;
   color: rgb(4 , 211 , 97);
@@ -215,18 +223,11 @@ main {
   color: rgb(29 , 29 , 33);
 }
 
-#licoes_a_aprender {
-  width: 300px;
-  border-bottom: 20px solid rgb(130 , 87 , 229);
-  border-radius: 0 0 10px 10px;
-}
-
 #licoes_a_aprender h2 {
-  padding-bottom: 20px;
+  padding: 10px;
   background-color: rgb(130 , 87 , 229);
   color: white;
   font-weight: 400;
-  padding: 10px;
   text-align: center;
   border-radius: 10px 10px 0 0;
 }
