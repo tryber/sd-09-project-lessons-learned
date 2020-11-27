@@ -26,3 +26,8 @@ body {
 .link {
   text-align: center;
 }
+#articlei {
+  background-color: rgb(235, 14, 51);
+  width: 10%;
+  height: 10%;
+}
