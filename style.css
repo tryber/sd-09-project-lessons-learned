@@ -1,7 +1,8 @@
 * {
   margin: 0;
 }
-#cabecalho{
+
+#cabecalho {
   position: fixed;
   top: 0;
   right: auto;
@@ -9,47 +10,66 @@
   width: 100%;
   z-index: 2;
 }
+
 #titulo {
   text-align: center;
-  background-color: rgb(42, 103, 131);
+  background-color: rgb(42 , 103 , 131);
 }
-#meu-nome{
+
+#meu-nome {
   text-align: center;
-  background-color: rgb(42, 103, 131);
+  background-color: rgb(42 , 103 , 131);
   position: relative;
   top: -140px;
   padding: 8px;
   font-family: cursive;
   font-size: 1.2em;
 }
-img{
+
+img {
   clip-path: circle(34% at 50% 50%);
   position: relative;
-  top: -70px;  
+  top: -70px;
 }
-img.minha_foto {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+
+.minha_foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-header{
+
+header {
   height: 250px;
-  background-color: rgb(9, 65, 65);
+  background-color: rgb(9 , 65 , 65);
 }
+
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   position: relative;
   top: 260px;
 }
+
 .subtitle {
   margin-bottom: 10px;
-  background-color: rgb(230, 230,230)
+  background-color: rgb(230 , 230 , 230);
 }
+
 .lists {
   margin: 15px;
   display: inline-block;
 }
-aside {
+
+aside.Esquerda {
+  width: 20%;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 480px;
+  right: 30px;
+  z-index: 1;
+}
+
+aside.Direita {
   width: 35%;
   display: inline-block;
   position: relative;
@@ -58,41 +78,48 @@ aside {
   right: 15px;
   z-index: 1;
 }
+
 .lado-esquerdo {
   text-align: justify;
+  padding: 5px;
+  border: 2px dotted rgb(161 , 161 , 161);
 }
-.lado-direito{
+
+.lado-direito {
   text-align: justify;
   padding: 5px;
-  border: 2px dotted rgb(161, 161, 161);
+  border: 2px dotted rgb(161 , 161 , 161);
 }
-#table {
-  width: 1325px;
-  text-align: center; 
-  margin-top: 15px;
-  margin-left: 15px;
-  display: inline-block;
-  border: 2px solid rgb(0, 0, 0);
-  border-collapse: collapse;
 
+#table {
+  width: 1330px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 18px;
+  display: inline-block;
+  border: 2px solid black;
+  border-collapse: collapse;
 }
+
 #id_table {
-  background-color: rgb(9, 65, 65);
+  background-color: rgb(9 , 65 , 65);
   color: white;
-  width: 1325px;
-  text-align: center; 
+  width: 1330px;
+  text-align: center;
   padding: 5px;
 }
-td{
+
+td {
   padding: 3px;
 }
-nav{
-  margin-left: 15px;
+
+nav {
+  margin-left: 20px;
 }
-footer{
+
+footer {
   position: relative;
-  bottom: 0px; 
-  top: 100px;
-  left: 15px;
+  top: 120px;
+  left: 20px;
   width: 80%;
 }
