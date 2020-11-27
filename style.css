@@ -57,6 +57,10 @@ li{
     background-color: cornflowerblue ;   
 }
 
+aside{
+    border: 1px red solid;
+}
+
 #rodape{
     background-color: crimson;
     text-align: center;
