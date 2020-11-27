@@ -19,17 +19,13 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
-}
-body {
-  line-height: 1;
 }
 ol, ul {
   list-style: none;
@@ -39,7 +35,6 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
   content: none;
 }
 table {
@@ -55,18 +50,16 @@ Fim do trecho para o "Zerar" o CSS defalt.
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'PT Serif', serif;
-  color: #363946;
+  font-family: "PT Serif", serif;
+  color:#363946;
   font-size: 18px;
   line-height: 1.2em;
 }
 
-
-
 #cabecalho {
   top: 0px;
   left: 0px;
-  background-color: #F2DCC2;
+  background-color:#f2dcc2;
   width: 100%;
   text-align: center;
   height: 50px;
@@ -138,7 +131,7 @@ aside , article {
 
 #rodape {
   width: 100%;
-  background-color: #023C40;
+  background-color:#023c40;
   color: white;
   line-height: 100px;
 }
