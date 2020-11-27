@@ -2,17 +2,35 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+#titulo {
+    display: inline-block;
+    position: fixed;
+    left: 50px;
+    top: 10px;
+    padding: 20px;
+}
+
 #cabecalho {
     position: fixed;
     top: 0;
     background-color: rgb(72, 164, 107);
     width: 100%;
+    height: 20%;
+}
+
+#logoTrybe {
+    position: fixed;
+    left: 40%;
 }
 
 #nav {
     display: inline;
     font-family: "Nerko One";
-    font-size: x-large;
+    font-size: xx-large;
+    position: fixed;
+    right: 100px;
+    top: 35px;
+    padding: 20px;
 }
 
 #nav li {
@@ -36,10 +54,6 @@ a:active {
     color: rgb(107, 112, 92);
 }
 
-#logoTrybe {
-    margin-right: 5%;
-}
-
 #titulo {
     font-family: "Shadows Into Light";
     padding: 15px;
@@ -47,48 +61,60 @@ a:active {
 
 #minha_foto {
     width: 300px;
-    margin-top: 15%;
+    margin-top: 10%;
     border: 10px rgb(48, 109, 96) solid;
     float: left;
 }
 
+#coluna {
+    padding: 10%;
+}
+
 #lista1 {
     float: left;
-    margin-top: 20%;
+    margin-top: 8%;
     display: inline;
     padding: 2%;
 }
 
 #lista2 {
     float: right;
-    margin-top: 23%;
-    padding-right: 35px;
-    size: 20px;
-    font-size: medium;
+    margin-top: 10%;
+    padding-right: 40px;
+    size: 40px;
+    font-size: large;
     display: inline;
-}
-
-#info {
-    padding-left: 80px;
-    padding-right: 80px;
-    float: left;
-}
-
-#transicao {
-    float: left;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-#rodape {
-    background-color: rgb(72, 164, 107);
-    width: 100%;
-    height: 200px;
-    float: left;
-    text-align: center;
 }
 
 h2,
 h3 {
     font-family: "Nerko One";
+}
+
+#textos {
+    display: inline-block;
+}
+
+#info {
+    float: left;
+    padding-right: 800px;
+}
+
+#transicao {
+    float: right;
+    padding-left: 600px;
+    margin-top: -190px;
+}
+
+#rodape {
+    background-color: rgb(72, 164, 107);
+    width: 100%;
+    bottom: 5px;
+    text-align: center;
+    float: left;
+    padding: 10px;
+}
+
+p {
+    font-family: "Nunito";
 }
