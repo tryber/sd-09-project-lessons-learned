@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
@@ -90,7 +90,7 @@ body {
 .lado-direito {
   border: 3px dashed green;
   background-color: greenyellow;
-  width: 45%;
+  width: 30%;
   display: inline-block;
 }
 
