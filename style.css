@@ -59,17 +59,16 @@ body {
   display: inline-block;
 }
 
-aside.Esquerda {
-  width: 20%;
+article {
+  width: 50%;
   display: inline-block;
   position: absolute;
-  top: 8px;
-  left: 480px;
-  right: 30px;
+  top: -230px;
+  right: 1080px;
   z-index: 1;
 }
 
-aside.Direita {
+aside {
   width: 35%;
   display: inline-block;
   position: relative;
