@@ -131,6 +131,11 @@ section h2 {
 
 aside , article {
   width: 40%;
+  display: inline-block;
+}
+
+article {
+  margin-left: 50px;
 }
 
 #rodape {
