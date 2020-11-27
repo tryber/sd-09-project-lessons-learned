@@ -11,7 +11,7 @@ body {
 
 header {
   background-color: rgb(253 , 251 , 251);
-  grid-area: h;  
+  grid-area: h;
   position: sticky;
   top: 0;
   width: 100%;
@@ -40,13 +40,51 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: rgb(4 , 211 , 97);
+  color: rgb(130 , 87 , 229);
   font-size: 48px;
   transition: 300ms;
 }
 
+#title-table {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+table {
+  color: black;
+  background-color: rgb(241 , 241 , 245);
+}
+
+table, th, td {
+  width: 100%;
+  border: 1px solid rgb(4 , 211 , 97);
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+footer {
+  grid-area: f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(253 , 251 , 251);
+  font-size: 20px;
+  padding: 10px;
+  transition: 300ms;
+}
+
+footer a:hover {
+  color: rgb(4 , 211 , 97);
+}
+
 nav a:hover {
-  color: rgb(130 , 87 , 229);
+  color: rgb(4 , 211 , 97);
 }
 
 main {
@@ -59,7 +97,7 @@ main {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  background: rgb(130 , 87 , 229);
+  background: rgb(29 , 29 , 33);
   border-radius: 0 30px 30px 0;
   padding: 30px;
 }
@@ -91,26 +129,6 @@ main {
   border: 3px solid rgb(4 , 211 , 97);
 }
 
-footer {
-  grid-area: f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-footer a {
-  text-decoration: none;
-  color: rgb(253 , 251 , 251);
-  font-size: 20px;
-  padding: 10px;
-  transition: 300ms;
-}
-
-footer a:hover {
-  color: rgb(4 , 211 , 97);
-}
-
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -140,7 +158,7 @@ footer a:hover {
   padding: 10px;
   text-align: center;
   font-weight: 400;
-  border-radius: 10px 10px 0px 0px;  
+  border-radius: 10px 10px 0 0;  
 }
 
 .lado-direito p {
@@ -175,7 +193,7 @@ footer a:hover {
   font-weight: 400;
   padding: 10px;
   text-align: center;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0 0;
 }
 
 #licoes_aprendidas li {
@@ -189,7 +207,7 @@ footer a:hover {
 
 }
 #licoes_aprendidas li:hover {
-  background-color:white;
+  background-color: white;
   color: rgb(4 , 211 , 97);
 }
 
@@ -210,7 +228,7 @@ footer a:hover {
   font-weight: 400;
   padding: 10px;
   text-align: center;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0 0;
 }
 
 #licoes_a_aprender li {
@@ -224,6 +242,6 @@ footer a:hover {
 }
 
 #licoes_a_aprender li:hover {
-  background-color:white;
+  background-color: white;
   color: rgb(130 , 87 , 229);
 }
