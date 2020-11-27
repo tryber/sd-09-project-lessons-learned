@@ -3,7 +3,12 @@
   color: green;
 }
 
+body {
+    font-family: "Parisienne", sans-serif;
+}
+
 #cabecalho {
+  top: 0;
   margin: 0;
   position: fixed;
 }
