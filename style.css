@@ -82,7 +82,7 @@ body {
 .lado-esquerdo {
   background-color: greenyellow;
   border: 3px dashed green;
-  width: 35%;
+  width: 20%;
   display: inline-block;
   margin-right: 3em;
 }
@@ -90,7 +90,7 @@ body {
 .lado-direito {
   border: 3px dashed green;
   background-color: greenyellow;
-  width: 30%;
+  width: 15%;
   display: inline-block;
 }
 
