@@ -1,121 +1,121 @@
 * {
-    margin: 0px;
+    margin: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251); 
 }
 
 #cabecalho {
-    background-color: green;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    height: 100px;
+  background-color: green;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
 }
 
 #cabecalho #titulo {
-    text-align: center;
-    color: white;
-    margin-top: 1em;
-    font-family: monospace;
-    font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 1em;
+  font-family: monospace;
+  font-size: 30px;
 }
 
 #navegador {
-    margin-top: 5px;
-    text-align: center;
+  margin-top: 5px;
+  text-align: center;
 }
 
 #navegador li {
-    display: inline;
+  display: inline;
 }
 
 #navegador li a {
-    text-decoration: none;
-    margin-right: 10px;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
 .fotos {
-    margin-top: 101px;
-    text-align: center;
+  margin-top: 101px;
+  text-align: center;
 }
 
 #minha_foto {
-    width: 300px;
-    border-radius: 5%;
+  width: 300px;
+  border-radius: 5%;
 }
 
 #section_list {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 #listas {
-    text-align: center;
-    display: inline-block;
-    margin-top: 15px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 15px;
 }
 
 #licoes_aprendidas {
-    float: left;
-    margin-right: 6em;
+  float: left;
+  margin-right: 6em;
 }
 
 #licoes_a_aprender {
-    float: right;
+  float: right;
 }
 
 #section_article {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-top: solid gray;
-    border-bottom: solid gray;
-    text-align: center;
-    width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: solid gray;
+  border-bottom: solid gray;
+  text-align: center;
+  width: 100%;
 }
 
 #section_article h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .lado-esquerdo {
-    background-color: greenyellow;
-    border: 3px dashed green;
-    width: 45%;
-    display: inline-block;
-    margin-right: 3em;
+  background-color: greenyellow;
+  border: 3px dashed green;
+  width: 35%;
+  display: inline-block;
+  margin-right: 3em;
 }
 
 .lado-direito {
-    border: 3px dashed green;
-    background-color: greenyellow;
-    width: 49.99%;
-    display: inline-block;
+  border: 3px dashed green;
+  background-color: greenyellow;
+  width: 45%;
+  display: inline-block;
 }
 
 aside {
-    float: right;
-    width: 200px;
-    border: 1px dashed gray;
-    margin: 5px;
+  float: right;
+  width: 200px;
+  border: 1px dashed gray;
+  margin: 5px;
 }
 
 aside h4 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #table {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 footer {
-    display: block;
-    background-color: green;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    height: 60px;
-    line-height: 30px;
-    padding-left: 20px;
+  display: block;
+  background-color: green;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 30px;
+  padding-left: 20px;
 }
