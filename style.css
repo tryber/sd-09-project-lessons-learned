@@ -1,11 +1,25 @@
 body {
-    background-color: rgb(253 , 251 , 251);
+    background-color: rgb(253, 251, 251);
+}
+
+header {
+    background-color: rgb(79, 121, 121);
+    border: inset 1em rgb(79, 121, 121);
+    text-align: center;
+    padding: 3em;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #cabecalho {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 img {
     width: 300px;
+}
+
+.borders-tables {
+    text-align: justify;
+    width: auto;
 }
