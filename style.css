@@ -1,54 +1,214 @@
 a {
-  color: darkcyan;
+  color: rgb(255 , 255 , 255);
+  font-weight: 600;
+}
+
+article {
+  background-color: rgb(253 , 251 , 251);
+  border: 3px solid rgb(0 , 152 , 255);
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgb(50 , 100 , 200);
+  display: inline-block;
+  left: 30px;
+  opacity: 0.8;
+  padding: 0 8px;
+  position: relative;
+  text-align: justify;
+  text-indent: 30px;
+  top: 400px;
+  width: 1000px;
+  z-index: 2;
+}
+
+aside {
+  background-color: rgb(253 , 251 , 251);
+  border: 3px solid rgb(0 , 152 , 255);
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgb(50 , 100 , 200);
+  height: 280px;
+  left: 60px;
+  opacity: 0.8;
+  padding: 0 8px;
+  position: absolute;
+  text-align: justify;
+  text-indent: 30px;
+  top: 80px;
+  width: 250px;
+  z-index: 3;
 }
 
 body {
-  background-color: #FDFBFB;
+  background-attachment: fixed;
+  background-color: rgb(253 , 251 , 251);
+  background-image: url(https://wallpapercave.com/wp/wp2848515.jpg);
+  background-size: cover;
+  font-family: sans-serif;
   margin-top: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-height: 768px;
+  max-width: 1366px;
 }
 
 em {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h1 {
-  color: aquamarine;
+  color: rgb(253 , 251 , 251);
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  border-bottom: 1px solid rgb(0 , 152 , 255);
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+header #titulo {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+td {
+  align-items: center;
+  border-bottom: 1px solid rgb(0 , 152 , 255);
+  text-align: center;
+}
+
+th {
+  border-bottom: 3px solid rgb(0 , 152 , 255);
+  font-size: 18px;
+}
+
+tr {
+  align-items: center;
+  line-height: 50px;
 }
 
 #cabecalho {
-  margin-top: 0;
+  background-color: rgb(0 , 152 , 255);
+  background-image: linear-gradient(to right , rgb(0 , 152 , 255) , black);
+  box-shadow: 0 0 10px rgb(255 , 255 , 255);
+  left: 0;
+  opacity: 0.95;
   position: fixed;
-  background-color: darkcyan;
-  width: 100%;
+  top: 0;
+  width: 1366px;
+  z-index: 5;
+}
+
+#cleber {
+  display: none;
+}
+
+#licoes_a_aprender {
+  padding-right: 10px;
+}
+
+#licoes_aprendidas {
+  padding-right: 10px;
 }
 
 #linkedin {
+  display: inline;
+  margin: 0;
+  vertical-align: -15px;
   width: 40px;
 }
 
-#minha_foto {
-  margin-top: 130px;
+#lista1 {
+  left: 415px;
 }
 
-#navegacao {
-  color: darkcyan;
-  font-size: 20px;
-  background-color: aquamarine;
-  padding-bottom: 5px 0;
+#lista2 {
+  left: 725px;
 
-  position: absolute;
-  width: 100%;
-  list-style-type: none;
-  text-decoration: none;
+}
+
+#minha_foto {
+  border: 4px solid rgb(22, 104, 158);
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgb(255 , 255 , 255);
+  display: inline-block;
+  position: fixed;
+  right: 50px;
+  top: 25px;
+  width: 200px;
+  z-index: 6;
 }
 
 #navegacao li {
-  display: inline;
+  display: inline-block;
+  left: 700px;
+  position: absolute;
+  top: 200px;
+  width: 200px;
 }
 
 #rodape {
-  background-color: darkcyan;
-  padding: 6px;
+  background-image: linear-gradient(to right , rgb(0 , 152 , 255) , black);
+  box-shadow: 0 0 10px rgb(255 , 255 , 255);
   color: aliceblue;
+  font-size: 12px;
+  font-weight: 100;
+  left: 0;
+  opacity: 0.95;
+  padding: 6px 0;
+  position: absolute;
+  text-align: center;
+  top: 600px;
+  width: 1366px;
+  z-index: 1;
+}
+
+#tabela {
+  color: rgb(253 , 251 , 251);
+  display: inline-table;
+  margin-top: 5%;
+  position: fixed;
+  right: 30px;
+  top: 190px;
+  width: 240px;
+}
+
+#titulo {
+  text-align: center;
+}
+
+#titulo_tab {
+  border-bottom: none;
+  line-height: 5px;
+}
+
+.celula1 {
+  text-align: right;
+  width: 50px;
+}
+
+.celula2 {
+  width: 160px;
+}
+
+.lista {
+  background-color: rgb(253 , 251 , 251);
+  border: 3px solid rgb(0 , 152 , 255);
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgb(50 , 100 , 200);
+  height: 280px;
+  opacity: 0.8;
+  padding: 0 8px;
+  position: absolute;
+  top: 80px;
+  z-index: 4;
+}
+
+.trybe {
+  background-color: rgb(14 , 163 , 106);
+  border: 1px solid rgb(5 , 32 , 63);
+  border-radius: 7px;
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+  padding: 6px;
 }
