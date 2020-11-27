@@ -94,13 +94,6 @@ body {
   display: inline-block;
 }
 
-aside {
-  float: right;
-  width: 200px;
-  border: 1px dashed gray;
-  margin: 5px;
-}
-
 aside h4 {
   text-decoration: underline;
 }
