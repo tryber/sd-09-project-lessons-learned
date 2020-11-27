@@ -51,7 +51,7 @@ Fim do trecho para o "Zerar" o CSS defalt.
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: "PT Serif", serif;
-  color:#363946;
+  color: #363946;
   font-size: 18px;
   line-height: 1.2em;
 }
@@ -59,12 +59,16 @@ body {
 #cabecalho {
   top: 0px;
   left: 0px;
-  background-color:#f2dcc2;
+  background-color: #f2dcc2;
   width: 100%;
   text-align: center;
   height: 50px;
   line-height: 50px;
   position: fixed;
+}
+
+#cabecalho h1 {
+  margin: 0px;
 }
 
 nav {
@@ -131,7 +135,7 @@ aside , article {
 
 #rodape {
   width: 100%;
-  background-color:#023c40;
+  background-color: #023c40;
   color: white;
   line-height: 100px;
 }
