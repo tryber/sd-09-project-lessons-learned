@@ -13,6 +13,7 @@ body {
   text-align: center;
   position: fixed;
   width: 100%;
+  color: antiquewhite;
 }
 
 #minha_foto {
@@ -70,11 +71,14 @@ body {
 .caixas {
   display: inline-block;
   padding-top: 15px;
+  line-height: 35px;
 }
 
 #textrodape{
   padding-top: 15px;
   font-style: italic;
+  color: antiquewhite;
+  font-style: 600px;
 }
 
 li {
