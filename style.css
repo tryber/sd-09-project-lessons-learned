@@ -214,6 +214,16 @@ main {
   border-radius: 0 0 10px 10px;
 }
 
+#licoes_a_aprender li {
+  text-align: center;
+  list-style: none;
+  padding: 10px 20px;
+  background-color: rgb(241 , 241 , 245);
+  border-top: 1px solid rgb(130 , 87 , 229);
+  border-left: 1px solid rgb(130 , 87 , 229);
+  border-right: 1px solid rgb(130 , 87 , 229);
+}
+
 #licoes_aprendidas li:hover {
   background-color: white;
   color: rgb(4 , 211 , 97);
@@ -230,16 +240,6 @@ main {
   font-weight: 400;
   text-align: center;
   border-radius: 10px 10px 0 0;
-}
-
-#licoes_a_aprender li {
-  text-align: center;
-  list-style: none;
-  padding: 10px 20px;
-  background-color: rgb(241 , 241 , 245);
-  border-top: 1px solid rgb(130 , 87 , 229);
-  border-left: 1px solid rgb(130 , 87 , 229);
-  border-right: 1px solid rgb(130 , 87 , 229);
 }
 
 #licoes_a_aprender li:hover {
