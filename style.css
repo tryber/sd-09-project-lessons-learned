@@ -6,6 +6,8 @@ body {
 }
 
 #cabecalho {
+  background-color: white;
+  width: 100%;
   margin: auto;
   text-align: center;
   position: fixed;
@@ -13,6 +15,8 @@ body {
 }
 
 #texto {
+  margin-top: 20px;
+  background-color: teal;
   text-align: justify;
 }
 
@@ -22,67 +26,42 @@ body {
 }
 
 #minha_foto {
-  width: 300px;
+  top:40px;
+  left: 40%;
+  position: relative;
+  width: 100px;
   border-radius: 15px;
   border: 3px solid #0FA36B;
 }
 
-/*
------> CSS da tabela.
-*/
-table.greenTable {
-  font-family: Georgia, serif;
-  border: 6px solid #0FA36B;
-  background-color: #d4eed1;
-  width: 100%;
-  text-align: center;
-}
-
-table.greenTable td,
-table.greenTable th {
+.tabela{
+  border-radius: 10px;
   border: 1px solid #0FA36B;
-  padding: 3px 2px;
+  background-color: white;
 }
 
-table.greenTable tbody td {
-  font-size: 13px;
+th {
+  background-color: #0FA36B;
+  border-radius: 10px;
+}
+td {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #a1eace;
 }
 
-table.greenTable thead {
-  background: #0FA36B;
-  background: -moz-linear-gradient(top, #40c994 0%, #0FA36B 66%, #0FA36B 100%);
-  background: -webkit-linear-gradient(top, #40c994 0%, #0FA36B 66%, #0FA36B 100%);
-  background: linear-gradient(to bottom, #40c994 0%, #0FA36B 66%, #0FA36B 100%);
-  border-bottom: 0px solid #444;
-}
-
-table.greenTable thead th {
-  font-size: 19px;
-  font-weight: bold;
-  color: #f0f0f0;
-  text-align: center;
-  border-left: 2px solid #0FA36B;
-}
-
-table.greenTable thead th:first-child {
-  border-left: none;
-}
-
-table.greenTable tfoot td {
-  font-size: 13px;
-}
-
-table.greenTable tfoot .links {
-  text-align: right;
-}
-
-table.greenTable tfoot .links a {
+#licoes_aprendidas{
+  text-align: left;
+  margin: 50px;
   display: inline-block;
-  background: white;
-  color: #0FA36B;
-  padding: 2px 8px;
-  border-radius: 5px;
 }
-/*
------> Fim CSS da tabela.
-*/
+
+#licoes_a_aprender{
+  text-align: left;
+  margin: 50px;
+  display: inline-block;
+}
+
+#rodape{
+  text-align: left;
+}
