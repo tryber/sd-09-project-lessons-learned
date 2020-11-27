@@ -63,13 +63,9 @@ body {
 article {
   width: 90%;
   display: inline-block;
-  position: absolute;
-  top: -230px;
-  right: 2px;
+  position: relative;
+  right: -830px;
   z-index: 1;
-}
-#metodologia {
-  width: 53%;
 }
 
 aside {
@@ -77,9 +73,13 @@ aside {
   display: inline-block;
   position: relative;
   top: 8px;
-  left: 20px;
+  left: -310px;
   right: 15px;
   z-index: 1;
+}
+
+#metodologia {
+  width: 53%;
 }
 
 .lado-esquerdo {
