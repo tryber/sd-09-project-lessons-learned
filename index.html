@@ -15,11 +15,11 @@
             <ul>
                 <li class="menusuperior"><a href=#lado-esquerdo>Meu aprendizado</a></li>
                 <li class="menusuperior"><a href=#licoes_aprendidas>Lições</a></li>
-                <li class="menusuperior"><a href=#oquevemporai>O que vem por aí...</a></li>
+                <li class="menusuperior"><a href=#estruturadocurso>Estrutura do curso</a></li>
             </ul>
         </nav>
     </header>
-    <img id="minha_foto" src="minhafoto.jpg" alt= "foto de perfil">
+    <div id="textos">
     <article id="lado-esquerdo"> 
         <h2> Meu Aprendizado</h2>
         <p>Com pouco menos de 3 semanas no curso posso afirmar que tem sido uma jornada bastante interessante. As dinâmicas, aulas, conteúdo se completam de forma natural criando uma experiência de aprendizado que instiga a buscar conhecimento cada vez mais. Os exercícios variam de dificuldade mas são organizados de forma que uma boa leitura do que se pede nos permite fazer uma abstração e realizá-los sem grandes impecilhos. Apesar de eu já possuir um background em tecnologia sinto que desta vez que meu aprendizado realmente está em expansão e estou ansioso <strong>(positivamente)</strong> para aprender mais!</p>
@@ -28,8 +28,10 @@
         <h2>Github</h2>
         <p>Uma ferramenta que em primeiro momento me assustou um pouco, mas essencial para a vida de qualquer desenvolvedor. Depois que aprendemos suas funções básicas, fica bem mais fácil manipular sem medo de errar</p>
     </aside>
+    </div>
     <section>
-        <div id="barralicoes">  
+        <div id="conteudo">  
+            <div id='coluna1'>
         <h2>Lições Aprendidas</h2>
     <ol id="licoes_aprendidas">
         <li>Git</li>
@@ -43,7 +45,8 @@
         <li>VS Code</li>
         <li>Linux</li>
     </ol>
-
+        </div>
+        <div id='coluna2'>
         <h2>Lições à aprender</h2>
     <ul id="licoes_a_aprender">
         <li>SQL</li>
@@ -58,9 +61,16 @@
         <li>React</li>
     </ul>
         </div>
+     </div>
+        <figure>
+        <img id="minha_foto" src="minhafoto.jpg" alt= "foto de perfil">
+        <figcaption>Oi ! Eu sou o <s>Goku</s> Fernando<figcaption>
+        </figure>
+    </div>
     </section>
-    <section>
-        <h2> O que vem por aí...</h2>
+    <section id="estruturadocurso">
+        <div id="tabela">
+        <h2> Estrutura do curso</h2>
         <table>
             <tr>
                <td>Fundamentos do desenvolvimento Web</td>
@@ -83,10 +93,11 @@
                 <td>Cursando</td>
              </tr>
         </table>
+    </div>
     </section>
     <footer id="rodape">
-        <p>Projeto integrante do curso de Desenvolvimento Web da Trybe, iniciado em NOV/20 - Turma 09.
-            <a target="_blank" href="https://github.com/fcbresende">Minha Página github</a></p>
+        <p>Projeto integrante do curso de Desenvolvimento Web Trybe, iniciado em Novembro/20 - Turma 09.
+            <a target="_blank" href="https://github.com/fcbresende">Meu Github</a></p>
     </footer>
 </body>
 </html>

@@ -1,16 +1,16 @@
 body{
     background-color: rgb(253, 251, 251);
     font-family: 'Merriweather', Georgia, serif;
+    width:960px;
+    margin: 0 auto;
 }
-
 #cabecalho{
     top:0;
     position: fixed;
-    width: 100%;
     text-align: center;
     display: block;
+    background-color:  rgb(102, 51, 0);
     z-index: 1;
-   background-color:  rgb(102, 51, 0);
 }
 h1{
     text-align: center;
@@ -18,10 +18,12 @@ h1{
     color: LightGoldenRodYellow;
     border-radius: 15px;
     display: inline;
+    text-shadow: 2px 2px 7px ;
 }
 nav{
     text-align: center;
     font-size: large;
+    text-shadow: 2px 2px 7px;
 }
 .menusuperior{
     margin: 50px;
@@ -33,55 +35,64 @@ a:link{
 a:hover{
     border-bottom: 5px dotted white;
 }
-#minha_foto{
-    border-radius: 75%;
-    height:300px;
-}
+
 .menusuperior{
     display:inline;
+    padding:5px;
 }
+
+h2{
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 p{
     font-family: sans-serif;
 }
-#article{
-    position: relative;
+#textos{
+    position: absolute;
 }
+
 #lado-esquerdo{
-    width:60%;
-    margin-right: 50px;
-    margin-left: 50px;
-    border: 10px dotted brown;
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 10px double rgb(100, 86, 86);
     padding-left: 20px;
     padding-right:20px;
     text-align: justify;
-    position: absolute;
     float: left;
-    top:350px;
-    
-}
-#lado-direito{
-    width: 20%;
-    margin-right: 50px;
-    border: 10px dotted brown;
-    padding-left: 20px;
-    padding-right:20px;
-    text-align: justify;
-    position: absolute;
-    top:350px;
-    right:50px;
-}
-img{
+    width: 500px;
+    top:200px;
+    width:400px;
     position: relative;
-    top:160px;
-    right:350px;
 
 }
-footer{
-    background-color: rgb(222, 184, 135);
-    width: 100%;
-    text-align: center;
-    background: rgb(102, 51, 0);
+#lado-direito{
+    width: 300px;
+    border: 10px double rgb(100, 86, 86);
+    padding: 20px;
+    text-align: justify;
+    top:240px;
+    float: right;
+    position: relative;
+    margin-right: 90px;
 }
+
+#conteudo{
+    position: absolute;
+    top:600px;
+    margin-left:10px;
+}
+
+#rodape{
+    position: absolute;
+    top:1500px;
+    background: rgb(102, 51, 0);
+    color: LightGoldenRodYellow;
+    font-size: large;
+}
+
 li a{
     color: LightGoldenRodYellow;
     font-size: x-large;
@@ -89,11 +100,16 @@ li a{
 
 table, th, td{
     border: 4px solid brown;
-
 }
 
-h2{
-    background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+#tabela{
+    margin-left: 10px;
+    position: absolute;
+    top:1200px;   
+}
+#minha_foto{
+    position: absolute;
+    height:400px;
+    top:700px;
+    right:550px;
 }
