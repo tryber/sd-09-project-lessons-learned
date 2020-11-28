@@ -37,31 +37,33 @@ body {
   margin: 20% 0% 10% 10%;
 }
 
-.listas {
+.lado-esquerdo {
   margin-left: 100px;
   position: relative;
   display: inline-block;
-  width: 60%;
+  width: 20%;
   line-height: 25px;
   font-family: Montserrat, sans-serif;
 }
 
-#artigo {
+.lado-direito {
   font-family: Montserrat, sans-serif;
-  width: 60%;
+  width: 30%;
+  display: inline-block;
   margin-left: 100px;
-  line-height: 25px;
+  line-height: 28px;
+  font-size: 20px;
 }
 
 #menu-lateral {
   width: 20%;
-  position: relative;
-  float: right;
-  bottom: 1100px;
-  right: 150px;
   padding: 10px;
+  float: right;
+  position: relative;
   margin-right: 20px;
+  bottom: 300px;
   text-align: center;
   display: inline-block;
   background-color: rgb(206 , 204 , 204);
+  clear: both;
 }
