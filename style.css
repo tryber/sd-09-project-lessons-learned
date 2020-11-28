@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(253 251 251);
+}
+
+#cabecalho {
+    background: #900;
+    color: rgb(221, 204, 204);
+    padding: 1px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#licoes_aprendidas {
+    
+    width: 250px;
+       
+}
+
+#minha_foto {
+    
+    
+    width: 250px;
+}
+
+#licoes_a_aprender {
+    
+    width: 250px;
+    
+}
+
+#aprendizado {
+    text-align: justify;
+}
+
+#passagem_de_Aprendizado {
+    text-align: justify;
+}
+
+#rodape {
+    margin-bottom: 0px;
+}
+
+
+
+
+
