@@ -25,3 +25,9 @@ td {
     margin-top: 100px;
     z-index: 1;
 }
+p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    font-family: serif;
+}
