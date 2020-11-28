@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  margin: 0;
 }
 
 .container {
@@ -33,7 +34,7 @@ body {
 #minha_foto {
   position: relative;
   border-radius: 50%;
-  margin: 15% 0% 10% 10%;
+  margin: 20% 0% 10% 10%;
 }
 
 .listas {
