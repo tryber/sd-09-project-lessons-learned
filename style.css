@@ -28,6 +28,7 @@ header {
   text-transform: uppercase;
   color: rgb(46 , 254 , 247);
   margin-top: 25px;
+  margin-left: 10px;
   cursor: pointer;
 }
 
@@ -134,10 +135,12 @@ ul {
   margin-top: 100px;
   margin-left: 150px;
   padding: 10px;
-  border-radius: 15px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   font-family: Roboto, sans-serif;
   color: rgb(234 , 234 , 234);
   background-color: rgb(66 , 66 , 66);
+  box-shadow: 10px 10px rgb(46 , 254 , 247);
   float: left;
 }
 
@@ -159,10 +162,12 @@ ul {
   margin-left: 720px;
   margin-right: 100px;
   padding: 10px;
-  border-radius: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   font-family: Roboto, sans-serif;
   color: rgb(234 , 234 , 234);
   background-color: rgb(66 , 66 , 66);
+  box-shadow: 10px 10px rgb(46 , 254 , 247);
   float: right;
 }
 
