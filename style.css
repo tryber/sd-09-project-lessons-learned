@@ -1,17 +1,17 @@
 body {
   background-color: rgb(253 251 251);
-}
-
-#cabecalho {
-  position: fixed;
-  margin-left: 45%;
-  top: 0px;
-  padding: 25px;
-  border: 3px solid rgb(101 206 91);
   font-size: 20px;
   color: rgb(97 204 106);
   letter-spacing: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0px;
+  margin-left: 45%;
+  padding: 25px;
+  border: 3px solid rgb(101 206 91);
 }
 
 #titulo {
@@ -30,18 +30,33 @@ body {
   text-align: justify;
 }
 
-#aprendizado {
+.lado-direito{
+  width: 500px;
+  float: right;
+
+}
+
+.lado-esquerdo{
   width: 500px;
   float: left;
+}
+
+#aprendizado {
   text-align: justify;
 }
 
 #passagem_de_Aprendizado {
-  width: 500px;
-  float: right;
   text-align: justify;
 }
 
+#tabela {
+  margin-left: 0px;
+  margin-bottom: 0px;
+  border: 2px solid rgb(142 142 197);
+}
+
 #rodape {
+  float: left;
+  margin-left: 0px;
   margin-bottom: 0px;
 }
