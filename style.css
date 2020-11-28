@@ -4,6 +4,7 @@ body {
   width: 960px;
   margin: 0 auto;
 }
+
 #cabecalho {
   top: 0;
   position: fixed;
@@ -12,6 +13,7 @@ body {
   background-color: rgb(102 , 51 , 0);
   z-index: 1;
 }
+
 h1 {
   text-align: center;
   font-size: 60px;
@@ -20,11 +22,13 @@ h1 {
   display: inline;
   text-shadow: 2px 2px 7px;
 }
+
 nav {
   text-align: center;
   font-size: large;
   text-shadow: 2px 2px 7px;
 }
+
 .menusuperior {
   margin: 50px;
   display: inline;
@@ -44,7 +48,7 @@ a:hover {
 }
 
 h2 {
-  background: -webkit-linear-gradient(#eee , #333);
+  background: linear-gradient(white , black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -90,7 +94,7 @@ p {
   position: absolute;
   top: 1500px;
   background: rgb(102 , 51 , 0);
-  color: Lightgoldenrodyellow;
+  color: lightgoldenrodyellow;
   font-size: large;
 }
 
@@ -103,6 +107,7 @@ table , th , td {
   position: absolute;
   top: 1200px;
 }
+
 #minha_foto {
   position: absolute;
   height: 400px;
