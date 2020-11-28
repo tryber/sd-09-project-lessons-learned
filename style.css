@@ -3,9 +3,6 @@ body {
   margin: 0;
 }
 
-.container {
-}
-
 #cabecalho {
   position: fixed;
   z-index: 99;
@@ -22,8 +19,8 @@ body {
 
 #links-nav li {
   font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  background-color: rgb(76, 153, 241);
+  font-weight: 600;
+  background-color: rgb(54 , 143 , 139);
   padding: 5px;
   display: inline-block;
   margin-right: 70px;
@@ -100,4 +97,9 @@ h2 {
   display: block;
   background-color: lightgray;
   border-top: 2px solid rgb(26 , 24 , 24);
+}
+
+a:hover {
+  background-color: lightblue;
+  padding: 3px;
 }
