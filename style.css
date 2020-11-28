@@ -2,7 +2,7 @@ body {
   background-color: rgb(253 251 251);
   display: grid;
   grid-gap: 1rem;
-  grid-template-areas: 
+  grid-template-areas:
     'header header header'
     'aside-left article aside-right'
     'nav nav nav'
