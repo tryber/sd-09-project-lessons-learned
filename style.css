@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#container {
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+#titulo {
+  text-align: center;
+}
