@@ -4,7 +4,8 @@ body {
   background-color: rgb(253 251 251);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 18px;
-  font-size:  18px;
+  font-size: 18px;
+  margin: 0;
 }
 
 #cabecalho {
@@ -36,8 +37,17 @@ body {
   position: relative;
 }
 
-article {
+.lado-direito {
   position: relative;
-  bottom: 120px;
-  padding-right: 50%;
+  border: 3px groove gray;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  border: 3px groove gray;
+  text-align: center;
+}
+
+div {
+  display: flex;
 }
