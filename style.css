@@ -50,7 +50,6 @@ header {
 
 body {
   background-color: rgb(253 , 251 , 251);
-  /* position: relative; */
   top: 260px;
   font-family: serif;
 }
@@ -74,12 +73,13 @@ aside {
   right: 15px;
   z-index: 1;
 }
+
 .secao {
   width: 35%;
   display: inline-block;
   position: relative;
   top: -235px;
-  left: 500px; 
+  left: 500px;
 }
 
 #metodologia {
