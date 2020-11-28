@@ -43,9 +43,14 @@ header {
   background-color: rgb(9 , 65 , 65);
 }
 
+#main {
+  position: absolute;
+  top: 260px;
+}
+
 body {
   background-color: rgb(253 , 251 , 251);
-  position: relative;
+  /* position: relative; */
   top: 260px;
   font-family: serif;
 }
@@ -60,22 +65,21 @@ body {
   display: inline-block;
 }
 
-article {
-  width: 90%;
+aside {
+  width: 38%;
   display: inline-block;
   position: relative;
-  right: -830px;
+  top: -13px;
+  left: 460px;
+  right: 15px;
   z-index: 1;
 }
-
-aside {
+.secao {
   width: 35%;
   display: inline-block;
   position: relative;
-  top: 8px;
-  left: -310px;
-  right: 15px;
-  z-index: 1;
+  top: -235px;
+  left: 500px; 
 }
 
 #metodologia {
@@ -100,9 +104,10 @@ aside {
   text-align: center;
   margin-top: 15px;
   margin-left: 18px;
-  display: inline-block;
   border: 2px solid black;
   border-collapse: collapse;
+  position: relative;
+  top: -230px;
 }
 
 #id_table {
@@ -119,11 +124,14 @@ td {
 
 nav {
   margin-left: 20px;
+  position: absolute;
+  top: 580px;
+  z-index: 6;
 }
 
 footer {
-  position: relative;
-  top: 120px;
+  position: absolute;
+  bottom: 10px;
   left: 20px;
   width: 80%;
 }
