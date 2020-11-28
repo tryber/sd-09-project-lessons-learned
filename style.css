@@ -3,7 +3,8 @@ body {
   margin: 0px;
 }
 
-#container {
+.container {
+  height: 20px;
 }
 
 #cabecalho {
@@ -20,20 +21,28 @@ body {
   color: white;
 }
 
-#minha_foto {
-  position: absolute;
-  float: left;
-  top: 20%;
-  left: 3%;
-  border-radius: 50%;
+#foto {
+  width: 60%;
 }
 
-#lista1 {
-  border: #0b1e1d solid 2px;
-  padding: 9px;
-  position: absolute;
-  float: right;
+#minha_foto {
+  position: relative;
+  border-radius: 50%;
+  margin: 15% 0% 10% 10%;
+}
+
+.listas {
+  margin-left: 100px;
+  position: relative;
+  display: inline-block;
+  width: 60%;
   line-height: 25px;
-  top: 21%;
-  left: 28%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#artigo {
+  font-family: 'Montserrat', sans-serif;
+  width: 60%;
+  margin-left: 100px;
+  line-height: 25px;
 }
