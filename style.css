@@ -46,25 +46,30 @@ h2 {
   font-style: italic;
 }
 
+#section-article {
+  height: 652.34px;
+}
+
 .lado-esquerdo {
   margin-left: 95px;
   position: relative;
   float: left;
-  width: 45%;
+  width: 24%;
   line-height: 25px;
   font-size: 15px;
+  bottom: 88px;
   font-family: Montserrat, sans-serif;
 }
 
 .lado-direito {
   font-family: Montserrat, sans-serif;
-  width: 40%;
+  width: 24%;
   float: right;
   position: relative;
   line-height: 25px;
-  bottom: 208px;
-  margin-right: 20px;
-  font-size: 20px;
+  bottom: 88px;
+  margin-right: 95px;
+  font-size: 15px;
 }
 
 #menu-lateral {
