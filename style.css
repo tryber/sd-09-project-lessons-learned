@@ -4,7 +4,6 @@ body {
 }
 
 .container {
-  height: 20px;
 }
 
 #cabecalho {
@@ -13,12 +12,21 @@ body {
   top: 0;
   width: 100%;
   background-color: rgb(54 , 143 , 139);
+  display: inline-block;
 }
 
-#nav-links {
-  display: inline-block;
+#links-nav {
+  text-align: center;
   width: 100%;
-  margin-right: 20px;
+}
+
+#links-nav li {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  background-color: rgb(76, 153, 241);
+  padding: 5px;
+  display: inline-block;
+  margin-right: 70px;
 }
 
 #titulo {
@@ -37,37 +45,40 @@ body {
   margin: 20% 0% 10% 10%;
 }
 
+h2 {
+  font-style: italic;
+}
 .lado-esquerdo {
-  margin-left: 100px;
+  margin-left: 95px;
   position: relative;
   float: left;
   display: inline-block;
-  width: 20%;
+  width: 25%;
   line-height: 25px;
   font-family: Montserrat, sans-serif;
 }
 
 .lado-direito {
   font-family: Montserrat, sans-serif;
-  width: 30%;
+  width: 25%;
   float: right;
+  position: relative;
   display: inline-block;
-  margin-left: 100px;
-  line-height: 28px;
-  font-size: 20px;
+  line-height: 25px;
+  bottom: 208px;
+  margin-right: 20px;
 }
 
 #menu-lateral {
   width: 20%;
-  padding: 10px;
+  padding: 15px;
   float: right;
   position: relative;
   margin-right: 20px;
   bottom: 300px;
-  text-align: center;
+  text-align: right;
   display: inline-block;
-  background-color: rgb(206 , 204 , 204);
-  clear: both;
+  background-color: rgb(136 , 190 , 188);
 }
 
 #tabela-ref {
