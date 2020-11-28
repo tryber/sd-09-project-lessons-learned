@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0px;
 }
 
 #container {
@@ -7,10 +8,32 @@ body {
 
 #cabecalho {
   position: fixed;
+  z-index: 99;
   top: 0px;
   width: 100%;
+  background-color: #368f8b;
 }
 
 #titulo {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+#minha_foto {
+  position: absolute;
+  float: left;
+  top: 20%;
+  left: 3%;
+  border-radius: 50%;
+}
+
+#lista1 {
+  border: #0b1e1d solid 2px;
+  padding: 9px;
+  position: absolute;
+  float: right;
+  line-height: 25px;
+  top: 21%;
+  left: 28%;
 }
