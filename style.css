@@ -15,6 +15,12 @@ body {
   background-color: #368f8b;
 }
 
+#nav-links {
+  display: inline-block;
+  width: 100%;
+  margin-right: 20px;
+}
+
 #titulo {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -23,6 +29,7 @@ body {
 
 #foto {
   width: 60%;
+  background-image: ;
 }
 
 #minha_foto {
@@ -45,4 +52,17 @@ body {
   width: 60%;
   margin-left: 100px;
   line-height: 25px;
+}
+
+#menu-lateral {
+  width: 20%;
+  position: relative;
+  float: right;
+  bottom: 1250px;
+  right: 307px;
+  padding: 10px;
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(206, 204, 204);
 }
