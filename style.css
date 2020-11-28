@@ -1,39 +1,47 @@
 body {
-    background-color: rgb(253 251 251);
+  background-color: rgb(253 251 251);
 }
 
 #cabecalho {
-    position: fixed;
-    margin-left: 45%;
-    top: 0px;
-    padding: 25px;
-    border: 3px solid #73AD21;
+  position: fixed;
+  margin-left: 45%;
+  top: 0px;
+  padding: 25px;
+  border: 3px solid rgb(101 206 91);
+  font-size: 20px;
+  color: rgb(97 204 106);
+  letter-spacing: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #titulo {
-    text-align: justify;
+  text-align: justify;
 }
 
 #licoes_aprendidas {
-    text-align: justify;
+  text-align: justify;
 }
 
 #minha_foto {
-    width: 250px;
+  width: 250px;
 }
 
 #licoes_a_aprender {
-    text-align: justify;
+  text-align: justify;
 }
 
 #aprendizado {
-    text-align: justify;
+  width: 500px;
+  float: left;
+  text-align: justify;
 }
 
 #passagem_de_Aprendizado {
-    text-align: justify;
+  width: 500px;
+  float: right;
+  text-align: justify;
 }
 
 #rodape {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
