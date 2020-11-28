@@ -47,7 +47,8 @@ h2 {
 }
 
 #section-article {
-  margin-top: 209px;
+  padding-top: 209px;
+  border-top: 19px solid rgb(36, 36, 36);
 }
 
 .lado-esquerdo {
