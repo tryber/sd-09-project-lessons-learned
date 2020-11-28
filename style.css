@@ -87,7 +87,7 @@ ul {
   margin-right: 55px;
 }
 
-#card-list i {
+#card-list strong {
   font-size: 20px;
   color: rgb(234 , 234 , 234);
   border: 2px solid rgb(234 , 234 , 234);
