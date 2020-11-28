@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253 251 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 #cabecalho {
@@ -8,6 +11,7 @@ body {
   background-color: rgb(33 107 33);
   width: 100%;
   z-index: 1;
+  color: rgb(253 251 251);
 }
 
 #minha_foto {
