@@ -45,25 +45,25 @@ body {
 h2 {
   font-style: italic;
 }
+
 .lado-esquerdo {
   margin-left: 95px;
   position: relative;
   float: left;
-  display: inline-block;
-  width: 25%;
+  width: 20%;
   line-height: 25px;
   font-family: Montserrat, sans-serif;
 }
 
 .lado-direito {
   font-family: Montserrat, sans-serif;
-  width: 25%;
+  width: 30%;
   float: right;
   position: relative;
-  display: inline-block;
   line-height: 25px;
   bottom: 208px;
   margin-right: 20px;
+  font-size: 20px;
 }
 
 #menu-lateral {
