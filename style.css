@@ -18,7 +18,7 @@ h1 {
   color: lightgoldenrodyellow;
   border-radius: 15px;
   display: inline;
-  text-shadow: 2px 2px 7px ;
+  text-shadow: 2px 2px 7px;
 }
 nav {
   text-align: center;
@@ -64,7 +64,6 @@ p {
   padding-right: 20px;
   text-align: justify;
   float: left;
-  width: 500px;
   top: 200px;
   width: 400px;
   position: relative;
@@ -83,7 +82,7 @@ p {
 
 #conteudo {
   position: absolute;
-  top:600px;
+  top: 600px;
   margin-left: 10px;
 }
 
@@ -102,9 +101,9 @@ table , th , td {
 #tabela {
   margin-left: 10px;
   position: absolute;
-  top: 1200px;   
+  top: 1200px;
 }
-#minha_foto { 
+#minha_foto {
   position: absolute;
   height: 400px;
   top: 700px;
