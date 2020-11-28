@@ -68,7 +68,7 @@ aside {
   width: 38%;
   display: inline-block;
   position: relative;
-  top: -30px;
+  top: -50px;
   left: 460px;
   right: 15px;
   z-index: 1;
@@ -107,7 +107,7 @@ aside {
   border: 2px solid black;
   border-collapse: collapse;
   position: relative;
-  top: -200px;
+  top: -150px;
 }
 
 #id_table {
