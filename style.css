@@ -2,11 +2,11 @@ body {
   background-color: rgb(253 251 251);
   display: grid;
   grid-gap: 1rem;
-  grid-template-areas:
-    "header header header"
-    "aside-left article aside-right"
-    "nav nav nav"
-    "footer footer footer";
+  grid-template-areas: 
+    'header header header'
+    'aside-left article aside-right'
+    'nav nav nav'
+    'footer footer footer';
   grid-template-columns: 30% auto 20%;
   grid-template-rows: 5em 30em 2em 1em;
 }
@@ -24,7 +24,7 @@ body {
 
 .aside-right {
   grid-area: aside-right;
-  }
+}
 
 .article {
   grid-area: article;
@@ -39,14 +39,14 @@ body {
   grid-area: footer;
 }
 
-.header, .aside-left, .aside-right, .footer{
-  background: rgb(79, 121, 121);
+.header .aside-left .aside-right .footer {
+  background: rgb(79 121 121);
 }
 
 #minha_foto {
-    width: 180px;
-    border-radius: 1em;
-    margin-top: 15px;
-    margin-left: 35px;
-    padding: 1px;
+  width: 180px;
+  border-radius: 1em;
+  margin-top: 15px;
+  margin-left: 35px;
+  padding: 1px;
 }
