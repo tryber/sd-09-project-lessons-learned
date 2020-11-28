@@ -212,6 +212,6 @@ ul {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(180, 180, 180);
+  background: rgb(180 , 180 , 180);
   border-radius: 6px;
 }
