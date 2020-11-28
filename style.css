@@ -5,9 +5,23 @@ body {
 #cabecalho {
     top: 0px;
     position: fixed;
-    width: 100%
+    width: 100%;
+    background-color: rgb(10, 202, 10);
+    z-index: 2;
+    padding: 10px;
 }
 
 #titulo {
     text-align: center;
+}
+
+td {
+    border: solid;
+    border-color: blue;
+}
+
+#minha_foto {
+    position: relative;
+    margin-top: 100px;
+    z-index: 1;
 }
