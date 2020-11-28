@@ -50,14 +50,15 @@ h2 {
   margin-left: 95px;
   position: relative;
   float: left;
-  width: 20%;
+  width: 45%;
   line-height: 25px;
+  font-size: 15px;
   font-family: Montserrat, sans-serif;
 }
 
 .lado-direito {
   font-family: Montserrat, sans-serif;
-  width: 30%;
+  width: 40%;
   float: right;
   position: relative;
   line-height: 25px;
