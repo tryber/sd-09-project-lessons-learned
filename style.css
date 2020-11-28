@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 .container {
@@ -11,7 +11,7 @@ body {
   z-index: 99;
   top: 0;
   width: 100%;
-  background-color: rgb(54, 143, 139);
+  background-color: rgb(54 , 143 , 139);
 }
 
 #nav-links {
@@ -62,5 +62,5 @@ body {
   margin-right: 20px;
   text-align: center;
   display: inline-block;
-  background-color: rgb(206, 204, 204);
+  background-color: rgb(206 , 204 , 204);
 }
