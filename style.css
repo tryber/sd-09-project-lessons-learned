@@ -40,6 +40,7 @@ body {
 .lado-esquerdo {
   margin-left: 100px;
   position: relative;
+  float: left;
   display: inline-block;
   width: 20%;
   line-height: 25px;
@@ -49,6 +50,7 @@ body {
 .lado-direito {
   font-family: Montserrat, sans-serif;
   width: 30%;
+  float: right;
   display: inline-block;
   margin-left: 100px;
   line-height: 28px;
@@ -66,4 +68,25 @@ body {
   display: inline-block;
   background-color: rgb(206 , 204 , 204);
   clear: both;
+}
+
+#tabela-ref {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  top: 1300px;
+  left: 0;
+}
+
+#rodape {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 1400px;
+  display: block;
+  background-color: lightgray;
+  border-top: 2px solid rgb(26 , 24 , 24);
 }
