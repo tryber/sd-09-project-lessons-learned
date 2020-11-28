@@ -1,26 +1,52 @@
 body {
-background-color: rgb(253, 251, 251);
+  background-color: rgb(253 251 251);
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "header header header"
+    "aside-left article aside-right"
+    "nav nav nav"
+    "footer footer footer";
+  grid-template-columns: 30% auto 20%;
+  grid-template-rows: 5em 30em 2em 1em;
 }
 
-header {
-background-color: rgb(79, 121, 121);
-border: inset 1em rgb(79, 121, 121);
-text-align: center;
-padding: 3em;
-margin-bottom: 10px;
-font-family: fantasy;
+.header {
+  grid-area: header;
+  position: fixed;
+  top: 0;
+
 }
 
-#cabecalho {
-margin-top: 0px;
-font-family: cursive;
+.aside-left {
+  grid-area: aside-left;
 }
 
-img {
-width: 300px;
+.aside-right {
+  grid-area: aside-right;
+  }
+
+.article {
+  grid-area: article;
 }
 
-.borders-tables {
-text-align: justify;
-width: auto;
+.nav {
+  grid-area: nav;
+  background: teal;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.header, .aside-left, .aside-right, .footer{
+  background: rgb(79, 121, 121);
+}
+
+#minha_foto {
+    width: 180px;
+    border-radius: 1em;
+    margin-top: 15px;
+    margin-left: 35px;
+    padding: 1px;
 }

@@ -1,71 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Lessons Learned</title>
+    <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header id="cabecalho">
-        <h1 id="titulo">Here willed all started</h1>
+    <header id="cabecalho" class="header">Header
+        <h1 id="titulo">A estrada até aqui...</h1>
     </header>
-    <img id="minha_foto" src="my-picture.jpeg" alt="Jovem sorridente, largo sorriso branco e olhos enrrugados e cabelos negros">
+    <aside class="aside-left"> Aside left
+        <img id="minha_foto" src="my-picture.jpeg" alt="Jovem sorridente, largo sorriso branco e olhos enrrugados e cabelos negros" class="my-image">
 
-    <section id="listas">
-        <table class="borders-tables">
-            <ol id="licoes_aprendidas">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-                <li>7</li>
-                <li>8</li>
-                <li>9</li>
-                <li>10</li>
-            </ol>
-        </table>
-        <table class="borders-tables">
-            <ul id="licoes_a_aprender">
-                <li>dsaaaaaaaaaaaaaaaaaaa</li>
-                <li>sdaaaaaaaaaaadsadsa</li>
-                <li>dsaaaaaaaaaaaaaa</li>
-                <li>saaaaaaaaaaaaaaaa</li>
-                <li>dsaaaaaaaaaaaaaaa</li>
-                <li>dsaaaaaaaaaaaaaaaaaaaaa</li>
-                <li>dassssssssssssssssss</li>
-                <li>dasssssssssssssssssssssss</li>
-                <li>dsaaaaaaaaaaaaaaaaaaaaaaa</li>
-                <li>dsaaaaaaaaaaaaaaaaaa</li>
-            </ul>
-        </table>
-    </section>
+        <ol id="licoes_aprendidas">
+            <li>Linux</li>
+            <li>Bash</li>
+            <li>Shell</li>
+            <li>Git</li>
+            <li>Github</li>
+            <li>Internet</li>
+            <li>DOM</li>
+            <li>HTML</li>
+            <li>HTML Semântico</li>
+            <li>CSS</li>
+        </ol>
 
-    <article>
-       <p>Carpe diem é parte da frase latina carpe diem quam minimum credula postero <br>(literalmente: 'aproveita o dia e confia o mínimo possível no amanhã'), extraída <br> de  uma das Odes, de Horácio (65 a.C. - 8 a.C.), e tem numerosas traduções <br> possíveis: "colhe o dia" (tradução literal), "desfruta o presente", "vive este <br> dia", "aproveita o dia" ou "aproveita o momento". O poeta latino exorta sua <br> brinterlocutora, Leuconoe, a desfrutar do prazer que a vida oferece, a cada <br> momento de aproveitar o que há de bom em cada instante, já que o futuro é incerto.</p>
-    </article>
-
-    <a href="https://www.facebook.com/silveira.jean.9/" target="_blank">
-        Este é meu Facebook, venha me conhecer melhor.
-    </a>
-
-    <aside id="A história até aqui...">
-        <p>Denomina-se cultura punk os estilos dentro da subcultura e tribo urbana <br> 
-        que possuem certas características comuns àquelas ditas punk, como por exemplo <br> o princípio de autonomia do faça-você-mesmo, o interesse pela aparência <br> agressiva,a simplicidade, o sarcasmo niilista e a subversão da cultura.</p>
-    </aside>
-
-    <nav>
-        <ul>
-            <li>HOME</li>
-            <li>LISTAS</li>
-            <li>ARTIGO</li>
-            <li>FACEBOOK</li>
-            <li>A HISTÓRIA ATÉ AQUI</li>
+        <ul id="licoes_a_aprender">
+            <li>Algoritmos</li>
+            <li>Laços de repetição</li>
+            <li>JavaScript</li>
+            <li>Flexbox</li>
+            <li>Forms</li>
+            <li>Mobile</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Python</li>
+            <li>SQL</li>
         </ul>
+    </aside>
+    <aside class="aside-right">
+        <a href="https://www.facebook.com/silveira.jean.9" target="_blank">F A C E B O O K</a>
+        <p>Denomina-se cultura punk os estilos dentro da subcultura e tribo urbana que possuem certas características comuns àquelas ditas punk, como por exemplo o princípio de autonomia do faça-você-mesmo, o interesse pela aparência agressiva, a simplicidade, o sarcasmo niilista e a subversão da cultura.</p>
+    </aside>
+    <article class="article">
+        Carpe diem é parte da frase latina carpe diem quam minimum credula postero (literalmente: 'aproveita o dia e confia o mínimo possível no amanhã'), extraída de  uma das Odes, de Horácio (65 a.C. - 8 a.C.), e tem numerosas traduções possíveis: "colhe o dia" (tradução literal), "desfruta o presente", "vive este  dia", "aproveita o dia" ou "aproveita o momento". O poeta latino exorta sua brinterlocutora, Leuconoe, a desfrutar do prazer que a vida oferece, a cada momento de aproveitar o que há de bom em cada instante, já que o futuro é incerto.
+    </article>
+    <nav class="nav">
+        <table border="4px" align="center" >
+            <tr>
+                <td>Home</td>
+                <td>FACEBOOK</td>
+                <td>ARTIGO</td>
+                <td>TABELAS</td>
+                <td>SAIBA MAIS</td>
+            </tr>
+        </table>
     </nav>
-
-    <footer id="rodape"></footer>
+    <footer id="rodape" class="footer"></footer>
 </body>
 </html>
