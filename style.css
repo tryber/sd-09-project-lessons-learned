@@ -34,7 +34,10 @@ p {
 }
 
 aside {
-    float: right;
     width: 30%;
-    vertical-align: top;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(224, 18, 18);
 }
