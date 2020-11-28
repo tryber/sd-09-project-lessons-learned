@@ -51,6 +51,7 @@ body {
 #artigo p {
   border: dotted;
   padding: 6px;
+  line-height: 1.5;
 }
 
 #aside {
@@ -62,4 +63,5 @@ body {
 #aside p {
   border: dotted;
   padding: 6px;
+  line-height: 1.5;
 }
