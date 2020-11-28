@@ -43,24 +43,31 @@ li a {
 a:link {
   text-decoration: none;
 }
+
 a:hover {
   border-bottom: 5px dotted white;
 }
 
 h2 {
-  background: linear-gradient(white , black);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(white , rgb(102 , 51 , 0));
+  margin:10px;
+  padding-left: 5px;
+  font-size: 26px;
+  font-family: cursive;
+  color: lightgoldenrodyellow;
 }
 
 p {
   font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 1.25em;
 }
-#textos {
+
+.textos {
   position: absolute;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   margin-right: 30px;
   margin-left: 30px;
   border: 10px double rgb(100 , 86 , 86);
@@ -71,9 +78,9 @@ p {
   top: 200px;
   width: 400px;
   position: relative;
-
 }
-#lado-direito {
+
+.lado-direito {
   width: 300px;
   border: 10px double rgb(100 , 86 , 86);
   padding: 20px;
@@ -112,5 +119,5 @@ table , th , td {
   position: absolute;
   height: 400px;
   top: 700px;
-  right: 550px;
+  right: 400px;
 }
