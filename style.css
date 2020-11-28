@@ -1,9 +1,9 @@
 body {
   background-color: rgb(253 251 251);
-  font-size: 20px;
+  font-size: 10px;
   color: rgb(97 204 106);
-  letter-spacing: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 6px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #cabecalho {
@@ -30,22 +30,30 @@ body {
   text-align: justify;
 }
 
-.lado-direito{
+.lado-direito {
   width: 500px;
   float: right;
 
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   width: 500px;
   float: left;
 }
 
 #aprendizado {
+  font-size: 15px;
+  color: rgb rgb(231 148 148);
+  letter-spacing: 4px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: justify;
 }
 
 #passagem_de_Aprendizado {
+  font-size: 20px;
+  color: rgb (23 104 23);
+  letter-spacing: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
 }
 
