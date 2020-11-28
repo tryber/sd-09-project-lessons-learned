@@ -68,7 +68,7 @@ aside {
   width: 38%;
   display: inline-block;
   position: relative;
-  top: -13px;
+  top: -30px;
   left: 460px;
   right: 15px;
   z-index: 1;
@@ -86,13 +86,13 @@ aside {
   width: 53%;
 }
 
-.lado-esquerdo {
+.left-side {
   text-align: justify;
   padding: 5px;
   border: 2px dotted rgb(161 , 161 , 161);
 }
 
-.lado-direito {
+.right-side {
   width: 50%;
   text-align: justify;
   padding: 5px;
@@ -107,7 +107,7 @@ aside {
   border: 2px solid black;
   border-collapse: collapse;
   position: relative;
-  top: -230px;
+  top: -200px;
 }
 
 #id_table {
