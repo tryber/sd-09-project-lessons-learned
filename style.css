@@ -2,7 +2,7 @@ body {
   background-color: rgb(253 , 251 , 251);
   font-size: 17.6px;
   color: rgb(25 , 25 , 25);
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
 }
 
 #cabecalho {
@@ -10,7 +10,7 @@ body {
 }
 
 #minha_foto {
-  background-color: #48fb47;
+  background-color: rgb(25 , 25 , 25);
   border-radius: 50%;
   padding: 2px;
   width: 250px;
