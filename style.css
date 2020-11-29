@@ -1,29 +1,27 @@
 * {
-    background-color: rgb(253,251,251);
+    background-color: rgb(253, 251, 251);
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    background-color: rgb(25,25,112);
+    background-color: midnightblue;
     height: 13vh;
     position: fixed;
     top: 0px;
     width: 100vw;
 }
 #titulo {
-    background-color: rgb(25,25,112);
+    background-color: midnightblue;
     color: white;
     margin: 2vh;
     margin-left: 43vw;
     width: 100vw;
 }
 nav {
-    background-color: rgb(176,224,230);
+    background-color: powderblue;
 }
 span a {
-    background-color: rgb(176,224,230);
+    background-color: powderblue;
 }
 span {
     background-color: green;
@@ -33,10 +31,7 @@ span {
     border-radius: 5px;
     display: inline-block;
     height: 350px;
-    margin-top: 14vh;
-    margin-left: 2vw;
-    margin-bottom: 5vh;
-    margin-right: 2vw;
+    margin: 14vh 2vh 5vh 2vh;
     width: 20vw;
 }
 .listas {
@@ -47,10 +42,10 @@ span {
 }
 li, tr {
    height: 32px;
-   width: 400px; 
+   width: 400px;
 }
 .ap {
-    color: rgb(25,25,112);
+    color: midnightblue;
 }
 .textos {
     display: block;
@@ -63,11 +58,11 @@ li, tr {
     height: 24vh;
     width: 45vw;
     margin-left: 2vw;
-    background-color: rgb(176,224,230);
+    background-color: powderblue;
     padding: 10px;
 }
 .lado-direito {
-    background-color: rgb(176,224,230);
+    background-color: powderblue;
     height: 20vh;
     margin-right: 2vw;
     padding: 15px 10px 13px 10px;
@@ -75,27 +70,27 @@ li, tr {
     float: right;
 }
 aside {
-    background-color: rgb(176,224,230);
+    background-color: powderblue;
 }
 #rodape {
     clear: both;
-    background-color: rgb(25,25,112);
+    background-color: midnightblue;
     height: 99px;
     margin-top: 240px;
 }
 .icone {
-    background-color: rgb(25,25,112);
+    background-color: midnightblue;
     clear: both;
     height: 45px;
     width: 45px;
 }
 footer a {
-    background-color: rgb(25,25,112);
+    background-color: midnightblue;
     position: relative;
     top: 50px;
 }
 .sf {
-    background-color: rgb(25,25,112);
+    background-color:midnightblue;
     bottom: -45px;
     color: white;
     text-align: center;
