@@ -98,6 +98,7 @@ main {
 
 .artigo {
   background-color: rgb(255 , 243 , 176);
+  border: 10px solid rgb(224 , 159 , 62);
   width: fit-content;
   margin: 5px 1px 1px;
   padding: 5px;
