@@ -93,7 +93,7 @@ main {
 .artigo {
   background-color: rgb(255 , 243 , 176);
   width: fit-content;
-  border:5px solid rgb(224 , 159 , 62);
+  border: 5px solid rgb(224 , 159 , 62);
   margin: 5px 10px 1px;
   padding: 5px;
 }
@@ -260,6 +260,7 @@ main {
   padding: 15px;
   color: rgb(255 , 243 , 176);
 }
+
 #rodape p {
   font-style: italic;
   font-variant: small-caps;
