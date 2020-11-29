@@ -20,7 +20,7 @@ body {
   left: 40%;
   top: 2%;
   display: inline;
-  font: Nerko One;
+  font-family: Nerko One, Arial, Helvetica;
   font-size: xx-large;
   right: 50px;
   padding: 20px;
@@ -30,21 +30,17 @@ body {
   width: 10%;
   padding: 5px;
 }
-a:link {
+a :link {
   color: white;
 }
-a:visited {
+a :visited {
   color: white;
 }
-a:hover {
+a :hover {
   color: rgb(107 ,112 ,92);
 }
-a:active {
+a :active {
   color: rgb(107 ,112 ,92);
-}
-#titulo {
-  font: Shadows Into Light;
-  padding: 15px;
 }
 #minha_foto {
   width: 300px;
@@ -72,7 +68,7 @@ a:active {
   line-height: 25px;
 }
 h2, h3 {
-  font-family: Nerko One;
+  font-family: Nerko One, Arial, Helvetica;
 }
 #textos {
   display: inline-block;
@@ -107,7 +103,7 @@ h2, h3 {
   padding: 10px;
 }
 p {
-  font: "Nunito";
+  font-family: Nunito, Arial, Helvetica;
 }
 table {
   font-family: arial, sans-serif;
@@ -125,12 +121,12 @@ td {
   text-align: left;
   padding: 5px;
   border-top: 10%;
-  font: Nunito;
+  font-family: Nunito, Arial, Helvetica;
 }
 th {
   border: 1px solid rgb(183 ,183 ,164);
   text-align: left;
   padding: 5px;
   border-top: 10%;
-  font: Nunito;
+  font-family: Nunito, Arial, Helvetica;
 }
