@@ -94,7 +94,7 @@ body {
   background-color: rgb(255 , 243 , 176);
   border: 5px solid rgb(224 , 159 , 62);
   width: fit-content;
-  margin: 10px 1px 1px;
+  margin: 10px 1px 1px 10px;
   padding: 5px;
 }
 
