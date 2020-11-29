@@ -1,7 +1,22 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-size: 17.6px;
+  color: rgb(25 , 25 , 25);
+  font-family: 'Nunito', sans-serif;
 }
 
 #cabecalho {
   top: 0;
+}
+
+#minha_foto {
+  background-color: #48FB47;
+  border-radius: 50%;
+  padding: 2px;
+
+  width: 250px;
+}
+
+ol, ul {
+  display: inline-block;
 }
