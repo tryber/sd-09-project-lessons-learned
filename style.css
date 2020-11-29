@@ -1,10 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253 , 251 , 251);
   font-size: 17.6px;
   color: rgb(25 , 25 , 25);
   line-height: 1.2em;
   font-family: Nunito, sans-serif;
-  margin: 0;
 }
 
 #cabecalho {
@@ -13,7 +17,7 @@ body {
   text-align: center;
   position: fixed;
   height: 13%;
-  padding: 0 475px 5px 481px;
+  padding: 0 29.875rem 5px;
   top: 0;
 }
 
@@ -76,13 +80,9 @@ th , tr , td {
 .lado-esquerdo , .lado-direito {
   border: 2px solid black;
   padding: 5px;
-  margin: 0 50px 10px;
+  margin: 0 59.4px 10px;
   width: 40%;
   display: inline-block;
-}
-
-.lado-direito {
-  margin-left: 87px;
 }
 
 footer {
