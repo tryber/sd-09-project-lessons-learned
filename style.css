@@ -69,6 +69,7 @@ body {
 }
 
 .lado-direito {
+  padding: 20px;
   width: 30%;
   height: 20%;
   margin: 20px;
@@ -78,5 +79,5 @@ body {
 }
 .define-fonte{
   font-size: 16px;
-  font-weight: 26px;
+  line-height: 26px;
 }
