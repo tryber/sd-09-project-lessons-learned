@@ -1,98 +1,98 @@
-* {
-    background-color: rgb(253, 251, 251);
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+ * {
+        background-color: rgb(253, 251, 251);
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
 }
-header {
-    background-color: midnightblue;
-    height: 13vh;
-    position: fixed;
-    top: 0px;
-    width: 100vw;
+ header {
+        background-color: midnightblue;
+        height: 13vh;
+        position: fixed;
+
+        width: 100vw;
 }
-#titulo {
-    background-color: midnightblue;
-    color: white;
-    margin: 2vh;
-    margin-left: 43vw;
-    width: 100vw;
+ #titulo {
+        background-color: midnightblue;
+        color: white;
+        margin: 2vh;
+        margin-left: 43vw;
+        width: 100vw;
 }
-nav {
-    background-color: powderblue;
+ nav {
+        background-color: powderblue;
 }
-span a {
-    background-color: powderblue;
+ span a {
+        background-color: powderblue;
 }
-span {
-    background-color: green;
-    margin-left: 30vw;
+ span {
+        background-color: green;
+        margin-left: 30vw;
 }
-#minha_foto {
-    border-radius: 5px;
-    display: inline-block;
-    height: 350px;
-    margin: 14vh 2vh 5vh 2vh;
-    width: 20vw;
+ #minha_foto {
+        border-radius: 5px;
+        display: inline-block;
+        height: 350px;
+        margin: 14vh 2vh 5vh;
+        width: 20vw;
 }
-.listas {
-    display: inline-block;
-    margin: 8vh 6vw 2vh 7vw;
-    width: 45vw;
-    font-size: 20px;
+ .listas {
+        display: inline-block;
+        margin: 8vh 6vw 2vh 7vw;
+        width: 45vw;
+        font-size: 20px;
 }
-li, tr {
-   height: 32px;
-   width: 400px;
+ li , tr {
+            height: 32px;
+            width: 400px;
 }
-.ap {
-    color: midnightblue;
+ .ap {
+        color: midnightblue;
 }
-.textos {
-    display: block;
-    width: 100vw;
-    margin-top: 35px;
-    line-height: 26px;
+ .textos {
+        display: block;
+        width: 100vw;
+        margin-top: 35px;
+        line-height: 26px;
 }
-.lado-esquerdo {
-    float: left;
-    height: 24vh;
-    width: 45vw;
-    margin-left: 2vw;
-    background-color: powderblue;
-    padding: 10px;
+ .lado-esquerdo {
+        float: left;
+        height: 24vh;
+        width: 45vw;
+        margin-left: 2vw;
+        background-color: powderblue;
+        padding: 10px;
 }
-.lado-direito {
-    background-color: powderblue;
-    height: 20vh;
-    margin-right: 2vw;
-    padding: 15px 10px 13px 10px;
-    width: 45vw;
-    float: right;
+ .lado-direito {
+        background-color: powderblue;
+        height: 20vh;
+        margin-right: 2vw;
+        padding: 15px 10px 13px;
+        width: 45vw;
+        float: right;
 }
-aside {
-    background-color: powderblue;
+ aside {
+        background-color: powderblue;
 }
-#rodape {
-    clear: both;
-    background-color: midnightblue;
-    height: 99px;
-    margin-top: 240px;
+ #rodape {
+        clear: both;
+        background-color: midnightblue;
+        height: 99px;
+        margin-top: 240px;
 }
-.icone {
-    background-color: midnightblue;
-    clear: both;
-    height: 45px;
-    width: 45px;
+ .icone {
+        background-color: midnightblue;
+        clear: both;
+        height: 45px;
+        width: 45px;
 }
-footer a {
-    background-color: midnightblue;
-    position: relative;
-    top: 50px;
+ footer a {
+        background-color: midnightblue;
+        position: relative;
+        top: 50px;
 }
-.sf {
-    background-color:midnightblue;
-    bottom: -45px;
-    color: white;
-    text-align: center;
-    position: relative;
+ .sf {
+        background-color:midnightblue;
+        bottom: -45px;
+        color: white;
+        text-align: center;
+        position: relative;
 }
