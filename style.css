@@ -2,11 +2,25 @@ body {
   background-color: rgb(253 , 251 , 251);
   font-size: 17.6px;
   color: rgb(25 , 25 , 25);
-  font-family: 'Nunito';
+  line-height: 1.2em;
+  font-family: 'Nunito', sans-serif;
 }
 
 #cabecalho {
+  background-color: #222222;
+  color: #FAFAFA;
+  text-align: center;
+  position: fixed;
+  height: 13%;
+  /* margin: 0;  */
+  padding: 10px 470px;
   top: 0;
+}
+
+#cabecalho a {
+  color: rgb(46 , 209 , 182);
+  text-decoration: none;
+  margin: 10px;
 }
 
 #minha_foto {
@@ -20,7 +34,10 @@ ol , ul {
   display: inline-block;
 }
 
-article , section {
+.lado-esquerdo , .lado-direito {
+  border: 2px solid black;
+  /* height: 100px; */
+  margin: 0 50px;
   width: 40%;
   display: inline-block;
 }
