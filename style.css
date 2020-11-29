@@ -96,7 +96,6 @@ main {
 }
 
 .artigo {
-  display: inline-block;
   background-color: rgb(255 , 243 , 176);
   width: fit-content;
   margin: 5px 1px 1px;
