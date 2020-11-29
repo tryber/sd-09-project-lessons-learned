@@ -56,7 +56,7 @@ a:active {
 
 #minha_foto {
   background-color: rgb(25 , 25 , 25);
-  border-radius: 50%;
+  border-radius: 25%;
   padding: 2px;
   width: 200px;
   display: block;
