@@ -28,12 +28,12 @@ footer {
   background-color: rgb(253 , 251 , 251);
   padding: 20px;
   height: 600px;
-  border: 1px solid rgb(170, 134, 143);
+  border: 1px solid rgb(170 , 134 , 143);
   border-radius: 7px;
-  box-shadow: 5px 10px rgb(170, 134, 143);
+  box-shadow: 5px 10px rgb(170 , 134 , 143);
 }
 
-.sidebar-content{
+.sidebar-content {
   position: absolute;
   margin-top: 40px;
   width: 16.5%;
@@ -54,10 +54,11 @@ footer {
 
 #minha_foto {
   width: 100%;
+  height: 140px;
   position: relative;
   top: 20px;
   border-radius: 5px;
-  border: 2px solid rgb(170, 134, 143);
+  border: 2px solid rgb(170 , 134 , 143);
   display: block;
 }
 
@@ -67,7 +68,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 140px;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
@@ -92,15 +93,19 @@ footer {
   text-align: center;
   padding-top: 110px;
   padding-left: 100px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50% , -50%);
 }
 
 .name {
   position: relative;
-  top: 30px;
+  top: 20px;
   font-size: 17px;
   text-align: center;
+}
+
+#navigation {
+  position: relative;
+  top: 20px;
 }
 
 main {
@@ -198,7 +203,7 @@ td {
 .menu1 {
   width: 100%;
   display: inline-block;
-  border: 2px solid rgb(170, 134, 143);
+  border: 2px solid rgb(170 , 134 , 143);
   border-radius: 5px 5px 0 0;
   text-align: center;
   font-weight: 800;
@@ -207,7 +212,7 @@ td {
 .menu2 {
   width: 100%;
   display: inline-block;
-  border: 2px solid rgb(170, 134, 143);
+  border: 2px solid rgb(170 , 134 , 143);
   border-top: 0;
   border-radius: 0 0 5px 5px;
   text-align: center;
