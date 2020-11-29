@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,21 +15,23 @@ main {
   display: inline-block;
   margin-top: 125px;
   width: fit-content;
-  max-width: 870px;
+  max-width: 850px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: wheat;
+  background-color: rgb(158 , 42 , 43);
 }
 
 #titulo {
-  color: crimson;
+  color: rgb(255 , 243 , 176);
   text-align: center;
   font-family: Acme, sans-serif;
+  letter-spacing: 1px;
   font-size: 50px;
+  text-shadow:rgb(11, 22, 26) 0.06em 0.1em 0.1em;
 }
 
 #menu {
@@ -50,16 +55,16 @@ main {
   padding: 5px;
   text-align: center;
   text-decoration: none;
-  background-color: white;
+  background-color: rgb(255 , 243 , 176);
   border-radius: 3px;
-  color: crimson;
+  color: rgb(84, 11, 14);
   font-size: 30px;
 }
 
 #menu a:hover {
-  background-color: crimson;
+  background-color: rgb(84 , 11 , 14);
   background-size: cover;
-  color: white;
+  color: rgb(255 , 243 , 176);
 }
 
 .lado-esquerdo {
@@ -71,100 +76,155 @@ main {
 }
 
 .artigo {
-  background-color: yellow;
+  background-color: rgb(224 , 159 , 62);
   display: inline-block;
   padding: 5px;
-  margin: auto;
+  margin: 10px 0 10px 10px;
+}
+.artigo h2{
+  font-family: Acme, sans-serif;
+  letter-spacing: 1.5px;
+  color: rgb(84 , 11 , 14)
 }
 
 .sessao {
-  background-color: pink;
+  background-color: rgb(255 , 243 , 176);
   width: fit-content;
-  margin: 10px;
+  margin: 5px 1px 1px 1px;
   padding: 5px;
 }
 
 #texto-principal {
   text-align: justify;
   font-family: Noto Sans, sans-serif;
-  width: 822px;
+  width: 815px;
 }
 
 #minha_foto {
   display: inline-block;
-  width: 200px;
-  border: 3px ridge crimson;
-  padding: 10px;
+  width: 211px;
+  border: 15px ridge rgb(224 , 159 , 62);
   vertical-align: top;
+  margin: 10px 10px 0 10px;
+}
+
+#sobremim {
+  width: fit-content;
+  padding-left: 20px ;
+  font-size: 20px;
+  color: rgb(84 , 11 , 14);
+}
+
+#sobremim p {
+  text-indent: 30px;
 }
 
 #caixa_licoes {
   display: inline-block;
-  background-color: orange;
+  background-color: rgb(255 , 243 , 176);
+  border: 3px dashed rgb(224 , 159 , 62);
   width: fit-content;
-  margin: auto;
   vertical-align: top;
-  padding: 4px;
+  margin-top: 10px;
+  padding-bottom: 5px;
 }
 
 #caixa_licoes h2 {
+  background-color: rgb(224 , 159 , 62);
   text-align: center;
+  padding-top: 5px;
+  font-family: Acme, sans-serif;
+  letter-spacing: 1.5px;
+  color: rgb(255 , 243 , 176);
 }
 
 #licoes_aprendidas {
-  margin-block-start: 0.1em;
-  margin-block-end: 0;
-  text-align: center;
   width: 250px;
-  background-color: wheat;
-  padding: 10px 0 10px 35px;
-  margin: auto;
+  padding: 10px 0 5px 35px;
+  color: rgb(158 , 42 , 43);
 }
 
-#licoes_aprendidas ol li {
+#licoes_aprendidas h3{
   text-align: center;
+  padding-bottom: 10px;
+  color: rgb(84 , 11 , 14);
 }
 
 #licoes_a_aprender {
-  list-style-type: circle;
-  text-align: center;
-  width: 300px;
-  background-color: wheat;
-  padding: 10px 0 10px 35px;
-  margin: auto;
+  width: 250px;
+  padding: 10px 0 5px 35px;
+  color: rgb(84 , 11 , 14);
 }
 
-#licoes_a_aprender ul li {
+#licoes_a_aprender h3{
   text-align: center;
+  padding-bottom: 10px;
+  color: rgb(158 , 42 , 43);
 }
 
 #canto {
-  background-color: wheat;
+  background-color: rgb(224 , 159 , 62);
   display: inline-block;
-  margin: auto;
-  margin-top: 125px;
-  vertical-align: top;
+  padding: 5px;
+  vertical-align: middle;
+  margin: 0 5px 10px 10px;
   width: fit-content;
-  max-width: 465px;
+  height: fit-content;
+  max-width: 460px;
   font-family: Noto Sans, sans-serif;
+}
+
+#canto h2{
+  font-family: Acme, sans-serif;
+  letter-spacing: 1.5px;
+  color: rgb(84 , 11 , 14);
+}
+#canto p {
+  text-indent: 30px;
+  text-align: justify;
 }
 
 #tabela {
-  background-color: purple;
+  background-color: rgb(158 , 42 , 43);
   text-align: center;
-  margin: 40px auto;
-  padding: 20px;
+  margin: 20px auto auto auto;
+  padding: 5px;
   width: fit-content;
-  max-width: 465px;
   font-family: Noto Sans, sans-serif;
-
+}
+#tabela h2{
+  color: rgb(255 , 243 , 176);
 }
 
+#dificuldade_skills {
+  width: 450px;
+}
+
+#dificuldade_skills th {
+  background-color: rgb(255 , 243 , 176);
+  width: 10px;
+  padding: 10px;
+  border: 1px solid rgb(224 , 159 , 62);
+}
+
+#dificuldade_skills td {
+  border: 1px solid rgb(224 , 159 , 62);
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
 #rodape {
   width: 100%;
-  height: 60px;
+  height: fit-content;
   position: relative;
-  background-color: grey;
+  background-color: rgb(84 , 11 , 14);
   text-align: center;
-  padding: 40px 0 0;
+  padding: 15px 15px;
+  color: rgb(255 , 243 , 176);
+}
+
+.contactpic{
+  width: 60px;
+  border-radius: 50%;
+  margin: 10px 0px;
 }
