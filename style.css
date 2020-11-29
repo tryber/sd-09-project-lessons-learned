@@ -9,20 +9,19 @@ html {
 }
 
 body {
-  position: absolute;
-  top: 125px;
   background-color: rgb(253 , 251 , 251);
 }
 
-#principal {
+main {
   display: inline-block;
   width: fit-content;
   max-width: 850px;
+  margin-top: 120px;
 }
 
 .trybe {
   color: teal;
-  font-weight: 600;
+  font-weight: 600px;
   text-decoration: none;
 }
 
@@ -90,18 +89,16 @@ body {
   margin: 10px 0 10px 10px;
 }
 
-.artigo {
-  background-color: rgb(255 , 243 , 176);
-  border: 5px solid rgb(224 , 159 , 62);
-  width: fit-content;
-  margin: 10px 1px 1px 10px;
-  padding: 5px;
-}
-
-.artigo h2 {
+.sessao h2 {
   font-family: Acme, sans-serif;
   letter-spacing: 1.5px;
-  color: rgb(84 , 11 , 14);
+  color: rgb(84 , 11 , 14)
+}
+
+.artigo {
+  background-color: rgb(255 , 243 , 176);
+  width: fit-content;
+  margin: 5px 1px 1px;
   padding: 5px;
 }
 
@@ -115,7 +112,7 @@ body {
 
 #sobremim {
   width: fit-content;
-  padding-left: 10px;
+  padding-left: 20px;
   font-size: 20px;
   color: rgb(84 , 11 , 14);
 }
@@ -176,7 +173,6 @@ body {
 #texto-principal p {
   text-indent: 30px;
 }
-
 #texto-principal h3 {
   padding: 5px;
 }
@@ -186,13 +182,16 @@ body {
   display: inline-block;
   padding: 5px;
   vertical-align: top;
-  margin: 10px 5px 10px 10px;
+  margin: 130px 5px 10px 10px;
   width: fit-content;
   height: fit-content;
   max-width: 460px;
   font-family: Noto Sans, sans-serif;
 }
-
+#trexinho {
+  text-align: right;
+  font-size: small;
+}
 #canto h2 {
   font-family: Acme, sans-serif;
   letter-spacing: 1.5px;
@@ -205,31 +204,25 @@ body {
   padding: 0 10px;
 }
 
-.ident {
+#canto p {
   text-indent: 30px;
   text-align: justify;
   padding: 0 20px;
 }
 
-#trexinho {
-  text-align: right;
-}
-
 #tabela {
   background-color: rgb(158 , 42 , 43);
-  display: inline-block;
   text-align: center;
   margin: 20px auto auto;
   padding: 5px;
   width: fit-content;
   font-family: Noto Sans, sans-serif;
 }
-
 #tabela h3 {
   color: rgb(255 , 243 , 176);
   text-align: center;
   font-family: Acme, sans-serif;
-  font-weight: 600;
+  font-weight: 600px;
   font-size: 25px;
   letter-spacing: 1.5px;
   padding: 5px;
@@ -249,7 +242,7 @@ body {
 .tdline {
   border: 1px solid rgb(224 , 159 , 62);
   text-align: center;
-  font-weight: 600;
+  font-weight: 600px;
   font-size: 30px;
 }
 
@@ -257,7 +250,7 @@ body {
   background-color: rgb(255 , 243 , 176);
   padding: 10px;
   border: 1px solid rgb(224 , 159 , 62);
-  font-weight: 600;
+  font-weight: 600px;
   font-size: medium;
 }
 
@@ -274,5 +267,5 @@ body {
 .contactpic {
   width: 60px;
   border-radius: 50%;
-  margin: 10px 0;
+  margin: 10px 0px;
 }
