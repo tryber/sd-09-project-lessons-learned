@@ -22,7 +22,7 @@ main {
     background-color: black;
     width: 66%;
     top: 10%;
-    left: 2%;
+    left: 1%;
     padding: 1%;
     padding-right: 0;
     margin: 1px;
@@ -92,17 +92,18 @@ li {
 .lado-esquerdo{
     color: violet;
     background-color: green;
-    position: absolute;
+    position: relative;
     width: 37%;
-    top: 69%;
-    left: 30%;
+    top: 470px;
+    left: 29%;
     padding: 1%;
+    float: left;
 }
 
 .lado-direito{
     position: absolute;
     top: 10%;
-    right: 2%;
+    right: 1%;
     width: 27%;
     background-image: url("assets/paper-background.jpg");
     background-size: cover;
