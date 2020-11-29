@@ -2,7 +2,7 @@ body {
   background-color: rgb(253 , 251 , 251);
   font-size: 17.6px;
   color: rgb(25 , 25 , 25);
-  font-family: "Nunito";
+  font-family: 'Nunito';
 }
 
 #cabecalho {
@@ -17,5 +17,10 @@ body {
 }
 
 ol , ul {
+  display: inline-block;
+}
+
+article , section {
+  width: 40%;
   display: inline-block;
 }
