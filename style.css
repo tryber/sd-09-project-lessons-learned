@@ -43,7 +43,7 @@ body {
     display: inline-block;
 }
 aside {
-    width: 40%;
+    width: 30%;
     float: right;
     border-left: 1px solid gray;
     margin-top: -10px;
@@ -51,6 +51,6 @@ aside {
 aside  p {
     margin: 5px;
 }
-#main_part article p {
-    width: 58%;
+article p {
+    width: 80%;
 }
