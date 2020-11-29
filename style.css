@@ -10,6 +10,7 @@ html {
 
 body {
   position: absolute;
+  width: fit-content;
   top: 125px;
   background-color: rgb(253 , 251 , 251);
 }
@@ -91,6 +92,7 @@ body {
 }
 
 .artigo {
+  display: inline-block;
   background-color: rgb(255 , 243 , 176);
   border: 5px solid rgb(224 , 159 , 62);
   width: fit-content;
