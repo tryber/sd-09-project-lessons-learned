@@ -10,6 +10,7 @@ body {
   background-color: gray;
   height: 9%;
   text-align: left;
+  z-index: 10;
 }
 
 #titulo {
@@ -19,13 +20,14 @@ body {
 main {
     position: absolute;
     background-color: black;
-    width: 60%;
-    height: 50%;
+    width: 66%;
     top: 10%;
     left: 1%;
-    padding: 2%;
+    padding: 1%;
+    padding-right: 0;
     margin: 1px;
-    border: dotted green;
+    border: dotted;
+    border-radius: 30px;
     display: inline-block;
 }
 
@@ -33,6 +35,8 @@ main {
     position: relative;
     float: left;
     height: 330px;
+    margin-top: 7px;
+    margin-left: 5px;
     border: 10px ridge silver;
 }
 
@@ -83,4 +87,30 @@ li {
     border-width: 1px;
     background-color: green;
     opacity: 0.7;
+    z-index: 10;
+}
+
+.lado-esquerdo{
+    color: violet;
+    background-color: green;
+    position: absolute;
+    top: 75%;
+}
+
+.lado-direito{
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    width: 27%;
+    background-image: url("assets/paper-background.jpg");
+    background-size: cover;
+    padding: 1%;
+    border-radius: 30px;
+    padding-top: 95px;
+}
+#poema{
+    color: black;
+    position: relative;
+    margin-left: 7%;
+    font-family: fantasy;
 }
