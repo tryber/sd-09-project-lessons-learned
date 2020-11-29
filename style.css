@@ -5,3 +5,7 @@ body {
 header {
   margin: 0px;
 }
+
+footer a{
+  text-decoration: none;
+}
