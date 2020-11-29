@@ -12,3 +12,7 @@ body{
  border-color: blueviolet;
  line-height: 1.5;
 }
+
+.lado-esquerdo {
+    float: right;
+}
