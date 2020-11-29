@@ -8,7 +8,7 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Sansita Swashed', cursive;
+  font-family: 'Sansita Swashed', 'cursive';
 }
 
 .titulos {
@@ -37,8 +37,8 @@ body {
 
 .lista {
   padding: 20px;
-  width: 100%;
-  margin: auto;
+  width: 50%;
+  
 }
 
 #lista_licoes_aprendidas {
@@ -69,15 +69,38 @@ body {
 }
 
 .lado-direito {
-  padding: 20px;
+  padding: 10px;
   width: 30%;
   height: 20%;
-  margin: 20px;
+  margin: 20px 0 20px 30px;
   border: 1px solid black;
   display: inline-block;
   text-align: left;
+  
 }
-.define-fonte{
+
+.define-fonte {
   font-size: 16px;
   line-height: 26px;
 }
+
+#learning_table{
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+#table {
+  float: right;
+  margin-top: 60px;
+  margin-right: 10px;
+  
+}
+
+#table, td {
+  border: 1px solid black;
+  height: 50px;
+  width: 700px;
+}
+
+
+
