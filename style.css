@@ -16,7 +16,6 @@ body {
 
 main {
   display: inline-block;
-  font-size: 17.2px;
   width: fit-content;
   max-width: 850px;
   margin-top: 120px;
@@ -112,7 +111,7 @@ main {
   width: 211px;
   border: 15px ridge rgb(224 , 159 , 62);
   vertical-align: top;
-  margin: 10px 10px 0;
+  margin: 20px 10px 0;
 }
 
 #sobremim {
