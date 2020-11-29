@@ -16,7 +16,6 @@ body {
   height: 100px;
   padding-left:70%;
   
-  
   }
   
   #minha_foto {
@@ -34,38 +33,47 @@ body {
   
   #licoes_a_aprender {
   float: left;
-  padding-right: 300px;
-  padding: 10%;
+  padding-right: 20%;
+  padding: 15%;
+  padding-bottom: 60%;
   }
   
   #licoes_aprendidas {
   float: right;
-  padding: 25%;
+  padding: 30%;
   padding-top: 10%;
   
   }
   
   h3 {
-    background-color:rgb(201, 136, 75);
-    line-height: 30px;
-    border-radius: 10px;
-    text-align: center;
+  background-color:rgb(201, 136, 75);
+  line-height: 30px;
+  border-radius: 10px;
+  text-align: center;
   }
   
   #text {
-    overflow : auto;
-    padding-left: 20%;
-    margin-right: 5%;
-    margin-bottom: 20%;
-    text-align: justify;
-    padding: 5%;
-    padding-top: 100px;
-    font-size: 18px;
-    line-height: 30px;
+  overflow: hidden;
+  padding-right: 40%;
+  margin-right: 5%;
+  margin-bottom: 20%;
+  text-align: justify;
+  padding-top: 100px;
+  font-size: 18px;
+  line-height: 30px;
   
+  }
+
+  #side {
+  float: right;
+  margin-left: 5%;
+  margin-bottom: 20%;
+  font-size: 18px;
+  line-height: 30px;
+  display: inline;
   }
   
   h2 {
-    text-align: center;
+  text-align: center;
   }
   
