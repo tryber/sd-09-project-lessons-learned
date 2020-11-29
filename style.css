@@ -31,6 +31,8 @@ body {
 #titulo {
   font-style: italic;
   font-size: 3em;
+  color: rgb(30, 72, 82);
+  letter-spacing: 2px;
   position: absolute;
   left: 5em;
   top: 30px;
@@ -45,7 +47,7 @@ body {
   right: 5em;
 }
 
-#banner a {
+#menu a {
   font-size: 2em;
   display: inline-block;
   position: absolute;
@@ -54,7 +56,7 @@ body {
   border-bottom: navy 2px solid;
 }
 
-#banner a + a {
+#menu a + a {
   margin-left: 4em;
 }
 
@@ -124,5 +126,5 @@ footer {
   padding: 10px;
   position: fixed;
   bottom: 0;
-  text-align: center;  
+  text-align: center;
 }
