@@ -3,17 +3,16 @@ body {
   font-size: 17.6px;
   color: rgb(25 , 25 , 25);
   line-height: 1.2em;
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
 }
 
 #cabecalho {
-  background-color: #222222;
-  color: #FAFAFA;
+  background-color: rgb(25 , 25 , 25);
+  color: rgb(250 , 250 , 250);
   text-align: center;
   position: fixed;
   height: 13%;
-  /* margin: 0;  */
-  padding: 10px 470px;
+  padding: 0 470px 20px;
   top: 0;
 }
 
@@ -36,7 +35,6 @@ ol , ul {
 
 .lado-esquerdo , .lado-direito {
   border: 2px solid black;
-  /* height: 100px; */
   margin: 0 50px;
   width: 40%;
   display: inline-block;
