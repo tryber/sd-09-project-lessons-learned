@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 ,251 ,251);
 }
 #titulo {
   display: inline-block;
@@ -11,7 +11,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(72, 164, 107);
+  background-color: rgb(72 ,164 ,107);
   width: 100%;
   height: 20%;
 }
@@ -20,11 +20,9 @@ body {
   left: 40%;
   top: 2%;
   display: inline;
-  font-family: "Nerko One";
+  font: Nerko One;
   font-size: xx-large;
-  position: fixed;
   right: 50px;
-  top: 35px;
   padding: 20px;
 }
 #nav li {
@@ -39,19 +37,19 @@ a:visited {
   color: white;
 }
 a:hover {
-  color: rgb(107, 112, 92);
+  color: rgb(107 ,112 ,92);
 }
 a:active {
-  color: rgb(107, 112, 92);
+  color: rgb(107 ,112 ,92);
 }
 #titulo {
-  font-family: "Shadows Into Light";
+  font: Shadows Into Light;
   padding: 15px;
 }
 #minha_foto {
   width: 300px;
   margin-top: 10%;
-  border: 10px rgb(48, 109, 96) solid;
+  border: 10px rgb(48 ,109 ,96) solid;
   float: left;
 }
 #coluna {
@@ -74,7 +72,7 @@ a:active {
   line-height: 25px;
 }
 h2, h3 {
-  font-family: "Nerko One";
+  font-family: Nerko One;
 }
 #textos {
   display: inline-block;
@@ -84,7 +82,6 @@ h2, h3 {
   padding-right: 800px;
   font-weight: 200;
   font-style: italic;
-  font-weight: 500;
   margin-left: 30px;
   display: inline;
 }
@@ -98,11 +95,11 @@ h2, h3 {
   margin-top: -190px;
   font-style: italic;
   padding-right: 100px;
-  color: rgb(92, 114, 92);
+  color: rgb(92 ,114 ,92);
   display: inline;
 }
 #rodape {
-  background-color: rgb(72, 164, 107);
+  background-color: rgb(72 ,164 ,107);
   width: 100%;
   bottom: 5px;
   text-align: center;
@@ -110,7 +107,7 @@ h2, h3 {
   padding: 10px;
 }
 p {
-  font-family: "Nunito";
+  font: "Nunito";
 }
 table {
   font-family: arial, sans-serif;
@@ -124,16 +121,16 @@ table {
   margin-right: 20px;
 }
 td {
-  border: 1px solid #7a7979;
+  border: 1px solid rgb(209 ,209 ,209);
   text-align: left;
   padding: 5px;
   border-top: 10%;
-  font-family: "Nunito";
+  font: Nunito;
 }
 th {
-  border: 1px solid #7c7b7b;
+  border: 1px solid rgb(183 ,183 ,164);
   text-align: left;
   padding: 5px;
   border-top: 10%;
-  font-family: "Nunito";
+  font: Nunito;
 }
