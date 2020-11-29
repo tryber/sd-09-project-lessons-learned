@@ -117,11 +117,20 @@ main {
 #sobremim {
   width: fit-content;
   padding-left: 20px;
-  font-size: 20px;
   color: rgb(84 , 11 , 14);
+  margin: -20px 0 5px 0;
+  font-family: sans-serif;
+}
+
+#sobremim h2 {
+  font-family: Acme, sans-serif;
+  letter-spacing: 1.5px;
+  color: rgb(84 , 11 , 14);
+  margin-top: -25px;
 }
 
 #sobremim p {
+  font-size: 20px;
   text-indent: 30px;
 }
 
@@ -148,7 +157,7 @@ main {
   width: 250px;
   padding: 10px 0 5px 35px;
   color: rgb(158 , 42 , 43);
-  font-weight: 600;
+  font-family: Noto sans, sans-serif;
 }
 
 #licoes_aprendidas h3 {
@@ -161,7 +170,7 @@ main {
   width: 250px;
   padding: 10px 0 5px 35px;
   color: rgb(84 , 11 , 14);
-  font-weight: 600;
+  font-family: Noto sans, sans-serif;
 }
 
 #licoes_a_aprender h3 {
@@ -171,17 +180,13 @@ main {
 }
 
 #texto-principal {
-  text-align: justify;
-  font-family: Noto Sans, sans-serif;
   width: 815px;
 }
 
 #texto-principal p {
   text-indent: 30px;
-}
-
-#texto-principal h3 {
-  padding: 5px;
+  font-family: Noto Sans, sans-serif;
+  text-align: justify;
 }
 
 #canto {
@@ -193,7 +198,6 @@ main {
   width: fit-content;
   height: fit-content;
   max-width: 460px;
-  font-family: Noto Sans, sans-serif;
 }
 
 #canto h2 {
@@ -203,6 +207,7 @@ main {
 }
 
 #canto p {
+  font-family: Noto Sans, sans-serif;
   text-indent: 30px;
   text-align: justify;
   padding: 0 20px;
@@ -261,6 +266,7 @@ main {
   text-align: center;
   padding: 15px;
   color: rgb(255 , 243 , 176);
+  font-family: Noto sans, sans-serif;
 }
 
 #rodape p {
