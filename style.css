@@ -39,7 +39,7 @@ main {
   text-align: center;
   font-family: Acme, sans-serif;
   letter-spacing: 1px;
-  font-size: 50px;
+  font-size: 3em;
   text-shadow: rgb(11 , 22 , 26) 0.06em 0.1em 0.1em;
 }
 
