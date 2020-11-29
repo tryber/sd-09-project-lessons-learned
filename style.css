@@ -27,9 +27,16 @@ footer {
   margin-bottom: 10px;
   background-color: rgb(253 , 251 , 251);
   padding: 20px;
-  height: 100%;
-  border: 2px solid rgb(217 , 123 , 145);
+  height: 600px;
+  border: 1px solid rgb(170, 134, 143);
   border-radius: 7px;
+  box-shadow: 5px 10px rgb(170, 134, 143);
+}
+
+.sidebar-content{
+  position: absolute;
+  margin-top: 40px;
+  width: 16.5%;
 }
 
 .side-titles {
@@ -46,18 +53,53 @@ footer {
 }
 
 #minha_foto {
-  width: 65%;
+  width: 100%;
+  position: relative;
+  top: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(170, 134, 143);
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 5px;
+  background-color: rgb(114 , 63 , 97);
+}
+
+.container {
   position: relative;
   top: 20px;
   left: 40px;
-  border-radius: 50%;
-  border: 2px solid rgb(217 , 123 , 145);
+  width: 65%;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
 }
 
 .caption {
   font-size: 17px;
-  padding-top: 15px;
-  padding-left: 7px;
+  color: white;
+  text-align: center;
+  padding-top: 110px;
+  padding-left: 100px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.name {
+  position: relative;
+  top: 30px;
+  font-size: 17px;
   text-align: center;
 }
 
@@ -156,18 +198,20 @@ td {
 .menu1 {
   width: 100%;
   display: inline-block;
-  border: 2px solid rgb(217 , 123 , 145);
+  border: 2px solid rgb(170, 134, 143);
   border-radius: 5px 5px 0 0;
   text-align: center;
+  font-weight: 800;
 }
 
 .menu2 {
   width: 100%;
   display: inline-block;
-  border: 2px solid rgb(217 , 123 , 145);
+  border: 2px solid rgb(170, 134, 143);
   border-top: 0;
   border-radius: 0 0 5px 5px;
   text-align: center;
+  font-weight: 800;
 }
 
 .external-link {
