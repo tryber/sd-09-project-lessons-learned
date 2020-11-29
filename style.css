@@ -1,0 +1,86 @@
+* {
+    background-color: rgb(253,251,251);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: green;
+    height: 13vh;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+#titulo {
+    background-color: green;
+    margin: 2vh;
+    margin-left: 43vw;
+    width: 100vw;
+}
+nav {
+    background-color: green;
+}
+span {
+    background-color: green;
+    margin-left: 30vw;
+}
+#minha_foto {
+    border-radius: 5px;
+    display: inline-block;
+    height: 350px;
+    margin-top: 14vh;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+    margin-right: 2vw;
+    width: 20vw;
+}
+.listas {
+    display: inline-block;
+    margin: 8vh 6vw 2vh 7vw;
+    width: 45vw;
+}
+li, tr {
+   height: 32px;
+   width: 340px; 
+}
+.textos {
+    display: block;
+    width: 100vw;
+    margin-top: 50px;
+}
+.lado_esquerdo {
+    float: left;
+    height: 16vh;
+    width: 45vw;
+    margin-left: 2vw;
+}
+.lado_direito {
+    height: 16vh;
+    margin-right: 2vw;
+    width: 45vw;
+    float: right;
+}
+#rodape {
+    clear: both;
+    background-color: green;
+    height: 99px;
+    margin-top: 25px;
+}
+
+#icone {
+    clear: both;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+}
+a {
+    background-color: green;
+}
+.sf {
+    position: relative;
+    bottom: -45px;
+}
+.ft {
+
+}
