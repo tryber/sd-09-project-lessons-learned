@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -14,107 +14,116 @@ body {
 }
 
 #titulo {
-    margin: 1%;
+  margin: 1%;
 }
 
 main {
-    position: absolute;
-    background-color: black;
-    width: 66%;
-    top: 10%;
-    left: 1%;
-    padding: 1%;
-    padding-right: 0;
-    margin: 1px;
-    border-radius: 30px;
-    display: inline-block;
+  position: absolute;
+  background-color: black;
+  width: 66%;
+  top: 10%;
+  left: 1%;
+  padding: 1%;
+  padding-right: 0;
+  margin: 1px;
+  border-radius: 30px;
+  display: inline-block;
 }
 
 #minha_foto {
-    position: relative;
-    float: left;
-    height: 330px;
-    margin-top: 7px;
-    margin-left: 5px;
-    border: 10px ridge silver;
+  position: relative;
+  float: left;
+  height: 330px;
+  margin-top: 7px;
+  margin-left: 5px;
+  border: 10px ridge silver;
 }
 
 #aprendidas {
-    position: relative;
-    color: white;
-    width: 50%;
-    left: 10%;
-    margin-top: -20px;
-    padding-top: 0;
-    text-align: left;
+  position: relative;
+  color: white;
+  width: 50%;
+  left: 10%;
+  margin-top: -20px;
+  padding-top: 0;
+  text-align: left;
 }
 
 #nao-aprendidas {
-    position: relative;
-    color: white;
-    width: 35%;
-    right: 0;
-    margin-top: -382px;
-    text-align: center;
-    float: right;
+  position: relative;
+  color: white;
+  width: 35%;
+  right: 0;
+  margin-top: -382px;
+  text-align: center;
+  float: right;
 }
 
 .icon {
-    float: right;
-    position: relative;
-    overflow: clip;
-    border-radius: 100%;
-    height: 25px;
-    margin: 0;
-    right: 10%;
+  float: right;
+  position: relative;
+  overflow: clip;
+  border-radius: 100%;
+  height: 25px;
+  margin: 0;
+  right: 10%;
 }
 
 li {
-    text-align: left;
-    margin: 10px;
-    font-size: large;
+  text-align: left;
+  margin: 10px;
+  font-size: large;
 }
 
 #rodape {
-    position: fixed;
-    width: 100%;
-    height: 5%;
-    bottom: 0;
-    left: 0;
-    padding: 0 0 10px 7px;
-    border-style: solid none none none;
-    border-width: 1px;
-    background-color: green;
-    opacity: 0.7;
-    z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 5%;
+  bottom: 0;
+  left: 0;
+  padding: 0 0 10px 7px;
+  border-style: solid none none none;
+  border-width: 1px;
+  background-color: green;
+  opacity: 0.7;
+  z-index: 10;
 }
 
-.lado-esquerdo{
-    color: violet;
-    background-color: green;
-    position: relative;
-    width: 37%;
-    top: 470px;
-    left: 29%;
-    padding: 1%;
-    float: left;
+.lado-esquerdo {
+  color: violet;
+  background-color: green;
+  position: relative;
+  width: 37%;
+  top: 470px;
+  left: 29%;
+  padding: 1%;
+  float: left;
 }
 
-.lado-direito{
-    position: absolute;
-    top: 10%;
-    right: 1%;
-    width: 27%;
-    background-image: url("assets/paper-background.jpg");
-    background-size: cover;
-    padding: 1%;
-    border-radius: 30px;
-    padding-top: 95px;
+.lado-direito {
+  position: absolute;
+  top: 10%;
+  right: 1%;
+  width: 27%;
+  background-image: url("assets/paper-background.jpg");
+  background-size: cover;
+  padding: 1%;
+  border-radius: 30px;
+  padding-top: 95px;
 }
-.poema{
-    color: black;
-    position: relative;
-    margin-left: 7%;
-    font-family: fantasy;
-    line-height: 18px;
+.poema {
+  color: black;
+  position: relative;
+  margin-left: 7%;
+  font-family: fantasy;
+  line-height: 18px;
+}
+
+nav {
+  width: 35%;
+  height: 50px;
+  position: relative;
+  top: 360px;
+  left: 2%;
+  padding: 2%;
 }
