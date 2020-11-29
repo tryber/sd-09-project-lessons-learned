@@ -66,6 +66,7 @@ main {
   border-radius: 3px;
   color: rgb(84 , 11 , 14);
   font-size: 30px;
+  font-family: Acme, sans-serif;
 }
 
 #menu a:hover {
@@ -197,12 +198,6 @@ main {
   font-family: Acme, sans-serif;
   letter-spacing: 1.5px;
   color: rgb(84 , 11 , 14);
-  padding: 5px;
-}
-
-#canto h3 {
-  text-align: right;
-  padding: 0 10px;
 }
 
 #canto p {
@@ -219,6 +214,7 @@ main {
   width: fit-content;
   font-family: Noto Sans, sans-serif;
 }
+
 #tabela h3 {
   color: rgb(255 , 243 , 176);
   text-align: center;
@@ -263,6 +259,10 @@ main {
   text-align: center;
   padding: 15px;
   color: rgb(255 , 243 , 176);
+}
+#rodape p {
+  font-style: italic;
+  font-variant: small-caps;
 }
 
 .contactpic {
