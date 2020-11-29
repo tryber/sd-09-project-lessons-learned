@@ -22,7 +22,7 @@ main {
     background-color: black;
     width: 66%;
     top: 10%;
-    left: 1%;
+    left: 2%;
     padding: 1%;
     padding-right: 0;
     margin: 1px;
@@ -95,14 +95,14 @@ li {
     position: absolute;
     width: 37%;
     top: 69%;
-    left: 29%;
+    left: 30%;
     padding: 1%;
 }
 
 .lado-direito{
     position: absolute;
     top: 10%;
-    right: 1%;
+    right: 1.5%;
     width: 27%;
     background-image: url("assets/paper-background.jpg");
     background-size: cover;
