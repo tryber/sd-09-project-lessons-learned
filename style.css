@@ -22,7 +22,7 @@ main {
 
 .trybe {
   color: teal;
-  font-weight: 600px;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ main {
 .sessao h2 {
   font-family: Acme, sans-serif;
   letter-spacing: 1.5px;
-  color: rgb(84 , 11 , 14)
+  color: rgb(84 , 11 , 14);
 }
 
 .artigo {
@@ -174,6 +174,7 @@ main {
 #texto-principal p {
   text-indent: 30px;
 }
+
 #texto-principal h3 {
   padding: 5px;
 }
@@ -189,10 +190,12 @@ main {
   max-width: 460px;
   font-family: Noto Sans, sans-serif;
 }
+
 #trexinho {
   text-align: right;
   font-size: small;
 }
+
 #canto h2 {
   font-family: Acme, sans-serif;
   letter-spacing: 1.5px;
@@ -219,11 +222,12 @@ main {
   width: fit-content;
   font-family: Noto Sans, sans-serif;
 }
+
 #tabela h3 {
   color: rgb(255 , 243 , 176);
   text-align: center;
   font-family: Acme, sans-serif;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 25px;
   letter-spacing: 1.5px;
   padding: 5px;
@@ -243,7 +247,7 @@ main {
 .tdline {
   border: 1px solid rgb(224 , 159 , 62);
   text-align: center;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 30px;
 }
 
@@ -251,7 +255,7 @@ main {
   background-color: rgb(255 , 243 , 176);
   padding: 10px;
   border: 1px solid rgb(224 , 159 , 62);
-  font-weight: 600px;
+  font-weight: 600;
   font-size: medium;
 }
 
@@ -268,5 +272,5 @@ main {
 .contactpic {
   width: 60px;
   border-radius: 50%;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
