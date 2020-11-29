@@ -7,6 +7,7 @@
 body {
   width: 1366px;
   height: 100vh;
+  background-color: rgb(253, 251, 251);
   margin: 0 auto;
 }
 
@@ -27,11 +28,11 @@ body {
 }
 
 #titulo {
-  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
   font-size: 3em;
   position: absolute;
   left: 5em;
-  top: 20px;
+  top: 30px;
 }
 
 #minha_foto {
@@ -44,12 +45,11 @@ body {
 }
 
 #banner a {
-  font-family: 'Josefin Sans', sans-serif;
   font-size: 2em;
   display: inline-block;
   position: absolute;
   left: 12em;
-  bottom: 1em;
+  bottom: 40px;
 }
 
 #banner a + a {
