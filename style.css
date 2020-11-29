@@ -14,7 +14,7 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
-main {
+#principal {
   display: inline-block;
   width: fit-content;
   max-width: 850px;
@@ -90,17 +90,18 @@ main {
   margin: 10px 0 10px 10px;
 }
 
-.sessao h2 {
+.artigo {
+  background-color: rgb(255 , 243 , 176);
+  border: 5px solid rgb(224 , 159 , 62);
+  width: fit-content;
+  margin: 10px 1px 1px;
+  padding: 5px;
+}
+
+.artigo h2 {
   font-family: Acme, sans-serif;
   letter-spacing: 1.5px;
   color: rgb(84 , 11 , 14);
-}
-
-.artigo {
-  background-color: rgb(255 , 243 , 176);
-  border: 10px solid rgb(224 , 159 , 62);
-  width: fit-content;
-  margin: 5px 1px 1px;
   padding: 5px;
 }
 
@@ -114,7 +115,7 @@ main {
 
 #sobremim {
   width: fit-content;
-  padding-left: 20px;
+  padding-left: 10px;
   font-size: 20px;
   color: rgb(84 , 11 , 14);
 }
@@ -192,11 +193,6 @@ main {
   font-family: Noto Sans, sans-serif;
 }
 
-#trexinho {
-  text-align: right;
-  font-size: small;
-}
-
 #canto h2 {
   font-family: Acme, sans-serif;
   letter-spacing: 1.5px;
@@ -209,14 +205,19 @@ main {
   padding: 0 10px;
 }
 
-#canto p {
+.ident {
   text-indent: 30px;
   text-align: justify;
   padding: 0 20px;
 }
 
+#trexinho {
+  text-align: right;
+}
+
 #tabela {
   background-color: rgb(158 , 42 , 43);
+  display: inline-block;
   text-align: center;
   margin: 20px auto auto;
   padding: 5px;
