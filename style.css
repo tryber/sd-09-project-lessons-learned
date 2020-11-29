@@ -5,71 +5,119 @@
 }
 
 body {
-  background-color: rgb(253 , 251 , 251);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 20px;
+  width: 1366px;
   height: 100vh;
-  position: relative;
+  margin: 0 auto;
 }
+
+/*== header ==*/
 
 #cabecalho {
   position: fixed;
-  padding: 20px;
-  top: 0;
-  font-size: 20px;
-  color: rgb(0 , 95 , 146);
-  text-align: center;
-}
-
-nav {
-  padding: 10px;
-}
-
-nav li {
-  display: inline-block;
-}
-
-#minha_foto {
-  width: 300px;
-  margin-top: 80px;
-  border-radius: 20px;
   display: block;
 }
 
-#list_container {
-  text-align: center;
-}
-
-.listas {
+#banner {
   display: inline-block;
-  text-align: left;
+  background-color: rgb(156, 255, 255);
+  border-radius: 0 0 30px 30px;
+  width: 1366px;
+  height: 180px;
+  text-align: center;
+  position: relative;
 }
 
-.listas ul {
-  margin-left: 40px;
-}
-
-#rodape {
+#titulo {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em;
   position: absolute;
-  width: 100vw;
-  height: 40px;
-  background-color: rgb(48 , 182 , 255);
-  bottom: 0;
-  text-align: center;
+  left: 5em;
+  top: 20px;  
 }
 
-#rodape p {
-  margin-top: 10px;
-  color: white;
+#minha_foto {
+  width: 200px;
+  border-radius: 50%;
+  border: rgb(156, 255, 255) solid 5px;
+  position: absolute;
+  top: 1em;
+  right: 5em;
 }
 
-.lado-esquerdo {
+#banner a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
   display: inline-block;
-  width: 300px;
-  top: 60;
+  position: absolute;
+  left: 12em;
+  bottom: 1em;
+}
+
+#banner a+a {
+  margin-left: 5em;
+}
+
+/*== Section lições ==*/
+
+ol, ul,h3 {
+  display: inline-block;
+  line-height: 28px;  
+}
+
+li, h3 {
+  border-bottom: black solid 1px;
+}
+
+#titulo-aprendidas {
+  margin-right: 170px;
+  margin-bottom: 20px;
+}
+
+#licoes ol+ul {
+  margin-left: 100px;
+}
+
+#licoes {
+  padding-top: 210px;
+  text-align: center;  
+}
+
+/*== Article e aside ==*/
+
+td {
+  display: inline-block;
+  margin-left: 120px
+}
+
+article, aside {
+  width: 500px;
+}
+
+#stories {
+  margin-top: 50px;
 }
 
 .lado-direito {
-  display: inline-block;
-  margin-left: 40px;
+  border: rgb(156, 255, 255) solid 2px;
+  border-radius: 20px;
+  padding:50px 20px 45px 20px;
+}
+
+.lado-esquerdo {
+  border: rgb(156, 255, 255) solid 2px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/*== Footer ==*/
+
+footer {
+  width: 1366px;
+  height: 20ppx;
+  background-color: rgb(156, 255, 255);
+  border-radius: 30px 30px 0 0 ;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
 }

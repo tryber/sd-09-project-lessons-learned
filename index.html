@@ -3,94 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
   <header id="cabecalho">
-    <h1 id="titulo">
-      Lições Aprendidas - Trybe
-    </h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="https://github.com/marcusWittho" target="_blanck">GitHub</a></li>
-      </ul>
-    </nav>
+    <div id="banner">
+      <h1 id="titulo">
+        Lições Aprendidas - Trybe
+      </h1>
+      <img id="minha_foto" src="https://avatars1.githubusercontent.com/u/66654653?s=460&u=c99615034de62600eda9617441035c26fe045751&v=4" alt="Foto do Marcus">
+      <a href="index.html">Home</a>
+      <a href="https://github.com/marcusWittho" target="_blanck">GitHub</a>
+    </div>
   </header>
-  <img id="minha_foto" src="https://avatars1.githubusercontent.com/u/66654653?s=460&u=c99615034de62600eda9617441035c26fe045751&v=4" alt="Foto do Marcus">
-  <div class="lado-esquerdo">
-    <article>
-      Deixarei aqui um breve resumo sobre meu começo na Trybe. Depois de muito desânimo com a minha vida profissional, resolvi finalmente partir para uma área que gosto muito, e para minha alegria pude estudar aqui na Trybe,  que além de capacitar tecnicamente seus estudantes, os ajuda a desenvolver habilidades sócio comportamentais, e isso fez ficar ainda mais animado com o método de ensino que eles praticam. Acredito que devido ao processo seletivo da Trybe.
-    </article>
-  </div>
-  <div class="lado-direito">
-    <section id="list_container">
-      <div class="listas">
-        <ol id="licoes_aprendidas">
-          <li>Unix & Bash</li>
-          <li>Internet</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>Estrutura de páginas HTML & CSS</li>
-          <li>Seletore e posicionamento</li>
-          <li>HTML semântico</li>
-          <li>Zoom</li>
-          <li>Slack</li>
-          <li>inteligência emocional</li>
-        </ol>
-      </div>
-      <div class="listas">
-        <ul id="licoes_a_aprender">
-          <li>CSS responsivos</li>
-          <li>JavaScript</li>
-          <li>Forms</li>
-          <li>React</li>
-          <li>Testes automatizados</li>
-          <li>Node</li>
-          <li>SQL</li>
-          <li>Mongo</li>
-          <li>Express</li>
-          <li>Algoritmos e estrutura de dados</li>
-        </ul>
-      </div>
-    </section>
-  </div>
-  <section>
-    <aside>
-      Só um dos vários momentos na trybe. Enquanto eu realizava um dos exercícios propostos, o código simplesmente parou funcionar, orei para pelo menos três santos diferentes, até que um me iluminou, eu havia esquecido de fechar um dos parênteses.
-    </aside>
+  <section id="licoes">
+    <div id="headerLessons">
+      <h3 id="titulo-aprendidas">Lições aprendidas</h3>
+      <h3 id="titulo-aprender">Lições a aprender</h3>
+    </div>
+    <ol id="licoes_aprendidas">
+      <li>Unix & Bash</li>
+      <li>Internet</li>
+      <li>Git</li>
+      <li>GitHub</li>
+      <li>Estrutura de páginas HTML & CSS</li>
+      <li>Seletore e posicionamento</li>
+      <li>HTML semântico</li>
+      <li>Zoom</li>
+      <li>Slack</li>
+      <li>inteligência emocional</li>
+    </ol>
+    <ul id="licoes_a_aprender">
+      <li>CSS responsivos</li>
+      <li>JavaScript</li>
+      <li>Forms</li>
+      <li>React</li>
+      <li>Testes automatizados</li>
+      <li>Node</li>
+      <li>SQL</li>
+      <li>Mongo</li>
+      <li>Express</li>
+      <li>Algoritmos e estrutura de dados</li>
+    </ul>
   </section>
-  <section>
-    <p>Link para acessar meu perfil no <a href="https://github.com/marcusWittho" target="_blank">GitHub</a> e acompanhar meu desenvolvimento durante o curso.</p>
+  <section id="stories">
+    <table>
+      <tr>
+        <td>
+          <article class="lado-esquerdo">
+            Deixarei aqui um breve resumo sobre meu começo na Trybe. Depois de muito tempo, resolvi finalmente mudar de carreira e partir para uma área que gosto muito, e para minha alegria pude estudar aqui na Trybe,  que além de capacitar tecnicamente seus estudantes, os ajuda a desenvolver habilidades sócio comportamentais, e isso fez ficar ainda mais animado com o método de ensino que eles praticam. Acredito que devido ao processo seletivo da Trybe.
+          </article>
+        </td>
+        <td>
+          <aside class="lado-direito">
+            Só um dos vários momentos na trybe. Enquanto eu realizava um dos exercícios propostos, o código simplesmente parou funcionar, depois de um tempo e sem saber mais o que fazer,veio a iluminação, eu havia trocado uma vírgula por ponto.
+          </aside>
+        </td>
+      </tr>
+    </table>
   </section>
-  <table>
-    <tr>
-      <th>Alguns Tópicos Futuros</th>
-    </tr>
-    <tr>
-      <td>JavaScript</td>
-    </tr>
-    <tr>
-      <td>Testes Automatizados</td>
-    </tr>
-    <tr>
-      <td>React</td>
-    </tr>
-    <tr>
-      <td>SQL</td>
-    </tr>
-    <tr>
-      <td>MongoDB</td>
-    </tr>
-    <tr>
-      <td>NodeJs</td>
-    </tr>
-  </table>
 </body>
 <footer id="rodape">
   <p>
-    Desenvolvido especialmente por Marcus Lima Witthoeft.
+    Todos os direitos reservados, Marcus Lima Witthoeft.
   </p>
 </footer>
 </html>
