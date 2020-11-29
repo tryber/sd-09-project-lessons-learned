@@ -49,13 +49,13 @@ li, tr {
     width: 100vw;
     margin-top: 50px;
 }
-.lado_esquerdo {
+.lado-esquerdo {
     float: left;
     height: 16vh;
     width: 45vw;
     margin-left: 2vw;
 }
-.lado_direito {
+.lado-direito {
     height: 16vh;
     margin-right: 2vw;
     width: 45vw;
