@@ -23,6 +23,7 @@ body {
 
 a {
   color: rgb(46 , 209 , 182);
+  font-weight: bold;
   text-decoration: none;
   margin: 10px;
   transition: 0.25s;
