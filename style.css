@@ -93,8 +93,10 @@ li {
     color: violet;
     background-color: green;
     position: absolute;
+    width: 37%;
     top: 69%;
-    left: 1%;
+    left: 29%;
+    padding: 1%;
 }
 
 .lado-direito{
