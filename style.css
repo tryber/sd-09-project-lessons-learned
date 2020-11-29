@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +9,21 @@ html {
 }
 
 body {
+  position: absolute;
+  top: 125px;
   background-color: rgb(253 , 251 , 251);
 }
 
 main {
   display: inline-block;
-  margin-top: 125px;
   width: fit-content;
   max-width: 850px;
+}
+
+.trybe {
+  color: teal;
+  font-weight: 600px;
+  text-decoration: none;
 }
 
 #cabecalho {
@@ -31,7 +39,7 @@ main {
   font-family: Acme, sans-serif;
   letter-spacing: 1px;
   font-size: 50px;
-  text-shadow:rgb(11, 22, 26) 0.06em 0.1em 0.1em;
+  text-shadow: rgb(11 , 22 , 26) 0.06em 0.1em 0.1em;
 }
 
 #menu {
@@ -57,7 +65,7 @@ main {
   text-decoration: none;
   background-color: rgb(255 , 243 , 176);
   border-radius: 3px;
-  color: rgb(84, 11, 14);
+  color: rgb(84 , 11 , 14);
   font-size: 30px;
 }
 
@@ -75,29 +83,24 @@ main {
   display: inline-block;
 }
 
-.artigo {
+.sessao {
   background-color: rgb(224 , 159 , 62);
   display: inline-block;
   padding: 5px;
   margin: 10px 0 10px 10px;
 }
-.artigo h2{
+
+.sessao h2 {
   font-family: Acme, sans-serif;
   letter-spacing: 1.5px;
   color: rgb(84 , 11 , 14)
 }
 
-.sessao {
+.artigo {
   background-color: rgb(255 , 243 , 176);
   width: fit-content;
-  margin: 5px 1px 1px 1px;
+  margin: 5px 1px 1px;
   padding: 5px;
-}
-
-#texto-principal {
-  text-align: justify;
-  font-family: Noto Sans, sans-serif;
-  width: 815px;
 }
 
 #minha_foto {
@@ -105,12 +108,12 @@ main {
   width: 211px;
   border: 15px ridge rgb(224 , 159 , 62);
   vertical-align: top;
-  margin: 10px 10px 0 10px;
+  margin: 10px 10px 0;
 }
 
 #sobremim {
   width: fit-content;
-  padding-left: 20px ;
+  padding-left: 20px;
   font-size: 20px;
   color: rgb(84 , 11 , 14);
 }
@@ -144,7 +147,7 @@ main {
   color: rgb(158 , 42 , 43);
 }
 
-#licoes_aprendidas h3{
+#licoes_aprendidas h3 {
   text-align: center;
   padding-bottom: 10px;
   color: rgb(84 , 11 , 14);
@@ -156,44 +159,74 @@ main {
   color: rgb(84 , 11 , 14);
 }
 
-#licoes_a_aprender h3{
+#licoes_a_aprender h3 {
   text-align: center;
   padding-bottom: 10px;
   color: rgb(158 , 42 , 43);
+}
+
+#texto-principal {
+  text-align: justify;
+  font-family: Noto Sans, sans-serif;
+  width: 815px;
+}
+
+#texto-principal p {
+  text-indent: 30px;
+}
+#texto-principal h3 {
+  padding: 5px;
 }
 
 #canto {
   background-color: rgb(224 , 159 , 62);
   display: inline-block;
   padding: 5px;
-  vertical-align: middle;
-  margin: 0 5px 10px 10px;
+  vertical-align: top;
+  margin: 10px 5px 10px 10px;
   width: fit-content;
   height: fit-content;
   max-width: 460px;
   font-family: Noto Sans, sans-serif;
 }
-
-#canto h2{
+#trexinho {
+  text-align: right;
+  font-size: small;
+}
+#canto h2 {
   font-family: Acme, sans-serif;
   letter-spacing: 1.5px;
   color: rgb(84 , 11 , 14);
+  padding: 5px;
 }
+
+#canto h3 {
+  text-align: right;
+  padding: 0 10px;
+}
+
 #canto p {
   text-indent: 30px;
   text-align: justify;
+  padding: 0 20px;
 }
 
 #tabela {
   background-color: rgb(158 , 42 , 43);
   text-align: center;
-  margin: 20px auto auto auto;
+  margin: 20px auto auto;
   padding: 5px;
   width: fit-content;
   font-family: Noto Sans, sans-serif;
 }
-#tabela h2{
+#tabela h3 {
   color: rgb(255 , 243 , 176);
+  text-align: center;
+  font-family: Acme, sans-serif;
+  font-weight: 600px;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  padding: 5px;
 }
 
 .dificuldade_skills {
@@ -210,15 +243,15 @@ main {
 .tdline {
   border: 1px solid rgb(224 , 159 , 62);
   text-align: center;
-  font-weight: bold;
+  font-weight: 600px;
   font-size: 30px;
 }
 
-.tdheader{
+.tdheader {
   background-color: rgb(255 , 243 , 176);
   padding: 10px;
   border: 1px solid rgb(224 , 159 , 62);
-  font-weight: bold;
+  font-weight: 600px;
   font-size: medium;
 }
 
@@ -228,11 +261,11 @@ main {
   position: relative;
   background-color: rgb(84 , 11 , 14);
   text-align: center;
-  padding: 15px 15px;
+  padding: 15px;
   color: rgb(255 , 243 , 176);
 }
 
-.contactpic{
+.contactpic {
   width: 60px;
   border-radius: 50%;
   margin: 10px 0px;
