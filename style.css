@@ -80,7 +80,7 @@ th , tr , td {
 .lado-esquerdo , .lado-direito {
   border: 2px solid black;
   padding: 5px;
-  margin: 0 59.4px 10px;
+  margin: 0 59px 10px;
   width: 40%;
   display: inline-block;
 }
