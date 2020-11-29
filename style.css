@@ -4,6 +4,7 @@ body {
   color: rgb(25 , 25 , 25);
   line-height: 1.2em;
   font-family: Nunito, sans-serif;
+  margin: 0;
 }
 
 #cabecalho {
@@ -12,26 +13,58 @@ body {
   text-align: center;
   position: fixed;
   height: 13%;
-  padding: 0 470px 20px;
+  padding: 0 475px 5px 481px;
   top: 0;
 }
 
-#cabecalho a {
+#titulo {
+  margin: 16px 0 26px;
+}
+
+a {
   color: rgb(46 , 209 , 182);
   text-decoration: none;
   margin: 10px;
+  transition: .25s
+}
+
+a:hover {
+  color: rgb(255 , 255 , 28);
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255 , 161 , 28);
+}
+
+#portfolio {
+  display: block;
+  text-align: center;
+  color: rgb(0 , 0 , 139);
+  margin: 0;
+}
+
+#portfolio:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#portfolio:active {
+  color: black;
 }
 
 #minha_foto {
   background-color: rgb(25 , 25 , 25);
   border-radius: 50%;
   padding: 2px;
-  width: 250px;
+  width: 200px;
+  display: block;
+  margin: auto;
 }
 
 ol , ul , table {
   display: inline-block;
-  margin: 50px 125px;
+  margin: 35px 107px 50px;
 }
 
 th , tr , td {
@@ -39,10 +72,21 @@ th , tr , td {
   padding: 0 5px;
 }
 
-
 .lado-esquerdo , .lado-direito {
   border: 2px solid black;
-  margin: 0 50px;
+  padding: 5px;
+  margin: 0 50px 10px;
   width: 40%;
   display: inline-block;
+}
+
+.lado-direito {
+  margin-left: 87px;
+}
+
+footer {
+  background-color: lightgray;
+  bottom: 0;
+  padding-right: 10px;
+  text-align: right;
 }
