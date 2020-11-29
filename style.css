@@ -7,19 +7,28 @@ body {
   top: 0;
   right: 0;
   width: 100%;
-  background-color: gray;
+  background-color: #294732;
   height: 9%;
   text-align: left;
   z-index: 10;
 }
 
+#logo{
+  height: 100%;
+}
+
 #titulo {
   margin: 1%;
+  position: relative;
+  display: inline-block;
+  bottom: 30%;
+  color: #7e5100;
+  text-shadow: 3px 3px black;
 }
 
 main {
   position: absolute;
-  background-color: black;
+  background-color: #7e5100;
   width: 66%;
   top: 10%;
   left: 1%;
@@ -91,10 +100,10 @@ li {
 
 .lado-esquerdo {
   color: violet;
-  background-color: green;
-  position: relative;
+  background-color: #fff5cc;
+  position: absolute;
   width: 37%;
-  top: 470px;
+  top: 70%;
   left: 29%;
   padding: 1%;
   float: left;
@@ -109,21 +118,23 @@ li {
   background-size: cover;
   padding: 1%;
   border-radius: 30px;
-  padding-top: 95px;
+  padding-top: 7%;
 }
 .poema {
   color: black;
   position: relative;
   margin-left: 7%;
-  font-family: fantasy;
-  line-height: 18px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 17px;
 }
 
 nav {
-  width: 35%;
-  height: 50px;
-  position: relative;
-  top: 360px;
+  width: 15%;
+  position: absolute;
+  top: 70%;
   left: 2%;
   padding: 2%;
+  background-color: blue;
 }
