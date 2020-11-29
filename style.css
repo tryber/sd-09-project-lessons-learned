@@ -18,7 +18,7 @@ body {
 #logoTrybe {
   position: fixed;
   left: 40%;
-  top: 2%;v {
+  top: 2%;
   display: inline;
   font-family: "Nerko One";
   font-size: xx-large;
@@ -31,10 +31,10 @@ body {
   display: inline;
   width: 10%;
   padding: 5px; 
- }   
+}   
 a:link {
   color: white; 
- }   
+}   
 a:visited {
   color: white;  
 }   
@@ -47,7 +47,7 @@ a:active {
 #titulo {
   font-family: "Shadows Into Light";
   padding: 15px; 
- }   
+}   
 #minha_foto {
   width: 300px;
   margin-top: 10%;
