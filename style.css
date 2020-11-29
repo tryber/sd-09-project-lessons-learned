@@ -1,13 +1,18 @@
 * {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 0;
 }
 
 h1 {
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  color: grey;
+  text-shadow: 2px 2px #000000;
   padding: 20px;
 }
 
 h3 {
-  padding: 20px;
+  padding: 25px;
 }
 
 p {
@@ -15,17 +20,22 @@ p {
 }
 
 main {
+  line-height: 25px;
+  vertical-align: top;
+  top: 0;
   width: 60%;
   display: inline-block;
-  margin: 0 0 40px;
+  margin: 100px 0 40px;
 }
 
 #left_side_screen {
+  border: 1px black solid;
+  font-size: 15px;
   padding: 20px;
   height: 100%;
   width: 20%;
   display: inline-block;
-  margin: 100px 0 0;
+  margin: 100px 25px 0 0;
   background-color: lawngreen;
 }
 
@@ -38,12 +48,25 @@ body {
   position: fixed;
   text-align: center;
   top: 0;
-  background-color: yellowgreen;
+  background-image: linear-gradient(#9acd32, #008000);
   width: 100%;
 }
 
-#about {
+nav {
+  padding: 4px;
+  background-color: 008000;
+  font-size: 14px;
+}
+
+#rodape {
+  padding: 5px;
+  background-color: whitesmoke;
+  width: 100%;
+  bottom: 0;
+  border: 1px black solid;
+  position: fixed;
   font-size: 10px;
+  text-align: center;
 }
 
 #minha_foto {
