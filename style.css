@@ -1,3 +1,8 @@
+
+* {
+  margin: 0;
+}
+
 body {
   background-color : rgb(253 , 251 , 251);
   font-family: 'Mukta', sans-serif;
@@ -12,8 +17,7 @@ body {
 }
 
 #titulo {
-  text-overflow: clip;
-  color: rgb(253 , 251 , 251);
+  color: rgb(255, 255, 255);
 }
 
 #minha_foto {
@@ -30,9 +34,8 @@ body {
   }
   
   #licoes_aprendidas {
-  float: right;
-  padding: 30%;
-  padding-top: 10%;
+  padding-left: 20%;
+  display: inline-block;
   }
 
   h3{
@@ -45,24 +48,27 @@ body {
 
   h2 {
     font-size: 25px;
-    padding-top: 80px;
+    padding-top: 150px;
     text-align: center;
     }
 
 .lado-direito{
-  margin-left: 5%;
   margin-bottom: 20%;
   font-size: 18px;
-  line-height: 30px;
+  padding: 30%;
+  text-align: justify;
+  padding-top: 15px;
   display: inline-block;
-  padding: 20%;
+
 }
 
 
 .lado-esquerdo {
-  overflow: hidden;
-  margin-right: 5%;
-  text-align: justify;
-  font-size: 17px;
-  line-height: 30px;
+    overflow : auto;
+    margin-right: 0%;
+    text-align: justify;
+    padding: 10%;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
   }
