@@ -196,23 +196,32 @@ main {
   color: rgb(255 , 243 , 176);
 }
 
-#dificuldade_skills {
+.dificuldade_skills {
   width: 450px;
 }
 
-#dificuldade_skills th {
+.dificuldade_skills th {
   background-color: rgb(255 , 243 , 176);
   width: 10px;
   padding: 10px;
   border: 1px solid rgb(224 , 159 , 62);
 }
 
-#dificuldade_skills td {
+.tdline {
   border: 1px solid rgb(224 , 159 , 62);
   text-align: center;
   font-weight: bold;
   font-size: 30px;
 }
+
+.tdheader{
+  background-color: rgb(255 , 243 , 176);
+  padding: 10px;
+  border: 1px solid rgb(224 , 159 , 62);
+  font-weight: bold;
+  font-size: medium;
+}
+
 #rodape {
   width: 100%;
   height: fit-content;
