@@ -145,6 +145,7 @@ main {
   width: 250px;
   padding: 10px 0 5px 35px;
   color: rgb(158 , 42 , 43);
+  font-weight: 600;
 }
 
 #licoes_aprendidas h3 {
@@ -157,6 +158,7 @@ main {
   width: 250px;
   padding: 10px 0 5px 35px;
   color: rgb(84 , 11 , 14);
+  font-weight: 600;
 }
 
 #licoes_a_aprender h3 {
@@ -212,7 +214,7 @@ main {
 #tabela {
   background-color: rgb(158 , 42 , 43);
   text-align: center;
-  margin: 20px auto auto;
+  margin: 0 auto;
   padding: 5px;
   width: fit-content;
   font-family: Noto Sans, sans-serif;
