@@ -1,3 +1,65 @@
 * {
   margin: 0;
 }
+
+h1 {
+  padding: 20px;
+}
+
+h3 {
+  padding: 20px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+main {
+  width: 60%;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 0;
+  margin: 0 0 40px 0;
+}
+
+#left_side_screen {
+  padding: 20px;
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+  margin: 100px 0 0 0;
+  background-color: lawngreen;
+  box-shadow: 3px;
+}
+
+body {
+  background-color: rgb(253 , 251 , 251);
+}
+
+#cabecalho {
+  min-height: 100px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  background-color: yellowgreen;
+  width: 100%;
+}
+
+#about {
+  font-size: 10px;
+}
+
+#minha_foto {
+  box-shadow: 2px 2px 2px 2px;
+  padding: 20px;
+  margin: 5%;
+  width: 200px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
