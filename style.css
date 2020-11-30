@@ -76,6 +76,7 @@ main {
   height: 25px;
   margin: 0;
   right: 10%;
+  box-shadow: 3px 3px black;
 }
 
 li {
@@ -107,18 +108,20 @@ li {
   left: 29%;
   padding: 1%;
   float: left;
+  border-radius: 30px;
 }
 
 .lado-direito {
   position: absolute;
   top: 10%;
-  right: 1%;
+  right: 1.5%;
   width: 27%;
   background-image: url("assets/paper-background.jpg");
   background-size: cover;
   padding: 1%;
   border-radius: 30px;
   padding-top: 7%;
+  float: right;
 }
 .poema {
   color: black;
@@ -131,10 +134,19 @@ li {
 }
 
 nav {
-  width: 15%;
+  width: 20%;
   position: absolute;
   top: 70%;
-  left: 2%;
-  padding: 2%;
+  left: 1%;
+  padding: 1%;
   background-color: blue;
+  border-radius: 30px;
+  text-align: center;
+}
+
+table{
+  line-height: 20px;
+  margin: 0.8%;
+  position: relative;
+  left: 17%;
 }
