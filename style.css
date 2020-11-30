@@ -74,16 +74,20 @@ body{
 #article{
     width: 33%;
     margin: 15px auto 0 auto;
-    background-color: rosybrown;
+    background-color: rgb(151, 120, 120);
     text-align: justify;
 }
 
 #rodape{
-    background-color: red;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: seagreen;
     margin-top: 15px;
 }
 
 #rodape p{
     margin-left: 15px;
     text-align: center;
+    font-size: 18px;
 }
