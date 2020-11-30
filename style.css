@@ -1,21 +1,25 @@
 body {
   background-color: rgb(253 251 251);
   display: grid;
-  grid-gap: 1rem;
-  grid-template-areas:  
+  grid-gap: 5rem;
+  grid-template-areas: 
     'header header header'
     'aside-left article aside-right'
     'nav nav nav'
     'footer footer footer';
-  grid-template-columns: 30% 40% 20%;
+  grid-template-columns: 30% 35% 20%;
   grid-row: auto;
 }
 
 .header {
+  text-align: center;
+  background: rgb(79 121 121);
   grid-area: header;
   position: fixed;
   top: 0;
-
+  width: 50%;
+  border-radius: 15px;
+  margin-left: 25%;
 }
 
 .aside-left {
@@ -23,25 +27,42 @@ body {
 }
 
 .aside-right {
+  text-align: end;
+  background: rgb(79 121 140);
   grid-area: aside-right;
   font-style: oblique;
+  margin-top: 15px;
 }
 
 .article {
+  background: rgb(238 238 238);
+  margin-top: 100px;
   grid-area: article;
   font-family: fantasy;
   font-weight: 100;
   font-style: italic;
   color: black;
+  text-align: center;
 }
 
 .nav {
   grid-area: nav;
   background: teal;
+  width: 27.1%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {
   grid-area: footer;
+  text-align: center;
+  background: teal;
+  border-radius: 1px;
+  width: 20%;
+  font-size: small;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header .aside-left .aside-right .footer {
@@ -49,19 +70,32 @@ body {
 }
 
 #minha_foto {
+  background-color: rgb(79 121 121);
   width: 180px;
   border-radius: 1em;
   margin-top: 15px;
   margin-left: 35px;
-  padding: 1px;
+  padding: 5px;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
+  margin-left: 50px;
+  background: rgb(79 121 140);
   font-family: sans-serif;
   font-weight: 100;
-  font-size: x-large;
+  font-size: normal;
   font-style: normal;
   color: black;
   font-stretch: semi-condensed;
   letter-spacing: 4px;
+  height: auto;
+  width: 300px;
+  text-align: justify;
+}
+
+ul h2, ol h2 {
+  font-size: medium;
+  font-family: monospace;
+  font-style: unset;
+  letter-spacing: inherit;
 }
