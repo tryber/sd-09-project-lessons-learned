@@ -1,89 +1,92 @@
 #all {
-    border: 1px solid gray;
-    padding: 0px 100px;
-    }
+	border: 1px solid gray;
+	padding: 0px 100px;
+}
 
 body {
-    background-color:  rgb(253,  251,  251);
-    }
+	background-color: rgb(253, 251, 251);
+}
 
 #cabecalho {
-    color: black;
-    background-color:  rgb(224, 224, 174);
-    position: fixed;
-    top: 0px;
-    margin-bottom: 20px;
-    height: 150px;
-    }
+	color: black;
+	background-color: rgb(224, 224, 174);
+	position: fixed;
+	top: 0px;
+	margin-bottom: 20px;
+	height: 150px;
+}
 
 #titulo {
-    padding: 10px 350px;
-    }
+	padding: 10px 350px;
+}
 
 #minha_foto {
-    margin-top: 149px;
-    width: 350px;
-    display: block;
-    }
+	margin-top: 149px;
+	width: 350px;
+	display: block;
+}
 
 .list {
-    display: inline-block;
-    }
+	display: inline-block;
+}
 
 #unordened {
-    display: inline-block;
-    margin-left: 100px;
-    }
+	display: inline-block;
+	margin-left: 100px;
+}
 
 #main_part {
-    margin-top: 60px;
-    display: inline-block;
-    height: 150px;
-    }
+	margin-top: 60px;
+	display: inline-block;
+	height: 150px;
+}
 
 #rodape {
-    padding: 1px 0px 0px 0px;
-    font-family: monospace;
-    font-weight: 600;
-    margin-top: 150px;
-    }
+	padding: 1px 0px 0px 0px;
+	font-family: monospace;
+	font-weight: 600;
+	margin-top: 150px;
+}
+
 .link {
-    font-size: 20px;
-    display: inline-block;
-    }
+	font-size: 20px;
+	display: inline-block;
+}
 
 aside {
-    width: 30%;
-    float: right;
-    border-left: 1px solid gray;
-    margin-top: -10px;
-    }
+	width: 30%;
+	float: right;
+	border-left: 1px solid gray;
+	margin-top: -10px;
+}
 
-aside  p {
-    margin: 10px;
-    }
+aside p {
+	margin: 10px;
+}
 
 article p {
-    width: 80%;
-    }
+	width: 80%;
+}
 
 #cytus {
-    float: right;
-    }
+	float: right;
+}
 
-tr, td, th {
-    border: 1px solid black;
-    }
+tr,
+td,
+th {
+	border: 1px solid black;
+}
 
 #tabela {
-    margin-top: 60px;
-    margin-left: 280px;
-    }
+	margin-top: 60px;
+	margin-left: 280px;
+}
 
 #navegar {
-     margin-top: 60px;
-    }
+	margin-top: 60px;
+}
 
 #aprendizado {
-    font-family: Arial, Helvetica, sans-serif,monospace; 
-    }
+	font-family: Arial, Helvetica, sans-serif, monospace;
+}
