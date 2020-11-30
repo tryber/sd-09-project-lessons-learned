@@ -12,7 +12,7 @@ body {
   color: black;
   background-color: rgb(224 , 224 , 174);
   position: fixed;
-  top: 0px;
+  top: 0;
   margin-bottom: 20px;
   height: 150px;
 }
