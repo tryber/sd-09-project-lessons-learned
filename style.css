@@ -53,7 +53,7 @@ body {
   letter-spacing: 1px;
   grid-area: nav;
   background: teal;
-  width: 20%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -113,4 +113,13 @@ ul h2,ol h2 {
 
 .lado-esquerdo {
   float: left;
+}
+
+#aprendizado {
+  letter-spacing: 2px;
+  text-align: end;
+  background: rgb(79 121 140);
+  grid-area: aside-right;
+  font-style: oblique;
+  margin-top: 15px;
 }
