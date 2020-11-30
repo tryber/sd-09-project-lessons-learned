@@ -6,7 +6,7 @@
     border-radius: 20px;
     width: 30%;
     height: 100;
-    background-color: #AFBAA8;
+    background-color: #CFD6CB;
     display: inline-block;
 }
 
@@ -14,6 +14,7 @@ body {
 
     background-color: rgb(253, 251, 251);
     margin: 0px;
+    font-family: sans-serif;
 }
 
 #cabecalho {
@@ -32,14 +33,24 @@ h1 {
     color: #4C1E4F;
     font-size: 35px;
     text-align: center; 
-    font-family: sans-serif;
+
 
 }
 
 #licoes {
 
-    margin-top: 280px;
+    margin-top: 230px;
     text-align: center;
+    background-color: #6D2B72;
+    color: aliceblue;
+    padding: 30px;
+    width: 150px;
+    border: 2px solid #7C606B;
+    border-radius: 20px;
+    position: relative;
+    left: 650px;
+    top: 0px;
+
 
 }
 
@@ -47,32 +58,68 @@ h1 {
 
     padding: 50px;
     margin: 50px;
-    margin-left: 220px;
+    margin-left: 320px;
     border: 2px solid #7C606B;
     border-radius: 20px;
     width: 20%;
     height: 250px;
-    background-color: #AFBAA8;
+    background-color: #E8D2D2;
     display: inline-block;
+    position: absolute;
+    top: 470px;
+    left: 500px;
 }
 
 #box-aprendidas {
 
     padding: 50px;
     margin: 50px;
-    margin-left: 150px;
+    margin-left: 240px;
     border: 2px solid #7C606B;
     border-radius: 20px;
     width: 20%;
     height: 250px;
     background-color: #AFBAA8;
-    display: inline-block;
+
+}
+
+#contato {
+
+    margin-top: 50px;
+    margin-left: 150px;
+    border-bottom-left-radius: 0%;
+    text-align: center;
+    background-color: #BDCEC7;
+    padding: 50px;
+    width: 150px;
+    border: 2px solid #7C606B;
+    border-radius: 20px;
+
+}
+
+#desenvolvido {
+
+    text-align: center;
+    font-size: 15px;
+}
+
+fundo {
+
+    background-color: #DFD6DA;
+    width: 97%;
+    height: 300px;
+    left: 20px;
+    border: 2px solid #7C606B;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    z-index: 0;
+
 }
 
 .menu-superior {
 
     font-size: 17px;
-    font-family: sans-serif;
     text-decoration: none;
     list-style: none;
 
@@ -97,7 +144,7 @@ h1 {
     margin: 50px;
     border: 2px solid #7C606B;
     border-radius: 20px;
-    width: 40%;
+    width: 55%;
     height: 180px;
     background-color: #AFBAA8;
     display: inline-block;
@@ -121,4 +168,9 @@ h1 {
 
     width: 50%;
     display: inline-block;
+    position: absolute;
+ /*   top: 782px; */
+    top: 970px;
+    left: 600px;
+    
 }
