@@ -35,7 +35,7 @@ p {
 }
 
 #container {
-  width: 1020px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -48,20 +48,20 @@ p {
   width: 160px;
 }
 
-#lista-direita {
+.lado-direito {
   float: right;
-  /* width: 50%; */
+  width: 40%;
 }
 
-
-#lista-esquerda {
+.lado-esquerdo {
   float: left;
-  /* width: 50%; */
+  width: 60%;
+  padding-right: 20px;
 }
 
-#artigo {
+/* #artigo {
   clear: both;
-}
+} */
 #licoes_aprendidas {
   margin-left: 20px;
 }
@@ -79,8 +79,11 @@ thead {
   background-color: rgb(50 , 191 , 132);
 }
 
-th, td {
+tbody {
   background-color: rgb(242 , 242 , 242);
+}
+
+th, td {
   padding: 10px;
   border: solid 1px rgb(207, 207, 207); 
   text-align: center;
