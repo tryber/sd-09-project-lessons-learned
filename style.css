@@ -23,20 +23,19 @@ body {
 }
 
 #minha_foto {
-  float: left; 
+  float: left;
   padding: 15px;
   margin-top: 125px;
   border-radius: 50%;
 }
 
-
   h3 {
   line-height: 30px;
   border-radius: 10px;
   text-align: center;
-  
-  }
-  
+
+}
+
   .lado-esquerdo {
   overflow: hidden;
   margin-right: 5%;
@@ -46,14 +45,14 @@ body {
   float: left;
   width: 35%;
 
-  
-  }
+
+}
 
   h2 {
     font-size: 25px;
     padding-top: 150px;
- 
-    }
+
+  }
 
 .lado-direito {
     overflow : auto;
@@ -64,23 +63,23 @@ body {
     line-height: 30px;
     float: left;
 
-
 }
 
 #licoes_a_aprender {
- display: inline-block;
- background-color: rgb(197, 189, 177);
- border-radius: 25px;
- text-align: justify;
- line-height: 35px;
- padding-right: 15px
- 
+    display: inline-block;
+    background-color: rgb(197, 189, 177);
+    border-radius: 25px;
+    text-align: justify;
+    line-height: 35px;
+    padding-right: 15px
 }
 
 #licoes_aprendidas {
-display: inline-block;
-background-color:rgb(197, 189, 177);
-border-radius: 25px;
-text-align: justify;
-line-height: 35px;
+    display: inline-block;
+    background-color:rgb(197, 189, 177);
+    border-radius: 25px;
+    text-align: justify;
+    line-height: 35px;
+
 }
+
