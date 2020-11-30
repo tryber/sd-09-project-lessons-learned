@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   letter-spacing: 1px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -16,11 +17,12 @@ body {
   text-align: center;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 #titulo {
   position: absolute;
-  left: 90px;
+  left: 40px;
   font-family: 'Nerko One', cursive;
 }
 
@@ -40,19 +42,19 @@ nav {
 }
 
 #minha_foto {
-  top: 5px;
-  left: 75%;
-  width: 130px;
+  margin-top: 100px;
+  margin-right: 40px;
+  width: 200px;
   border-radius: 15px;
   border: 3px solid #0FA36B;
+  position: relative;
   display: inline-block;
-  position: fixed;
-  z-index: 1;
 }
 
 
 #lado-esquerdo {
-  margin: 100px;
+  padding-left: 100px;
+  margin: auto;
   border-radius: 10px;
   width: 450px;
   display: inline-block;
@@ -72,31 +74,52 @@ nav {
   padding: 10px;
 }
 
+#lista1{
+  border: 1px solid #0FA36B;
+  margin-top: 50px;
+  margin-right: 15px;
+  display: inline-block;
+  background-color: #a1eace;
+  border-radius: 10px;
+}
+
 #licoes_aprendidas {
+  margin-top: 5px;
+  background-color: #a1eace;
   text-align: left;
-  margin-left: 50px;
   display: inline-block;
 }
 
+#lista2{
+  margin-top: 50px;
+  display: inline-block;
+  border: 1px solid #0FA36B;
+  background-color: #a1eace;
+  border-radius: 10px;
+}
+
 #licoes_a_aprender {
+  margin-top: 5px;
+  background-color: #a1eace;
   width: 400px;
   text-align: left;
-  margin-left: 50px;
   display: inline-block;
 }
 
 h3 {
-  display: inline-block;
-  margin: auto;
-  width: 400px;
-  background-color: greenyellow;
+  border-radius: 10px;
+  width: 500px;
+  background-color: #0FA36B;
+  margin: 0;
 }
 
 .tabela {
+  text-align: center;
+  margin: auto;
+  margin-top: 80px;
   border-radius: 10px;
   border: 1px solid #0FA36B;
   background-color: white;
-  margin: auto;
 }
 
 
@@ -119,5 +142,10 @@ td {
 }
 
 .rodape_titulo{
+  text-align: center;
+}
+
+.redes-sociais{
+  margin:10px;
   text-align: center;
 }
