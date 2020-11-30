@@ -93,9 +93,17 @@ body {
   text-align: justify;
 }
 
-ul h2, ol h2 {
+ul h2,ol h2 {
   font-size: medium;
   font-family: monospace;
   font-style: unset;
   letter-spacing: inherit;
+}
+
+.lado-direto {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: left;
 }
