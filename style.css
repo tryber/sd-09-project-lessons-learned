@@ -116,7 +116,5 @@ ul h2,ol h2 {
 }
 
 #aprendizado {
-  letter-spacing: 1px;
-  font-family: fantasy;
-  color: aliceblue;
+  color: transparent;
 }
