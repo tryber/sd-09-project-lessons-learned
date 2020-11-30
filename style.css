@@ -2,27 +2,31 @@ body {
     background-color: rgb(253, 251, 251);
     color: black;
     font-family: sans-serif;
-    letter-spacing: 4px;
-    font-size: 20x; 
-   }
+    letter-spacing:4px;
+    font-size:20x; 
+    }
 #cabecalho{
-   margin: auto;
-   padding-right: 1500px;
-   border: green;
-   position: fixed; top: 0px;
-   background-color: green
+    margin: auto;
+    padding-right: 1500px;
+    border: green;
+    position: fixed; top: 0px;
+    background-color: green
    
-}
+    }
 #licoes_a_aprender {
-   float: left;
-   margin-left: 70px;
-   margin-top: 20px;
-}
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    }
 #licoes_aprendidas{
-   float: left;
-   margin-top: 20px;
-}  
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 40x;
+    }  
 #rodape{
    position: fixed; bottom: 0px;
+   margin-top: 20px;
+   
 
-}
+    }
