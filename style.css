@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
@@ -7,10 +7,12 @@ body {
   top: 0;
   right: 0;
   width: 100%;
-  background-color: #294732;
+  background-color: rgb(41 , 71 , 50);
   height: 9%;
   text-align: left;
   z-index: 10;
+  font-family: Texturina, serif;
+  font-weight: 600;
 }
 
 #logo {
@@ -22,13 +24,13 @@ body {
   position: relative;
   display: inline-block;
   bottom: 30%;
-  color: #7e5100;
+  color: rgb(126 , 81 , 0);
   text-shadow: 3px 3px black;
 }
 
 main {
   position: absolute;
-  background-color: #7e5100;
+  background-color: rgb(126 , 81 , 0);
   width: 66%;
   top: 10%;
   left: 1%;
@@ -92,24 +94,34 @@ li {
   bottom: 0;
   left: 0;
   padding: 0 0 10px 7px;
-  border-style: solid none none none;
+  border-style: solid none none;
   border-width: 1px;
-  background-color: #52b788;
+  background-color: rgb(82 , 183 , 136);
   z-index: 10;
 }
 
 .lado-esquerdo {
   color: black;
+  font-family: Lora, serif;
+  font-size: large;
   text-shadow: 2px 2px white;
-  background-color: #fff5cc;
+  background-color: rgb(255 , 245 , 204);
   position: absolute;
-  width: 37%;
+  width: 33%;
   top: 480px;
-  left: 29%;
+  left: 33%;
   padding: 1%;
   float: left;
   border-radius: 30px;
   box-shadow: 5px 5px black;
+  text-align: center;
+}
+
+#trybe {
+  float: left;
+  position: relative;
+  width: 20%;
+  margin-left: 7%;
 }
 
 .lado-direito {
@@ -117,7 +129,7 @@ li {
   top: 10%;
   right: 1.5%;
   width: 27%;
-  background-image: url("assets/paper-background.jpg");
+  background-image: url('assets/paper-background.jpg');
   background-size: cover;
   padding: 1%;
   border-radius: 30px;
@@ -125,12 +137,13 @@ li {
   float: right;
   box-shadow: 5px 5px black;
 }
+
 .poema {
   color: black;
   position: relative;
   margin-left: 7%;
-  font-family: "Dancing Script", cursive;
-  font-weight: 600;
+  font-family: Dancing Script, cursive;
+  font-weight: 700;
   font-size: 18px;
   line-height: 17px;
 }
@@ -141,7 +154,7 @@ nav {
   top: 70%;
   left: 1%;
   padding: 1%;
-  background-color: #7e5100;
+  background-color: rgb(126 , 81 , 0);
   border-radius: 30px;
   text-align: center;
   box-shadow: 5px 5px black;
@@ -149,7 +162,10 @@ nav {
 
 table {
   line-height: 20px;
-  margin: 0.8%;
+  margin: auto;
   position: relative;
-  left: 17%;
+}
+
+table .icon {
+  height: 33px;
 }
