@@ -1,46 +1,7 @@
-a {
-  color: white;
-  font-weight: 600;
-}
-
-article {
-  background-color: rgb(253 , 251 , 251);
-  border: 3px solid rgb(0 , 152 , 255);
-  border-radius: 30px;
-  box-shadow: 0 0 10px rgb(50 , 100 , 200);
-  display: inline-block;
-  left: 30px;
-  opacity: 0.8;
-  padding: 0 8px;
-  position: relative;
-  text-align: justify;
-  text-indent: 30px;
-  top: 400px;
-  width: 1000px;
-  z-index: 2;
-}
-
-aside {
-  background-color: rgb(253 , 251 , 251);
-  border: 3px solid rgb(0 , 152 , 255);
-  border-radius: 30px;
-  box-shadow: 0 0 10px rgb(50 , 100 , 200);
-  height: 280px;
-  left: 60px;
-  opacity: 0.8;
-  padding: 0 8px;
-  position: absolute;
-  text-align: justify;
-  text-indent: 30px;
-  top: 80px;
-  width: 250px;
-  z-index: 3;
-}
-
 body {
   background-attachment: fixed;
   background-color: rgb(253 , 251 , 251);
-  background-image: url("https://wallpapercave.com/wp/wp2848515.jpg");
+  background-image: url("images/background_tec.jpg");
   background-size: cover;
   font-family: sans-serif;
   margin-top: 0;
@@ -48,167 +9,199 @@ body {
   max-width: 1366px;
 }
 
-em {
-  font-weight: 600;
-}
+#cabecalho {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 1366px;
+  z-index: 9;
 
-h1 {
-  color: rgb(253 , 251 , 251);
-  width: 100%;
-}
-
-h2 {
-  text-align: center;
-}
-
-h3 {
-  border-bottom: 1px solid rgb(0 , 152 , 255);
-  padding-bottom: 10px;
-  text-align: center;
 }
 
 header #titulo {
   font-size: 30px;
   margin: 10px 0;
-}
-
-td {
-  align-items: center;
-  border-bottom: 1px solid rgb(0 , 152 , 255);
   text-align: center;
 }
 
-th {
-  border-bottom: 3px solid rgb(0 , 152 , 255);
-  font-size: 18px;
-}
-
-tr {
-  align-items: center;
-  line-height: 50px;
-}
-
-#cabecalho {
-  background-color: rgb(0 , 152 , 255);
-  background-image: linear-gradient(to right , rgb(0 , 152 , 255) , black);
+.destaque {
   box-shadow: 0 0 10px white;
-  left: 0;
-  opacity: 0.95;
-  position: fixed;
-  top: 0;
-  width: 1366px;
-  z-index: 5;
 }
 
-#cleber {
-  display: none;
-}
-
-#licoes_a_aprender {
-  padding-right: 10px;
-}
-
-#licoes_aprendidas {
-  padding-right: 10px;
-}
-
-#linkedin {
-  display: inline;
-  margin: 0;
-  vertical-align: -15px;
-  width: 40px;
-}
-
-#lista1 {
-  left: 415px;
-}
-
-#lista2 {
-  left: 725px;
-
+.gradiente {
+  background-image: linear-gradient(to right , rgb(0 , 152 , 255) , black);
+  color: rgb(255 , 255 , 255);
+  opacity: 0.8;
+  text-align: center;
 }
 
 #minha_foto {
   border: 4px solid rgb(22 , 104 , 158);
   border-radius: 30px;
-  box-shadow: 0 0 15px white;
-  display: inline-block;
   position: fixed;
-  right: 50px;
-  top: 25px;
+  left: 30px;
+  top: 20px;
   width: 200px;
-  z-index: 6;
+  z-index: 10;
 }
 
-#navegacao li {
+#pc {
   display: inline-block;
-  left: 700px;
-  position: absolute;
-  top: 200px;
-  width: 200px;
+  position: fixed;
+  left: 50px;
+  top: 460px;
+  width: 150px;
+  z-index: 7;
+}
+
+#sobre {
+  border: 4px solid rgb(22 , 104 , 158);
+  display: inline-block;
+  position: fixed;
+  left: 10px;
+  top: 245px;
+  z-index: 9;
+  width: 230px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+#title_aside {
+  text-align: center;
+}
+
+span.negrito {
+  font-weight: 600;
+}
+
+.preenchimento{
+  background-color: rgb(253 , 251 , 251);
+  border: 3px solid rgb(0 , 152 , 255);
+  box-shadow: 0 0 10px white;
+  border-radius: 30px;
+  opacity: 0.8;
+  padding: 0 8px;
+}
+
+#navegacao {
+  display: inline-block;
+  position: fixed;
+  right: 10px;
+  top: 7px;
+  z-index: 11;
+}
+
+#linkedin {
+  width: 27px;
+  border-radius: 5px;
+}
+
+#trybe {
+  width: 27px;
+  border-radius: 5px;
+}
+
+#gitHub {
+  width: 28px;
+  border-radius: 7px;
+  margin: 0 10px;
+}
+
+a:hover img {
+  box-shadow: 0 0 20px white;
+  border: 2px solid rgb(22 , 104 , 158);
+}
+
+#lista1 {
+  display: inline-block;
+  position: relative;
+  left: 350px;
+  top: 100px;
+  z-index: 7;
+}
+
+#l_aprendidas {
+  display: inline-block;
+  position: relative;
+  left: 400px;
+  top: 100px;
+  width: 300px;
+  z-index: 7;
+}
+
+#lista2 {
+  display: inline-block;
+  position: relative;
+  left: 450px;
+  top: 100px;
+  z-index: 7;
+}
+
+h2 {
+  border-bottom: 1px solid rgb(0 , 152 , 255);
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  text-indent: 0;
+}
+
+#aprendizado {
+  display: inline;
+  text-align: justify;
+  text-indent: 30px;
+  width: 250px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 350px;
+  padding: 0 20px;
+}
+
+#sucesso {
+  display: inline-block;
+  position: relative;
+  left: 220px;
+  top: 150px;
+  width: 250px;
+  z-index: 7;
+}
+
+#passagem_aprendizado {
+  display: inline;
+  text-align: justify;
+  text-indent: 30px;
+  width: 450px;
+  float: right;
+  margin-top: 160px;
+  margin-right: 90px;
+  padding: 0 20px;
 }
 
 #rodape {
-  background-image: linear-gradient(to right , rgb(0 , 152 , 255) , black);
-  box-shadow: 0 0 10px white;
-  color: aliceblue;
   font-size: 12px;
+  margin-top: 30%;
   font-weight: 100;
   left: 0;
-  opacity: 0.95;
   padding: 6px 0;
-  position: absolute;
-  text-align: center;
-  top: 600px;
-  width: 1366px;
-  z-index: 1;
 }
 
-#tabela {
-  color: rgb(253 , 251 , 251);
-  display: inline-table;
-  margin-top: 5%;
-  position: fixed;
-  right: 30px;
-  top: 190px;
-  width: 240px;
+em {
+  font-weight: 600;
 }
 
-header #titulo {
-  text-align: center;
-}
+/* a {
+  color: white;
+  font-weight: 600;
+} */
 
-#titulo_tab {
-  border-bottom: none;
-  line-height: 5px;
-}
+/* td {
+  text-align: left;
+} */
 
-.celula1 {
-  text-align: right;
-  width: 50px;
-}
+/* tr {
+  line-height: 40px;
+} */
 
-.celula2 {
-  width: 160px;
-}
+/* #licoes_a_aprender {
+  padding-right: 10px;
+} */
 
-.lista {
-  background-color: rgb(253 , 251 , 251);
-  border: 3px solid rgb(0 , 152 , 255);
-  border-radius: 30px;
-  box-shadow: 0 0 10px rgb(50 , 100 , 200);
-  height: 280px;
-  opacity: 0.8;
-  padding: 0 8px;
-  position: absolute;
-  top: 80px;
-  z-index: 4;
-}
-
-.trybe {
-  background-color: rgb(14 , 163 , 106);
-  border: 1px solid rgb(5 , 32 , 63);
-  border-radius: 7px;
-  box-shadow: 0 0 5px white;
-  padding: 6px;
-}
