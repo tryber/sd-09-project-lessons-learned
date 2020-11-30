@@ -16,7 +16,7 @@ body {
   text-align: center;
   background-size: cover;
   background-position: bottom;
-  background-image: url("teste2.jpg");
+  background-image: url('teste2.jpg');
   letter-spacing: 10px;
   color: aliceblue;
   flex-direction: row;
@@ -68,10 +68,10 @@ aside {
 footer {
   background-size: cover;
   background-position: bottom;
-  background-image: url("teste2.jpg");
+  background-image: url('teste2.jpg');
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  float: left; 
+  float: left;
   font-size: 10px;
   width: 100%;
   top: 500px;
