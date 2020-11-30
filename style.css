@@ -3,11 +3,7 @@ body {
 }
 
 #cabecalho {
-  background-color: aqua;  
-}
-
-#titulo {
-  position: fixed;
+  position: fixed;  
   top: 0;
 }
 
