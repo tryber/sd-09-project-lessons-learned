@@ -10,7 +10,7 @@ aside td {
 body {
   background-attachment: fixed;
   background-color: rgb(253 , 251 , 251);
-  background-image: url('background_tec.jpg');
+
   background-size: cover;
   font-family: sans-serif;
   margin-top: 0;
@@ -113,11 +113,10 @@ header #titulo {
 }
 
 #navegacao {
-  display: inline-block;
   position: fixed;
-  right: 10px;
-  top: 7px;
-  z-index: 11;
+  top: 10px;
+  margin-left: 1200px;
+  z-index: 10;
 }
 
 #pc {
@@ -170,7 +169,7 @@ header #titulo {
 
 .gradiente {
   background-image: linear-gradient(to right , rgb(0 , 152 , 255) , black);
-  color: rgb(253 , 251, 251);
+  color: rgb(253 , 251 , 251);
   opacity: 0.8;
   text-align: center;
 }
@@ -187,7 +186,7 @@ header #titulo {
   font-weight: 600;
 }
 
-.preenchimento {
+.base {
   background-color: rgb(253 , 251 , 251);
   border: 3px solid rgb(0 , 152 , 255);
   border-radius: 30px;
