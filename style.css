@@ -6,8 +6,8 @@ body {
 }
 
 #cabecalho {
-  position: fixed;  
-  top: 0;
+  position: fixed;
+  top: 0px;
   background-color: aqua;
   text-align: center;
 }
