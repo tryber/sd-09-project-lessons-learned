@@ -11,22 +11,19 @@ body {
     border: green;
     position: fixed; top: 0px;
     background-color: green
-   
     }
 #licoes_a_aprender {
-    float: left;
+    float:left;
     margin-left: 70px;
     margin-top: 20px;
     margin-bottom: 40px;
     }
 #licoes_aprendidas{
-    float: left;
+    float:left;
     margin-top: 20px;
     margin-bottom: 40x;
     }  
 #rodape{
-   position: fixed; bottom: 0px;
-   margin-top: 20px;
-   
-
+   position:fixed; bottom:0px;
+   margin-top:20px;
     }
