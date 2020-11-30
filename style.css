@@ -3,6 +3,9 @@ body {
 }
 
 #cabecalho {
+  background-color: rgb(51 , 51 , 51);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,6 +13,7 @@ body {
 
 #titulo {
   text-align: center;
+  color: rgb(255 , 255 , 255);
 }
 
 #minha_foto {
@@ -17,20 +21,18 @@ body {
   width: 300px;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas,#licoes_a_aprender {
   border: solid;
-  padding-bottom: 3%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 3%;
+  font-size: 18px;
+  line-height: 1.25em;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
   width: 20%;
 }
 
-#licoes_a_aprender {
-  border: solid;
-  padding-bottom: 3%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 3%;
-  width: 20%;
+#rodape {
+  background-color: rgb(51 , 51 , 51);
+  color: rgb(255 , 255 , 255);
 }
