@@ -8,6 +8,7 @@
 body {
   width: 1366px;
   height: 100vh;
+  letter-spacing: 1px;
   background-color: rgb(253 , 251 , 251);
   margin: 0 auto;
 }
@@ -31,11 +32,11 @@ body {
 #titulo {
   font-style: italic;
   font-size: 3em;
-  color: rgb(30, 72, 82);
-  letter-spacing: 2px;
+  font-family: 'Josefin sans', Arial, sans-serif;
+  color: rgb(30 , 72 , 82);  
   position: absolute;
   left: 5em;
-  top: 30px;
+  top: 35px;
 }
 
 #minha_foto {
