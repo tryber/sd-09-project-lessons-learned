@@ -184,6 +184,7 @@ table{
   margin: 20px auto 30px auto;
   background-color: mediumseagreen;
   box-shadow: 8px 8px black;
+  padding: 15px;
 }
 
 td{
