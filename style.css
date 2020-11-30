@@ -42,6 +42,15 @@ a:active {
   color: rgb(255 , 161 , 28);
 }
 
+#minha_foto {
+  background-color: rgb(25 , 25 , 25);
+  border-radius: 25%;
+  padding: 2px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
 #portfolio {
   display: block;
   text-align: center;
@@ -56,15 +65,6 @@ a:active {
 
 #portfolio:active {
   color: black;
-}
-
-#minha_foto {
-  background-color: rgb(25 , 25 , 25);
-  border-radius: 25%;
-  padding: 2px;
-  width: 200px;
-  display: block;
-  margin: auto;
 }
 
 ol , ul , table {
@@ -90,4 +90,5 @@ footer {
   bottom: 0;
   padding-right: 10px;
   text-align: right;
+  border-top: 1px solid darkgray;
 }
