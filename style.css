@@ -1,18 +1,19 @@
 #titulo {
-    top: 0;
-    color: pink;
-    font-size: 40px;
-    position: fixed;
+  top: 0;
+  color: pink;
+  font-size: 40px;
+  position: fixed;
 }
+
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
-    padding: 2em;
-    margin: 3em;
-    border-style: groove;
-    border-top: 10em;
-    border-color: blueviolet;
-    line-height: 1.5;
+  background-color: rgb(253 , 251 , 251);
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  padding: 2em;
+  margin: 3em;
+  border-style: groove;
+  border-top: 10em;
+  border-color: blueviolet;
+  line-height: 1.5;
 }
 
 .lado-esquerdo {
