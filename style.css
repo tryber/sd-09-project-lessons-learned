@@ -2,10 +2,17 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
-header {
-  margin: 0px;
+#cabecalho {
+  background-color: aqua;  
+}
+
+#titulo {
+  position: fixed;
+  top: 0;
 }
 
 footer a {
   text-decoration: none;
 }
+
+
