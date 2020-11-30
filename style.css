@@ -1,6 +1,6 @@
 a:hover img {
   border: 2px solid rgb(22 , 104 , 158);
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 20px #ffffff;
 }
 
 aside td {
@@ -10,7 +10,7 @@ aside td {
 body {
   background-attachment: fixed;
   background-color: rgb(253 , 251 , 251);
-  background-image: url('images/background_tec.jpg');
+  background-image: url('background_tec.jpg');
   background-size: cover;
   font-family: sans-serif;
   margin-top: 0;
@@ -114,7 +114,7 @@ header #titulo {
   line-height: 30px;
   margin-top: 160px;
   margin-right: 50px;
-  padding: 0 20px 13px 20px;
+  padding: 0 20px 13px;
   text-align: justify;
   text-indent: 30px;
   width: 400px;
@@ -165,12 +165,12 @@ header #titulo {
 }
 
 .destaque {
-  box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 .gradiente {
   background-image: linear-gradient(to right , rgb(0 , 152 , 255) , black);
-  color: white;
+  color: #ffffff;
   opacity: 0.8;
   text-align: center;
 }
@@ -191,7 +191,7 @@ header #titulo {
   background-color: rgb(253 , 251 , 251);
   border: 3px solid rgb(0 , 152 , 255);
   border-radius: 30px;
-  box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px #ffffff;
   opacity: 0.8;
   padding: 0 8px;
 }
