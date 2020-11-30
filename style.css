@@ -2,13 +2,13 @@ body {
   background-color: rgb(253 251 251);
   display: grid;
   grid-gap: 1rem;
-  grid-template-areas: 
+  grid-template-areas:  
     'header header header'
     'aside-left article aside-right'
     'nav nav nav'
     'footer footer footer';
-  grid-template-columns: 30% auto 20%;
-  grid-template-rows: 5em 30em 2em;
+  grid-template-columns: 30% 40% 20%;
+  grid-row: auto;
 }
 
 .header {
@@ -24,22 +24,15 @@ body {
 
 .aside-right {
   grid-area: aside-right;
+  font-style: oblique;
 }
 
 .article {
   grid-area: article;
   font-family: fantasy;
   font-weight: 100;
-  font-style: normal;
+  font-style: italic;
   color: black;
-  font-size: medium;
-  font-stretch: semi-condensed;
-  letter-spacing: normal;
-  float: left;
-}
-
-#learning {
-  float: right;
 }
 
 .nav {
@@ -63,8 +56,12 @@ body {
   padding: 1px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   font-family: sans-serif;
   font-weight: 100;
   font-size: x-large;
+  font-style: normal;
+  color: black;
+  font-stretch: semi-condensed;
+  letter-spacing: 4px;
 }
