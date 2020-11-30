@@ -1,28 +1,28 @@
 body {
   background-color: rgb(253 , 251 , 251);
   margin-top: 30px;
-  margin-left: 0px;
+  margin-left: 1px;
   padding: 70px;
-  font-family: 'Texturina', serif;
+  font-family: Texturina, serif;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 1px;
   background-color: aqua;
   text-align: center;
 }
 
 footer a {
   text-decoration: none;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
   font-size: 30px;
   color: blueviolet;
   line-height: 0.9;
 }
 
 .left-side {
-  background-color: rgb(177, 149, 149);
+  background-color: rgb(177 , 149 , 149);
   display: inline-block;
   float: left;
   width: 50%;
