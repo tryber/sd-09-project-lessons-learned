@@ -63,7 +63,7 @@ function salarioLiquido(salario) {
     ir = (salarioDeduzidoInss * 0.275) - 869.36;
   }
 
-  outNetSalary.textContent = `Após as deduções o salário será de R$${(salarioDeduzidoInss - ir).toFixed(2)}`;
+  outNetSalary.textContent = `Após as deduções o salário será de R$ ${(salarioDeduzidoInss - ir).toFixed(2)}`;
 }
 let btnCalcNetSalary = document.querySelector('#btnCalcNetSalary');
 btnCalcNetSalary.addEventListener('click', salarioLiquido);
