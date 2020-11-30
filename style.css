@@ -9,6 +9,7 @@ body {
     'footer footer footer';
   grid-template-columns: 30% 35% 20%;
   grid-row: auto;
+  font-family: 'Texturina', serif;
 }
 
 .header {
