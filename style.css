@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: 'Gill Sans', sans-serif, sans-serif;
 }
 
 #cabecalho {
@@ -47,6 +48,7 @@ body {
 }
 
 #main {
+  
   margin-top: 100px;
   font-size: 30px;
   
@@ -58,33 +60,35 @@ body {
   text-align: center;
   margin-left: 50px ;
   
+  
 }
 
-#fototrybe {
- 
-  margin-top: 100px;
-  margin-right: 75px;
-  padding: 80px 20px;
-  float:right;                               
+#artigo {
+  text-align: center;
   
-}   
+  float: right;
+  max-width: 40%;
+  margin-top: 100px;
+  margin-right: 50px;
+  
+}
 
 .fotos {
-  display: inline-block;
+  display: inline-block;  
   
 }     
 
+#tryber {
+  margin-top: 100px ;
+}
 
-
-.fotoMainLeft {
-  
+.fotoMainLeft {  
   max-width: 40%;
   border-radius: 350px;
   height: 500px;
-  background-color: grey;
+  
   margin-top: 80px;
   margin-left: 60px;
-
 }
 
 .fotoMainRight {
@@ -102,7 +106,7 @@ body {
   text-align: center;
   max-width: 70%;
   margin-left: 150px;
-  margin-top: 120px;
+  margin-top: 80px;
   font-weight: 600;
 }
 
@@ -122,10 +126,7 @@ body {
 
 .market {
   margin-top: 500px;
-  
-  background-color: orange;
   max-height: 1000px;
-  
 }
 
 .mktRight {
@@ -135,7 +136,7 @@ body {
   font-size: 30px;
   min-height: 320px;
   
-  margin-right: 200px;
+  margin-right: 150px;
   
   
 
@@ -163,26 +164,34 @@ body {
 }
 
 #sergin {
+  background-color: blue;
   border-radius: 700px;
   height: 300px;
   
 }
 
-#tryber {
-  max-width: 1500px;
-  width: 100%;
-  height: 200px;
-}
-
 .linkin {
  
- margin-top: 0;
+ margin-top: 800px;
  margin-left: 200px;
  margin-bottom: 30px;
  font-weight: 600;
  font-size: 30px;
+ height: 100px;
+ text-align: left;
 }
+
+#tryber {
+  background-color: orange;
+  max-width: 1500px;
+  width: 100%;
+  height: 200px;
+  
+}
+
+
 
 #rodape {
   text-align: center;
 }
+
