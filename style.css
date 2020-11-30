@@ -13,7 +13,7 @@ body {
   z-index: 10;
 }
 
-#logo{
+#logo {
   height: 100%;
 }
 
@@ -104,7 +104,7 @@ li {
   background-color: #fff5cc;
   position: absolute;
   width: 37%;
-  top: 70%;
+  top: 480px;
   left: 29%;
   padding: 1%;
   float: left;
@@ -129,7 +129,7 @@ li {
   color: black;
   position: relative;
   margin-left: 7%;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-weight: 600;
   font-size: 18px;
   line-height: 17px;
@@ -147,7 +147,7 @@ nav {
   box-shadow: 5px 5px black;
 }
 
-table{
+table {
   line-height: 20px;
   margin: 0.8%;
   position: relative;
