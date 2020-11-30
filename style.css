@@ -10,7 +10,7 @@ aside td {
 body {
   background-attachment: fixed;
   background-color: rgb(253 , 251 , 251);
-
+  background-image: url('images/background_tec.jpg');
   background-size: cover;
   font-family: sans-serif;
   margin-top: 0;
