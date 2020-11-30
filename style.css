@@ -7,7 +7,7 @@ body {
   top: 0;
   right: 0;
   width: 100%;
-  background-color: rgb(41 , 71 , 50);
+  background-color: rgb(82 , 183 , 136);
   height: 9%;
   text-align: left;
   z-index: 10;
@@ -24,13 +24,13 @@ body {
   position: relative;
   display: inline-block;
   bottom: 30%;
-  color: rgb(126 , 81 , 0);
-  text-shadow: 3px 3px black;
+  color: rgb(108 , 200 , 202);
+  text-shadow: 1.5px 1.5px black;
 }
 
 main {
   position: absolute;
-  background-color: rgb(126 , 81 , 0);
+  background-color: rgb(108 , 200 , 202);
   width: 66%;
   top: 10%;
   left: 1%;
@@ -39,6 +39,7 @@ main {
   margin: 1px;
   border-radius: 30px;
   box-shadow: 5px 5px black;
+  border: 1px solid;
 }
 
 #minha_foto {
@@ -58,6 +59,7 @@ main {
   margin-top: -20px;
   padding-top: 0;
   text-align: left;
+  text-shadow: 1.2px 1.2px black;
 }
 
 #nao-aprendidas {
@@ -68,6 +70,7 @@ main {
   margin-top: -382px;
   text-align: center;
   float: right;
+  text-shadow: 1.2px 1.2px black;
 }
 
 .icon {
@@ -104,7 +107,7 @@ li {
   color: black;
   font-family: Lora, serif;
   font-size: large;
-  text-shadow: 2px 2px white;
+  text-shadow: 1.5px 1.5px white;
   background-color: rgb(255 , 245 , 204);
   position: absolute;
   width: 33%;
@@ -115,6 +118,7 @@ li {
   border-radius: 30px;
   box-shadow: 5px 5px black;
   text-align: center;
+  border: 1px solid;
 }
 
 #trybe {
@@ -136,6 +140,7 @@ li {
   padding-top: 7%;
   float: right;
   box-shadow: 5px 5px black;
+  border: 1px solid;
 }
 
 .poema {
@@ -146,6 +151,7 @@ li {
   font-weight: 700;
   font-size: 18px;
   line-height: 17px;
+  text-shadow: 1.2px 1.2px white;
 }
 
 nav {
@@ -154,16 +160,19 @@ nav {
   top: 70%;
   left: 1%;
   padding: 1%;
-  background-color: rgb(126 , 81 , 0);
+  background-color: rgb(99 , 179 , 183);
   border-radius: 30px;
   text-align: center;
   box-shadow: 5px 5px black;
+  border: 1px solid;
 }
 
 table {
   line-height: 20px;
   margin: auto;
   position: relative;
+  font-size: large;
+  text-shadow: 1px 1px white;
 }
 
 table .icon {
