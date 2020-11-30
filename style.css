@@ -1,14 +1,17 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  margin-top: 30px;
+  margin-left: 0px;
+  padding: 70px;
 }
 
 #cabecalho {
   position: fixed;  
   top: 0;
+  background-color: aqua;
+  text-align: center;
 }
 
 footer a {
   text-decoration: none;
 }
-
-
