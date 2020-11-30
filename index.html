@@ -17,6 +17,7 @@
       <nav id="menu">
         <a href="index.html">Home</a>
         <a href="https://github.com/marcusWittho" target="_blank">GitHub</a>
+        <a href="#example">Exemplos</a>
       </nav>
     </div>
   </header>
@@ -50,6 +51,43 @@
       <li>Algoritmos e estrutura de dados</li>
     </ul>
   </section>
+  <section id="example">
+    <h2>Exemplos</h2>
+    <div id="ex_6">
+      <h2 class="configFont">Movimentação das Peças</h2>
+      <label for="cboPieces" class="configFont">Escolha uma peça: </label>
+      <select id="cboPieces" onchange="updatePiece()">
+        <option value="" disabled selected>Peças</option>
+        <option value="Peões">Peões</option>
+        <option value="Torres">Torres</option>
+        <option value="Bispos">Bispos</option>
+        <option value="Cavalos">Cavalos</option>
+        <option value="Rainha">Rainha</option>
+        <option value="Rei">Rei</option>
+      </select>
+      <p class="configFont" id="infoText">Movimentos válidos para a peça selecionada: </p>
+      <p id="outText" class="configFont"></p>
+    </div>
+    <div id="ex_10">
+      <h2>Cálculo do Custo</h2>
+      <h4>Informações do produto</h4>
+      <p>
+        <label for="inCost">Insira o custo em R$: </label>
+        <input type="text" id="inCost" class="aplyMargin">
+      </p>
+      <p>
+        <label for="inSalePrice">Insira o preço de venda em R$: </label>
+        <input type="text" id="inSalePrice" class="aplyMargin">
+      </p>
+      <p>
+        <label for="inSoldAmount">Insira a quantidade vendida: </label>
+        <input type="text" id="inSoldAmount" class="aplyMargin">
+      </p>
+      <input type="button" value="Calcular" id="btnCalc" class="aplyMargin">
+      <input type="button" value="Calcular" id="btnClean" class="aplyMargin">
+      <p id="outProfit"></p>
+    </div>
+  </section>
   <section id="stories">
     <table>
       <tr>
@@ -73,4 +111,5 @@
   </p>
   <a href="http://github.com/marcusWittho" target="_blank"> Marcus Lima Witthoeft</a>
 </footer>
+<script src="/script.js"></script>
 </html>
