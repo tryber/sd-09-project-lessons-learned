@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 80px;
   border: 1px solid;
-  background-color: rgb(42, 161, 116);
+  background-color: rgb(42 , 161 , 116);
 }
 
 #minha_foto {
@@ -32,25 +32,25 @@ body {
 
 .lado-direito {
   float: right;
-  margin: 18px;
+  width: 30%;
 }
 
 .lado-esquerdo {
   float: left;
-  margin: 18px;
+  width: 60%;
 }
 
 * {
-  font-family: Helvetica, sans-serif;
+  font-family: cursive;
 }
 
 #rodape {
   width: 100%;
   position: fixed;
   bottom: 0;
-  background-color: rgb(65, 112, 94);
+  background-color: rgb(65 , 112 , 94);
   text-align: center;
-  color: rgb(0 , 0 , 0);
+  color: black;
   padding: 8px;
   font-size: 18px;
 }
