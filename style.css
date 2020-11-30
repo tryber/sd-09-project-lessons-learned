@@ -97,7 +97,8 @@ article {
 }
 
 #rodape {
-
+  display: block;
+  text-align: center;
 }
 
 a {
