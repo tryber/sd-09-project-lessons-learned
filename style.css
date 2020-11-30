@@ -1,172 +1,196 @@
 * {
-  margin: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+margin: 0;
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 body {
-  background-color: rgb(253, 251, 251);
+background-color: rgb(253, 251, 251);
 }
 .trybe_logo {
-  width: 200px;
-  position: relative;
-  top: 39px;
-  left: 40px;
+width: 200px;
+position: relative;
+top: 39px;
+left: 40px;
 }
 
 #titulo {
-  font-family: "Josefin Sans", sans-serif;
-  position: relative;
-  right: 40px;
-  font-size: 40px;
-  text-align: right;
+font-family: "Josefin Sans", sans-serif;
+position: relative;
+right: 40px;
+font-size: 40px;
+text-align: right;
 }
 
 .navegation {
-  text-align: center;
-  position: relative;
-  right: 25px;
-  bottom: 40px;
+text-align: center;
+position: relative;
+right: 25px;
+bottom: 40px;
 }
 
 .nav-item {
-  display: inline-block;
-  list-style: none;
-  font-size: 23px;
-  letter-spacing: 2px;
-  margin: 5px;
-  border-bottom: 1px solid black;
+display: inline-block;
+list-style: none;
+font-size: 23px;
+letter-spacing: 2px;
+margin: 5px;
+border-bottom: 1px solid black;
 }
 
 .nav-item:hover {
-  background-color: black;
-  transition: 0.4s;
+background-color: black;
+transition: 0.4s;
 }
 
 .nav-item a:hover {
-  transition: 0.4s;
-  color: white;
-  font-family: "Josefin Sans", sans-serif;
+transition: 0.4s;
+color: white;
 }
 
 .nav-item a {
-  text-decoration: none;
-  color: black;
-  font-family: "Josefin Sans", sans-serif;
+text-decoration: none;
+color: black;
 }
 
 #cabecalho {
-  width: 100%;
-  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+width: 100%;
+background-color: mediumseagreen;
+box-shadow: 2px 2px 1px black;
 }
 
 #foto-bg{
-  background-color: rgba(0, 0, 0, 0.164);
+border-radius: 5px;
+background-color: seagreen;
+
 }
 
 #minha_foto {
-  display: block;
-  width: 200px;
-  margin: 0 auto;
-  border-radius: 50%;
-  border: 1px solid rgb(0, 0, 0);
-  margin-top: 150px;
-  margin-bottom: 10px;
+display: block;
+width: 200px;
+margin: 0 auto;
+border-radius: 50%;
+border: 1px solid black;
+margin-top: 150px;
+margin-bottom: 10px;
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0px;
+position: fixed;
+top: 0px;
 }
 
 #container{
-    display: block;
-    height: 300px;
+display: block;
+height: 300px;
+background-color: mediumseagreen;
+border-radius: 5px;
+box-shadow: 5px 5px black;
 }
 
 .lado-esquerdo{
-    text-align: center;
-    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
-    display: block;
-    float: left;
-    width: 50%;
-    height: 300px;
-    line-height: 300px;
-    color: white;
+text-align: center;
+display: block;
+float: left;
+width: 50%;
+height: 300px;
+line-height: 300px;
+border-right: 1px solid black;
 }
 
 .lado-esquerdo p{
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: center;
+font-size: 18px;
+line-height: 1.2;
+display: inline-block;
+vertical-align: center;
 }
 
 .lado-direito{
-    text-align: center;
-    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
-    display: block;
-    float: right;
-    width: 49.5%;
-    height: 300px;
-    line-height: 300px;
-    color: white;
+text-align: center;
+display: block;
+float: right;
+width: 49.5%;
+height: 300px;
+line-height: 300px;
 }
 
 .lado-direito p{
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: center;
+font-size: 18px;
+line-height: 1.7;
+display: inline-block;
+vertical-align: center;
 }
 
 #listas{
-    clear: both;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-    background-color: rgba(0, 0, 0, 0.164);
-
+clear: both;
+display: flex;
+justify-content: space-around;
+margin: 20px auto;
+width: 90%;
+background-color: mediumseagreen;
+box-shadow: 10px 8px black;
 }
 
 #licoes_aprendidas{
-  margin-top: 10px;
-  color: green;
-  font-size: 25px;
-  text-align: center;
+margin-top: 10px;
+color: black;
+font-size: 25px;
+text-align: center;
 }
 
 #licoes_a_aprender{
-  margin-top: 10px;
-  color: green;
-  font-size: 25px;
-  text-align: center;
+margin-top: 10px;
+color: black;
+font-size: 25px;
+text-align: center;
 }
 
 #rodape {
-  background-color: rgba(0, 0, 0, 0.521);
-  clear: both;
+background-color: rgba(0, 0, 0, 0.521);
+clear: both;
 }
 
 .navegation-foot{
-    text-align: center;
-    position: relative;
+text-align: center;
+position: relative;
 }
 
 .nav-item-foot {
-    display: inline-block;
-    list-style: none;
-    font-size: 23px;
-    letter-spacing: 2px;
-    margin: 5px;
-  }
-  
-  .nav-item-foot a {
-    text-decoration: none;
-    color: white;
-  }
+display: inline-block;
+list-style: none;
+font-size: 23px;
+letter-spacing: 2px;
+margin: 5px;
+}
 
-  .nav-item-foot:first-child{
-      border-right: 1px solid white;
-      width: 120px;
-  }
-  
-  .nav-item-foot a:hover {
-    color: greenyellow;
-  }
+.nav-item-foot a {
+text-decoration: none;
+color: white;
+}
+
+.nav-item-foot:first-child{
+  border-right: 1px solid white;
+  width: 120px;
+}
+
+.nav-item-foot a:hover {
+color:mediumseagreen;
+text-shadow: 0.5px 0.5px black;
+}
+
+table{
+  font-size: 20px;
+  border-collapse: collapse;
+  width: 90%;
+  height: 300px;
+  margin: 20px auto 30px auto;
+  background-color: mediumseagreen;
+  box-shadow: 8px 8px black;
+}
+
+td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+th{
+  border: 2px solid black;
+}
