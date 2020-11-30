@@ -13,6 +13,7 @@ body {
 
 .header {
   text-align: center;
+  letter-spacing: 3px;
   background: rgb(79 121 121);
   grid-area: header;
   position: fixed;
@@ -27,6 +28,7 @@ body {
 }
 
 .aside-right {
+  letter-spacing: 2px;
   text-align: end;
   background: rgb(79 121 140);
   grid-area: aside-right;
@@ -35,6 +37,7 @@ body {
 }
 
 .article {
+  letter-spacing: 3px;
   background: rgb(238 238 238);
   margin-top: 100px;
   grid-area: article;
@@ -63,6 +66,7 @@ body {
   bottom: 0;
   margin-left: auto;
   margin-right: auto;
+  letter-spacing: 2px;
 }
 
 .header .aside-left .aside-right .footer {
@@ -87,7 +91,7 @@ body {
   font-style: normal;
   color: black;
   font-stretch: semi-condensed;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   height: auto;
   width: 300px;
   text-align: justify;
@@ -97,7 +101,7 @@ ul h2,ol h2 {
   font-size: medium;
   font-family: monospace;
   font-style: unset;
-  letter-spacing: inherit;
+  letter-spacing: 3px;
 }
 
 .lado-direto {
