@@ -80,9 +80,16 @@ th , tr , td {
 .lado-esquerdo , .lado-direito {
   border: 2px solid black;
   padding: 5px;
-  margin: 0 59px 10px;
-  width: 40%;
+  margin: 0 25px 10px;
   display: inline-block;
+}
+
+.lado-esquerdo {
+  width: 60%;
+}
+
+.lado-direito {
+  width: 30%;
 }
 
 footer {
