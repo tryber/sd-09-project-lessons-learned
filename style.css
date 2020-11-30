@@ -4,16 +4,33 @@
 }
 
 h1 {
-  font-family: BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+  font-family: BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif;
   font-size: 50px;
-  color: grey;
+  color: rgb(0, 202, 0);
   text-shadow: 2px 2px black;
   padding: 20px;
 }
 
-h3 {
+h2 {
+  color: rgb(0, 202, 0);
   margin-left: 25px;
   padding: 25px;
+}
+
+h3 {
+  padding: 20px;
+  text-align: center;
+  padding: 25px;
+}
+
+h4 {
+  padding: 15px;
+  text-align: center;
+}
+
+table {
+  background-color: rgb(168, 168, 168);
+  border-style: solid;
 }
 
 p {
@@ -36,7 +53,7 @@ main {
   width: 20%;
   display: inline-block;
   margin: 100px 25px 0 0;
-  background-color: lawngreen;
+  background-color: gray;
 }
 
 body {
@@ -48,7 +65,7 @@ body {
   position: fixed;
   text-align: center;
   top: 0;
-  background-image: linear-gradient(yellowgreen, green);
+  background-image: linear-gradient(grey , rgb(65, 64, 64));
   width: 100%;
 }
 
@@ -59,7 +76,7 @@ nav {
 }
 
 #learning {
-  padding: 20px 60px 20px 60px;
+  padding: 20px 100px;
   border-style: solid;
   border-collapse: collapse;
   box-shadow: 10px 5px 5px black;
