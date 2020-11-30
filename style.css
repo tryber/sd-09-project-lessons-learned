@@ -19,3 +19,7 @@ footer a {
 .right-side {
   float: right;
 }
+
+#right-menu {
+  background-color: aqua;
+}
