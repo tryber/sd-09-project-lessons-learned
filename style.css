@@ -15,16 +15,20 @@ body {
 
 footer a {
   text-decoration: none;
+  margin-bottom: 0px;
+  font-size: 30px;
+  color: blueviolet;
+  line-height: 0.9;
 }
 
-#left-side {
+.left-side {
   background-color: rgb(177, 149, 149);
   display: inline-block;
   float: left;
   width: 50%;
 }
 
-#right-side {
+.right-side {
   background-color: aqua;
   float: right;
   position: relative;
