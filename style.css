@@ -18,6 +18,7 @@ body {
   background-color: rgb(253 , 251 , 251);
   margin: 0 auto;
   box-shadow: 0 0 20px 7px rgba(135 , 135 , 135 , 0.1);
+  text-align: center;
 }
 
 /* == header == */
@@ -57,9 +58,7 @@ body {
 #menu {
   width: 350px;
   display: inline-block;
-  position: absolute;
   margin-top: 9.7em;
-  margin-left: 33em;
   border-top: navy 2px solid;
   text-align: center;
 }
@@ -109,15 +108,31 @@ li {
 }
 
 /* == Exemplos == */
-#ex_6 , #ex_10 {
+#example {
   display: inline-block;
+  margin-top: 50px;
+  text-align: center;
 }
 
+input {
+  border-radius: 9px;
+  height: 23px;
+}
+
+#ex_6 , #ex_10 , #ex_11 {
+  margin: 0 auto;
+}
+
+#xadrez , #inss_ir , #custo {
+  margin-top: 50px;
+}
+/* == Exercício 06 == */
 #ex_6 {
   font-family: Arial, Helvetica, sans-serif;
   width: 500px;
+  height: 269px;
   padding: 15px;
-  margin: 20px;
+  margin-top: 10px;
   background-color: var(--secondary-color);
   border-radius: 30px;
   box-shadow: 3px 3px 8px rgba(0 , 0 , 0 , 0.3);
@@ -136,7 +151,7 @@ li {
 }
 
 #infoText {
-  margin-top: 25px;
+  margin-top: 25px;  
 }
 
 #outText {
@@ -145,13 +160,51 @@ li {
   border-radius: 30px;
   border: solid 2px antiquewhite;
   padding: 10px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
+/* == Exercício 11 == */
+#ex_11 {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  height: 269px;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+  box-shadow: 3px 3px 8px rgba(0 , 0 , 0 , 0.3);
+  text-align: center;
+  color: antiquewhite;
+  font-weight: 600;
+}
+
+#inSalary {
+  margin-top: 30px;
+}
+
+#btnCalcNetSalary , #btnCleanSalary {
+  width: 90px;
+  height: 30px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 6px rgba(0 , 0 , 0 , 0.1);
+  border-radius: 20px;
+}
+
+#outNetSalary {
+  width: 450px;
+  background-color: rgb(111 , 174 , 255);
+  border-radius: 30px;
+  border: solid 2px antiquewhite;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+/* == Exercício 10 == */
 #ex_10 {
   width: 500px;
+  height: 330px;
   padding: 15px;
-  margin: 20px;
+  margin-top: 10px;
   background-color: var(--secondary-color);
   border-radius: 30px;
   box-shadow: 3px 3px 8px rgba(0 , 0 , 0 , 0.3);
@@ -222,7 +275,7 @@ footer {
   background-color: var(--primary-color);
   border-radius: 30px 30px 0 0;
   padding: 10px;
-  position: fixed;
+  margin-top: 50px;
   bottom: 0;
   text-align: center;
 }

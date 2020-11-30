@@ -53,6 +53,10 @@
   </section>
   <section id="example">
     <h2>Exemplos</h2>
+    <p>
+      Estes são alguns exercícios desenvolvidos durante as aulas para fixar o aprendizado, os cálculos não refletem a realidade.
+    </p>
+    <p id="xadrez">Ao escolher uma das peças do xadrez, o programa retorna seus movimentos válidos</p>
     <div id="ex_6">
       <h2 class="configFont">Movimentação das Peças</h2>
       <label for="cboPieces" class="configFont">Escolha uma peça: </label>
@@ -66,18 +70,30 @@
         <option value="Rei">Rei</option>
       </select>
       <p class="configFont" id="infoText">Movimentos válidos para a peça selecionada: </p>
-      <p id="outText" class="configFont"></p>
+      <p id="outText" class="configFont"></p>      
     </div>
+    <p id="inss_ir">Os valores devem ser informados utilizando a notação como no exemplo: 1000.00</p>
+    <div id="ex_11">
+      <h2 class="configFont">Dedução de INSS e IR</h2>
+      <p>
+        <label for="inSalary">Digite o salário bruto: </label>
+        <input type="text" id="inSalary" class="aplyMargin">
+      </p>
+      <input type="button" value="Calcular" id="btnCalcNetSalary" class="aplyMargin">
+      <input type="button" value="Limpar" id="btnCleanSalary" class="aplyMargin">
+      <p id="outNetSalary"></p>
+    </div>
+    <p id="custo">Os valores em Reais, devem ser informados utilizando a notação como no exemplo: 1000.00</p>
     <div id="ex_10">
       <h2>Cálculo do Custo</h2>
       <h3>Informações do produto</h3>
       <p>
         <label for="inCost">Insira o custo em R$: </label>
-        <input type="text" id="inCost" class="aplyMargin">
-      </p>
+        <input type="text" id="inCost" class="aplyMargin" >
+      </p>      
       <p>
         <label for="inSalePrice">Insira o preço de venda em R$: </label>
-        <input type="text" id="inSalePrice" class="aplyMargin">
+        <input type="text" id="inSalePrice" class="aplyMargin" >
       </p>
       <p>
         <label for="inSoldAmount">Insira a quantidade vendida: </label>

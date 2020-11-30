@@ -29,6 +29,51 @@ function updatePiece() {
   outText.textContent = validMoves;
 };
 
+//  Exercício 11
+function salarioLiquido(salario) {
+  let inSalary = document.querySelector('#inSalary');
+  let outNetSalary = document.querySelector('#outNetSalary');
+  
+  salario = Number(inSalary.value);
+  let inss = 0;
+  let salarioDeduzidoInss = 0;
+  let ir = 0;
+  
+  if (salario <= 1556.94) {
+    inss = salario * 0.08;
+  }else if (salario > 1556.94 && salario <= 2594.92) {
+    inss = salario * 0.09;
+  }else if (salario > 2594.92 && salario <= 5189.82) {
+    inss = salario * 0.11;
+  }else {
+    inss = 570.88
+  }
+
+  salarioDeduzidoInss = salario - inss;
+  
+  if (salarioDeduzidoInss <= 1903.98) {
+    ir = 0;
+  }else if (salarioDeduzidoInss > 1903.98 && salarioDeduzidoInss <= 2826.65) {
+    ir = (salarioDeduzidoInss * 0.075) - 142.80;
+  }else if (salarioDeduzidoInss > 2826.65 && salarioDeduzidoInss <= 3751.05) {
+    ir = (salarioDeduzidoInss * 0.15) - 354.80;
+  }else if (salarioDeduzidoInss > 3751.05 && salarioDeduzidoInss <= 4664.68) {
+    ir = (salarioDeduzidoInss * 0.225) - 636.13;
+  }else {
+    ir = (salarioDeduzidoInss * 0.275) - 869.36;
+  }
+
+  outNetSalary.textContent = `Após as deduções o salário será de R$${(salarioDeduzidoInss - ir).toFixed(2)}`;
+}
+let btnCalcNetSalary = document.querySelector('#btnCalcNetSalary');
+btnCalcNetSalary.addEventListener('click', salarioLiquido);
+
+let btnCleanSalary = document.querySelector('#btnCleanSalary');
+btnCleanSalary.addEventListener('click', () => {
+  inSalary.value = '';
+  outNetSalary = document.querySelector('#outNetSalary').textContent = '';
+})
+
 //  Exercício 10
 function profit() {
   let inCost = document.querySelector('#inCost');
