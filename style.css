@@ -11,3 +11,10 @@ body {
   width: 250px;
   margin-top: 60px;
 }
+
+.fonte_h2 {
+    font-family: 'Nerko One', cursive;
+    font-size: 40px;
+    line-height: 20px;
+    color: sienna;
+}
