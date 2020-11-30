@@ -98,8 +98,8 @@ footer {
     height: 10vh;
     color: rgb( 253 , 251 , 251  );
     font-size: 1.1rem;
-    font-family: serif;
     line-height: 2rem;
+    font-family: serif;
 }
 
 footer p {
