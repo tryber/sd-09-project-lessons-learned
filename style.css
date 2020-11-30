@@ -5,9 +5,13 @@
   text-decoration: none;
 }
 
+:root {
+  --primary-color: rgb(156 , 255 , 255);
+  --secondary-color: rgb(90 , 156 , 255);
+}
+
 body {
   width: 1366px;
-  height: 100vh;
   letter-spacing: 1px;
   background-color: rgb(253 , 251 , 251);
   margin: 0 auto;
@@ -22,7 +26,7 @@ body {
 
 #banner {
   display: inline-block;
-  background-color: rgb(156 , 255 , 255);
+  background-color: var(--primary-color);
   border-radius: 0 0 30px 30px;
   width: 1366px;
   height: 180px;
@@ -42,7 +46,7 @@ body {
 #minha_foto {
   width: 200px;
   border-radius: 50%;
-  border: rgb(156 , 255 , 255) solid 5px;
+  border: var(--primary-color) solid 5px;
   position: absolute;
   top: 1em;
   right: 5em;
@@ -102,13 +106,17 @@ li {
   text-align: center;
 }
 
-/* == Exercício 06 == */
+/* == Exemplos == */
+#ex_6 , #ex_10 {
+  display: inline-block;
+}
+
 #ex_6 {
   font-family: Arial, Helvetica, sans-serif;
   width: 500px;
   padding: 15px;
   margin: 20px;
-  background-color: rgb(90 , 156 , 255);
+  background-color:var(--secondary-color);
   border-radius: 30px;
   box-shadow: 3px 3px 8px rgba(0 , 0 , 0 , 0.3);
   text-align: center;
@@ -138,12 +146,11 @@ li {
   margin: 10px auto;
 }
 
-/* == Exercício 10 == */
 #ex_10 {
   width: 500px;
   padding: 15px;
   margin: 20px;
-  background-color: rgb(90 , 156 , 255);
+  background-color: var(--secondary-color);
   border-radius: 30px;
   box-shadow: 3px 3px 8px rgba(0 , 0 , 0 , 0.3);
   text-align: center;
@@ -191,8 +198,8 @@ article , aside {
 }
 
 .lado-direito , .lado-esquerdo {
-  border: rgb(156 , 255 , 255) solid 2px;
-  box-shadow: 5px 5px rgba(156 , 255 , 255 , 1);
+  border: var(--primary-color) solid 2px;
+  box-shadow: 4px 4px var(--primary-color);
   border-radius: 20px;
 }
 
@@ -210,7 +217,7 @@ footer {
   width: 1366px;
   height: 50px;
   font-size: 15px;
-  background-color: rgb(156 , 255 , 255);
+  background-color: var(--primary-color);
   border-radius: 30px 30px 0 0;
   padding: 10px;
   position: fixed;
