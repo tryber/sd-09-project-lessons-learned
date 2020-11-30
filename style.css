@@ -15,3 +15,7 @@ body {
 footer a {
   text-decoration: none;
 }
+
+.right-side {
+  float: right;
+}
