@@ -16,7 +16,7 @@ body {
   text-align: center;
   background-size: cover;
   background-position: bottom;
-  background-image: url(teste2.jpg);
+  background-image: url("teste2.jpg");
   letter-spacing: 10px;
   color: aliceblue;
   flex-direction: row;
@@ -33,7 +33,7 @@ body {
 }
 
 #headNav a {
-  color: rgb(255, 246, 246);
+  color: rgb(255 , 246 , 246);
   text-decoration: none;
   border: solid;
   border-radius: 50px;
@@ -41,7 +41,7 @@ body {
   background: black;
 }
 
-#main {  
+#main {
   margin-right: 550px;
   text-align: justify;
   margin-left: 10px;
@@ -68,11 +68,10 @@ aside {
 footer {
   background-size: cover;
   background-position: bottom;
-  background-image: url(teste2.jpg);
-  color: rgb(0, 0, 0);
+  background-image: url("teste2.jpg");
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
-  float: left;
-  height: auto;
+  float: left; 
   font-size: 10px;
   width: 100%;
   top: 500px;
@@ -94,9 +93,9 @@ footer {
 }
 
 .lado-direito {
- position: relative;
- left: 400px;
- bottom: 249px;
+  position: relative;
+  left: 400px;
+  bottom: 249px;
 }
 
 #rodape {
@@ -105,7 +104,6 @@ footer {
 
 #social {
   float: left;
-  bottom: 17px;
   position: relative;
   left: 10px;
   bottom: 10px;
