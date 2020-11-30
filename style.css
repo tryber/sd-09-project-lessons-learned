@@ -11,7 +11,7 @@ body {
   letter-spacing: 1px;
   background-color: rgb(253 , 251 , 251);
   margin: 0 auto;
-  box-shadow: 0 0 20px 7px rgba(135, 135, 135, 0.1);
+  box-shadow: 0 0 20px 7px rgba(135 , 135 , 135 , 0.1);
 }
 
 /* == header == */
@@ -78,7 +78,7 @@ ol , ul , h3 {
   line-height: 28px;
 }
 
-li , h3 {
+li {
   border-bottom: black solid 1px;
 }
 
@@ -102,13 +102,13 @@ li , h3 {
   text-align: center;
 }
 
-/*== Exercício 06 ==*/
+/* == Exercício 06 == */
 #ex_6 {
-  font-family: Arial, Helvetica, sans-serifZ;
+  font-family: Arial, Helvetica, sans-serif;
   width: 500px;
   padding: 15px;
-  margin: 20px 20px;
-  background-color: rgb(90, 156, 255);
+  margin: 20px;
+  background-color: rgb(90 , 156 , 255);
   border-radius: 30px;
   box-shadow: 3px 3px 8px rgba(0 , 0 , 0 , 0.3);
   text-align: center;
@@ -131,20 +131,20 @@ li , h3 {
 
 #outText {
   width: 450px;
-  background-color: rgb(111, 174, 255);
+  background-color: rgb(111 , 174 , 255);
   border-radius: 30px;
   border: solid 2px antiquewhite;
-  border-radius: 20px;
+  border-radius: 19px;
   padding: 10px;
   margin: 10px auto;
 }
 
-/*== Exercício 10 ==*/
+/* == Exercício 10 == */
 #ex_10 {
   width: 500px;
   padding: 15px;
-  margin: 20px 20px;
-  background-color: rgb(90, 156, 255);
+  margin: 20px;
+  background-color: rgb(90 , 156 , 255);
   border-radius: 30px;
   box-shadow: 3px 3px 8px rgba(0 , 0 , 0 , 0.3);
   text-align: center;
@@ -152,8 +152,8 @@ li , h3 {
   font-weight: 600;
 }
 
-h4 {
-  margin: 20px 0 10px 0;
+#ex_10 h3 {
+  margin: 20px 0 10px;
 }
 
 .aplyMargin {
@@ -170,7 +170,7 @@ h4 {
 
 #outProfit {
   width: 450px;
-  background-color: rgb(111, 174, 255);
+  background-color: rgb(111 , 174 , 255);
   border: solid 2px antiquewhite;
   border-radius: 20px;
   padding: 10px;
