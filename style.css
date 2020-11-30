@@ -45,7 +45,7 @@ body {
   margin-left:60px;
 }
 
-#main{  
+#main{ 
   margin-top:100px;
   font-size:30px;
 }
@@ -64,18 +64,18 @@ body {
   float:right;
   max-width:40%;
   margin-top:100px;
-  margin-right:50px;  
+  margin-right:50px;
 }
 
 .fotos{
   display:inline-block;
-}     
+}
 
 #tryber{
   margin-top:100px;
 }
 
-.fotoMainLeft{  
+.fotoMainLeft{
   max-width:40%;
   border-radius:350px;
   height:500px;
@@ -118,7 +118,7 @@ body {
   max-height:1000px;
 }
 
-.mktRight{  
+.mktRight{
   float:right;
   font-weight:600;
   font-size:30px;
@@ -148,13 +148,13 @@ body {
 }
 
 .linkin{
- margin-top:400px;
- margin-left:200px;
- margin-bottom:30px;
- font-weight:600;
- font-size:30px;
- height:100px;
- text-align:left;
+  margin-top:400px;
+  margin-left:200px;
+  margin-bottom:30px;
+  font-weight:600;
+  font-size:30px;
+  height:100px;
+  text-align:left;
 }
 
 #tryber{
@@ -166,7 +166,7 @@ body {
 
 #tabela{
   font-size:30px;
-  width:50%; 
+  width:50%;
   border-color:rgba(0, 128, 0, 0.856);
   margin-top:520px;
   margin-left:350px;
@@ -175,4 +175,3 @@ body {
 #rodape{
   text-align:center;
 }
-
