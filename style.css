@@ -127,12 +127,13 @@ section h2 {
   margin: 0 20px;
 }
 
-aside , article {
+.lado-esquerdo , .lado-direito {
   width: 40%;
   display: inline-block;
+  padding: 5px 10px;
 }
 
-article {
+.lado-esquerdo {
   margin-left: 50px;
 }
 
