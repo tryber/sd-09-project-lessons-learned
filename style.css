@@ -9,7 +9,7 @@ body {
     'footer footer footer';
   grid-template-columns: 30% 35% 20%;
   grid-row: auto;
-  font-family: 'Texturina', serif;
+  font-family: Texturina, serif;
 }
 
 .header {
@@ -102,7 +102,7 @@ body {
 
 ul h2,ol h2 {
   font-size: medium;
-  font-family: 'Texturina', serif;
+  font-family: Texturina, serif;
   font-style: unset;
   letter-spacing: 3px;
 }
@@ -122,5 +122,8 @@ ul h2,ol h2 {
   background: rgb(79 121 140);
   grid-area: aside-right;
   font-style: oblique;
-  margin-top: 15px;
+  margin-top: 35px;
+  font-size: 20px;
+  color: rgb (23 104 23);
+  font-family: Texturina, serif;
 }
