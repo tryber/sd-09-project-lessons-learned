@@ -21,7 +21,7 @@ h1 , h2 , h3 , h4 {
 }
 
 p {
-  color: rgb(117, 117, 117);
+  color: rgb(117 , 117 , 117);
   line-height: 1.5;
 }
 
@@ -59,9 +59,6 @@ p {
   padding-right: 25px;
 }
 
-/* #artigo {
-  clear: both;
-} */
 #licoes_aprendidas {
   margin-left: 20px;
 }
@@ -83,9 +80,9 @@ tbody {
   background-color: rgb(242 , 242 , 242);
 }
 
-th, td {
+th , td {
   padding: 10px;
-  border: solid 1px rgb(207, 207, 207); 
+  border: solid 1px rgb(207 , 207 , 207); 
   text-align: center;
 }
 
