@@ -1,15 +1,16 @@
 #all {
   border: 1px solid gray;
-  padding: 0px 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
   color: black;
-  background-color: rgb(224, 224, 174);
+  background-color: rgb(224 , 224 , 174);
   position: fixed;
   top: 0px;
   margin-bottom: 20px;
@@ -42,7 +43,7 @@ body {
 }
 
 #rodape {
-  padding: 1px 0px 0px 0px;
+  padding-top: 1px;
   font-family: monospace;
   font-weight: 600;
   margin-top: 150px;
@@ -72,7 +73,7 @@ article p {
   float: right;
 }
 
-tr, td, th {
+tr , td , th {
   border: 1px solid black;
 }
 
