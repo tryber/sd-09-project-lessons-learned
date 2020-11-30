@@ -30,8 +30,7 @@ blockquote , q {
   quotes: none;
 }
 
-blockquote:before , blockquote:after ,
-q:before , q:after {
+blockquote:before , blockquote:after , q:before , q:after {
   content: none;
 }
 
@@ -48,7 +47,7 @@ Fim do trecho para o "Zerar" o CSS defalt.
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'PT Serif', serif;
+  font-family: PT Serif , serif;
   color: rgb(54 , 57 , 70);
   font-size: 18px;
   line-height: 1.2em;
@@ -66,7 +65,7 @@ body {
 }
 
 #cabecalho h1 {
-  margin: 0px;
+  margin: 0;
 }
 
 nav {
