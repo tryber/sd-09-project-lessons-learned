@@ -7,39 +7,41 @@ body {
     background-color: rgb(253, 251, 251);
    }
 #cabecalho {
-    background-color: rgba(100, 200, 183, 0.993);
-    position: relative;
+    color: black;
+    background-color: rgb(224, 224, 174);
+    position: fixed;
     top: 0px;
     margin-bottom:20px;
+    height: 150px;
    }
 #titulo{
     padding: 10px 350px;
 }
 #minha_foto {
+   margin-top: 149px;
    width: 350px;
-   display: block;s
-   ;
+   display: block;
 }
 .list {
     display: inline-block;
-    margin-top: 20px;
 }
 #unordened{
+    display: inline-block;
     margin-left:100px ;
 }
 #main_part{
+    margin-top: 60px;
     display: inline-block;
     height: 150px;
 }
 #rodape{
+    padding: 1px 0px 0px 0px;
     font-family: monospace;
     font-weight: bold;
     margin-top: 150px;
 }
-#cytus{
-    float: right;
-}
 .link{
+    font-size: 20px;
     display: inline-block;
 }
 aside {
@@ -49,8 +51,25 @@ aside {
     margin-top: -10px;
 }
 aside  p {
-    margin: 5px;
+    margin: 10px;
 }
 article p {
     width: 80%;
+}
+#cytus{
+    float: right;
+}
+tr, td, th{
+    border: 1px solid black;
+}
+#tabela{
+   margin-top: 60px;
+   margin-left: 280px;
+}
+#navegar{
+    margin-top: 60px;
+}
+#aprendizado{
+   font-family: Arial, Helvetica, sans-serif;
+   
 }
