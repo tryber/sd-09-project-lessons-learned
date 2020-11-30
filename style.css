@@ -36,7 +36,7 @@ main {
   padding-right: 0;
   margin: 1px;
   border-radius: 30px;
-  display: inline-block;
+  box-shadow: 5px 5px black;
 }
 
 #minha_foto {
@@ -94,13 +94,13 @@ li {
   padding: 0 0 10px 7px;
   border-style: solid none none none;
   border-width: 1px;
-  background-color: green;
-  opacity: 0.7;
+  background-color: #52b788;
   z-index: 10;
 }
 
 .lado-esquerdo {
-  color: violet;
+  color: black;
+  text-shadow: 2px 2px white;
   background-color: #fff5cc;
   position: absolute;
   width: 37%;
@@ -109,6 +109,7 @@ li {
   padding: 1%;
   float: left;
   border-radius: 30px;
+  box-shadow: 5px 5px black;
 }
 
 .lado-direito {
@@ -122,6 +123,7 @@ li {
   border-radius: 30px;
   padding-top: 7%;
   float: right;
+  box-shadow: 5px 5px black;
 }
 .poema {
   color: black;
@@ -139,9 +141,10 @@ nav {
   top: 70%;
   left: 1%;
   padding: 1%;
-  background-color: blue;
+  background-color: #7e5100;
   border-radius: 30px;
   text-align: center;
+  box-shadow: 5px 5px black;
 }
 
 table{
