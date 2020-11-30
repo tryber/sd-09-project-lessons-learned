@@ -13,5 +13,24 @@ body {
 }
 
 #minha_foto {
+  margin-top: 5%;
   width: 300px;
+}
+
+#licoes_aprendidas {
+  border: solid;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  width: 20%;
+}
+
+#licoes_a_aprender {
+  border: solid;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  width: 20%;
 }
