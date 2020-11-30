@@ -2,13 +2,15 @@
   background-color: rgb(253 , 251 , 251);
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: midnightblue;
   height: 13vh;
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100vw;
 }
 
