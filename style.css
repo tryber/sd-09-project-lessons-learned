@@ -7,7 +7,7 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Cantarell, sans-serif;
   padding: 2em;
   margin: 3em;
   border-style: groove;
@@ -17,5 +17,5 @@ body {
 }
 
 .lado-esquerdo {
-    float: right;
+  float: right;
 }
