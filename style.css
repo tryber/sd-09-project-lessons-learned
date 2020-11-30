@@ -1,94 +1,120 @@
 body {
-  background-color: rgb(253 , 251 , 251);
+  background-color: rgb(252, 251, 253);
   background-position: center;
   margin-left: 70px;
   border: groove;
   width: 90%;
   margin-right: 70px;
-  height: 650px;
+  height: 690px;
+  padding-top: 120px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   font-family: Indie Flower , cursive;
-  font-size: 25px;
-  background-color: transparent;
-  width: 90%;
-  height: 19%;
+  text-align: center;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(teste2.jpg);
   letter-spacing: 10px;
-  margin-left: 30px;
+  color: aliceblue;
+  flex-direction: row;
+  align-items: center;
+  width: 89.98%;
+  z-index: 1;
 }
 
 #minha_foto {
   border-radius: 10px;
   float: left;
   position: static;
+  margin-right: 5px;
 }
 
-#headNav {
-  position: relative;
-  width: 100%;
-  text-align: center;
+#headNav a {
+  color: rgb(255, 246, 246);
+  text-decoration: none;
+  border: solid;
+  border-radius: 50px;
+  padding-left: 7px;
+  background: black;
 }
 
-#main {
-  margin-top: 80px;
+#main {  
   margin-right: 550px;
-  margin-left: 30px;
   text-align: justify;
+  margin-left: 10px;
 }
 
 aside {
   float: right;
   position: relative;
   left: 500px;
-  margin-left: 10px;
   width: 300px;
-  height: 270px;
-  border-radius: 10px;
-  padding: right;
-  line-height: 25px;
+  bottom: 140px;
 }
 
 #lorem {
   border-radius: 10px;
   float: left;
-  position: static;
+  position: inherit;
   border: 1px;
   margin: 1px;
+  z-index: 2;
 }
 
 footer {
-  background-color: black;
-  color: white;
-  font-family: Courier New , Courier, monospace;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(teste2.jpg);
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
   float: left;
   height: auto;
-  font-size: 8px;
+  font-size: 10px;
   width: 100%;
-  bottom: 170px;
-  position: relative;
+  top: 500px;
+  height: 96px;
 }
 
 #tableSize {
   width: 100%;
   height: 25px;
   text-align: center;
-  background-color: red;
+  text-decoration: none;
+  color: aliceblue;
 }
 
-.lado-esquerdo {
+#sides {
   display: inline-block;
+  float: left;
+  position: absolute;
 }
 
 .lado-direito {
-  float: right;
-  position: relative;
-  left: 200px;
-  bottom: 270px;
+ position: relative;
+ left: 400px;
+ bottom: 249px;
 }
 
-#licoes_aprendidas {
-  width: 500px;
+#rodape {
+  margin-top: 190px;
+}
+
+#social {
+  float: left;
+  bottom: 17px;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+
+#moveR {
+  float: right;
+  margin-right: 10px;
+}
+
+#git {
+  margin-right: 10px;
 }
