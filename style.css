@@ -1,12 +1,13 @@
 body {
   height: 100vh;
-  letter-spacing: 1px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin: auto;
   background-color: rgb(253, 251, 251);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  color: #2B2929;
 }
 
 #cabecalho {
@@ -22,7 +23,7 @@ body {
 
 #titulo {
   position: absolute;
-  left: 40px;
+  left: 100px;
   font-family: 'Nerko One', cursive;
 }
 
