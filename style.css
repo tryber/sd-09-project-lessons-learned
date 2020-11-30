@@ -13,7 +13,7 @@ body {
 
 #titulo {
   text-align: center;
-  color: rgb(255 , 255 , 255);
+  color: white;
 }
 
 #minha_foto {
@@ -22,7 +22,7 @@ body {
   width: 300px;
 }
 
-#licoes_aprendidas,#licoes_a_aprender {
+#licoes_aprendidas ,#licoes_a_aprender {
   border: dotted;
   font-size: 16px;
   line-height: 1.25em;
@@ -30,8 +30,7 @@ body {
   padding-bottom: auto;
   padding-left: auto;
   padding-right: auto;
-  padding-top: auto;
-  width: 370px; 
+  width: 370px;
 }
 
 div {
@@ -41,7 +40,7 @@ div {
 #rodape {
   background-color: rgb(51 , 51 , 51);
   bottom: 0;
-  color: rgb(255 , 255 , 255);
+  color: white;
   position: absolute;
   width: 100%;
 }
