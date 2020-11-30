@@ -28,7 +28,7 @@ body {
   letter-spacing: 1px;
 }
 
-.aside-right {
+.aside-right, #aprendizado {
   letter-spacing: 2px;
   text-align: end;
   background: rgb(79 121 140);
@@ -101,7 +101,7 @@ body {
 
 ul h2,ol h2 {
   font-size: medium;
-  font-family: monospace;
+  font-family: texturina;
   font-style: unset;
   letter-spacing: 3px;
 }
@@ -113,8 +113,4 @@ ul h2,ol h2 {
 
 .lado-esquerdo {
   float: left;
-}
-
-#aprendizado {
-  color: transparent;
 }
