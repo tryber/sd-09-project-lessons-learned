@@ -12,6 +12,11 @@ body {
     position: fixed; top: 0px;
     background-color: green
     }
+#minha_foto {
+   margin-top: 100px;
+   margin-left: 750px;
+}
+
 #licoes_a_aprender {
     float:left;
     margin-left: 70px;
