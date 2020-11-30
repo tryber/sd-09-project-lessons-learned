@@ -65,6 +65,14 @@ ul {
   box-shadow: 20px 15px 10px rgb(56 , 56 , 56);
 }
 
+.lado-esquerdo p {
+  line-height: 18px;
+}
+
+.lado-direito p {
+  line-height: 18px;
+}
+
 #hero-card p {
   text-align: center;
   font-size: 30px;
@@ -163,10 +171,6 @@ ul {
   color: rgb(46 , 254 , 247);
 }
 
-.lado-esquerdo p {
-  line-height: 18px;
-}
-
 .lado-direito {
   position: absolute;
   width: 400px;
@@ -188,10 +192,6 @@ ul {
   text-transform: uppercase;
   margin-bottom: 5px;
   color: rgb(46 , 254 , 247);
-}
-
-.lado-direito p {
-  line-height: 18px;
 }
 
 #rodape {
