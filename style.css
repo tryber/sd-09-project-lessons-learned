@@ -1,4 +1,6 @@
 body {
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin: auto;
   background-color: rgb(253, 251, 251);
@@ -49,7 +51,7 @@ nav {
 }
 
 
-#texto {
+#lado-esquerdo {
   margin: 100px;
   border-radius: 10px;
   width: 450px;
@@ -60,7 +62,7 @@ nav {
   padding: 10px;
 }
 
-#texto_mini {
+#lado-direito {
   border-radius: 10px;
   width: 30%;
   display: inline-block;
@@ -84,6 +86,9 @@ nav {
 }
 
 h3 {
+  display: inline-block;
+  margin: auto;
+  width: 400px;
   background-color: greenyellow;
 }
 
