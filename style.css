@@ -8,7 +8,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 1px;
+  top: 0px;
   background-color: aqua;
   text-align: center;
 }
@@ -33,4 +33,8 @@ footer a {
   float: right;
   position: relative;
   width: 50%;
+}
+
+#table-atribute {
+  line-height: 1.2;
 }
