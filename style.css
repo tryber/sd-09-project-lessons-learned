@@ -6,7 +6,9 @@
 }
 
 :root {
+
   --primary-color: rgb(156 , 255 , 255);
+
   --secondary-color: rgb(90 , 156 , 255);
 }
 
@@ -116,7 +118,7 @@ li {
   width: 500px;
   padding: 15px;
   margin: 20px;
-  background-color:var(--secondary-color);
+  background-color: var(--secondary-color);
   border-radius: 30px;
   box-shadow: 3px 3px 8px rgba(0 , 0 , 0 , 0.3);
   text-align: center;
