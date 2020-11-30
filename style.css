@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: 'Gill Sans', sans-serif, sans-serif;
+  line-height:33px;
 }
 
 #cabecalho {
@@ -10,18 +11,18 @@ body {
   width: 500px;
 }
 
-#titulo{
+#titulo {
   text-align:center;
   background-color:rgb(34, 146, 51);
   font-weight:800;
 }
 
-#minha_foto{
+#minha_foto {
   height:330px;
   border-radius:200px;
 }
 
-#quemsou{
+#quemsou {
   margin-top:150px;
   min-height:300px;
 }
@@ -45,19 +46,19 @@ body {
   margin-left:60px;
 }
 
-#main{ 
+#main{
   margin-top:100px;
   font-size:30px;
 }
 
-#pmain{
+.lado-esquerdo{
   max-width:45%;
   float:left;
   text-align:center;
   margin-left:50px;
 }
 
-#artigo{
+.lado-direito{
   text-align:center;
   font-size: 30px;
   font-weight: 600;
@@ -148,13 +149,13 @@ body {
 }
 
 .linkin{
-  margin-top:400px;
-  margin-left:200px;
-  margin-bottom:30px;
-  font-weight:600;
-  font-size:30px;
-  height:100px;
-  text-align:left;
+    margin-top:400px;
+    margin-left:200px;
+    margin-bottom:30px;
+    font-weight:600;
+    font-size:30px;
+    height:100px;
+    text-align:left;
 }
 
 #tryber{
