@@ -29,7 +29,7 @@ main {
 }
 
 #cabecalho {
-  background-color: #0fa36b;
+  background-color: rgb(15 , 163 , 107);
   font-family: monospace;
   height: 5em;
   position: fixed;
@@ -52,10 +52,10 @@ main {
   width: 100px;
 }
 
-#rodape{
-  background-color: #0fa36b;
+#rodape {
+  background-color: rgb(15 , 163 , 107);
   bottom: 0;
-  font-weight: bold;
+  font-weight: 800;
   height: 2em;
   position: fixed;
   text-align: right;
@@ -75,5 +75,5 @@ main {
 
 #rodape a {
   color: rgb(253 , 251 , 251);
-  margin: 1em
+  margin: 1em;
 }
