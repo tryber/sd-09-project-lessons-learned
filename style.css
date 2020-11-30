@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(252, 251, 253);
+  background-color: rgb(253 , 251 , 251);
   background-position: center;
   margin-left: 70px;
   border: groove;
@@ -53,6 +53,7 @@ aside {
   left: 500px;
   width: 300px;
   bottom: 140px;
+  line-height: 20px;
 }
 
 #lorem {
