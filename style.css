@@ -126,6 +126,7 @@ input {
 #xadrez , #inss_ir , #custo {
   margin-top: 50px;
 }
+
 /* == Exercício 06 == */
 #ex_6 {
   font-family: Arial, Helvetica, sans-serif;
@@ -151,7 +152,7 @@ input {
 }
 
 #infoText {
-  margin-top: 25px;  
+  margin-top: 25px;
 }
 
 #outText {

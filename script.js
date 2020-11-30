@@ -33,12 +33,12 @@ function updatePiece() {
 function salarioLiquido(salario) {
   let inSalary = document.querySelector('#inSalary');
   let outNetSalary = document.querySelector('#outNetSalary');
-  
+
   salario = Number(inSalary.value);
   let inss = 0;
   let salarioDeduzidoInss = 0;
   let ir = 0;
-  
+
   if (salario <= 1556.94) {
     inss = salario * 0.08;
   }else if (salario > 1556.94 && salario <= 2594.92) {
@@ -50,7 +50,7 @@ function salarioLiquido(salario) {
   }
 
   salarioDeduzidoInss = salario - inss;
-  
+
   if (salarioDeduzidoInss <= 1903.98) {
     ir = 0;
   }else if (salarioDeduzidoInss > 1903.98 && salarioDeduzidoInss <= 2826.65) {
