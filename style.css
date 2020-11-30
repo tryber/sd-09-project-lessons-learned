@@ -12,9 +12,16 @@ body {
   margin-top: 60px;
 }
 
-.fonte_h2 {
-    font-family: 'Nerko One', cursive;
-    font-size: 40px;
-    line-height: 20px;
-    color: sienna;
+.fonte_hx {
+  font-family: Nerko One, cursive;
+  font-size: 40px;
+  line-height: 20px;
+  color: green;
+}
+
+#titulo {
+  font-family: Nerko One, cursive;
+  font-size: 40px;
+  line-height: 20px;
+  color: green; 
 }
