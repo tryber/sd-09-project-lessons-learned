@@ -16,10 +16,16 @@ footer a {
   text-decoration: none;
 }
 
-.right-side {
-  float: right;
+#left-side {
+  background-color: rgb(177, 149, 149);
+  display: inline-block;
+  float: left;
+  width: 50%;
 }
 
-#right-menu {
+#right-side {
   background-color: aqua;
+  float: right;
+  position: relative;
+  width: 50%;
 }
