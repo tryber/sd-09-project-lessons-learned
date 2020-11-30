@@ -55,8 +55,8 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   background-color: rgb(242 , 220 , 194);
   width: 100%;
   text-align: center;
