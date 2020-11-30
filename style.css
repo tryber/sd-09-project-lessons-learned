@@ -3,7 +3,14 @@
    License: none (public domain)
 */
 
-html , body , div , span , iframe , a , img , strike , strong , var , b , u , i , center , dt , dd , ol , form , table , tbody , tfoot , thead , tr , th , td , article , aside , footer , header , hgroup , menu , nav , section {
+body , div , span , a , img , strong , ol , table , thead , tr , th , td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article , aside , footer , header , nav , section {
   margin: 0;
   padding: 0;
   border: 0;
