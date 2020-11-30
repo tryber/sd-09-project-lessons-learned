@@ -3,12 +3,12 @@ body {
   font-size: 10px;
   color: rgb(97 204 106);
   letter-spacing: 6px;
-  font-family: 'Nerko One', cursive;
+  font-family: Nerko One, cursive;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   margin-left: 45%;
   padding: 25px;
   border: 3px solid rgb(101 206 91);
@@ -16,6 +16,9 @@ body {
 
 #titulo {
   text-align: justify;
+  font-family: Montserrat, sans-serif;
+  color: blue;
+  font-size: 20px;
 }
 
 #licoes_aprendidas {
@@ -45,7 +48,7 @@ body {
   font-size: 15px;
   color: rgb rgb(231 148 148);
   letter-spacing: 4px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   text-align: justify;
 }
 
@@ -53,18 +56,23 @@ body {
   font-size: 20px;
   color: rgb (23 104 23);
   letter-spacing: 5px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, Times New Roman, Times, serif;
   text-align: justify;
 }
 
 #tabela {
-  margin-left: 0px;
-  margin-bottom: 0px;
+  margin-left: 0;
+  margin-bottom: 0;
   border: 2px solid rgb(142 142 197);
 }
 
 #rodape {
   float: left;
-  margin-left: 0px;
-  margin-bottom: 0px;
+  margin-left: 0;
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  background-color: rgb(54 , 143 , 139);
+  padding: 5px;
+  font-size: 15px;
 }
