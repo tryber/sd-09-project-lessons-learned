@@ -4,7 +4,7 @@
 
 body {
   background-color : rgb(253 , 251 , 251);
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto-Mono', monospace;
 }
 
 #cabecalho {
@@ -29,22 +29,21 @@ body {
 }
 
 h3 {
-    line-height: 30px;
-    border-radius: 10px;
-    text-align: center;
+  line-height: 30px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    margin-right: 5%;
-    font-size: 18px;
-    line-height: 30px;
-    padding-left: 20%;
-    text-align: justify;
+  display: inline-block;
+  margin-right: 5%;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
 
 }
 
-  .lado-direito {
+.lado-direito {
   text-align: justify;
   padding: 10%;
   font-size: 18px;
@@ -78,4 +77,3 @@ h2 {
   margin-left: 400px;
 
 }
-
