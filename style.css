@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+
+#cabecalho {
+    top: 0px;
+    background-color: seagreen;
+    height: 100px;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    
+}
+
+#titulo {
+    color: rgb(253, 251, 251);
+}
+
+#minha_foto {
+    width: 240px;
+}
