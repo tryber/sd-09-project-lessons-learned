@@ -11,6 +11,7 @@
     position: absolute;
     top: 820px;
     z-index: 1;
+    box-shadow: 5px 10px 10px rgb(161, 160, 160)
 }
 
 body {
@@ -43,9 +44,10 @@ body {
     background-color: #E8D2D2;
     display: inline-block;
     position: absolute;
-    top: 490px;
+    top: 500px;
     left: 500px;
     z-index: 1;
+    box-shadow: 5px 10px 10px rgb(161, 160, 160)
 }
 
 #box-aprendidas {
@@ -61,6 +63,7 @@ body {
     position: absolute;
     top: 370px;
     z-index: 1;
+    box-shadow: 5px 10px 10px rgb(161, 160, 160)
 
 }
 
@@ -72,12 +75,13 @@ body {
     text-align: center;
     background-color: #BDCEC7;
     padding: 50px;
-    width: 150px;
+    width: 130px;
     border: 2px solid #7C606B;
     border-radius: 20px;
     position: absolute;
     top: 1300px;
     z-index: 1;
+    box-shadow: 5px 10px 10px rgb(161, 160, 160)
 
 }
 
@@ -101,6 +105,7 @@ body {
     position: absolute;
     top: 200px;
     z-index: 0;
+    box-shadow: 5px 10px 10px rgb(161, 160, 160)
 
 }
 h1 {
@@ -126,7 +131,8 @@ h1 {
     left: 650px;
     top: 0px;
     z-index: 1;
-
+    box-shadow: 5px 10px 10px rgb(161, 160, 160)
+    
 
 }
 
@@ -174,6 +180,7 @@ h1 {
     display: inline-block;
     position: absolute;
     z-index: 1;
+    box-shadow: 5px 10px 10px rgb(161, 160, 160)
  
 }
 #titulo-aprender {
