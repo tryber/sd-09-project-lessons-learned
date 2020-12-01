@@ -4,7 +4,7 @@ body * {
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   margin: 0;
   padding: 0;
 }
@@ -12,7 +12,7 @@ body {
 header {
   height: 15%;
   width: 100%;
-  background-color: rgba(15, 163, 107, .5);
+  background-color: rgba(15 , 163 , 107 , 0.5);
 }
 
 #cabecalho {
@@ -38,14 +38,14 @@ nav {
   z-index: 2;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   padding: 3px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  border-top: rgb(199, 216, 42) solid 4px;
-  border-bottom: rgb(199, 216, 42) solid 4px;
-  background-color: rgb(172, 172, 172);
+  border-top: rgb(199 , 216 , 42) solid 4px;
+  border-bottom: rgb(199 , 216 , 42) solid 4px;
+  background-color: rgb(172 , 172 , 172);
 }
 
 main {
@@ -75,12 +75,11 @@ div img {
 .lado-direito {
   float: right;
   width: 30%;
-  color: rgb(63, 63, 63);
+  color: rgb(63 , 63 , 63);
   font-size: 20px;
   margin-bottom: 20px;
   border: outset black 5px;
   padding: 8px;
-  font-family: fantasy;
 }
 
 article {
@@ -92,8 +91,7 @@ table {
   padding: 100px 0 0 100px;
   font-size: 18px;
   width: 60%;
-  font-family: monospace;
-  
+  font-family: monospace;  
 }
 
 footer {
@@ -103,7 +101,7 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgba(15, 163, 107, .5);
+  background-color: rgba(15 , 163 , 107 , 0.5);
   padding: 10px;
 }
 
@@ -113,13 +111,13 @@ address {
   align-self: center;
 }
 
+.icon {
+  height: 65%;
+}
+
 .icon:hover {
   border-radius: 20%;
   background-color: white;
-}
-
-.icon {
-  height: 65%;
 }
 
 #atribuicao {
