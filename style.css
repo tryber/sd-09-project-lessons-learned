@@ -10,11 +10,11 @@
   position: absolute;
   top: 820px;
   z-index: 1;
-  box-shadow: 5px 10px 10px rgb(161, 160, 160);
+  box-shadow: 5px 10px 10px rgb(161 , 160 , 160);
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   margin: 0px;
   font-family: sans-serif;
 }
