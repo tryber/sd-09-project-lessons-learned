@@ -4,38 +4,83 @@ body * {
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253,251,251);
   margin: 0;
   padding: 0;
 }
 
-#cabecalho {
+header {
+  height: 12%;
   width: 100%;
-  height: 130px;
+  background-color: rgba(15, 163, 107, .5);
+}
+
+#cabecalho {
   position: fixed;
   top: 0;
   z-index: 1;
-  background-color: rgb(183, 247, 175);
 }
 
-#titulo {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#cabecalho h1 {
+  text-align: center;
+  padding: 10px 0 30px 0;
+  font-size: 1.8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabecalho a {
+  text-decoration: none;
+  padding: 3px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: rgb(199, 216, 42) solid 4px;
+  background-color: rgb(172, 172, 172);
+}
+
+nav {
+  text-align: end;
 }
 
 main {
-  position: relative;
-  top: 100px;
-  height: 900px;
+  position: absolute;
+  height: 500px;
+  top: 15%;
 }
 
-.icon {
+#minha_foto {
+  border-radius: 50%;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 70%;
+}
+
+.lado-direito {
+  float: right;
+  width: 30%;
+}
+
+div img {
+  width: 40%;
+  float: left;
+}
+
+footer {
+  position: absolute;
+  top: 900px;
   height: 100px;
 }
 
-.icon:hover {
-  background-color: cornflowerblue;
+address {
+  height: 80px;
+}
+
+.icon {
+  height: 100%;
 }
 
 #atribuicao {
-  font-size: 12px;
+  height: 20px;
+  font-size: 16px;
 }

@@ -1,84 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Project #1 - Lessons Learned</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <header id="cabecalho">
-        <h1 id="titulo">My Lessons Learned</h1>
+      <h1 id="titulo">My Lessons Learned</h1>
         <nav>
-            <a href="#meu_artigo">Meu artigo</a>
-            <a href="#licoes_aprendidas">Licoes aprendidas</a>
-            <a href="#licoes_a_aprender">Licoes a aprender</a>
+          <a href="#meu_artigo">Meu artigo</a>
+          <a href="#licoes">Licoes</a>
+          <a href="#contato">Contacte-me</a>
         </nav>
     </header>
     <main>
-        <img id="minha_foto" src="Profile-cut.png" alt="Foto do perfil de Pedro Castro">
+      <section>
         <article id="meu_artigo" class="lado-esquerdo">
-            No último dia 9 de novembro iniciamos eu, junto a mais 132 colegas de turma, nossa aventura no fantástico
-            mundo da <strong>Trybe</strong>. Poderia dizer no mundo da programação, mas a essa escola é muito mais
-            do que aprender a
-            programar, onde a abordagem ao lado das <em>soft-skills</em> é tão importante quanto a atenção dada aos
-            quesitos
-            técnicos - e olha que não é pouco conhecimento compartilhado!
-            As primeiras impressões estão sendo
-            maravilhosas, e sigo certo no sucesso ao longo de toda a jornada, como estudante Trybe e
-            depois no mercado de trabalho! #VQV #goTrybe
+          <p>No último dia 9 de novembro iniciamos eu, junto a mais de 130 colegas de turma, nossa aventura no fantástico mundo da <strong>Trybe</strong>. Poderia dizer no mundo da programação, mas a essa escola é muito mais do que aprender a programar, onde a abordagem ao lado das <em>soft-skills</em> é tão importante quanto a atenção dada aos quesitos técnicos - e olha que não é pouco conhecimento compartilhado!</p>
+          <p>As primeiras impressões estão sendo maravilhosas, e sigo certo no sucesso ao longo de toda a jornada, como estudante Trybe e depois no mercado de trabalho! #VQV #goTrybe</p>
         </article>
-        <section id="lado-direito">
-            <aside>Admito que num primeiro contato com pessoas estranhas eu me sinto um pouco desconfortável. Mas as
-                dinâmicas que a equipe Trybe tem nos proposto nessas primeiras semanas fluíram de forma tão natural que
-                me
-                senti muito tranquilo ao relacionar com algumas das pessoas estudantes nessas atividades!</aside>
-        </section>
-        <ol id="licoes_aprendidas">
-            <li>Unix</li>
-            <li>Bash</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>HTML Semântico</li>
-            <li>Seletores em CSS</li>
-            <li>Primeiros passos com JavaScript</li>
-            <li>Gestão do Tempo</li>
-            <li>Inteligência Emocional</li>
-            <li>Metodologias Ativas</li>
-        </ol>
-        <ul id="licoes_a_aprender">
-            <li>Objetos e Funções com JavaScript</li>
-            <li>JavaScript ES6</li>
-            <li>React</li>
-            <li>Metodologias Ágeis</li>
-            <li>Redux</li>
-            <li>Banco de dados SQL</li>
-            <li>Banco de dados NoSQL - MongoDB</li>
-            <li>NodeJS</li>
-            <li>Ciência da Computação</li>
-            <li>Introdução a Python</li>
-        </ul>
-
+        <aside class="lado-direito">
+          <p>Admito que num primeiro contato com pessoas estranhas eu me sinto um pouco desconfortável. Mas as dinâmicas que a equipe Trybe tem nos proposto nessas primeiras semanas fluíram de forma tão natural que me senti muito tranquilo ao relacionar com as pessoas colegas nessas atividades!</p>
+        </aside>
+      </section>
+      <div>
+        <img id="minha_foto" src="Profile-cut.png" alt="Foto do perfil de Pedro Castro">
+        <table id="licoes">
+          <thead>
+            <tr>
+              <th>Licoes aprendidas</th>
+              <th>Licoes a aprender</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <ol id="licoes_aprendidas">
+                  <li>Unix</li>
+                  <li>Bash</li>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                  <li>HTML Semântico</li>
+                  <li>Seletores em CSS</li>
+                  <li>Primeiros passos com JavaScript</li>
+                  <li>Gestão do Tempo</li>
+                  <li>Inteligência Emocional</li>
+                  <li>Metodologias Ativas</li>
+                </ol>
+              </td>
+              <td>
+                <ul id="licoes_a_aprender">
+                  <li>Objetos e Funções com JavaScript</li>
+                  <li>JavaScript ES6</li>
+                  <li>React</li>
+                  <li>Metodologias Ágeis</li>
+                  <li>Redux</li>
+                  <li>Banco de dados SQL</li>
+                  <li>Banco de dados NoSQL - MongoDB</li>
+                  <li>NodeJS</li>
+                  <li>Ciência da Computação</li>
+                  <li>Introdução a Python</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
     <footer id="rodape">
-
-        <table>
-            <th>Me acompanhe nas redes:</th>
-            <tr>
-                <td><a href="https://github.com/pedrodumorro" target="_blank"><img class="icon" src="github-sign.png"
-                            alt="GitHub"></a></td>
-                <td><a href="https://linkedin.com/in/pedrocastro88/" target="_blank"><img class="icon"
-                            src="linkedin-sign.png" alt="LinkedIn"></a></td>
-            </tr>
-
-        </table>
-        <div id="atribuicao">Ícones feitos por <a href="https://www.flaticon.com/authors/dave-gandy"
-                title="Dave Gandy">Dave Gandy</a>
-            retirados de
-            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
+      <address id="contato">
+        <h5>Vamos nos conectar?</h5>
+        <a href="https://github.com/pedrodumorro" target="_blank">
+          <img class="icon" src="github-sign.png" alt="GitHub">
+        </a>
+        <a href="https://linkedin.com/in/pedrocastro88/" target="_blank">
+          <img class="icon" src="linkedin-sign.png" alt="LinkedIn">
+        </a>
+      </address>
+      <div id="atribuicao">
+        <h6>Ícones feitos por
+          <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>
+          retirados de
+          <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </h6>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
