@@ -5,7 +5,7 @@
   border-radius: 20px;
   width: 30%;
   height: 100;
-  background-color: rgb(207 , 214 , 203)
+  background-color: rgb(207 , 214 , 203);
   display: inline-block;
   position: absolute;
   top: 820px;
@@ -172,4 +172,8 @@ h3 {
   text-align: center;
   margin-top: 10px;
   font-weight: bold;
+}
+
+.troca-fonte {
+  font-family: 'ubuntu' , sans-serif;
 }
