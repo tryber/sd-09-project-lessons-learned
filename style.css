@@ -1,11 +1,11 @@
 .artigo {
   padding: 50px;
   margin: 50px;
-  border: 2px solid hex#7c606b;
+  border: 2px solid rgb(124 , 96 , 107);
   border-radius: 20px;
   width: 30%;
   height: 100;
-  background-color: hex#cfd6cb;
+  background-color: rgb(207 , 214 , 203)
   display: inline-block;
   position: absolute;
   top: 820px;
@@ -20,7 +20,7 @@ body {
 }
 
 #cabecalho {
-  background-color: hex#567568;
+  background-color: rgb(86 , 117 , 104);
   padding: 5px;
   position: fixed;
   top: 0;
@@ -32,11 +32,11 @@ body {
   padding: 50px;
   margin: 50px;
   margin-left: 320px;
-  border: 2px solid hex#7c606b;
+  border: 2px solid rgb(124 , 96 , 107);
   border-radius: 20px;
   width: 20%;
   height: 250px;
-  background-color: hex#e8d2d2;
+  background-color: rgb(232, 210 , 210);
   display: inline-block;
   position: absolute;
   top: 500px;
@@ -49,11 +49,11 @@ body {
   padding: 50px;
   margin: 50px;
   margin-left: 240px;
-  border: 2px solid hex#7c606b;
+  border: 2px solid rgb(124 , 96 , 107);
   border-radius: 20px;
   width: 20%;
   height: 250px;
-  background-color: hex#afbaa8;
+  background-color: rgb(175, 186, 168);
   position: absolute;
   top: 370px;
   z-index: 1;
@@ -64,10 +64,10 @@ body {
   margin-top: 50px;
   margin-left: 150px;
   text-align: center;
-  background-color: hex#bdcec7;
+  background-color: rgb(189, 206 , 199);
   padding: 50px;
   width: 130px;
-  border: 2px solid hex#7c606b;
+  border: 2px solid rgb(124 , 96 , 107);
   border-radius: 20px;
   position: absolute;
   top: 1300px;
@@ -84,11 +84,11 @@ body {
 }
 
 #fundo {
-  background-color: hex#dfd6da;
+  background-color: rgb(223, 214 , 218);
   width: 97%;
   height: 1400px;
   left: 20px;
-  border: 2px solid hex#7c606b;
+  border: 2px solid rgb(124 , 96 , 107);
   border-radius: 20px;
   position: absolute;
   top: 200px;
@@ -97,7 +97,7 @@ body {
 }
 
 h1 {
-  color: hex#4c1e4f;
+  color: rgb(76, 30 , 79);
   font-size: 35px;
   text-align: center;
 }
@@ -105,11 +105,11 @@ h1 {
 #licoes {
   margin-top: 230px;
   text-align: center;
-  background-color: hex#6d2b72;
+  background-color: rgb(109 , 43 , 114);
   color: aliceblue;
   padding: 30px;
   width: 150px;
-  border: 2px solid hex#7c606b;
+  border: 2px solid rgb(124 , 96 , 107);
   border-radius: 20px;
   position: absolute;
   left: 650px;
@@ -126,7 +126,7 @@ h1 {
 
 #minha_foto {
   display: block;
-  border: 8px solid hex#4c1e4f;
+  border: 8px solid rgb(76, 30 , 79);
   border-radius: 50%;
   width: 12em;
   z-index: 3;
@@ -146,11 +146,11 @@ h1 {
 .passagem {
   padding: 50px;
   margin: 50px;
-  border: 2px solid hex#7c606b;
+  border: 2px solid rgb(124 , 96 , 107);
   border-radius: 20px;
   width: 55%;
   height: 180px;
-  background-color: hex#afbaa8;
+  background-color: rgb(175, 186, 168);
   display: inline-block;
   position: absolute;
   z-index: 1;
