@@ -42,32 +42,26 @@ body {
 }
 #licoes_a_aprender {
     border: solid 1px;
-    margin-left: 25px;
+    margin-left: 20em;
 }
 table {
     padding: 15px;
-    margin-right: 500px;
-}
-#artigo1 {
-    padding: 25px;
-}
-#artigo2 {
-    
-    padding: 25px;
-    
+    margin-left: 28em;
 }
 .lado-esquerdo {
+    margin-top: 100px;
     float: left;
     width: 45%;   
     text-align: center;
 }
-.lado-direito {    
+#lado-direito {    
+    margin-top: 100px;
     float: right;
     width: 45%;   
-    position: relative;
-    right: 100px;
-    bottom: 55px;
+    position: relative;    
+    bottom: 1px;
     text-align: center;
+    
 }
 #corLink {
     color: green;
@@ -78,14 +72,14 @@ table {
  text-align: center;
  padding: 25px;
  position: relative;
- bottom: -250px;
+ top: 30em;
 }
 #rodape {
     width: 100%;
     background-color: red;
     clear: both;
     position: relative;
-    bottom: -290px;
+    top: 20em;
     font-size: 15px;
 }
 span{
