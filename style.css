@@ -8,7 +8,7 @@
   height: 100;
   background-color: #cfd6cb;
   display: inline-block;
-  position: absolute;
+  position: absolute
   top: 820px;
   z-index: 1;
   box-shadow: 5px 10px 10px rgb(161, 160, 160)
@@ -38,11 +38,11 @@ body {
   padding: 50px;
   margin: 50px;
   margin-left: 320px;
-  border: 2px solid #7C606B;
+  border: 2px solid #7c606b;
   border-radius: 20px;
   width: 20%;
   height: 250px;
-  background-color: #E8D2D2;
+  background-color: #e8d2d2;
   display: inline-block;
   position: absolute;
   top: 500px;
@@ -56,11 +56,11 @@ body {
   padding: 50px;
   margin: 50px;
   margin-left: 240px;
-  border: 2px solid #7C606B;
+  border: 2px solid #7c606b;
   border-radius: 20px;
   width: 20%;
   height: 250px;
-  background-color: #AFBAA8;
+  background-color: #afbaa8;
   position: absolute;
   top: 370px;
   z-index: 1;
@@ -74,10 +74,10 @@ body {
   margin-left: 150px;
   border-bottom-left-radius: 0%;
   text-align: center;
-  background-color: #BDCEC7;
+  background-color: #bdcec7;
   padding: 50px;
   width: 130px;
-  border: 2px solid #7C606B;
+  border: 2px solid #7c606b;
   border-radius: 20px;
   position: absolute;
   top: 1300px;
@@ -97,11 +97,11 @@ body {
 
 #fundo {
 
-  background-color: #DFD6DA;
+  background-color: #dfd6da;
   width: 97%;
   height: 1400px;
   left: 20px;
-  border: 2px solid #7C606B;
+  border: 2px solid #7c606b;
   border-radius: 20px;
   position: absolute;
   top: 200px;
@@ -112,9 +112,10 @@ body {
 
 h1 {
 
-  color: #4C1E4F;
+  color: #4c1e4f;
   font-size: 35px;
   text-align: center;
+
 
 }
 
@@ -122,17 +123,18 @@ h1 {
 
   margin-top: 230px;
   text-align: center;
-  background-color: #6D2B72;
+  background-color: #6d2b72;
   color: aliceblue;
   padding: 30px;
   width: 150px;
-  border: 2px solid #7C606B;
+  border: 2px solid #7c606b;
   border-radius: 20px;
   position: absolute;
   left: 650px;
   top: 0;
   z-index: 1;
   box-shadow: 5px 10px 10px rgb(161, 160, 160)
+
 
 }
 
@@ -147,7 +149,7 @@ h1 {
 #minha_foto {
 
   display: block;
-  border: 8px solid #4C1E4F;
+  border: 8px solid #4c1e4f;
   border-radius: 50%;
   width: 12em;
   z-index: 3;
@@ -171,11 +173,11 @@ h1 {
 
   padding: 50px;
   margin: 50px;
-  border: 2px solid #7C606B;
+  border: 2px solid #7c606b;
   border-radius: 20px;
   width: 55%;
   height: 180px;
-  background-color: #AFBAA8;
+  background-color: #afbaa8;
   display: inline-block;
   position: absolute;
   z-index: 1;
@@ -196,3 +198,4 @@ h1 {
   margin-top:  10px;
 
 }
+
