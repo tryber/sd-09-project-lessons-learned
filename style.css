@@ -1,5 +1,5 @@
 article {
-  font-family: Arial, Helvetica, sans-serif; 
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -24,31 +24,36 @@ body {
 
 #licoes_aprendidas {
   float: left;
-  margin: 15px;
+  margin-top: 120px;
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #licoes_a_aprender {
   float: right;
-  margin: 15px;
+  margin-top: 120px;
   font-size: 18px;
   font-family: cursive;
 }
 
+.titulo_licoes_aprendidas {
+  margin-top: 100px;
+}
+
+.titulo_licoes_a_aprender {
+  margin-top: 100px;
+}
+
 .lado-direito {
   float: right;
+  margin-top: 27%;
   width: 30%;
 }
 
 .lado-esquerdo {
   float: left;
-  margin-top: 27%;
+  margin-top: 25px;
   width: 60%;
-}
-
-* {
-  font-family: cursive;
 }
 
 #rodape {
