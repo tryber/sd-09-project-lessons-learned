@@ -8,7 +8,7 @@
   height: 100;
   background-color: #cfd6cb;
   display: inline-block;
-  position: absolute
+  position: absolute;
   top: 820px;
   z-index: 1;
   box-shadow: 5px 10px 10px rgb(161, 160, 160)
@@ -198,4 +198,3 @@ h1 {
   margin-top:  10px;
 
 }
-
