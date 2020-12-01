@@ -190,7 +190,6 @@ h3 {
 }
 
 td {
-
   width: 100px;
   text-align: center;
 }
@@ -209,7 +208,7 @@ td {
   font-size: 22px;
 }
 
-#titulo-tabela{
+#titulo-tabela {
   text-align: center;
   margin-top: 10px;
   font-weight: 3500;
