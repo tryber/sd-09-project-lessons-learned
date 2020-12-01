@@ -1,7 +1,7 @@
 .artigo {
   padding: 50px;
   margin: 50px;
-  border: 2px solid #7c606b;
+  border: 2px solid hex#7c606b;
   border-radius: 20px;
   width: 30%;
   height: 100;
@@ -152,7 +152,7 @@ h1 {
   border-radius: 20px;
   width: 55%;
   height: 180px;
-  background-color: #afbaa8;
+  background-color: hex#afbaa8;
   display: inline-block;
   position: absolute;
   z-index: 1;
