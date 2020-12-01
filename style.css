@@ -4,12 +4,12 @@
 
 body {
   background-color : rgb(253 , 251 , 251);
-  font-family: 'Mukta',sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #cabecalho {
   position: fixed;
-  margin-top: 0px;
+  margin-top: 0;
   background-color : rgb(201 , 136 , 75);
   height: 100px;
   padding-left: 80%;
@@ -29,19 +29,18 @@ body {
 }
 
 h3 {
-line-height: 30px;
-border-radius: 10px;
-text-align: center;
-
+    line-height: 30px;
+    border-radius: 10px;
+    text-align: center;
 }
 
-  .lado-esquerdo {
-   display: inline-block;
-  margin-right: 5%;
-  font-size: 18px;
-  line-height: 30px;
-  padding-left: 20%;
-  text-align: justify;
+.lado-esquerdo {
+    display: inline-block;
+    margin-right: 5%;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 20%;
+    text-align: justify;
 
 }
 
@@ -54,7 +53,7 @@ text-align: center;
 
 }
 
-  h2 {
+h2 {
   font-size: 25px;
   padding-top: 150px;
 
