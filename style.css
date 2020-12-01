@@ -124,7 +124,7 @@ h3 {
   color: aliceblue;
   letter-spacing: 2px;
   font-family: ubuntu , sans-serif;
-  font-style: italic;
+  font-style: ;
   }
 
 .menu-superior {
@@ -155,6 +155,7 @@ h3 {
 .passagem {
   padding: 50px;
   margin: 50px;
+  background-color: rgb(192 , 173 , 180);
   border: 2px solid rgb(124 , 96 , 107);
   box-shadow: 5px 10px 10px rgb(161 , 160 , 160);
   border-radius: 20px;
