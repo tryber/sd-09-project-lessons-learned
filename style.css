@@ -9,21 +9,18 @@ body {
   background-color:grey;
   width: 100%;
   text-align: center;
-}
-    
+}    
 .aprender {
 
-  background-color:grey; 
+  background-color: grey; 
   display: inline-block;
   text-align: justify;
   margin-top: 0;
   width: 40%;
   padding: 16px;
   line-height: 24px;
-  vertical-align:middle;   
+  vertical-align: middle;   
 }
-
-
 aside {
 
   width: 40%;
@@ -35,7 +32,7 @@ aside {
 }
 #rodape {
 
-  background-color:grey; 
+  background-color: grey; 
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -43,4 +40,4 @@ aside {
 table, th, td {
   border: 1px solid grey;
   border-collapse: collapse;
-
+}
