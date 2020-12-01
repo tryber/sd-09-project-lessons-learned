@@ -1,5 +1,4 @@
 .artigo {
-
   padding: 50px;
   margin: 50px;
   border: 2px solid #7c606b;
@@ -11,30 +10,25 @@
   position: absolute;
   top: 820px;
   z-index: 1;
-  box-shadow: 5px 10px 10px rgb(161, 160, 160)
-
+  box-shadow: 5px 10px 10px rgb(161, 160, 160);
 }
 
 body {
-
   background-color: rgb(253, 251, 251);
   margin: 0px;
   font-family: sans-serif;
 }
 
 #cabecalho {
-
   background-color: #567568;
   padding: 5px;
   position: fixed;
   top: 0;
   width: 100em;
   z-index: 2;
-
 }
 
 #box-aprender {
-
   padding: 50px;
   margin: 50px;
   margin-left: 320px;
@@ -48,11 +42,10 @@ body {
   top: 500px;
   left: 500px;
   z-index: 1;
-  box-shadow: 5px 10px 10px rgb(161, 160, 160)
+  box-shadow: 5px 10px 10px rgb(161, 160, 160);
 }
 
 #box-aprendidas {
-
   padding: 50px;
   margin: 50px;
   margin-left: 240px;
@@ -64,15 +57,13 @@ body {
   position: absolute;
   top: 370px;
   z-index: 1;
-  box-shadow: 5px 10px 10px rgb(161, 160, 160)
+  box-shadow: 5px 10px 10px rgb(161, 160, 160);
 
 }
 
 #contato {
-
   margin-top: 50px;
   margin-left: 150px;
-  border-bottom-left-radius: 0%;
   text-align: center;
   background-color: #bdcec7;
   padding: 50px;
@@ -82,12 +73,11 @@ body {
   position: absolute;
   top: 1300px;
   z-index: 1;
-  box-shadow: 5px 10px 10px rgb(161, 160, 160)
+  box-shadow: 5px 10px 10px rgb(161, 160, 160);
 
 }
 
 #desenvolvido {
-
   font-size: 15px;
   position: absolute;
   top: 1550px;
@@ -96,7 +86,6 @@ body {
 }
 
 #fundo {
-
   background-color: #dfd6da;
   width: 97%;
   height: 1400px;
@@ -106,21 +95,16 @@ body {
   position: absolute;
   top: 200px;
   z-index: 0;
-  box-shadow: 5px 10px 10px rgb(161, 160, 160)
-
+  box-shadow: 5px 10px 10px rgb(161, 160, 160);
 }
 
 h1 {
-
   color: #4c1e4f;
   font-size: 35px;
   text-align: center;
-
-
 }
 
 #licoes {
-
   margin-top: 230px;
   text-align: center;
   background-color: #6d2b72;
@@ -133,21 +117,16 @@ h1 {
   left: 650px;
   top: 0;
   z-index: 1;
-  box-shadow: 5px 10px 10px rgb(161, 160, 160)
-
-
+  box-shadow: 5px 10px 10px rgb(161, 160, 160);
 }
 
 .menu-superior {
-
   font-size: 17px;
   text-decoration: none;
   list-style: none;
-
 }
 
 #minha_foto {
-
   display: block;
   border: 8px solid #4c1e4f;
   border-radius: 50%;
@@ -156,21 +135,17 @@ h1 {
   position: fixed;
   top: 50px;
   left: 150px;
-
 }
 
 .section-inline-block {
-
   width: 50%;
   display: inline-block;
   position: absolute;
   top: 970px;
   left: 600px;
-
 }
 
 .passagem {
-
   padding: 50px;
   margin: 50px;
   border: 2px solid #7c606b;
@@ -181,20 +156,15 @@ h1 {
   display: inline-block;
   position: absolute;
   z-index: 1;
-  box-shadow: 5px 10px 10px rgb(161, 160, 160)
-
+  box-shadow: 5px 10px 10px rgb(161, 160, 160);
 }
 
 #titulo-aprender {
-
   text-align: center;
   margin-top: 10px;
-
 }
 
 #titulo-aprendidas {
-
-  text-align:  center;
-  margin-top:  10px;
-
+  text-align: center;
+  margin-top: 10px;
 }
