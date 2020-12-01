@@ -4,7 +4,7 @@
 
 body {
   background-color : rgb(253 , 251 , 251);
-  font-family: 'Roboto-Mono', monospace;
+  font-family: Roboto Mono, monospace;
 }
 
 #cabecalho {
@@ -75,5 +75,4 @@ h2 {
   text-align: justify;
   line-height: 35px;
   margin-left: 400px;
-
 }
