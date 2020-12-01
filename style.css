@@ -65,12 +65,12 @@ body {
   display: inline-block;
 }
 
-aside {
+#artigo {
   width: 38%;
   display: inline-block;
   position: relative;
-  top: -100px;
-  left: 460px;
+  top: -240px;
+  left: 840px;
   right: 15px;
   z-index: 1;
 }
@@ -79,8 +79,8 @@ aside {
   width: 35%;
   display: inline-block;
   position: relative;
-  top: -235px;
-  left: 500px;
+  top: -81.5px;
+  left: 95px;
 }
 
 #metodologia {
@@ -108,7 +108,7 @@ aside {
   border: 2px solid black;
   border-collapse: collapse;
   position: relative;
-  top: -150px;
+  top: -190px;
 }
 
 #id_table {
