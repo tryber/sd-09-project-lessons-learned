@@ -9,12 +9,14 @@ body {
   top: 0;
   min-width: 100%;
   width: 500px;
+  text-align:center;
 }
 
 #titulo {
-  text-align:center;
+  
   background-color:rgb(34, 146, 51);
   font-weight:800;
+  
 }
 
 #minha_foto {
