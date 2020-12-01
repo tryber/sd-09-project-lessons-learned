@@ -8,13 +8,13 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #0a7e51;
-  height:100px;
+  background-color: rgb(9, 175, 111);
+  height: 112px;
 }
 
 #titulo {
   text-align: center;
-  background-color: #11a36a;
+  background-color: green;
   font-weight: 800;
 
 }
@@ -58,11 +58,12 @@ body {
   float: left;
   text-align: center;
   margin-left: 50px;
+  margin-top: 40px;
 }
 
 .lado-direito {
   text-align: center;
-  font-size:  30px;
+  font-size: 30px;
   font-weight: 600;
   float: right;
   max-width: 40%;
@@ -108,7 +109,7 @@ body {
 
 #licoes_a_aprender {
   font-size: 30px;
-  float:right;
+  float: right;
   margin-right: 250px;
 }
 
@@ -136,7 +137,7 @@ body {
 }
 
 .verde {
-  color:rgb(34 , 146 , 51)
+  color:rgb( 34 , 146 , 51 )
 }
 
 #sergin {
@@ -145,21 +146,21 @@ body {
 }
 
 .linkin {
-    margin-top: 400px;
-    margin-left: 200px;
-    margin-bottom: 30px;
-    font-weight: 600;
-    font-size: 30px;
-    height: 100px;
-    text-align: left;
-  }
+  margin-top: 400px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 30px;
+  height: 100px;
+  text-align: left;
+}
 
 #tryber {
   max-width: 1500px;
   width: 100%;
   height: 200px;
   margin-top: 80px;
-  }
+}
 
 #tabela {
   font-size: 30px;
@@ -167,10 +168,10 @@ body {
   border-color: rgba(0 , 128 , 0 , 0.856);
   margin-top: 520px;
   margin-left: 350px;
-  }
+}
 
 #rodape {
   text-align: center;
   height: 5px;
   margin-top: 0;
-  }
+}
