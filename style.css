@@ -8,7 +8,7 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Sansita Swashed', 'cursive';
+  font-family: 'Sansita Swashed';
 }
 
 .titulos {
@@ -58,7 +58,7 @@ body {
   width: 100%;
 }
 
-#artigo_barra_lateral{
+#artigo_barra_lateral {
   width: 90%;
   margin: auto;
 }
@@ -80,7 +80,6 @@ body {
   border: 1px solid black;
   display: inline-block;
   text-align: left;
-  
 }
 
 .define-fonte {
@@ -88,16 +87,10 @@ body {
   line-height: 26px;
 }
 
-/*#learning_table {
-  border: 1px solid black;
-  margin-top: 30px;
-}*/
-
 #table {
   float: right;
   margin-top: 60px;
   margin-right: 10px;
-  
 }
 
 #table, td {
@@ -105,6 +98,3 @@ body {
   height: 50px;
   width: 700px;
 }
-
-
-
