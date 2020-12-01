@@ -120,11 +120,14 @@ h3 {
   top: 0;
   z-index: 1;
   box-shadow: 5px 10px 10px rgb(161 , 160 , 160);
-  font-size: 30px;
   color: aliceblue;
-  letter-spacing: 2px;
   font-family: ubuntu , sans-serif;
+  font-size: 30px;
   font-style: bold;
+  font-variant: normal;
+  font-weight: 1500;
+  letter-spacing: 2px;
+  font-stretch: normal;
 }
 
 .menu-superior {
