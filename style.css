@@ -53,6 +53,7 @@ table {
     float: left;
     width: 45%;   
     text-align: center;
+    
 }
 #lado-direito {    
     margin-top: 100px;
@@ -61,6 +62,7 @@ table {
     position: relative;    
     bottom: 1px;
     text-align: center;
+    
     
 }
 #corLink {
