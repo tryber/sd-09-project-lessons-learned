@@ -2,7 +2,8 @@ body {
     background-color: rgb(253, 251, 251);
     color: black;
     font-family: sans-serif;
-    letter-spacing:4px;
+    letter-spacing:4px
+    line-height: 0.7;
     font-size:20x; 
     }
 #cabecalho{
