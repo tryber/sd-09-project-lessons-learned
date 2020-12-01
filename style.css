@@ -1,21 +1,19 @@
 * {
-    margin: 0px;
+    margin: 0;
     font-family: Roboto, sans-serif;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
 }
 
-
 #cabecalho {
-    top: 0px;
+    top: 0;
     background-color: seagreen;
     height: 100px;
     text-align: center;
-    margin: 0px;
+    margin: 0;
     padding: 0;
-    
 }
 
 #titulo {
