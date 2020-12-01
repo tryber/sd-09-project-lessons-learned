@@ -52,7 +52,11 @@
     display: inline-block;
     padding: 45px;
     font-size: 20px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    border: dashed 4px;
+    
 }
 .artigo1{
     width: 80%;
@@ -75,7 +79,7 @@ body {
     top: 10em;
 }
 .link1{
-    
+    padding: 55px;
     font-size: 20px;
     width: 55%;
     margin: auto;
