@@ -1,23 +1,24 @@
 body {
-    background-color: rgb(253, 251, 251);
-
-    margin: 0;
-    padding: 0;
+  background-color: rgb(253 ,251 ,251);
+  margin: 0;
+  padding: 0;
 }
 
 #cabecalho {
-    background-color: rgb(51, 207, 119);
-    position: fixed;
-    top: 0px;
-    width: 100%;
+  background-color: rgb(51 ,207 ,119);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
 #titulo {
-    color: white;
-    font-weight: bold;
-    margin-left: 30px;
+  color: white;
+  font-weight: 800;
+  margin-left: 30px;
 }
+
 #minha_foto {
-    width: 300px;
-    margin-top: 180px;
-    margin-left: 30px;
+  width: 300px;
+  margin-top: 180px;
+  margin-left: 30px;
 }
