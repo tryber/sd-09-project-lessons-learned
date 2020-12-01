@@ -80,6 +80,7 @@ body {
   position: absolute;
   top: 1550px;
   left: 610px;
+  font-style: italic;
   z-index: 1;
 }
 
@@ -100,6 +101,10 @@ h1 {
   color: rgb(76, 30 , 79);
   font-size: 35px;
   text-align: center;
+}
+
+h3 {
+  font-style: bold;
 }
 
 #licoes {
@@ -160,9 +165,11 @@ h1 {
 #titulo-aprender {
   text-align: center;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 #titulo-aprendidas {
   text-align: center;
   margin-top: 10px;
+  font-weight: bold;
 }
