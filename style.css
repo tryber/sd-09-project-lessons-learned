@@ -45,7 +45,42 @@ p {
 }
 
 #minha_foto {
-  width: 160px;
+  width: 15%;
+  float: left;
+}
+
+#contato {
+  width: 85%;
+  float: right;
+  padding-left: 20px;
+}
+
+#contato ul {
+  list-style-type: none;
+}
+
+#contato ul li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#secao-listas {
+  margin: 20px 0;
+  padding-left: 50px;
+  clear: both;
+}
+
+.container-listas {
+  padding-top: 20px;
 }
 
 .lado-direito {
@@ -59,12 +94,8 @@ p {
   padding-right: 25px;
 }
 
-#licoes_aprendidas {
-  margin-left: 20px;
-}
-
 #table-section {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 table {
@@ -82,7 +113,7 @@ tbody {
 
 th , td {
   padding: 10px;
-  border: solid 1px rgb(207 , 207 , 207); 
+  border: solid 1px rgb(207 , 207 , 207);
   text-align: center;
 }
 
