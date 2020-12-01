@@ -1,0 +1,54 @@
+ body {
+  background-color: rgb(253, 251, 251);
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 0%;
+}
+
+#agora_vai {
+  padding-top: 100px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background-color: green;
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#minha_foto,
+#titulo {
+  float: left;
+}
+
+#titulo {
+  text-align: center;
+  width: 80%;
+}
+
+#minha_foto {
+  position: fixed;
+  top: 0%;
+  width: 120px;
+}
+
+#licoes_aprendidas {
+  text-align: left;
+  padding-right: 10px;
+}
+
+#licoes_a_aprender {
+  padding-right: 10px;
+}
+
+#licoes_aprendidas,
+#licoes_a_aprender {
+  float: left;
+}
+
+#rodape {
+}
