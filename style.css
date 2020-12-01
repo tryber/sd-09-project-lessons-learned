@@ -1,0 +1,10 @@
+.centered {
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 20;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
