@@ -168,10 +168,12 @@ body {
   border-color: rgba(0 , 128 , 0 , 0.856);
   margin-top: 520px;
   margin-left: 350px;
+  padding: 10px 10px;
 }
 
 #rodape {
   text-align: center;
   height: 5px;
-  margin-top: 0;
+  border: 10px;
+  margin: auto;
 }
