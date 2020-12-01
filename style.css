@@ -1,6 +1,6 @@
 body {
   background-color: rgb( 253 , 251 , 251 );
-  font-family: 'Gill Sans', sans-serif;
+  font-family: Gill Sans, sans-serif;
   line-height: 33px;
 }
 
@@ -137,7 +137,7 @@ body {
 }
 
 .verde {
-  color: rgb( 34 , 146 , 51 )
+  color: rgb( 34 , 146 , 51 );
 }
 
 #sergin {
@@ -168,7 +168,7 @@ body {
   border-color: rgba(0 , 128 , 0 , 0.856);
   margin-top: 520px;
   margin-left: 350px;
-  padding: 10px 10px;
+  padding: 10px;
 }
 
 #rodape {
