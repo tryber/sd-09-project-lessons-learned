@@ -2,6 +2,10 @@
     margin: 0px;
 }
 body {
+    min-width: auto;
+    max-width: 1920px;
+    min-height: auto;
+    max-height: 1080px;
     background-color: rgb(253, 251, 251);
     line-height: 30px;
     letter-spacing: 1px;
@@ -10,7 +14,7 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-    width: 100%;
+    min-width: 100%;
     padding: 20px;    
     background-color: rgb(128, 163, 128);
 }
@@ -54,22 +58,16 @@ table {
 }
 .lado-esquerdo {
     float: left;
-    width: 45%;
-    display: flex;
+    width: 45%;   
+    text-align: center;
 }
-.lado-direito {
-    
+.lado-direito {    
     float: right;
-    width: 30%;
-    margin: auto;
+    width: 45%;   
     position: relative;
     right: 100px;
-    bottom: 80px;
-}
-#textoPassagem {   
-    position: relative;
-    bottom: 85px;
-    left:250px;
+    bottom: 55px;
+    text-align: center;
 }
 #corLink {
     color: green;
@@ -79,8 +77,17 @@ table {
 #link{
  text-align: center;
  padding: 25px;
+ position: relative;
+ bottom: -250px;
 }
 #rodape {
+    width: 100%;
     background-color: red;
-    height: 35px;
+    clear: both;
+    position: relative;
+    bottom: -180px;
+    font-size: 15px;
+}
+span{
+    margin-left: 10px;
 }
