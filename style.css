@@ -69,18 +69,18 @@ body {
   width: 38%;
   display: inline-block;
   position: relative;
-  top: -240px;
-  left: 840px;
+  top: -65px;
+  left: 460px;
   right: 15px;
-  z-index: 1;
+  z-index: 9;
 }
 
 .secao {
   width: 35%;
   display: inline-block;
   position: relative;
-  top: -81.5px;
-  left: 95px;
+  top: -233px;
+  left: 560px;
 }
 
 #metodologia {
@@ -108,7 +108,7 @@ body {
   border: 2px solid black;
   border-collapse: collapse;
   position: relative;
-  top: -190px;
+  top: -150px;
 }
 
 #id_table {
