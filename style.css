@@ -16,7 +16,7 @@ body {
 #minha_foto {
    margin-top: 100px;
    margin-left: 750px;
-}
+   }
 
 #licoes_a_aprender {
     float:left;
@@ -30,11 +30,15 @@ body {
     margin-bottom: 40x;
     }  
 .lado-esquerdo{
-
-}
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 40x;
+    }
 .lado-direito{
-    
-}
+    float:right;
+    margin-top: 20px;
+    margin-bottom: 40x;
+    }
     #rodape{
    position:fixed; bottom:0px;
    margin-top:20px;
