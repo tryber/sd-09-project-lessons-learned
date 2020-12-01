@@ -1,102 +1,86 @@
 *{
     margin: 0px;
 }
-#cabecalho{
-    z-index: 1;       
+body {
+    background-color: rgb(253, 251, 251);
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: 'Sansita Swashed', cursive;
+}
+#cabecalho {
     position: fixed;
     top: 0px;
+    width: 100%;
+    padding: 20px;    
+    background-color: rgb(128, 163, 128);
 }
-#cabecalho2{
-    z-index: 1;
-    padding: 50px;
-    position: fixed;
-    background-color: rgb(192, 235, 192);
-    width: 100em;
+#titulo {
+    font-family: 'Sansita Swashed', cursive;
+    margin-left: 45%;
 }
-#titulo{
-    position: absolute;    
-    margin-left: 35%;
+#minha_foto {    
+    margin-left: 20px;
+    border-radius: 155px;
+    border: solid 5px white; 
+    float: left; 
+    position: fixed; 
+    top: 10px
 }
 
-#minha_foto{
-    z-index: 2;
-    border-radius: 120px;
-    border: ;
-    width: 95%; 
-    position: absolute;     
-    left: 15%;
-      
-    border-bottom: solid 4px black;
-    
-    top: 10px; 
-}
-.list1{    
-    position: relative;
-    left: 40%;
-}
-#text1{
-    position: relative;
-    left:10%;
+.listBlock {
     padding: 20px;
-    font-size: 19px;
-    font-weight: 600;
+    margin-top: 200px;
+    display: flex;
 }
-#navegacao1{
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-.mainBloco1{
+#licoes_aprendidas {
+    border: solid 1px;
     
 }
-.block{
-    display: inline-block;
-    padding: 45px;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+#licoes_a_aprender {
+    border: solid 1px;
+    margin-left: 25px;
+}
+table {
+    padding: 15px;
+    margin-right: 500px;
+}
+#artigo1 {
+    padding: 25px;
+}
+#artigo2 {
     
-    border: dashed 4px;
+    padding: 25px;
     
 }
-.artigo1{
-    width: 80%;
+.lado-esquerdo {
+    float: left;
+    width: 45%;
+    display: flex;
+}
+.lado-direito {
+    
+    float: right;
+    width: 30%;
     margin: auto;
-    border-style: dashed;
-    padding: 20px;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.artigo2{
-    width: 95%;
-    margin: auto;
-    border-style: dashed;
-    padding: 20px;
-    font-size: 20px;
-}
-body {
-    background-color:rgb(253, 251, 251) ;
     position: relative;
-    top: 10em;
+    right: 100px;
+    bottom: 80px;
 }
-.link1{
-    padding: 55px;
-    font-size: 20px;
-    width: 55%;
-    margin: auto;
-    margin-bottom: 35px;
+#textoPassagem {   
+    position: relative;
+    bottom: 85px;
+    left:250px;
 }
-table{
-    border: solid 2px;
- 
-    left: 30%;
+#corLink {
+    color: green;
+    font-size: 18px;
+    padding: 25px;
 }
-.footer{
-    background-color: rgb(192, 235, 192);
-    padding: 5px;
+#link{
+ text-align: center;
+ padding: 25px;
 }
-#aprendizados{
-    color: green ; 
-}
-p{
-    font-family: 'Courier New', Courier, monospace;
+#rodape {
+    background-color: red;
+    height: 35px;
 }
