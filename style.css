@@ -70,7 +70,8 @@ body {
   border: 2px solid rgb(124 , 96 , 107);
   border-radius: 20px;
   position: absolute;
-  top: 1300px;
+  top: 1650px;
+  left: 650px;
   z-index: 1;
   box-shadow: 5px 10px 10px rgb(161 , 160 , 160);
 }
@@ -78,8 +79,8 @@ body {
 #desenvolvido {
   font-size: 15px;
   position: absolute;
-  top: 1550px;
-  left: 610px;
+  top: 1900px;
+  left: 550px;
   font-style: italic;
   z-index: 1;
 }
@@ -87,7 +88,7 @@ body {
 #fundo {
   background-color: rgb(223 , 214 , 218);
   width: 97%;
-  height: 1400px;
+  height: 1750px;
   left: 20px;
   border: 2px solid rgb(124 , 96 , 107);
   border-radius: 20px;
@@ -152,7 +153,7 @@ h3 {
   display: inline-block;
   position: absolute;
   top: 970px;
-  left: 600px;
+  left: 80px;
 }
 
 .passagem {
@@ -164,8 +165,34 @@ h3 {
   border-radius: 20px;
   position: absolute;
   height: 180px;
-  top: 80px;
+  top: 400px;
+  display: inline-block;
   z-index: 1;
+}
+
+.tabela {
+  padding: 50px;
+  margin: 50px;
+  background-color: rgb(175 , 186 , 168);
+  border: 2px solid rgb(124 , 96 , 107);
+  box-shadow: 5px 10px 10px rgb(161 , 160 , 160);
+  width: 30%;
+  border-radius: 20px;
+  position: absolute;
+  height: 190px;
+  top: 995px;
+  left: 600px;
+  z-index: 1;
+}
+
+#tabela-bold {
+  font-weight: 3500;
+}
+
+td {
+
+  width: 100px;
+  text-align: center;
 }
 
 #titulo-aprender {
@@ -176,6 +203,13 @@ h3 {
 }
 
 #titulo-aprendidas {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 3500;
+  font-size: 22px;
+}
+
+#titulo-tabela{
   text-align: center;
   margin-top: 10px;
   font-weight: 3500;
