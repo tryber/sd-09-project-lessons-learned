@@ -36,7 +36,7 @@ body {
   border-radius: 20px;
   width: 20%;
   height: 250px;
-  background-color: rgb(232, 210 , 210);
+  background-color: rgb(232 , 210 , 210);
   display: inline-block;
   position: absolute;
   top: 500px;
@@ -53,7 +53,7 @@ body {
   border-radius: 20px;
   width: 20%;
   height: 250px;
-  background-color: rgb(175, 186, 168);
+  background-color: rgb(175 , 186, 168);
   position: absolute;
   top: 370px;
   z-index: 1;
@@ -64,7 +64,7 @@ body {
   margin-top: 50px;
   margin-left: 150px;
   text-align: center;
-  background-color: rgb(189, 206 , 199);
+  background-color: rgb(189 , 206 , 199);
   padding: 50px;
   width: 130px;
   border: 2px solid rgb(124 , 96 , 107);
@@ -85,7 +85,7 @@ body {
 }
 
 #fundo {
-  background-color: rgb(223, 214 , 218);
+  background-color: rgb(223 , 214 , 218);
   width: 97%;
   height: 1400px;
   left: 20px;
@@ -98,7 +98,7 @@ body {
 }
 
 h1 {
-  color: rgb(76, 30 , 79);
+  color: rgb(76 , 30 , 79);
   font-size: 35px;
   text-align: center;
 }
@@ -131,7 +131,7 @@ h3 {
 
 #minha_foto {
   display: block;
-  border: 8px solid rgb(76, 30 , 79);
+  border: 8px solid rgb(76 , 30 , 79);
   border-radius: 50%;
   width: 12em;
   z-index: 3;
@@ -155,7 +155,7 @@ h3 {
   border-radius: 20px;
   width: 55%;
   height: 180px;
-  background-color: rgb(175, 186, 168);
+  background-color: rgb(175 , 186, 168);
   display: inline-block;
   position: absolute;
   z-index: 1;
@@ -165,13 +165,13 @@ h3 {
 #titulo-aprender {
   text-align: center;
   margin-top: 10px;
-  font-weight: bold;
+  font-weight: 5;
 }
 
 #titulo-aprendidas {
   text-align: center;
   margin-top: 10px;
-  font-weight: bold;
+  font-weight: 5;
 }
 
 .troca-fonte {
