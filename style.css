@@ -36,7 +36,7 @@
 }
 #text1{
     position: relative;
-    left:17%;
+    left:10%;
     padding: 20px;
     font-size: 19px;
     font-weight: 600;
@@ -96,4 +96,7 @@ table{
 }
 #aprendizados{
     color: green ; 
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
 }
