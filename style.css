@@ -1,5 +1,10 @@
+article {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: sans-serif;
 }
 
 #cabecalho {
@@ -22,12 +27,14 @@ body {
   float: left;
   margin: 15px;
   font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #licoes_a_aprender {
   float: right;
   margin: 15px;
   font-size: 18px;
+  font-family: cursive;
 }
 
 .lado-direito {
@@ -37,6 +44,7 @@ body {
 
 .lado-esquerdo {
   float: left;
+  margin-top: 27%;
   width: 60%;
 }
 
