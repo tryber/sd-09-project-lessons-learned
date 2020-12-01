@@ -34,3 +34,11 @@ body {
   display: inline-block;
   width: 30%;
 }
+
+#lado-esquerdo {
+  float: left;
+}
+
+#lado-direito {
+  float: right;
+}
