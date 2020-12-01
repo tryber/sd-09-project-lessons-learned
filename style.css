@@ -1,5 +1,5 @@
- body {
-  background-color: rgb(253, 251, 251);
+body{
+  background-color: rgb(253 , 251 , 251);
   display: flex;
   align-content: center;
   flex-direction: column;
@@ -35,6 +35,9 @@
   top: 0%;
   width: 120px;
 }
+h2{
+    padding-right: 10px;
+}
 
 #licoes_aprendidas {
   text-align: left;
@@ -51,4 +54,5 @@
 }
 
 #rodape {
+    padding-left: 10px;
 }
