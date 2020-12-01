@@ -5,24 +5,25 @@ body {
 
 #cabecalho {
 
-  position:fixed;
-  top:0;
-  background-color:grey;
-  width:100%;
-  text-align:center;
-}  
+  position: fixed;
+  top: 0;
+  background-color: grey;
+  width: 100%;
+  text-align: center;
+} 
 
 .aprender {
-
-  background-color:grey; 
-  display:inline-block;
-  text-align:justify;
-  margin-top:0;
-  width:40%;
-  padding:16px;
-  line-height:24px;
-  vertical-align:middle;   
+  
+  background-color: grey; 
+  display: inline-block;
+  text-align: justify;
+  margin-top: 0;
+  width: 40%;
+  padding: 16px;
+  line-height: 24px;
+  vertical-align: middle;   
 }
+
 aside {
 
   width:40%;
@@ -32,6 +33,7 @@ aside {
   box-shadow: inset 5px 0 5px -5px #29627e;
   font-style: italic;
 }
+
 #rodape {
 
   background-color: grey; 
@@ -40,7 +42,7 @@ aside {
   width: 100%;
 }
 
-table, th, td {
+table, th, tr {
   border: 1px solid grey;
   border-collapse: collapse;
 }
