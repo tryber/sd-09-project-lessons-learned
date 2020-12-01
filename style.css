@@ -38,7 +38,6 @@ body {
 .lista {
   padding: 20px;
   width: 50%;
-  
 }
 
 #lista_licoes_aprendidas {
@@ -57,6 +56,11 @@ body {
   text-align: center;
   border-top: 2px solid black;
   width: 100%;
+}
+
+#artigo_barra_lateral{
+  width: 90%;
+  margin: auto;
 }
 
 .lado-esquerdo {
@@ -84,10 +88,10 @@ body {
   line-height: 26px;
 }
 
-#learning_table{
+/*#learning_table {
   border: 1px solid black;
   margin-top: 30px;
-}
+}*/
 
 #table {
   float: right;
