@@ -53,7 +53,7 @@ body {
   border-radius: 20px;
   width: 20%;
   height: 250px;
-  background-color: rgb(175 , 186, 168);
+  background-color: rgb(175 , 186 , 168);
   position: absolute;
   top: 370px;
   z-index: 1;
@@ -153,13 +153,6 @@ h3 {
   margin: 50px;
   border: 2px solid rgb(124 , 96 , 107);
   border-radius: 20px;
-  width: 55%;
-  height: 180px;
-  background-color: rgb(175 , 186, 168);
-  display: inline-block;
-  position: absolute;
-  z-index: 1;
-  box-shadow: 5px 10px 10px rgb(161 , 160 , 160);
 }
 
 #titulo-aprender {
