@@ -4,7 +4,7 @@ body * {
 }
 
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
   margin: 0;
   padding: 0;
 }
@@ -12,7 +12,7 @@ body {
 header {
   height: 15%;
   width: 100%;
-  background-color: rgba(15,163,107,.5);
+  background-color: rgba(15, 163, 107, .5);
 }
 
 #cabecalho {
@@ -21,7 +21,7 @@ header {
   z-index: 1;
 }
 
-#cabecalho h1 {
+#cabecalho h1, h2 {
   text-align: center;
 }
 
@@ -36,8 +36,8 @@ header {
   padding: 3px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  border-top: rgb(199,216,42) solid 4px;
-  background-color: rgb(172,172,172);
+  border-top: rgb(199, 216, 42) solid 4px;
+  background-color: rgb(172, 172, 172);
 }
 
 nav {
@@ -92,11 +92,11 @@ table {
 footer {
   position: absolute;
   top: 1000px;
-  height: 200px;
+  height: 150px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgba(15,163,107,.5);
+  background-color: rgba(15, 163, 107, .5);
   padding: 10px;
 }
 
@@ -112,7 +112,7 @@ address {
 }
 
 .icon {
-  height: 50%;
+  height: 65%;
 }
 
 #atribuicao {
