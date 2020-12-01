@@ -2,11 +2,11 @@
 
   padding: 50px;
   margin: 50px;
-  border: 2px solid #7C606B;
+  border: 2px solid #7c606b;
   border-radius: 20px;
   width: 30%;
   height: 100;
-  background-color: #CFD6CB;
+  background-color: #cfd6cb;
   display: inline-block;
   position: absolute;
   top: 820px;
@@ -114,7 +114,7 @@ h1 {
 
   color: #4C1E4F;
   font-size: 35px;
-  text-align: center; 
+  text-align: center;
 
 
 }
@@ -134,7 +134,7 @@ h1 {
   top: 0;
   z-index: 1;
   box-shadow: 5px 10px 10px rgb(161, 160, 160)
-  
+
 
 }
 
@@ -166,7 +166,7 @@ h1 {
   position: absolute;
   top: 970px;
   left: 600px;
-  
+
 }
 
 .passagem {
@@ -182,8 +182,9 @@ h1 {
   position: absolute;
   z-index: 1;
   box-shadow: 5px 10px 10px rgb(161, 160, 160)
- 
+
 }
+
 #titulo-aprender {
 
   text-align: center;
