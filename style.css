@@ -62,7 +62,7 @@ body {
 
 #contato {
   margin-top: 50px;
-  margin-left: 150px;
+  margin-left: 180px;
   text-align: center;
   background-color: rgb(189 , 206 , 199);
   padding: 50px;
@@ -152,19 +152,26 @@ h3 {
   padding: 50px;
   margin: 50px;
   border: 2px solid rgb(124 , 96 , 107);
+  box-shadow: 5px 10px 10px rgb(161 , 160 , 160);
   border-radius: 20px;
+  position: absolute;
+  height: 180px;
+  top: 80px;
+  z-index: 1;
 }
 
 #titulo-aprender {
   text-align: center;
   margin-top: 10px;
-  font-weight: 5;
+  font-weight: 3500;
+  font-size: 22px;
 }
 
 #titulo-aprendidas {
   text-align: center;
   margin-top: 10px;
-  font-weight: 5;
+  font-weight: 3500;
+  font-size: 22px;
 }
 
 .troca-fonte {
