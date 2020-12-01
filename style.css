@@ -26,7 +26,7 @@ body {
     background-color: #567568;
     padding: 5px;
     position: fixed;
-    top: 0px;
+    top: 0;
     width: 100em;
     z-index: 2;
 
@@ -130,7 +130,7 @@ h1 {
     border-radius: 20px;
     position: absolute;
     left: 650px;
-    top: 0px;
+    top: 0;
     z-index: 1;
     box-shadow: 5px 10px 10px rgb(161, 160, 160)
     
@@ -163,7 +163,6 @@ h1 {
     width: 50%;
     display: inline-block;
     position: absolute;
- /*   top: 782px; */
     top: 970px;
     left: 600px;
     
