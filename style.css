@@ -2,7 +2,7 @@ body {
   background-color: rgb(253 251 251);
   display: grid;
   grid-gap: 5rem;
-  grid-template-areas: 
+  grid-template-areas:
     'header header header'
     'aside-left article aside-right'
     'nav nav nav'
@@ -118,7 +118,7 @@ ul h2,ol h2 {
 }
 
 #aprendizado {
-  float right;
+  float: right;
   letter-spacing: 2px;
   line-height: normal;
   text-align: end;
