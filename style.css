@@ -2,28 +2,30 @@ body {
 
   background-color: rgb(253 ,251 ,251);
 }
+
 #cabecalho {
 
-  position: fixed;
-  top: 0;
+  position:fixed;
+  top:0;
   background-color:grey;
-  width: 100%;
-  text-align: center;
-}    
+  width:100%;
+  text-align:center;
+}  
+
 .aprender {
 
-  background-color: grey; 
-  display: inline-block;
-  text-align: justify;
-  margin-top: 0;
-  width: 40%;
-  padding: 16px;
-  line-height: 24px;
-  vertical-align: middle;   
+  background-color:grey; 
+  display:inline-block;
+  text-align:justify;
+  margin-top:0;
+  width:40%;
+  padding:16px;
+  line-height:24px;
+  vertical-align:middle;   
 }
 aside {
 
-  width: 40%;
+  width:40%;
   padding-left: 0.5rem;
   margin-left: 0.5rem;
   float: right;
@@ -37,6 +39,7 @@ aside {
   text-align: center;
   width: 100%;
 }
+
 table, th, td {
   border: 1px solid grey;
   border-collapse: collapse;
