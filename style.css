@@ -1,9 +1,9 @@
 body {
-        background-color: rgb( 253 , 251 , 251 )
+  background-color: rgb( 253 , 251 , 251 )
 }
 
 #cabecalho {
-        position: fixed;
-        top: 0;
-        width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
