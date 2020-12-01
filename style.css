@@ -8,6 +8,10 @@ body {
   text-align: center;
   top: 0;
   width: 100%;
+  font-size: 20px;
+  font-family: monospace;
+  color: black;
+  line-height: normal;
 }
 
 #minha_foto {
