@@ -122,6 +122,20 @@ ol h2 {
   float: left;
 }
 
+#aprendizado_1 {
+  float: right;
+  letter-spacing: 2px;
+  line-height: normal;
+  text-align: end;
+  background: rgb(79 121 140);
+  grid-area: aside-right;
+  font-style: oblique;
+  margin-top: 35px;
+  font-size: 20px;
+  color: rgb (23 104 23);
+  font-family: Texturina, serif;
+}
+
 #aprendizado {
   float: left;
   letter-spacing: 3px;
@@ -133,8 +147,4 @@ ol h2 {
   font-style: italic;
   color: black;
   text-align: center;
-}
-
-section {
-  float: right;
 }
