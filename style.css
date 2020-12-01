@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
 .centered {
     margin: 0 auto;
 }
