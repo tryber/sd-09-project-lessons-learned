@@ -176,14 +176,14 @@ h3 {
   width: 30%;
   border-radius: 20px;
   position: absolute;
-  height: 190px;
-  top: 995px;
+  height: 200px;
+  top: 980px;
   left: 600px;
   z-index: 1;
 }
 
 #tabela-bold {
-  font-weight: 3500;
+  font-weight: bold;
 }
 
 td {
