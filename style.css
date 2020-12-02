@@ -48,14 +48,14 @@ table {
     padding: 15px;
     margin-left: 28em;
 }
-#lado-esquerdo {
+.lado-esquerdo {
     margin-top: 100px;
     float: left;
     width: 45%;   
     text-align: center;
     
 }
-#lado-direito {    
+.lado-direito {    
     margin-top: 100px;
     float: right;
     width: 45%;   
