@@ -59,8 +59,9 @@ table {
     margin-top: 100px;
     float: right;
     width: 45%;   
-    position: relative;    
-    bottom: 1px;
+    position: relative;  
+    right: 10em;  
+    bottom: 3em;
     text-align: center;
     
     
