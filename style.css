@@ -1,6 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     background-color: rgb(253, 251, 251);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
     color: #475550;
     letter-spacing: 2px;
 }
@@ -17,10 +22,28 @@ p {
     color: rgb(253, 251, 251);
     margin: 0 auto;
     font-size: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 5px;
+    padding: 15px;
     text-align: center;
     background-color: green;
     top: 0px;
 }
 
+#perfil {
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+}
+
+.list {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-inline: 50px;
+}
+
+#listas {
+    text-align: center;
+}
