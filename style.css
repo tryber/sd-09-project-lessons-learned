@@ -5,7 +5,7 @@ body {
     letter-spacing: 2px;
 }
 
-h2, h4, h6 {
+.font-verde {
     color: seagreen;
 }
 
@@ -16,9 +16,9 @@ p {
 #cabecalho {
     color: rgb(253, 251, 251);
     margin: 0 auto;
-    font-size: 20;
-    font-family: Arial, Arial, Helvetica, sans-serif;
-    padding: 10px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
     text-align: center;
     background-color: green;
     top: 0px;
