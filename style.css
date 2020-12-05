@@ -51,9 +51,12 @@ nav {
 }
 
 .coments-left {
-    float: left;
+    display: inline-block;
+    width: 35%;
+    text-align: justify;
+    margin-left: 20px;
 }
 
-.coments-right {
-    float: right;
+aside {
+    display: inline-block;
 }
