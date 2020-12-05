@@ -20,15 +20,17 @@ p {
 
 #cabecalho {
     color: rgb(253, 251, 251);
-    margin: 0 auto;
     font-size: 15px;
-    padding: 15px;
     text-align: center;
     background-color: green;
     top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100px;
 }
 
 #perfil {
+    margin-top: 100px;
     padding: 50px;
     text-align: center;
 }
@@ -48,6 +50,10 @@ nav {
     text-align: center;
 }
 
-.coments {
-    display: inline-block;
+.coments-left {
+    float: left;
+}
+
+.coments-right {
+    float: right;
 }
