@@ -47,3 +47,7 @@ nav {
 #listas {
     text-align: center;
 }
+
+.coments {
+    display: inline-block;
+}
