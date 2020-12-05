@@ -1,24 +1,26 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
+    color: #475550;
+    letter-spacing: 2px;
 }
 
-.centered {
-    margin: 0 auto;
+h2, h4, h6 {
+    color: seagreen;
 }
 
-h1 {
+p {
+    font-size: 14px;
+}
+
+#cabecalho {
     color: rgb(253, 251, 251);
-}
-
-.header {
+    margin: 0 auto;
     font-size: 20;
     font-family: Arial, Arial, Helvetica, sans-serif;
     padding: 10px;
     text-align: center;
-    background-color: rgb(36, 202, 91);
-}
-
-#cabecalho {
-    background-color: rgb(36, 202, 91);
+    background-color: green;
     top: 0px;
 }
+
