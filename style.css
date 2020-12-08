@@ -27,27 +27,29 @@ span {
   text-transform: uppercase;
 }
 
-table {
-  clear: both;
-}
-
 .article.lado-esquerdo {
   position: relative;
-  margin: 1em 10px;
+  left: 0;
   float: left;
-  width: 30%;
+  width: 400px;
+  margin: 0 10px;
   line-height: 30px;
 }
 
 .aside.lado-direito {
   position: relative;
-  padding: 22px;
+  right: 120px;
+  float: right;
+  width: 200px;
+  margin: 1em 0;
   color: rgb(71 , 71 , 71);
   font-family: serif;
   font-size: 15px;
-  float: right;
   letter-spacing: 1px;
-  width: 20%;
+}
+
+.skills {
+  clear: both;
 }
 
 #cabecalho {
