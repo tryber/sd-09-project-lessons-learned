@@ -224,8 +224,10 @@ footer {
 
 .lado-esquerdo {
   float: left;
+  width: 20%;
 }
 
 .lado-direito {
   float: right;
+  width: 20%;
 }
