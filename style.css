@@ -40,7 +40,8 @@ nav {
 
 #minha_foto {
   background-color: black;
-  display: flex;
+  display: block;
+  float: left;
   margin-left: 20px;
   margin-top: 150px;
   z-index: 11;
@@ -223,10 +224,8 @@ footer {
 
 .lado-esquerdo {
   float: left;
-  width: 20%;
 }
 
 .lado-direito {
   float: right;
-  width: 20%;
 }
