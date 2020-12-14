@@ -5,7 +5,6 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  
 }
 
 #cabecalho {
@@ -47,7 +46,7 @@ body {
 }
 
 #artigo p {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   font-size: 16px;
   color: red;
   line-height: 20px;
@@ -55,10 +54,9 @@ body {
 }
 
 #aside p {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   font-size: 16px;
   color: red;
   line-height: 20px;
   margin-top: 10px;
 }
-
