@@ -24,3 +24,7 @@ body {
   top: 50px;
   margin-left: 10px;
 }
+
+#tabela {
+    border: 5px solid green;
+}
