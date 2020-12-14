@@ -54,6 +54,7 @@ body {
   display: inline-block;
   margin-left: 10px;
 }
+
 #licoes_aprendidas {
   width: 40%;
   display: inline-block;
@@ -67,19 +68,19 @@ body {
 }
 
 #licoes_aprendidas li {
-    font-family: Courier, monospace;
-    font-size: 16px;
-    color: red;
-    margin-left: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  font-family: Courier, monospace;
+  font-size: 16px;
+  color: red;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #licoes_a_aprender li {
-    font-family: Courier, monospace;
-    font-size: 16px;
-    color: red;
-    margin-left: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  font-family: Courier, monospace;
+  font-size: 16px;
+  color: red;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   }
