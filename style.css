@@ -5,6 +5,8 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
+  font-size: 16px;
+  color:red;
 }
 
 #cabecalho {
@@ -25,9 +27,8 @@ body {
   margin-left: 10px;
 }
 
-#tabela, th, td {
+#tabela , th , td {
   border: 1px solid green;
   text-align: center;
   border-collapse: collapse;
 }
- 
