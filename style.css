@@ -5,3 +5,9 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+#cabecalho {
+    width: 100%;
+    position: fixed;
+    background-color: green;
+    text-align: center;
+}
