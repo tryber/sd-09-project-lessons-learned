@@ -45,7 +45,8 @@ body {
   text-align: center;
   border-collapse: collapse;
 }
-#conteudo, p {
+
+#artigo p {
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
   color: red;
@@ -53,10 +54,11 @@ body {
   margin-top: 10px;
 }
 
-#conteudo, p {
+#aside p {
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
   color: red;
   line-height: 20px;
   margin-top: 10px;
 }
+
