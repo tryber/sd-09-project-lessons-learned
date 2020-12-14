@@ -16,7 +16,7 @@ body {
 }
 
 #licoes_aprendidas {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   font-size: 16px;
   color: red;
   margin-left: 25px;
@@ -25,7 +25,7 @@ body {
 }
 
 #licoes_a_aprender {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   font-size: 16px;
   color: red;
   margin-left: 25px;
