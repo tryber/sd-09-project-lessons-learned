@@ -25,6 +25,9 @@ body {
   margin-left: 10px;
 }
 
-#tabela {
-    border: 5px solid green;
+#tabela, th, td {
+  border: 1px solid green;
+  text-align: center;
+  border-collapse: collapse;
 }
+ 
