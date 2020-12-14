@@ -7,7 +7,7 @@ body p {
   background-color: rgb(253 , 251 , 251);
   font-size: 16px;
   color:red;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -21,7 +21,18 @@ body p {
 }
 
 #licoes_aprendidas {
+  font-size: 16px;
+  color: red;
   margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#licoes_a_aprender {
+  font-size: 16px;
+  color: red;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #link-externo {
