@@ -12,8 +12,15 @@ width: 100%;
 position: fixed;
 background-color: green;
 text-align: center;
+height: 100px;
 }
 
 #licoes_aprendidas {
     margin-left:25px;
+}
+
+#link-externo {
+    position: relative;
+    top: 50px;
+    margin-left: 10px;
 }
