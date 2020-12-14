@@ -45,18 +45,30 @@ body {
   border-collapse: collapse;
 }
 
-#artigo p {
+.lado-direito p {
   font-family: Courier, monospace;
-  font-size: 16px;
+  font-size: 15px;
   color: red;
   line-height: 20px;
   margin-top: 10px;
 }
 
-#aside p {
+.lado-esquerdo p {
   font-family: Courier, monospace;
-  font-size: 16px;
+  font-size: 15px;
   color: red;
   line-height: 20px;
   margin-top: 10px;
+}
+
+.lado-esquerdo {
+    width: 45%;
+    display: inline-block;
+    float: right;
+}
+
+.lado-direito {
+    width: 50%;
+    display: inline-block;
+    margin-left: 10px;
 }
