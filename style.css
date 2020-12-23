@@ -4,14 +4,17 @@ body {
 }
 
 #cabecalho {
-  position: relative;
+  position: fixed;
   top: 0;
   width: 100%;
   text-align: center;
   background-color: mediumseagreen;
+  z-index: 1;
 }
 
 #container-article-aside {
+  position: relative;
+  margin-top: 120px;
   width: 100%;
   margin-bottom: 50px;
 }
@@ -37,6 +40,7 @@ body {
   position: fixed;
   right: 5%;
   top: 10px;
+  z-index: 2;
 }
 
 .lado-esquerdo {
