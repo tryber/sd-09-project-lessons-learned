@@ -1,11 +1,11 @@
 body {
-  background-color: rgb(253 ,251 ,251);
+  background-color: rgb(253 , 251 , 251);
   font-family: Calibri, sans-serif;
 }
 
 #cabecalho {
   position: relative;
-  top: 0px;
+  top: 0;
   width: 100%;
   text-align: center;
   background-color: mediumseagreen;
@@ -18,7 +18,7 @@ body {
 
 #container-article-aside h2 {
   font-size: 24px;
-  color: rgb(49 ,148 ,94);
+  color: rgb(49 , 148 , 94);
   font-weight: 700;
   text-align: center;
   margin: 20px;
@@ -46,7 +46,7 @@ body {
   text-align: justify;
   line-height: 1.5;
   margin-left: 15px;
-  background-color: rgb(118 ,209 ,118);
+  background-color: rgb(118 , 209 , 118);
   padding: 5px 15px;
   border-radius: 10px;
 }
@@ -58,14 +58,14 @@ body {
   right: 5%;
   text-align: justify;
   line-height: 1.2;
-  border: rgb(61 ,133 ,86) 2px solid;
+  border: rgb(61 , 133 , 86) 2px solid;
   border-radius: 10px;
   padding: 8px;
 }
 
 #rodape {
   position: relative;
-  background-color: rgb(98 ,230 ,157);
+  background-color: rgb(98 , 230 , 157);
   width: 100%;
   height: 50px;
   padding-top: 20px;
@@ -120,7 +120,7 @@ body {
 h4 {
   margin-top: 20px;
   margin-bottom: 5px;
-  color: rgb(49 ,148 ,94);
+  color: rgb(49 , 148 , 94);
   font-size: 24px;
   transform: translateX(-2.5%);
 }
@@ -131,7 +131,7 @@ table {
   padding: 16px;
 }
 
-th ,td {
+th , td {
   border: 1px solid green;
   border-collapse: collapse;
   padding: 10px;
