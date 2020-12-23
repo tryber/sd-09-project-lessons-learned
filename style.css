@@ -5,7 +5,7 @@ body {
 
 #cabecalho {
   position: relative;
-  top: 0px;
+  top: 0;
   width: 100%;
   text-align: center;
   background-color: mediumseagreen;
@@ -34,9 +34,9 @@ body {
   border-radius: 100%;
   border: 3px white solid;
   width: 150px;
-  position: absolute;
-  display: inline-block;
+  position: fixed;
   right: 5%;
+  top: 10px;
 }
 
 .lado-esquerdo {
