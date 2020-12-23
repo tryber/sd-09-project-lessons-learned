@@ -1,7 +1,6 @@
 body {
-  background-color: rgb(253,251,251);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: 0px;
+  background-color: rgb(253 ,251 ,251);
+  font-family: Calibri, sans-serif;
 }
 
 #cabecalho {
@@ -9,7 +8,7 @@ body {
   top: 0px;
   width: 100%;
   text-align: center;
-  background-color: #3CB371;
+  background-color: rgb(60 ,179 ,113);
 }
 
 #container-article-aside {
@@ -17,9 +16,9 @@ body {
   margin-bottom: 50px;
 }
 
-#container-article-aside h3 {
+#container-article-aside h2 {
   font-size: 24px;
-  color: #31945e;
+  color: rgb(49 ,148 ,94);
   font-weight: 700;
   text-align: center;
   margin: 20px;
@@ -33,7 +32,7 @@ body {
 
 #minha_foto {
   border-radius: 100%;
-  border: 3px white solid;  
+  border: 3px white solid;
   width: 150px;
   position: absolute;
   display: inline-block;
@@ -47,8 +46,8 @@ body {
   text-align: justify;
   line-height: 1.5;
   margin-left: 15px;
-  background-color: rgb(118, 209, 118);
-  padding: 5px 15px 5px 15px;
+  background-color: rgb(118 ,209 ,118);
+  padding: 5px 15px;
   border-radius: 10px;
 }
 
@@ -59,15 +58,14 @@ body {
   right: 5%;
   text-align: justify;
   line-height: 1.2;
-  border:rgb(61, 133, 86) 2px solid;
+  border: rgb(61 ,133 ,86) 2px solid;
   border-radius: 10px;
   padding: 8px;
 }
 
 #rodape {
   position: relative;
-  bottom: 0px;
-  background-color: #62e69d;
+  background-color: rgb(98 ,230 ,157);
   width: 100%;
   height: 50px;
   padding-top: 20px;
@@ -97,11 +95,11 @@ body {
   line-height: 1.5;
 }
 
-.licoes-aprendidas h2 {
+.licoes-aprendidas h3 {
   color: whitesmoke;
 }
 
-.licoes-a-aprender h2 {
+.licoes-a-aprender h3 {
   color: whitesmoke;
 }
 
@@ -119,9 +117,10 @@ body {
   margin: 20px;
 }
 
-h5 {
-  margin: 20px 0px 5px 0px;
-  color: #31945e;
+h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: rgb(49 ,148 ,94);
   font-size: 24px;
   transform: translateX(-2.5%);
 }
@@ -132,7 +131,7 @@ table {
   padding: 16px;
 }
 
-th, td {
+th ,td {
   border: 1px solid green;
   border-collapse: collapse;
   padding: 10px;
