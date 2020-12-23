@@ -1,123 +1,122 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
-    background-color: rgb( 253 , 251 , 251 );
-    font-family: sans-serif;
-    max-width: 100%;
-    overflow-x: hidden;
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 header {
-    width: 100%;
-    height: 15vh;
-    position: fixed;
-    background-color: rgb( 22 , 75 , 80 );
-    top: 0px;
-    margin-top: 0px;
+  width: 100%;
+  height: 15vh;
+  position: fixed;
+  background-color: rgb(22, 75, 80);
+  top: 0px;
+  margin-top: 0px;
 }
 
 .cabecalho {
-    margin-top: 0px;
-    top: 0px;
+  margin-top: 0px;
+  top: 0px;
 }
 
 #titulo {
-    width: 600px;
-    height: 50px;
-    margin-left: 50px;
-    color: rgb( 253 , 251 , 251);
+  width: 600px;
+  height: 50px;
+  margin-left: 50px;
+  color: rgb(253, 251, 251);
 }
 
 .navegacao {
-    color: aliceblue;
-    width: 150px;
-    height: 15px;
-    float: right;
-    margin-right: 200px;
+  color: aliceblue;
+  width: 150px;
+  height: 15px;
+  float: right;
+  margin-right: 200px;
 }
 
 main {
-    width: 100%;
-    height: 25vh;
+  width: 100%;
+  height: 25vh;
 }
 
 main img {
-    margin-top: 140px;
-    margin-bottom: 40px;
-    margin-left: 60px;
+  margin-top: 140px;
+  margin-bottom: 40px;
+  margin-left: 60px;
 }
 
 .listas {
-    width: 100%;
-    height: 70vh;
+  width: 100%;
+  height: 70vh;
 }
 
 .lista-desordenada {
-    width: 100%;
-    height: 30vh;
-    margin-bottom: 200px;
-    list-style-type: disc;
-    margin-left: 670px;
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 200px;
+  list-style-type: disc;
+  margin-left: 670px;
 }
 
 .lista-ordenada {
-    margin-bottom: 30px;
-    width: 100%;
-    margin-bottom: 60px;
-    margin-left: 670px;
-    
+  margin-bottom: 30px;
+  width: 100%;
+  margin-bottom: 60px;
+  margin-left: 670px;
 }
 
 .artigo {
-    width: 100%;
-    height: 50vh;
-    margin-top: 100px;
-    margin-left: 50px;
+  width: 100%;
+  height: 50vh;
+  margin-top: 100px;
+  margin-left: 50px;
 }
 
 .aprendizado {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .tabela {
-    width: 70px;
-    height: 70px;
-    color: rgb( 1 , 2 , 1 );
-    margin-left: 50px;
+  width: 70px;
+  height: 70px;
+  color: rgb(1, 2, 1);
+  margin-left: 50px;
 }
 
 footer {
-    background-color: rgb( 22 , 75 , 80 );
-    width: 100%;
-    height: 10vh;
-    color: rgb( 253 , 251 , 251  );
-    font-size: 1.1rem;
-    line-height: 2rem;
-    font-family: serif;
+  background-color: rgb(22, 75, 80);
+  width: 100%;
+  height: 10vh;
+  color: rgb(253, 251, 251);
+  font-size: 1.1rem;
+  line-height: 2rem;
+  font-family: serif;
 }
 
 footer p {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 footer i {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
