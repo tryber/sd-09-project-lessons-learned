@@ -1,85 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Projeto 1 - Lições Aprendidas</title>
-    </head>
-    <body>
-        <header id="cabecalho">
-            <h1 id="titulo">Lições aprendidas - Trybe</h1>
-            <nav>
-                <ul>
-                    <li><a href="https://www.github.com/MatheusSchreiner" target="_blank">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/matheus-schreiner-7732a61bb/" target="_blank">Linkedin</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="lado-direito">
-            <aside>
-                Desculpe, mas eu realmente não estou inspirado hoje para escrever mas voltarei para deixar tudo lindo e dentro dos conformes, nem que eu passe o recesso inteiro estudando mas eu farei rs!!!
-            </aside>
-        </section>
-        <main>
-            <img id="minha_foto" src="MatheusSchreiner.jpg" alt="Foto de Matheus Rubi">
-            <article class="lado-esquerdo">
-                Área reservada para escrever um artigo sobre mim, assim que eu conseguir pensar em algo rs,
-                até lá deixarei apenas mensagens que levo comigo, 1 - Alegria é um sentimento momentâneo, Felicidade é equilíbrio de espírito;
-                2 - Seu problema tem solução? Sim, então não tem com o que se preocupar.
-                Seu problema tem solulção? Não, então também não tem o por que se preocupar. 3 - Último e mais importante, faça o que te faz feliz, foda-se o resto rs.
-            </article>
-            <aside>
-                <section>
-                    <h2 class="titulo_licoes_aprendidas">Lições Aprendidas</h2>
-                    <ol id="licoes_aprendidas">
-                        <li>Soft Skills</li>
-                        <li>Colaboração</li>
-                        <li>Unix</li>
-                        <li>Bash</li>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>Fundamentos Web</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Slack</li>
-                    </ol>
-                    <h2 class="titulo_licoes_a_aprender">Lições a Aprender</h2>
-                    <ul id="licoes_a_aprender">
-                        <li>React</li>
-                        <li>Node</li>
-                        <li>JavaScript</li>
-                        <li>Banco de Dados</li>
-                        <li>Lógica de Programação</li>
-                        <li>Python</li>
-                        <li>DOM</li>
-                        <li>Estrutura de Dados</li>
-                        <li>Ciência da Computação</li>
-                        <li>SQL</li>
-                    </ul>
-                </section>
-            </aside>
-            <section>
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>Blocos Finalizados</th>
-                            <tr>
-                                <td>01</td>
-                                <td>Unix, Bash e Shell Script</td>
-                            </tr>
-                            <tr>
-                                <td>02</td>
-                                <td>Git, Git Hub e Internet</td>
-                            </tr>
-                            <tr>
-                                <td>03</td>
-                                <td>Introdução a HTML e CSS</td>
-                            </tr>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </main>
-        <footer id="rodape">Direitos Reservados</footer>
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto 1 - Lições Aprendidas</title>
+  </head>
+  <body>
+    <header id="cabecalho">
+      <h1 id="titulo">Lições Aprendidas</h1>
+      <img id="minha_foto" src="MatheusSchreiner.jpg" alt="Matheus Schreiner">
+    </header>
+    <main>
+      <div id="container-article-aside">
+        <h3>Sobre mim</h3>
+        <article class="lado-esquerdo">
+          <p>
+            Estas são algumas das mensagens que levo comigo,<br> 1 - Alegria é um sentimento momentâneo, Felicidade é equilíbrio de espírito;<br> 2 - Seu problema tem solução? Sim, então não tem com o que se preocupar. Seu problema tem solução? Não, então também não tem o por que se preocupar.<br> 3 - Último e mais importante, faça o que te faz feliz, foda-se o resto rs.
+          </p>
+        </article>
+        <aside class="lado-direito">
+          <p>
+            Você é aquilo que ninguém vê. Uma coleção de histórias, dores, bondades, tragédias, sucessos, sentimentos e pensamentos. Se definir é se limitar. Você é um eterno parênteses em aberto, enquanto sua eternidade durar. (Machado de Assis).
+          </p>
+        </aside>
+      </div>
+      <section id="licoes">
+        <div class="licoes-aprendidas">
+          <h2>Lições Aprendidas</h2>
+          <ol id="licoes_aprendidas">
+            <li>Soft Skills</li>
+            <li>Colaboração</li>
+            <li>Unix</li>
+            <li>Bash</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Fundamentos Web</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Slack</li>
+          </ol>
+        </div>
+        <div class="licoes-a-aprender">
+          <h2>Lições a Aprender</h2>
+          <ul id="licoes_a_aprender">
+            <li>React</li>
+            <li>Node</li>
+            <li>JavaScript</li>
+            <li>Banco de Dados</li>
+            <li>Lógica de Programação</li>
+            <li>Python</li>
+            <li>DOM</li>
+            <li>Estrutura de Dados</li>
+            <li>Ciência da Computação</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+      </section>
+      <section id="tabela">
+        <h5>Inventores</h5>
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Tecnologia</th>
+          </tr>
+          <tr>
+            <td>Linus</td>
+            <td>Torvalds</td>
+            <td>Linux & Git</td>
+          </tr>
+          <tr>
+            <td>Tim</td>
+            <td>Berners-Lee</td>
+            <td>HTML</td>
+          </tr>
+          <tr>
+            <td>Brendan</td>
+            <td>Eich</td>
+            <td>JavaScript</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer id="rodape">
+      <nav>
+        <p>© Matheus Schreiner</p>
+        <a href="https://github.com/MatheusSchreiner" target="_blank"><img class="icons"src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="Git Hub"></a>
+        <a href="https://www.betrybe.com/" target="_blank"><img id="icon-trybe" class="icons" src="https://uploads-ssl.webflow.com/5fba98ad987231cf0efa3d58/5fba9c9a93a2e77624258d49_Logo.svg" alt="Trybe"></a>
+        <a href="https://www.linkedin.com/in/matheus-schreiner-7732a61bb/" target="_blank"><img class="icons"src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="Linkedin"></a>
+      </nav>
+    </footer>
+  </body>
 </html>
