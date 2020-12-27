@@ -11,12 +11,16 @@ body {
     text-align: center;
 }
 
-aside {
+article {
+    padding-top: 120px;
+}
+
+#side-content {
     padding-top: 120px;
     float: right;
     
 }
 
 #lessons-learned {
-    padding-top: 120px;
+    
 }
