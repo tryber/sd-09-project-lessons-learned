@@ -28,8 +28,8 @@ nav li{
 
 #licoes_aprendidas {
     display: inline-block;
-    float: left;
-    margin-top: 180px;
+    float: right;
+    margin-top: 50px;
     padding-left: 80px;
     padding-right: 80px;
     font-size: medium;
@@ -37,14 +37,14 @@ nav li{
 
 #licoes_a_aprender {
     display: inline-block;
-    margin-top: 180px;
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
     font-size: medium;
 }
 
 #conteudo_lateral {
-    padding-top: 170px;
-    float: right;
-    text-align: center
+    
 }
 
 #minha_foto {
@@ -58,34 +58,34 @@ table {
 }
 
 #borda-informacoes {
+    display: inline-block;
     border: 2px solid black;
     background-color: #BCF4DE;
+    margin-top: 10px;
+    float: right;
+    text-align: center
 }
-
 
 #borda-informacoes h3 {
     background-color: #CDE5D7;
 }
 
-.separando-sessoes {
-    margin: 50px;
-    padding: 10px;
-}
-
 .lado-esquerdo {
     float: left;
-    width: 49%;
+    width: 47%;
     color: rgb(001 , 002 , 003);
     line-height: 20px;
     text-align: center;
+    margin-top: 150px;
 }
 
 .lado-direito {
     float: right;
-    width: 49%;
+    width: 47%;
     color: rgb(001 , 002 , 003);
     line-height: 20px;
     text-align: center;
+    margin-top: 150px;
 }
 
 #rodape {
