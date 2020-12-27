@@ -1,8 +1,18 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0%;
 }
 
 #cabecalho {
     position: fixed;
     top: 0px;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+}
+
+aside {
+    padding-top: 120px;
+    float: right;
+    
 }
