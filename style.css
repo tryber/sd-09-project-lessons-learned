@@ -12,7 +12,15 @@ body {
 }
 
 nav ul{
-    display:flex;
+    display:table;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: center;
+}
+
+nav li{
+    float: left;
+    margin: 0 10px;
     list-style: none;
     justify-content: center;
 }
@@ -24,5 +32,18 @@ article {
 #conteudo_lateral {
     padding-top: 170px;
     float: right;
-    
+}
+
+#rodape {
+    text-align: center;
+    font-size: 25px;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+#logos-redes-sociais {
+    display: inline-block;
 }
