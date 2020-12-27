@@ -67,8 +67,8 @@ table {
     background-color: #CDE5D7;
 }
 
-#historias {
-    margin-top: 100px;
+.separando-sessoes {
+    margin: 50px;
     padding: 10px;
 }
 
@@ -92,7 +92,7 @@ table {
     text-align: center;
     font-size: 25px;
     margin-top: 260px;
-    background-color: #DED6D1;
+    background-color: #8DB8A7;
     padding-bottom: 1px;
 }
 
@@ -103,6 +103,24 @@ table {
 a {
     padding: 0px 20px 20px 20px;
     text-decoration: none;
+}
+
+a:link {
+    color: #FFB7C3;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration:none;
+    color:white;
+}
+
+    a:active {
+    text-decoration:none;
+    color:green;
 }
 
 #logos-redes-sociais {
