@@ -11,16 +11,18 @@ body {
     text-align: center;
 }
 
+nav ul{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+}
+
 article {
-    padding-top: 120px;
+    padding-top: 170px;
 }
 
 #conteudo_lateral {
-    padding-top: 120px;
+    padding-top: 170px;
     float: right;
-    
-}
-
-#licoes_a_aprender {
     
 }
