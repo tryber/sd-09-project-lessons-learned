@@ -26,25 +26,21 @@ nav li{
     justify-content: center;
 }
 
-#licoes_aprendidas {
-    display: inline-block;
-    float: right;
-    margin-top: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
-    font-size: medium;
-}
-
 #licoes_a_aprender {
     display: inline-block;
-    margin-top: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+    float: left;
+    margin-top: 0px;
+    padding-left: -10px;
+    padding-right: 0px;
     font-size: medium;
 }
 
-#conteudo_lateral {
-    
+#licoes_aprendidas {
+    display: inline-block;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: medium;
 }
 
 #minha_foto {
