@@ -42,14 +42,15 @@ table {
 #informacoes {
     border: 2px solid black;
     background-color: #BCF4DE;
-    margin-top: 200px;
-    text-align: center
+    margin: auto;
+    text-align: center;
+    margin-top: 147px;
+
 }
 
 #informacoes h3 {
     background-color: #CDE5D7;
 }
-
 
 .lado-esquerdo {
     float: left;
@@ -57,7 +58,7 @@ table {
     color: rgb(001 , 002 , 003);
     line-height: 20px;
     text-align: center;
-    margin-top: 500px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -67,7 +68,7 @@ table {
     color: rgb(001 , 002 , 003);
     line-height: 20px;
     text-align: center;
-    margin-top: 500px;
+    margin-top: 0px;
     margin-bottom: 00px;
     
 }
@@ -80,7 +81,6 @@ table {
     margin-top: 0px;
     font-size: medium;
     float: left;
-    margin-left: ;
 }
 
 #licoes_aprendidas {
