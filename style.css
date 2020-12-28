@@ -39,14 +39,14 @@ table {
     margin-right: 36%;
 }
 
-#borda-informacoes {
+#informacoes {
     border: 2px solid black;
     background-color: #BCF4DE;
-    margin-top: 148px;
+    margin-top: 200px;
     text-align: center
 }
 
-#borda-informacoes h3 {
+#informacoes h3 {
     background-color: #CDE5D7;
 }
 
@@ -57,7 +57,7 @@ table {
     color: rgb(001 , 002 , 003);
     line-height: 20px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 500px;
     margin-bottom: 0px;
 }
 
@@ -67,7 +67,7 @@ table {
     color: rgb(001 , 002 , 003);
     line-height: 20px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 500px;
     margin-bottom: 00px;
     
 }
