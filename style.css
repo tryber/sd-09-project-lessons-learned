@@ -15,16 +15,36 @@ body {
 
 nav ul{
     display:table;
-    margin: 0 auto;
+    margin: auto;
     list-style: none;
     justify-content: center;
 }
 
 nav li{
     float: left;
-    margin: 0 10px;
+    margin: auto;
     list-style: none;
     justify-content: center;
+}
+
+nav a:link {
+    color:black;
+    font-weight:bolder;
+}
+
+nav a:visited {
+    color:black;
+    font-weight:bolder;
+}
+
+nav a:active {
+    color:black;
+    font-weight:bolder;
+}
+
+nav a:hover {
+    color:black;
+    font-weight:bolder;
 }
 
 #minha_foto {
@@ -106,20 +126,20 @@ a {
     text-decoration: none;
 }
 
-a:link {
+#rodape a:link {
     color: #FFB7C3;
 }
 
-a:visited {
+#rodape a:visited {
     color: black;
 }
 
-a:hover {
+#rodape a:hover {
     text-decoration:none;
     color:white;
 }
 
-    a:active {
+#rodape a:active {
     text-decoration:none;
     color:green;
 }
