@@ -4,8 +4,9 @@ body {
 }
 
 main {
-  line-height: 1.4;
-  padding: 80px 10px 0 10px;
+  font-size: 1.1em;
+  line-height: 1.2;
+  padding: 60px 10px 0;
 }
 
 td {
