@@ -1,15 +1,15 @@
-* {
+body {
+  background-color: rgb(253 , 251 , 251);
   margin: 0;
 }
 
-body {
-  background-color: rgb(253 , 251 , 251);
-  font-size: 120%;
+main {
+  line-height: 1.4;
+  padding: 80px 10px 0 10px;
 }
 
-main {
-  padding-bottom: 2em;
-  padding-top: 6em;
+td {
+  padding: 20px;
 }
 
 .lado-direito {
@@ -21,39 +21,37 @@ main {
 }
 
 #aprendizados {
+  border: 1px dashed black;
+  margin: 20px;
+  padding: 10px;
   width: 40%;
 }
 
 #artigo {
-  width: 60%;
+  border: 1px dashed black;
+  margin: 20px;
+  padding: 10px;
+  width: 50%;
 }
 
 #cabecalho {
   background-color: rgb(15 , 163 , 107);
   font-family: monospace;
-  height: 5em;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-#licoes {
-  position: fixed;
-  top: 12em;
-}
-
 #licoes h2 {
   color: rgb(15 , 163 , 107);
-  font-size: 1.5em;
 }
 
 #minha_foto {
-  border: 0.3em solid rgb(253 , 251 , 251);
+  border: 3px solid rgb(253 , 251 , 251);
   border-radius: 50%;
-  margin: 0;
   position: fixed;
-  right: 0.5em;
-  top: 1em;
+  right: 5px;
+  top: 5px;
   width: 100px;
 }
 
@@ -65,12 +63,6 @@ main {
   position: fixed;
   text-align: right;
   width: 100%;
-}
-
-#tabela {
-  bottom: 4em;
-  position: absolute;
-  right: 2em;
 }
 
 #titulo {
