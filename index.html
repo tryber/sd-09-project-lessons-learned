@@ -9,93 +9,75 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
-<header id="cabecalho">
-  <img id="minha_foto" src="Luciano Lodi.jpg" alt="foto de Luciano">
-  <h1 id="titulo">Lessons Learned</h1>
-  <h2 id="titulo">LUCIANO LODI</h2>
+<header class="header">
+  
+  <div class="header-img">
+    <img src="Luciano Lodi.jpg" alt="foto de Luciano">
+  </div>
+  <nav class="top-nav">
+    <a>Quem sou eu</a>
+    <a>Fale comigo</a>
+    <a>Vamos nos conectar</a>
+  </nav>
+  <div class="header-text">
+    <h1>Lessons Learned</h1>
+    <h2>LUCIANO LODI</h2>
+  </div>
 </header>
-
 <body>
-
-  <main class="align-main">
-
-    <section class="lado-esquerdo">
-
-      <ol id="licoes_aprendidas"> <h2>O QUE APRENDI:</h2>
-        <li>Unix</li>
-        <li>Bash</li>
-        <li>Versionamento com Git e Github</li>
-        <li>Criar páginas com HTML</li>
-        <li>Estilizar páginas com CSS</li>
-        <li>Box Model</li>
-        <li>Acessibilidade com HTML Semântico</li>
-        <li>O Stomatopoda é um bicho muito doido!</li>
-        <li>A Trybe é demais!</li>
-        <li>A Turma 09 é sensacional! (Oliva que disse)</li>
-      </ol>
-    </section>
-
-    <section class="meio">
-      <ul id="licoes_a_aprender"><h2>O QUE AINDA QUERO (E VOU) APRENDER:</h2>
-        <li>Agilidade para codar</li>
-        <li>Codar de forma amigável e legível</li>
-        <li>Ferramentas de SEO</li>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>Soft Skills para o trabalho e para a vida</li>
-        <li>Bases de Dados</li>
-        <li>React</li>
-        <li>Metodologias ágeis</li>
-        <li>Sotaque mineiro</li>
-      </ul>
-      <br>
-      <table id="table">
-        <tr></tr>
-        <td>#</td>
-        <td>#</td>
-        <td>#</td>
-        <td>_</td>
-        <td>_</td>
-        <td>_</td>
-        <td>_</td>
-        <td>_</td>
-        <td>L</td>
-        <td>O</td>
-        <td>A</td>
-        <td>D</td>
-        <td>I</td>
-        <td>N</td>
-        <td>G</td>
-        <td>_</td>
-        <td>_</td>
-        <td>_</td>
-        <td>_</td>
-        <td>_</td>
-        <td>_</td>
-        <td>_</td>
-        <td>_</td>
-        <td>_</td>
-      </table>
-    </section>
-    <section class="lado-direito">
-      <article><h2>QUE BOM ESTAR AQUI</h2>
-        <p>
-          Disseram que seria puxado, avisaram que ia exigir dedicação. Mas também falaram  que seria demais, que seríamos contaminados pela cultura da colaboração e suporte. Estamos na terceira semana, mas já aprendemos sobre Unix, Bash, Git, aprendemos como funciona a Internet e tudo que acontece nos bastidores entre a tecla enter e o resultado da pesquisa.
-        </p>
-        <p>
-          A Trybe se mostra muito interessada nos seus alunos, o que me deixa muito feliz e motivado para trilhar esse caminho que está apenas começando! <strong>#VAMOQUEVAMO!</strong>
-        </p>
-      </article>
-    </section>
+  <main class="skill-cards">
+    <div class="main-board">
+    <ol> <h2>O QUE APRENDI:</h2>
+      <li>Unix</li>
+      <li>Bash</li>
+      <li>Versionamento com Git e Github</li>
+      <li>Criar páginas com HTML</li>
+      <li>Estilizar páginas com CSS</li>
+      <li>Box Model</li>
+      <li>Acessibilidade com HTML Semântico</li>
+      <li>O Stomatopoda é um bicho muito doido!</li>
+      <li>A Trybe é demais!</li>
+      <li>A Turma 09 é sensacional! (Oliva que disse)</li>
+    </ol>
+  </div>
+  <div class="main-board">
+    <ul><h2>O QUE AINDA QUERO (E VOU) APRENDER:</h2>
+      <li>Agilidade para codar</li>
+      <li>Codar de forma amigável e legível</li>
+      <li>Ferramentas de SEO</li>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>Soft Skills para o trabalho e para a vida</li>
+      <li>Bases de Dados</li>
+      <li>React</li>
+      <li>Metodologias ágeis</li>
+      <li>Sotaque mineiro</li>
+    </ul>
+    <br>
+  </div>
+  <div class="main-board">
+    <article><h2>QUE BOM ESTAR AQUI</h2>
+      <p>
+        Disseram que seria puxado, avisaram que ia exigir dedicação. Mas também falaram  que seria demais, que seríamos contaminados pela cultura da colaboração e suporte. Estamos na terceira semana, mas já aprendemos sobre Unix, Bash, Git, aprendemos como funciona a Internet e tudo que acontece nos bastidores entre a tecla enter e o resultado da pesquisa.
+      </p>
+      <p>
+        A Trybe se mostra muito interessada nos seus alunos, o que me deixa muito feliz e motivado para trilhar esse caminho que está apenas começando! <strong>#VAMOQUEVAMO!</strong>
+      </p>
+    </article>
+  </div>
   </main>
-  <aside id="aside">
-    <h3>O QUE HÁ ALÉM DO CONHECIMENTO TÉCNICO</h3>
-    <p>
-      As imprescindíveis <span id="soft-skills">soft skills</span> também têm seu papel fundamental na formação dos Trybers, e tesouros como inteligência emocional, empatia e trabalho em equipe são levados a sério aqui.
-    </p>
+  <aside class="aside aside-style">
+    <div class="aside-h3">
+      <h3>O QUE HÁ ALÉM DO CONHECIMENTO TÉCNICO</h3>
+    </div>
+    <div aside-text>
+      <p>
+        As imprescindíveis <span class="soft-skills">soft skills</span> também têm seu papel fundamental na formação dos Trybers, e tesouros como inteligência emocional, empatia e trabalho em equipe são levados a sério aqui.
+      </p>
+    </div>
   </aside>
 
-<footer id="rodape">
+<footer>
   <p>Projeto Lessons Learned - por <a href="https://lrlodi.github.io" target="_blank">Luciano Lodi</a></p>
   <nav>
     <img src="https://www.shareicon.net/data/2017/06/28/888041_logo_512x512.png" alt="icone Linkedin" width="40px">

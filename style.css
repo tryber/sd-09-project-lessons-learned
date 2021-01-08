@@ -1,103 +1,110 @@
-body {
-  background-color: rgb(253 , 251 , 251);
-  margin-top: 150px;
-  font-family: Ubuntu, sans-serif;
-  line-height: 1.5;
-}
-
-table , th {
-  border: 1px solid black;
-}
-
-td {
-  border: 1px solid rgb(175 , 175 , 175);
-  background-color: rgb(118 , 177 , 126);
-}
-
-#aside {
-  margin: 20px;
-  text-align: center;
-}
-
-#cabecalho {
-  position: fixed;
-  background-color: rgb(65 , 122 , 73);
-  top: 0;
-  width: 100%;
-  text-align: right;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#licoes_a_aprender {
-  align-self: center;
-  font-size: 14px;
+.header {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0fa36b;
 }
 
-#licoes_aprendidas {
-  align-self: center;
-  font-size: 14px;
+img {
+  width: 100%;
 }
 
-#minha_foto {
-  margin: 20px;
-  width: 8%;
-  float: left;
-  border-radius: 10%;
-  border: 5px solid blanchedalmond;
+.header-img {
+  flex-basis: 15%;
+  border: 3px solid white;
+  box-shadow: 1px 5px 20px;
 }
 
-#rodape {
-  text-align: center;
-  font-style: italic;
-  color: rgb(65 , 122 , 73);
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#soft-skills {
-  font-weight: 700;
-  color: rgb(65 , 122 , 73);
-  font-style: italic;
+.top-nav {
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
 }
 
-#titulo {
-  color: blanchedalmond;
-  margin-right: 30px;
+.top-nav a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0px 30px;
 }
 
-#table {
+.skill-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+ol {
+  padding: 10px 50px;
+  margin:0 0 0 10px;
+}
+
+ul {
+  padding: 10px 50px;
+  list-style: inside;
+}
+
+.main-board {
+  display: flex;
   width: 30%;
+  border: 3px solid #0fa36b;
+  padding: 20px 50px;
+  background-color: #ffffff;
+}
+
+.main-board ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main-board ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main-board article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.align-main {
-  display: inline-block;
-  margin-top: 150px;
+.aside div {
+  margin-top: 20px;
 }
 
-.lado-esquerdo {
-  width: 20%;
-  margin: 20px;
-  border: 1px dotted rgb(65 , 122 , 73);
-  background-color: blanchedalmond;
-  text-align: center;
-  padding: 20px;
-  display: inline-block;
+.aside-style {
+  border: 3px solid #0fa36b;
+  padding: 20px 50px;
+  background-color: #ffffff;
+  margin: 20px 50px;
 }
 
-.lado-direito {
-  width: 30%;
-  margin: 20px;
-  text-align: center;
-  border: 1px dotted rgb(65 , 122 , 73);
-  background-color: blanchedalmond;
-  padding: 20px;
-  display: inline-block;
-}
-
-.meio {
-  width: 20%;
-  margin: 20px;
-  border: 1px dotted rgb(65 , 122 , 73);
-  background-color: blanchedalmond;
-  padding: 20px;
-  display: inline-block;
+.soft-skills {
+  color: #0fa36b;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: 1px 1px 4px rgb(177, 177, 177);
 }
