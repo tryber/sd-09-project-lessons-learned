@@ -26,7 +26,7 @@ p {
 
 #cabecalho {
   border-radius: 0 15px 17px;
-  background-color: rgb(3 , 163 , 3);
+  background-color: rgb(38, 84, 136);
   padding-top: 15px;
   margin-bottom: 25px;
   width: 100%;
@@ -45,8 +45,9 @@ p {
 }
 
 nav ul {
-  background-color: yellow;
+  background-color: rgb(44, 102, 168);
   border-radius: 15px 0;
+  border: 1px solid rgb(223,227,238);
 }
 
 nav li {
@@ -58,21 +59,18 @@ nav li {
 
 nav li a {
   text-decoration: none;
-  color: rgb(3 , 163 , 3);
+  color: aliceblue;
   font-weight: 500;
 }
 
 nav li:hover {
-  transition: 0.5s;
-  transform: scale(1.25 , 1.25);
-  background-color: darkblue;
-  border-radius: 5px 15px;
+  transition: 0.2s;
+  background-color: rgb(70, 115, 167);
+  border-radius: 7px;
 }
 
 nav li a:hover {
-  transition: 0.5s;
-  transform: scale(1.25 , 1.25);
-  color: orange;
+  transition: 0.2s;
 }
 
 #minha_foto {
@@ -106,58 +104,38 @@ nav li a:hover {
 #meu_aprendizado {
   float: left;
   clear: both;
-  width: 35%;
-  margin: 25px 60px;
-  padding: 41px;
+  width: 40%;
+  padding: 2rem;
+  margin: 1.2rem;
   text-align: justify;
-  background-color: pink;
+  background-color: rgb(112, 193, 179);
   border-radius: 35px;
 }
 
 #passagem_de_aprendizado {
-  background-color: papayawhip;
+  background-color: rgb(112, 193, 179);
   text-align: justify;
   float: right;
-  width: 29%;
-  margin-right: 11%;
-  margin-top: 2%;
-  padding: 69px;
+  width: 40%;
+  margin: 1.2rem;
+  padding: 2rem;
   border-radius: 35px;
-}
-
-#meu_aprendizado:hover {
-  transition: 0.5s;
-  transform: scale(1.2 , 1.2);
-}
-
-#passagem_de_aprendizado:hover {
-  transition: 0.5s;
-  transform: scale(1.2 , 1.2);
 }
 
 #rodape {
   clear: both;
-  background-color: rgb(3 , 163 , 3);
-  float: left;
+  background-color: rgb(44, 102, 168);
   padding: 15px;
-  margin: 5% 0 3% 5%;
-  border-radius: 10px;
 }
 
-#rodape a {
+.contato a {
   text-decoration: none;
-  color: blue;
+  color: aliceblue;
   font-weight: 700;
 }
 
-#rodape:hover {
-  transition: 0.5s;
-  transform: scale(1.5 , 1.5);
-  background-color: darkblue;
-}
-
-#rodape a:hover {
-  transition: 0.5s;
-  transform: scale(1.5 , 1.5);
-  color: orange;
+.contato a:hover {
+  transition: 0.2s;
+  color: rgb(29, 41, 56);
+  
 }
