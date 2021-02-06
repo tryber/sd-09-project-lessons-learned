@@ -1,82 +1,161 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
 body {
-    background-color: rgb(253, 251, 251);
-    letter-spacing: 2px;
-}
-
-.font-verde {
-    color: seagreen;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 14px;
-}
-
-#cabecalho {
-    color: rgb(253, 251, 251);
-    font-size: 15px;
-    text-align: center;
-    background-color: green;
-    top: 0px;
+    background-color: rgb(253 , 251 , 251);
+    margin: 0%;
+    font-family: Roboto, sans-serif;
+  }
+  
+  #cabecalho {
     position: fixed;
+    top: 0;
     width: 100%;
-    height: 100px;
-}
-
-#perfil {
-    margin-top: 100px;
-    padding: 50px;
+    background-color: green;
     text-align: center;
-}
-
-nav {
-    text-align: left;
-}
-
-.list {
-    display: inline-block;
-    margin-bottom: 20px;
-    text-align: left;
-    margin-inline: 50px;
-}
-
-#listas {
+    border-bottom: 2px solid black;
+  }
+  
+  nav ul {
+    display: table;
+    margin: auto;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  nav li {
+    float: left;
+    margin: auto;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  nav a:link {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 20px 20px;
+  }
+  
+  nav a:visited {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 20px 20px;
+  }
+  
+  nav a:active {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 20px 20px;
+  }
+  
+  nav a:hover {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 20px 20px;
+  }
+  
+  #minha_foto {
+    border-radius: 300px;
+    border: 2px solid black;
+  }
+  
+  table {
     text-align: center;
-}
-
-.coments-left {
-    display: inline-block;
-    width: 35%;
-    text-align: justify;
-    margin-left: 20px;
-}
-
-.left-Side {
+    font-size: small;
+    margin-left: 36%;
+    margin-right: 36%;
+  }
+  
+  #informacoes {
+    border: 2px solid black;
+    background-color: rgb(188 , 244 , 222);
+    margin: auto;
+    text-align: center;
+    margin-top: 147px;
+  
+  }
+  
+  #informacoes h3 {
+    background-color: rgb(205 , 229 , 215);
+  }
+  
+  .lado-esquerdo {
     float: left;
     width: 47%;
+    color: rgb(001 , 002 , 003);
     line-height: 20px;
     text-align: center;
-    margin: 10px;
-}
-
-.right-Side {
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
+  
+  .lado-direito {
     float: right;
     width: 47%;
+    color: rgb(001 , 002 , 003);
     line-height: 20px;
     text-align: center;
-    margin: 10px;
-}
-
-.center-Inline {
-    display: inline;
-}
-
-#coments {
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
+  
+  #tabelas {
+    margin: 35% 20% 0%;
+  }
+  
+  #licoes_a_aprender {
+    margin-top: 0;
+    font-size: medium;
+    float: left;
+  }
+  
+  #licoes_aprendidas {
+    margin-top: 0;
+    font-size: medium;
+    float: right;
+  }
+  
+  #rodape {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 700px;
+    background-color: rgb(141 , 184 , 167);
+    padding-bottom: 1px;
+  }
+  
+  #siga {
+    padding-top: 20px;
+  }
+  
+  #rodape a:link {
+    color: green;
+    text-decoration: none;
+    padding: 0 20px 20px;
+  }
+  
+  #rodape a:visited {
+    color: black;
+    text-decoration: none;
+    padding: 0 20px 20px;
+  }
+  
+  #rodape a:hover {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 20px;
+  }
+  
+  #rodape a:active {
+    text-decoration: none;
+    color: green;
+    padding: 0 20px 20px;
+  }
+  
+  #logos-redes-sociais {
     display: inline-block;
-}
+  }
+  
+  #direitos {
+    font-size: 15px;
+  }

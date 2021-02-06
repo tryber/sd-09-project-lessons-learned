@@ -1,93 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>José Luiz Fagundes - Lições Aprendidas - Trybe</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <header id="cabecalho">
-        <br>
-        <br>
-        <h1 id="titulo">Lições Aprendidas - Trybe!</h1>
-        <nav id="menu">
-            <ul>
-                <a href="index.html">Home</a>
-                <a href="https://www.trybe.com.br">Login</a>
-            </ul>
-        </nav>
-    </header>
-</head>
-
-
-<body>
-    <section id="perfil">
-        <img id="minha_foto" src="2019-05-27.png" alt="Minha Foto">
-        <p><em>Estudante Trybe</em></p>
-        <br>
-        <table class="center-Inline">
-            <tr>
-                <th>Nome:   </th>
-                <td>José Luiz Fagundes</td>
-            </tr>
-            <tr>
-                <th>Idade:  </th>
-                <td>38 anos</td>
-            </tr>
-        </table>
-    </section>
-    <section id="listas">
-        <Section class="list">
-            <h2 class="font-verde">Lições Aprendidas</h2>
-            <br>
-            <ol id="licoes_aprendidas">
-                <li>Unix</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Empatia</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Slack</li>
-                <li>Zoom</li>
-                <li>Inspect</li>
-                <li>Semantic HTML</li> 
-            </ol>
-        </section>
-        <section class="list">
-            <h2 class="font-verde">Lições a Aprender</h2>
-            <br>
-            <ul id="licoes_a_aprender" class="font-verde">
-                <li>Java Script</li>
-                <li>DOM</li>
-                <li>Forms</li>
-                <li>CSS Responsive</li>
-                <li>ES6</li>
-                <li>HOF</li>
-                <li>Unit Tests</li>
-                <li>React</li>
-                <li>Node</li>
-                <li>SQL</li>
-            </ul>
-        </section>
-    </section>
-    <section>
-        <div>
-            <article class="left-Side">
-                <h3 class="font-verde">Sobre o meu aprendizado</h3>
-                <p>O Curso tem proporcionado ótimas experiencias para mim e acredito que para todos os alunos da turma 9, estou impressionado com a qualidade de ensino e o suporte ao aluno que a trybe oferece e entrega, o fato de tratar com respeito questões ligadas a saúde fisica e mental dos alunos.
-                </p>
-            </article>
-            <aside class="right-Side">
-                <h3 class="font-verde">Uma passagem sobre meu aprendizado</h3>
-                <p class="font-verde"><em>"Durante este primeiro mes de aprendizado, tive ótimas experiencias, uma delas foi conhecer e poder conversar com outros alunos durante as salas reduzidas, onde conheci pessoas que me inspiraram a fazer mais pelo próximo"
-                </em></p>
-            </aside>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Lições aprendidas - TRYBE</title>
+    </head>
+    <body>
+        <header id="cabecalho">
+            <h1 id="titulo">Lições aprendidas - TRYBE</h1>
+            <h2 id="index">Índice</h2>
+            <nav id="menu-navegacao">
+                <ul>
+                    <li><a href="#informacoes">Informações</a></li>
+                    <li><a href="#lado-direito">Histórias do Curso</a></li>
+                    <li><a href="#licoes_aprendidas">Lista de aprendizados</a></li>
+                    <li><a href="#rodape">Siga-Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="informacoes">
+            <h3>José Luiz Fagundes</h3>
+            <img src="2019-05-27.png" alt="Foto José Luiz Fagundes" id="minha_foto" width="150px">
+            <h3>Informações</h3>
+            <table>
+                <tr>
+                    <th>Nome Completo</th>
+                    <td>José Luiz Fagundes</td>
+                </tr>
+                <tr>
+                    <th>Idade</th>
+                    <td>38 anos</td>
+                </tr>                
+            </table>
         </div>
+        <aside class="lado-direito">
+            <p><strong>Passagem sobre aprendizado:</strong> O Curso tem proporcionado ótimas experiencias para mim e acredito que para todos os alunos da turma 9, estou impressionado com a qualidade de ensino e o suporte ao aluno que a trybe oferece e entrega.</p>
+        </aside>
+        <article class="lado-esquerdo">
+            <p><strong>Minha história na Trybe:</strong> Durante este primeiro mes de aprendizado, tive ótimas experiencias, uma delas foi conhecer e poder conversar com outros alunos durante as salas reduzidas, onde conheci pessoas que me inspiraram a fazer mais pelo próximo.</p>
+        </article>
+        <section id="tabelas">
+        <ol id="licoes_aprendidas">
+            <h4>Conteúdo aprendido</h4>
+            <li>Unix</li>
+            <li>Bash</li>
+            <li>Shell</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Internet</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>CSS Posicionamento</li>
+            <li>HTML Semântico</li>
+        </ol>
+        <ul id="licoes_a_aprender">
+            <h4>Conteúdo a aprender</h4>
+            <li>Javascript</li>
+            <li>Array e Loop For</li>
+            <li>Logica de Programacao</li>
+            <li>Objetos e Funções</li>
+            <li>DOM e seletores</li>
+            <li>Elementos JS</li>
+            <li>Eventos JS</li>
+            <li>Web Storage</li>
+            <li>CSS FlexBox</li>
+            <li>CSS Responsivo</li>
+        </ul>
     </section>
-
-    <a href="https://www.betrybe.com/formacao" target="_blank">Faça o download do curriculo da nossa formação</a>
-    <footer id="rodape">
-        <p>Todos os direitos reservados, José Luiz Fagundes - Trybe</p>
-    </footer>
-</body>
+        <footer id="rodape">
+            <h5 id="siga">SIGA ME</h5>
+            <div id="logos_rede_social">
+                <a target="_blank" href="https://www.linkedin.com/in/jos%C3%A9-luiz-fagundes-44016b40/">
+                    <em class="fa fa-linkedin">
+                    </em>
+                </a>
+                <a target="_blank" href="https://www.github.com/jlfagundes">
+                    <em class="fa fa-github">
+                    </em>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/fagundes.joseluiz">
+                    <em class="fa fa-instagram">
+                    </em>
+                </a>
+                <p id="direitos">Todos os direitos reservados, jlfagundes</p>
+            </div>
+        </footer>
+    </body>
 </html>
