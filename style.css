@@ -6,7 +6,6 @@
 
 body {
     background-color: rgb(253, 251, 251);
-    color: #475550;
     letter-spacing: 2px;
 }
 
@@ -63,10 +62,7 @@ nav {
     width: 47%;
     line-height: 20px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 .right-Side {
@@ -74,10 +70,7 @@ nav {
     width: 47%;
     line-height: 20px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 .center-Inline {
