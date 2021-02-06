@@ -8,8 +8,8 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  color: rgb(59 , 134 , 134);
-  background-color: rgb(168 , 219 , 168);
+  color: rgb(78, 62, 161);
+  background-color: rgb(164, 160, 196);
   width: 100%;
   padding: 10px;
   font-size: 20px;
@@ -39,7 +39,7 @@ main {
 footer {
   width: 100%;
   padding: 10px;
-  background-color: rgb(241 , 241 , 231);
+  background-color: rgb(164, 160, 196);
   display: inline-block;
 }
 
