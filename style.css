@@ -8,8 +8,8 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  color: rgb(78, 62, 161);
-  background-color: rgb(164, 160, 196);
+  color: rgb(78 , 62 , 161);
+  background-color: rgb(164 , 160 , 196);
   width: 100%;
   padding: 10px;
   font-size: 20px;
@@ -39,7 +39,7 @@ main {
 footer {
   width: 100%;
   padding: 10px;
-  background-color: rgb(164, 160, 196);
+  background-color: rgb(164 , 160 , 196);
   display: inline-block;
 }
 
@@ -47,12 +47,12 @@ footer {
   text-align: center;
 }
 
-table, th, td {
+table , th , td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-th, td {
+th , td {
   padding: 15px;
 }
 
