@@ -1,161 +1,158 @@
 body {
-    background-color: rgb(253 , 251 , 251);
-    margin: 0%;
-    font-family: Roboto, sans-serif;
+  background-color: rgb(253, 251, 251);
+  margin: 0%;
+  font-family: Roboto, sans-serif;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: green;
-    text-align: center;
-    border-bottom: 2px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: green;
+  text-align: center;
+  border-bottom: 2px solid black;
 }
 
 nav ul {
-    display: table;
-    margin: auto;
-    list-style: none;
-    justify-content: center;
+  display: table;
+  margin: auto;
+  list-style: none;
+  justify-content: center;
 }
 
 nav li {
-    float: left;
-    margin: auto;
-    list-style: none;
-    justify-content: center;
+  float: left;
+  margin: auto;
+  list-style: none;
+  justify-content: center;
 }
 
 nav a:link {
-    color: black;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 0 20px 20px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 20px 20px;
 }
 
 nav a:visited {
-    color: black;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 0 20px 20px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 20px 20px;
 }
 
 nav a:active {
-    color: black;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 0 20px 20px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 20px 20px;
 }
 
-  nav a:hover {
-    color: black;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 0 20px 20px;
-  }
+nav a:hover {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 20px 20px;
+ }
 
 #minha_foto {
-    border-radius: 300px;
-    border: 2px solid black;
+  border-radius: 300px;
+  border: 2px solid black;
 }
 
 table {
-    text-align: center;
-    font-size: small;
-    margin-left: 36%;
-    margin-right: 36%;
+  text-align: center;
+  font-size: small;
+  margin-left: 36%;
+  margin-right: 36%;
 }
 
 #informacoes {
-    border: 2px solid black;
-    background-color: rgb(188 , 244 , 222);
-    margin: auto;
-    text-align: center;
-    margin-top: 147px;
-
+  border: 2px solid black;
+  background-color: rgb(188, 244 , 222);
+  margin: auto;
+  text-align: center;
+  margin-top: 147px;
 }
 
 #informacoes h3 {
-    background-color: rgb(205 , 229 , 215);
+  background-color: rgb(205 , 229 , 215);
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 47%;
-    color: rgb(001 , 002 , 003);
-    line-height: 20px;
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 0;
+  float: left;
+  width: 47%;
+  color: rgb(001, 002, 003);
+  line-height: 20px;
+  text-align: center;
+  margin: 10px;
 }
 
 .lado-direito {
-    float: right;
-    width: 47%;
-    color: rgb(001 , 002 , 003);
-    line-height: 20px;
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 0;
+  float: right;
+  width: 47%;
+  color: rgb(001, 002, 003);
+  line-height: 20px;
+  text-align: center;
+  margin: 10px;
 }
 
 #tabelas {
-    margin: 35% 20% 0%;
+  margin: 35% 20% 0%;
 }
 
 #licoes_a_aprender {
-    margin-top: 0;
-    font-size: medium;
-    float: left;
+  margin-top: 0;
+  font-size: medium;
+  float: left;
 }
 
 #licoes_aprendidas {
-    margin-top: 0;
-    font-size: medium;
-    float: right;
+  margin-top: 0;
+  font-size: medium;
+  float: right;
 }
 
 #rodape {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 700px;
-    background-color: rgb(141 , 184 , 167);
-    padding-bottom: 1px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 700px;
+  background-color: rgb(141, 184, 167);
+  padding-bottom: 1px;
 }
 
 #siga {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 #rodape a:link {
-    color: green;
-    text-decoration: none;
-    padding: 0 20px 20px;
+  color: green;
+  text-decoration: none;
+  padding: 0 20px 20px;
 }
 
 #rodape a:visited {
-    color: black;
-    text-decoration: none;
-    padding: 0 20px 20px;
+  color: black;
+  text-decoration: none;
+  padding: 0 20px 20px;
 }
 
 #rodape a:hover {
-    text-decoration: none;
-    color: white;
-    padding: 0 20px 20px;
+  text-decoration: none;
+  color: white;
+  padding: 0 20px 20px;
 }
 
 #rodape a:active {
-    text-decoration: none;
-    color: green;
-    padding: 0 20px 20px;
+  text-decoration: none;
+  color: green;
+  padding: 0 20px 20px;
 }
 
 #logos-redes-sociais {
-    display: inline-block;
+  display: inline-block;
 }
 
 #direitos {
-    font-size: 15px;
+  font-size: 15px;
 }
