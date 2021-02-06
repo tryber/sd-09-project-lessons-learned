@@ -58,8 +58,27 @@ nav {
     margin-left: 20px;
 }
 
-aside {
-    display: inline-block;
+.left-Side {
+    float: left;
+    width: 47%;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.right-Side {
+    display: inline;
+    float: right;
+    width: 47%;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #coments {
