@@ -1,102 +1,159 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-color: rgb(253 , 251 , 251);
-    font-size: 17.6px;
-    color: rgb(25 , 25 , 25);
-    line-height: 1.2em;
-    font-family: Nunito, sans-serif;
-  }
-  
-  #cabecalho {
-    background-color: rgb(25 , 25 , 25);
-    color: rgb(250 , 250 , 250);
-    text-align: center;
-    position: fixed;
-    height: 13%;
-    padding: 0 29.875rem 5px;
-    top: 0;
-  }
-  
-  #titulo {
-    margin: 16px 0 26px;
-  }
-  
-  a {
-    color: rgb(46 , 209 , 182);
-    font-weight: 600;
-    text-decoration: none;
-    margin: 10px;
-    transition: 0.25s;
-  }
-  
-  a:hover {
-    color: rgb(255 , 255 , 28);
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: rgb(255 , 161 , 28);
-  }
-  
-  #minha_foto {
-    background-color: rgb(25 , 25 , 25);
-    border-radius: 25%;
-    padding: 2px;
-    width: 200px;
-    display: block;
-    margin: auto;
-    margin-top: 10px;
-  }
-  
-  #portfolio {
-    display: block;
-    text-align: center;
-    color: darkblue;
-    margin: 0;
-  }
-  
-  #portfolio:hover {
-    color: red;
-    text-decoration: underline;
-  }
-  
-  #portfolio:active {
-    color: black;
-  }
-  
-  ol , ul , table {
-    display: inline-block;
-    margin: 50px 120.8px;
-  }
-  
-  th , tr , td {
-    border: 1px solid black;
-    padding: 0 5px;
-  }
-  
-  .lado-esquerdo , .lado-direito {
-    border: 2px solid black;
-    padding: 5px;
-    margin: 10px 25px;
-    display: inline-block;
-  }
-  
-  .lado-esquerdo {
-    width: 60%;
-  }
-  
-  .lado-direito {
-    width: 30%;
-  }
-  
-  footer {
-    background-color: lightgray;
-    bottom: 0;
-    padding-right: 10px;
-    text-align: right;
-    border-top: 1px solid darkgray;
-  }
+body {
+  background-color: rgb(253, 251, 251);
+  /* background-color:rgb(253, 251, 251); */
+  margin: 0%;
+  font-family: Roboto, sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: green;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+nav ul {
+  display: table;
+  margin: auto;
+  list-style: none;
+  justify-content: center;
+}
+
+nav li {
+  float: left;
+  margin: auto;
+  list-style: none;
+  justify-content: center;
+}
+
+nav a:link {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 20px 20px;
+}
+
+nav a:visited {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 20px 20px;
+}
+
+nav a:active {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 20px 20px;
+}
+
+nav a:hover {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 20px 20px;
+}
+
+#minha_foto {
+  border-radius: 300px;
+  border: 2px solid black;
+}
+
+table {
+  text-align: center;
+  font-size: small;
+  margin-left: 36%;
+  margin-right: 36%;
+}
+
+#informacoes {
+  border: 2px solid black;
+  background-color: rgb(188, 244, 222);
+  margin: auto;
+  text-align: center;
+  margin-top: 147px;
+}
+
+#informacoes h3 {
+  background-color: rgb(205, 229, 215);
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 47%;
+  color: rgb(001, 002, 003);
+  line-height: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.lado-direito {
+  float: right;
+  width: 47%;
+  color: rgb(001, 002, 003);
+  line-height: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+#tabelas {
+  margin: 35% 20% 0%;
+}
+
+#licoes_a_aprender {
+  margin-top: 0;
+  font-size: medium;
+  float: left;
+}
+
+#licoes_aprendidas {
+  margin-top: 0;
+  font-size: medium;
+  float: right;
+}
+
+#rodape {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 700px;
+  background-color: rgb(141, 184, 167);
+  padding-bottom: 1px;
+}
+
+#siga {
+  padding-top: 20px;
+}
+
+#rodape a:link {
+  color: green;
+  text-decoration: none;
+  padding: 0 20px 20px;
+}
+
+#rodape a:visited {
+  color: black;
+  text-decoration: none;
+  padding: 0 20px 20px;
+}
+
+#rodape a:hover {
+  text-decoration: none;
+  color: white;
+  padding: 0 20px 20px;
+}
+
+#rodape a:active {
+  text-decoration: none;
+  color: green;
+  padding: 0 20px 20px;
+}
+
+#logos-redes-sociais {
+  display: inline-block;
+}
+
+#direitos {
+  font-size: 15px;
+}
