@@ -13,7 +13,7 @@ jobs:
         uses: betrybe/cypress-evaluator-action@v2
         with:
           repository-test-name: 'betrybe/sd-0x-project-lessons-learned-tests'
-          repository-test-branch: 'master'
+          repository-test-branch: 'branch_t9'
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@v2
         with:
