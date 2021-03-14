@@ -3,76 +3,68 @@
 }
 
 body {
-  background-color : rgb(253 , 251 , 251);
-  font-family: Roboto Mono, monospace;
+  background-color: rgb(253 , 251 , 251);
+  font-weight: 400;
+  line-height: 30px;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center
 }
 
 #cabecalho {
   position: fixed;
-  margin-top: 0;
-  background-color : rgb(201 , 136 , 75);
-  height: 100px;
-  padding-left: 80%;
-}
-
-#titulo {
+  top: 0;
+  background-color: rgb(24 , 84 , 153);
+  width: 100%;
+  text-align: center;
   color: white;
-  font-size: 25px;
-  padding-right: 25%;
 }
 
 #minha_foto {
-  float: left;
-  padding: 15px;
-  margin-top: 125px;
+  width: 160px;
   border-radius: 50%;
-}
-
-h3 {
-  line-height: 30px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.lado-esquerdo {
-  display: inline-block;
-  margin-right: 5%;
-  font-size: 18px;
-  line-height: 30px;
-  text-align: justify;
-
-}
-
-.lado-direito {
-  text-align: justify;
-  padding: 10%;
-  font-size: 18px;
-  line-height: 30px;
-  float: left;
-
-}
-
-h2 {
-  font-size: 25px;
-  padding-top: 150px;
-
-}
-
-#licoes_a_aprender {
-  display: inline-block;
-  background-color: rgb(197 , 189 , 177);
-  border-radius: 25px;
-  text-align: justify;
-  line-height: 35px;
-  padding-right: 15px;
-  margin-left: 150px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #licoes_aprendidas {
-  display: inline-block;
-  background-color: rgb(197 , 189 , 177);
-  border-radius: 25px;
+  margin: 100px;
+}
+
+#licoes_a_aprender {
+  margin-top: 10px;
+}
+
+.lado-direito {
+  float: right;
+  width: 20%;
   text-align: justify;
-  line-height: 35px;
-  margin-left: 400px;
+  margin-right: 40px;
+}
+
+
+.lado-esquerdo {
+  float:left;
+  width: 40%;
+  margin-left: 40px;
+  text-align: justify;
+}
+
+#tabela {
+  border: 2px solid grey;
+  margin: auto;
+  font-size: 16px;
+  width: 350px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(24 , 84 , 153);
+  padding: 20px;
+  color: antiquewhite;
 }
